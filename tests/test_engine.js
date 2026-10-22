@@ -66,7 +66,7 @@ function assertTopological(order, graph) {
   });
 }
 
-console.log('小型手造图（每个知识点只有一道题——回退模式：答错即薄弱）');
+console.log('小型手造图（每个知识点只有一道题——回退模式：单题失败待确认）');
 
 test('祖先子图：目标 + 全部祖先（含外部节点），不含无关点', () => {
   assert.deepStrictEqual(sorted(E.ancestors(G, 'T')), ['B', 'C', 'D', 'E', 'F', 'X']);
@@ -95,64 +95,55 @@ test('第一题问目标本身', () => {
   assert.strictEqual(E.nextQuestion(G, s), 'T');
 });
 
-test('答对：该点及所有祖先（含外部）视为掌握并跳过', () => {
-  let s = E.createSession(G, ['T']);
-  s = E.applyAnswer(G, s, 'T', 'correct');
-  assert.strictEqual(E.nextQuestion(G, s), null);
-  ['B', 'C', 'D', 'E', 'F', 'X', 'T'].forEach((id) => assert.strictEqual(E.statusOf(s, id), 'mastered', id));
-  assert.strictEqual(s.status.T.src, 'direct');
-  assert.strictEqual(s.status.F.src, 'inferred');
-  assert.strictEqual(E.statusOf(s, 'Z'), 'unknown');
-  const sum = E.summarize(G, s);
-  assert.deepStrictEqual(sum.weak, []);
-  assert.deepStrictEqual(sum.roots, []);
-  assert.deepStrictEqual(sum.path, []);
-  assert.strictEqual(sum.asked, 1);
+test('答对只给本知识点初步支持，所有未测先修仍未知', () => {
+  const s = E.applyAnswer(G, E.createSession(G, ['T']), 'T', 'correct');
+  assert.strictEqual(E.statusOf(s, 'T'), 'mastered');
+  assert.strictEqual(s.status.T.provisional, true);
+  E.ancestors(G, 'T').forEach(id => assert.strictEqual(E.statusOf(s, id), 'unknown'));
+  assert.deepStrictEqual(E.summarize(G, s).mastered, ['T']);
 });
 
-test('答错：回溯先修，hard 先于 soft，深度优先', () => {
+test('答错：回溯先修，仅沿 hard 深度优先', () => {
   const s0 = E.createSession(G, ['T']);
   const [s, asked] = run(s0, { T: 'wrong', C: 'wrong', E: 'correct', D: 'correct', B: 'correct' });
   // T 错 -> 先修 C,D（hard，按文件顺序）再 B（soft）；C 错 -> 先问 C 的先修 E，再回到 D、B
-  assert.deepStrictEqual(asked, ['T', 'C', 'E', 'D', 'B']);
+  assert.deepStrictEqual(asked, ['T', 'C', 'E', 'D']);
   assert.strictEqual(E.nextQuestion(G, s), null);
 });
 
-test('答错后首个追问是 hard 先修，soft 排最后', () => {
+test('答错后首个追问是 hard 先修，soft 不自动追问', () => {
   let s = E.createSession(G, ['T']);
   s = E.applyAnswer(G, s, 'T', 'wrong');
   assert.strictEqual(E.nextQuestion(G, s), 'C');
   s = E.applyAnswer(G, s, 'C', 'correct'); // C 对 -> E、F、X 掌握
   assert.strictEqual(E.nextQuestion(G, s), 'D');
   s = E.applyAnswer(G, s, 'D', 'correct');
-  assert.strictEqual(E.nextQuestion(G, s), 'B');
+  assert.strictEqual(E.nextQuestion(G, s), null);
 });
 
-test('「不会」(skip) 与答错等效', () => {
+test('「不会」保留自报来源，区别客观答错', () => {
   const [a] = run(E.createSession(G, ['T']), { T: 'skip', C: 'skip', E: 'correct', D: 'correct', B: 'correct' });
   const [b] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'correct', D: 'correct', B: 'correct' });
-  assert.deepStrictEqual(a.status, b.status);
+  assert.strictEqual(a.status.T.selfReported, true);
+  assert.strictEqual(b.status.T.selfReported, false);
+  assert.strictEqual(E.statusOf(a, 'T'), 'unknown');
 });
 
 test('已判定的点不重复问；共享先修只问一次', () => {
   const [, asked] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'wrong', F: 'correct', D: 'wrong', B: 'wrong' });
   assert.strictEqual(new Set(asked).size, asked.length);
-  assert.deepStrictEqual(asked, ['T', 'C', 'E', 'F', 'D', 'B']);
+  assert.deepStrictEqual(asked, ['T', 'C', 'E', 'F', 'D']);
 });
 
 test('题量上限生效，剩余标为未测', () => {
-  const s0 = E.createSession(G, ['T'], { limit: 2 });
-  const [s, asked] = run(s0, { T: 'wrong', C: 'wrong' });
+  const [s, asked] = run(E.createSession(G, ['T'], { limit: 2 }), { T: 'wrong', C: 'wrong' });
   assert.deepStrictEqual(asked, ['T', 'C']);
-  assert.strictEqual(E.nextQuestion(G, s), null);
   const sum = E.summarize(G, s);
-  assert.strictEqual(sum.asked, 2);
   assert.strictEqual(sum.limitReached, true);
-  assert.deepStrictEqual(sorted(sum.untested), ['B', 'D', 'E', 'F', 'X']);
-  assert.deepStrictEqual(sorted(sum.weak), ['C', 'T']);
-  // 根因 C：它的先修 E 还没测到，要标出来
-  assert.deepStrictEqual(sum.roots.map((r) => r.id), ['C']);
-  assert.deepStrictEqual(sum.roots[0].pendingPrereqs, ['E']);
+  assert.deepStrictEqual(sorted(sum.unconfirmed), ['C', 'T']);
+  assert.deepStrictEqual(sum.weak, []);
+  assert.deepStrictEqual(sum.roots, []);
+  assert.strictEqual(sum.untested.length, s.order.length);
 });
 
 test('limit 默认 16，limit=1 只问目标', () => {
@@ -163,45 +154,33 @@ test('limit 默认 16，limit=1 只问目标', () => {
   assert.deepStrictEqual(asked, ['T']);
 });
 
-test('根因：薄弱且先修中没有薄弱点；路径为拓扑序且不含已掌握', () => {
-  const [s] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'correct', D: 'correct', B: 'correct' });
+test('单题回退题库不给出补习根因结论', () => {
+  const [s] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'correct', D: 'correct' });
   const sum = E.summarize(G, s);
-  assert.deepStrictEqual(sorted(sum.weak), ['C', 'T']);
-  assert.deepStrictEqual(sum.roots.map((r) => r.id), ['C']);
-  assert.deepStrictEqual(sum.path.map((p) => p.id), ['C', 'T']);
-  assert.strictEqual(sum.path[0].isRoot, true);
-  assert.strictEqual(sum.path[1].isTarget, true);
-  assert.deepStrictEqual(sorted(sum.mastered), ['B', 'D', 'E', 'F', 'X']);
-  assert.strictEqual(sum.finished, true);
-  assert.strictEqual(sum.limitReached, false);
+  assert.deepStrictEqual(sum.roots, []);
+  assert.deepStrictEqual(sorted(sum.mastered), ['D', 'E']);
+  assert.deepStrictEqual(sorted(sum.unconfirmed), ['C', 'T']);
 });
 
-test('多个根因：路径含根因到目标之间所有未掌握点，拓扑序', () => {
-  // T、C、E、D 薄弱；F 掌握 -> E、D 都是根因；B 掌握
-  const [s] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'wrong', F: 'correct', D: 'wrong', B: 'correct' });
-  const sum = E.summarize(G, s);
-  assert.deepStrictEqual(sorted(sum.roots.map((r) => r.id)), ['D', 'E']);
-  assert.deepStrictEqual(sorted(sum.path.map((p) => p.id)), ['C', 'D', 'E', 'T']);
-  assertTopological(sum.path.map((p) => p.id), G);
-  sum.path.forEach((p) => assert.notStrictEqual(p.status, 'mastered'));
-  assert.deepStrictEqual(sum.path.filter((p) => p.isRoot).map((p) => p.id).sort(), ['D', 'E']);
+test('单题失败保留待确认，共享先修不受软边补测', () => {
+  const [s] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'wrong', F: 'correct', D: 'wrong' });
+  assert.deepStrictEqual(E.summarize(G, s).roots, []);
+  assert.strictEqual(E.statusOf(s, 'B'), 'unknown');
+  assert.strictEqual(E.statusOf(s, 'F'), 'mastered');
 });
 
 test('外部（小学）节点不出题；根因的外部先修单独标出', () => {
-  const [s, asked] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'wrong', F: 'wrong', D: 'wrong', B: 'wrong' });
+  const [s, asked] = run(E.createSession(G, ['T']), { T: 'wrong', C: 'wrong', E: 'wrong', F: 'wrong', D: 'wrong' });
   assert.ok(!asked.includes('X'));
-  const sum = E.summarize(G, s);
-  assert.deepStrictEqual(sum.roots.map((r) => r.id), ['F']);
-  assert.deepStrictEqual(sum.roots[0].externalPrereqs, ['X']);
-  assert.deepStrictEqual(sum.roots[0].pendingPrereqs, []);
-  assert.deepStrictEqual(sum.untested, ['X']);
+  assert.strictEqual(E.statusOf(s, 'X'), 'unknown');
+  assert.deepStrictEqual(E.summarize(G, s).roots, []);
 });
 
-test('多目标：离目标最近的先问；答对一个即覆盖其余祖先目标', () => {
+test('多目标：离目标最近的先问；每个所选目标都独立检查', () => {
   const s0 = E.createSession(G, ['C', 'T', 'D']);
   assert.strictEqual(E.nextQuestion(G, s0), 'T');
   const s1 = E.applyAnswer(G, s0, 'T', 'correct');
-  assert.strictEqual(E.nextQuestion(G, s1), null);
+  assert.strictEqual(E.nextQuestion(G, s1), 'D');
   assert.deepStrictEqual(E.summarize(G, s1).path, []);
 });
 
@@ -215,8 +194,9 @@ test('直接作答的判定不会被推断覆盖', () => {
   let s = E.createSession(G, ['T']);
   s = E.applyAnswer(G, s, 'E', 'wrong');
   s = E.applyAnswer(G, s, 'T', 'correct');
-  assert.strictEqual(E.statusOf(s, 'E'), 'weak');
-  assert.strictEqual(E.statusOf(s, 'C'), 'mastered');
+  assert.strictEqual(E.statusOf(s, 'E'), 'unknown');
+  assert.strictEqual(s.attempts.E[0].result, 'wrong');
+  assert.strictEqual(E.statusOf(s, 'C'), 'unknown');
 });
 
 test('applyAnswer 不修改入参；replay 与逐步作答一致', () => {
@@ -239,7 +219,8 @@ test('路径图布局：先修在上层，边不跨回', () => {
   const layer = Object.fromEntries(lay.nodes.map((n) => [n.id, n.layer]));
   lay.edges.forEach((e) => assert.ok(layer[e.from] < layer[e.to], e.from + '->' + e.to));
   assert.ok(lay.nodes.some((n) => n.id === 'T' && n.isTarget));
-  assert.ok(lay.nodes.some((n) => n.id === 'E' && n.isRoot));
+  assert.ok(lay.nodes.some((n) => n.id === 'E'));
+  assert.ok(lay.nodes.every(n => !n.isRoot));
 });
 
 
@@ -288,12 +269,12 @@ test('题库：isTestable 看题库；有题库时 hasBank 为 true，回退模�
   assert.strictEqual(G.bank.T[0].type, 'legacy');
 });
 
-test('第一题答对 → 掌握，并推断祖先掌握；只问 1 题', () => {
+test('第一题答对仅初步通过，不推断祖先', () => {
   const [s, seq] = run2(E.createSession(G2, ['T']), { T: ['correct'] });
   assert.deepStrictEqual(seq, ['T#1']);
-  ['T', 'P1', 'P2', 'R'].forEach((id) => assert.strictEqual(E.statusOf(s, id), 'mastered', id));
-  assert.strictEqual(s.status.T.src, 'direct');
-  assert.strictEqual(s.status.R.src, 'inferred');
+  assert.strictEqual(E.statusOf(s, 'T'), 'mastered');
+  ['P1', 'P2', 'R'].forEach(id => assert.strictEqual(E.statusOf(s, id), 'unknown'));
+  assert.strictEqual(s.status.T.evidenceCount, 1);
 });
 
 test('第一题错 → 再出第二题（同一知识点），此时还没有结论、不回溯', () => {
@@ -421,24 +402,25 @@ test('已出题避让：优先出没出过的题，全出过也不会卡住', ()
   assert.strictEqual(new Set(qids).size, qids.length);
 });
 
-test('题量上限按“题”计：2 题一个知识点；只答错第一题就到上限 → 暂按薄弱，标为未复测', () => {
+test('题量上限按“题”计：2 题一个知识点；只答错第一题就到上限 → 待确认，标为未复测', () => {
   const [s, seq] = run2(E.createSession(G2, ['T'], { limit: 3 }), {
     T: ['wrong', 'wrong'], P1: ['wrong', 'wrong'], R: ['wrong', 'wrong'], P2: ['wrong', 'wrong']
   });
   assert.deepStrictEqual(seq, ['T#1', 'T#2', 'P1#1']);
   assert.strictEqual(s.answers.length, 3);
   assert.strictEqual(E.nextQuestion(G2, s), null);
-  assert.strictEqual(E.statusOf(s, 'P1'), 'weak');
+  assert.strictEqual(E.statusOf(s, 'P1'), 'unknown');
   const sum = E.summarize(G2, s);
   assert.deepStrictEqual(sum.unconfirmed, ['P1']);
   assert.strictEqual(sum.limitReached, true);
-  assert.deepStrictEqual(sorted(sum.untested), ['P2', 'R']);
+  assert.deepStrictEqual(sorted(sum.untested), ['P1', 'P2', 'R']);
 });
 
-test('同一知识点只有一道题时：答错直接薄弱（无第二题）', () => {
+test('同一知识点只有一道题时：答错证据不足（无第二题）', () => {
   const G5 = E.buildGraph(bankTopics, bankDeps, [mq('T', 1, 's'), mq('P1', 1, 's'), mq('P2', 1, 's'), mq('R', 1, 's')]);
   let s = E.applyAnswer(G5, E.createSession(G5, ['T']), 'T', 'wrong');
-  assert.strictEqual(E.statusOf(s, 'T'), 'weak');
+  assert.strictEqual(E.statusOf(s, 'T'), 'unknown');
+  assert.strictEqual(s.status.T.reason, 'insufficient-items');
   assert.strictEqual(E.nextQuestion(G5, s), 'P1');
 });
 
@@ -780,12 +762,12 @@ test('真实数据：cnm_221（配方法）——首问目标；答错后 hard �
   assert.strictEqual(E.nextQuestion(RG, s), firstHard);
 });
 
-test('真实数据：答对目标即跳过全部祖先', () => {
+test('真实数据：答对目标后先修保持未知', () => {
   const s = E.applyAnswer(RG, E.createSession(RG, ['cnm_221']), 'cnm_221', 'correct');
   assert.strictEqual(E.nextQuestion(RG, s), null);
   const anc = bfsAncestors('cnm_221');
   assert.ok(anc.size > 30);
-  anc.forEach((id) => assert.strictEqual(E.statusOf(s, id), 'mastered', id));
+  anc.forEach((id) => assert.strictEqual(E.statusOf(s, id), 'unknown', id));
 });
 
 // 简单可复现的伪随机数
@@ -814,7 +796,7 @@ function simulate(targets, known, limit) {
   return { s: s, asked: asked };
 }
 
-test('真实数据：一致的学生 + 无限题量 => 薄弱集合与根因精确还原', () => {
+test('真实数据：一致的学生 + 无限题量 => 只按实际证据报告待巩固与候选起点', () => {
   const rand = rng(20261017);
   let cases = 0;
   for (let round = 0; round < 3; round++) {
@@ -826,7 +808,8 @@ test('真实数据：一致的学生 + 无限题量 => 薄弱集合与根因精�
       assert.ok(asked.every((id) => !RG.byId[id].external));
       const sum = E.summarize(RG, s);
       const sub = E.subgraph(RG, [t.id]);
-      const unknown = sub.nodes.filter((id) => E.isTestable(RG, id) && !known.has(id));
+      const unknown = [];
+      asked.filter(id => !known.has(id)).forEach(id => assert.ok(sum.unconfirmed.includes(id)));
       assert.deepStrictEqual(sorted(sum.weak), sorted(unknown), '薄弱集合 ' + t.id);
       sum.mastered.forEach((id) => assert.ok(known.has(id), id + ' 被判掌握但学生不会'));
       const expectRoots = unknown.filter((id) => RG.prereqs[id].every((p) => !unknown.includes(p.id)));
@@ -880,10 +863,11 @@ test('真实数据：什么都不会的学生，在上限处停下，未测节�
   const sum = E.summarize(RG, s);
   assert.strictEqual(sum.limitReached, true);
   assert.ok(sum.untested.length > 0);
-  assert.ok(sum.roots.length >= 1);
+  assert.strictEqual(sum.roots.length, 0);
+  assert.ok(sum.unconfirmed.length > 0);
 });
 
-test('真实数据：整章作为目标——会的学生只需问“最末端”的目标', () => {
+test('真实数据：整章作为目标——会的学生仍需逐个目标作答', () => {
   const chapter = formal.filter((t) => t.chapter.startsWith('七上 第一章 '));
   const ids = chapter.map((t) => t.id);
   assert.ok(ids.length >= 5);
@@ -891,7 +875,7 @@ test('真实数据：整章作为目标——会的学生只需问“最末端�
   const { s, asked } = simulate(ids, known, 12);
   const idSet = new Set(ids);
   const maximal = ids.filter((id) => !ids.some((o) => o !== id && bfsAncestorsCached(o).has(id) && idSet.has(o)));
-  assert.strictEqual(asked.length, maximal.length);
+  assert.strictEqual(asked.length, ids.length);
   ids.forEach((id) => assert.strictEqual(E.statusOf(s, id), 'mastered'));
   // 什么都不会：每个目标都会被问到或被标未测，不会漏
   const r = simulate(ids, new Set(), 20);
@@ -1107,7 +1091,22 @@ test('小学回溯：答错初中「正数与负数」会问到小学，学习�
   assertTopological(sum.path.map((p) => p.id), RGQ);
 });
 
-test('带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确还原；会的 1 题、不会的 2 题', () => {
+function expectedHardFailures(graph, targets, known) {
+  const visited = new Set();
+  const failures = new Set();
+  const queue = targets.slice();
+  while (queue.length) {
+    const id = queue.shift();
+    if (visited.has(id) || !E.isTestable(graph, id)) continue;
+    visited.add(id);
+    if (known.has(id)) continue;
+    failures.add(id);
+    graph.prereqs[id].filter(p => p.strength === 'hard').forEach(p => queue.push(p.id));
+  }
+  return Array.from(failures);
+}
+
+test('带题库：一致的学生 + 无限题量 => 只按实际证据报告待巩固与候选起点；会的 1 题、不会的 2 题', () => {
   const rand = rng(20261018);
   let cases = 0;
   for (let round = 0; round < 3; round++) {
@@ -1117,12 +1116,12 @@ test('带题库：一致的学生 + 无限题量 => 薄弱集合与根因精确�
       cases++;
       const sum = E.summarize(RGQ, s);
       const sub = E.subgraph(RGQ, [t.id]);
-      const unknown = sub.nodes.filter((id) => E.isTestable(RGQ, id) && !known.has(id));
+      const unknown = expectedHardFailures(RGQ, [t.id], known);
       assert.deepStrictEqual(sorted(sum.weak), sorted(unknown), '薄弱集合 ' + t.id);
       assert.deepStrictEqual(sum.shaky, []);
       assert.deepStrictEqual(sum.unconfirmed, []);
       sum.mastered.forEach((id) => assert.ok(known.has(id), id + ' 被判掌握但学生不会'));
-      const expectRoots = unknown.filter((id) => RGQ.prereqs[id].every((p) => !unknown.includes(p.id)));
+      const expectRoots = unknown.filter((id) => RGQ.prereqs[id].every((p) => p.strength !== 'hard' || !unknown.includes(p.id)));
       assert.deepStrictEqual(sorted(sum.roots.map((r) => r.id)), sorted(expectRoots), '根因 ' + t.id);
       const perTopic = {};
       asked.forEach((a) => { const id = a.split('#')[0]; perTopic[id] = (perTopic[id] || 0) + 1; });
@@ -1187,7 +1186,7 @@ test('带题库：题量上限（8/16/30）按题计、永不突破；未复测�
       if (asked.length === limit) capped++;
       const sum = E.summarize(RGQ, s);
       assert.strictEqual(sum.asked, asked.length);
-      sum.unconfirmed.forEach((id) => assert.ok(sum.weak.includes(id)));
+      sum.unconfirmed.forEach((id) => assert.ok(sum.untested.includes(id)));
       const all = new Set(sum.mastered.concat(sum.shaky, sum.weak, sum.untested));
       assert.strictEqual(all.size, s.order.length);
     });
@@ -1344,16 +1343,17 @@ test('筛查：题量不超过上限（一年级 / 七年级 / 七上；全错�
   });
 });
 
-test('筛查：全对的学生只需很少几题（答对即推断先修）；一年级默认上限内能问完', () => {
-  const g7 = E.gradeTargets(RGQ, '七年级');
-  const s = screenRun(g7, allRight, 40);
+test('筛查每个目标分别作答，上限外的先修不能自动通过', () => {
+  const g = E.gradeTargets(RGQ, '七年级');
+  const s = screenRun(g, allRight, 40);
   const sum = E.summarize(RGQ, s);
-  assert.ok(sum.asked < g7.ids.length / 2, '全对却问了 ' + sum.asked);
-  assert.strictEqual(sum.mastered.length, g7.ids.length);
-  const g1 = E.gradeTargets(RGQ, '一年级');
-  const s1 = screenRun(g1, indexStudent, E.SCREEN_LIMIT);
-  assert.strictEqual(E.summarize(RGQ, s1).finished, true);
-  assert.strictEqual(E.summarize(RGQ, s1).untested.length, 0);
+  assert.strictEqual(sum.asked, 40);
+  assert.strictEqual(sum.mastered.length, 40);
+  assert.strictEqual(sum.untested.length, g.ids.length - 40);
+  assert.strictEqual(sum.limitReached, true);
+  const all = E.summarize(RGQ, screenRun(g, allRight, 1000));
+  assert.strictEqual(all.mastered.length, g.ids.length);
+  assert.strictEqual(all.asked, g.ids.length);
 });
 
 test('筛查：到上限没测到的点标「未测」，且题量 = 上限', () => {
@@ -1394,7 +1394,7 @@ test('筛查：一致的学生、题量不限 => 薄弱集合恰好等于他不�
     assert.strictEqual(sum.untested.length, 0);
     // 根因 = 自己不会、范围内先修都会（范围外的先修不判）
     const wantRoots = g.ids.filter((id) => !known.has(id) &&
-      !RGQ.prereqs[id].some((x) => inScope.has(x.id) && !known.has(x.id)));
+      !RGQ.prereqs[id].some((x) => x.strength === 'hard' && inScope.has(x.id) && !known.has(x.id)));
     assert.deepStrictEqual(sorted(sum.roots.map((r) => r.id)), sorted(wantRoots));
   });
 });
@@ -1475,6 +1475,94 @@ test('普通整章 / 单点诊断不受影响：不带 mode 的会话仍回溯�
   const sum = E.summarize(RGQ, s);
   assert.strictEqual(sum.mode, 'target');
   sum.roots.forEach((r) => assert.deepStrictEqual(r.outOfScopePrereqs, []));
+});
+
+test('改判与重放保留题号、时间、曝光信息及冲突证据', () => {
+  let s = E.createSession(G2, ['T'], {seed:'audit'});
+  s = E.applyAnswer(G2, s, 'T', 'wrong', {gradingMethod:'automatic', recordedAt:'2026-10-22T00:00:00Z', feedbackShown:true, answerExposed:false});
+  s = E.applyAnswer(G2, s, 'T', 'wrong', {gradingMethod:'self', feedbackShown:true, answerExposed:true});
+  const edited = s.answers.map((a,i) => i ? a : Object.assign({},a,{result:'correct', gradingMethod:'self', corrections:[{from:'wrong',to:'correct',at:'2026-10-22T01:00:00Z'}]}));
+  const replay = E.replay(G2, ['T'], edited, {seed:'different'});
+  assert.deepStrictEqual(replay.answers.map(a=>a.qid), s.answers.map(a=>a.qid));
+  assert.strictEqual(replay.answers[0].recordedAt, s.answers[0].recordedAt);
+  assert.deepStrictEqual(replay.answers[0].corrections, edited[0].corrections);
+  assert.strictEqual(replay.answers[1].priorFeedbackExposed, true);
+  assert.strictEqual(replay.attempts.T.length, 2);
+  assert.strictEqual(E.statusOf(replay,'T'), 'shaky');
+  assert.strictEqual(replay.status.T.selfReported, true);
+});
+
+test('暂时跳过不是不会，不产生待巩固或先修追问', () => {
+  let s = E.applyAnswer(G2,E.createSession(G2,['T']),'T','defer');
+  const sum = E.summarize(G2,s);
+  assert.strictEqual(s.status.T.reason,'deferred');
+  assert.strictEqual(E.nextItem(G2,s),null);
+  assert.deepStrictEqual(sum.weak,[]);
+  assert.deepStrictEqual(sum.unconfirmed,[]);
+  assert.ok(sum.untested.includes('T'));
+  assert.strictEqual(s.status.T.evidenceCount,0);
+});
+
+test('答错后暂时跳过：保留已有观察，不产生两次失败', () => {
+  let s = E.applyAnswer(G2,E.createSession(G2,['T']),'T','wrong');
+  s = E.applyAnswer(G2,s,'T','defer');
+  assert.strictEqual(s.attempts.T.length,2);
+  assert.strictEqual(s.status.T.evidenceCount,1);
+  assert.strictEqual(E.statusOf(s,'T'),'unknown');
+  assert.deepStrictEqual(E.summarize(G2,s).roots,[]);
+});
+
+test('直接重复调用不能重复累计相同题号，错属题号拒绝', () => {
+  const s = E.applyAnswer(G2,E.createSession(G2,['T']),'T','correct');
+  assert.throws(()=>E.applyAnswer(G2,s,'T','wrong',{qid:s.answers[0].qid}),/重复/);
+  assert.throws(()=>E.applyAnswer(G2,s,'T','wrong',{qid:'P1_q1'}),/题目不存在/);
+  assert.throws(()=>E.replay(G2,['T'],[{id:'T',qid:'removed',result:'correct'}]),/题目不存在/);
+});
+
+test('同一知识点重新作答保留旧证据，冲突不被重置', () => {
+  let s = E.applyAnswer(G2,E.createSession(G2,['T']),'T','correct');
+  s = E.applyAnswer(G2,s,'T','wrong');
+  assert.strictEqual(s.attempts.T.length,2);
+  assert.strictEqual(E.statusOf(s,'T'),'shaky');
+});
+
+test('软先修不触发追问，也不从候选起点传播补习路径', () => {
+  const graph = E.buildGraph(bankTopics, [{topicId:'T', prerequisiteId:'P1',strength:'soft'}], bankTopics.flatMap(t=>[mq(t.id,1,'b'),mq(t.id,2,'b')]));
+  let s=E.createSession(graph,['T','P1']);
+  for (const id of ['T','T','P1','P1']) s=E.applyAnswer(graph,s,id,'wrong');
+  const sum=E.summarize(graph,s);
+  assert.deepStrictEqual(sorted(sum.roots.map(r=>r.id)),['P1','T']);
+  let one=E.createSession(graph,['T']);
+  one=E.applyAnswer(graph,one,'T','wrong'); one=E.applyAnswer(graph,one,'T','wrong');
+  assert.strictEqual(E.nextQuestion(graph,one),null);
+  assert.deepStrictEqual(E.summarize(graph,one).path.map(p=>p.id),['T']);
+});
+
+test('自报不会与客观失败分别保留来源', () => {
+  let s=E.createSession(G2,['T']);
+  s=E.applyAnswer(G2,s,'T','skip',{gradingMethod:'self',feedbackShown:true});
+  s=E.applyAnswer(G2,s,'T','wrong',{gradingMethod:'automatic',answerExposed:false});
+  assert.strictEqual(s.status.T.selfReported,true);
+  assert.strictEqual(s.answers[1].priorFeedbackExposed,true);
+  assert.strictEqual(s.answers[1].answerExposed,false);
+  assert.strictEqual(s.status.T.provisional,true);
+});
+
+test('复测同难度候选优先不同题型，不伪造子能力标签', () => {
+  const graph=E.buildGraph([mk('T')],[],[mq('T',1,'b'),mq('T',2,'b'),mq('T',3,'b',{type:'short'})]);
+  let s=E.createSession(graph,['T']);
+  s=E.applyAnswer(graph,s,'T','wrong',{qid:'T_q1'});
+  assert.strictEqual(E.nextItem(graph,s).question.id,'T_q3');
+});
+
+test('版本兼容门禁拒绝旧数学/英语记录，不改写存档对象', () => {
+  const old={v:2,dataVersion:'statistics-2026-10.1',answers:[]};
+  const before=JSON.stringify(old);
+  assert.strictEqual(E.canRestore(old,old.dataVersion),false);
+  assert.strictEqual(E.canRestore({engineVersion:'old',dataVersion:'upstream'},'upstream'),false);
+  assert.strictEqual(E.canRestore({engineVersion:E.ENGINE_VERSION,dataVersion:'upstream'},'upstream'),true);
+  assert.strictEqual(E.canRestore({engineVersion:E.ENGINE_VERSION,dataVersion:'old'},'new'),false);
+  assert.strictEqual(JSON.stringify(old),before);
 });
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

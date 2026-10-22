@@ -141,7 +141,8 @@
 
   /* ------------------------------------------------------------------ 会话 */
 
-  const RESULTS = { correct: 1, wrong: 1, skip: 1 };
+  const ENGINE_VERSION = 'evidence-1';
+  const RESULTS = { correct: 1, wrong: 1, skip: 1, defer: 1 };
   const DEFAULT_LIMIT = 16;
   const SCREEN_LIMIT = 40;
 
@@ -160,7 +161,7 @@
     const stack = ts.filter(function (id) { return isTestable(graph, id); })
       .sort(function (a, b) { return pos[b] - pos[a]; });
     return {
-      targets: ts, limit: limit, order: sub.nodes, status: {}, stack: stack, answers: [], attempts: {},
+      engineVersion: ENGINE_VERSION, targets: ts, limit: limit, order: sub.nodes, status: {}, stack: stack, answers: [], attempts: {},
       mode: screen ? 'screen' : 'target', scope: screen ? ts.slice() : null,
       seed: opts.seed == null ? 'default' : String(opts.seed),
       avoid: Array.from(new Set(opts.avoid || []))
@@ -171,7 +172,7 @@
     const attempts = {};
     Object.keys(s.attempts).forEach(function (k) { attempts[k] = s.attempts[k].slice(); });
     return {
-      targets: s.targets.slice(), limit: s.limit, order: s.order, stack: s.stack.slice(),
+      engineVersion: s.engineVersion, targets: s.targets.slice(), limit: s.limit, order: s.order, stack: s.stack.slice(),
       status: Object.assign({}, s.status), answers: s.answers.slice(), attempts: attempts,
       seed: s.seed, avoid: s.avoid, mode: s.mode, scope: s.scope ? s.scope.slice() : null
     };
@@ -239,45 +240,58 @@
         cand = freshFirst(pool.filter(function (q) { return rankOf(q) === lo; }));
       }
     }
+    if (attempt > 1) {
+      const first = all.find(function (q) { return q.id === tried[0]; });
+      const varied = cand.filter(function (q) { return first && q.type !== first.type; });
+      if (varied.length) cand = varied;
+    }
     const idx = Math.min(cand.length - 1, Math.floor(rand01(session.seed, id + '|' + attempt) * cand.length));
     return cand[idx];
   }
 
-  /**
-   * 记录一次作答（针对 nextItem 给出的那道题）。
-   *  - 第一题 correct：该点及其所有尚未判定的祖先记为掌握（祖先为 inferred）；
-   *  - 第一题 wrong/skip：还没有结论，该点仍排在最前面，下一题给它出第二题（没有第二题可出就直接判薄弱）；
-   *  - 第二题 correct：不稳（shaky），不向先修回溯；
-   *  - 第二题 wrong/skip：薄弱，并把其先修（hard 先、soft 后）压到出题栈顶。
-   * 直接作答（direct）的判定不会被推断（inferred）覆盖。extra.text 是用户输入的答案（只用于记录）。
+  /** Records observations without inferring prerequisite mastery.
+   * `mastered` is a legacy API key meaning provisional direct support only.
+   * Explicit qids allow replay to preserve the actual observed questions.
    */
   function applyAnswer(graph, session, id, result, extra) {
-    if (!RESULTS[result]) throw new Error('作答结果必须是 correct / wrong / skip');
+    if (!RESULTS[result]) throw new Error('作答结果必须是 correct / wrong / skip / defer');
     if (!graph.byId[id]) throw new Error('未知知识点：' + id);
+    extra = extra || {};
     const s = cloneSession(session);
-    if (s.status[id]) { delete s.status[id]; s.attempts[id] = []; } // 对已有结论的点重新作答 = 重新开始
     const prev = s.attempts[id] || [];
-    const q = pickQuestion(graph, s, id, prev.length + 1);
-    const rec = { id: id, qid: q ? q.id : null, result: result };
-    if (extra && extra.text != null && extra.text !== '') rec.text = String(extra.text);
+    const q = extra.qid ? (graph.bank[id] || []).find(function (q) { return q.id === extra.qid; })
+      : pickQuestion(graph, s, id, prev.length + 1);
+    if (!q) throw new Error('题目不存在或题库已耗尽：' + id);
+    if (prev.some(function (a) { return a.qid === q.id; })) throw new Error('不能重复计入同一道题的证据');
+    const rec = { id: id, qid: q.id, result: result,
+      gradingMethod: extra.gradingMethod || 'unspecified',
+      answerExposed: extra.answerExposed == null ? null : !!extra.answerExposed,
+      recordedAt: extra.recordedAt || null, engineVersion: ENGINE_VERSION,
+      feedbackShown: extra.feedbackShown == null ? null : !!extra.feedbackShown,
+      priorFeedbackExposed: prev.some(function (a) { return a.feedbackShown === true; }) };
+    if (extra.corrections) rec.corrections = extra.corrections.map(function (c) { return Object.assign({}, c); });
+    if (extra.text != null && extra.text !== '') rec.text = String(extra.text);
     s.answers.push(rec);
-    s.attempts[id] = prev.concat([{ qid: rec.qid, result: result }]);
-    const nth = s.attempts[id].length;
-    if (result === 'correct') {
-      if (nth === 1) {
-        s.status[id] = { s: 'mastered', src: 'direct' };
-        ancestorSet(graph, id).forEach(function (a) {
-          if (!s.status[a]) s.status[a] = { s: 'mastered', src: 'inferred' };
-        });
-      } else {
-        s.status[id] = { s: 'shaky', src: 'direct' };
-      }
-    } else if (nth === 1 && pickQuestion(graph, s, id, 2)) {
-      // 第一题没过：等第二题再下结论
+    s.attempts[id] = prev.concat([rec]);
+    delete s.status[id];
+    const evidence = s.attempts[id].filter(function (a) { return a.result !== 'defer'; });
+    const positive = evidence.some(function (a) { return a.result === 'correct'; });
+    const negative = evidence.some(function (a) { return a.result !== 'correct'; });
+    const meta = { src: 'direct', evidenceCount: evidence.length,
+      selfReported: evidence.some(function (a) { return a.result === 'skip' || a.gradingMethod === 'self'; }),
+      answerExposed: evidence.some(function (a) { return a.answerExposed === true; }),
+      priorFeedbackExposed: evidence.some(function (a) { return a.priorFeedbackExposed; }) };
+    if (result === 'defer') {
+      s.status[id] = Object.assign({ s: 'unknown', reason: 'deferred' }, meta);
+    } else if (positive) {
+      s.status[id] = Object.assign({ s: negative ? 'shaky' : 'mastered', provisional: true }, meta);
+    } else if (evidence.length < 2 && pickQuestion(graph, s, id, prev.length + 2)) {
+      // One negative observation is insufficient; request another question.
     } else {
-      s.status[id] = { s: 'weak', src: 'direct' };
+      s.status[id] = Object.assign({ s: evidence.length >= 2 ? 'weak' : 'unknown',
+        reason: evidence.length >= 2 ? 'repeated-negative' : 'insufficient-items', provisional: true }, meta);
       const scope = s.scope ? new Set(s.scope) : null;
-      const push = graph.prereqs[id]
+      const push = graph.prereqs[id].filter(function (p) { return p.strength === 'hard'; })
         .map(function (p) { return p.id; })
         .filter(function (p) { return isTestable(graph, p) && !s.status[p] && (!scope || scope.has(p)); });
       const pushed = new Set(push);
@@ -303,24 +317,28 @@
     return q ? { topicId: id, question: q, attempt: attempt } : null;
   }
 
+  function canRestore(saved, dataVersion) {
+    return !!saved && saved.engineVersion === ENGINE_VERSION && saved.dataVersion === dataVersion;
+  }
+
   /** 由作答记录重建会话（用于刷新恢复、撤销、更正）。 */
   function replay(graph, targets, answers, opts) {
     let s = createSession(graph, targets, opts);
-    answers.forEach(function (a) { s = applyAnswer(graph, s, a.id, a.result, { text: a.text }); });
+    answers.forEach(function (a) { s = applyAnswer(graph, s, a.id, a.result, a); });
     return s;
   }
 
-  /** 状态：mastered / shaky / weak / unknown。只答错一题就遇到题量上限的点按 weak 算（见 isUnconfirmed）。 */
+  /** 状态：mastered / shaky / weak / unknown。证据不足与暂时跳过均为 unknown（见 isUnconfirmed）。 */
   function statusOf(session, id) {
     const st = session.status[id];
     if (st) return st.s;
-    return isUnconfirmed(session, id) ? 'weak' : 'unknown';
+    return 'unknown';
   }
 
   /** 第一题答错、但没来得及出第二题（题量用完）的点。 */
   function isUnconfirmed(session, id) {
     const a = session.attempts[id];
-    return !session.status[id] && !!a && a.length === 1 && a[0].result !== 'correct';
+    return (!session.status[id] || session.status[id].reason === 'insufficient-items') && !!a && a.length === 1 && a[0].result !== 'correct' && a[0].result !== 'defer';
   }
 
   /* ------------------------------------------------------------------ 结果 */
@@ -331,15 +349,15 @@
     const mastered = nodes.filter(function (id) { return st(id) === 'mastered'; });
     const shaky = nodes.filter(function (id) { return st(id) === 'shaky'; });
     const weak = nodes.filter(function (id) { return st(id) === 'weak'; });
-    const unconfirmed = weak.filter(function (id) { return isUnconfirmed(session, id); });
+    const unconfirmed = nodes.filter(function (id) { return isUnconfirmed(session, id); });
     const untested = nodes.filter(function (id) { return st(id) === 'unknown'; });
     const scope = session.scope ? new Set(session.scope) : null;
     const inScope = function (id) { return !scope || scope.has(id); };
 
     const roots = weak.filter(function (id) {
-      return !graph.prereqs[id].some(function (p) { return st(p.id) === 'weak'; });
+      return !graph.prereqs[id].some(function (p) { return p.strength === 'hard' && st(p.id) === 'weak'; });
     }).map(function (id) {
-      const unk = graph.prereqs[id].filter(function (p) { return st(p.id) === 'unknown'; });
+      const unk = graph.prereqs[id].filter(function (p) { return p.strength === 'hard' && st(p.id) === 'unknown'; });
       const testableUnk = unk.filter(function (p) { return isTestable(graph, p.id); });
       return {
         id: id,
@@ -360,7 +378,7 @@
     while (queue.length) {
       const id = queue.shift();
       graph.dependents[id].forEach(function (d) {
-        if (inSub.has(d.id) && !reach.has(d.id)) { reach.add(d.id); queue.push(d.id); }
+        if (d.strength === 'hard' && inSub.has(d.id) && !reach.has(d.id)) { reach.add(d.id); queue.push(d.id); }
       });
     }
     const rootSet = new Set(roots.map(function (r) { return r.id; }));
@@ -386,6 +404,7 @@
       finished: next === null,
       limitReached: session.answers.length >= session.limit && pending.length > 0,
       mastered: mastered, shaky: shaky, weak: weak, unconfirmed: unconfirmed, untested: untested,
+      deferred: nodes.filter(function (id) { return session.status[id] && session.status[id].reason === 'deferred'; }),
       roots: roots, path: path
     };
   }
@@ -420,7 +439,7 @@
         });
         if (between) return;
         const direct = graph.prereqs[b].find(function (p) { return p.id === a; });
-        edges.push({ from: a, to: b, direct: !!direct, strength: direct ? direct.strength : 'hard' });
+        edges.push({ from: a, to: b, direct: !!direct, strength: direct ? direct.strength : 'indirect' });
       });
     });
     const layer = Object.create(null);
@@ -930,6 +949,8 @@
   }
 
   return {
+    ENGINE_VERSION: ENGINE_VERSION,
+    canRestore: canRestore,
     DEFAULT_LIMIT: DEFAULT_LIMIT,
     SCREEN_LIMIT: SCREEN_LIMIT,
     gradeTargets: gradeTargets,

@@ -165,9 +165,9 @@
     ctx.restore();
 
     var stats = [
-      { n: m.mastered, label: '已掌握', fg: '#157a3a', bg: '#dcfce7' },
+      { n: m.mastered, label: '初步通过', fg: '#157a3a', bg: '#dcfce7' },
       { n: m.shaky, label: '不稳', fg: '#b45309', bg: '#fef3c7' },
-      { n: m.weak, label: '薄弱', fg: '#b91c1c', bg: '#fee2e2' },
+      { n: m.weak, label: '待巩固', fg: '#b91c1c', bg: '#fee2e2' },
       { n: m.untested, label: '未测', fg: '#475569', bg: '#e8eef6' }
     ];
     var gap = 16;
@@ -188,13 +188,13 @@
     ctx.textAlign = 'left';
 
     var y = statsY + statsH + 36;
-    var spotTitle = m.spotKind === 'chapter' ? '最薄弱的章节' : '最薄弱的知识点';
+    var spotTitle = m.spotKind === 'chapter' ? '最待巩固的章节' : '最待巩固的知识点';
     text(ctx, spotTitle, 64, y, 800, 34, '#162033');
     y += 52;
     var spots = Array.isArray(m.spots) ? m.spots.slice(0, 3) : [];
     if (!spots.length) {
       card(ctx, cardX, y, cardW, 88, 18);
-      text(ctx, '这次没有明显薄弱的地方', 80, y + 28, 500, 28, '#5c6d82', cardW - 64);
+      text(ctx, '这次没有明显待巩固的地方', 80, y + 28, 500, 28, '#5c6d82', cardW - 64);
       y += 104;
     } else {
       spots.forEach(function (spot, i) {
@@ -217,12 +217,12 @@
     }
 
     y += 8;
-    text(ctx, '最该先补的根因', 64, y, 800, 34, '#162033');
+    text(ctx, '最该先补的候选起点', 64, y, 800, 34, '#162033');
     y += 52;
     var roots = Array.isArray(m.roots) ? m.roots.slice(0, 2) : [];
     if (!roots.length) {
       card(ctx, cardX, y, cardW, 88, 18);
-      text(ctx, '这次没有判出需要先补的根因', 80, y + 28, 500, 28, '#5c6d82', cardW - 64);
+      text(ctx, '这次没有判出需要先补的候选起点', 80, y + 28, 500, 28, '#5c6d82', cardW - 64);
     } else {
       roots.forEach(function (name) {
         card(ctx, cardX, y, cardW, 96, 18);
