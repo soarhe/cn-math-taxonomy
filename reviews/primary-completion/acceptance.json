@@ -1,0 +1,33 @@
+{
+  "version": "primary-activities-2026-10.1",
+  "status": "engineering-checks-passed",
+  "contentStatus": "authored-awaiting-review",
+  "checks": {
+    "generatedArtifacts": "pass",
+    "newPythonTests": 7,
+    "originalPrimaryTests": 8,
+    "historicalPythonTests": 34,
+    "currentEngineTests": 98,
+    "historicalEngineTests": 98,
+    "figureStructureQuestions": 157,
+    "questionAutoVerification": {
+      "verified": 5276,
+      "mismatch": 0,
+      "unverifiable": 1131
+    },
+    "browser": [
+      "81任务显示",
+      "关键课标搜索",
+      "图谱详情活动链接及知识点筛选",
+      "过程输入与人工评分刷新后保留",
+      "JSON导出内容核查",
+      "未观察状态未被转换为0或掌握",
+      "测试输入已清空"
+    ]
+  },
+  "humanValidation": {
+    "expertReviewed": false,
+    "studentTrialCompleted": false
+  },
+  "note": "浏览器检查为工程模拟，不包含真实学生表现；未声称完成2025版来源认证。"
+}

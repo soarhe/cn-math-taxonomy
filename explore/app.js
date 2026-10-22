@@ -11,6 +11,7 @@
   var DOMAIN_ORDER = ['数与代数', '图形与几何', '统计与概率', '综合与实践'];
 
   var topics = [];
+  var primaryActivities = [];
   var deps = [];
   var aliases = {};
   var byId = new Map();
@@ -447,6 +448,17 @@
         el('p', { class: 'sample-q', text: topic.diagnostic_question.question }),
         sampleFigureNodes(topic),
         answer));
+    }
+
+    if (topic.id.indexOf('cnm_p') === 0) {
+      var activities = primaryActivities.filter(function (task) { return task.topicIds.indexOf(topic.id) >= 0; });
+      parts.push(el('section', null,
+        el('h2', { text: '实践与解释任务' }),
+        el('p', { class: 'muted', text: '补充作图、测量、探究与表达。需人工查看过程和作品，不自动判定掌握。' }),
+        activities.map(function (task) { return el('p', null, el('a', {
+          href: '../activities/primary/?topic=' + encodeURIComponent(topic.id) + '#' + task.id
+        }, task.title)); }),
+        el('a', { href: '../activities/primary/' }, '查看全部 81 个任务（按课标学段）')));
     }
 
     var pres = pre.get(topic.id) || [];
@@ -1055,12 +1067,13 @@
   }
 
   async function load() {
-    var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json'];
+    var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json', 'primary-activities.json'];
     var responses = await Promise.all(files.map(function (file) { return fetch('../data/' + file); }));
     responses.forEach(function (response, responseIndex) {
       if (!response.ok) throw new Error(files[responseIndex] + ' HTTP ' + response.status);
     });
     var json = await Promise.all(responses.map(function (response) { return response.json(); }));
+    primaryActivities = json[4].tasks || [];
     topics = json[0].filter(function (topic) { return isEnglishTopic(topic) === (subject === 'english'); });
     var allow = {};
     topics.forEach(function (topic) { allow[topic.id] = true; });

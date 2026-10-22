@@ -1,0 +1,1317 @@
+{
+  "version": "primary-activities-2026-10.1",
+  "counts": {
+    "previousGapsAddressed": 10,
+    "previousPartialsAddressed": 67,
+    "referenceExamplesAdded": 4,
+    "tasksAuthored": 81,
+    "rubricCriteria": 243,
+    "unassignedKnownFindings": 0,
+    "expertValidated": 0
+  },
+  "statusMeaning": "authored-awaiting-review 只表示逐条补充了可执行任务及量规，不表示学生已掌握或专家验证充分覆盖。",
+  "rows": [
+    {
+      "targetId": "cms-2022:1.NA.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "数位与数的组成有题；算盘表示、读写多位数和真实情境数感未充分取样。",
+      "taskIds": [
+        "pact-1-NA-01"
+      ],
+      "rubricIds": [
+        "pact-1-NA-01-r1",
+        "pact-1-NA-01-r2",
+        "pact-1-NA-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.NA.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "覆盖大小比较和排序；相等关系的解释仍需口头或书面证据。",
+      "taskIds": [
+        "pact-1-NA-02"
+      ],
+      "rubricIds": [
+        "pact-1-NA-02-r1",
+        "pact-1-NA-02-r2",
+        "pact-1-NA-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.NA.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "四则意义与相互关系有局部任务；不能用少量选择题认证全部理解。",
+      "taskIds": [
+        "pact-1-NA-03"
+      ],
+      "rubricIds": [
+        "pact-1-NA-03-r1",
+        "pact-1-NA-03-r2",
+        "pact-1-NA-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.NA.04",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "算理、算法和运算有局部证据；真实竖式过程与解释未自动采集。",
+      "taskIds": [
+        "pact-1-NA-04"
+      ],
+      "rubricIds": [
+        "pact-1-NA-04-r1",
+        "pact-1-NA-04-r2",
+        "pact-1-NA-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.NA.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "乘除运算和情境解释有题；算法探索过程未采集。",
+      "taskIds": [
+        "pact-1-NA-05"
+      ],
+      "rubricIds": [
+        "pact-1-NA-05-r1",
+        "pact-1-NA-05-r2",
+        "pact-1-NA-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.NA.06",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "可作为应用和推理的局部观察；数感、符号意识等综合素养不能由答对几题判定。",
+      "taskIds": [
+        "pact-1-NA-06"
+      ],
+      "rubricIds": [
+        "pact-1-NA-06-r1",
+        "pact-1-NA-06-r2",
+        "pact-1-NA-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.NA.07",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "撤去了代列算式并检查余数情境；仍需学生说明结果意义。",
+      "taskIds": [
+        "pact-1-NA-07"
+      ],
+      "rubricIds": [
+        "pact-1-NA-07-r1",
+        "pact-1-NA-07-r2",
+        "pact-1-NA-07-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.NA.08",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "已给出恒定增减的假设；尚未涵盖学生自己发现并表达多种规律。",
+      "taskIds": [
+        "pact-1-NA-08"
+      ],
+      "rubricIds": [
+        "pact-1-NA-08-r1",
+        "pact-1-NA-08-r2",
+        "pact-1-NA-08-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.GG.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "含实图辨形和分割示意；实际动手拼图、分类过程仍缺。",
+      "taskIds": [
+        "pact-1-GG-01"
+      ],
+      "rubricIds": [
+        "pact-1-GG-01-r1",
+        "pact-1-GG-01-r2",
+        "pact-1-GG-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.GG.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "尺子读数、单位换算和估测有题；统一单位必要性与真实测量未完成。",
+      "taskIds": [
+        "pact-1-GG-02"
+      ],
+      "rubricIds": [
+        "pact-1-GG-02-r1",
+        "pact-1-GG-02-r2",
+        "pact-1-GG-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.GG.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "空间与量感只取得局部观察；需要连续活动表现。",
+      "taskIds": [
+        "pact-1-GG-03"
+      ],
+      "rubricIds": [
+        "pact-1-GG-03-r1",
+        "pact-1-GG-03-r2",
+        "pact-1-GG-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.SP.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "直接测分类标准；实际收集和分类活动仍需补充。",
+      "taskIds": [
+        "pact-1-SP-01"
+      ],
+      "rubricIds": [
+        "pact-1-SP-01-r1",
+        "pact-1-SP-01-r2",
+        "pact-1-SP-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.IP.01",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "分类答题不能替代分享学前数学游戏经历的活动。",
+      "taskIds": [
+        "pact-1-IP-01"
+      ],
+      "rubricIds": [
+        "pact-1-IP-01-r1",
+        "pact-1-IP-01-r2",
+        "pact-1-IP-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.IP.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "人民币与简单购物有题；节约意识、交易活动和金融素养没有充分证据。",
+      "taskIds": [
+        "pact-1-IP-02"
+      ],
+      "rubricIds": [
+        "pact-1-IP-02-r1",
+        "pact-1-IP-02-r2",
+        "pact-1-IP-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.IP.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "时间认识和经过时间有题；感受时长、守时活动没有充分证据，且教材年级安排跨越学段。",
+      "taskIds": [
+        "pact-1-IP-03"
+      ],
+      "rubricIds": [
+        "pact-1-IP-03-r1",
+        "pact-1-IP-03-r2",
+        "pact-1-IP-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.IP.04",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "位置和方向有纸面题；真实教室定位活动仍缺。",
+      "taskIds": [
+        "pact-1-IP-04"
+      ],
+      "rubricIds": [
+        "pact-1-IP-04-r1",
+        "pact-1-IP-04-r2",
+        "pact-1-IP-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.IP.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "需要校准身体尺的概念和估测计算有题；实际测量记录未采集。",
+      "taskIds": [
+        "pact-1-IP-05"
+      ],
+      "rubricIds": [
+        "pact-1-IP-05-r1",
+        "pact-1-IP-05-r2",
+        "pact-1-IP-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:1.IP.06",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "没有学生叙述或制作数学连环画的活动任务。",
+      "taskIds": [
+        "pact-1-IP-06"
+      ],
+      "rubricIds": [
+        "pact-1-IP-06-r1",
+        "pact-1-IP-06-r2",
+        "pact-1-IP-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "多位数和乘除运算有题；数级读法和算法迁移证据不足。",
+      "taskIds": [
+        "pact-2-NA-01"
+      ],
+      "rubricIds": [
+        "pact-2-NA-01-r1",
+        "pact-2-NA-01-r2",
+        "pact-2-NA-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "分数、小数意义和简单运算有题；计数单位解释需要更多表现任务。",
+      "taskIds": [
+        "pact-2-NA-02"
+      ],
+      "rubricIds": [
+        "pact-2-NA-02-r1",
+        "pact-2-NA-02-r2",
+        "pact-2-NA-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "情境除法与混合运算有题；综合情境与运算意义解释有限。",
+      "taskIds": [
+        "pact-2-NA-03"
+      ],
+      "rubricIds": [
+        "pact-2-NA-03-r1",
+        "pact-2-NA-03-r2",
+        "pact-2-NA-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.04",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "已补运算律及字母表达；探索和证明过程不由选择题替代。",
+      "taskIds": [
+        "pact-2-NA-04"
+      ],
+      "rubricIds": [
+        "pact-2-NA-04-r1",
+        "pact-2-NA-04-r2",
+        "pact-2-NA-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "编码是局部应用；生活特征描述和数感发展需持续观察。",
+      "taskIds": [
+        "pact-2-NA-05"
+      ],
+      "rubricIds": [
+        "pact-2-NA-05-r1",
+        "pact-2-NA-05-r2",
+        "pact-2-NA-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.06",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "估算与实际问题有题；自主选择估算精度及单位的任务不足。",
+      "taskIds": [
+        "pact-2-NA-06"
+      ],
+      "rubricIds": [
+        "pact-2-NA-06-r1",
+        "pact-2-NA-06-r2",
+        "pact-2-NA-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.07",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "无操作计算器并探索规律的任务；普通计算题不算此条证据。",
+      "taskIds": [
+        "pact-2-NA-07"
+      ],
+      "rubricIds": [
+        "pact-2-NA-07-r1",
+        "pact-2-NA-07-r2",
+        "pact-2-NA-07-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.08",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "总价、路程等关系有直接情境；解释关系和迁移仍需补充。",
+      "taskIds": [
+        "pact-2-NA-08"
+      ],
+      "rubricIds": [
+        "pact-2-NA-08-r1",
+        "pact-2-NA-08-r2",
+        "pact-2-NA-08-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.09",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "未见直接测量“等量的等量相等”的具体情境任务。",
+      "taskIds": [
+        "pact-2-NA-09"
+      ],
+      "rubricIds": [
+        "pact-2-NA-09-r1",
+        "pact-2-NA-09-r2",
+        "pact-2-NA-09-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.NA.10",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "优化与模型问题有局部证据；模型建立和结果说明未充分采集。",
+      "taskIds": [
+        "pact-2-NA-10"
+      ],
+      "rubricIds": [
+        "pact-2-NA-10-r1",
+        "pact-2-NA-10-r2",
+        "pact-2-NA-10-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "线与位置关系有题；尺规作等长线段、两点最短路径的操作缺。",
+      "taskIds": [
+        "pact-2-GG-01"
+      ],
+      "rubricIds": [
+        "pact-2-GG-01-r1",
+        "pact-2-GG-01-r2",
+        "pact-2-GG-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "量角器对齐和读圈有题；实际画角与量角缺。",
+      "taskIds": [
+        "pact-2-GG-02"
+      ],
+      "rubricIds": [
+        "pact-2-GG-02-r1",
+        "pact-2-GG-02-r2",
+        "pact-2-GG-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "单位换算有题；真实估测、测量与选择单位不足。2022原页确认平方单位。",
+      "taskIds": [
+        "pact-2-GG-03"
+      ],
+      "rubricIds": [
+        "pact-2-GG-03-r1",
+        "pact-2-GG-03-r2",
+        "pact-2-GG-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.04",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "分类依据有题；多样图形、旋转形态辨认不足。",
+      "taskIds": [
+        "pact-2-GG-04"
+      ],
+      "rubricIds": [
+        "pact-2-GG-04-r1",
+        "pact-2-GG-04-r2",
+        "pact-2-GG-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "周长面积概念和计算有题；公式探索过程不足。",
+      "taskIds": [
+        "pact-2-GG-05"
+      ],
+      "rubricIds": [
+        "pact-2-GG-05-r1",
+        "pact-2-GG-05-r2",
+        "pact-2-GG-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.06",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "文字描述物体的视向有题；照片、复杂遮挡和直接视图匹配不足。",
+      "taskIds": [
+        "pact-2-GG-06"
+      ],
+      "rubricIds": [
+        "pact-2-GG-06-r1",
+        "pact-2-GG-06-r2",
+        "pact-2-GG-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.07",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "局部空间与量感观察，不等于综合素养认证。",
+      "taskIds": [
+        "pact-2-GG-07"
+      ],
+      "rubricIds": [
+        "pact-2-GG-07-r1",
+        "pact-2-GG-07-r2",
+        "pact-2-GG-07-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.08",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "点的位置变换与性质有题；实物变换和完整图形操作不足。",
+      "taskIds": [
+        "pact-2-GG-08"
+      ],
+      "rubricIds": [
+        "pact-2-GG-08-r1",
+        "pact-2-GG-08-r2",
+        "pact-2-GG-08-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.GG.09",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "局部位置推断；几何直观需更多真实操作证据。",
+      "taskIds": [
+        "pact-2-GG-09"
+      ],
+      "rubricIds": [
+        "pact-2-GG-09-r1",
+        "pact-2-GG-09-r2",
+        "pact-2-GG-09-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.SP.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "读表整理位置和分类标准有题；实际采集数据和制作表格缺。",
+      "taskIds": [
+        "pact-2-SP-01"
+      ],
+      "rubricIds": [
+        "pact-2-SP-01-r1",
+        "pact-2-SP-01-r2",
+        "pact-2-SP-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.SP.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "表内比较和信息解释有题；学生自主交流分析不足。",
+      "taskIds": [
+        "pact-2-SP-02"
+      ],
+      "rubricIds": [
+        "pact-2-SP-02-r1",
+        "pact-2-SP-02-r2",
+        "pact-2-SP-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.SP.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "实际条形图读数与比较已补；独立绘图仍缺。",
+      "taskIds": [
+        "pact-2-SP-03"
+      ],
+      "rubricIds": [
+        "pact-2-SP-03-r1",
+        "pact-2-SP-03-r2",
+        "pact-2-SP-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.SP.04",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "无真实媒体统计图来源和相应阅读任务，不能把自编图冒充媒体图表。",
+      "taskIds": [
+        "pact-2-SP-04"
+      ],
+      "rubricIds": [
+        "pact-2-SP-04-r1",
+        "pact-2-SP-04-r2",
+        "pact-2-SP-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.SP.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "计算平均数和概念有题；移多补少、异常值与适用性不足。",
+      "taskIds": [
+        "pact-2-SP-05"
+      ],
+      "rubricIds": [
+        "pact-2-SP-05-r1",
+        "pact-2-SP-05-r2",
+        "pact-2-SP-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.SP.06",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "情境图表与平均数局部应用；自主选择表达方式不足。",
+      "taskIds": [
+        "pact-2-SP-06"
+      ],
+      "rubricIds": [
+        "pact-2-SP-06-r1",
+        "pact-2-SP-06-r2",
+        "pact-2-SP-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.IP.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "日历和24时记时有题；古代四季文化与主题探究缺。",
+      "taskIds": [
+        "pact-2-IP-01"
+      ],
+      "rubricIds": [
+        "pact-2-IP-01-r1",
+        "pact-2-IP-01-r2",
+        "pact-2-IP-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.IP.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "质量单位换算有题；曹冲称象中的等量替代推理缺。",
+      "taskIds": [
+        "pact-2-IP-02"
+      ],
+      "rubricIds": [
+        "pact-2-IP-02-r1",
+        "pact-2-IP-02-r2",
+        "pact-2-IP-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.IP.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "斜方向有题；几点钟方向、寻找宝藏实际活动缺。",
+      "taskIds": [
+        "pact-2-IP-03"
+      ],
+      "rubricIds": [
+        "pact-2-IP-03-r1",
+        "pact-2-IP-03-r2",
+        "pact-2-IP-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:2.IP.04",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "无查阅度量衡史料和理解统一单位的主题活动任务。",
+      "taskIds": [
+        "pact-2-IP-04"
+      ],
+      "rubricIds": [
+        "pact-2-IP-04-r1",
+        "pact-2-IP-04-r2",
+        "pact-2-IP-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "基本术语和公因数公倍数有题；穷举过程与概念关联解释不足。",
+      "taskIds": [
+        "pact-3-NA-01"
+      ],
+      "rubricIds": [
+        "pact-3-NA-01-r1",
+        "pact-3-NA-01-r2",
+        "pact-3-NA-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "小数分数意义与互化有题；计数单位与多情境迁移不足。",
+      "taskIds": [
+        "pact-3-NA-02"
+      ],
+      "rubricIds": [
+        "pact-3-NA-02-r1",
+        "pact-3-NA-02-r2",
+        "pact-3-NA-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.03",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "现有平均分、分数除法题未直接测a÷b＝a/b及其具体情境解释。",
+      "taskIds": [
+        "pact-3-NA-03"
+      ],
+      "rubricIds": [
+        "pact-3-NA-03-r1",
+        "pact-3-NA-03-r2",
+        "pact-3-NA-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.04",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "四则运算有题；跨运算一致性的解释不足。",
+      "taskIds": [
+        "pact-3-NA-04"
+      ],
+      "rubricIds": [
+        "pact-3-NA-04-r1",
+        "pact-3-NA-04-r2",
+        "pact-3-NA-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "等式性质直接判断有题；天平等具体情境操作不足。方程题型不等于原文独立要求。",
+      "taskIds": [
+        "pact-3-NA-05"
+      ],
+      "rubricIds": [
+        "pact-3-NA-05-r1",
+        "pact-3-NA-05-r2",
+        "pact-3-NA-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.06",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "积的近似数提供局部取近似证据；实际情境自主选择估算方法不足。",
+      "taskIds": [
+        "pact-3-NA-06"
+      ],
+      "rubricIds": [
+        "pact-3-NA-06-r1",
+        "pact-3-NA-06-r2",
+        "pact-3-NA-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.07",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "字母表示数量关系和规律有题；自主建式与一般性解释不足。",
+      "taskIds": [
+        "pact-3-NA-07"
+      ],
+      "rubricIds": [
+        "pact-3-NA-07-r1",
+        "pact-3-NA-07-r2",
+        "pact-3-NA-07-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.08",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "比、比例、按比分配有题；情境范围和解释证据有限。",
+      "taskIds": [
+        "pact-3-NA-08"
+      ],
+      "rubricIds": [
+        "pact-3-NA-08-r1",
+        "pact-3-NA-08-r2",
+        "pact-3-NA-08-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.09",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "正比例有局部证据；变化趋势表和自主探规律不足，反比例不充作此条直接证据。",
+      "taskIds": [
+        "pact-3-NA-09"
+      ],
+      "rubricIds": [
+        "pact-3-NA-09-r1",
+        "pact-3-NA-09-r2",
+        "pact-3-NA-09-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.NA.10",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "数量关系应用有题；说明模型与结果合理性不足。",
+      "taskIds": [
+        "pact-3-NA-10"
+      ],
+      "rubricIds": [
+        "pact-3-NA-10-r1",
+        "pact-3-NA-10-r2",
+        "pact-3-NA-10-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "三边关系和内角和有直接问题；操作验证和推理表达不足。",
+      "taskIds": [
+        "pact-3-GG-01"
+      ],
+      "rubricIds": [
+        "pact-3-GG-01-r1",
+        "pact-3-GG-01-r2",
+        "pact-3-GG-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "圆概念与计算有题；圆规作图及公式探索缺。",
+      "taskIds": [
+        "pact-3-GG-02"
+      ],
+      "rubricIds": [
+        "pact-3-GG-02-r1",
+        "pact-3-GG-02-r2",
+        "pact-3-GG-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.03",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "面积公式应用有题；不规则图形估面积与公式推导不足。2022原页确认平方千米。",
+      "taskIds": [
+        "pact-3-GG-03"
+      ],
+      "rubricIds": [
+        "pact-3-GG-03-r1",
+        "pact-3-GG-03-r2",
+        "pact-3-GG-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.04",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "体积容积概念和换算有题；不规则物体排水测量缺。",
+      "taskIds": [
+        "pact-3-GG-04"
+      ],
+      "rubricIds": [
+        "pact-3-GG-04-r1",
+        "pact-3-GG-04-r2",
+        "pact-3-GG-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "形体性质、侧面展开和公式有题；完整展开图匹配与公式探索不足。",
+      "taskIds": [
+        "pact-3-GG-05"
+      ],
+      "rubricIds": [
+        "pact-3-GG-05-r1",
+        "pact-3-GG-05-r2",
+        "pact-3-GG-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.06",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "简单方块与遮挡推理有题；三视图实图互配仍缺。",
+      "taskIds": [
+        "pact-3-GG-06"
+      ],
+      "rubricIds": [
+        "pact-3-GG-06-r1",
+        "pact-3-GG-06-r2",
+        "pact-3-GG-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.07",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "局部量感和空间证据；综合素养需实际活动观察。",
+      "taskIds": [
+        "pact-3-GG-07"
+      ],
+      "rubricIds": [
+        "pact-3-GG-07-r1",
+        "pact-3-GG-07-r2",
+        "pact-3-GG-07-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.08",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "方向距离、反向路线有题；绘制与阅读实际路线图不足。",
+      "taskIds": [
+        "pact-3-GG-08"
+      ],
+      "rubricIds": [
+        "pact-3-GG-08-r1",
+        "pact-3-GG-08-r2",
+        "pact-3-GG-08-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.09",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "数对顺序有题；方格纸落点的实际图形任务不足。",
+      "taskIds": [
+        "pact-3-GG-09"
+      ],
+      "rubricIds": [
+        "pact-3-GG-09-r1",
+        "pact-3-GG-09-r2",
+        "pact-3-GG-09-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.10",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "比例尺与单位换算有题；方格图放大缩小操作缺。",
+      "taskIds": [
+        "pact-3-GG-10"
+      ],
+      "rubricIds": [
+        "pact-3-GG-10-r1",
+        "pact-3-GG-10-r2",
+        "pact-3-GG-10-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.11",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "点的对应、平移和方向旋转有题；补全或变换整个图形缺。",
+      "taskIds": [
+        "pact-3-GG-11"
+      ],
+      "rubricIds": [
+        "pact-3-GG-11-r1",
+        "pact-3-GG-11-r2",
+        "pact-3-GG-11-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.GG.12",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "无欣赏和设计图案的学生作品任务。",
+      "taskIds": [
+        "pact-3-GG-12"
+      ],
+      "rubricIds": [
+        "pact-3-GG-12-r1",
+        "pact-3-GG-12-r2",
+        "pact-3-GG-12-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.SP.01",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "没有完整的实际问题驱动的数据采集、整理、分析和学生陈述过程。",
+      "taskIds": [
+        "pact-3-SP-01"
+      ],
+      "rubricIds": [
+        "pact-3-SP-01-r1",
+        "pact-3-SP-01-r2",
+        "pact-3-SP-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.SP.02",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "真实可见的自编折线图与扇形图阅读有题；自主画图和呈现数据缺。",
+      "taskIds": [
+        "pact-3-SP-02"
+      ],
+      "rubricIds": [
+        "pact-3-SP-02-r1",
+        "pact-3-SP-02-r2",
+        "pact-3-SP-02-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.SP.03",
+      "kind": "standard-record",
+      "previousStatus": "gap",
+      "previousFinding": "无实际媒体来源及数据获取任务。",
+      "taskIds": [
+        "pact-3-SP-03"
+      ],
+      "rubricIds": [
+        "pact-3-SP-03-r1",
+        "pact-3-SP-03-r2",
+        "pact-3-SP-03-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.SP.04",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "百分数统计意义、部分总体和基数限制有题；开放探究不足。",
+      "taskIds": [
+        "pact-3-SP-04"
+      ],
+      "rubricIds": [
+        "pact-3-SP-04-r1",
+        "pact-3-SP-04-r2",
+        "pact-3-SP-04-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.SP.05",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "百分率与图表的局部实际应用；自主收集数据和判断情境合理性不足。",
+      "taskIds": [
+        "pact-3-SP-05"
+      ],
+      "rubricIds": [
+        "pact-3-SP-05-r1",
+        "pact-3-SP-05-r2",
+        "pact-3-SP-05-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.SP.06",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "随机现象的不确定性有题；真实实验过程未采集。",
+      "taskIds": [
+        "pact-3-SP-06"
+      ],
+      "rubricIds": [
+        "pact-3-SP-06-r1",
+        "pact-3-SP-06-r2",
+        "pact-3-SP-06-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.SP.07",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "可能性大小与必然性的区分有题；随机实验验证不足。",
+      "taskIds": [
+        "pact-3-SP-07"
+      ],
+      "rubricIds": [
+        "pact-3-SP-07-r1",
+        "pact-3-SP-07-r2",
+        "pact-3-SP-07-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "cms-2022:3.IP.01",
+      "kind": "standard-record",
+      "previousStatus": "partial",
+      "previousFinding": "相反意义的量直接表示有题；完整主题活动与学生说明不足。",
+      "taskIds": [
+        "pact-3-IP-01"
+      ],
+      "rubricIds": [
+        "pact-3-IP-01-r1",
+        "pact-3-IP-01-r2",
+        "pact-3-IP-01-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "example-2022:campus",
+      "kind": "reference-example",
+      "previousStatus": "unindexed-example",
+      "previousFinding": "实际测量、比例选择、画图及反思作品",
+      "taskIds": [
+        "pact-example-campus"
+      ],
+      "rubricIds": [
+        "pact-example-campus-r1",
+        "pact-example-campus-r2",
+        "pact-example-campus-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "example-2022:sport",
+      "kind": "reference-example",
+      "previousStatus": "unindexed-example",
+      "previousFinding": "有来源的体育数据、学生提问与分析",
+      "taskIds": [
+        "pact-example-sport"
+      ],
+      "rubricIds": [
+        "pact-example-sport-r1",
+        "pact-example-sport-r2",
+        "pact-example-sport-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "example-2022:lunch",
+      "kind": "reference-example",
+      "previousStatus": "unindexed-example",
+      "previousFinding": "数据调查、图表、方案比较与过程性评价",
+      "taskIds": [
+        "pact-example-lunch"
+      ],
+      "rubricIds": [
+        "pact-example-lunch-r1",
+        "pact-example-lunch-r2",
+        "pact-example-lunch-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    },
+    {
+      "targetId": "example-2022:water",
+      "kind": "reference-example",
+      "previousStatus": "unindexed-example",
+      "previousFinding": "用水调查、节水方案和评估记录",
+      "taskIds": [
+        "pact-example-water"
+      ],
+      "rubricIds": [
+        "pact-example-water-r1",
+        "pact-example-water-r2",
+        "pact-example-water-r3"
+      ],
+      "contentStatus": "authored-awaiting-review",
+      "validationStatus": "teacher-review-and-student-trial-pending"
+    }
+  ],
+  "remainingExternalValidation": [
+    "教师独立内容复核、作图和测量评分校准。",
+    "真实学生试做与跨次素养观察。",
+    "2025版官方原件认证及完整版本对照；2022全文逐字转写核验。",
+    "教材年级标签与课标学段的逐项教学安排校准；活动页按课标学段提供入口。"
+  ]
+}

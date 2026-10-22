@@ -8,7 +8,7 @@ def run(args):
  subprocess.run(args,cwd=ROOT,check=True)
 def main():
  lock=json.loads((ROOT/'data/current-release.json').read_text())
- for group in ['files','authoring','reviewFiles']:
+ for group in ['files','authoring','reviewFiles','supplementFiles']:
   for name,sha in lock[group].items():
    path=ROOT/'data'/name if group=='files' else ROOT/name
    if hashlib.sha256(path.read_bytes()).hexdigest()!=sha:raise ValueError('Release lock mismatch: '+name)
@@ -18,6 +18,8 @@ def main():
  run([sys.executable,'scripts/validate.py'])
  if lock['version'].startswith('primary-'):
   run([sys.executable,'scripts/build_primary_review.py','--check'])
+  run([sys.executable,'scripts/build_primary_completion.py','--check'])
+  run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_primary_completion.py'])
   run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_primary_review.py'])
   # Previous patches assert their historical outputs. Reconstruct the exact
   # frozen release, verify its byte hashes, and run the unchanged old checks.

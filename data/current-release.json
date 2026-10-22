@@ -82,5 +82,28 @@
     "reviews/math-primary/node-review.json": "7674bd47d0d6ff9bf15bbeb4c9092f1516c04ce1aadd11178207a8cb2cc6b909",
     "reviews/math-primary/acceptance.json": "7a2f06634aa41f77d670f596351c3e3a92d443fe9bf206841d2dfc0a7665c833",
     "reviews/math-primary/base-test-engine.js": "98dcb15b9a1d941396d79d7b491a6772e977e0ce46b99c231c3bdc7e619ba29d"
+  },
+  "contentSupplement": {
+    "version": "primary-activities-2026-10.1",
+    "status": "authored-awaiting-review",
+    "tasks": 81,
+    "rubricCriteria": 243,
+    "typedRelations": 323,
+    "review": "reviews/primary-completion/README.md",
+    "acceptance": "reviews/primary-completion/acceptance.json",
+    "legacyCoverageMeaning": "counts.coverage是首轮诊断题证据历史；新增活动内容见contentSupplement，不据此改为full。"
+  },
+  "supplementFiles": {
+    "data/primary-activities.json": "3e1e8096189e549c1f60ce3670075e262efaae8141093a04fba17d51c1ac5530",
+    "authoring/primary-completion/tasks.txt": "8c473b562be420afaecbe8986969062843c17281e96b0b075b43c2c13af17bef",
+    "scripts/build_primary_completion.py": "528f4635b508d9ae4e3d3204650277eac92827461dc4fcf42f964ae75ef768b2",
+    "tests/test_primary_completion.py": "24d3d453509d825120d34705cf970b355a9d998f79f1167f3edee8d62c646f8e",
+    "activities/primary/index.html": "a6d48ca53f428b64cb5a933d72196425b5b9e6bceeab3ed05a0615fe82e34c15",
+    "activities/primary/app.js": "f18a12a64dcc1ccafb961f171af2e25c63b0b23142d6b6989933ba1aff2f9b2d",
+    "explore/index.html": "a1bcf84a96c01c00b3e8f96aecfb7357faefb837b0d5c8449e83aea721306de6",
+    "explore/app.js": "95e5c0982a5961eec0bb97f050b792eee90762d76c55e962e8d860790409dd4b",
+    "reviews/primary-completion/README.md": "876c7472db924774d93c2c29b947a4873bc0accd6ec02a794657c51e077bc1db",
+    "reviews/primary-completion/coverage.json": "5d1a5ea71b1807ef77ca234db6e522b777b1a0a19e2bd3b14ac0724ad26d63d2",
+    "reviews/primary-completion/acceptance.json": "951178fe72d73aef3ab4c2cfb58c8d0e29eaf9126c12e87c88312c8e090c8377"
   }
 }
