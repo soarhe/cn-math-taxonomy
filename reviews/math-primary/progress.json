@@ -1,0 +1,21 @@
+{
+  "version": "primary-2026-10.1",
+  "primaryTopics": 216,
+  "primaryQuestions": 864,
+  "changedTopics": 89,
+  "changedQuestions": 512,
+  "changedIncomingDependencyGroups": 33,
+  "primaryDependencies": 321,
+  "byGrade": {
+    "1": 36,
+    "2": 24,
+    "3": 35,
+    "4": 36,
+    "5": 45,
+    "6": 40
+  },
+  "coverage": {
+    "partial": 67,
+    "gap": 10
+  }
+}

@@ -90,18 +90,6 @@
     "reason": "学习「10以内加减混合」需要先掌握「连加和连减」。"
   },
   {
-    "topicId": "cnm_p014",
-    "prerequisiteId": "cnm_p001",
-    "strength": "hard",
-    "reason": "学习「认识长方体、正方体、圆柱和球」需要先掌握「1到5各数的认识」。"
-  },
-  {
-    "topicId": "cnm_p015",
-    "prerequisiteId": "cnm_p001",
-    "strength": "hard",
-    "reason": "学习「上下前后左右」需要先掌握「1到5各数的认识」。"
-  },
-  {
     "topicId": "cnm_p016",
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
@@ -148,12 +136,6 @@
     "prerequisiteId": "cnm_p008",
     "strength": "hard",
     "reason": "学习「用数介绍和简单分类」需要先掌握「6到10各数的认识」。"
-  },
-  {
-    "topicId": "cnm_p023",
-    "prerequisiteId": "cnm_p014",
-    "strength": "hard",
-    "reason": "学习「认识长方形、正方形、三角形和圆」需要先掌握「认识长方体、正方体、圆柱和球」。"
   },
   {
     "topicId": "cnm_p024",
@@ -268,18 +250,6 @@
     "prerequisiteId": "cnm_p030",
     "strength": "hard",
     "reason": "学习「认识人民币」需要先掌握「整十数的加减」。"
-  },
-  {
-    "topicId": "cnm_p037",
-    "prerequisiteId": "cnm_p022",
-    "strength": "hard",
-    "reason": "学习「分类与整理」需要先掌握「用数介绍和简单分类」。"
-  },
-  {
-    "topicId": "cnm_p037",
-    "prerequisiteId": "cnm_p029",
-    "strength": "hard",
-    "reason": "学习「分类与整理」需要先掌握「100以内数的大小」。"
   },
   {
     "topicId": "cnm_p038",
@@ -414,18 +384,6 @@
     "reason": "学习「万以内数的组成」需要先掌握「万以内数的认识」。"
   },
   {
-    "topicId": "cnm_p056",
-    "prerequisiteId": "cnm_p028",
-    "strength": "hard",
-    "reason": "学习「克和千克」需要先掌握「100以内数的认识」。"
-  },
-  {
-    "topicId": "cnm_p056",
-    "prerequisiteId": "cnm_p041",
-    "strength": "hard",
-    "reason": "学习「克和千克」需要先掌握「认识米」。"
-  },
-  {
     "topicId": "cnm_p057",
     "prerequisiteId": "cnm_p039",
     "strength": "hard",
@@ -442,18 +400,6 @@
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
     "reason": "学习「带小括号的两步运算」需要先掌握「乘加乘减的运算顺序」。"
-  },
-  {
-    "topicId": "cnm_p059",
-    "prerequisiteId": "cnm_p058",
-    "strength": "hard",
-    "reason": "学习「两步加减应用」需要先掌握「带小括号的两步运算」。"
-  },
-  {
-    "topicId": "cnm_p059",
-    "prerequisiteId": "cnm_p035",
-    "strength": "hard",
-    "reason": "学习「两步加减应用」需要先掌握「部分与总数」。"
   },
   {
     "topicId": "cnm_p060",
@@ -678,12 +624,6 @@
     "reason": "学习「两位数乘法的应用」需要先掌握「两位数乘两位数」。"
   },
   {
-    "topicId": "cnm_p088",
-    "prerequisiteId": "cnm_p078",
-    "strength": "hard",
-    "reason": "学习「面积的意义」需要先掌握「长方形和正方形的周长」。"
-  },
-  {
     "topicId": "cnm_p089",
     "prerequisiteId": "cnm_p088",
     "strength": "hard",
@@ -712,12 +652,6 @@
     "prerequisiteId": "cnm_p062",
     "strength": "hard",
     "reason": "学习「年、月、日」需要先掌握「时、分、秒的进率」。"
-  },
-  {
-    "topicId": "cnm_p092",
-    "prerequisiteId": "cnm_p091",
-    "strength": "hard",
-    "reason": "学习「24时记时法」需要先掌握「年、月、日」。"
   },
   {
     "topicId": "cnm_p093",
@@ -768,12 +702,6 @@
     "reason": "学习「公顷和平方千米」需要先掌握「千米」。"
   },
   {
-    "topicId": "cnm_p099",
-    "prerequisiteId": "cnm_p077",
-    "strength": "hard",
-    "reason": "学习「线段、直线和射线」需要先掌握「长方形和正方形的特征」。"
-  },
-  {
     "topicId": "cnm_p100",
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
@@ -796,12 +724,6 @@
     "prerequisiteId": "cnm_p101",
     "strength": "hard",
     "reason": "学习「垂直」需要先掌握「锐角、直角和钝角」。"
-  },
-  {
-    "topicId": "cnm_p104",
-    "prerequisiteId": "cnm_p103",
-    "strength": "hard",
-    "reason": "学习「平行」需要先掌握「垂直」。"
   },
   {
     "topicId": "cnm_p105",
@@ -894,18 +816,6 @@
     "reason": "学习「加法交换律和结合律」需要先掌握「三位数加法笔算」。"
   },
   {
-    "topicId": "cnm_p115",
-    "prerequisiteId": "cnm_p086",
-    "strength": "hard",
-    "reason": "学习「乘法交换律和结合律」需要先掌握「两位数乘两位数」。"
-  },
-  {
-    "topicId": "cnm_p115",
-    "prerequisiteId": "cnm_p114",
-    "strength": "hard",
-    "reason": "学习「乘法交换律和结合律」需要先掌握「加法交换律和结合律」。"
-  },
-  {
     "topicId": "cnm_p116",
     "prerequisiteId": "cnm_p115",
     "strength": "hard",
@@ -940,12 +850,6 @@
     "prerequisiteId": "cnm_p118",
     "strength": "hard",
     "reason": "学习「小数点移动引起的大小变化」需要先掌握「小数的意义」。"
-  },
-  {
-    "topicId": "cnm_p122",
-    "prerequisiteId": "cnm_p105",
-    "strength": "hard",
-    "reason": "学习「三角形的分类」需要先掌握「平行四边形和梯形的特征」。"
   },
   {
     "topicId": "cnm_p123",
@@ -994,24 +898,6 @@
     "prerequisiteId": "cnm_p099",
     "strength": "hard",
     "reason": "学习「轴对称」需要先掌握「线段、直线和射线」。"
-  },
-  {
-    "topicId": "cnm_p128",
-    "prerequisiteId": "cnm_p127",
-    "strength": "hard",
-    "reason": "学习「平移」需要先掌握「轴对称」。"
-  },
-  {
-    "topicId": "cnm_p129",
-    "prerequisiteId": "cnm_p106",
-    "strength": "hard",
-    "reason": "学习「平均数」需要先掌握「除数是两位数的除法」。"
-  },
-  {
-    "topicId": "cnm_p129",
-    "prerequisiteId": "cnm_p108",
-    "strength": "hard",
-    "reason": "学习「平均数」需要先掌握「条形统计图」。"
   },
   {
     "topicId": "cnm_p130",
@@ -1086,12 +972,6 @@
     "reason": "学习「积的近似数」需要先掌握「求小数的近似数」。"
   },
   {
-    "topicId": "cnm_p136",
-    "prerequisiteId": "cnm_p082",
-    "strength": "hard",
-    "reason": "学习「用数对确定位置」需要先掌握「东北、东南、西北、西南」。"
-  },
-  {
     "topicId": "cnm_p137",
     "prerequisiteId": "cnm_p133",
     "strength": "hard",
@@ -1140,18 +1020,6 @@
     "reason": "学习「可能性的大小」需要先掌握「可能性」。"
   },
   {
-    "topicId": "cnm_p142",
-    "prerequisiteId": "cnm_p111",
-    "strength": "hard",
-    "reason": "学习「用字母表示数」需要先掌握「常见数量关系」。"
-  },
-  {
-    "topicId": "cnm_p142",
-    "prerequisiteId": "cnm_p117",
-    "strength": "hard",
-    "reason": "学习「用字母表示数」需要先掌握「用运算律简便计算」。"
-  },
-  {
     "topicId": "cnm_p143",
     "prerequisiteId": "cnm_p142",
     "strength": "hard",
@@ -1192,18 +1060,6 @@
     "prerequisiteId": "cnm_p105",
     "strength": "hard",
     "reason": "学习「平行四边形的面积」需要先掌握「平行四边形和梯形的特征」。"
-  },
-  {
-    "topicId": "cnm_p148",
-    "prerequisiteId": "cnm_p147",
-    "strength": "hard",
-    "reason": "学习「三角形的面积」需要先掌握「平行四边形的面积」。"
-  },
-  {
-    "topicId": "cnm_p148",
-    "prerequisiteId": "cnm_p122",
-    "strength": "hard",
-    "reason": "学习「三角形的面积」需要先掌握「三角形的分类」。"
   },
   {
     "topicId": "cnm_p149",
@@ -1254,12 +1110,6 @@
     "reason": "学习「2和5的倍数的特征」需要先掌握「因数和倍数」。"
   },
   {
-    "topicId": "cnm_p155",
-    "prerequisiteId": "cnm_p154",
-    "strength": "hard",
-    "reason": "学习「3的倍数的特征」需要先掌握「2和5的倍数的特征」。"
-  },
-  {
     "topicId": "cnm_p156",
     "prerequisiteId": "cnm_p154",
     "strength": "hard",
@@ -1270,18 +1120,6 @@
     "prerequisiteId": "cnm_p153",
     "strength": "hard",
     "reason": "学习「质数和合数」需要先掌握「因数和倍数」。"
-  },
-  {
-    "topicId": "cnm_p158",
-    "prerequisiteId": "cnm_p157",
-    "strength": "hard",
-    "reason": "学习「最大公因数」需要先掌握「质数和合数」。"
-  },
-  {
-    "topicId": "cnm_p159",
-    "prerequisiteId": "cnm_p155",
-    "strength": "hard",
-    "reason": "学习「最小公倍数」需要先掌握「3的倍数的特征」。"
   },
   {
     "topicId": "cnm_p160",
@@ -1326,18 +1164,6 @@
     "reason": "学习「容积」需要先掌握「长方体和正方体的体积」。"
   },
   {
-    "topicId": "cnm_p165",
-    "prerequisiteId": "cnm_p079",
-    "strength": "hard",
-    "reason": "学习「分数的意义」需要先掌握「几分之一」。"
-  },
-  {
-    "topicId": "cnm_p165",
-    "prerequisiteId": "cnm_p153",
-    "strength": "hard",
-    "reason": "学习「分数的意义」需要先掌握「因数和倍数」。"
-  },
-  {
     "topicId": "cnm_p166",
     "prerequisiteId": "cnm_p165",
     "strength": "hard",
@@ -1368,12 +1194,6 @@
     "reason": "学习「约分」需要先掌握「最大公因数」。"
   },
   {
-    "topicId": "cnm_p169",
-    "prerequisiteId": "cnm_p168",
-    "strength": "hard",
-    "reason": "学习「分数的大小比较」需要先掌握「约分」。"
-  },
-  {
     "topicId": "cnm_p170",
     "prerequisiteId": "cnm_p165",
     "strength": "hard",
@@ -1384,18 +1204,6 @@
     "prerequisiteId": "cnm_p118",
     "strength": "hard",
     "reason": "学习「分数和小数互化」需要先掌握「小数的意义」。"
-  },
-  {
-    "topicId": "cnm_p171",
-    "prerequisiteId": "cnm_p128",
-    "strength": "hard",
-    "reason": "学习「旋转」需要先掌握「平移」。"
-  },
-  {
-    "topicId": "cnm_p171",
-    "prerequisiteId": "cnm_p100",
-    "strength": "hard",
-    "reason": "学习「旋转」需要先掌握「角的度量」。"
   },
   {
     "topicId": "cnm_p172",
@@ -1434,12 +1242,6 @@
     "reason": "学习「分数加减混合」需要先掌握「带小括号的两步运算」。"
   },
   {
-    "topicId": "cnm_p175",
-    "prerequisiteId": "cnm_p129",
-    "strength": "hard",
-    "reason": "学习「折线统计图」需要先掌握「平均数」。"
-  },
-  {
     "topicId": "cnm_p176",
     "prerequisiteId": "cnm_p057",
     "strength": "hard",
@@ -1452,30 +1254,6 @@
     "reason": "「可能性」对学习「找次品」有帮助，但不会前者也可以开始学后者。"
   },
   {
-    "topicId": "cnm_p177",
-    "prerequisiteId": "cnm_p173",
-    "strength": "hard",
-    "reason": "学习「分数乘整数」需要先掌握「异分母分数加减」。"
-  },
-  {
-    "topicId": "cnm_p177",
-    "prerequisiteId": "cnm_p168",
-    "strength": "hard",
-    "reason": "学习「分数乘整数」需要先掌握「约分」。"
-  },
-  {
-    "topicId": "cnm_p178",
-    "prerequisiteId": "cnm_p177",
-    "strength": "hard",
-    "reason": "学习「分数乘分数」需要先掌握「分数乘整数」。"
-  },
-  {
-    "topicId": "cnm_p178",
-    "prerequisiteId": "cnm_p133",
-    "strength": "hard",
-    "reason": "学习「分数乘分数」需要先掌握「小数乘小数」。"
-  },
-  {
     "topicId": "cnm_p179",
     "prerequisiteId": "cnm_p178",
     "strength": "hard",
@@ -1486,18 +1264,6 @@
     "prerequisiteId": "cnm_p111",
     "strength": "hard",
     "reason": "学习「分数乘法的应用」需要先掌握「常见数量关系」。"
-  },
-  {
-    "topicId": "cnm_p180",
-    "prerequisiteId": "cnm_p136",
-    "strength": "hard",
-    "reason": "学习「根据方向和距离确定位置」需要先掌握「用数对确定位置」。"
-  },
-  {
-    "topicId": "cnm_p180",
-    "prerequisiteId": "cnm_p099",
-    "strength": "hard",
-    "reason": "学习「根据方向和距离确定位置」需要先掌握「线段、直线和射线」。"
   },
   {
     "topicId": "cnm_p181",
@@ -1590,18 +1356,6 @@
     "reason": "学习「圆的周长的应用」需要先掌握「常见数量关系」。"
   },
   {
-    "topicId": "cnm_p192",
-    "prerequisiteId": "cnm_p190",
-    "strength": "hard",
-    "reason": "学习「圆的面积」需要先掌握「圆的周长」。"
-  },
-  {
-    "topicId": "cnm_p192",
-    "prerequisiteId": "cnm_p089",
-    "strength": "hard",
-    "reason": "学习「圆的面积」需要先掌握「长方形和正方形的面积」。"
-  },
-  {
     "topicId": "cnm_p193",
     "prerequisiteId": "cnm_p188",
     "strength": "hard",
@@ -1692,18 +1446,6 @@
     "reason": "「长方形和正方形的面积」对学习「数与形」有帮助，但不会前者也可以开始学后者。"
   },
   {
-    "topicId": "cnm_p201",
-    "prerequisiteId": "cnm_p053",
-    "strength": "hard",
-    "reason": "学习「认识负数」需要先掌握「万以内数的认识」。"
-  },
-  {
-    "topicId": "cnm_p201",
-    "prerequisiteId": "cnm_p119",
-    "strength": "hard",
-    "reason": "学习「认识负数」需要先掌握「比较小数的大小」。"
-  },
-  {
     "topicId": "cnm_p202",
     "prerequisiteId": "cnm_p201",
     "strength": "hard",
@@ -1714,24 +1456,6 @@
     "prerequisiteId": "cnm_p196",
     "strength": "hard",
     "reason": "学习「折扣」需要先掌握「求一个数的百分之几」。"
-  },
-  {
-    "topicId": "cnm_p204",
-    "prerequisiteId": "cnm_p203",
-    "strength": "hard",
-    "reason": "学习「利率」需要先掌握「折扣」。"
-  },
-  {
-    "topicId": "cnm_p205",
-    "prerequisiteId": "cnm_p197",
-    "strength": "hard",
-    "reason": "学习「百分数的应用」需要先掌握「求百分率」。"
-  },
-  {
-    "topicId": "cnm_p205",
-    "prerequisiteId": "cnm_p204",
-    "strength": "hard",
-    "reason": "学习「百分数的应用」需要先掌握「利率」。"
   },
   {
     "topicId": "cnm_p206",
@@ -1762,12 +1486,6 @@
     "prerequisiteId": "cnm_p163",
     "strength": "hard",
     "reason": "学习「圆柱的体积」需要先掌握「长方体和正方体的体积」。"
-  },
-  {
-    "topicId": "cnm_p208",
-    "prerequisiteId": "cnm_p207",
-    "strength": "hard",
-    "reason": "学习「圆柱的表面积」需要先掌握「圆柱的体积」。"
   },
   {
     "topicId": "cnm_p209",
@@ -1816,12 +1534,6 @@
     "prerequisiteId": "cnm_p111",
     "strength": "hard",
     "reason": "学习「正比例」需要先掌握「常见数量关系」。"
-  },
-  {
-    "topicId": "cnm_p214",
-    "prerequisiteId": "cnm_p213",
-    "strength": "hard",
-    "reason": "学习「反比例」需要先掌握「正比例」。"
   },
   {
     "topicId": "cnm_p215",
@@ -13084,5 +12796,347 @@
     "prerequisiteId": "cnm_047",
     "strength": "soft",
     "reason": "高铁运行涉及路程、速度、时间的关系，行程问题的经验有帮助"
+  },
+  {
+    "topicId": "cnm_p014",
+    "prerequisiteId": "cnm_p001",
+    "strength": "soft",
+    "reason": "「1到5各数的认识」可辅助学习或安排教学顺序，但答错不能证明「认识长方体、正方体、圆柱和球」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p015",
+    "prerequisiteId": "cnm_p001",
+    "strength": "soft",
+    "reason": "「1到5各数的认识」可辅助学习或安排教学顺序，但答错不能证明「上下前后左右」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p023",
+    "prerequisiteId": "cnm_p014",
+    "strength": "soft",
+    "reason": "「认识长方体、正方体、圆柱和球」可辅助学习或安排教学顺序，但答错不能证明「认识长方形、正方形、三角形和圆」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p037",
+    "prerequisiteId": "cnm_p022",
+    "strength": "hard",
+    "reason": "学习「分类与整理」需要先掌握「用数介绍和简单分类」。"
+  },
+  {
+    "topicId": "cnm_p037",
+    "prerequisiteId": "cnm_p029",
+    "strength": "soft",
+    "reason": "「100以内数的大小」可辅助学习或安排教学顺序，但答错不能证明「分类与整理」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p056",
+    "prerequisiteId": "cnm_p028",
+    "strength": "hard",
+    "reason": "学习「克和千克」需要先掌握「100以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p056",
+    "prerequisiteId": "cnm_p041",
+    "strength": "soft",
+    "reason": "「认识米」可辅助学习或安排教学顺序，但答错不能证明「克和千克」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p059",
+    "prerequisiteId": "cnm_p058",
+    "strength": "soft",
+    "reason": "「带小括号的两步运算」可辅助学习或安排教学顺序，但答错不能证明「两步加减应用」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p059",
+    "prerequisiteId": "cnm_p035",
+    "strength": "hard",
+    "reason": "学习「两步加减应用」需要先掌握「部分与总数」。"
+  },
+  {
+    "topicId": "cnm_p088",
+    "prerequisiteId": "cnm_p078",
+    "strength": "soft",
+    "reason": "「长方形和正方形的周长」可辅助学习或安排教学顺序，但答错不能证明「面积的意义」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p092",
+    "prerequisiteId": "cnm_p091",
+    "strength": "soft",
+    "reason": "「年、月、日」可辅助学习或安排教学顺序，但答错不能证明「24时记时法」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p099",
+    "prerequisiteId": "cnm_p077",
+    "strength": "soft",
+    "reason": "「长方形和正方形的特征」可辅助学习或安排教学顺序，但答错不能证明「线段、直线和射线」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p104",
+    "prerequisiteId": "cnm_p103",
+    "strength": "soft",
+    "reason": "「垂直」可辅助学习或安排教学顺序，但答错不能证明「平行」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p115",
+    "prerequisiteId": "cnm_p086",
+    "strength": "hard",
+    "reason": "学习「乘法交换律和结合律」需要先掌握「两位数乘两位数」。"
+  },
+  {
+    "topicId": "cnm_p115",
+    "prerequisiteId": "cnm_p114",
+    "strength": "soft",
+    "reason": "「加法交换律和结合律」可辅助学习或安排教学顺序，但答错不能证明「乘法交换律和结合律」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p122",
+    "prerequisiteId": "cnm_p105",
+    "strength": "soft",
+    "reason": "「平行四边形和梯形的特征」可辅助学习或安排教学顺序，但答错不能证明「三角形的分类」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p122",
+    "prerequisiteId": "cnm_p101",
+    "strength": "hard",
+    "reason": "按角分类需要分辨锐角、直角和钝角。"
+  },
+  {
+    "topicId": "cnm_p128",
+    "prerequisiteId": "cnm_p127",
+    "strength": "soft",
+    "reason": "「轴对称」可辅助学习或安排教学顺序，但答错不能证明「平移」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p129",
+    "prerequisiteId": "cnm_p106",
+    "strength": "hard",
+    "reason": "学习「平均数」需要先掌握「除数是两位数的除法」。"
+  },
+  {
+    "topicId": "cnm_p129",
+    "prerequisiteId": "cnm_p108",
+    "strength": "soft",
+    "reason": "「条形统计图」可辅助学习或安排教学顺序，但答错不能证明「平均数」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p136",
+    "prerequisiteId": "cnm_p082",
+    "strength": "soft",
+    "reason": "「东北、东南、西北、西南」可辅助学习或安排教学顺序，但答错不能证明「用数对确定位置」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p142",
+    "prerequisiteId": "cnm_p111",
+    "strength": "hard",
+    "reason": "学习「用字母表示数」需要先掌握「常见数量关系」。"
+  },
+  {
+    "topicId": "cnm_p142",
+    "prerequisiteId": "cnm_p117",
+    "strength": "soft",
+    "reason": "「用运算律简便计算」可辅助学习或安排教学顺序，但答错不能证明「用字母表示数」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p148",
+    "prerequisiteId": "cnm_p147",
+    "strength": "soft",
+    "reason": "「平行四边形的面积」可辅助学习或安排教学顺序，但答错不能证明「三角形的面积」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p148",
+    "prerequisiteId": "cnm_p122",
+    "strength": "hard",
+    "reason": "学习「三角形的面积」需要先掌握「三角形的分类」。"
+  },
+  {
+    "topicId": "cnm_p155",
+    "prerequisiteId": "cnm_p154",
+    "strength": "soft",
+    "reason": "「2和5的倍数的特征」可辅助学习或安排教学顺序，但答错不能证明「3的倍数的特征」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p158",
+    "prerequisiteId": "cnm_p157",
+    "strength": "soft",
+    "reason": "「质数和合数」可辅助学习或安排教学顺序，但答错不能证明「最大公因数」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p158",
+    "prerequisiteId": "cnm_p153",
+    "strength": "hard",
+    "reason": "寻找公因数需要理解因数。"
+  },
+  {
+    "topicId": "cnm_p159",
+    "prerequisiteId": "cnm_p155",
+    "strength": "soft",
+    "reason": "「3的倍数的特征」可辅助学习或安排教学顺序，但答错不能证明「最小公倍数」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p159",
+    "prerequisiteId": "cnm_p153",
+    "strength": "hard",
+    "reason": "寻找公倍数需要理解倍数。"
+  },
+  {
+    "topicId": "cnm_p165",
+    "prerequisiteId": "cnm_p079",
+    "strength": "hard",
+    "reason": "学习「分数的意义」需要先掌握「几分之一」。"
+  },
+  {
+    "topicId": "cnm_p165",
+    "prerequisiteId": "cnm_p153",
+    "strength": "soft",
+    "reason": "「因数和倍数」可辅助学习或安排教学顺序，但答错不能证明「分数的意义」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p169",
+    "prerequisiteId": "cnm_p168",
+    "strength": "soft",
+    "reason": "「约分」可辅助学习或安排教学顺序，但答错不能证明「分数的大小比较」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p171",
+    "prerequisiteId": "cnm_p128",
+    "strength": "soft",
+    "reason": "「平移」可辅助学习或安排教学顺序，但答错不能证明「旋转」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p171",
+    "prerequisiteId": "cnm_p100",
+    "strength": "hard",
+    "reason": "学习「旋转」需要先掌握「角的度量」。"
+  },
+  {
+    "topicId": "cnm_p175",
+    "prerequisiteId": "cnm_p129",
+    "strength": "soft",
+    "reason": "「平均数」可辅助学习或安排教学顺序，但答错不能证明「折线统计图」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p175",
+    "prerequisiteId": "cnm_p108",
+    "strength": "hard",
+    "reason": "读取折线图需要理解统计图的数据刻度和对应关系。"
+  },
+  {
+    "topicId": "cnm_p177",
+    "prerequisiteId": "cnm_p173",
+    "strength": "soft",
+    "reason": "「异分母分数加减」可辅助学习或安排教学顺序，但答错不能证明「分数乘整数」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p177",
+    "prerequisiteId": "cnm_p168",
+    "strength": "hard",
+    "reason": "学习「分数乘整数」需要先掌握「约分」。"
+  },
+  {
+    "topicId": "cnm_p178",
+    "prerequisiteId": "cnm_p177",
+    "strength": "hard",
+    "reason": "学习「分数乘分数」需要先掌握「分数乘整数」。"
+  },
+  {
+    "topicId": "cnm_p178",
+    "prerequisiteId": "cnm_p133",
+    "strength": "soft",
+    "reason": "「小数乘小数」可辅助学习或安排教学顺序，但答错不能证明「分数乘分数」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p180",
+    "prerequisiteId": "cnm_p136",
+    "strength": "hard",
+    "reason": "学习「根据方向和距离确定位置」需要先掌握「用数对确定位置」。"
+  },
+  {
+    "topicId": "cnm_p180",
+    "prerequisiteId": "cnm_p099",
+    "strength": "hard",
+    "reason": "学习「根据方向和距离确定位置」需要先掌握「线段、直线和射线」。"
+  },
+  {
+    "topicId": "cnm_p180",
+    "prerequisiteId": "cnm_p082",
+    "strength": "hard",
+    "reason": "方向角表示位置需要理解方位。"
+  },
+  {
+    "topicId": "cnm_p180",
+    "prerequisiteId": "cnm_p100",
+    "strength": "hard",
+    "reason": "按角度描述方向需要角的度量。"
+  },
+  {
+    "topicId": "cnm_p192",
+    "prerequisiteId": "cnm_p190",
+    "strength": "soft",
+    "reason": "「圆的周长」可辅助学习或安排教学顺序，但答错不能证明「圆的面积」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p192",
+    "prerequisiteId": "cnm_p089",
+    "strength": "hard",
+    "reason": "学习「圆的面积」需要先掌握「长方形和正方形的面积」。"
+  },
+  {
+    "topicId": "cnm_p201",
+    "prerequisiteId": "cnm_p053",
+    "strength": "hard",
+    "reason": "学习「认识负数」需要先掌握「万以内数的认识」。"
+  },
+  {
+    "topicId": "cnm_p201",
+    "prerequisiteId": "cnm_p119",
+    "strength": "soft",
+    "reason": "「比较小数的大小」可辅助学习或安排教学顺序，但答错不能证明「认识负数」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p204",
+    "prerequisiteId": "cnm_p203",
+    "strength": "soft",
+    "reason": "「折扣」可辅助学习或安排教学顺序，但答错不能证明「利率」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p204",
+    "prerequisiteId": "cnm_p196",
+    "strength": "hard",
+    "reason": "按利率求利息需要求一个数的百分之几。"
+  },
+  {
+    "topicId": "cnm_p205",
+    "prerequisiteId": "cnm_p197",
+    "strength": "hard",
+    "reason": "学习「百分数的应用」需要先掌握「求百分率」。"
+  },
+  {
+    "topicId": "cnm_p205",
+    "prerequisiteId": "cnm_p204",
+    "strength": "soft",
+    "reason": "「利率」可辅助学习或安排教学顺序，但答错不能证明「百分数的应用」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p208",
+    "prerequisiteId": "cnm_p207",
+    "strength": "soft",
+    "reason": "「圆柱的体积」可辅助学习或安排教学顺序，但答错不能证明「圆柱的表面积」必然未掌握，不作硬性诊断阻断。"
+  },
+  {
+    "topicId": "cnm_p208",
+    "prerequisiteId": "cnm_p206",
+    "strength": "hard",
+    "reason": "圆柱表面积需要认识底面与侧面。"
+  },
+  {
+    "topicId": "cnm_p208",
+    "prerequisiteId": "cnm_p192",
+    "strength": "hard",
+    "reason": "两个圆形底面的面积需要圆面积知识。"
+  },
+  {
+    "topicId": "cnm_p214",
+    "prerequisiteId": "cnm_p213",
+    "strength": "soft",
+    "reason": "「正比例」可辅助学习或安排教学顺序，但答错不能证明「反比例」必然未掌握，不作硬性诊断阻断。"
   }
 ]

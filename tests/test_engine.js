@@ -595,7 +595,7 @@ test('数据可加载：小学 216 + 初中 317 + 高中必修 143 + 选择性�
   const mathTopics = topics.filter((t) => String(t.id).startsWith('cnm_'));
   const mathDeps = deps.filter((d) => String(d.topicId).startsWith('cnm_'));
   assert.strictEqual(mathTopics.length, 804);
-  assert.strictEqual(mathDeps.length, 1304);
+  assert.strictEqual(mathDeps.length, 1313);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
   assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 216);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 317);

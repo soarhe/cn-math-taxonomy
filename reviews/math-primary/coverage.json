@@ -1,0 +1,952 @@
+{
+  "scope": "77 existing primary content-requirement records; not proof of completeness for 2025 revision or all practice activities",
+  "counts": {
+    "partial": 67,
+    "gap": 10
+  },
+  "rows": [
+    {
+      "standardId": "cms-2022:1.NA.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p017_q3",
+        "cnm_p055_q4"
+      ],
+      "finding": "数位与数的组成有题；算盘表示、读写多位数和真实情境数感未充分取样。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 18"
+    },
+    {
+      "standardId": "cms-2022:1.NA.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p002_q1",
+        "cnm_p029_q2",
+        "cnm_p054_q4"
+      ],
+      "finding": "覆盖大小比较和排序；相等关系的解释仍需口头或书面证据。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 18"
+    },
+    {
+      "standardId": "cms-2022:1.NA.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p038_q2",
+        "cnm_p043_q2",
+        "cnm_p047_q2"
+      ],
+      "finding": "四则意义与相互关系有局部任务；不能用少量选择题认证全部理解。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 18"
+    },
+    {
+      "standardId": "cms-2022:1.NA.04",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p019_q2",
+        "cnm_p031_q1",
+        "cnm_p032_q1",
+        "cnm_p033_q2"
+      ],
+      "finding": "算理、算法和运算有局部证据；真实竖式过程与解释未自动采集。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 18"
+    },
+    {
+      "standardId": "cms-2022:1.NA.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p039_q1",
+        "cnm_p043_q3",
+        "cnm_p050_q2",
+        "cnm_p052_q3"
+      ],
+      "finding": "乘除运算和情境解释有题；算法探索过程未采集。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 18"
+    },
+    {
+      "standardId": "cms-2022:1.NA.06",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p006_q3",
+        "cnm_p052_q3"
+      ],
+      "finding": "可作为应用和推理的局部观察；数感、符号意识等综合素养不能由答对几题判定。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 18"
+    },
+    {
+      "standardId": "cms-2022:1.NA.07",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p035_q1",
+        "cnm_p048_q1",
+        "cnm_p052_q1"
+      ],
+      "finding": "撤去了代列算式并检查余数情境；仍需学生说明结果意义。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 19"
+    },
+    {
+      "standardId": "cms-2022:1.NA.08",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p060_q1",
+        "cnm_p060_q2"
+      ],
+      "finding": "已给出恒定增减的假设；尚未涵盖学生自己发现并表达多种规律。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 19"
+    },
+    {
+      "standardId": "cms-2022:1.GG.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p014_q1",
+        "cnm_p023_q1",
+        "cnm_p024_q2"
+      ],
+      "finding": "含实图辨形和分割示意；实际动手拼图、分类过程仍缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 28"
+    },
+    {
+      "standardId": "cms-2022:1.GG.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p040_q3",
+        "cnm_p041_q2",
+        "cnm_p045_q2"
+      ],
+      "finding": "尺子读数、单位换算和估测有题；统一单位必要性与真实测量未完成。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 28"
+    },
+    {
+      "standardId": "cms-2022:1.GG.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p024_q2",
+        "cnm_p040_q3"
+      ],
+      "finding": "空间与量感只取得局部观察；需要连续活动表现。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 28"
+    },
+    {
+      "standardId": "cms-2022:1.SP.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p022_q1",
+        "cnm_p037_q3"
+      ],
+      "finding": "直接测分类标准；实际收集和分类活动仍需补充。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 37"
+    },
+    {
+      "standardId": "cms-2022:1.IP.01",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "分类答题不能替代分享学前数学游戏经历的活动。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 43"
+    },
+    {
+      "standardId": "cms-2022:1.IP.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p036_q1",
+        "cnm_p036_q4"
+      ],
+      "finding": "人民币与简单购物有题；节约意识、交易活动和金融素养没有充分证据。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 43"
+    },
+    {
+      "standardId": "cms-2022:1.IP.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p061_q1",
+        "cnm_p062_q2",
+        "cnm_p063_q2"
+      ],
+      "finding": "时间认识和经过时间有题；感受时长、守时活动没有充分证据，且教材年级安排跨越学段。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 43"
+    },
+    {
+      "standardId": "cms-2022:1.IP.04",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p015_q2",
+        "cnm_p049_q3"
+      ],
+      "finding": "位置和方向有纸面题；真实教室定位活动仍缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 43"
+    },
+    {
+      "standardId": "cms-2022:1.IP.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p045_q1",
+        "cnm_p045_q2"
+      ],
+      "finding": "需要校准身体尺的概念和估测计算有题；实际测量记录未采集。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 43"
+    },
+    {
+      "standardId": "cms-2022:1.IP.06",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "没有学生叙述或制作数学连环画的活动任务。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 43–44"
+    },
+    {
+      "standardId": "cms-2022:2.NA.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p096_q2",
+        "cnm_p097_q1",
+        "cnm_p102_q4",
+        "cnm_p106_q3"
+      ],
+      "finding": "多位数和乘除运算有题；数级读法和算法迁移证据不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 20"
+    },
+    {
+      "standardId": "cms-2022:2.NA.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p079_q2",
+        "cnm_p080_q1",
+        "cnm_p093_q1",
+        "cnm_p094_q1"
+      ],
+      "finding": "分数、小数意义和简单运算有题；计数单位解释需要更多表现任务。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p084_q2",
+        "cnm_p112_q3"
+      ],
+      "finding": "情境除法与混合运算有题；综合情境与运算意义解释有限。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.04",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p114_q4",
+        "cnm_p115_q4",
+        "cnm_p116_q4"
+      ],
+      "finding": "已补运算律及字母表达；探索和证明过程不由选择题替代。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p076_q2",
+        "cnm_p076_q3"
+      ],
+      "finding": "编码是局部应用；生活特征描述和数感发展需持续观察。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.06",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p066_q2",
+        "cnm_p126_q1"
+      ],
+      "finding": "估算与实际问题有题；自主选择估算精度及单位的任务不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.07",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "无操作计算器并探索规律的任务；普通计算题不算此条证据。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.08",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p111_q1",
+        "cnm_p111_q2",
+        "cnm_p111_q4"
+      ],
+      "finding": "总价、路程等关系有直接情境；解释关系和迁移仍需补充。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.09",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "未见直接测量“等量的等量相等”的具体情境任务。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.NA.10",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p109_q2",
+        "cnm_p131_q2"
+      ],
+      "finding": "优化与模型问题有局部证据；模型建立和结果说明未充分采集。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 21"
+    },
+    {
+      "standardId": "cms-2022:2.GG.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p099_q2",
+        "cnm_p103_q4",
+        "cnm_p104_q3"
+      ],
+      "finding": "线与位置关系有题；尺规作等长线段、两点最短路径的操作缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 29"
+    },
+    {
+      "standardId": "cms-2022:2.GG.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p100_q1",
+        "cnm_p100_q2"
+      ],
+      "finding": "量角器对齐和读圈有题；实际画角与量角缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 29"
+    },
+    {
+      "standardId": "cms-2022:2.GG.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p067_q1",
+        "cnm_p068_q1",
+        "cnm_p090_q4"
+      ],
+      "finding": "单位换算有题；真实估测、测量与选择单位不足。2022原页确认平方单位。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022原页单位更正；其他措辞仍保留转写状态",
+      "pageOrRef": "2022版课标印刷页码 29"
+    },
+    {
+      "standardId": "cms-2022:2.GG.04",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p105_q3",
+        "cnm_p122_q1",
+        "cnm_p122_q3"
+      ],
+      "finding": "分类依据有题；多样图形、旋转形态辨认不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 29"
+    },
+    {
+      "standardId": "cms-2022:2.GG.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p078_q2",
+        "cnm_p088_q3",
+        "cnm_p089_q1"
+      ],
+      "finding": "周长面积概念和计算有题；公式探索过程不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 29"
+    },
+    {
+      "standardId": "cms-2022:2.GG.06",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p113_q3",
+        "cnm_p113_q4"
+      ],
+      "finding": "文字描述物体的视向有题；照片、复杂遮挡和直接视图匹配不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 30"
+    },
+    {
+      "standardId": "cms-2022:2.GG.07",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p088_q3",
+        "cnm_p113_q4"
+      ],
+      "finding": "局部空间与量感观察，不等于综合素养认证。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 30"
+    },
+    {
+      "standardId": "cms-2022:2.GG.08",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p127_q2",
+        "cnm_p128_q2",
+        "cnm_p171_q4"
+      ],
+      "finding": "点的位置变换与性质有题；实物变换和完整图形操作不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 30"
+    },
+    {
+      "standardId": "cms-2022:2.GG.09",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p127_q4",
+        "cnm_p128_q4"
+      ],
+      "finding": "局部位置推断；几何直观需更多真实操作证据。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 30"
+    },
+    {
+      "standardId": "cms-2022:2.SP.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p085_q4",
+        "cnm_p037_q3"
+      ],
+      "finding": "读表整理位置和分类标准有题；实际采集数据和制作表格缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 38"
+    },
+    {
+      "standardId": "cms-2022:2.SP.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p085_q1",
+        "cnm_p085_q2"
+      ],
+      "finding": "表内比较和信息解释有题；学生自主交流分析不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 38"
+    },
+    {
+      "standardId": "cms-2022:2.SP.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p108_q2",
+        "cnm_p130_q3"
+      ],
+      "finding": "实际条形图读数与比较已补；独立绘图仍缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 38"
+    },
+    {
+      "standardId": "cms-2022:2.SP.04",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "无真实媒体统计图来源和相应阅读任务，不能把自编图冒充媒体图表。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 38"
+    },
+    {
+      "standardId": "cms-2022:2.SP.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p129_q2",
+        "cnm_p129_q4"
+      ],
+      "finding": "计算平均数和概念有题；移多补少、异常值与适用性不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 38"
+    },
+    {
+      "standardId": "cms-2022:2.SP.06",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p130_q2",
+        "cnm_p129_q4"
+      ],
+      "finding": "情境图表与平均数局部应用；自主选择表达方式不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 38"
+    },
+    {
+      "standardId": "cms-2022:2.IP.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p091_q4",
+        "cnm_p092_q1"
+      ],
+      "finding": "日历和24时记时有题；古代四季文化与主题探究缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 46"
+    },
+    {
+      "standardId": "cms-2022:2.IP.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p056_q2",
+        "cnm_p070_q2"
+      ],
+      "finding": "质量单位换算有题；曹冲称象中的等量替代推理缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 47"
+    },
+    {
+      "standardId": "cms-2022:2.IP.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p082_q2",
+        "cnm_p082_q3"
+      ],
+      "finding": "斜方向有题；几点钟方向、寻找宝藏实际活动缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 47"
+    },
+    {
+      "standardId": "cms-2022:2.IP.04",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "无查阅度量衡史料和理解统一单位的主题活动任务。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 47"
+    },
+    {
+      "standardId": "cms-2022:3.NA.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p153_q1",
+        "cnm_p155_q1",
+        "cnm_p156_q4",
+        "cnm_p157_q3",
+        "cnm_p158_q1",
+        "cnm_p159_q1"
+      ],
+      "finding": "基本术语和公因数公倍数有题；穷举过程与概念关联解释不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 23"
+    },
+    {
+      "standardId": "cms-2022:3.NA.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p118_q1",
+        "cnm_p165_q3",
+        "cnm_p166_q3",
+        "cnm_p170_q3"
+      ],
+      "finding": "小数分数意义与互化有题；计数单位与多情境迁移不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 23"
+    },
+    {
+      "standardId": "cms-2022:3.NA.03",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "现有平均分、分数除法题未直接测a÷b＝a/b及其具体情境解释。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.NA.04",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p133_q1",
+        "cnm_p173_q1",
+        "cnm_p178_q2",
+        "cnm_p183_q2"
+      ],
+      "finding": "四则运算有题；跨运算一致性的解释不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.NA.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p144_q2",
+        "cnm_p144_q4"
+      ],
+      "finding": "等式性质直接判断有题；天平等具体情境操作不足。方程题型不等于原文独立要求。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.NA.06",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p135_q1",
+        "cnm_p135_q2"
+      ],
+      "finding": "积的近似数提供局部取近似证据；实际情境自主选择估算方法不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.NA.07",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p142_q4",
+        "cnm_p200_q4"
+      ],
+      "finding": "字母表示数量关系和规律有题；自主建式与一般性解释不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.NA.08",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p185_q4",
+        "cnm_p186_q1",
+        "cnm_p187_q3",
+        "cnm_p210_q2"
+      ],
+      "finding": "比、比例、按比分配有题；情境范围和解释证据有限。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.NA.09",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p213_q1",
+        "cnm_p213_q4"
+      ],
+      "finding": "正比例有局部证据；变化趋势表和自主探规律不足，反比例不充作此条直接证据。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.NA.10",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p179_q3",
+        "cnm_p184_q1",
+        "cnm_p187_q3",
+        "cnm_p205_q3"
+      ],
+      "finding": "数量关系应用有题；说明模型与结果合理性不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2025 年日常修订版转写；2026-10-21 补齐（2022 版原数据漏收该条）",
+      "pageOrRef": "2022版课标印刷页码 24"
+    },
+    {
+      "standardId": "cms-2022:3.GG.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p123_q3",
+        "cnm_p124_q2"
+      ],
+      "finding": "三边关系和内角和有直接问题；操作验证和推理表达不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 32"
+    },
+    {
+      "standardId": "cms-2022:3.GG.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p188_q2",
+        "cnm_p189_q2",
+        "cnm_p190_q3",
+        "cnm_p192_q3",
+        "cnm_p193_q2"
+      ],
+      "finding": "圆概念与计算有题；圆规作图及公式探索缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 32"
+    },
+    {
+      "standardId": "cms-2022:3.GG.03",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p147_q1",
+        "cnm_p148_q1",
+        "cnm_p149_q1",
+        "cnm_p150_q2"
+      ],
+      "finding": "面积公式应用有题；不规则图形估面积与公式推导不足。2022原页确认平方千米。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022原页单位更正；其他措辞仍保留转写状态",
+      "pageOrRef": "2022版课标印刷页码 32"
+    },
+    {
+      "standardId": "cms-2022:3.GG.04",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p162_q2",
+        "cnm_p164_q4"
+      ],
+      "finding": "体积容积概念和换算有题；不规则物体排水测量缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 32"
+    },
+    {
+      "standardId": "cms-2022:3.GG.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p160_q3",
+        "cnm_p161_q1",
+        "cnm_p206_q4",
+        "cnm_p208_q1",
+        "cnm_p209_q2"
+      ],
+      "finding": "形体性质、侧面展开和公式有题；完整展开图匹配与公式探索不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 32"
+    },
+    {
+      "standardId": "cms-2022:3.GG.06",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p152_q2",
+        "cnm_p152_q4"
+      ],
+      "finding": "简单方块与遮挡推理有题；三视图实图互配仍缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 33"
+    },
+    {
+      "standardId": "cms-2022:3.GG.07",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p161_q1",
+        "cnm_p164_q4"
+      ],
+      "finding": "局部量感和空间证据；综合素养需实际活动观察。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 33"
+    },
+    {
+      "standardId": "cms-2022:3.GG.08",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p180_q1",
+        "cnm_p180_q4",
+        "cnm_p181_q1"
+      ],
+      "finding": "方向距离、反向路线有题；绘制与阅读实际路线图不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 33"
+    },
+    {
+      "standardId": "cms-2022:3.GG.09",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p136_q2",
+        "cnm_p136_q3"
+      ],
+      "finding": "数对顺序有题；方格纸落点的实际图形任务不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 33"
+    },
+    {
+      "standardId": "cms-2022:3.GG.10",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p212_q2",
+        "cnm_p212_q4"
+      ],
+      "finding": "比例尺与单位换算有题；方格图放大缩小操作缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 33"
+    },
+    {
+      "standardId": "cms-2022:3.GG.11",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p127_q2",
+        "cnm_p128_q2",
+        "cnm_p171_q4"
+      ],
+      "finding": "点的对应、平移和方向旋转有题；补全或变换整个图形缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 33"
+    },
+    {
+      "standardId": "cms-2022:3.GG.12",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "无欣赏和设计图案的学生作品任务。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 33"
+    },
+    {
+      "standardId": "cms-2022:3.SP.01",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "没有完整的实际问题驱动的数据采集、整理、分析和学生陈述过程。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 39"
+    },
+    {
+      "standardId": "cms-2022:3.SP.02",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p175_q2",
+        "cnm_p175_q3",
+        "cnm_p199_q2",
+        "cnm_p199_q4"
+      ],
+      "finding": "真实可见的自编折线图与扇形图阅读有题；自主画图和呈现数据缺。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 39"
+    },
+    {
+      "standardId": "cms-2022:3.SP.03",
+      "coverage": "gap",
+      "evidenceQuestionIds": [],
+      "finding": "无实际媒体来源及数据获取任务。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2025 年日常修订版转写；2026-10-21 补齐（2022 版原数据漏收该条）",
+      "pageOrRef": "2022版课标印刷页码 40"
+    },
+    {
+      "standardId": "cms-2022:3.SP.04",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p194_q3",
+        "cnm_p197_q1",
+        "cnm_p199_q4"
+      ],
+      "finding": "百分数统计意义、部分总体和基数限制有题；开放探究不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2025 年日常修订版转写；2026-10-21 补齐（2022 版原数据漏收该条）",
+      "pageOrRef": "2022版课标印刷页码 40"
+    },
+    {
+      "standardId": "cms-2022:3.SP.05",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p197_q2",
+        "cnm_p199_q2",
+        "cnm_p205_q3"
+      ],
+      "finding": "百分率与图表的局部实际应用；自主收集数据和判断情境合理性不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2025 年日常修订版转写；2026-10-21 补齐（2022 版原数据漏收该条）",
+      "pageOrRef": "2022版课标印刷页码 40"
+    },
+    {
+      "standardId": "cms-2022:3.SP.06",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p140_q3",
+        "cnm_p140_q4"
+      ],
+      "finding": "随机现象的不确定性有题；真实实验过程未采集。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 40"
+    },
+    {
+      "standardId": "cms-2022:3.SP.07",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p141_q2",
+        "cnm_p141_q3",
+        "cnm_p141_q4"
+      ],
+      "finding": "可能性大小与必然性的区分有题；随机实验验证不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "公开转写，未与教育部 PDF 逐页核对",
+      "pageOrRef": "2022版课标印刷页码 40"
+    },
+    {
+      "standardId": "cms-2022:3.IP.01",
+      "coverage": "partial",
+      "evidenceQuestionIds": [
+        "cnm_p201_q4",
+        "cnm_p202_q1",
+        "cnm_p202_q4"
+      ],
+      "finding": "相反意义的量直接表示有题；完整主题活动与学生说明不足。",
+      "expertReviewed": false,
+      "sourceTextStatus": "2022主题活动的既有转写；2026-10-22复核页码。活动名称为课标参考示例，不是指定必须采用的名称；未认证2025对应文本。",
+      "pageOrRef": "2022版课标印刷页码 50"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-22",
+  "official2022": {
+    "url": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+    "sha256": "1183b95c58a65eaac4c456f2d2b329bbe42f65a6482993edb537e3eaf8baa144",
+    "pdfPageOffset": 7,
+    "ocrPagesRead": [
+      25,
+      26,
+      27,
+      28,
+      30,
+      35,
+      37,
+      40,
+      44,
+      45,
+      46,
+      47,
+      49,
+      50,
+      53,
+      56
+    ],
+    "imagePagesRead": [
+      31,
+      36,
+      39,
+      50,
+      51,
+      54,
+      57,
+      58
+    ],
+    "status": "primary clause/section first pass; selected image verification, not complete character-by-character transcription"
+  },
+  "revision2025": {
+    "sha256": "01f4a577f991c4a5c63eaeeed22008c0e99172d0d8771b3636efcacea7e4d601",
+    "status": "school copy previously obtained; not authenticated official original; no new full primary comparison claimed"
+  },
+  "errata": [
+    {
+      "ids": [
+        "cms-2022:2.GG.03",
+        "cms-2022:3.GG.03"
+      ],
+      "finding": "原页明确带平方上标，修复面积单位转写。"
+    },
+    {
+      "ids": [
+        "cms-2022:3.NA.09"
+      ],
+      "finding": "原文确为成正比的量，无需补例字。"
+    },
+    {
+      "ids": [
+        "cms-2022:1.IP.01",
+        "cms-2022:1.IP.06",
+        "cms-2022:2.IP.02",
+        "cms-2022:2.IP.03",
+        "cms-2022:2.IP.04",
+        "cms-2022:3.IP.01"
+      ],
+      "finding": "2022原页与旧标注页码有偏差，现明确版本并修正。"
+    }
+  ],
+  "activityScopeNote": "2022印刷页42说明活动名称与具体内容仅供参考，可以设计不同活动；不能把缺少同名题型直接判作缺少必修知识。既有77条未穷尽第三学段实践示例。",
+  "additionalUnindexedExamples": [
+    {
+      "name": "校园平面图",
+      "kind": "主题活动2",
+      "printedPages": [
+        50
+      ],
+      "coverage": "gap",
+      "needed": "实际测量、比例选择、画图及反思作品"
+    },
+    {
+      "name": "体育中的数学",
+      "kind": "主题活动3",
+      "printedPages": [
+        50
+      ],
+      "coverage": "gap",
+      "needed": "有来源的体育数据、学生提问与分析"
+    },
+    {
+      "name": "营养午餐",
+      "kind": "项目学习1",
+      "printedPages": [
+        50
+      ],
+      "coverage": "gap",
+      "needed": "数据调查、图表、方案比较与过程性评价"
+    },
+    {
+      "name": "水是生命之源",
+      "kind": "项目学习2",
+      "printedPages": [
+        50,
+        51
+      ],
+      "coverage": "gap",
+      "needed": "用水调查、节水方案和评估记录"
+    }
+  ],
+  "gradePolicy": "仓库沿用教材型年级/学期组织，课标按1–2、3–4、5–6学段要求。不能据此认证任何特定教材版本逐年覆盖。"
+}

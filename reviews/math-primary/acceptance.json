@@ -1,0 +1,38 @@
+{
+  "version": "primary-2026-10.1",
+  "date": "2026-10-22",
+  "status": "local-acceptance-passed",
+  "expertReviewed": false,
+  "command": "python scripts/validate_release_candidate.py",
+  "currentChecks": {
+    "schema": "passed",
+    "patchDriftAndReversibility": "passed",
+    "pythonTests": 8,
+    "engineTests": 98,
+    "figureQuestionsStructurallyValidated": 157,
+    "uniqueChangedSVGsVisuallyInspected": 10,
+    "autoVerified": 5276,
+    "mismatch": 0,
+    "unverifiable": 1131
+  },
+  "historicalChecks": {
+    "release": "junior-2026-10.1",
+    "byteHashesRestored": true,
+    "pythonTests": 34,
+    "engineTests": 98,
+    "allHistoricalBuilders": "passed"
+  },
+  "browserChecks": [
+    "review page filter and expandable questions",
+    "10 unique modified SVG renderings; cylinder arc and label corrections",
+    "simulated cnm_p002_q1 correct choice: direct initial pass only, prerequisite remains untested",
+    "old-version export notices retained"
+  ],
+  "browserTestingNote": "The browser answer was a simulated engineering check, not a student assessment or instructional validation.",
+  "remainingLimits": [
+    "67 partial and 10 gap decisions among 77 existing standard records",
+    "4 additional 2022 practice examples remain unindexed activities",
+    "2025 school copy not authenticated and no full new comparison",
+    "No teacher blind review, learner trial, or psychometric calibration"
+  ]
+}

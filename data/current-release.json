@@ -1,26 +1,40 @@
 {
-  "version": "junior-2026-10.1",
+  "version": "primary-2026-10.1",
   "engineVersion": "evidence-1.2",
   "date": "2026-10-22",
-  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
-  "previousRelease": "algebra-2026-10.5",
+  "baseCommit": "06ed16f507119a52d21794bcd86a4763c7785208",
+  "previousRelease": "junior-2026-10.1",
   "status": "release-accepted",
   "expertReviewed": false,
   "counts": {
     "topics": 1505,
     "questions": 6407,
-    "dependencies": 2181,
-    "juniorTopicsFirstPassReviewed": 317,
-    "directPrimaryBridgeTopicsReviewed": 28,
-    "contentRequirementsSourceChecked2022": 157,
-    "partialRequirements": 145,
-    "gapRequirements": 12,
-    "netAddedQuestionsSinceD5": 151
+    "dependencies": 2190,
+    "primaryTopics": 216,
+    "primaryQuestions": 864,
+    "changedTopics": 89,
+    "changedQuestions": 512,
+    "changedIncomingDependencyGroups": 33,
+    "primaryDependencies": 321,
+    "byGrade": {
+      "1": 36,
+      "2": 24,
+      "3": 35,
+      "4": 36,
+      "5": 45,
+      "6": 40
+    },
+    "coverage": {
+      "partial": 67,
+      "gap": 10
+    },
+    "mathDependencies": 1313
   },
   "files": {
-    "topics.json": "4499478991e242081ce813d919764d784c6d5fe0b9002c9522275199738a412b",
-    "questions.json": "74dd722619e3ec9059af1ac90ba1658a486c6a9d93c437cf7d8349e122baa9db",
-    "dependencies.json": "c2dbd7e00801e7d0ab79bd023cda8f8f349d01030382cd6006a2a687f7f57501"
+    "topics.json": "7d90900fbf260e67971a7273fc157014cd85121a5873610f5188de97cf83c7e1",
+    "questions.json": "4fef0bc7e4cad5d1b362dde7d8e3621eed7f1670fa66fb6cc43ef1aa25558fc1",
+    "dependencies.json": "cc466f68d25c012e036e4f097f23bb3a7580e52a109c08399d9e30e2c946cb95",
+    "cn-curriculum-standards.json": "604d64199f470ccf3dd55bb8adeaaafa23fba3ee24e7cf799ba935ceb766e647"
   },
   "authoring": {
     "authoring/statistics-2026-10/patch.json": "3ceb451858cb1b10aeb05b6ac48f38967d0fc40b389e81418004b8915014660a",
@@ -44,17 +58,29 @@
     "authoring/release-candidate/primary-bridges.json": "4a7e23e1668e3310d32e2a5ca1a23eab333c0db98a1f15a29fa99eaba4694645",
     "authoring/release-candidate/quadrilaterals-rotation.json": "562fd357e8b3779485bd87e5b11d8164b980a556be052abd6e5ebaa5f4385de5",
     "authoring/release-candidate/source-boundaries.json": "f6063ff82876da48a11e607c3bb39eae657d3ebda95d336b5db1add5fd5edaa9",
-    "authoring/release-candidate/symmetry-pythagoras.json": "7f288d1b892c30b765a96aeeac6fded31120274641b7790e4fad80cd23ea2a35"
+    "authoring/release-candidate/symmetry-pythagoras.json": "7f288d1b892c30b765a96aeeac6fded31120274641b7790e4fad80cd23ea2a35",
+    "authoring/primary-2026-10/standards-patch.json": "ca4881223c208a87c8dafa4991834755d2e4743d4059bcb02f5951141f3ff0b2",
+    "authoring/primary-2026-10/patch.json": "839af70e56ebe482adfb7431c4ab4266ce883f5c5a4624da173231f565d86610"
   },
-  "review": "reviews/release-candidate/README.md",
-  "migration": "旧数学D1–D5、统计版以及旧英语引擎会话保留原样导出，不按新版本重放。",
+  "review": "reviews/math-primary/README.md",
+  "migration": "保留 junior-2026-10.1.evidence-1.2 及更早历史会话原样导出，不用新版本题目重放。",
   "countSemantics": "首轮审阅为记录覆盖；partial不是充分覆盖或学生掌握证明。",
-  "acceptance": "reviews/release-candidate/acceptance.json",
+  "acceptance": "reviews/math-primary/acceptance.json",
   "reviewFiles": {
     "reviews/release-candidate/node-review.json": "113b4114ed408559bac7fed448ee09c2e291d241277b92dd58dc8131d0207c65",
     "reviews/release-candidate/coverage.json": "3379a1c6d8efdf5a0e11795936e077f87db56c6514c6965ad6e8aca97241d4f2",
     "reviews/release-candidate/primary-bridges.json": "ff6a8ec47cc03167c237ffa56defdd650530d7d346cd178daed4f63d823bdf88",
     "reviews/release-candidate/source-review.json": "4d666505a8cb89984ea61cbed58f6f2c9e099676c966c7f2bf9489755450e0ef",
-    "reviews/release-candidate/acceptance.json": "aad84b4c35afc709de5b0b3e867a39fc7e71dfc8d161836d46324526348b5f41"
+    "reviews/release-candidate/acceptance.json": "aad84b4c35afc709de5b0b3e867a39fc7e71dfc8d161836d46324526348b5f41",
+    "reviews/math-primary/index.html": "fdbc4d818195005bd0a7ac37be4ffb2007b3ce305532981ce8857fd7e05864e6",
+    "reviews/math-primary/base-validator.py": "2b190e811bafd12c244dff31b0c61760368582d7fafc9927586bd53d2a74a52e",
+    "reviews/math-primary/README.md": "e6406853af8a0bc6e6fb21cdb7cf11d608cc5e739a1462061b23549da719ff33",
+    "reviews/math-primary/source-review.json": "130baaa12f95c7522baf7e7386ac3a02c5908c902dd941eaca9537c40249dd1f",
+    "reviews/math-primary/base-release.json": "cca0f774821abf0a492b2b327447e7019d86f820631ab43cdf2e4e6a8106629a",
+    "reviews/math-primary/coverage.json": "767fba5b44856714017c09604b8ec7aadcc7ede830b78b46e752475188a0bc3d",
+    "reviews/math-primary/progress.json": "806999e8b41b612c923ee5317a77de4b86785e88665e82e50f96aeb58c812585",
+    "reviews/math-primary/node-review.json": "7674bd47d0d6ff9bf15bbeb4c9092f1516c04ce1aadd11178207a8cb2cc6b909",
+    "reviews/math-primary/acceptance.json": "7a2f06634aa41f77d670f596351c3e3a92d443fe9bf206841d2dfc0a7665c833",
+    "reviews/math-primary/base-test-engine.js": "98dcb15b9a1d941396d79d7b491a6772e977e0ce46b99c231c3bdc7e619ba29d"
   }
 }
