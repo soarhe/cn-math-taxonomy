@@ -1,0 +1,3046 @@
+{
+  "version": "statistics-2026-10.1",
+  "baselineCommit": "831f8127e1f6d6729ccc099c3bea4fb627496cbd",
+  "userAcceptedAt": "2026-10-22",
+  "expertReviewed": false,
+  "topics": [
+    {
+      "id": "cnm_104",
+      "beforeHash": "c3296fecd161fc6396a4c4e508da35e6f303bbfe53a0d89b3b9008d80bcb5e90",
+      "before": {
+        "id": "cnm_104",
+        "name": "样本的代表性与随机抽样",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+        "type": "reasoning",
+        "description": "认识抽样要具有代表性和随机性，能判断抽样方式是否合理。",
+        "mastery_criteria": [
+          "能指出有偏差的抽样方式",
+          "能设计简单的随机抽样"
+        ],
+        "diagnostic_question": {
+          "question": "只调查校篮球队队员的身高能代表全校吗？",
+          "answer": "不能，样本不具代表性"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_104",
+        "name": "样本的代表性与随机抽样",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+        "type": "reasoning",
+        "description": "从完整总体中随机抽样有助于减少选择偏差，但不能保证每次样本都恰好代表总体；能区分选择偏差与随机波动。",
+        "mastery_criteria": [
+          "能指出抽样框遗漏和便利抽样的偏差",
+          "能解释随机抽样仍可能偶然失衡"
+        ],
+        "diagnostic_question": {
+          "question": "只调查校篮球队队员的身高能代表全校吗？下列回答正确的是",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_106",
+      "beforeHash": "ed72e4b1f3915393095d2c79ad71e99d61daa278cb4955698c100bda71a36547",
+      "before": {
+        "id": "cnm_106",
+        "name": "频数分布表与数据分组",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+        "type": "procedural",
+        "description": "对数据进行分组，统计各组频数，画频数分布表。",
+        "mastery_criteria": [
+          "能确定组距和组数",
+          "能完成频数分布表"
+        ],
+        "diagnostic_question": {
+          "question": "把 20 个数据按组距 5 分组，怎样得到频数？",
+          "answer": "数落在各组内的个数"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.07",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_106",
+        "name": "频数分布表与数据分组",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+        "type": "procedural",
+        "description": "按照明确且互不重叠的区间分组，统计频数；说明组距、组数及端点归属。",
+        "mastery_criteria": [
+          "能确定组距和组数",
+          "能完成频数分布表"
+        ],
+        "diagnostic_question": {
+          "question": "把 20 个数据按组距 5 分组，怎样得到频数？",
+          "answer": "C"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.07",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_107",
+      "beforeHash": "a3679f41c491343d390bfc7b0bbed620e82a379deed8cf957e51a80d00bdf1b0",
+      "before": {
+        "id": "cnm_107",
+        "name": "频数分布直方图",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+        "type": "procedural",
+        "description": "用直方图直观表示数据分布，从图中读取各组频数并分析。",
+        "mastery_criteria": [
+          "能画直方图",
+          "能由直方图读取频数"
+        ],
+        "diagnostic_question": {
+          "question": "直方图中小长方形的高表示什么？",
+          "answer": "该组的频数"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.07",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_107",
+        "name": "频数分布直方图",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+        "type": "procedural",
+        "description": "在等组距、纵轴明确标频数的直方图中，用柱高表示频数；能绘制并解释分布，不将该规则无条件用于频率密度图。",
+        "mastery_criteria": [
+          "能画直方图",
+          "能由直方图读取频数"
+        ],
+        "diagnostic_question": {
+          "question": "直方图中小长方形的高表示什么？（各组组距相等，纵轴标为频数）",
+          "answer": "D"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.07",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_108",
+      "beforeHash": "31f871888dce7ed24c542ff77149a422c137c357a0ba9d09b4a0da2b3276dc96",
+      "before": {
+        "id": "cnm_108",
+        "name": "趋势图",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.3",
+        "type": "application",
+        "description": "通过趋势图观察数据随时间变化的规律，并作简单预测。",
+        "mastery_criteria": [
+          "能描述变化趋势",
+          "能作出简单预测"
+        ],
+        "diagnostic_question": {
+          "question": "折线上升说明什么？",
+          "answer": "随时间推移数值增大"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.11",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_108",
+        "name": "趋势图",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.3",
+        "type": "application",
+        "description": "描述随时间变化的数据趋势，区分已观测事实与依赖趋势延续假设的预测。",
+        "mastery_criteria": [
+          "能描述变化趋势",
+          "能作出简单预测"
+        ],
+        "diagnostic_question": {
+          "question": "折线上升说明什么？（趋势图的横轴表示时间）",
+          "answer": "B"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.11",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_212",
+      "beforeHash": "27e27ed296002d7676957cf3b994c4b0c446c2605c0bf1e2caf7c4c436cb01e6",
+      "before": {
+        "id": "cnm_212",
+        "name": "加权平均数",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.1",
+        "type": "procedural",
+        "description": "各数据重要程度不同时按权重计算加权平均数。",
+        "mastery_criteria": [
+          "能识别权并计算",
+          "能解释权的作用"
+        ],
+        "diagnostic_question": {
+          "question": "笔试 80 分占 40%，面试 90 分占 60%，综合成绩？",
+          "answer": "86 分"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.04",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_212",
+        "name": "加权平均数",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.1",
+        "type": "procedural",
+        "description": "按频数、人数或题目规定的重要程度作为权重计算加权平均数，并解释权重含义。",
+        "mastery_criteria": [
+          "能识别权并计算",
+          "能解释权的作用"
+        ],
+        "diagnostic_question": {
+          "question": "笔试 80 分占 40%，面试 90 分占 60%，综合成绩？（单位：分，只写数字）",
+          "answer": "86"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.04",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_214",
+      "beforeHash": "808ea79aee03f2ad7892198114746216121c26782760d5c248eddb03b7740b2b",
+      "before": {
+        "id": "cnm_214",
+        "name": "集中趋势统计量的选择",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.1",
+        "type": "application",
+        "description": "根据数据特点和问题需要选择平均数、中位数或众数描述集中趋势。",
+        "mastery_criteria": [
+          "能说明三者的适用情形",
+          "能结合情境作出选择"
+        ],
+        "diagnostic_question": {
+          "question": "一组工资数据中有极大值，用平均数还是中位数更合适？",
+          "answer": "中位数，平均数受极端值影响大"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.04",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.SP.10",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_214",
+        "name": "集中趋势统计量的选择",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.1",
+        "type": "application",
+        "description": "根据数据特点和问题需要选择平均数、中位数或众数描述集中趋势。",
+        "mastery_criteria": [
+          "能说明三者的适用情形",
+          "能结合情境作出选择"
+        ],
+        "diagnostic_question": {
+          "question": "一组工资数据中有极大值，若要描述一般员工的典型工资水平，用平均数还是中位数更合适？",
+          "answer": "B"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.04",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.SP.10",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_215",
+      "beforeHash": "c1d61f3ffeffaf9000947e5e52a398d6bf630c524d64d116f6ccf4fb550803a4",
+      "before": {
+        "id": "cnm_215",
+        "name": "极差、方差与标准差",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.2",
+        "type": "conceptual",
+        "description": "用极差、方差、标准差刻画数据的离散程度，方差越小数据越稳定。",
+        "mastery_criteria": [
+          "能计算极差与方差",
+          "能比较两组数据的稳定性"
+        ],
+        "diagnostic_question": {
+          "question": "数据 2、4、6 的极差与方差？",
+          "answer": "极差 4；方差 8/3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.05",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_215",
+        "name": "离差平方和、方差与极差",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.2",
+        "type": "conceptual",
+        "description": "计算各数据相对均值的离差平方和，按除以数据个数n计算方差，并用极差辅助描述离散程度。比较需使用相同变量和单位。",
+        "mastery_criteria": [
+          "能计算离差平方和并说明与方差的关系",
+          "能在同单位情境中解释方差和极差；不将较稳定等同于一定更好"
+        ],
+        "diagnostic_question": {
+          "question": "数据 2、4、6 的极差与方差？（依次写极差、方差，方差写成分数）",
+          "answer": "4，8/3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.05",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_216",
+      "beforeHash": "5e3a06ebb30080f18df499d809c94a71ba0b2b6eab0cbbe852ab70c17670ec83",
+      "before": {
+        "id": "cnm_216",
+        "name": "数据的四分位数",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.3",
+        "type": "conceptual",
+        "description": "把数据分成四等份的三个分点叫四分位数，可用来描述数据的分布范围。",
+        "mastery_criteria": [
+          "能求四分位数",
+          "能解释四分位距"
+        ],
+        "diagnostic_question": {
+          "question": "数据 1~8，按“两半数据各取中位数”方法求第一、第三四分位数。",
+          "answer": "2.5 与 6.5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.09",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_216",
+        "name": "数据的四分位数",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.3",
+        "type": "conceptual",
+        "description": "先排序，再按题目声明的上下半组中位数法求四分位数，解释中位数与四分位距；奇数样本和重复值按题目约定处理。",
+        "mastery_criteria": [
+          "能对未排序数据求Q1、Q2、Q3并说明算法约定",
+          "能解释四分位距，避免由分位边界无条件断言区间人数"
+        ],
+        "diagnostic_question": {
+          "question": "数据 1~8，按“两半数据各取中位数”方法求第一、第三四分位数。（数据为 1、2、…、8，依次写第一、第三四分位数，用逗号隔开）",
+          "answer": "2.5，6.5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.09",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_285",
+      "beforeHash": "6dd02e0927bffaafdbfc10817d6da7af075a994c7456b6a56318841ec58d29c3",
+      "before": {
+        "id": "cnm_285",
+        "name": "概率的意义与等可能事件的概率",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
+        "type": "conceptual",
+        "description": "概率是衡量随机事件发生可能性大小的数，等可能事件的概率等于所求结果数除以总结果数。",
+        "mastery_criteria": [
+          "能说出概率的取值范围",
+          "能计算简单的等可能事件概率"
+        ],
+        "diagnostic_question": {
+          "question": "袋中 3 红 2 白，摸出红球的概率？",
+          "answer": "3/5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_285",
+        "name": "概率的意义与等可能事件的概率",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
+        "type": "conceptual",
+        "description": "在有限且等可能的基本结果下，以有利基本结果数除以总基本结果数求概率；颜色等事件分类不一定等可能。",
+        "mastery_criteria": [
+          "能说明使用计数公式的有限、等可能条件",
+          "能列出有利基本结果并计算概率"
+        ],
+        "diagnostic_question": {
+          "question": "袋中 3 红 2 白，摸出红球的概率？（球除颜色外完全相同，随机摸出一个，结果写成最简分数）",
+          "answer": "3/5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_288",
+      "beforeHash": "dbcc9713c23e998350043d68cea57ecd09b67a1832701545028c9ae6d987f1c2",
+      "before": {
+        "id": "cnm_288",
+        "name": "用频率估计概率",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.3",
+        "type": "conceptual",
+        "description": "大量重复试验中，事件发生的频率稳定于概率，可用频率估计概率。",
+        "mastery_criteria": [
+          "能说明频率与概率的区别",
+          "能由试验数据估计概率"
+        ],
+        "diagnostic_question": {
+          "question": "抛硬币 1000 次，正面 505 次，估计正面概率？",
+          "answer": "约 0.5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.13",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_288",
+        "name": "用频率估计概率",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.3",
+        "type": "conceptual",
+        "description": "在相同试验条件下，用大量重复试验的频率估计事件概率；频率可能波动，估计不决定下一次结果。",
+        "mastery_criteria": [
+          "能计算频率并明确它是概率的估计值",
+          "能解释频率不必每步都更接近概率，不能用前次结果预测必然补偿"
+        ],
+        "diagnostic_question": {
+          "question": "抛硬币 1000 次，正面 505 次，估计正面概率？（结果保留一位小数）",
+          "answer": "0.5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.13",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_289",
+      "beforeHash": "6655b4524080860f703bad334f144cfbb43481bc5ef6a609c679653ccea8a1f9",
+      "before": {
+        "id": "cnm_289",
+        "name": "概率的应用与游戏的公平性",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.2",
+        "type": "application",
+        "description": "用概率判断游戏是否公平并进行决策。",
+        "mastery_criteria": [
+          "能计算双方获胜概率",
+          "能判断游戏的公平性"
+        ],
+        "diagnostic_question": {
+          "question": "两人各掷一枚骰子，点数和为偶数甲胜，奇数乙胜，公平吗？",
+          "answer": "公平，各 1/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "inferred",
+            "note": "概率的应用与游戏公平性，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_289",
+        "name": "概率的应用与游戏的公平性",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.2",
+        "type": "application",
+        "description": "在双方收益和损失规则相同的简单游戏中，以获胜概率是否相等讨论公平；收益不同时仅比较胜率不足。",
+        "mastery_criteria": [
+          "能计算双方获胜概率",
+          "能判断游戏的公平性"
+        ],
+        "diagnostic_question": {
+          "question": "双方收益和损失规则相同。两人各掷一枚骰子，点数和为偶数甲胜，奇数乙胜，公平吗？（请依次写出甲、乙获胜的概率，结果写成最简分数，用逗号隔开）骰子均匀且两次投掷相互独立。",
+          "answer": "1/2，1/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "inferred",
+            "note": "概率的应用与游戏公平性，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_297",
+      "beforeHash": "569b3ff0bbee6d4280763089d021f894500885813bb2fc10ad0c7579c3f6080d",
+      "before": {
+        "id": "cnm_297",
+        "name": "频率（相对频数）的计算与意义",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+        "type": "conceptual",
+        "description": "频率等于频数除以数据总数，各组频率之和为 1；用频率反映各组数据占总体的比例。",
+        "mastery_criteria": [
+          "能由频数和总数求出频率并化为百分数",
+          "能验证各组频率之和为 1"
+        ],
+        "diagnostic_question": {
+          "question": "40 个数据分成 4 组，频数依次为 6、14、12、8，各组的频率分别是多少？",
+          "answer": "0.15、0.35、0.3、0.2（和为 1）"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.07",
+            "confidence": "inferred",
+            "note": "相对频数是频数的延伸，也是频率估计概率的基础"
+          },
+          {
+            "id": "cms-2022:4.SP.13",
+            "confidence": "inferred",
+            "note": "相对频数是频数的延伸，也是频率估计概率的基础"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_297",
+        "name": "频率（相对频数）的计算与意义",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.2.2",
+        "type": "conceptual",
+        "description": "频率是某类频数除以本批观测总数；在互斥且穷尽的分类中，各类频率之和为1。样本频率不直接等于总体比例。",
+        "mastery_criteria": [
+          "能由频数和总数求出频率并化为百分数",
+          "能验证各组频率之和为 1"
+        ],
+        "diagnostic_question": {
+          "question": "40 个数据分成 4 组，频数依次为 6、14、12、8，各组的频率分别是多少？（依次作答，用逗号隔开，写成小数）",
+          "answer": "0.15，0.35，0.3，0.2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.07",
+            "confidence": "inferred",
+            "note": "相对频数是频数的延伸，也是频率估计概率的基础"
+          },
+          {
+            "id": "cms-2022:4.SP.13",
+            "confidence": "inferred",
+            "note": "相对频数是频数的延伸，也是频率估计概率的基础"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_298",
+      "beforeHash": "45d5e91dbc846bd4c87b36bf5ca6c41416101e7cae769bece4f41a15cc95ce72",
+      "before": {
+        "id": "cnm_298",
+        "name": "简单随机抽样的实施（抽签法与随机数）",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+        "type": "procedural",
+        "description": "按随机原则抽取样本，用抽签法或随机数（随机数表、计算器产生的随机数）使每个个体被抽到的机会相等。",
+        "mastery_criteria": [
+          "能按步骤用抽签法或随机数从总体中抽取样本",
+          "能说明这样做为什么使每个个体机会均等"
+        ],
+        "diagnostic_question": {
+          "question": "从编号 1～50 的 50 名学生中抽取 5 人，用抽签法应怎样做？",
+          "answer": "把 50 个编号分别写在大小形状相同的纸签上，充分搅匀后随机抽出 5 张，对应编号的学生入样"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_298",
+        "name": "简单随机抽样的实施（抽签法与随机数）",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+        "type": "procedural",
+        "description": "从完整名单无放回地抽取固定人数，采用同质纸签充分混匀或合适随机数规则，舍弃重复与越界编号；机会均等不保证一次样本组成完全代表总体。",
+        "mastery_criteria": [
+          "能按步骤用抽签法或随机数从总体中抽取样本",
+          "能说明这样做为什么使每个个体机会均等"
+        ],
+        "diagnostic_question": {
+          "question": "从编号 1～50 的 50 名学生中抽取 5 人，用抽签法应怎样做？下列做法正确的是",
+          "answer": "D"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_300",
+      "beforeHash": "9c0fe183b97f83bb5d29311b931e590ad46d694367f27dbfb939b32bf12c7177",
+      "before": {
+        "id": "cnm_300",
+        "name": "统计活动的基本过程",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.1",
+        "type": "conceptual",
+        "description": "一次完整的统计活动包括提出问题、收集数据、整理数据、描述数据、分析数据、得出结论并作出决策。",
+        "mastery_criteria": [
+          "能按顺序说出统计活动的各个步骤",
+          "能在具体活动中说明每一步要做什么"
+        ],
+        "diagnostic_question": {
+          "question": "为了解同学们每天的睡眠时间并提出建议，请按先后顺序写出统计活动的主要步骤。",
+          "answer": "确定问题→收集数据→整理数据→用图表描述→分析数据→得出结论与建议"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.02",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_300",
+        "name": "统计活动的基本过程",
+        "domain": "统计与概率",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十二章 数据的收集、整理与描述 12.1",
+        "type": "conceptual",
+        "description": "经历提出问题、收集、整理、描述、分析、解释及交流的统计活动；可根据发现返回前一步，不将步骤背诵等同于实施能力。",
+        "mastery_criteria": [
+          "能说明具体问题所需数据并处理缺失值和单位",
+          "能用适当工具、图表分析并报告依据和局限"
+        ],
+        "diagnostic_question": {
+          "question": "为了解同学们每天的睡眠时间并提出建议，请按先后顺序写出统计活动的主要步骤。下列顺序正确的是",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.02",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.SP.10",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_303",
+      "beforeHash": "43cbd9d86c1c83ff9dce5aa883ab87c1890de375f067f337d9317185a2c51afb",
+      "before": {
+        "id": "cnm_303",
+        "name": "极端值对平均数与中位数的影响",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.1",
+        "type": "reasoning",
+        "description": "个别特别大或特别小的数据会明显拉动平均数，而中位数基本不受影响，据此判断哪个统计量更能代表一般水平。",
+        "mastery_criteria": [
+          "能找出一组数据中的极端值并判断它对平均数的影响",
+          "能说明何时宜用中位数描述一般水平"
+        ],
+        "diagnostic_question": {
+          "question": "某公司 5 人月薪（千元）为 8、8、9、10、65，平均数与中位数各是多少？哪个更能代表一般员工的水平？",
+          "answer": "平均数 20，中位数 9；中位数更能代表一般水平，平均数被 65 拉高"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.04",
+            "confidence": "inferred",
+            "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.SP.10",
+            "confidence": "inferred",
+            "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_303",
+        "name": "极端值对平均数与中位数的影响",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.1",
+        "type": "reasoning",
+        "description": "平均数会受极端值数值大小影响；中位数依赖排序位置，通常较稳健，但删除数据或改变样本数量仍可能改变中位数。",
+        "mastery_criteria": [
+          "能找出一组数据中的极端值并判断它对平均数的影响",
+          "能说明何时宜用中位数描述一般水平"
+        ],
+        "diagnostic_question": {
+          "question": "某公司 5 人月薪（千元）为 8、8、9、10、65，平均数与中位数各是多少？哪个更能代表一般员工的水平？",
+          "answer": "平均数 20，中位数 9；中位数更能代表一般水平，平均数被 65 拉高"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.04",
+            "confidence": "inferred",
+            "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.SP.10",
+            "confidence": "inferred",
+            "note": "极端值的影响属于解释集中趋势统计量，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_304",
+      "beforeHash": "c97634d3c3535d55076dd59868bccb85cc075d3774981da151461e5878ef5900",
+      "before": {
+        "id": "cnm_304",
+        "name": "用方差比较两组数据的稳定性",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.2",
+        "type": "application",
+        "description": "在平均数相同或相近时，通过比较方差（或标准差）判断哪组数据波动更小、更稳定，并据此决策。",
+        "mastery_criteria": [
+          "能分别算出两组数据的方差并比较大小",
+          "能结合情境解释稳定性并作出选择"
+        ],
+        "diagnostic_question": {
+          "question": "甲、乙两人 5 次射击的环数：甲 7、8、8、8、9；乙 6、8、8、8、10。谁的成绩更稳定？",
+          "answer": "甲更稳定：两人平均数都是 8，甲方差 0.4 小于乙方差 1.6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.05",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_304",
+        "name": "用方差比较两组数据的稳定性",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.2",
+        "type": "application",
+        "description": "对相同变量、相同单位的数据比较方差描述波动；是否适合某项决策还需结合均值和实际目标。",
+        "mastery_criteria": [
+          "能分别算出两组数据的方差并比较大小",
+          "能结合情境解释稳定性并作出选择"
+        ],
+        "diagnostic_question": {
+          "question": "甲、乙两人 5 次射击的环数：甲 7、8、8、8、9；乙 6、8、8、8、10。谁的成绩更稳定？",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.05",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_305",
+      "beforeHash": "2ecf90ed75bdf17d45910a3a2743529e1401bb4d4e8fd7a4525c36995a805a22",
+      "before": {
+        "id": "cnm_305",
+        "name": "箱线图的读取与比较",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.3",
+        "type": "conceptual",
+        "description": "用最小值、第一四分位数、中位数、第三四分位数、最大值画成的箱线图，读出数据的中心与分散情况并比较两组数据。（箱线图是否为教材必学内容待核。）",
+        "mastery_criteria": [
+          "能说出箱线图各部分对应的五个统计量",
+          "能由箱线图比较两组数据的中位数与离散程度"
+        ],
+        "diagnostic_question": {
+          "question": "某箱线图中最小值 40、第一四分位数 55、中位数 60、第三四分位数 70、最大值 90，四分位距是多少？",
+          "answer": "15"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.09",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_305",
+        "name": "箱线图的读取与比较",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.3",
+        "type": "conceptual",
+        "description": "读取箱体两端Q1/Q3和中位线，按图示约定解释须端及单列离群点。须端不恒为最小最大值；重复值会影响分位区间内的人数。",
+        "mastery_criteria": [
+          "能从实际箱线图读出中位数、四分位距并比较分布",
+          "能区分画法约定及重复值边界，不仅凭四分位数推断区间人数"
+        ],
+        "diagnostic_question": {
+          "question": "某箱线图中最小值 40、第一四分位数 55、中位数 60、第三四分位数 70、最大值 90，四分位距是多少？",
+          "answer": "15"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.09",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_306",
+      "beforeHash": "b7153a7351c2bc41311b4c6e9f6baba49083fa56efc28b49df6620374d48e439",
+      "before": {
+        "id": "cnm_306",
+        "name": "用样本方差估计总体的稳定性",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.2",
+        "type": "application",
+        "description": "用随机抽取样本的方差估计总体数据的波动程度，如比较两批产品尺寸的稳定性。",
+        "mastery_criteria": [
+          "能计算样本方差并据此估计总体的稳定性",
+          "能说明样本容量过小会使估计不可靠"
+        ],
+        "diagnostic_question": {
+          "question": "从甲、乙两台机器生产的零件中各随机抽取 5 个，测得长度的方差分别为 0.04 和 0.09（mm²），估计哪台机器生产的零件长度更稳定？",
+          "answer": "甲机器（样本方差更小）"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.08",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_306",
+        "name": "用样本方差估计总体的稳定性",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 24.2",
+        "type": "application",
+        "description": "以随机样本方差估计总体波动程度，保持变量和单位一致，并说明样本容量、抽样方法及偶然波动的限制。",
+        "mastery_criteria": [
+          "能计算样本方差并据此估计总体的稳定性",
+          "能说明样本容量过小会使估计不可靠"
+        ],
+        "diagnostic_question": {
+          "question": "从甲、乙两台机器生产的零件中各随机抽取 5 个，测得长度的方差分别为 0.04 和 0.09（mm²），估计哪台机器生产的零件长度更稳定？",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.08",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_307",
+      "beforeHash": "d7edad6ff360fbe859e8eab160bf8b5cf1989ddfbbeaf6a0f889636c963c4923",
+      "before": {
+        "id": "cnm_307",
+        "name": "事件发生可能性大小的比较与排序",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.1.1",
+        "type": "conceptual",
+        "description": "对随机事件按发生的可能性大小排序，知道可能性大小与事件包含的有利结果多少有关。",
+        "mastery_criteria": [
+          "能比较两个随机事件发生可能性的大小",
+          "能把若干事件按可能性大小排序"
+        ],
+        "diagnostic_question": {
+          "question": "袋中有 5 个红球、3 个白球、2 个黄球（形状相同），随机摸一个，摸到红、白、黄球的可能性由大到小怎样排列？",
+          "answer": "红球＞白球＞黄球"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "inferred",
+            "note": "可能性大小比较是概率的定性前驱，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_307",
+        "name": "事件发生可能性大小的比较与排序",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.1.1",
+        "type": "conceptual",
+        "description": "在同一次试验的等可能基本结果模型下，比较事件包含的基本结果数判断可能性；不对不等可能类别机械计数。",
+        "mastery_criteria": [
+          "能比较两个随机事件发生可能性的大小",
+          "能把若干事件按可能性大小排序"
+        ],
+        "diagnostic_question": {
+          "question": "袋中有 5 个红球、3 个白球、2 个黄球（形状相同），随机摸一个，摸到红、白、黄球的可能性由大到小怎样排列？（用“＞”连接）各球除颜色或编号外相同，充分混匀后随机抽取。",
+          "answer": "红球＞白球＞黄球"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "inferred",
+            "note": "可能性大小比较是概率的定性前驱，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_309",
+      "beforeHash": "8dc0934a93b7d1e947f90fded277b5ce2fb75f210c966af88c6e1c8dbd9fc262",
+      "before": {
+        "id": "cnm_309",
+        "name": "等可能性与古典概型的判断",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
+        "type": "reasoning",
+        "description": "判断一次试验的所有结果是否有限且发生的可能性相等，只有满足这两点才能用 P=m/n 计算概率。",
+        "mastery_criteria": [
+          "能判断试验结果是否有限且等可能",
+          "能说明不等可能时不能直接套用公式"
+        ],
+        "diagnostic_question": {
+          "question": "抛一枚不均匀的骰子，能否用 1/6 作为出现 6 点的概率？为什么？",
+          "answer": "不能，各点数出现的可能性不相等，不满足等可能"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "inferred",
+            "note": "等可能性的判断见学业要求对简单随机事件特征的描述"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_309",
+        "name": "等可能性与古典概型的判断",
+        "domain": "统计与概率",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
+        "type": "reasoning",
+        "description": "识别有限等可能基本结果，判断何时可用计数公式；模型条件不足时不能仅因结果种类数为n就断定概率1/n。",
+        "mastery_criteria": [
+          "能判断试验结果是否有限且等可能",
+          "能说明不等可能时不能直接套用公式"
+        ],
+        "diagnostic_question": {
+          "question": "抛一枚不均匀的骰子，能否用 1/6 作为出现 6 点的概率？为什么？",
+          "answer": "B"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.12",
+            "confidence": "inferred",
+            "note": "等可能性的判断见学业要求对简单随机事件特征的描述"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_316",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_316",
+        "name": "按组内离差平方和比较分类方案",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 课标补充（教材位置待核）",
+        "type": "reasoning",
+        "description": "在相同数据与固定组数下，按各组自己的均值计算组内离差平方和总和并比较；不把不同组数直接作同条件比较。",
+        "mastery_criteria": [
+          "能计算每组及总组内离差平方和",
+          "能在固定组数下比较分类并说明限制"
+        ],
+        "diagnostic_question": {
+          "question": "数据1、2、8、9分两组。A={1,2}/{8,9}，B={1,8}/{2,9}。对每组自身均值求平方和，依次写A、B的组内离差平方和总和。",
+          "answer": "1，49"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.06",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_317",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_317",
+        "name": "百分位数的意义",
+        "domain": "统计与概率",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十四章 数据的分析 课标补充（教材位置待核）",
+        "type": "conceptual",
+        "description": "理解百分位对应的相对位置与数值阈值，区分百分位、原始分数和百分比；有限样本及重复值按明确约定解释。",
+        "mastery_criteria": [
+          "能解释百分位位置不是百分制得分",
+          "能联系第25/50/75百分位与四分位数，不机械推断严格不等人数"
+        ],
+        "diagnostic_question": {
+          "question": "报告说明某学生成绩处于约第90百分位，即在该群体中的相对位置约超过90%的成绩。是否能推出该生成绩是90分？说明理由。",
+          "answer": "不能；百分位表示群体中相对位置，不是百分制原始得分。能区分两个量即可，不要求计算分位值。"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.SP.09",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_104_q2",
+      "beforeHash": "aeceda515e96e5cab50f4fea85fca9da3c8d31acf17432dde004d47162565e71",
+      "before": {
+        "id": "cnm_104_q2",
+        "topicId": "cnm_104",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "为了解全校学生的平均身高，下列抽样方式最合理的是",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "只测各班班长"
+          },
+          {
+            "key": "B",
+            "text": "只测校篮球队队员"
+          },
+          {
+            "key": "C",
+            "text": "只测七年级学生"
+          },
+          {
+            "key": "D",
+            "text": "从全校学生名单中随机抽取 100 人"
+          }
+        ],
+        "explanation": "只有从全体学生中随机抽取，每名学生机会均等，样本才有代表性。"
+      },
+      "after": {
+        "id": "cnm_104_q2",
+        "topicId": "cnm_104",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "为了解全校学生的平均身高，下列抽样方式最合理的是",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "只测各班班长"
+          },
+          {
+            "key": "B",
+            "text": "只测校篮球队队员"
+          },
+          {
+            "key": "C",
+            "text": "只测七年级学生"
+          },
+          {
+            "key": "D",
+            "text": "从全校学生名单中随机抽取 100 人"
+          }
+        ],
+        "explanation": "从全校完整名单随机抽取能减少选择偏差；每人机会相等不保证这一次样本的组成恰好与总体相同。"
+      }
+    },
+    {
+      "id": "cnm_104_q3",
+      "beforeHash": "0abb9ad7b21676db88e37c06eea6e362bf4d020cdf89bcdb3c7be3b69f915981",
+      "before": {
+        "id": "cnm_104_q3",
+        "topicId": "cnm_104",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "某同学想了解全市市民每天的阅读时间，在图书馆门口随机拦住 100 名读者调查。这个调查的主要问题是",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "样本容量太大"
+          },
+          {
+            "key": "B",
+            "text": "样本多是爱阅读的人，结果会偏高，缺乏代表性"
+          },
+          {
+            "key": "C",
+            "text": "没有问题，因为是随机拦住的"
+          },
+          {
+            "key": "D",
+            "text": "应该只调查老年人"
+          }
+        ],
+        "explanation": "图书馆门口的人本来就更爱阅读，样本只覆盖了一部分人群，结果会偏高，不能代表全市市民。"
+      },
+      "after": {
+        "id": "cnm_104_q3",
+        "topicId": "cnm_104",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "某同学想了解全市市民每天的阅读时间，在图书馆门口随机拦住 100 名读者调查。这个调查的主要问题是",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "样本容量太大"
+          },
+          {
+            "key": "B",
+            "text": "样本多是爱阅读的人，结果会偏高，缺乏代表性"
+          },
+          {
+            "key": "C",
+            "text": "没有问题，因为是随机拦住的"
+          },
+          {
+            "key": "D",
+            "text": "应该只调查老年人"
+          }
+        ],
+        "explanation": "图书馆门口的抽样框未覆盖全市市民，阅读偏好可能不同，估计可能偏高；随机拦访不能修复抽样框遗漏。"
+      }
+    },
+    {
+      "id": "cnm_104_q4",
+      "beforeHash": "98b994903db53a5c63fed132c7edec6688e0721b93fc7bf7a4ffcc822949e1a8",
+      "before": {
+        "id": "cnm_104_q4",
+        "topicId": "cnm_104",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "关于样本的代表性，下列说法正确的是",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "只要从总体中随机抽取，并且样本容量适当，样本就能较好地反映总体"
+          },
+          {
+            "key": "B",
+            "text": "样本容量越大，样本就一定越有代表性，与抽取方式无关"
+          },
+          {
+            "key": "C",
+            "text": "抽取的样本都是熟人，这样更方便也更有代表性"
+          }
+        ],
+        "explanation": "代表性取决于抽取方式是否随机以及样本容量是否适当；抽样方式有偏差时，人再多也不一定有代表性。"
+      },
+      "after": {
+        "id": "cnm_104_q4",
+        "topicId": "cnm_104",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "关于样本的代表性，下列说法正确的是",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "从完整总体中随机抽取适当大小的样本有助于估计总体，但仍可能产生抽样波动"
+          },
+          {
+            "key": "B",
+            "text": "样本容量越大，样本就一定越有代表性，与抽取方式无关"
+          },
+          {
+            "key": "C",
+            "text": "抽取的样本都是熟人，这样更方便也更有代表性"
+          }
+        ],
+        "explanation": "随机抽样减少系统选择偏差，不保证每次样本的构成都与总体一致；增加有偏样本的数量不能自动纠正偏差。"
+      }
+    },
+    {
+      "id": "cnm_106_q3",
+      "beforeHash": "d30b0478d0f15643d70ac63e15a108cb489f9c46f8d07ceb431bda1eaaec6933",
+      "before": {
+        "id": "cnm_106_q3",
+        "topicId": "cnm_106",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "一组数据最大值为 98，最小值为 41，取组距为 10，至少需要分成几组才能把所有数据都放进去？",
+        "answer": "6",
+        "explanation": "(98-41)÷10=5.7，不是整数，需要向上取整，所以分 6 组。",
+        "verify": "ceil((98-41)/10)"
+      },
+      "after": {
+        "id": "cnm_106_q3",
+        "topicId": "cnm_106",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "数据最小值41、最大值98，从40起按[40,50)、[50,60)等含左不含右、组距10的区间分组，至少需要几组？",
+        "answer": "6",
+        "explanation": "(98-41)÷10=5.7，不是整数，需要向上取整，所以分 6 组。",
+        "verify": "ceil((98-41)/10)"
+      }
+    },
+    {
+      "id": "cnm_107_q1",
+      "beforeHash": "645a29f1d1e410ec64a82b79a0a8f417c2b9f1492071ad2c475dbea08b7575e8",
+      "before": {
+        "id": "cnm_107_q1",
+        "topicId": "cnm_107",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "直方图中小长方形的高表示什么？（各组组距相等）",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "组距"
+          },
+          {
+            "key": "B",
+            "text": "数据总数"
+          },
+          {
+            "key": "C",
+            "text": "该组的组中值"
+          },
+          {
+            "key": "D",
+            "text": "该组的频数"
+          }
+        ],
+        "explanation": "频数分布直方图中，各小长方形的高表示相应组的频数。"
+      },
+      "after": {
+        "id": "cnm_107_q1",
+        "topicId": "cnm_107",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "直方图中小长方形的高表示什么？（各组组距相等，纵轴标为频数）",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "组距"
+          },
+          {
+            "key": "B",
+            "text": "数据总数"
+          },
+          {
+            "key": "C",
+            "text": "该组的组中值"
+          },
+          {
+            "key": "D",
+            "text": "该组的频数"
+          }
+        ],
+        "explanation": "频数分布直方图中，各小长方形的高表示相应组的频数。"
+      }
+    },
+    {
+      "id": "cnm_214_q1",
+      "beforeHash": "f48c9b5ee18b5fcd72ed3472b2b59a64739b1a7940e06287a40fecb0b43ad14b",
+      "before": {
+        "id": "cnm_214_q1",
+        "topicId": "cnm_214",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "一组工资数据中有极大值，用平均数还是中位数更合适？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "平均数"
+          },
+          {
+            "key": "B",
+            "text": "中位数"
+          },
+          {
+            "key": "C",
+            "text": "众数"
+          }
+        ],
+        "answer": "B",
+        "explanation": "平均数受极端值影响大，极大值会把平均数拉高；中位数基本不受影响，更能代表一般水平。"
+      },
+      "after": {
+        "id": "cnm_214_q1",
+        "topicId": "cnm_214",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "一组工资数据中有极大值，若要描述一般员工的典型工资水平，用平均数还是中位数更合适？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "平均数"
+          },
+          {
+            "key": "B",
+            "text": "中位数"
+          },
+          {
+            "key": "C",
+            "text": "众数"
+          }
+        ],
+        "answer": "B",
+        "explanation": "平均数受极端值影响大，极大值会把平均数拉高；中位数基本不受影响，更能代表一般水平。"
+      }
+    },
+    {
+      "id": "cnm_215_q4",
+      "beforeHash": "8dc561907da62cd0630c2588ca3d960f3a28edff04882d1249ace2605efbec57",
+      "before": {
+        "id": "cnm_215_q4",
+        "topicId": "cnm_215",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "甲、乙两组数据的平均数相同。甲组的标准差为 1.5，乙组的方差为 2，则波动较小（更稳定）的是（ ）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "甲组"
+          },
+          {
+            "key": "B",
+            "text": "乙组"
+          },
+          {
+            "key": "C",
+            "text": "两组一样"
+          },
+          {
+            "key": "D",
+            "text": "无法判断"
+          }
+        ],
+        "answer": "B",
+        "explanation": "甲组方差=1.5^2=2.25，大于乙组的 2，方差越小越稳定，所以乙组更稳定。"
+      },
+      "after": {
+        "id": "cnm_215_q4",
+        "topicId": "cnm_215",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "同一单位下甲组方差为2.25，乙组方差为2；两组均值相同，哪组波动更小？说明依据。",
+        "answer": "乙组，2小于2.25；只比较波动，不能据此评价所有方面。",
+        "explanation": "乙组，2小于2.25；只比较波动，不能据此评价所有方面。"
+      }
+    },
+    {
+      "id": "cnm_287_q1",
+      "beforeHash": "8c7e0fc4fd03dd878c71f0c7c10bd84c0448692c24ee06575cd8221f66b65115",
+      "before": {
+        "id": "cnm_287_q1",
+        "topicId": "cnm_287",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "掷两枚硬币，两枚都是正面的概率？（硬币均匀，结果写成最简分数）",
+        "answer": "1/4",
+        "explanation": "列表或画树状图得到 (正,正)、(正,反)、(反,正)、(反,反) 共 4 种等可能结果，两枚都是正面只有 1 种，概率为 1/4。",
+        "verify": "Fraction(len([1 for t in range(4) if t//2+t%2==2]),4)"
+      },
+      "after": {
+        "id": "cnm_287_q1",
+        "topicId": "cnm_287",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "掷两枚硬币，两枚都是正面的概率？（硬币均匀，结果写成最简分数）各次投掷相互独立。",
+        "answer": "1/4",
+        "explanation": "列表或画树状图得到 (正,正)、(正,反)、(反,正)、(反,反) 共 4 种等可能结果，两枚都是正面只有 1 种，概率为 1/4。",
+        "verify": "Fraction(len([1 for t in range(4) if t//2+t%2==2]),4)"
+      }
+    },
+    {
+      "id": "cnm_287_q2",
+      "beforeHash": "a0288beb9666d1b55d1557003a039331e25f144bad6cbd3b7a166e018772726c",
+      "before": {
+        "id": "cnm_287_q2",
+        "topicId": "cnm_287",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "掷两枚均匀的硬币，恰好一枚正面朝上、一枚反面朝上的概率是多少？（结果写成最简分数）",
+        "answer": "1/2",
+        "explanation": "共 4 种等可能结果，其中 (正,反)、(反,正) 符合条件，概率为 2/4=1/2。",
+        "verify": "Fraction(len([1 for t in range(4) if t//2+t%2==1]),4)"
+      },
+      "after": {
+        "id": "cnm_287_q2",
+        "topicId": "cnm_287",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "掷两枚均匀的硬币，恰好一枚正面朝上、一枚反面朝上的概率是多少？（结果写成最简分数）各次投掷相互独立。",
+        "answer": "1/2",
+        "explanation": "共 4 种等可能结果，其中 (正,反)、(反,正) 符合条件，概率为 2/4=1/2。",
+        "verify": "Fraction(len([1 for t in range(4) if t//2+t%2==1]),4)"
+      }
+    },
+    {
+      "id": "cnm_287_q3",
+      "beforeHash": "8f12c9a63bd67221b33af4b1ecc7a8e59144bc9be82f062eaca8c72dbd1d7946",
+      "before": {
+        "id": "cnm_287_q3",
+        "topicId": "cnm_287",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "同时掷两枚均匀的骰子，点数之和为 7 的概率是多少？（结果写成最简分数）",
+        "answer": "1/6",
+        "explanation": "用列表法得到 6×6=36 种等可能结果，和为 7 的有 (1,6)、(2,5)、(3,4)、(4,3)、(5,2)、(6,1) 共 6 种，概率为 6/36=1/6。",
+        "verify": "Fraction(len([1 for t in range(36) if t//6+t%6+2==7]),36)"
+      },
+      "after": {
+        "id": "cnm_287_q3",
+        "topicId": "cnm_287",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "同时掷两枚均匀的骰子，点数之和为 7 的概率是多少？（结果写成最简分数）各次投掷相互独立。",
+        "answer": "1/6",
+        "explanation": "用列表法得到 6×6=36 种等可能结果，和为 7 的有 (1,6)、(2,5)、(3,4)、(4,3)、(5,2)、(6,1) 共 6 种，概率为 6/36=1/6。",
+        "verify": "Fraction(len([1 for t in range(36) if t//6+t%6+2==7]),36)"
+      }
+    },
+    {
+      "id": "cnm_287_q4",
+      "beforeHash": "160a1e74c9395515f1821b6eadea86171c9f2abafcfc4d913f3f9fd084a5b25f",
+      "before": {
+        "id": "cnm_287_q4",
+        "topicId": "cnm_287",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列试验中，需要三步，不适合用列表法、而更适合用树状图列出全部结果的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "连续抛三枚均匀的硬币"
+          },
+          {
+            "key": "B",
+            "text": "同时掷两枚骰子"
+          },
+          {
+            "key": "C",
+            "text": "先抛一枚硬币，再掷一枚骰子"
+          },
+          {
+            "key": "D",
+            "text": "摸出一个球后放回，再摸一个球"
+          }
+        ],
+        "answer": "A",
+        "explanation": "列表法适用于两步试验；三步及以上的试验要用树状图逐步分支。A 有三步，B、C、D 都只有两步。"
+      },
+      "after": {
+        "id": "cnm_287_q4",
+        "topicId": "cnm_287",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列试验中，直接按每一步分支画树状图通常比普通二维列表更方便的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "连续抛三枚均匀的硬币"
+          },
+          {
+            "key": "B",
+            "text": "同时掷两枚骰子"
+          },
+          {
+            "key": "C",
+            "text": "先抛一枚硬币，再掷一枚骰子"
+          },
+          {
+            "key": "D",
+            "text": "摸出一个球后放回，再摸一个球"
+          }
+        ],
+        "answer": "A",
+        "explanation": "三步试验适合逐层分支；二维列表通常方便处理两步，但并不表示三步绝不能通过组合编码列表。"
+      }
+    },
+    {
+      "id": "cnm_287_q5",
+      "beforeHash": "1fd4d5b8a47ea1c7c94802987c231216a9da1fffdacd5304932217f834002422",
+      "before": {
+        "id": "cnm_287_q5",
+        "topicId": "cnm_287",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "同时掷两枚均匀的骰子，点数之积为偶数的概率是多少？（结果写成最简分数）",
+        "answer": "3/4",
+        "explanation": "36 种等可能结果中，积为奇数需两个点数都是奇数，有 3×3=9 种，所以积为偶数的有 27 种，概率为 27/36=3/4。",
+        "verify": "Fraction(len([1 for t in range(36) if (t//6+1)*(t%6+1)%2==0]),36)"
+      },
+      "after": {
+        "id": "cnm_287_q5",
+        "topicId": "cnm_287",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "同时掷两枚均匀的骰子，点数之积为偶数的概率是多少？（结果写成最简分数）各次投掷相互独立。",
+        "answer": "3/4",
+        "explanation": "36 种等可能结果中，积为奇数需两个点数都是奇数，有 3×3=9 种，所以积为偶数的有 27 种，概率为 27/36=3/4。",
+        "verify": "Fraction(len([1 for t in range(36) if (t//6+1)*(t%6+1)%2==0]),36)"
+      }
+    },
+    {
+      "id": "cnm_288_q2",
+      "beforeHash": "8a5999842020263cfe2f2f4261020217ee7154db417bc939c8ccb7c6e2346647",
+      "before": {
+        "id": "cnm_288_q2",
+        "topicId": "cnm_288",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "关于频率与概率，下列说法正确的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "大量重复试验中，事件发生的频率会稳定在概率附近"
+          },
+          {
+            "key": "B",
+            "text": "频率总是等于概率"
+          },
+          {
+            "key": "C",
+            "text": "只做 10 次试验，频率一定等于概率"
+          },
+          {
+            "key": "D",
+            "text": "概率会随试验次数的增加而改变"
+          }
+        ],
+        "answer": "A",
+        "explanation": "概率是固定的数，频率在试验中会波动，只有试验次数很大时频率才稳定在概率附近。"
+      },
+      "after": {
+        "id": "cnm_288_q2",
+        "topicId": "cnm_288",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "关于频率与概率，下列说法正确的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "大量重复试验中，事件发生的频率会稳定在概率附近"
+          },
+          {
+            "key": "B",
+            "text": "频率总是等于概率"
+          },
+          {
+            "key": "C",
+            "text": "只做 10 次试验，频率一定等于概率"
+          },
+          {
+            "key": "D",
+            "text": "概率会随试验次数的增加而改变"
+          }
+        ],
+        "answer": "A",
+        "explanation": "在同一试验条件下，概率模型保持不变，频率会波动；大量重复试验有助于估计，不保证每次或每一步更接近。"
+      }
+    },
+    {
+      "id": "cnm_288_q3",
+      "beforeHash": "abe2de08bdf25aa3d497279180519adcba1d948edd19d4005076d790b804b055",
+      "before": {
+        "id": "cnm_288_q3",
+        "topicId": "cnm_288",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "一名篮球运动员投篮 150 次，投中 93 次。估计他投篮命中的概率（写成小数）。",
+        "answer": "0.62",
+        "explanation": "用频率估计概率：93÷150=0.62。",
+        "verify": "Fraction(93,150)"
+      },
+      "after": {
+        "id": "cnm_288_q3",
+        "topicId": "cnm_288",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "假设投篮条件及能力保持稳定，一名运动员在150次投篮中命中93次，用这批记录的频率估计命中概率（写成小数）。",
+        "answer": "0.62",
+        "explanation": "用频率估计概率：93÷150=0.62。",
+        "verify": "Fraction(93,150)"
+      }
+    },
+    {
+      "id": "cnm_289_q1",
+      "beforeHash": "f74076f1b6aa426b1fc34e9668973d01bc90e8b6851214b885dc34da0a8baed0",
+      "before": {
+        "id": "cnm_289_q1",
+        "topicId": "cnm_289",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "两人各掷一枚骰子，点数和为偶数甲胜，奇数乙胜，公平吗？（请依次写出甲、乙获胜的概率，结果写成最简分数，用逗号隔开）",
+        "answer": "1/2，1/2",
+        "explanation": "共 36 种等可能结果，和为偶数需两个点数同奇偶，有 18 种，和为奇数也有 18 种，甲、乙获胜概率都是 1/2，所以游戏公平。",
+        "verify": "[Fraction(len([1 for t in range(36) if (t//6+t%6)%2==0]),36), Fraction(len([1 for t in range(36) if (t//6+t%6)%2==1]),36)]"
+      },
+      "after": {
+        "id": "cnm_289_q1",
+        "topicId": "cnm_289",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "双方收益和损失规则相同。两人各掷一枚骰子，点数和为偶数甲胜，奇数乙胜，公平吗？（请依次写出甲、乙获胜的概率，结果写成最简分数，用逗号隔开）骰子均匀且两次投掷相互独立。",
+        "answer": "1/2，1/2",
+        "explanation": "共 36 种等可能结果，和为偶数需两个点数同奇偶，有 18 种，和为奇数也有 18 种，甲、乙获胜概率都是 1/2，所以游戏公平。",
+        "verify": "[Fraction(len([1 for t in range(36) if (t//6+t%6)%2==0]),36), Fraction(len([1 for t in range(36) if (t//6+t%6)%2==1]),36)]"
+      }
+    },
+    {
+      "id": "cnm_289_q2",
+      "beforeHash": "178646f8945323dde8a6271446742849ab5965c14a72968842211c80d8f0f291",
+      "before": {
+        "id": "cnm_289_q2",
+        "topicId": "cnm_289",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "游戏对双方公平，指的是下面哪一种情况？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "参加游戏的人数相同"
+          },
+          {
+            "key": "B",
+            "text": "双方获胜的概率相等"
+          },
+          {
+            "key": "C",
+            "text": "双方都有可能获胜"
+          },
+          {
+            "key": "D",
+            "text": "游戏一定以平局结束"
+          }
+        ],
+        "answer": "B",
+        "explanation": "游戏公平的标准是双方获胜的概率相等；仅仅双方都有可能获胜并不一定公平。"
+      },
+      "after": {
+        "id": "cnm_289_q2",
+        "topicId": "cnm_289",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "双方收益和损失规则相同。游戏对双方公平，指的是下面哪一种情况？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "参加游戏的人数相同"
+          },
+          {
+            "key": "B",
+            "text": "双方获胜的概率相等"
+          },
+          {
+            "key": "C",
+            "text": "双方都有可能获胜"
+          },
+          {
+            "key": "D",
+            "text": "游戏一定以平局结束"
+          }
+        ],
+        "answer": "B",
+        "explanation": "在题设双方收益和损失规则相同的情形下，用获胜概率相等作为公平标准。"
+      }
+    },
+    {
+      "id": "cnm_289_q3",
+      "beforeHash": "92bfdd6b237b834d3f6cb66530fd13ab119203de2a017be8d1ada549d20f12fe",
+      "before": {
+        "id": "cnm_289_q3",
+        "topicId": "cnm_289",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "同时掷两枚均匀的骰子：点数之和为 7 时甲胜；点数之和为 6 或 8 时乙胜；其余情况不分胜负。这个游戏如何？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "对甲有利"
+          },
+          {
+            "key": "B",
+            "text": "公平"
+          },
+          {
+            "key": "C",
+            "text": "无法判断"
+          },
+          {
+            "key": "D",
+            "text": "对乙有利"
+          }
+        ],
+        "answer": "D",
+        "explanation": "和为 7 有 6 种，和为 6 有 5 种、和为 8 有 5 种共 10 种。甲胜概率 6/36，乙胜概率 10/36，乙的概率更大，对乙有利。"
+      },
+      "after": {
+        "id": "cnm_289_q3",
+        "topicId": "cnm_289",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "双方收益和损失规则相同。同时掷两枚均匀的骰子：点数之和为 7 时甲胜；点数之和为 6 或 8 时乙胜；其余情况不分胜负。这个游戏如何？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "对甲有利"
+          },
+          {
+            "key": "B",
+            "text": "公平"
+          },
+          {
+            "key": "C",
+            "text": "无法判断"
+          },
+          {
+            "key": "D",
+            "text": "对乙有利"
+          }
+        ],
+        "answer": "D",
+        "explanation": "和为 7 有 6 种，和为 6 有 5 种、和为 8 有 5 种共 10 种。甲胜概率 6/36，乙胜概率 10/36，乙的概率更大，对乙有利。"
+      }
+    },
+    {
+      "id": "cnm_289_q4",
+      "beforeHash": "c7ae801a1817806d0bccd31f655713dc3a2c447e6180483abf37f88306a8049b",
+      "before": {
+        "id": "cnm_289_q4",
+        "topicId": "cnm_289",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "袋中有 2 个红球和 1 个白球（除颜色外相同）。从中摸一个球，记下颜色后放回，再摸一个球。两次颜色相同则甲胜，不同则乙胜。甲获胜的概率是多少？（结果写成最简分数）",
+        "answer": "5/9",
+        "explanation": "放回摸球共 3×3=9 种等可能结果，两次都是红球有 2×2=4 种，两次都是白球有 1 种，共 5 种，甲获胜概率为 5/9（大于 1/2，游戏对甲有利）。",
+        "verify": "Fraction(2*2+1*1,3*3)"
+      },
+      "after": {
+        "id": "cnm_289_q4",
+        "topicId": "cnm_289",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "双方收益和损失规则相同。袋中有 2 个红球和 1 个白球（除颜色外相同）。从中摸一个球，记下颜色后放回，再摸一个球。两次颜色相同则甲胜，不同则乙胜。甲获胜的概率是多少？（结果写成最简分数）",
+        "answer": "5/9",
+        "explanation": "放回摸球共 3×3=9 种等可能结果，两次都是红球有 2×2=4 种，两次都是白球有 1 种，共 5 种，甲获胜概率为 5/9（大于 1/2，游戏对甲有利）。",
+        "verify": "Fraction(2*2+1*1,3*3)"
+      }
+    },
+    {
+      "id": "cnm_292_q1",
+      "beforeHash": "a20e67512c5f37181dc68338999cc0a44c8571a5957b733801dd6f8039a27981",
+      "before": {
+        "id": "cnm_292_q1",
+        "topicId": "cnm_292",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "要了解一种新型种子的发芽率，宜用问卷调查、实验、查阅资料中的哪种方式收集数据？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "查阅资料"
+          },
+          {
+            "key": "B",
+            "text": "问卷调查"
+          },
+          {
+            "key": "C",
+            "text": "实验"
+          }
+        ],
+        "explanation": "发芽率需要亲自做发芽实验并记录发芽粒数才能得到。"
+      },
+      "after": {
+        "id": "cnm_292_q1",
+        "topicId": "cnm_292",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "要了解一种新型种子的发芽率，宜用问卷调查、实验、查阅资料中的哪种方式收集数据？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "查阅资料"
+          },
+          {
+            "key": "B",
+            "text": "问卷调查"
+          },
+          {
+            "key": "C",
+            "text": "实验"
+          }
+        ],
+        "explanation": "若要在当前指定条件下测定这批新种子的发芽情况，应开展发芽实验并记录；已有实验资料也可作为背景信息。"
+      }
+    },
+    {
+      "id": "cnm_299_q3",
+      "beforeHash": "331e6ca12757bd01d405496259862b9c1ee9ae9090c534b7afeab406fdf346e7",
+      "before": {
+        "id": "cnm_299_q3",
+        "topicId": "cnm_299",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "为估计池塘里鱼的条数，先捞出 100 条做上记号后放回，充分混合后再捞出 200 条，其中有 5 条带记号。估计池塘里大约有多少条鱼？",
+        "answer": "4000",
+        "explanation": "带记号的占样本 5/200，约占全部鱼的 100÷总数，由 100÷总数=5÷200 得总数 4000 条。",
+        "verify": "Fraction(100*200,5)"
+      },
+      "after": {
+        "id": "cnm_299_q3",
+        "topicId": "cnm_299",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "为估计池塘里鱼的条数，先捞出 100 条做上记号后放回，充分混合后再捞出 200 条，其中有 5 条带记号。估计池塘里大约有多少条鱼？假设两次捕捞之间鱼群封闭、标记不脱落且不改变被捕概率，第二次等可能捕捞。",
+        "answer": "4000",
+        "explanation": "带记号的占样本 5/200，约占全部鱼的 100÷总数，由 100÷总数=5÷200 得总数 4000 条。",
+        "verify": "Fraction(100*200,5)"
+      }
+    },
+    {
+      "id": "cnm_299_q4",
+      "beforeHash": "d4f86aa844a57d375fd5235ebd990273568dac51abb2c701072819763c6b1db1",
+      "before": {
+        "id": "cnm_299_q4",
+        "topicId": "cnm_299",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "为估计全校学生中近视的比例，下列做法得到的结果最可靠的是",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "在眼镜店门口调查 200 名学生"
+          },
+          {
+            "key": "B",
+            "text": "随机抽取 20 名学生"
+          },
+          {
+            "key": "C",
+            "text": "随机抽取 200 名学生"
+          },
+          {
+            "key": "D",
+            "text": "只调查视力检查不合格的学生"
+          }
+        ],
+        "explanation": "估计可靠需要随机性和适当的样本容量；眼镜店门口和只查不合格者都有偏差，20 人样本太少。"
+      },
+      "after": {
+        "id": "cnm_299_q4",
+        "topicId": "cnm_299",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "为估计全校学生近视比例，B、C都从全校完整名单随机抽取。下列方法通常更有利于获得可靠估计的是",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "在眼镜店门口调查 200 名学生"
+          },
+          {
+            "key": "B",
+            "text": "随机抽取 20 名学生"
+          },
+          {
+            "key": "C",
+            "text": "随机抽取 200 名学生"
+          },
+          {
+            "key": "D",
+            "text": "只调查视力检查不合格的学生"
+          }
+        ],
+        "explanation": "估计可靠需要随机性和适当的样本容量；眼镜店门口和只查不合格者都有偏差，20 人样本太少。"
+      }
+    },
+    {
+      "id": "cnm_305_q4",
+      "beforeHash": "061590e353611cbe9ab266d01d24d0f3796fbb5f4d242e70fa9a5e915c39caff",
+      "before": {
+        "id": "cnm_305_q4",
+        "topicId": "cnm_305",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "一组 40 个数据的箱线图中，第一四分位数为 35，第三四分位数为 60。落在第一四分位数与第三四分位数之间的数据大约有多少个？",
+        "answer": "20",
+        "explanation": "第一四分位数到第三四分位数之间（箱子部分）约含全部数据的 50%，即 40×50%=20 个。",
+        "verify": "40*Fraction(1,2)"
+      },
+      "after": {
+        "id": "cnm_305_q4",
+        "topicId": "cnm_305",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "40个数据由15个35、10个50、15个60组成；前后各20项分别取中位数得Q1/Q3。闭区间[Q1,Q3]内有多少个数据？",
+        "answer": "40",
+        "explanation": "Q1=35、Q3=60；全部40个数据均在闭区间内，重复值说明不能由箱体直接推断区间人数为20。",
+        "verify": "15+10+15"
+      }
+    },
+    {
+      "id": "cnm_306_q1",
+      "beforeHash": "9a85b59c49a52d51dfa5974f89e43ea1f22f27a8ddfbe2a2d5334c83919e8d26",
+      "before": {
+        "id": "cnm_306_q1",
+        "topicId": "cnm_306",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "从甲、乙两台机器生产的零件中各随机抽取 5 个，测得长度的方差分别为 0.04 和 0.09（mm²），估计哪台机器生产的零件长度更稳定？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "甲机器"
+          },
+          {
+            "key": "B",
+            "text": "乙机器"
+          },
+          {
+            "key": "C",
+            "text": "无法判断"
+          }
+        ],
+        "answer": "A",
+        "explanation": "用样本方差估计总体的稳定性，方差越小越稳定，0.04<0.09，所以甲机器更稳定。"
+      },
+      "after": {
+        "id": "cnm_306_q1",
+        "topicId": "cnm_306",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "从甲、乙两台机器生产的零件中各随机抽取 5 个，测得长度的方差分别为 0.04 和 0.09（mm²），估计哪台机器生产的零件长度更稳定？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "甲机器"
+          },
+          {
+            "key": "B",
+            "text": "乙机器"
+          },
+          {
+            "key": "C",
+            "text": "无法判断"
+          }
+        ],
+        "answer": "A",
+        "explanation": "样本方差0.04小于0.09，据此初步估计甲的总体波动较小；各5件样本不足以作确定保证。"
+      }
+    },
+    {
+      "id": "cnm_306_q3",
+      "beforeHash": "29f21baa3c4a3d0e192c141be424b1e63ac1e7decd374bbfea65c9cea8829658",
+      "before": {
+        "id": "cnm_306_q3",
+        "topicId": "cnm_306",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "随机抽取甲、乙两批水稻各 5 株，株高（cm）：甲 90、92、94、96、98；乙 92、93、94、95、96（平均数都是 94）。甲批样本方差比乙批大多少？",
+        "answer": "6",
+        "explanation": "甲方差=(16+4+0+4+16)÷5=8，乙方差=(4+1+0+1+4)÷5=2，相差 6，说明甲批株高更不整齐。",
+        "verify": "Fraction(sum([(x-94)**2 for x in [90,92,94,96,98]]),5)-Fraction(sum([(x-94)**2 for x in [92,93,94,95,96]]),5)"
+      },
+      "after": {
+        "id": "cnm_306_q3",
+        "topicId": "cnm_306",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "随机抽取甲、乙两批水稻各 5 株，株高（cm）：甲 90、92、94、96、98；乙 92、93、94、95、96（平均数都是 94）。甲批样本方差比乙批大多少？",
+        "answer": "6",
+        "explanation": "甲样本方差8、乙样本方差2，差为6平方厘米；这是对这两个样本的描述，对总体的推断仍有不确定性。",
+        "verify": "Fraction(sum([(x-94)**2 for x in [90,92,94,96,98]]),5)-Fraction(sum([(x-94)**2 for x in [92,93,94,95,96]]),5)"
+      }
+    },
+    {
+      "id": "cnm_307_q1",
+      "beforeHash": "1c6611a01f0684e47f9353ebea188d3d9a6a59046ddc0623ba40dad0bb174497",
+      "before": {
+        "id": "cnm_307_q1",
+        "topicId": "cnm_307",
+        "difficulty": "basic",
+        "type": "short",
+        "prompt": "袋中有 5 个红球、3 个白球、2 个黄球（形状相同），随机摸一个，摸到红、白、黄球的可能性由大到小怎样排列？（用“＞”连接）",
+        "answer": "红球＞白球＞黄球",
+        "accept": [
+          "红球>白球>黄球",
+          "红>白>黄",
+          "红＞白＞黄",
+          "红球，白球，黄球"
+        ],
+        "explanation": "三种球的个数分别是 5、3、2，个数越多摸到的可能性越大，所以红球＞白球＞黄球。"
+      },
+      "after": {
+        "id": "cnm_307_q1",
+        "topicId": "cnm_307",
+        "difficulty": "basic",
+        "type": "short",
+        "prompt": "袋中有 5 个红球、3 个白球、2 个黄球（形状相同），随机摸一个，摸到红、白、黄球的可能性由大到小怎样排列？（用“＞”连接）各球除颜色或编号外相同，充分混匀后随机抽取。",
+        "answer": "红球＞白球＞黄球",
+        "accept": [
+          "红球>白球>黄球",
+          "红>白>黄",
+          "红＞白＞黄",
+          "红球，白球，黄球"
+        ],
+        "explanation": "三种球的个数分别是 5、3、2，个数越多摸到的可能性越大，所以红球＞白球＞黄球。"
+      }
+    },
+    {
+      "id": "cnm_307_q4",
+      "beforeHash": "a63c6929cc25c1d79268db60573aa857e284e486ee04521254ab017d81dad839",
+      "before": {
+        "id": "cnm_307_q4",
+        "topicId": "cnm_307",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "袋中有红球 6 个、白球 4 个，另有黄球 x 个（球形状相同）。要使随机摸到黄球的可能性比摸到红球、白球的可能性都大，x 最小取多少？（x 为整数）",
+        "answer": "7",
+        "explanation": "黄球个数要大于红球的 6 个和白球的 4 个，即 x>6，所以 x 最小取 7。",
+        "verify": "min([x for x in range(100) if x>6 and x>4])"
+      },
+      "after": {
+        "id": "cnm_307_q4",
+        "topicId": "cnm_307",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "袋中有红球 6 个、白球 4 个，另有黄球 x 个（球形状相同）。要使随机摸到黄球的可能性比摸到红球、白球的可能性都大，x 最小取多少？（x 为整数）各球除颜色或编号外相同，充分混匀后随机抽取。",
+        "answer": "7",
+        "explanation": "黄球个数要大于红球的 6 个和白球的 4 个，即 x>6，所以 x 最小取 7。",
+        "verify": "min([x for x in range(100) if x>6 and x>4])"
+      }
+    },
+    {
+      "id": "cnm_309_q1",
+      "beforeHash": "50af6203d0bb6f1429287d2152a928a96c8ac55def458f39d3b9921c2148787d",
+      "before": {
+        "id": "cnm_309_q1",
+        "topicId": "cnm_309",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "抛一枚不均匀的骰子，能否用 1/6 作为出现 6 点的概率？为什么？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "能，因为骰子有 6 个面"
+          },
+          {
+            "key": "B",
+            "text": "不能，因为各点数出现的可能性不相等，不满足等可能"
+          },
+          {
+            "key": "C",
+            "text": "能，因为 6 点只有一种结果"
+          },
+          {
+            "key": "D",
+            "text": "不能，因为结果有无限多种"
+          }
+        ],
+        "answer": "B",
+        "explanation": "1/6 是用 P=m/n 算得的，要求所有结果等可能。骰子不均匀时各点数的可能性不相等，不能直接用 1/6。"
+      },
+      "after": {
+        "id": "cnm_309_q1",
+        "topicId": "cnm_309",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "抛一枚不均匀的骰子，能否用 1/6 作为出现 6 点的概率？为什么？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "能，因为骰子有 6 个面"
+          },
+          {
+            "key": "B",
+            "text": "不能仅凭六个面就确定为1/6，因为没有等可能模型的保证"
+          },
+          {
+            "key": "C",
+            "text": "能，因为 6 点只有一种结果"
+          },
+          {
+            "key": "D",
+            "text": "不能，因为结果有无限多种"
+          }
+        ],
+        "answer": "B",
+        "explanation": "不均匀骰子没有六面等可能的保证，不能直接套1/6；也不能由“不均匀”断言每一个面的概率都不同或某一面绝不可能恰为1/6。"
+      }
+    },
+    {
+      "id": "cnm_310_q1",
+      "beforeHash": "3bdc4398aa1568e23a42c9b4eefe131e096632c5b5c1578b10838ff3ce6e96db",
+      "before": {
+        "id": "cnm_310_q1",
+        "topicId": "cnm_310",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "袋中有 2 红 1 白共 3 个球，连续摸两次，两次都是红球的概率：(1) 放回；(2) 不放回？（依次写出 (1)(2) 的答案，结果写成最简分数，用逗号隔开）",
+        "answer": "4/9，1/3",
+        "explanation": "(1) 放回：共 3×3=9 种结果，两次都是红球 2×2=4 种，概率 4/9。(2) 不放回：共 3×2=6 种结果，两次都是红球 2×1=2 种，概率 2/6=1/3。",
+        "verify": "[Fraction(2*2,3*3), Fraction(2*1,3*2)]"
+      },
+      "after": {
+        "id": "cnm_310_q1",
+        "topicId": "cnm_310",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "袋中有 2 红 1 白共 3 个球，连续摸两次，两次都是红球的概率：(1) 放回；(2) 不放回？（依次写出 (1)(2) 的答案，结果写成最简分数，用逗号隔开）各球除颜色或编号外相同，充分混匀后随机抽取。",
+        "answer": "4/9，1/3",
+        "explanation": "(1) 放回：共 3×3=9 种结果，两次都是红球 2×2=4 种，概率 4/9。(2) 不放回：共 3×2=6 种结果，两次都是红球 2×1=2 种，概率 2/6=1/3。",
+        "verify": "[Fraction(2*2,3*3), Fraction(2*1,3*2)]"
+      }
+    },
+    {
+      "id": "cnm_310_q2",
+      "beforeHash": "697388fea9ea2582b6ac02cfad4623ebdc226b911e47239a3f231001332e16ce",
+      "before": {
+        "id": "cnm_310_q2",
+        "topicId": "cnm_310",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "袋中有 4 个互不相同的球，连续摸两次并按顺序记录结果。(1) 放回时，等可能结果共有多少种？(2) 不放回时，等可能结果共有多少种？（依次填写，用逗号隔开）",
+        "answer": "16，12",
+        "explanation": "放回时每次都有 4 种结果，共 4×4=16 种；不放回时第二次只剩 3 种，共 4×3=12 种。",
+        "verify": "[4*4, 4*3]"
+      },
+      "after": {
+        "id": "cnm_310_q2",
+        "topicId": "cnm_310",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "袋中有 4 个互不相同的球，连续摸两次并按顺序记录结果。(1) 放回时，等可能结果共有多少种？(2) 不放回时，等可能结果共有多少种？（依次填写，用逗号隔开）各球除颜色或编号外相同，充分混匀后随机抽取。",
+        "answer": "16，12",
+        "explanation": "放回时每次都有 4 种结果，共 4×4=16 种；不放回时第二次只剩 3 种，共 4×3=12 种。",
+        "verify": "[4*4, 4*3]"
+      }
+    },
+    {
+      "id": "cnm_310_q3",
+      "beforeHash": "f405fe234bd6793d439319a6e9c85e43991c194fdb7576abe53f9f14f43a14f4",
+      "before": {
+        "id": "cnm_310_q3",
+        "topicId": "cnm_310",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列情形中，属于“不放回”摸球的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "从袋中一次同时摸出两个球"
+          },
+          {
+            "key": "B",
+            "text": "摸出一个球，记录颜色后放回，再摸一个"
+          },
+          {
+            "key": "C",
+            "text": "每次摸球后都把球放回袋中并搅匀"
+          },
+          {
+            "key": "D",
+            "text": "先后两次摸球，每次摸球前袋中的球数都相同"
+          }
+        ],
+        "answer": "A",
+        "explanation": "一次同时摸出两个球，等价于摸出的第一个球不放回再摸第二个；B、C、D 都是放回的情形。"
+      },
+      "after": {
+        "id": "cnm_310_q3",
+        "topicId": "cnm_310",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列情形中，属于“不放回”摸球的是哪一个？各球除颜色或编号外相同，充分混匀后随机抽取。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "从袋中一次同时摸出两个球"
+          },
+          {
+            "key": "B",
+            "text": "摸出一个球，记录颜色后放回，再摸一个"
+          },
+          {
+            "key": "C",
+            "text": "每次摸球后都把球放回袋中并搅匀"
+          },
+          {
+            "key": "D",
+            "text": "先后两次摸球，每次摸球前袋中的球数都相同"
+          }
+        ],
+        "answer": "A",
+        "explanation": "一次同时摸出两个球，等价于摸出的第一个球不放回再摸第二个；B、C、D 都是放回的情形。"
+      }
+    },
+    {
+      "id": "cnm_311_q1",
+      "beforeHash": "7aa909578d497b9eaa9762f800b05ffb5a9296acb0d7fe31aa8b55196f158e63",
+      "before": {
+        "id": "cnm_311_q1",
+        "topicId": "cnm_311",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "连续抛三枚均匀硬币，恰好两枚正面朝上的概率是多少？（结果写成最简分数）",
+        "answer": "3/8",
+        "explanation": "树状图共 2×2×2=8 种等可能结果，恰好两枚正面的有 (正正反)、(正反正)、(反正正) 共 3 种，概率为 3/8。",
+        "verify": "Fraction(len([1 for t in range(8) if t//4+t//2%2+t%2==2]),8)"
+      },
+      "after": {
+        "id": "cnm_311_q1",
+        "topicId": "cnm_311",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "连续抛三枚均匀硬币，恰好两枚正面朝上的概率是多少？（结果写成最简分数）各次投掷相互独立。",
+        "answer": "3/8",
+        "explanation": "树状图共 2×2×2=8 种等可能结果，恰好两枚正面的有 (正正反)、(正反正)、(反正正) 共 3 种，概率为 3/8。",
+        "verify": "Fraction(len([1 for t in range(8) if t//4+t//2%2+t%2==2]),8)"
+      }
+    },
+    {
+      "id": "cnm_311_q2",
+      "beforeHash": "233a2c3275c373414f6443f6fbe4147b94996da23d720d325a47a591f3152764",
+      "before": {
+        "id": "cnm_311_q2",
+        "topicId": "cnm_311",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "连续抛三枚均匀硬币，画出树状图，所有等可能的结果共有多少种？",
+        "answer": "8",
+        "explanation": "每枚硬币有 2 种结果，三步共 2×2×2=8 种。",
+        "verify": "2*2*2"
+      },
+      "after": {
+        "id": "cnm_311_q2",
+        "topicId": "cnm_311",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "连续抛三枚均匀硬币，画出树状图，所有等可能的结果共有多少种？各次投掷相互独立。",
+        "answer": "8",
+        "explanation": "每枚硬币有 2 种结果，三步共 2×2×2=8 种。",
+        "verify": "2*2*2"
+      }
+    },
+    {
+      "id": "cnm_311_q3",
+      "beforeHash": "9e6a2af7a9a6ce43360a6f9c26451b833b56318b558dfbdbda01c3afbceef08b",
+      "before": {
+        "id": "cnm_311_q3",
+        "topicId": "cnm_311",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "连续抛三枚均匀硬币，至少有一枚正面朝上的概率是多少？（结果写成最简分数）",
+        "answer": "7/8",
+        "explanation": "8 种结果中只有 (反反反) 没有正面，所以至少一枚正面的有 7 种，概率为 7/8。",
+        "verify": "Fraction(len([1 for t in range(8) if t//4+t//2%2+t%2>=1]),8)"
+      },
+      "after": {
+        "id": "cnm_311_q3",
+        "topicId": "cnm_311",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "连续抛三枚均匀硬币，至少有一枚正面朝上的概率是多少？（结果写成最简分数）各次投掷相互独立。",
+        "answer": "7/8",
+        "explanation": "8 种结果中只有 (反反反) 没有正面，所以至少一枚正面的有 7 种，概率为 7/8。",
+        "verify": "Fraction(len([1 for t in range(8) if t//4+t//2%2+t%2>=1]),8)"
+      }
+    },
+    {
+      "id": "cnm_314_q1",
+      "beforeHash": "5f07ab6f00ece78e47515e951092603acbc206e9080df72312ca0338b57fa774",
+      "before": {
+        "id": "cnm_314_q1",
+        "topicId": "cnm_314",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "抛一枚均匀硬币，已连续 5 次正面朝上，第 6 次正面朝上的概率是多少？（结果写成最简分数）",
+        "answer": "1/2",
+        "explanation": "每次抛掷相互独立，之前的结果不会改变后面的概率，第 6 次正面朝上的概率仍是 1/2。",
+        "verify": "Fraction(1,2)"
+      },
+      "after": {
+        "id": "cnm_314_q1",
+        "topicId": "cnm_314",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "抛一枚均匀硬币，已连续 5 次正面朝上，第 6 次正面朝上的概率是多少？（结果写成最简分数）各次投掷相互独立。",
+        "answer": "1/2",
+        "explanation": "每次抛掷相互独立，之前的结果不会改变后面的概率，第 6 次正面朝上的概率仍是 1/2。",
+        "verify": "Fraction(1,2)"
+      }
+    },
+    {
+      "id": "cnm_314_q3",
+      "beforeHash": "3d31a2e3bb324e804485acba0c662065bacd43a6e967adc407258b6bf144d7cd",
+      "before": {
+        "id": "cnm_314_q3",
+        "topicId": "cnm_314",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "小明说：“抛一枚均匀硬币，正面朝上的概率是 1/2，所以抛 10 次一定恰好有 5 次正面朝上。”这个说法如何？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "正确"
+          },
+          {
+            "key": "B",
+            "text": "不正确，概率只反映大量重复试验中频率的稳定趋势，10 次中正面次数不一定是 5"
+          },
+          {
+            "key": "C",
+            "text": "不正确，因为正面朝上的概率应是 1/10"
+          },
+          {
+            "key": "D",
+            "text": "正确，因为概率就是频率"
+          }
+        ],
+        "answer": "B",
+        "explanation": "概率 1/2 说明大量重复试验时正面的频率稳定在 0.5 附近，并不意味着每 10 次都恰好 5 次正面。"
+      },
+      "after": {
+        "id": "cnm_314_q3",
+        "topicId": "cnm_314",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "小明说：“抛一枚均匀硬币，正面朝上的概率是 1/2，所以抛 10 次一定恰好有 5 次正面朝上。”这个说法如何？各次投掷相互独立。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "正确"
+          },
+          {
+            "key": "B",
+            "text": "不正确，概率只反映大量重复试验中频率的稳定趋势，10 次中正面次数不一定是 5"
+          },
+          {
+            "key": "C",
+            "text": "不正确，因为正面朝上的概率应是 1/10"
+          },
+          {
+            "key": "D",
+            "text": "正确，因为概率就是频率"
+          }
+        ],
+        "answer": "B",
+        "explanation": "概率 1/2 说明大量重复试验时正面的频率稳定在 0.5 附近，并不意味着每 10 次都恰好 5 次正面。"
+      }
+    },
+    {
+      "id": "cnm_216_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_216_q6",
+        "topicId": "cnm_216",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "数据9、1、7、3、8、2、6、4。排序后前后各4项取中位数，求Q1、Q2、Q3及四分位距。",
+        "answer": "排序1,2,3,4,6,7,8,9；Q1=2.5，Q2=5，Q3=7.5，四分位距5。",
+        "explanation": "排序1,2,3,4,6,7,8,9；Q1=2.5，Q2=5，Q3=7.5，四分位距5。"
+      }
+    },
+    {
+      "id": "cnm_216_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_216_q7",
+        "topicId": "cnm_216",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "两组同单位数据Q2均为50，甲Q1=40、Q3=60，乙Q1=46、Q3=54。哪组中间一半更集中？能否据此判断平均数谁大？",
+        "answer": "乙四分位距8小于甲20；无法仅由这些四分位数比较平均数。解释应涉及分散与中心指标的区别。",
+        "explanation": "乙四分位距8小于甲20；无法仅由这些四分位数比较平均数。解释应涉及分散与中心指标的区别。"
+      }
+    },
+    {
+      "id": "cnm_305_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_305_q6",
+        "topicId": "cnm_305",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "画五数为10、20、30、40、60的箱线图，须取最小最大值。另一组五数10、25、30、35、60，比较中间一半的分散程度。",
+        "answer": "应标出两端10/60、箱体20至40、中位线30；另一组箱体25至35。后者IQR=10小于前者20，更集中；本题人工看图评分。",
+        "explanation": "应标出两端10/60、箱体20至40、中位线30；另一组箱体25至35。后者IQR=10小于前者20，更集中；本题人工看图评分。"
+      }
+    },
+    {
+      "id": "cnm_305_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_305_q7",
+        "topicId": "cnm_305",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "40个数据由15个35、10个50、15个60组成，按前后各20项中位数法求Q1和Q3，并数出闭区间[Q1,Q3]、开区间(Q1,Q3)内各多少个。",
+        "answer": "Q1=35，Q3=60；闭区间40个、开区间10个。说明仅给Q1/Q3不能唯一确定区间人数，不能统一答20。",
+        "explanation": "Q1=35，Q3=60；闭区间40个、开区间10个。说明仅给Q1/Q3不能唯一确定区间人数，不能统一答20。"
+      }
+    },
+    {
+      "id": "cnm_298_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_298_q5",
+        "topicId": "cnm_298",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "从编号1至60的完整学生名单抽6人，设计抽签方案，说明是否放回及是否保证每个班都被抽中。",
+        "answer": "60张同质签一人一签、充分混匀随机抽6张不放回，记录对应人；机会均等不保证每班入样。",
+        "explanation": "60张同质签一人一签、充分混匀随机抽6张不放回，记录对应人；机会均等不保证每班入样。"
+      }
+    },
+    {
+      "id": "cnm_298_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_298_q6",
+        "topicId": "cnm_298",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "从全校完整名单随机抽20人，恰好七年级偏多。这是否证明抽样操作错误？若只在篮球场找20人又有什么不同？",
+        "answer": "前者可能是随机波动，不能仅凭失衡断定操作错；后者抽样框受场所限制，可能有系统选择偏差。",
+        "explanation": "前者可能是随机波动，不能仅凭失衡断定操作错；后者抽样框受场所限制，可能有系统选择偏差。"
+      }
+    },
+    {
+      "id": "cnm_285_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_285_q5",
+        "topicId": "cnm_285",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "袋中红球R1、R2和白球W1、W2、W3，除颜色外相同，充分混匀随机取一球。列出基本结果，求红球概率。",
+        "answer": "五个编号球为等可能基本结果，红球对应R1/R2，概率2/5；不能把红白两类当等可能结果。",
+        "explanation": "五个编号球为等可能基本结果，红球对应R1/R2，概率2/5；不能把红白两类当等可能结果。"
+      }
+    },
+    {
+      "id": "cnm_285_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_285_q6",
+        "topicId": "cnm_285",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "分别独立掷两枚均匀硬币，按第一枚和第二枚区分，列出所有结果并求恰有一个正面的概率。",
+        "answer": "正正、正反、反正、反反；等可能，恰有一个正面2/4=1/2，不是把0/1/2个正面当三种等可能结果。",
+        "explanation": "正正、正反、反正、反反；等可能，恰有一个正面2/4=1/2，不是把0/1/2个正面当三种等可能结果。"
+      }
+    },
+    {
+      "id": "cnm_288_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_288_q5",
+        "topicId": "cnm_288",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "同样条件下重复试验1000次，事件发生512次，给概率估计，并说明能否确定下次发生。",
+        "answer": "估计0.512；不能确定下次结果，也不能断言真实概率恰等于0.512。",
+        "explanation": "估计0.512；不能确定下次结果，也不能断言真实概率恰等于0.512。"
+      }
+    },
+    {
+      "id": "cnm_288_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_288_q6",
+        "topicId": "cnm_288",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "均匀硬币前20次正面14次，前1000次正面512次。比较两次频率与0.5的距离，能否保证第1001次后的频率离0.5更近？",
+        "answer": "0.7距离0.2，0.512距离0.012；不能保证每一步更近。若第1001次正面，则513/1001约0.51249，反而更远。",
+        "explanation": "0.7距离0.2，0.512距离0.012；不能保证每一步更近。若第1001次正面，则513/1001约0.51249，反而更远。"
+      }
+    },
+    {
+      "id": "cnm_104_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_104_q5",
+        "topicId": "cnm_104",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "从完整名单随机抽20人，一次样本年级比例偏离总体。这证明抽样操作错误吗？",
+        "answer": "不能；可能是抽样波动。需检查名单完整和抽取过程，不以一次比例失衡判定操作错。",
+        "explanation": "不能；可能是抽样波动。需检查名单完整和抽取过程，不以一次比例失衡判定操作错。"
+      }
+    },
+    {
+      "id": "cnm_215_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_215_q6",
+        "topicId": "cnm_215",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "数据1、3、5均值为3。分别给出离差平方和与按n计算的方差，并说明为何不同。",
+        "answer": "离差平方和8，方差8/3；方差为平方和除以3。",
+        "explanation": "离差平方和8，方差8/3；方差为平方和除以3。"
+      }
+    },
+    {
+      "id": "cnm_107_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_107_q5",
+        "topicId": "cnm_107",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "用等组距区间[0,10)、[10,20)、[20,30)和频数3、5、2画频数直方图。",
+        "answer": "横轴区间连续且等宽、纵轴标频数，三柱高3/5/2；标轴名和端点，总频数10。人工检查图形。",
+        "explanation": "横轴区间连续且等宽、纵轴标频数，三柱高3/5/2；标轴名和端点，总频数10。人工检查图形。"
+      }
+    },
+    {
+      "id": "cnm_294_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_294_q5",
+        "topicId": "cnm_294",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "某地1至4月降水量20、35、55、40毫米，画折线图并说明为何不能把月份当无序类别。",
+        "answer": "横轴月份依时间顺序等距、纵轴毫米注明刻度，四点正确连接；月份有时间顺序。人工看图评分。",
+        "explanation": "横轴月份依时间顺序等距、纵轴毫米注明刻度，四点正确连接；月份有时间顺序。人工看图评分。"
+      }
+    },
+    {
+      "id": "cnm_295_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_295_q5",
+        "topicId": "cnm_295",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "某班40人，每人只选一种运动，篮球12人、足球8人、跑步20人。用量角器绘扇形图并检验。",
+        "answer": "占比30%/20%/50%，圆心角108/72/180度，合计360度；扇区和标签相符。人工检查图形。",
+        "explanation": "占比30%/20%/50%，圆心角108/72/180度，合计360度；扇区和标签相符。人工检查图形。"
+      }
+    },
+    {
+      "id": "cnm_300_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_300_q5",
+        "topicId": "cnm_300",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "某组通勤记录为8分钟、10分钟、0.2小时和一条空白。统一单位，处理缺失值，用计算器求有效记录均值，写两句结论及局限。",
+        "answer": "有效数据8/10/12分钟，均值10分钟；空白不当0，标缺失并询问补记。说明只有3条有效观测，不能直接代表全校。评分检查清理、计算、局限三方面。",
+        "explanation": "有效数据8/10/12分钟，均值10分钟；空白不当0，标缺失并询问补记。说明只有3条有效观测，不能直接代表全校。评分检查清理、计算、局限三方面。"
+      }
+    },
+    {
+      "id": "cnm_300_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_300_q6",
+        "topicId": "cnm_300",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "设计调查全校通勤时间的简短报告提纲：写出问题、抽样、数据整理、图表、结论和交流反馈。",
+        "answer": "应明确总体与时间单位，完整名单随机抽样，记录缺失与异常，选择合适图表，给出有数据依据的估计和限制，说明怎样向同学交流并据反馈检查。只背顺序不算全部通过。",
+        "explanation": "应明确总体与时间单位，完整名单随机抽样，记录缺失与异常，选择合适图表，给出有数据依据的估计和限制，说明怎样向同学交流并据反馈检查。只背顺序不算全部通过。"
+      }
+    },
+    {
+      "id": "cnm_287_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_287_q6",
+        "topicId": "cnm_287",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "两枚均匀硬币独立投掷，实际画出树状图或列表，并标出恰有一个正面的结果。",
+        "answer": "第一/第二枚可区分，四结果正正/正反/反正/反反不重不漏；标出正反和反正。人工检查实际图表。",
+        "explanation": "第一/第二枚可区分，四结果正正/正反/反正/反反不重不漏；标出正反和反正。人工检查实际图表。"
+      }
+    },
+    {
+      "id": "cnm_108_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_108_q5",
+        "topicId": "cnm_108",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "销量40、45、52、58、63、70件，按平均每月约增6件预测下月76件。请区分事实、假设和预测。",
+        "answer": "已有六个月销量是记录；延续近似增长是模型假设；76是预测不是保证，季节或需求变化可能使预测失准。",
+        "explanation": "已有六个月销量是记录；延续近似增长是模型假设；76是预测不是保证，季节或需求变化可能使预测失准。"
+      }
+    },
+    {
+      "id": "cnm_316_q1",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_316_q1",
+        "topicId": "cnm_316",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "数据1、2、8、9分两组。A={1,2}/{8,9}，B={1,8}/{2,9}。对每组自身均值求平方和，依次写A、B的组内离差平方和总和。",
+        "answer": "1，49",
+        "explanation": "A两组均值1.5和8.5，总和1；B两组均值4.5和5.5，总和49，固定两组时A较集中。",
+        "verify": "[Fraction(1,4)*4,Fraction(49,4)*4]"
+      }
+    },
+    {
+      "id": "cnm_316_q2",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_316_q2",
+        "topicId": "cnm_316",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "数据0、2、9分两个非空组，列出全部不计组次序的分组，比较总和。若改分三组得0，能否据此称三组方案优于两组方案？",
+        "answer": "三种：{0,2}/{9}总和2；{0,9}/{2}总和40.5；{0}/{2,9}总和24.5。两组中首种最小；三组改变了约束，不作同条件优劣结论。",
+        "explanation": "三种：{0,2}/{9}总和2；{0,9}/{2}总和40.5；{0}/{2,9}总和24.5。两组中首种最小；三组改变了约束，不作同条件优劣结论。"
+      }
+    },
+    {
+      "id": "cnm_317_q1",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_317_q1",
+        "topicId": "cnm_317",
+        "type": "self",
+        "difficulty": "basic",
+        "prompt": "报告说明某学生成绩处于约第90百分位，即在该群体中的相对位置约超过90%的成绩。是否能推出该生成绩是90分？说明理由。",
+        "answer": "不能；百分位表示群体中相对位置，不是百分制原始得分。能区分两个量即可，不要求计算分位值。",
+        "explanation": "不能；百分位表示群体中相对位置，不是百分制原始得分。能区分两个量即可，不要求计算分位值。"
+      }
+    },
+    {
+      "id": "cnm_317_q2",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_317_q2",
+        "topicId": "cnm_317",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "某图将通勤时长的第25、50、75百分位分别标为15、25、40分钟。指出中位数和第三四分位数，并解释“75”与“40”的区别。",
+        "answer": "中位数25分钟，Q3=40分钟；75是百分位位置，40是时长。不能写成75分钟或40%。",
+        "explanation": "中位数25分钟，Q3=40分钟；75是百分位位置，40是时长。不能写成75分钟或40%。"
+      }
+    },
+    {
+      "id": "cnm_316_q3",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_316_q3",
+        "topicId": "cnm_316",
+        "type": "self",
+        "difficulty": "basic",
+        "prompt": "解释为何把每个数单独分一组虽然总平方和为0，却不能据此否定固定分两组的方案。",
+        "answer": "改变了组数约束；比较不同组数还需另外标准，不能只用未调整的组内平方和。",
+        "explanation": "改变了组数约束；比较不同组数还需另外标准，不能只用未调整的组内平方和。"
+      }
+    },
+    {
+      "id": "cnm_317_q3",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_317_q3",
+        "topicId": "cnm_317",
+        "type": "self",
+        "difficulty": "basic",
+        "prompt": "报告将第75百分位时长标为40分钟，能否把这句话解释成75分钟或40%的人？",
+        "answer": "不能；75是百分位位置，40分钟是对应数值，不能交换单位与百分位。",
+        "explanation": "不能；75是百分位位置，40分钟是对应数值，不能交换单位与百分位。"
+      }
+    },
+    {
+      "id": "cnm_305_q8",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_305_q8",
+        "topicId": "cnm_305",
+        "type": "self",
+        "difficulty": "standard",
+        "prompt": "阅读图中的箱线图，给出中位数、四分位距及极差；说明本图的须端约定。",
+        "answer": "中位数30分钟，Q1=20/Q3=40，所以IQR=20分钟；最小10/最大60，极差50分钟。本图明确须为最小最大值，不能推广到所有箱线图。",
+        "explanation": "中位数30分钟，Q1=20/Q3=40，所以IQR=20分钟；最小10/最大60，极差50分钟。本图明确须为最小最大值，不能推广到所有箱线图。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 180\" role=\"img\" aria-label=\"箱线图，须为最小最大值，横轴为分钟\"><rect width=\"440\" height=\"180\" fill=\"white\"/><g stroke=\"#243746\" fill=\"none\" stroke-width=\"2\"><path d=\"M50 135H400 M100 80H150 M250 80H350 M100 65V95 M350 65V95\"/><rect x=\"150\" y=\"50\" width=\"100\" height=\"60\" fill=\"#cde8f2\"/><path d=\"M200 50V110\"/></g><g fill=\"#243746\" font-size=\"16\" text-anchor=\"middle\"><text x=\"50\" y=\"157\">0</text><text x=\"100\" y=\"157\">10</text><text x=\"150\" y=\"157\">20</text><text x=\"200\" y=\"157\">30</text><text x=\"250\" y=\"157\">40</text><text x=\"300\" y=\"157\">50</text><text x=\"350\" y=\"157\">60</text><text x=\"400\" y=\"157\">70</text><text x=\"220\" y=\"22\">须表示最小值和最大值</text><text x=\"390\" y=\"178\">分钟</text></g></svg>"
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_211",
+      "beforeHash": "193280e0b8100cde0789cdba9f59bbc0c6c37a0eec37be946a130a448d31165f",
+      "before": [
+        {
+          "topicId": "cnm_211",
+          "prerequisiteId": "cnm_p129",
+          "strength": "hard",
+          "reason": "学习「平均数」需要先会小学的「平均数」。初中平均数的学习是在小学已学平均数概念的基础上深化的。"
+        },
+        {
+          "topicId": "cnm_211",
+          "prerequisiteId": "cnm_021",
+          "strength": "hard",
+          "reason": "计算需要有理数运算"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_211",
+          "prerequisiteId": "cnm_p129",
+          "strength": "hard",
+          "reason": "学习「平均数」需要先会小学的「平均数」。初中平均数的学习是在小学已学平均数概念的基础上深化的。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_215",
+      "beforeHash": "bd7a81d50a898fb298104e5a80345007fb144be2596f82e5532f91a5dd3e98bc",
+      "before": [
+        {
+          "topicId": "cnm_215",
+          "prerequisiteId": "cnm_211",
+          "strength": "hard",
+          "reason": "方差是各数据与平均数之差的平方的平均，需要先会求平均数"
+        },
+        {
+          "topicId": "cnm_215",
+          "prerequisiteId": "cnm_075",
+          "strength": "soft",
+          "reason": "标准差是方差的算术平方根"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_215",
+          "prerequisiteId": "cnm_211",
+          "strength": "hard",
+          "reason": "方差是各数据与平均数之差的平方的平均，需要先会求平均数"
+        }
+      ]
+    },
+    {
+      "id": "cnm_288",
+      "beforeHash": "9812fede9a6eeb59772fb84c6709659b7a7806ec13293039b66544115614d4b2",
+      "before": [
+        {
+          "topicId": "cnm_288",
+          "prerequisiteId": "cnm_285",
+          "strength": "hard",
+          "reason": "用频率估计概率要先理解概率是可能性大小的数值度量"
+        },
+        {
+          "topicId": "cnm_288",
+          "prerequisiteId": "cnm_297",
+          "strength": "hard",
+          "reason": "用频率估计概率前要先理解频率（相对频数）的含义和计算"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_288",
+          "prerequisiteId": "cnm_285",
+          "strength": "soft",
+          "reason": "概率含义是背景；该节点还含等可能计数任务，不作为频率估计的整体硬门槛。"
+        },
+        {
+          "topicId": "cnm_288",
+          "prerequisiteId": "cnm_297",
+          "strength": "hard",
+          "reason": "用频率估计概率前要先理解频率（相对频数）的含义和计算"
+        }
+      ]
+    },
+    {
+      "id": "cnm_298",
+      "beforeHash": "1428fcebae89bad8bfa89b4e7af473075b6f4b05dfe73e7920f7acbab16d43d6",
+      "before": [
+        {
+          "topicId": "cnm_298",
+          "prerequisiteId": "cnm_104",
+          "strength": "hard",
+          "reason": "实施随机抽样前要先理解样本代表性与随机性的要求"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_298",
+          "prerequisiteId": "cnm_104",
+          "strength": "soft",
+          "reason": "代表性辨析有助于理解，但执行明确随机抽取步骤不要求先会全部偏差题。"
+        },
+        {
+          "topicId": "cnm_298",
+          "prerequisiteId": "cnm_103",
+          "strength": "hard",
+          "reason": "实施抽样需明确总体、个体和样本。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_316",
+      "beforeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": [],
+      "after": [
+        {
+          "topicId": "cnm_316",
+          "prerequisiteId": "cnm_215",
+          "strength": "hard",
+          "reason": "计算固定分组方案需要离差平方和；本次215已明确该能力并移除标准差任务。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_317",
+      "beforeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "before": [],
+      "after": [
+        {
+          "topicId": "cnm_317",
+          "prerequisiteId": "cnm_213",
+          "strength": "hard",
+          "reason": "联系中位数解释百分位位置。"
+        },
+        {
+          "topicId": "cnm_317",
+          "prerequisiteId": "cnm_p194",
+          "strength": "hard",
+          "reason": "解释百分位位置需理解百分数表示比例。"
+        }
+      ]
+    }
+  ]
+}

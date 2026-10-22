@@ -1,0 +1,686 @@
+[
+  {
+    "topicId": "cnm_102",
+    "prerequisiteId": "cnm_p085",
+    "strength": "hard",
+    "rationale": "学习「全面调查与抽样调查」需要先会小学的「复式统计表」。小学已学数据收集与整理。",
+    "decision": "current-provisional",
+    "reviewNote": "保留调查方式选择；适用条件和准确性由既有题辨析，待教师审核。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_105",
+    "prerequisiteId": "cnm_p175",
+    "strength": "hard",
+    "rationale": "学习「扇形图、条形图与折线图」需要先会小学的「折线统计图」。小学已学三种统计图。",
+    "decision": "current-provisional",
+    "reviewNote": "保留图表选择，已有小学条形/折线背景；真实读图证据由305等具体图题补充，本点仍待扩图。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_105",
+    "prerequisiteId": "cnm_p199",
+    "strength": "hard",
+    "rationale": "学习「扇形图、条形图与折线图」需要先会小学的「扇形统计图」。小学已学三种统计图。",
+    "decision": "current-provisional",
+    "reviewNote": "保留图表选择，已有小学条形/折线背景；真实读图证据由305等具体图题补充，本点仍待扩图。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_106",
+    "prerequisiteId": "cnm_p085",
+    "strength": "hard",
+    "rationale": "学习「频数分布表与数据分组」需要先会小学的「复式统计表」。对数据分组整理要以小学学过的统计表和统计图知识为基础。",
+    "decision": "current-provisional",
+    "reviewNote": "明确组端点，98/41分组题指定起点；避免未给分组起点时机械套组数。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_212",
+    "prerequisiteId": "cnm_p194",
+    "strength": "soft",
+    "rationale": "学习「加权平均数」需要先会小学的「百分数的意义」。加权平均数中的权常用百分数来表示，需要小学已学的百分数知识。",
+    "decision": "current-provisional",
+    "reviewNote": "权可以是频数或人数，不只重要程度；保留数值与权重解释题。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_213",
+    "prerequisiteId": "cnm_p129",
+    "strength": "hard",
+    "rationale": "学习「中位数与众数」需要先会小学的「平均数」。中位数与众数是在小学统计表与统计图学习的基础上引入的新统计量。",
+    "decision": "current-provisional",
+    "reviewNote": "保留中位数/众数；明确其复合范围使216仅需中位数子能力，节点级依赖仍为近似。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_284",
+    "prerequisiteId": "cnm_p140",
+    "strength": "hard",
+    "rationale": "学习「随机事件、必然事件与不可能事件」需要先会小学的「可能性」。随机事件的分类建立在小学已学的可能性大小的基础之上。",
+    "decision": "current-provisional",
+    "reviewNote": "保留三类事件，当前为初中有限模型；不扩展连续概率的零概率事件。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_285",
+    "prerequisiteId": "cnm_p165",
+    "strength": "hard",
+    "rationale": "学习「概率的意义与等可能事件的概率」需要先会小学的「分数的意义」。概率用分数表示可能性大小，需要先理解分数的意义与运算。",
+    "decision": "retain-provisional",
+    "reviewNote": "改为等可能基本结果计数；补列举和解释任务，同步fallback。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_295",
+    "prerequisiteId": "cnm_p194",
+    "strength": "hard",
+    "rationale": "学习「扇形图的绘制：百分比与圆心角的换算」需要先会小学的「百分数的意义」。把各类数据换算成占总数的百分比需要小学已学的百分数知识。",
+    "decision": "current-provisional",
+    "reviewNote": "补真实扇形绘制及角度合计判据，保留量角器操作要求。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_295",
+    "prerequisiteId": "cnm_p100",
+    "strength": "hard",
+    "rationale": "学习「扇形图的绘制：百分比与圆心角的换算」需要先会小学的「角的度量」。按圆心角画出扇形需要用量角器作角，需要小学已学的角的度量。",
+    "decision": "current-provisional",
+    "reviewNote": "补真实扇形绘制及角度合计判据，保留量角器操作要求。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_297",
+    "prerequisiteId": "cnm_p194",
+    "strength": "hard",
+    "rationale": "学习「频率（相对频数）的计算与意义」需要先会小学的「百分数的意义」。频率常写成百分数，需要小学已学的百分数知识。",
+    "decision": "current-provisional",
+    "reviewNote": "频率改为本批观测占比，声明分类互斥穷尽，不把样本比例当总体真实比例。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_103",
+    "prerequisiteId": "cnm_102",
+    "strength": "hard",
+    "rationale": "总体、个体、样本这些概念是在抽样调查的情境中引入的，需先理解抽样调查",
+    "decision": "current-provisional",
+    "reviewNote": "保留；样本指观测值与样本容量的区分已有题，先修调查类型暂保留。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_104",
+    "prerequisiteId": "cnm_103",
+    "strength": "hard",
+    "rationale": "讨论样本是否有代表性，必须先理解总体、个体和样本的概念",
+    "decision": "retain-provisional",
+    "reviewNote": "修正代表性保证；补随机波动解释，完整抽样框与便利抽样分开。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_106",
+    "prerequisiteId": "cnm_105",
+    "strength": "soft",
+    "rationale": "做频数分布表前，先会读和画常见的统计图有助于理解数据的整理",
+    "decision": "current-provisional",
+    "reviewNote": "明确组端点，98/41分组题指定起点；避免未给分组起点时机械套组数。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_107",
+    "prerequisiteId": "cnm_106",
+    "strength": "hard",
+    "rationale": "画频数分布直方图的数据来自频数分布表，所以要先学会作频数表",
+    "decision": "current-provisional",
+    "reviewNote": "注明等距且纵轴频数；补实际绘图任务与评分判据。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_107",
+    "prerequisiteId": "cnm_082",
+    "strength": "soft",
+    "rationale": "画图需要直角坐标系",
+    "decision": "current-provisional",
+    "reviewNote": "注明等距且纵轴频数；补实际绘图任务与评分判据。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_108",
+    "prerequisiteId": "cnm_105",
+    "strength": "hard",
+    "rationale": "趋势图是折线图的拓展",
+    "decision": "current-provisional",
+    "reviewNote": "保留经济/气温趋势情境；补事实、延续假设与预测限制，不把趋势预测当保证。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_212",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "rationale": "加权是平均数的推广",
+    "decision": "current-provisional",
+    "reviewNote": "权可以是频数或人数，不只重要程度；保留数值与权重解释题。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_213",
+    "prerequisiteId": "cnm_009",
+    "strength": "hard",
+    "rationale": "求中位数要先把数据按大小排序，需要先会有理数的大小比较",
+    "decision": "current-provisional",
+    "reviewNote": "保留中位数/众数；明确其复合范围使216仅需中位数子能力，节点级依赖仍为近似。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_214",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "rationale": "选择合适的集中趋势统计量，需要先理解平均数的特点",
+    "decision": "current-provisional",
+    "reviewNote": "工资题限定为一般员工典型水平，不能脱离目标一律选择中位数。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_214",
+    "prerequisiteId": "cnm_213",
+    "strength": "hard",
+    "rationale": "选择集中趋势统计量要比较平均数、中位数和众数，需要先掌握中位数与众数",
+    "decision": "current-provisional",
+    "reviewNote": "工资题限定为一般员工典型水平，不能脱离目标一律选择中位数。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_214",
+    "prerequisiteId": "cnm_212",
+    "strength": "soft",
+    "rationale": "选择统计量时也要考虑加权平均数的适用情形，学过加权平均有帮助",
+    "decision": "current-provisional",
+    "reviewNote": "工资题限定为一般员工典型水平，不能脱离目标一律选择中位数。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_216",
+    "prerequisiteId": "cnm_213",
+    "strength": "hard",
+    "rationale": "四分位数基于中位数",
+    "decision": "retain-provisional",
+    "reviewNote": "补未排序数据和解释任务；保留题中算法约定，奇数规则不冒充全国唯一算法。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_216",
+    "prerequisiteId": "cnm_215",
+    "strength": "soft",
+    "rationale": "四分位数与方差、极差都用来描述数据的分布，学过方差有助于对比理解",
+    "decision": "retain-provisional",
+    "reviewNote": "补未排序数据和解释任务；保留题中算法约定，奇数规则不冒充全国唯一算法。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_217",
+    "prerequisiteId": "cnm_106",
+    "strength": "hard",
+    "rationale": "由分组数据估计平均数需要用到频数分布表中各组的频数，需要先会作频数分布表",
+    "decision": "current-provisional",
+    "reviewNote": "保留组中值加权估计并保留误差辨析；不是SP.06分类优化的替代。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_217",
+    "prerequisiteId": "cnm_212",
+    "strength": "hard",
+    "rationale": "估计平均数用加权平均",
+    "decision": "current-provisional",
+    "reviewNote": "保留组中值加权估计并保留误差辨析；不是SP.06分类优化的替代。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_217",
+    "prerequisiteId": "cnm_107",
+    "strength": "soft",
+    "rationale": "直方图可以直观显示各组频数，结合直方图有助于理解分组数据",
+    "decision": "current-provisional",
+    "reviewNote": "保留组中值加权估计并保留误差辨析；不是SP.06分类优化的替代。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_285",
+    "prerequisiteId": "cnm_284",
+    "strength": "hard",
+    "rationale": "概率是对随机事件发生的可能性大小的度量，需要先会区分三类事件",
+    "decision": "retain-provisional",
+    "reviewNote": "改为等可能基本结果计数；补列举和解释任务，同步fallback。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_286",
+    "prerequisiteId": "cnm_285",
+    "strength": "hard",
+    "rationale": "用列举法求概率要用到概率的定义和等可能事件的概率公式",
+    "decision": "current-provisional",
+    "reviewNote": "保留有限等可能列举；原四题数值可通过表达式核验。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_287",
+    "prerequisiteId": "cnm_286",
+    "strength": "hard",
+    "rationale": "列表法与树状图是把列举法系统化、避免遗漏的方法，需要先会用列举法求概率",
+    "decision": "current-provisional",
+    "reviewNote": "补实际列表/树图任务，修正三步试验不能列表的绝对说法；明确独立投掷。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_289",
+    "prerequisiteId": "cnm_287",
+    "strength": "hard",
+    "rationale": "判断游戏是否公平要先用列表法或树状图算出各方获胜的概率",
+    "decision": "current-provisional",
+    "reviewNote": "公平比较限定相同收益损失规则，防止把胜率相等泛化为所有游戏公平。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_289",
+    "prerequisiteId": "cnm_288",
+    "strength": "soft",
+    "rationale": "当结果不等可能时可以用试验频率来检验游戏的公平性",
+    "decision": "current-provisional",
+    "reviewNote": "公平比较限定相同收益损失规则，防止把胜率相等泛化为所有游戏公平。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_292",
+    "prerequisiteId": "cnm_102",
+    "strength": "hard",
+    "rationale": "确定了调查方式（全面调查或抽样调查）之后，才需要选择具体的数据收集方法",
+    "decision": "current-provisional",
+    "reviewNote": "修正种子数据必须亲自实验的表述，已有资料可作背景；问卷设计偏差题保留。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_293",
+    "prerequisiteId": "cnm_292",
+    "strength": "hard",
+    "rationale": "只有先收集到数据，才能进行分类整理和制作统计表",
+    "decision": "current-provisional",
+    "reviewNote": "保留划记和合计核对；不凭合计错误就改合计。现整数题分组无歧义。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_294",
+    "prerequisiteId": "cnm_293",
+    "strength": "hard",
+    "rationale": "画条形图和折线图的数据来自整理好的统计表",
+    "decision": "current-provisional",
+    "reviewNote": "补真实折线绘制及坐标单位评分，数值题不能代替绘图过程。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_294",
+    "prerequisiteId": "cnm_105",
+    "strength": "soft",
+    "rationale": "先会读统计图、了解各图的用途，有助于正确地绘制统计图",
+    "decision": "current-provisional",
+    "reviewNote": "补真实折线绘制及坐标单位评分，数值题不能代替绘图过程。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_294",
+    "prerequisiteId": "cnm_082",
+    "strength": "soft",
+    "rationale": "折线图要在平面直角坐标系中描点连线，坐标系知识有助于作图",
+    "decision": "current-provisional",
+    "reviewNote": "补真实折线绘制及坐标单位评分，数值题不能代替绘图过程。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_295",
+    "prerequisiteId": "cnm_293",
+    "strength": "hard",
+    "rationale": "扇形图要用整理好的各类数据求出百分比，需要先会整理数据",
+    "decision": "current-provisional",
+    "reviewNote": "补真实扇形绘制及角度合计判据，保留量角器操作要求。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_296",
+    "prerequisiteId": "cnm_294",
+    "strength": "hard",
+    "rationale": "辨识图形是否误导要熟悉条形图和折线图的作法，尤其是纵轴刻度的取法",
+    "decision": "current-provisional",
+    "reviewNote": "保留截断纵轴辨析；截断轴不是所有图形一律禁止，具体解释针对条形高度比较。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_296",
+    "prerequisiteId": "cnm_295",
+    "strength": "soft",
+    "rationale": "扇形图中各扇形面积比例的表达同样可能被夸大，了解其作法有帮助",
+    "decision": "current-provisional",
+    "reviewNote": "保留截断纵轴辨析；截断轴不是所有图形一律禁止，具体解释针对条形高度比较。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_297",
+    "prerequisiteId": "cnm_106",
+    "strength": "hard",
+    "rationale": "频率由频数分布表中各组的频数和数据总数计算得出",
+    "decision": "current-provisional",
+    "reviewNote": "频率改为本批观测占比，声明分类互斥穷尽，不把样本比例当总体真实比例。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_299",
+    "prerequisiteId": "cnm_104",
+    "strength": "hard",
+    "rationale": "用样本估计总体的前提是样本具有代表性，需要先理解样本的代表性与随机抽样",
+    "decision": "current-provisional",
+    "reviewNote": "标志重捕题补封闭等条件；比较抽样方法统一完整名单，保留估计措辞。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_299",
+    "prerequisiteId": "cnm_297",
+    "strength": "hard",
+    "rationale": "样本百分比就是样本中某类个体的频率，需要先会计算频率",
+    "decision": "current-provisional",
+    "reviewNote": "标志重捕题补封闭等条件；比较抽样方法统一完整名单，保留估计措辞。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_300",
+    "prerequisiteId": "cnm_293",
+    "strength": "hard",
+    "rationale": "整理数据是统计活动的重要步骤，需要先会分类整理数据",
+    "decision": "current-provisional",
+    "reviewNote": "补工具计算、缺失值处理、报告和反馈任务；追加SP.10映射，不以背步骤为实施证据。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_300",
+    "prerequisiteId": "cnm_105",
+    "strength": "soft",
+    "rationale": "描述数据要用统计图，了解常见统计图有助于理解统计活动的全过程",
+    "decision": "current-provisional",
+    "reviewNote": "补工具计算、缺失值处理、报告和反馈任务；追加SP.10映射，不以背步骤为实施证据。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_301",
+    "prerequisiteId": "cnm_107",
+    "strength": "hard",
+    "rationale": "读直方图分析数据是在会看直方图的基础上进行的",
+    "decision": "current-provisional",
+    "reviewNote": "保留同区间频数读图和比例；实际图形形式仍需扩充，现题主要给文字频数。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_301",
+    "prerequisiteId": "cnm_297",
+    "strength": "hard",
+    "rationale": "求某范围内的占比需要用频率的计算",
+    "decision": "current-provisional",
+    "reviewNote": "保留同区间频数读图和比例；实际图形形式仍需扩充，现题主要给文字频数。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_302",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "rationale": "样本平均数是用平均数公式计算出来的，需要先会求平均数",
+    "decision": "current-provisional",
+    "reviewNote": "保留样本均值估计，明确估计不等于总体确定值；题库比较抽样方式。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_302",
+    "prerequisiteId": "cnm_104",
+    "strength": "hard",
+    "rationale": "用样本平均数估计总体的前提是样本具有代表性",
+    "decision": "current-provisional",
+    "reviewNote": "保留样本均值估计，明确估计不等于总体确定值；题库比较抽样方式。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_303",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "rationale": "判断极端值对平均数的影响，需要先会计算并理解平均数",
+    "decision": "current-provisional",
+    "reviewNote": "中位数较稳健但并非删除极端值后不变，修正描述边界。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_303",
+    "prerequisiteId": "cnm_213",
+    "strength": "hard",
+    "rationale": "与平均数对比时需要先会求中位数，才能看出中位数不受极端值影响",
+    "decision": "current-provisional",
+    "reviewNote": "中位数较稳健但并非删除极端值后不变，修正描述边界。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_304",
+    "prerequisiteId": "cnm_215",
+    "strength": "hard",
+    "rationale": "比较稳定性要先会计算方差，方差越小数据越稳定",
+    "decision": "current-provisional",
+    "reviewNote": "比较同变量同单位，稳定不自动等于决策最优；保留数值计算。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_304",
+    "prerequisiteId": "cnm_214",
+    "strength": "soft",
+    "rationale": "在比较稳定性前通常先比较平均数，选择统计量的经验有帮助",
+    "decision": "current-provisional",
+    "reviewNote": "比较同变量同单位，稳定不自动等于决策最优；保留数值计算。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_305",
+    "prerequisiteId": "cnm_216",
+    "strength": "hard",
+    "rationale": "箱线图由四分位数画成，需要先掌握数据的四分位数",
+    "decision": "retain-provisional",
+    "reviewNote": "修复重复值人数题，补SVG读图和绘图任务，明确须端约定及离群点画法。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_305",
+    "prerequisiteId": "cnm_105",
+    "strength": "soft",
+    "rationale": "箱线图也是一种统计图，读图和比较的经验有帮助",
+    "decision": "retain-provisional",
+    "reviewNote": "修复重复值人数题，补SVG读图和绘图任务，明确须端约定及离群点画法。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_306",
+    "prerequisiteId": "cnm_304",
+    "strength": "hard",
+    "rationale": "由样本方差估计总体的稳定性要先会用方差比较数据的稳定性",
+    "decision": "current-provisional",
+    "reviewNote": "修改两处从样本直断总体的解析，保留估计与小样本限制。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_306",
+    "prerequisiteId": "cnm_104",
+    "strength": "hard",
+    "rationale": "样本方差能否代表总体取决于样本是否有代表性",
+    "decision": "current-provisional",
+    "reviewNote": "修改两处从样本直断总体的解析，保留估计与小样本限制。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_307",
+    "prerequisiteId": "cnm_284",
+    "strength": "hard",
+    "rationale": "比较可能性大小要先会区分必然事件、不可能事件与随机事件",
+    "decision": "current-provisional",
+    "reviewNote": "补基本结果等可能条件及球的同质随机抽取条件。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_308",
+    "prerequisiteId": "cnm_285",
+    "strength": "hard",
+    "rationale": "概率的取值范围是在理解概率意义的基础上得到的",
+    "decision": "current-provisional",
+    "reviewNote": "保留概率范围辨析；范围限本课程有限正概率基本结果模型。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_309",
+    "prerequisiteId": "cnm_285",
+    "strength": "hard",
+    "rationale": "判断能否用公式计算概率，要先理解等可能事件概率的含义",
+    "decision": "retain-provisional",
+    "reviewNote": "不均匀骰子不能直接套1/6，但也不能断言某面概率绝不为1/6；不增加反向hard环。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_310",
+    "prerequisiteId": "cnm_287",
+    "strength": "hard",
+    "rationale": "放回与不放回情形的所有结果都要用列表法或树状图列出",
+    "decision": "current-provisional",
+    "reviewNote": "明确球的同质和随机抽取；放回/不放回分别计数，原数值可核验。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_311",
+    "prerequisiteId": "cnm_287",
+    "strength": "hard",
+    "rationale": "三步试验的树状图是两步试验列表法与树状图的推广",
+    "decision": "current-provisional",
+    "reviewNote": "明确独立条件，保留三步树图应用；不因标题“以上”无限扩展题目复杂度。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_312",
+    "prerequisiteId": "cnm_288",
+    "strength": "hard",
+    "rationale": "估计实际概率的方法就是用频率估计概率",
+    "decision": "current-provisional",
+    "reviewNote": "保留频率估计发芽/合格率；模型假设相同条件，外推数量仍为估计。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_312",
+    "prerequisiteId": "cnm_299",
+    "strength": "soft",
+    "rationale": "用估计出的概率预测总体数量，与用样本百分比估计总体数量的思路相同",
+    "decision": "current-provisional",
+    "reviewNote": "保留频率估计发芽/合格率；模型假设相同条件，外推数量仍为估计。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_313",
+    "prerequisiteId": "cnm_285",
+    "strength": "hard",
+    "rationale": "按等可能计算概率要用到概率的定义和公式",
+    "decision": "current-provisional",
+    "reviewNote": "保留图表到概率的综合应用；目前多为文字给数，后续补真实图表变式。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_313",
+    "prerequisiteId": "cnm_105",
+    "strength": "hard",
+    "rationale": "需要从条形图、扇形图等统计图中读出各类个体的数量",
+    "decision": "current-provisional",
+    "reviewNote": "保留图表到概率的综合应用；目前多为文字给数，后续补真实图表变式。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_314",
+    "prerequisiteId": "cnm_288",
+    "strength": "hard",
+    "rationale": "要用大量重复试验中频率的稳定性解释概率，才能辨析对概率的各种误解",
+    "decision": "current-provisional",
+    "reviewNote": "保留赌徒谬误辨析，明确独立；概率意义不仅是会算比值。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_211",
+    "prerequisiteId": "cnm_p129",
+    "strength": "hard",
+    "rationale": "学习「平均数」需要先会小学的「平均数」。初中平均数的学习是在小学已学平均数概念的基础上深化的。",
+    "decision": "current-provisional",
+    "reviewNote": "移除整套有理数混合运算hard门槛，保留小学均值背景；原均值题可独立核验。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_215",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "rationale": "方差是各数据与平均数之差的平方的平均，需要先会求平均数",
+    "decision": "current-provisional",
+    "reviewNote": "显式加入离差平方和，标准差退出本节点首轮核心任务；保留ID并记录含义调整。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_288",
+    "prerequisiteId": "cnm_285",
+    "strength": "soft",
+    "rationale": "概率含义是背景；该节点还含等可能计数任务，不作为频率估计的整体硬门槛。",
+    "decision": "current-provisional",
+    "reviewNote": "限定相同条件，补波动和非单调收敛反例；与285整体硬关系降soft。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_288",
+    "prerequisiteId": "cnm_297",
+    "strength": "hard",
+    "rationale": "用频率估计概率前要先理解频率（相对频数）的含义和计算",
+    "decision": "retain-provisional",
+    "reviewNote": "限定相同条件，补波动和非单调收敛反例；与285整体硬关系降soft。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_298",
+    "prerequisiteId": "cnm_104",
+    "strength": "soft",
+    "rationale": "代表性辨析有助于理解，但执行明确随机抽取步骤不要求先会全部偏差题。",
+    "decision": "current-provisional",
+    "reviewNote": "补实施任务、无放回和不保证每班入样；代表性辨析降soft，样本概念为hard。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_298",
+    "prerequisiteId": "cnm_103",
+    "strength": "hard",
+    "rationale": "实施抽样需明确总体、个体和样本。",
+    "decision": "current-provisional",
+    "reviewNote": "补实施任务、无放回和不保证每班入样；代表性辨析降soft，样本概念为hard。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_316",
+    "prerequisiteId": "cnm_215",
+    "strength": "hard",
+    "rationale": "计算固定分组方案需要离差平方和；本次215已明确该能力并移除标准差任务。",
+    "decision": "current-provisional",
+    "reviewNote": "新增固定组数的组内平方和比较，3题含数值与约束解释；不引入聚类算法。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_317",
+    "prerequisiteId": "cnm_213",
+    "strength": "hard",
+    "rationale": "联系中位数解释百分位位置。",
+    "decision": "current-provisional",
+    "reviewNote": "新增百分位意义，3题区分位置/阈值/原始分数；高中算法不作为先修。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_317",
+    "prerequisiteId": "cnm_p194",
+    "strength": "hard",
+    "rationale": "解释百分位位置需理解百分数表示比例。",
+    "decision": "current-provisional",
+    "reviewNote": "新增百分位意义，3题区分位置/阈值/原始分数；高中算法不作为先修。 hard表示设计上的能力基础，不表示答对目标即可逻辑推出该先修已掌握。复合节点的子能力拆分留待后续。",
+    "expertReviewed": false
+  }
+]

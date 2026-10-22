@@ -7,6 +7,12 @@ OUT = Path(__file__).resolve().parent
 BASE = '97b7b8c684fc82fb4d3037d4074555174a9a79f1'
 def read(p): return json.loads((ROOT / p).read_text())
 def write(p, obj): (OUT / p).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
+lock = OUT / 'baseline-lock.json'
+if lock.exists():
+    for name, expected in json.loads(lock.read_text())['files'].items():
+        if hashlib.sha256((ROOT/name).read_bytes()).hexdigest() != expected:
+            raise SystemExit('Batch A is a frozen historical review. Data changed; use scripts/build_statistics_review.py for batch B.')
+
 topics=read('data/topics.json'); edges=read('data/dependencies.json'); questions=read('data/questions.json')
 standards=[x for x in read('data/cn-curriculum-standards.json')['items'] if x['id'].startswith('cms-2022:4.')]
 notes=read('reviews/math-junior/statistics/requirement-findings.json')

@@ -2,7 +2,9 @@
 (function () {
   'use strict';
   const E = window.DiagEngine;
-  const LS_SESSION = 'cnmDiagnose.session.v2';
+  const DATA_VERSION = 'statistics-2026-10.1';
+  const LS_LEGACY_SESSION = 'cnmDiagnose.session.v2';
+  const LS_SESSION = 'cnmDiagnose.session.' + DATA_VERSION;
   const LS_SESSION_EN = 'cneDiagnose.session.v2';
   const LS_SETTINGS = 'cnmDiagnose.settings.v2';
   const LS_SEEN = 'cnmDiagnose.seen.v1';
@@ -209,7 +211,7 @@
   function save() {
     if (demo || !session) return;
     lsSet(sessionKey(), {
-      v: 2, mode: session.mode, targets: session.targets, limit: session.limit, label: sessionMeta.label, answers: session.answers,
+      v: 2, dataVersion: subject === 'math' ? DATA_VERSION : 'upstream', mode: session.mode, targets: session.targets, limit: session.limit, label: sessionMeta.label, answers: session.answers,
       seed: session.seed, avoid: session.avoid, savedAt: new Date().toISOString()
     });
   }
@@ -321,6 +323,16 @@
 
   function renderStart(errMsg) {
     const page = h('div');
+    const legacy = subject === 'math' ? lsGet(LS_LEGACY_SESSION) : null;
+    if (legacy) {
+      page.append(h('div', { class: 'banner' },
+        '题库已更新，旧诊断保留备查；请开始新的诊断。旧结果不会按新题目重新解释。 ',
+        h('button', { onclick: function () {
+          const url = URL.createObjectURL(new Blob([JSON.stringify(legacy, null, 2)], { type: 'application/json' }));
+          const a = document.createElement('a'); a.href = url; a.download = 'math-diagnosis-before-statistics-update.json'; a.click();
+          setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
+        } }, '导出旧记录')));
+    }
     const saved = lsGet(sessionKey());
     if (saved && saved.targets && D.graph.byId[saved.targets[0]]) {
       page.append(h('div', { class: 'banner' },
@@ -1254,7 +1266,7 @@
     });
     const chapters = session.mode === 'screen' ? E.chapterSummary(D.graph, session) : null;
     const out = {
-      tool: 'cn-math-taxonomy/diagnose', version: 2, mode: session.mode || 'target', generatedAt: new Date().toISOString(),
+      tool: 'cn-math-taxonomy/diagnose', version: 2, dataVersion: subject === 'math' ? DATA_VERSION : 'upstream', mode: session.mode || 'target', generatedAt: new Date().toISOString(),
       note: '自动判题是近似的，以参考答案为准；数据为 AI 生成的初稿，未经教师审核。',
       label: sessionMeta.label,
       targets: session.targets.map(brief),

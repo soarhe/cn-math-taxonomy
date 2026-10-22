@@ -1,0 +1,662 @@
+[
+  {
+    "topicId": "cnm_102",
+    "name": "全面调查与抽样调查",
+    "action": "retain",
+    "assessment": "保留调查方式选择；适用条件和准确性由既有题辨析，待教师审核。",
+    "questionIds": [
+      "cnm_102_q1",
+      "cnm_102_q2",
+      "cnm_102_q3",
+      "cnm_102_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_103",
+    "name": "总体、个体、样本与样本容量",
+    "action": "retain",
+    "assessment": "保留；样本指观测值与样本容量的区分已有题，先修调查类型暂保留。",
+    "questionIds": [
+      "cnm_103_q1",
+      "cnm_103_q2",
+      "cnm_103_q3",
+      "cnm_103_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_104",
+    "name": "样本的代表性与随机抽样",
+    "action": "revise",
+    "assessment": "修正代表性保证；补随机波动解释，完整抽样框与便利抽样分开。",
+    "questionIds": [
+      "cnm_104_q1",
+      "cnm_104_q2",
+      "cnm_104_q3",
+      "cnm_104_q4",
+      "cnm_104_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_105",
+    "name": "扇形图、条形图与折线图",
+    "action": "retain",
+    "assessment": "保留图表选择，已有小学条形/折线背景；真实读图证据由305等具体图题补充，本点仍待扩图。",
+    "questionIds": [
+      "cnm_105_q1",
+      "cnm_105_q2",
+      "cnm_105_q3",
+      "cnm_105_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_106",
+    "name": "频数分布表与数据分组",
+    "action": "revise",
+    "assessment": "明确组端点，98/41分组题指定起点；避免未给分组起点时机械套组数。",
+    "questionIds": [
+      "cnm_106_q1",
+      "cnm_106_q2",
+      "cnm_106_q3",
+      "cnm_106_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_107",
+    "name": "频数分布直方图",
+    "action": "revise",
+    "assessment": "注明等距且纵轴频数；补实际绘图任务与评分判据。",
+    "questionIds": [
+      "cnm_107_q1",
+      "cnm_107_q2",
+      "cnm_107_q3",
+      "cnm_107_q4",
+      "cnm_107_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_108",
+    "name": "趋势图",
+    "action": "revise",
+    "assessment": "保留经济/气温趋势情境；补事实、延续假设与预测限制，不把趋势预测当保证。",
+    "questionIds": [
+      "cnm_108_q1",
+      "cnm_108_q2",
+      "cnm_108_q3",
+      "cnm_108_q4",
+      "cnm_108_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_211",
+    "name": "平均数",
+    "action": "retain",
+    "assessment": "移除整套有理数混合运算hard门槛，保留小学均值背景；原均值题可独立核验。",
+    "questionIds": [
+      "cnm_211_q1",
+      "cnm_211_q2",
+      "cnm_211_q3",
+      "cnm_211_q4",
+      "cnm_211_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_212",
+    "name": "加权平均数",
+    "action": "revise",
+    "assessment": "权可以是频数或人数，不只重要程度；保留数值与权重解释题。",
+    "questionIds": [
+      "cnm_212_q1",
+      "cnm_212_q2",
+      "cnm_212_q3",
+      "cnm_212_q4",
+      "cnm_212_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_213",
+    "name": "中位数与众数",
+    "action": "retain",
+    "assessment": "保留中位数/众数；明确其复合范围使216仅需中位数子能力，节点级依赖仍为近似。",
+    "questionIds": [
+      "cnm_213_q1",
+      "cnm_213_q2",
+      "cnm_213_q3",
+      "cnm_213_q4",
+      "cnm_213_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_214",
+    "name": "集中趋势统计量的选择",
+    "action": "revise",
+    "assessment": "工资题限定为一般员工典型水平，不能脱离目标一律选择中位数。",
+    "questionIds": [
+      "cnm_214_q1",
+      "cnm_214_q2",
+      "cnm_214_q3",
+      "cnm_214_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_215",
+    "name": "离差平方和、方差与极差",
+    "action": "revise",
+    "assessment": "显式加入离差平方和，标准差退出本节点首轮核心任务；保留ID并记录含义调整。",
+    "questionIds": [
+      "cnm_215_q1",
+      "cnm_215_q2",
+      "cnm_215_q3",
+      "cnm_215_q4",
+      "cnm_215_q5",
+      "cnm_215_q6"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_216",
+    "name": "数据的四分位数",
+    "action": "revise",
+    "assessment": "补未排序数据和解释任务；保留题中算法约定，奇数规则不冒充全国唯一算法。",
+    "questionIds": [
+      "cnm_216_q1",
+      "cnm_216_q2",
+      "cnm_216_q3",
+      "cnm_216_q4",
+      "cnm_216_q5",
+      "cnm_216_q6",
+      "cnm_216_q7"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_217",
+    "name": "数据的分组与由分组数据估计平均数",
+    "action": "retain",
+    "assessment": "保留组中值加权估计并保留误差辨析；不是SP.06分类优化的替代。",
+    "questionIds": [
+      "cnm_217_q1",
+      "cnm_217_q2",
+      "cnm_217_q3",
+      "cnm_217_q4",
+      "cnm_217_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_284",
+    "name": "随机事件、必然事件与不可能事件",
+    "action": "retain",
+    "assessment": "保留三类事件，当前为初中有限模型；不扩展连续概率的零概率事件。",
+    "questionIds": [
+      "cnm_284_q1",
+      "cnm_284_q2",
+      "cnm_284_q3",
+      "cnm_284_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_285",
+    "name": "概率的意义与等可能事件的概率",
+    "action": "revise",
+    "assessment": "改为等可能基本结果计数；补列举和解释任务，同步fallback。",
+    "questionIds": [
+      "cnm_285_q1",
+      "cnm_285_q2",
+      "cnm_285_q3",
+      "cnm_285_q4",
+      "cnm_285_q5",
+      "cnm_285_q6"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_286",
+    "name": "用列举法求概率",
+    "action": "retain",
+    "assessment": "保留有限等可能列举；原四题数值可通过表达式核验。",
+    "questionIds": [
+      "cnm_286_q1",
+      "cnm_286_q2",
+      "cnm_286_q3",
+      "cnm_286_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_287",
+    "name": "用列表法与树状图求概率",
+    "action": "revise",
+    "assessment": "补实际列表/树图任务，修正三步试验不能列表的绝对说法；明确独立投掷。",
+    "questionIds": [
+      "cnm_287_q1",
+      "cnm_287_q2",
+      "cnm_287_q3",
+      "cnm_287_q4",
+      "cnm_287_q5",
+      "cnm_287_q6"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_288",
+    "name": "用频率估计概率",
+    "action": "revise",
+    "assessment": "限定相同条件，补波动和非单调收敛反例；与285整体硬关系降soft。",
+    "questionIds": [
+      "cnm_288_q1",
+      "cnm_288_q2",
+      "cnm_288_q3",
+      "cnm_288_q4",
+      "cnm_288_q5",
+      "cnm_288_q6"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_289",
+    "name": "概率的应用与游戏的公平性",
+    "action": "revise",
+    "assessment": "公平比较限定相同收益损失规则，防止把胜率相等泛化为所有游戏公平。",
+    "questionIds": [
+      "cnm_289_q1",
+      "cnm_289_q2",
+      "cnm_289_q3",
+      "cnm_289_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_292",
+    "name": "数据收集的方法：问卷调查、实验与查阅资料",
+    "action": "revise",
+    "assessment": "修正种子数据必须亲自实验的表述，已有资料可作背景；问卷设计偏差题保留。",
+    "questionIds": [
+      "cnm_292_q1",
+      "cnm_292_q2",
+      "cnm_292_q3",
+      "cnm_292_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_293",
+    "name": "数据的分类整理与划记法、统计表",
+    "action": "retain",
+    "assessment": "保留划记和合计核对；不凭合计错误就改合计。现整数题分组无歧义。",
+    "questionIds": [
+      "cnm_293_q1",
+      "cnm_293_q2",
+      "cnm_293_q3",
+      "cnm_293_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_294",
+    "name": "条形图与折线图的绘制",
+    "action": "revise",
+    "assessment": "补真实折线绘制及坐标单位评分，数值题不能代替绘图过程。",
+    "questionIds": [
+      "cnm_294_q1",
+      "cnm_294_q2",
+      "cnm_294_q3",
+      "cnm_294_q4",
+      "cnm_294_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_295",
+    "name": "扇形图的绘制：百分比与圆心角的换算",
+    "action": "revise",
+    "assessment": "补真实扇形绘制及角度合计判据，保留量角器操作要求。",
+    "questionIds": [
+      "cnm_295_q1",
+      "cnm_295_q2",
+      "cnm_295_q3",
+      "cnm_295_q4",
+      "cnm_295_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_296",
+    "name": "统计图的误导与偏差辨识",
+    "action": "retain",
+    "assessment": "保留截断纵轴辨析；截断轴不是所有图形一律禁止，具体解释针对条形高度比较。",
+    "questionIds": [
+      "cnm_296_q1",
+      "cnm_296_q2",
+      "cnm_296_q3",
+      "cnm_296_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_297",
+    "name": "频率（相对频数）的计算与意义",
+    "action": "revise",
+    "assessment": "频率改为本批观测占比，声明分类互斥穷尽，不把样本比例当总体真实比例。",
+    "questionIds": [
+      "cnm_297_q1",
+      "cnm_297_q2",
+      "cnm_297_q3",
+      "cnm_297_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_298",
+    "name": "简单随机抽样的实施（抽签法与随机数）",
+    "action": "revise",
+    "assessment": "补实施任务、无放回和不保证每班入样；代表性辨析降soft，样本概念为hard。",
+    "questionIds": [
+      "cnm_298_q1",
+      "cnm_298_q2",
+      "cnm_298_q3",
+      "cnm_298_q4",
+      "cnm_298_q5",
+      "cnm_298_q6"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_299",
+    "name": "用样本百分比估计总体数量",
+    "action": "revise",
+    "assessment": "标志重捕题补封闭等条件；比较抽样方法统一完整名单，保留估计措辞。",
+    "questionIds": [
+      "cnm_299_q1",
+      "cnm_299_q2",
+      "cnm_299_q3",
+      "cnm_299_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_300",
+    "name": "统计活动的基本过程",
+    "action": "revise",
+    "assessment": "补工具计算、缺失值处理、报告和反馈任务；追加SP.10映射，不以背步骤为实施证据。",
+    "questionIds": [
+      "cnm_300_q1",
+      "cnm_300_q2",
+      "cnm_300_q3",
+      "cnm_300_q4",
+      "cnm_300_q5",
+      "cnm_300_q6"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_301",
+    "name": "频数分布直方图的读图与分析",
+    "action": "retain",
+    "assessment": "保留同区间频数读图和比例；实际图形形式仍需扩充，现题主要给文字频数。",
+    "questionIds": [
+      "cnm_301_q1",
+      "cnm_301_q2",
+      "cnm_301_q3",
+      "cnm_301_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_302",
+    "name": "用样本平均数估计总体平均数",
+    "action": "retain",
+    "assessment": "保留样本均值估计，明确估计不等于总体确定值；题库比较抽样方式。",
+    "questionIds": [
+      "cnm_302_q1",
+      "cnm_302_q2",
+      "cnm_302_q3",
+      "cnm_302_q4",
+      "cnm_302_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_303",
+    "name": "极端值对平均数与中位数的影响",
+    "action": "revise",
+    "assessment": "中位数较稳健但并非删除极端值后不变，修正描述边界。",
+    "questionIds": [
+      "cnm_303_q1",
+      "cnm_303_q2",
+      "cnm_303_q3",
+      "cnm_303_q4",
+      "cnm_303_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_304",
+    "name": "用方差比较两组数据的稳定性",
+    "action": "revise",
+    "assessment": "比较同变量同单位，稳定不自动等于决策最优；保留数值计算。",
+    "questionIds": [
+      "cnm_304_q1",
+      "cnm_304_q2",
+      "cnm_304_q3",
+      "cnm_304_q4",
+      "cnm_304_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_305",
+    "name": "箱线图的读取与比较",
+    "action": "revise",
+    "assessment": "修复重复值人数题，补SVG读图和绘图任务，明确须端约定及离群点画法。",
+    "questionIds": [
+      "cnm_305_q1",
+      "cnm_305_q2",
+      "cnm_305_q3",
+      "cnm_305_q4",
+      "cnm_305_q5",
+      "cnm_305_q6",
+      "cnm_305_q7",
+      "cnm_305_q8"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_306",
+    "name": "用样本方差估计总体的稳定性",
+    "action": "revise",
+    "assessment": "修改两处从样本直断总体的解析，保留估计与小样本限制。",
+    "questionIds": [
+      "cnm_306_q1",
+      "cnm_306_q2",
+      "cnm_306_q3",
+      "cnm_306_q4",
+      "cnm_306_q5"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_307",
+    "name": "事件发生可能性大小的比较与排序",
+    "action": "revise",
+    "assessment": "补基本结果等可能条件及球的同质随机抽取条件。",
+    "questionIds": [
+      "cnm_307_q1",
+      "cnm_307_q2",
+      "cnm_307_q3",
+      "cnm_307_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_308",
+    "name": "概率的取值范围与概率的性质",
+    "action": "retain",
+    "assessment": "保留概率范围辨析；范围限本课程有限正概率基本结果模型。",
+    "questionIds": [
+      "cnm_308_q1",
+      "cnm_308_q2",
+      "cnm_308_q3",
+      "cnm_308_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_309",
+    "name": "等可能性与古典概型的判断",
+    "action": "revise",
+    "assessment": "不均匀骰子不能直接套1/6，但也不能断言某面概率绝不为1/6；不增加反向hard环。",
+    "questionIds": [
+      "cnm_309_q1",
+      "cnm_309_q2",
+      "cnm_309_q3",
+      "cnm_309_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_310",
+    "name": "放回与不放回摸球问题的区分",
+    "action": "revise",
+    "assessment": "明确球的同质和随机抽取；放回/不放回分别计数，原数值可核验。",
+    "questionIds": [
+      "cnm_310_q1",
+      "cnm_310_q2",
+      "cnm_310_q3",
+      "cnm_310_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_311",
+    "name": "三步及以上试验用树状图求概率",
+    "action": "revise",
+    "assessment": "明确独立条件，保留三步树图应用；不因标题“以上”无限扩展题目复杂度。",
+    "questionIds": [
+      "cnm_311_q1",
+      "cnm_311_q2",
+      "cnm_311_q3",
+      "cnm_311_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_312",
+    "name": "用频率估计合格率、发芽率等实际概率",
+    "action": "retain",
+    "assessment": "保留频率估计发芽/合格率；模型假设相同条件，外推数量仍为估计。",
+    "questionIds": [
+      "cnm_312_q1",
+      "cnm_312_q2",
+      "cnm_312_q3",
+      "cnm_312_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_313",
+    "name": "概率与统计图表综合问题",
+    "action": "retain",
+    "assessment": "保留图表到概率的综合应用；目前多为文字给数，后续补真实图表变式。",
+    "questionIds": [
+      "cnm_313_q1",
+      "cnm_313_q2",
+      "cnm_313_q3",
+      "cnm_313_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_314",
+    "name": "对概率意义的常见误解辨析",
+    "action": "revise",
+    "assessment": "保留赌徒谬误辨析，明确独立；概率意义不仅是会算比值。",
+    "questionIds": [
+      "cnm_314_q1",
+      "cnm_314_q2",
+      "cnm_314_q3",
+      "cnm_314_q4"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_316",
+    "name": "按组内离差平方和比较分类方案",
+    "action": "add",
+    "assessment": "新增固定组数的组内平方和比较，3题含数值与约束解释；不引入聚类算法。",
+    "questionIds": [
+      "cnm_316_q1",
+      "cnm_316_q2",
+      "cnm_316_q3"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_317",
+    "name": "百分位数的意义",
+    "action": "add",
+    "assessment": "新增百分位意义，3题区分位置/阈值/原始分数；高中算法不作为先修。",
+    "questionIds": [
+      "cnm_317_q1",
+      "cnm_317_q2",
+      "cnm_317_q3"
+    ],
+    "status": "assistant-reviewed-user-approved-rules",
+    "expertReviewed": false
+  }
+]

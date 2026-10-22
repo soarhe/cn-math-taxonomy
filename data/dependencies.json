@@ -2004,12 +2004,6 @@
     "reason": "学习「正比例函数」需要先会小学的「正比例」。正比例函数是小学已学正比例关系的函数化表达，小学经验可以迁移。"
   },
   {
-    "topicId": "cnm_211",
-    "prerequisiteId": "cnm_p129",
-    "strength": "hard",
-    "reason": "学习「平均数」需要先会小学的「平均数」。初中平均数的学习是在小学已学平均数概念的基础上深化的。"
-  },
-  {
     "topicId": "cnm_212",
     "prerequisiteId": "cnm_p194",
     "strength": "soft",
@@ -4260,12 +4254,6 @@
     "reason": "探究中要把音乐现象转化为函数模型，需要有一次函数应用的建模经验"
   },
   {
-    "topicId": "cnm_211",
-    "prerequisiteId": "cnm_021",
-    "strength": "hard",
-    "reason": "计算需要有理数运算"
-  },
-  {
     "topicId": "cnm_212",
     "prerequisiteId": "cnm_211",
     "strength": "hard",
@@ -4294,18 +4282,6 @@
     "prerequisiteId": "cnm_212",
     "strength": "soft",
     "reason": "选择统计量时也要考虑加权平均数的适用情形，学过加权平均有帮助"
-  },
-  {
-    "topicId": "cnm_215",
-    "prerequisiteId": "cnm_211",
-    "strength": "hard",
-    "reason": "方差是各数据与平均数之差的平方的平均，需要先会求平均数"
-  },
-  {
-    "topicId": "cnm_215",
-    "prerequisiteId": "cnm_075",
-    "strength": "soft",
-    "reason": "标准差是方差的算术平方根"
   },
   {
     "topicId": "cnm_216",
@@ -5160,12 +5136,6 @@
     "reason": "列表法与树状图是把列举法系统化、避免遗漏的方法，需要先会用列举法求概率"
   },
   {
-    "topicId": "cnm_288",
-    "prerequisiteId": "cnm_285",
-    "strength": "hard",
-    "reason": "用频率估计概率要先理解概率是可能性大小的数值度量"
-  },
-  {
     "topicId": "cnm_289",
     "prerequisiteId": "cnm_287",
     "strength": "hard",
@@ -5254,12 +5224,6 @@
     "prerequisiteId": "cnm_106",
     "strength": "hard",
     "reason": "频率由频数分布表中各组的频数和数据总数计算得出"
-  },
-  {
-    "topicId": "cnm_298",
-    "prerequisiteId": "cnm_104",
-    "strength": "hard",
-    "reason": "实施随机抽样前要先理解样本代表性与随机性的要求"
   },
   {
     "topicId": "cnm_299",
@@ -5434,12 +5398,6 @@
     "prerequisiteId": "cnm_314",
     "strength": "soft",
     "reason": "解释试验频率与理论概率的差别时要避免对概率意义的常见误解"
-  },
-  {
-    "topicId": "cnm_288",
-    "prerequisiteId": "cnm_297",
-    "strength": "hard",
-    "reason": "用频率估计概率前要先理解频率（相对频数）的含义和计算"
   },
   {
     "topicId": "cnm_109",
@@ -13054,5 +13012,59 @@
     "prerequisiteId": "cne_j237",
     "strength": "hard",
     "reason": "语篇里选时态承接初中已经做过的时态选择。"
+  },
+  {
+    "topicId": "cnm_211",
+    "prerequisiteId": "cnm_p129",
+    "strength": "hard",
+    "reason": "学习「平均数」需要先会小学的「平均数」。初中平均数的学习是在小学已学平均数概念的基础上深化的。"
+  },
+  {
+    "topicId": "cnm_215",
+    "prerequisiteId": "cnm_211",
+    "strength": "hard",
+    "reason": "方差是各数据与平均数之差的平方的平均，需要先会求平均数"
+  },
+  {
+    "topicId": "cnm_288",
+    "prerequisiteId": "cnm_285",
+    "strength": "soft",
+    "reason": "概率含义是背景；该节点还含等可能计数任务，不作为频率估计的整体硬门槛。"
+  },
+  {
+    "topicId": "cnm_288",
+    "prerequisiteId": "cnm_297",
+    "strength": "hard",
+    "reason": "用频率估计概率前要先理解频率（相对频数）的含义和计算"
+  },
+  {
+    "topicId": "cnm_298",
+    "prerequisiteId": "cnm_104",
+    "strength": "soft",
+    "reason": "代表性辨析有助于理解，但执行明确随机抽取步骤不要求先会全部偏差题。"
+  },
+  {
+    "topicId": "cnm_298",
+    "prerequisiteId": "cnm_103",
+    "strength": "hard",
+    "reason": "实施抽样需明确总体、个体和样本。"
+  },
+  {
+    "topicId": "cnm_316",
+    "prerequisiteId": "cnm_215",
+    "strength": "hard",
+    "reason": "计算固定分组方案需要离差平方和；本次215已明确该能力并移除标准差任务。"
+  },
+  {
+    "topicId": "cnm_317",
+    "prerequisiteId": "cnm_213",
+    "strength": "hard",
+    "reason": "联系中位数解释百分位位置。"
+  },
+  {
+    "topicId": "cnm_317",
+    "prerequisiteId": "cnm_p194",
+    "strength": "hard",
+    "reason": "解释百分位位置需理解百分数表示比例。"
   }
 ]
