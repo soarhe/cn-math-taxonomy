@@ -1,0 +1,1157 @@
+{
+  "batch": "d2",
+  "baseCommit": "d98c4683f3c87401c525e02c56a79c3e6d60df1b",
+  "topics": [
+    {
+      "id": "cnm_004",
+      "beforeHash": "43066c13200ac37640d9b5c625803c4035126bd1b6929fb7e6923b579f4c954c",
+      "before": {
+        "id": "cnm_004",
+        "name": "数轴",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.2",
+        "type": "conceptual",
+        "description": "规定了原点、正方向和单位长度的直线叫数轴，数轴把数与直线上的点联系起来。",
+        "mastery_criteria": [
+          "能说出数轴的三要素",
+          "能判断一条直线是否是数轴"
+        ],
+        "diagnostic_question": {
+          "question": "画数轴缺少哪一要素就不合格：只有原点和正方向？",
+          "answer": "缺少单位长度"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_004",
+        "name": "数轴",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.2",
+        "type": "conceptual",
+        "description": "规定了原点、正方向和单位长度的直线叫数轴，数轴把数与直线上的点联系起来。",
+        "mastery_criteria": [
+          "能说出数轴的三要素",
+          "能画出单位长度统一的数轴并检查刻度",
+          "能解释更换单位长度不改变点所表示的数"
+        ],
+        "diagnostic_question": {
+          "question": "画数轴缺少哪一要素就不合格：只有原点和正方向？",
+          "answer": "缺少单位长度"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_005",
+      "beforeHash": "80cc1630fcac24b4ccddd9e4d515f26249b8de906e1dcc86dbbf16ca7a16826c",
+      "before": {
+        "id": "cnm_005",
+        "name": "在数轴上表示有理数",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.2",
+        "type": "procedural",
+        "description": "会在数轴上画出表示给定有理数的点，并读出数轴上点所表示的数。",
+        "mastery_criteria": [
+          "能在数轴上标出整数、小数、分数",
+          "能读出数轴上点对应的数"
+        ],
+        "diagnostic_question": {
+          "question": "在数轴上标出 -1.5 和 2 的位置，哪个更靠右？",
+          "answer": "2 更靠右"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_005",
+        "name": "在数轴上表示有理数",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.2",
+        "type": "procedural",
+        "description": "会在数轴上画出表示给定有理数的点，并读出数轴上点所表示的数。",
+        "mastery_criteria": [
+          "能实际画图标出整数、小数、分数",
+          "能根据单位长度读出点表示的数",
+          "能用左右位置解释大小关系"
+        ],
+        "diagnostic_question": {
+          "question": "在数轴上标出 -1.5 和 2 的位置，哪个更靠右？",
+          "answer": "2 更靠右"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_007",
+      "beforeHash": "e15d2fe171b9c2a6c463dd5d3c802f8f81af253f23c675d075920120c1d59d16",
+      "before": {
+        "id": "cnm_007",
+        "name": "绝对值的概念与几何意义",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.4",
+        "type": "conceptual",
+        "description": "数轴上表示数 a 的点到原点的距离叫 a 的绝对值，记作 |a|，其值非负。",
+        "mastery_criteria": [
+          "能说出绝对值的几何意义",
+          "知道互为相反数的两数绝对值相等"
+        ],
+        "diagnostic_question": {
+          "question": "|-4| 与 |4| 分别是多少？",
+          "answer": "都等于 4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.02",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_007",
+        "name": "绝对值的概念与几何意义",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.4",
+        "type": "conceptual",
+        "description": "数轴上表示数 a 的点到原点的距离叫 a 的绝对值，记作 |a|，其值非负。",
+        "mastery_criteria": [
+          "能用到原点的距离解释绝对值并画图",
+          "知道互为相反数的两数绝对值相等",
+          "能解释绝对值非负以及0的边界"
+        ],
+        "diagnostic_question": {
+          "question": "|-4| 与 |4| 分别是多少？",
+          "answer": "都等于 4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.02",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_030",
+      "beforeHash": "0060062ad91848808c7ab0c2550d23f07f18ab54db61d71d3b38ad3dfb14fb11",
+      "before": {
+        "id": "cnm_030",
+        "name": "用代数式表示规律",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第三章 代数式 3.1/3.2",
+        "type": "modeling",
+        "description": "观察数列或图形序列，归纳第 n 项的代数式。",
+        "mastery_criteria": [
+          "能写出简单规律的通项",
+          "能用代数式预测第 n 项的值"
+        ],
+        "diagnostic_question": {
+          "question": "数列 3，5，7，9，… 的第 n 项是多少？",
+          "answer": "2n+1"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.15",
+            "confidence": "inferred",
+            "note": "用代数式表示规律属于“分析数量关系并用代数式表示”的延伸"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_030",
+        "name": "用代数式表示规律",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第三章 代数式 3.1/3.2",
+        "type": "modeling",
+        "description": "根据明确的数列生成规则或图形构造，用代数式表示第n项；区分猜想与有理由的推导。",
+        "mastery_criteria": [
+          "能根据明确的生成规则列出第n项代数式",
+          "能解释代数式与图形结构的对应",
+          "知道有限个观察值不足以唯一确定后续规律"
+        ],
+        "diagnostic_question": {
+          "question": "数列首项为3，以后每一项都比前一项大2。第n项是多少？（n为正整数）",
+          "answer": "2n+1"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.15",
+            "confidence": "inferred",
+            "note": "用代数式表示规律属于“分析数量关系并用代数式表示”的延伸"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_078",
+      "beforeHash": "1dfbc6542d930590a555a59435764050ded9aceffa297c188353de4a156a42bf",
+      "before": {
+        "id": "cnm_078",
+        "name": "实数的分类与数轴表示",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.3",
+        "type": "conceptual",
+        "description": "有理数与无理数统称实数，实数与数轴上的点一一对应，实数的相反数、绝对值意义同有理数。",
+        "mastery_criteria": [
+          "能对实数分类",
+          "知道实数与数轴上的点一一对应"
+        ],
+        "diagnostic_question": {
+          "question": "π 对应数轴上哪个位置附近？",
+          "answer": "3 和 4 之间，约 3.14"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.06",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.07",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_078",
+        "name": "实数的分类与数轴表示",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.3",
+        "type": "conceptual",
+        "description": "有理数与无理数统称实数，实数与数轴上的点一一对应，实数的相反数、绝对值意义同有理数。",
+        "mastery_criteria": [
+          "能区分有理数与无理数且包含0",
+          "知道实数与数轴上的点一一对应",
+          "能画出无理数点的大致位置并区分精确值与近似值"
+        ],
+        "diagnostic_question": {
+          "question": "π 对应数轴上哪个位置附近？",
+          "answer": "3 和 4 之间，约 3.14"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.06",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.07",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_079",
+      "beforeHash": "1130dde96e84ec6216a0bda2f4fecc8a9133b03767ab091d91dc797d9a3f11de",
+      "before": {
+        "id": "cnm_079",
+        "name": "算术平方根的估值与大小比较",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.3",
+        "type": "procedural",
+        "description": "利用平方夹逼估计 √a 的大致范围，并比较含根号的实数大小。",
+        "mastery_criteria": [
+          "能估计 √a 在哪两个整数之间",
+          "能比较 √5 与 2.2 的大小"
+        ],
+        "diagnostic_question": {
+          "question": "估计 √10 在哪两个整数之间。",
+          "answer": "3 与 4 之间"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.11",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.07",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_079",
+        "name": "算术平方根的估值与大小比较",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.3",
+        "type": "procedural",
+        "description": "利用平方夹逼估计 √a 的大致范围，并比较含根号的实数大小。",
+        "mastery_criteria": [
+          "能用非负数平方夹逼说明根式范围",
+          "能估计根式在相邻整数或指定小数区间内",
+          "能解释负根式比较时的次序"
+        ],
+        "diagnostic_question": {
+          "question": "估计 √10 在哪两个整数之间。",
+          "answer": "3 与 4 之间"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.11",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.07",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_095",
+      "beforeHash": "354d1fad6ab9e5b03a5bed0783d053897a15ce308e9044ad0484e3cd4689f96e",
+      "before": {
+        "id": "cnm_095",
+        "name": "在数轴上表示不等式的解集",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十一章 不等式与不等式组 11.1.1",
+        "type": "procedural",
+        "description": "用数轴上的空心圈（不含端点）和实心点（含端点）表示不等式的解集。",
+        "mastery_criteria": [
+          "能把解集画在数轴上",
+          "能从数轴写出解集"
+        ],
+        "diagnostic_question": {
+          "question": "把 x≥-1 在数轴上表示出来。",
+          "answer": "在 -1 处画实心点，向右画射线"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_095",
+        "name": "在数轴上表示不等式的解集",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十一章 不等式与不等式组 11.1.1",
+        "type": "procedural",
+        "description": "用数轴上的空心圈（不含端点）和实心点（含端点）表示不等式的解集。",
+        "mastery_criteria": [
+          "能实际画出解集并正确处理端点",
+          "能从图读出解集",
+          "能说明射线包含连续实数而不只是整数"
+        ],
+        "diagnostic_question": {
+          "question": "把 x≥-1 在数轴上表示出来。",
+          "answer": "在 -1 处画实心点，向右画射线"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_155",
+      "beforeHash": "227fd8ceb8dfac3430644fd87fd7b046a6d9cee89ace2a3235b768d0695081a4",
+      "before": {
+        "id": "cnm_155",
+        "name": "因式分解的应用",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17",
+        "type": "application",
+        "description": "利用因式分解简化计算、求值、判断整除或化简代数式。",
+        "mastery_criteria": [
+          "能用分解因式简算",
+          "能说明数的整除性"
+        ],
+        "diagnostic_question": {
+          "question": "计算 57²-43²。",
+          "answer": "(57+43)(57-43)=1400"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "inferred",
+            "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.NA.22",
+            "confidence": "inferred",
+            "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_155",
+        "name": "因式分解的应用",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17",
+        "type": "application",
+        "description": "利用因式分解简化计算、求值、判断整除或化简代数式。",
+        "mastery_criteria": [
+          "能用因式分解简算",
+          "能用含字母的式子说明整除性",
+          "能说明整数条件与一般性论证的作用"
+        ],
+        "diagnostic_question": {
+          "question": "计算 57²-43²。",
+          "answer": "(57+43)(57-43)=1400"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "inferred",
+            "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.NA.22",
+            "confidence": "inferred",
+            "note": "因式分解的应用（如证明整除性）属代数推理的一类，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_197",
+      "beforeHash": "a397aee879cd4bc0e7f5eeb44cd8055589a7bac47bd1371c3b3a92dd73c9010b",
+      "before": {
+        "id": "cnm_197",
+        "name": "函数的图象",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十二章 函数 22.2",
+        "type": "procedural",
+        "description": "用列表、描点、连线画函数图象，并从图象读取信息。",
+        "mastery_criteria": [
+          "能画简单函数图象",
+          "能从图象读出函数值与变化趋势"
+        ],
+        "diagnostic_question": {
+          "question": "画 y=2x-1 的图象至少需要列出哪些点？",
+          "answer": "(0,-1)、(1,1)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.35",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_197",
+        "name": "函数的图象",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十二章 函数 22.2",
+        "type": "procedural",
+        "description": "根据自变量取值范围列表、描点，按函数关系决定连线方式，并从图象读取信息。",
+        "mastery_criteria": [
+          "能按定义域列表、描点并决定是否连线",
+          "能从实际图象读取函数值与变化趋势",
+          "能区分读图结果与代入运算证据"
+        ],
+        "diagnostic_question": {
+          "question": "已知y=2x-1的图象是一条直线。下列哪组点均在图象上，且能确定这条直线？",
+          "answer": "(0,-1)和(1,1)；其他两不同图上点也可以"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.35",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_198",
+      "beforeHash": "192ff7f3ea3a10cc18ffe70ffe159cd624cf759c415b1f1512980c3fa721f49d",
+      "before": {
+        "id": "cnm_198",
+        "name": "函数的三种表示方法",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十二章 函数 22.2",
+        "type": "conceptual",
+        "description": "函数可用解析式、列表、图象表示，了解三者的优缺点与相互转换。",
+        "mastery_criteria": [
+          "能说出三种表示方法",
+          "能在不同表示之间转换"
+        ],
+        "diagnostic_question": {
+          "question": "举例说明用列表表示函数的优点。",
+          "answer": "直观看出具体数值，适合离散数据"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.34",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.37",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_198",
+        "name": "函数的三种表示方法",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十二章 函数 22.2",
+        "type": "conceptual",
+        "description": "函数可用解析式、列表、图象表示，了解三者的优缺点与相互转换。",
+        "mastery_criteria": [
+          "能根据情境选择解析式、列表或图象",
+          "能在表示之间转换并注明自变量范围",
+          "能说明离散点是否可连线以及模型外推的限制"
+        ],
+        "diagnostic_question": {
+          "question": "举例说明用列表表示函数的优点。",
+          "answer": "直观看出具体数值，适合离散数据"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.34",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.37",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_030_q1",
+      "beforeHash": "64987ac9db4251455189d6d5a70d720241e0aa08ff5254d3ae3810fccde6fe50",
+      "before": {
+        "id": "cnm_030_q1",
+        "topicId": "cnm_030",
+        "difficulty": "basic",
+        "type": "short",
+        "prompt": "数列 3，5，7，9，… 的第 n 项是多少？",
+        "answer": "2n+1",
+        "accept": [
+          "2n+1",
+          "1+2n",
+          "2*n+1",
+          "n*2+1"
+        ],
+        "explanation": "相邻两项都相差 2，首项为 3，所以第 n 项为 3+2(n-1)=2n+1。"
+      },
+      "after": {
+        "id": "cnm_030_q1",
+        "topicId": "cnm_030",
+        "difficulty": "basic",
+        "type": "short",
+        "prompt": "数列首项为3，以后每一项都比前一项大2。第n项是多少？（n为正整数）",
+        "answer": "2n+1",
+        "accept": [
+          "2n+1",
+          "1+2n",
+          "2*n+1",
+          "n*2+1"
+        ],
+        "explanation": "从首项到第n项增加n-1次2，故3+2(n-1)=2n+1。",
+        "fixed_from_source": "batch-d2: 题面条件修订，旧作答和核验结论不继承"
+      }
+    },
+    {
+      "id": "cnm_030_q3",
+      "beforeHash": "9cd1ea76caec6e04cd6e24a2062a27030e2942e76fa9420208a918e868a82f6b",
+      "before": {
+        "id": "cnm_030_q3",
+        "topicId": "cnm_030",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "数列 2，5，10，17，26，… 的第 n 项是哪一个？",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2n"
+          },
+          {
+            "key": "B",
+            "text": "3n-1"
+          },
+          {
+            "key": "C",
+            "text": "n^2+n"
+          },
+          {
+            "key": "D",
+            "text": "n^2+1"
+          }
+        ],
+        "explanation": "各项依次为 1²+1，2²+1，3²+1，4²+1，5²+1，所以第 n 项是 n²+1。"
+      },
+      "after": {
+        "id": "cnm_030_q3",
+        "topicId": "cnm_030",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "第n个图形由n行n列的点阵和点阵外额外1个点组成（n为正整数）。总点数用哪个式子表示？",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2n"
+          },
+          {
+            "key": "B",
+            "text": "3n-1"
+          },
+          {
+            "key": "C",
+            "text": "n^2+n"
+          },
+          {
+            "key": "D",
+            "text": "n^2+1"
+          }
+        ],
+        "explanation": "点阵有n×n个点，另有1个，所以总数为n²+1。",
+        "fixed_from_source": "batch-d2: 题面条件修订，旧作答和核验结论不继承"
+      }
+    },
+    {
+      "id": "cnm_030_q4",
+      "beforeHash": "9d91b863722f73090cb6925fde66f98c4d98d979f5909c47571db103d7e7d52a",
+      "before": {
+        "id": "cnm_030_q4",
+        "topicId": "cnm_030",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "用火柴棒在一行中连续摆正方形：摆 1 个正方形用 4 根，摆 2 个用 7 根，摆 3 个用 10 根。按此规律摆 25 个正方形需要多少根火柴棒？",
+        "answer": "76",
+        "explanation": "每多摆一个正方形增加 3 根，所以摆 n 个需要 4+3(n-1)=3n+1 根，n=25 时为 76 根。",
+        "verify": "4+3*(25-1)"
+      },
+      "after": {
+        "id": "cnm_030_q4",
+        "topicId": "cnm_030",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "用火柴棒沿一行摆相同的正方形，相邻两个恰好共用一条边，无其他重叠。摆1个用4根，摆2个用7根。摆25个需要多少根？",
+        "answer": "76",
+        "explanation": "每多摆一个正方形增加 3 根，所以摆 n 个需要 4+3(n-1)=3n+1 根，n=25 时为 76 根。",
+        "verify": "4+3*(25-1)",
+        "fixed_from_source": "batch-d2: 题面条件修订，旧作答和核验结论不继承"
+      }
+    },
+    {
+      "id": "cnm_197_q1",
+      "beforeHash": "96d02c042ea01fe5cd50ba4e70ecd3c692aca1ea00a838e9785a7a309cfa1cad",
+      "before": {
+        "id": "cnm_197_q1",
+        "topicId": "cnm_197",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "画 y=2x-1 的图象至少需要列出哪些点？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(0,1) 和 (1,-1)"
+          },
+          {
+            "key": "B",
+            "text": "只需 (0,-1) 一个点"
+          },
+          {
+            "key": "C",
+            "text": "(0,-1) 和 (1,1)"
+          },
+          {
+            "key": "D",
+            "text": "(0,0) 和 (1,1)"
+          }
+        ],
+        "answer": "C",
+        "explanation": "一次函数图象是直线，两点确定一条直线；x=0 时 y=-1，x=1 时 y=1，所以取 (0,-1)、(1,1)。"
+      },
+      "after": {
+        "id": "cnm_197_q1",
+        "topicId": "cnm_197",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "已知y=2x-1的图象是一条直线。下列哪组点均在图象上，且能确定这条直线？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(0,1) 和 (1,-1)"
+          },
+          {
+            "key": "B",
+            "text": "只需 (0,-1) 一个点"
+          },
+          {
+            "key": "C",
+            "text": "(0,-1) 和 (1,1)"
+          },
+          {
+            "key": "D",
+            "text": "(0,0) 和 (1,1)"
+          }
+        ],
+        "answer": "C",
+        "explanation": "C中的两个不同点都满足y=2x-1，可以确定直线；也可选择图象上其他两个不同点，并非只能使用这一组。",
+        "fixed_from_source": "batch-d2: 题面条件修订，旧作答和核验结论不继承"
+      }
+    },
+    {
+      "id": "cnm_004_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_004_q5",
+        "topicId": "cnm_004",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上画两条数轴：第一条每1厘米表示1个单位，第二条每2厘米表示1个单位。分别标出0、1、-2，说明为什么两个-2点到原点的纸面距离不同。",
+        "answer": "第一条-2在原点左侧2厘米，第二条在左侧4厘米；均相距2个单位长度。",
+        "explanation": "两条都有原点、正方向和统一单位长度；0、1、-2位置正确；区分纸面厘米与单位长度，说明数值不变。",
+        "rubric": [
+          "两条都有原点、正方向和统一单位长度",
+          "0、1、-2位置正确",
+          "区分纸面厘米与单位长度，说明数值不变"
+        ]
+      }
+    },
+    {
+      "id": "cnm_004_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_004_q6",
+        "topicId": "cnm_004",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明向右依次标出0、1、2，但0到1长1厘米，1到2长2厘米。他称这是一条正确标注的数轴。请画出修正图并说明错误。",
+        "answer": "若保留0和1的位置，应把2改在0右侧2厘米处。",
+        "explanation": "指出同一数轴单位长度必须统一；保留0、1时把2移到正确位置；补全正方向，说明修正方案；其他一致的比例也可。",
+        "rubric": [
+          "指出同一数轴单位长度必须统一",
+          "保留0、1时把2移到正确位置",
+          "补全正方向，说明修正方案；其他一致的比例也可"
+        ]
+      }
+    },
+    {
+      "id": "cnm_005_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_005_q5",
+        "topicId": "cnm_005",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上画数轴，并标出A=-3/2、B=1/2、C=2。请说明每个点如何由单位长度确定，并按从左到右排列。",
+        "answer": "A、B、C；A在0左侧1.5单位，B在右侧0.5单位，C在右侧2单位。",
+        "explanation": "数轴三要素完整且单位统一；三个点的位置与标注准确；用单位长度解释半单位的位置。",
+        "rubric": [
+          "数轴三要素完整且单位统一",
+          "三个点的位置与标注准确",
+          "用单位长度解释半单位的位置"
+        ]
+      }
+    },
+    {
+      "id": "cnm_005_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_005_q6",
+        "topicId": "cnm_005",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "读图：所有相邻刻度等距。P表示哪个数？说明每小格代表多少，并指出P在-2的哪一侧。",
+        "answer": "P=-1.5，每小格0.5，在-2右侧。",
+        "explanation": "由-2到-1有两小格得每格0.5；向右加0.5得到-1.5；不能把每一格默认当作1。",
+        "rubric": [
+          "由-2到-1有两小格得每格0.5",
+          "向右加0.5得到-1.5",
+          "不能把每一格默认当作1"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 110\" role=\"img\" aria-label=\"数轴：等距刻度依次标为负2、P、负1、空白、0、空白、1\"><path d=\"M25 55H395l-10 -5m10 5l-10 5\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M50 50v10\" stroke=\"currentColor\"/><text x=\"50\" y=\"85\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><path d=\"M100 50v10\" stroke=\"currentColor\"/><text x=\"100\" y=\"85\" text-anchor=\"middle\" fill=\"currentColor\">P</text><path d=\"M150 50v10\" stroke=\"currentColor\"/><text x=\"150\" y=\"85\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><path d=\"M200 50v10\" stroke=\"currentColor\"/><text x=\"200\" y=\"85\" text-anchor=\"middle\" fill=\"currentColor\"></text><path d=\"M250 50v10\" stroke=\"currentColor\"/><text x=\"250\" y=\"85\" text-anchor=\"middle\" fill=\"currentColor\">0</text><path d=\"M300 50v10\" stroke=\"currentColor\"/><text x=\"300\" y=\"85\" text-anchor=\"middle\" fill=\"currentColor\"></text><path d=\"M350 50v10\" stroke=\"currentColor\"/><text x=\"350\" y=\"85\" text-anchor=\"middle\" fill=\"currentColor\">1</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_007_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_007_q5",
+        "topicId": "cnm_007",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画数轴标出-3、0、3，用图解释|-3|、|3|、|0|，并判断“所有数的绝对值都大于0”。",
+        "answer": "分别为3、3、0；命题错误，0是反例。",
+        "explanation": "标点正确；用到原点的距离解释三个值；区分大于0与大于或等于0。",
+        "rubric": [
+          "标点正确",
+          "用到原点的距离解释三个值",
+          "区分大于0与大于或等于0"
+        ]
+      }
+    },
+    {
+      "id": "cnm_007_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_007_q6",
+        "topicId": "cnm_007",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明说：-2在原点左边，所以它到原点的距离是-2。请用图纠正，并标出所有到原点距离为2的点。",
+        "answer": "距离为2；两个点表示-2和2。",
+        "explanation": "说明负号表示相对方向而距离非负；图上标出-2与2；解释两点到原点的距离相同。",
+        "rubric": [
+          "说明负号表示相对方向而距离非负",
+          "图上标出-2与2",
+          "解释两点到原点的距离相同"
+        ]
+      }
+    },
+    {
+      "id": "cnm_030_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_030_q5",
+        "topicId": "cnm_030",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "沿一行摆n个相同正方形，相邻两个共用一条边，无其他重叠。画出n=3的图，推导火柴棒总数，并解释n的范围。",
+        "answer": "4+3(n-1)=3n+1，n是正整数。",
+        "explanation": "图中相邻共用一边；解释第一个4根、以后每个新增3根；给出代数式及n为正整数的限制。",
+        "rubric": [
+          "图中相邻共用一边",
+          "解释第一个4根、以后每个新增3根",
+          "给出代数式及n为正整数的限制"
+        ]
+      }
+    },
+    {
+      "id": "cnm_030_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_030_q6",
+        "topicId": "cnm_030",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "只知道一个数列的前四项为3、5、7、9，没有给出其他规则。小明说第五项必定是11。判断并给出两种都符合已知条件的后续安排。",
+        "answer": "不能确定。例如继续每次加2得到11；也可规定前四项如题，此后每项都为9，第五项为9。",
+        "explanation": "说明未给出统一生成规则；给出两个前四项相同而第五项不同的序列；区分合理猜测与逻辑上唯一确定。",
+        "rubric": [
+          "说明未给出统一生成规则",
+          "给出两个前四项相同而第五项不同的序列",
+          "区分合理猜测与逻辑上唯一确定"
+        ]
+      }
+    },
+    {
+      "id": "cnm_078_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_078_q5",
+        "topicId": "cnm_078",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在数轴上大致标出√2和-√2。已知1.4²<2<1.5²，说明两点所在区间，以及1.4能否当作√2的精确值。",
+        "answer": "1.4<√2<1.5，-1.5<-√2<-1.4；1.4仅是近似值。",
+        "explanation": "正负两点位于对应区间且关于原点对称；给出负数区间的正确顺序；说明有限小数近似不等于精确根式。",
+        "rubric": [
+          "正负两点位于对应区间且关于原点对称",
+          "给出负数区间的正确顺序",
+          "说明有限小数近似不等于精确根式"
+        ]
+      }
+    },
+    {
+      "id": "cnm_078_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_078_q6",
+        "topicId": "cnm_078",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明认为无理数的小数写不完，所以数轴上没有表示√2的点。请解释，并将0、-√9、√2分别归类。",
+        "answer": "小数展开无限不影响实数对应确定的点；0和-√9=-3是有理数，√2是无理数。",
+        "explanation": "区分表示形式与数的存在；用实数与数轴点一一对应解释；分类正确且不把0遗漏。",
+        "rubric": [
+          "区分表示形式与数的存在",
+          "用实数与数轴点一一对应解释",
+          "分类正确且不把0遗漏"
+        ]
+      }
+    },
+    {
+      "id": "cnm_079_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_079_q6",
+        "topicId": "cnm_079",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "不用计算器，说明√10在3.1与3.2之间；再判断能否由此断言√10=3.2。",
+        "answer": "3.1²=9.61<10<10.24=3.2²，故3.1<√10<3.2；不能断言相等。",
+        "explanation": "两端平方计算正确；说明比较非负数可比较平方；区分界限、近似和精确相等。",
+        "rubric": [
+          "两端平方计算正确",
+          "说明比较非负数可比较平方",
+          "区分界限、近似和精确相等"
+        ]
+      }
+    },
+    {
+      "id": "cnm_079_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_079_q7",
+        "topicId": "cnm_079",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "比较-√5与-2.2，并解释为什么不能看到5>2.2²就直接说-√5更大。",
+        "answer": "2.2²=4.84<5，√5>2.2，因此-√5<-2.2。",
+        "explanation": "先比较非负数及其平方；取相反数后大小次序反向；可用数轴左侧位置解释，不能忽略负号。",
+        "rubric": [
+          "先比较非负数及其平方",
+          "取相反数后大小次序反向",
+          "可用数轴左侧位置解释，不能忽略负号"
+        ]
+      }
+    },
+    {
+      "id": "cnm_095_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_095_q5",
+        "topicId": "cnm_095",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "分别在两条数轴上画出x≥-1和x<-1的解集。解释端点画法与延伸方向，并各举一个非整数解。",
+        "answer": "前者-1实心向右，如-0.5；后者-1空心向左，如-1.5。",
+        "explanation": "两图方向分别向右、向左；分别使用实心点和空心圈；说明解集不只含整数并给出有效例子。",
+        "rubric": [
+          "两图方向分别向右、向左",
+          "分别使用实心点和空心圈",
+          "说明解集不只含整数并给出有效例子"
+        ]
+      }
+    },
+    {
+      "id": "cnm_095_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_095_q6",
+        "topicId": "cnm_095",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画出-1<x≤3的解集。说明-1、3、2.5是否在其中，并纠正“只须标出0、1、2、3四个点”的说法。",
+        "answer": "-1不在，3和2.5在；应画连续的一段，左端空心右端实心。",
+        "explanation": "正确画连续线段和两个端点；判断三个指定数；说明所有满足条件的实数都应包括。",
+        "rubric": [
+          "正确画连续线段和两个端点",
+          "判断三个指定数",
+          "说明所有满足条件的实数都应包括"
+        ]
+      }
+    },
+    {
+      "id": "cnm_155_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_155_q6",
+        "topicId": "cnm_155",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设n为任意整数，用因式分解说明n²+n一定是偶数。只检查几个n是否足以证明？",
+        "answer": "n²+n=n(n+1)，相邻整数中必有一个偶数，所以乘积为偶数；有限举例不够。",
+        "explanation": "写出因式分解；解释相邻整数必有一个为偶数且乘积仍是偶数；说明结论对任意整数成立，举例不替代证明。",
+        "rubric": [
+          "写出因式分解",
+          "解释相邻整数必有一个为偶数且乘积仍是偶数",
+          "说明结论对任意整数成立，举例不替代证明"
+        ]
+      }
+    },
+    {
+      "id": "cnm_155_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_155_q7",
+        "topicId": "cnm_155",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设n为任意整数，证明(2n+1)²-(2n-1)²能被8整除，并说明整数条件为什么需要。",
+        "answer": "平方差分解为[(2n+1)-(2n-1)][(2n+1)+(2n-1)]=2×4n=8n；n为整数保证是8的整数倍。",
+        "explanation": "正确使用平方差公式；得到8n；用n为整数解释整除，而不是只列数值例子。",
+        "rubric": [
+          "正确使用平方差公式",
+          "得到8n",
+          "用n为整数解释整除，而不是只列数值例子"
+        ]
+      }
+    },
+    {
+      "id": "cnm_197_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_197_q6",
+        "topicId": "cnm_197",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "已知y=2x-1，且-1≤x≤2。请列表取至少三个点并画图，标出端点，说明为什么不向两端无限延长。",
+        "answer": "例如(-1,-3)、(0,-1)、(1,1)、(2,3)，画连接(-1,-3)与(2,3)的线段且含端点。",
+        "explanation": "列表、坐标点计算正确；画出直线的一段且包含两个端点；用给定自变量范围解释不延长。",
+        "rubric": [
+          "列表、坐标点计算正确",
+          "画出直线的一段且包含两个端点",
+          "用给定自变量范围解释不延长"
+        ]
+      }
+    },
+    {
+      "id": "cnm_197_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_197_q7",
+        "topicId": "cnm_197",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图示一人的累计路程随时间变化。读出第3分钟末累计路程，指出停留的时间段，并说明前2分钟与最后2分钟哪段走得更快。",
+        "answer": "200米；第2至4分钟停留；两段一样快，均每分钟100米。",
+        "explanation": "从水平段读出200米；用累计路程不变解释停留2分钟；比较两段路程增量与时间，不能只比较高度。",
+        "rubric": [
+          "从水平段读出200米",
+          "用累计路程不变解释停留2分钟",
+          "比较两段路程增量与时间，不能只比较高度"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" role=\"img\" aria-label=\"累计路程时间图：折线依次通过(0,0)、(2,200)、(4,200)、(6,400)，时间单位分，路程单位米\"><g stroke=\"currentColor\" fill=\"none\"><path d=\"M50 220H405l-8 -4m8 4l-8 4M50 220V20l-4 8m4 -8l4 8\"/><path d=\"M50 140H350M50 60H350M150 220V60M250 220V60M350 220V60\" stroke-dasharray=\"3 5\" opacity=\"0.35\"/><polyline points=\"50,220 150,140 250,140 350,60\" stroke-width=\"3\"/></g><g fill=\"currentColor\" font-size=\"15\"><text x=\"29\" y=\"240\">0</text><text x=\"145\" y=\"240\">2</text><text x=\"245\" y=\"240\">4</text><text x=\"345\" y=\"240\">6</text><text x=\"12\" y=\"145\">200</text><text x=\"12\" y=\"65\">400</text><text x=\"310\" y=\"262\">时间/分</text><text x=\"65\" y=\"25\">累计路程/米</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_198_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_198_q6",
+        "topicId": "cnm_198",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "每本练习本3元，最多买4本，也可以不买。以本数n和总价y表示关系：写解析式，列出完整表格并画图。图上的点应该连线吗？",
+        "answer": "y=3n，n∈{0,1,2,3,4}；对应y为0、3、6、9、12；画五个离散点，不连线。",
+        "explanation": "公式和取值范围完整；表格五组对应值与图上点一致；不能买半本，故不连成连续线段。",
+        "rubric": [
+          "公式和取值范围完整",
+          "表格五组对应值与图上点一致",
+          "不能买半本，故不连成连续线段"
+        ]
+      }
+    },
+    {
+      "id": "cnm_198_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_198_q7",
+        "topicId": "cnm_198",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "水箱原有100升水，以每分钟5升匀速排水直到排空。写出排水期间Q与t的关系及范围，列t=0、10、20时的值并画图。能用同一式子算t=25时水箱内的水量吗？",
+        "answer": "Q=100-5t，0≤t≤20；100、50、0升；图为(0,100)到(20,0)的线段。不能代入25后把-25升当实际水量。",
+        "explanation": "公式、单位与0≤t≤20明确；表格与图象对应且含端点；解释排空后模型改变，不能外推成负水量。",
+        "rubric": [
+          "公式、单位与0≤t≤20明确",
+          "表格与图象对应且含端点",
+          "解释排空后模型改变，不能外推成负水量"
+        ]
+      }
+    }
+  ],
+  "dependencies": []
+}

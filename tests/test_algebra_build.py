@@ -58,7 +58,8 @@ class AlgebraBuildTests(unittest.TestCase):
   for n,sha in lock['authoring'].items():self.assertEqual(hashlib.sha256((ROOT/n).read_bytes()).hexdigest(),sha)
   for c in PATCH['topics']:self.assertEqual(c['before']['id'],c['after']['id'])
   self.assertEqual(lock['counts']['topics'],1505)
-  self.assertEqual(lock['counts']['questions'],6204)
+  self.assertEqual(lock['counts']['questions'],len(load('data/questions.json')))
+  self.assertEqual(load('reviews/math-junior/batch-d1/release.json')['counts']['questions'],6204)
   build(ROOT,True)
  def test_rubric_and_scope_validation(self):
   q=next(q for q in load('data/questions.json') if q['id']=='cnm_018_q6');t={q['topicId']:{'external':False}}

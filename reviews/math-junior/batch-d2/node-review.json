@@ -1,0 +1,186 @@
+[
+  {
+    "topicId": "cnm_004",
+    "name": "数轴",
+    "finding": "增加实际作图和刻度纠错；选择三要素不代替作图证据。",
+    "changedQuestionIds": [
+      "cnm_004_q5",
+      "cnm_004_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_004_q5",
+      "cnm_004_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_005",
+    "name": "在数轴上表示有理数",
+    "finding": "补实际标点和读取非整数刻度；原比较题只作为大小关系证据。",
+    "changedQuestionIds": [
+      "cnm_005_q5",
+      "cnm_005_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_005_q5",
+      "cnm_005_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_007",
+    "name": "绝对值的概念与几何意义",
+    "finding": "补距离解释和0反例，避免只记去负号。",
+    "changedQuestionIds": [
+      "cnm_007_q5",
+      "cnm_007_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_007_q5",
+      "cnm_007_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_030",
+    "name": "用代数式表示规律",
+    "finding": "补生成规则，避免有限数列唯一外推；增加结构推导。",
+    "changedQuestionIds": [
+      "cnm_030_q1",
+      "cnm_030_q3",
+      "cnm_030_q4",
+      "cnm_030_q5",
+      "cnm_030_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_030_q5",
+      "cnm_030_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_078",
+    "name": "实数的分类与数轴表示",
+    "finding": "补无理数位置和近似标点的证据。",
+    "changedQuestionIds": [
+      "cnm_078_q5",
+      "cnm_078_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_078_q5",
+      "cnm_078_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_079",
+    "name": "算术平方根的估值与大小比较",
+    "finding": "补估值理由、精度和负号次序，不只检查最终整数。",
+    "changedQuestionIds": [
+      "cnm_079_q6",
+      "cnm_079_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_079_q6",
+      "cnm_079_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_095",
+    "name": "在数轴上表示不等式的解集",
+    "finding": "补作图、端点和连续解集证据。",
+    "changedQuestionIds": [
+      "cnm_095_q5",
+      "cnm_095_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_095_q5",
+      "cnm_095_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_155",
+    "name": "因式分解的应用",
+    "finding": "补完整代数推理，列举或选择结论不替代证明。",
+    "changedQuestionIds": [
+      "cnm_155_q6",
+      "cnm_155_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_155_q6",
+      "cnm_155_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_197",
+    "name": "函数的图象",
+    "finding": "修正指定两点的唯一性暗示，补实际作图和有图可读的过程题。",
+    "changedQuestionIds": [
+      "cnm_197_q1",
+      "cnm_197_q6",
+      "cnm_197_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_197_q6",
+      "cnm_197_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  },
+  {
+    "topicId": "cnm_198",
+    "name": "函数的三种表示方法",
+    "finding": "补离散/连续定义域和模型边界，三种方法名称记忆不代表会转换。",
+    "changedQuestionIds": [
+      "cnm_198_q6",
+      "cnm_198_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_198_q6",
+      "cnm_198_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d2"
+  }
+]

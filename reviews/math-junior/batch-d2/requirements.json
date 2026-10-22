@@ -1,0 +1,2019 @@
+[
+  {
+    "standardId": "cms-2022:4.NA.01",
+    "section": "有理数",
+    "requirementType": "required",
+    "requirementText": "理解负数的意义（例64）；理解有理数的意义，能用数轴上的点表示有理数，能比较有理数的大小。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        61
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_001",
+      "cnm_002",
+      "cnm_003",
+      "cnm_004",
+      "cnm_005",
+      "cnm_009"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_004_q5",
+      "cnm_004_q6",
+      "cnm_005_q5",
+      "cnm_005_q6"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_004,cnm_005。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.02",
+    "section": "有理数",
+    "requirementType": "required",
+    "requirementText": "借助数轴理解相反数和绝对值的意义，掌握求有理数的相反数和绝对值的方法。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        61
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_006",
+      "cnm_007",
+      "cnm_008"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_007_q5",
+      "cnm_007_q6"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_007。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.03",
+    "section": "有理数",
+    "requirementType": "required",
+    "requirementText": "理解乘方的意义。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        61
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_019",
+      "cnm_020"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.04",
+    "section": "有理数",
+    "requirementType": "required",
+    "requirementText": "掌握有理数的加、减、乘、除、乘方及简单的混合运算（以三步以内为主）；理解有理数的运算律，能运用运算律简化运算。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        61
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_010",
+      "cnm_011",
+      "cnm_012",
+      "cnm_013",
+      "cnm_014",
+      "cnm_015",
+      "cnm_016",
+      "cnm_017",
+      "cnm_018",
+      "cnm_020",
+      "cnm_021"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_018_q6",
+      "cnm_018_q7"
+    ],
+    "finding": "新增两类实际情境及解释任务后补 NA.05 引用；不以补引用代替任务。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.05",
+    "section": "有理数",
+    "requirementType": "required",
+    "requirementText": "能运用有理数的运算解决简单问题。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        61
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_018"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_018_q6",
+      "cnm_018_q7"
+    ],
+    "finding": "新增两类实际情境及解释任务后补 NA.05 引用；不以补引用代替任务。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.06",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "了解无理数和实数，知道实数由有理数和无理数组成，了解实数与数轴上的点一一对应。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        61
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_077",
+      "cnm_078",
+      "cnm_080"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_078_q5",
+      "cnm_078_q6"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_078。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.07",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "能用数轴上的点表示实数，能比较实数的大小。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_078",
+      "cnm_079",
+      "cnm_179"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_078_q5",
+      "cnm_078_q6",
+      "cnm_079_q6",
+      "cnm_079_q7"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_078,cnm_079。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.08",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "能借助数轴理解相反数和绝对值的意义，会求实数的相反数和绝对值。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_080"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.09",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "了解平方根、算术平方根、立方根的概念，会用根号表示数的平方根、算术平方根、立方根。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_074",
+      "cnm_076"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_074_q6",
+      "cnm_074_q7",
+      "cnm_076_q6",
+      "cnm_076_q7"
+    ],
+    "finding": "补算术平方根的非负性和0边界；避免“正的平方根”定义遗漏0。; 补立方与开立方的逆关系和计算器证据；平方根仅作类比，不作为硬先修。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.10",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "了解乘方与开方互为逆运算，会用平方运算求百以内完全平方数的平方根，会用立方运算求千以内完全立方数（及对应的负整数）的立方根，会用计算器计算平方根和立方根。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_075",
+      "cnm_076"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_075_q2",
+      "cnm_075_q5",
+      "cnm_075_q6",
+      "cnm_076_q6",
+      "cnm_076_q7"
+    ],
+    "finding": "补计算器操作证据，核心手算限定百以内完全平方数；保留数字根式化简。; 补立方与开立方的逆关系和计算器证据；平方根仅作类比，不作为硬先修。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.11",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "能用有理数估计一个无理数的大致范围。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57
+      ],
+      "printedPages": [
+        54
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_079"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_079_q6",
+      "cnm_079_q7"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_079。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.12",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "了解近似数，在解决实际问题中，能用计算器进行近似计算，会按问题的要求进行简单的近似计算（例65）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        57,
+        58
+      ],
+      "printedPages": [
+        54,
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_023"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_023_q1",
+      "cnm_023_q3",
+      "cnm_023_q4",
+      "cnm_023_q6"
+    ],
+    "finding": "核心改为近似数、精确度与实际近似计算；原有效数字题面替换，不把未列出的术语列成必修门槛。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.13",
+    "section": "实数",
+    "requirementType": "required",
+    "requirementText": "了解二次根式、最简二次根式的概念，了解二次根式（根号下仅限于数）加、减、乘、除运算法则，会用它们进行简单的四则运算。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_167",
+      "cnm_168",
+      "cnm_169",
+      "cnm_170",
+      "cnm_171",
+      "cnm_172",
+      "cnm_173"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_167_q1",
+      "cnm_167_q2",
+      "cnm_167_q3"
+    ],
+    "finding": "NA.13核心根号下仅限于数；重设核心样题，保留原符号范围题q4为明确拓展。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.14",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "借助现实情境了解代数式，进一步理解用字母表示数的意义。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_025",
+      "cnm_026",
+      "cnm_028"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.15",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "能分析具体问题中的简单数量关系，并用代数式表示；能根据特定的问题查阅资料，找到所需的公式。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_027",
+      "cnm_028",
+      "cnm_030",
+      "cnm_038"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_027_q5",
+      "cnm_027_q6",
+      "cnm_030_q5",
+      "cnm_030_q6"
+    ],
+    "finding": "补资料查阅与公式选择的过程证据；单纯代入题不承担该子能力。 D2新增表示或推理过程任务：cnm_030。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.16",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "会把具体数代入代数式进行计算。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_029",
+      "cnm_037",
+      "cnm_162"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.17",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "了解整数指数幂的意义和基本性质；会用科学记数法表示数（包括在计算器上表示）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_022",
+      "cnm_142",
+      "cnm_143",
+      "cnm_163",
+      "cnm_164"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_022_q5",
+      "cnm_022_q6"
+    ],
+    "finding": "补计算器科学记数法显示的读写证据，保留小数科学记数法在164。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.18",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "理解整式的概念，掌握合并同类项和去括号的法则；能进行简单的整式加减运算，能进行简单的整式乘法运算（多项式乘法仅限于一次式之间和一次式与二次式的乘法）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_031",
+      "cnm_032",
+      "cnm_033",
+      "cnm_034",
+      "cnm_035",
+      "cnm_036",
+      "cnm_037",
+      "cnm_038",
+      "cnm_144",
+      "cnm_145",
+      "cnm_146"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [],
+    "finding": "把核心运算范围写入节点，避免无上限多项式乘法。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.19",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "理解乘法公式(a+b)(a-b)=a²-b²，(a±b)²=a²±2ab+b²，了解公式的几何背景，能利用公式进行简单的计算和推理。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_147",
+      "cnm_148",
+      "cnm_149"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.20",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "能用提公因式法、公式法（直接利用公式不超过二次）进行因式分解（指数为正整数）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        62
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_150",
+      "cnm_151",
+      "cnm_152",
+      "cnm_153",
+      "cnm_154",
+      "cnm_155"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_155_q6",
+      "cnm_155_q7"
+    ],
+    "finding": "明确公式法直接利用公式不超过二次；不引入任意高次技巧作为核心要求。 D2新增表示或推理过程任务：cnm_155。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.21",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "了解分式和最简分式的概念，能利用分式的基本性质进行约分和通分；能对简单的分式进行加、减、乘、除运算。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_156",
+      "cnm_157",
+      "cnm_158",
+      "cnm_159",
+      "cnm_160",
+      "cnm_161",
+      "cnm_162"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.22",
+    "section": "代数式",
+    "requirementType": "required",
+    "requirementText": "了解代数推理（例66）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_155"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_155_q6",
+      "cnm_155_q7"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_155。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.23",
+    "section": "方程与方程组",
+    "requirementType": "required",
+    "requirementText": "能根据现实情境理解方程的意义，能针对具体问题列出方程；理解方程解的意义，经历估计方程解的过程。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_039",
+      "cnm_045",
+      "cnm_046",
+      "cnm_047",
+      "cnm_048",
+      "cnm_049",
+      "cnm_087",
+      "cnm_091",
+      "cnm_092",
+      "cnm_166",
+      "cnm_227",
+      "cnm_228"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_039_q5",
+      "cnm_039_q6"
+    ],
+    "finding": "补经历估计方程解的过程；保留求解与验解的不同证据。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.24",
+    "section": "方程与方程组",
+    "requirementType": "required",
+    "requirementText": "掌握等式的基本性质；能解一元一次方程和可化为一元一次方程的分式方程。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        58
+      ],
+      "printedPages": [
+        55
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_040",
+      "cnm_041",
+      "cnm_042",
+      "cnm_043",
+      "cnm_044",
+      "cnm_165",
+      "cnm_166"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.25",
+    "section": "方程与方程组",
+    "requirementType": "required",
+    "requirementText": "掌握消元法，能解二元一次方程组。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_087",
+      "cnm_088",
+      "cnm_089",
+      "cnm_090",
+      "cnm_091",
+      "cnm_092"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.26",
+    "section": "方程与方程组",
+    "requirementType": "optional",
+    "requirementText": "能解简单的三元一次方程组。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_093"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [],
+    "finding": "源文带星号，标为选学、不作为考试要求；保留教材位置但不伪称必修。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.27",
+    "section": "方程与方程组",
+    "requirementType": "required",
+    "requirementText": "理解配方法，能用配方法、公式法、因式分解法解数字系数的一元二次方程。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_219",
+      "cnm_220",
+      "cnm_221",
+      "cnm_222",
+      "cnm_224",
+      "cnm_225"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.28",
+    "section": "方程与方程组",
+    "requirementType": "required",
+    "requirementText": "会用一元二次方程根的判别式判别方程是否有实根及两个实根是否相等。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_223"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.29",
+    "section": "方程与方程组",
+    "requirementType": "required",
+    "requirementText": "了解一元二次方程的根与系数的关系（例67）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_226"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_226_q3",
+      "cnm_226_q6"
+    ],
+    "finding": "取消整节点拓展标签；核心为了解根与系数关系和条件，复杂对称式另列拓展。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.30",
+    "section": "方程与方程组",
+    "requirementType": "required",
+    "requirementText": "能根据具体问题的实际意义，检验方程解的合理性。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_165",
+      "cnm_227",
+      "cnm_228"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.31",
+    "section": "不等式与不等式组",
+    "requirementType": "required",
+    "requirementText": "结合具体问题，了解不等式的意义，探索不等式的基本性质。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_094",
+      "cnm_096"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.32",
+    "section": "不等式与不等式组",
+    "requirementType": "required",
+    "requirementText": "能解数字系数的一元一次不等式，并能在数轴上表示出解集；会用数轴确定两个一元一次不等式组成的不等式组的解集。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_095",
+      "cnm_097",
+      "cnm_099",
+      "cnm_207"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_095_q5",
+      "cnm_095_q6"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_095。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.33",
+    "section": "不等式与不等式组",
+    "requirementType": "required",
+    "requirementText": "能根据具体问题中的数量关系，列出一元一次不等式，解决简单的问题。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_098",
+      "cnm_100"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.34",
+    "section": "函数的概念",
+    "requirementType": "required",
+    "requirementText": "探索简单实例中的数量关系和变化规律，了解常量、变量的意义；了解函数的概念和表示法，能举出函数的实例。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_193",
+      "cnm_194",
+      "cnm_198"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_198_q6",
+      "cnm_198_q7"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_198。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.35",
+    "section": "函数的概念",
+    "requirementType": "required",
+    "requirementText": "能结合图象对简单实际问题中的函数关系进行分析（例68）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_197"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_197_q6",
+      "cnm_197_q7"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_197。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.36",
+    "section": "函数的概念",
+    "requirementType": "required",
+    "requirementText": "能确定简单实际问题中函数自变量的取值范围，会求函数值。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_195",
+      "cnm_196"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.37",
+    "section": "函数的概念",
+    "requirementType": "required",
+    "requirementText": "能用适当的函数表示法刻画简单实际问题中变量之间的关系，理解函数值的意义（例69）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_198",
+      "cnm_199"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_198_q6",
+      "cnm_198_q7"
+    ],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。 D2新增表示或推理过程任务：cnm_198。",
+    "remaining": "仅针对所列节点的部分能力补证；尚未完成本条所有节点、先修和题目审查，也未完成教学验证。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.38",
+    "section": "函数的概念",
+    "requirementType": "required",
+    "requirementText": "结合对函数关系的分析，能对变量的变化情况进行初步讨论。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59
+      ],
+      "printedPages": [
+        56
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_199"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.39",
+    "section": "一次函数",
+    "requirementType": "required",
+    "requirementText": "结合具体情境体会一次函数的意义，能根据已知条件确定一次函数的表达式（例70）；会运用待定系数法确定一次函数的表达式。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        59,
+        60
+      ],
+      "printedPages": [
+        56,
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_201",
+      "cnm_205"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.40",
+    "section": "一次函数",
+    "requirementType": "required",
+    "requirementText": "能画一次函数的图象，根据图象和表达式y=kx+b（k≠0）探索并理解k>0和k<0时图象的变化情况；理解正比例函数。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_200",
+      "cnm_202",
+      "cnm_203",
+      "cnm_204",
+      "cnm_207",
+      "cnm_241"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.41",
+    "section": "一次函数",
+    "requirementType": "required",
+    "requirementText": "体会一次函数与二元一次方程的关系。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_206",
+      "cnm_208"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.42",
+    "section": "一次函数",
+    "requirementType": "required",
+    "requirementText": "能用一次函数解决简单实际问题。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_209"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.43",
+    "section": "二次函数",
+    "requirementType": "required",
+    "requirementText": "通过对实际问题的分析，体会二次函数的意义。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_229",
+      "cnm_236"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.44",
+    "section": "二次函数",
+    "requirementType": "required",
+    "requirementText": "能画二次函数的图象，通过图象了解二次函数的性质，知道二次函数系数与图象形状和对称轴的关系。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_230",
+      "cnm_231",
+      "cnm_232",
+      "cnm_233"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.45",
+    "section": "二次函数",
+    "requirementType": "required",
+    "requirementText": "会求二次函数的最大值或最小值，并能确定相应自变量的值，能解决相应的实际问题（例71）。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_235",
+      "cnm_236"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.46",
+    "section": "二次函数",
+    "requirementType": "required",
+    "requirementText": "知道二次函数和一元二次方程之间的关系，会利用二次函数的图象求一元二次方程的近似解。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_234"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_234_q5",
+      "cnm_234_q6"
+    ],
+    "finding": "补真实函数图象读近似解的任务；不把求精确根替代图象估计。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.47",
+    "section": "反比例函数",
+    "requirementType": "required",
+    "requirementText": "结合具体情境体会反比例函数的意义（例72），能根据已知条件确定反比例函数的表达式。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        64
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_237",
+      "cnm_240"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.48",
+    "section": "反比例函数",
+    "requirementType": "required",
+    "requirementText": "能画反比例函数的图象，根据图象和表达式y=k/x（k≠0）探索并理解k>0和k<0时图象的变化情况。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        65
+      ],
+      "printedPages": [
+        58
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_238",
+      "cnm_239",
+      "cnm_241"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "partial",
+    "evidenceQuestionIds": [
+      "cnm_238_q5",
+      "cnm_238_q6"
+    ],
+    "finding": "明确增减性只在每个分支内；补不能跨越0推广的反例及绘图任务。",
+    "remaining": "真实任务、其他子能力、全部题型与教师审核待完成。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  },
+  {
+    "standardId": "cms-2022:4.NA.49",
+    "section": "反比例函数",
+    "requirementType": "required",
+    "requirementText": "能用反比例函数解决简单实际问题。",
+    "source2022": {
+      "sourceId": "math-2022-moe",
+      "pdfPages": [
+        65
+      ],
+      "printedPages": [
+        58
+      ],
+      "status": "content-clause-visually-rechecked"
+    },
+    "source2025": {
+      "sourceId": "math-2025-school-copy",
+      "pdfPages": [
+        60
+      ],
+      "printedPages": [
+        57
+      ],
+      "status": "content-clause-compared-in-school-copy",
+      "finding": "本条内容要求未见实质差异；不代表原始发布文件认证或全部课标对齐。"
+    },
+    "topicIds": [
+      "cnm_242"
+    ],
+    "mappingStatus": "referenced",
+    "coverage": "pending",
+    "evidenceQuestionIds": [],
+    "finding": "本批核查了条文及来源定位，尚未逐节点、逐题判断能力覆盖。",
+    "remaining": "需逐节点审阅能力边界、题目及先修；有引用不等于充分覆盖。",
+    "expertReviewed": false,
+    "sourceReviewOrigin": "batch-d1; D2没有重新核对PDF"
+  }
+]

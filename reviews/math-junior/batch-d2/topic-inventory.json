@@ -1,0 +1,879 @@
+[
+  {
+    "topicId": "cnm_001",
+    "name": "正数与负数的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_002",
+    "name": "用正负数表示相反意义的量",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_003",
+    "name": "有理数的分类",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_004",
+    "name": "数轴",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_005",
+    "name": "在数轴上表示有理数",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_006",
+    "name": "相反数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_007",
+    "name": "绝对值的概念与几何意义",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_008",
+    "name": "绝对值的化简与计算",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_009",
+    "name": "有理数的大小比较",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_010",
+    "name": "有理数的加法法则",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_011",
+    "name": "加法运算律与简便运算",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_012",
+    "name": "有理数的减法法则",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_013",
+    "name": "有理数的加减混合运算",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_014",
+    "name": "有理数的乘法法则",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_015",
+    "name": "乘法运算律与多个因数相乘",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_016",
+    "name": "倒数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_017",
+    "name": "有理数的除法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_018",
+    "name": "有理数的加减乘除混合运算",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_019",
+    "name": "乘方的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_020",
+    "name": "乘方的运算与符号规律",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_021",
+    "name": "含乘方的有理数混合运算",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_022",
+    "name": "科学记数法",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_023",
+    "name": "近似数与精确度",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_025",
+    "name": "用字母表示数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_026",
+    "name": "代数式的概念与书写规范",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_027",
+    "name": "列代数式",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_028",
+    "name": "解释代数式的实际意义",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_029",
+    "name": "代数式的值",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_030",
+    "name": "用代数式表示规律",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_031",
+    "name": "单项式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_032",
+    "name": "多项式与整式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_033",
+    "name": "同类项",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_034",
+    "name": "合并同类项",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_035",
+    "name": "去括号法则",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_036",
+    "name": "整式的加减",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_037",
+    "name": "整式化简求值",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_038",
+    "name": "整式加减的应用",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_039",
+    "name": "方程与方程的解",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_040",
+    "name": "等式的性质",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_041",
+    "name": "一元一次方程的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_042",
+    "name": "移项与合并同类项解方程",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_043",
+    "name": "含括号的一元一次方程",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_044",
+    "name": "含分母的一元一次方程",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_045",
+    "name": "列一元一次方程解应用题的步骤",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_046",
+    "name": "配套与工程问题",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_047",
+    "name": "行程问题（相遇与追及）",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_048",
+    "name": "销售与利润问题",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_049",
+    "name": "分段计费与方案选择",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_074",
+    "name": "平方根与算术平方根",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_075",
+    "name": "开平方与平方根的求法",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_076",
+    "name": "立方根",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_077",
+    "name": "无理数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_078",
+    "name": "实数的分类与数轴表示",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_079",
+    "name": "算术平方根的估值与大小比较",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_080",
+    "name": "实数的运算",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_087",
+    "name": "二元一次方程及其解",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_088",
+    "name": "二元一次方程组及其解",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_089",
+    "name": "代入消元法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_090",
+    "name": "加减消元法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_091",
+    "name": "列二元一次方程组解应用题",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_092",
+    "name": "方程组应用的常见类型",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_093",
+    "name": "三元一次方程组（选学）",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_094",
+    "name": "不等式及其解集",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_095",
+    "name": "在数轴上表示不等式的解集",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_096",
+    "name": "不等式的性质",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_097",
+    "name": "一元一次不等式的解法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_098",
+    "name": "一元一次不等式的应用",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_099",
+    "name": "一元一次不等式组的解法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_100",
+    "name": "不等式组的应用",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_142",
+    "name": "同底数幂的乘法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_143",
+    "name": "幂的乘方与积的乘方",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_144",
+    "name": "单项式乘单项式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_145",
+    "name": "单项式乘多项式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_146",
+    "name": "多项式乘多项式",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_147",
+    "name": "平方差公式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_148",
+    "name": "完全平方公式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_149",
+    "name": "乘法公式的综合运用",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_150",
+    "name": "因式分解的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_151",
+    "name": "提公因式法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_152",
+    "name": "公式法：平方差",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_153",
+    "name": "公式法：完全平方",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_154",
+    "name": "综合运用因式分解",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_155",
+    "name": "因式分解的应用",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_156",
+    "name": "分式的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_157",
+    "name": "分式的基本性质",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_158",
+    "name": "分式的约分与最简分式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_159",
+    "name": "分式的通分",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_160",
+    "name": "分式的乘除",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_161",
+    "name": "分式的加减",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_162",
+    "name": "分式的混合运算与化简求值",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_163",
+    "name": "同底数幂的除法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_164",
+    "name": "零指数幂、负整数指数幂与科学记数法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_165",
+    "name": "分式方程的解法与增根",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_166",
+    "name": "分式方程的应用",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_167",
+    "name": "二次根式的概念与数值条件",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_168",
+    "name": "二次根式的性质",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_169",
+    "name": "二次根式的乘法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_170",
+    "name": "二次根式的除法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_171",
+    "name": "最简二次根式与分母有理化",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_172",
+    "name": "二次根式的加减",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_173",
+    "name": "二次根式的混合运算",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_193",
+    "name": "变量与常量",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_194",
+    "name": "函数的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_195",
+    "name": "自变量的取值范围",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_196",
+    "name": "函数值",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_197",
+    "name": "函数的图象",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_198",
+    "name": "函数的三种表示方法",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d2"
+  },
+  {
+    "topicId": "cnm_199",
+    "name": "用函数刻画实际变化规律",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_200",
+    "name": "正比例函数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_201",
+    "name": "一次函数的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_202",
+    "name": "一次函数的图象与画法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_203",
+    "name": "一次函数的性质",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_204",
+    "name": "一次函数图象的平移",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_205",
+    "name": "待定系数法求一次函数解析式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_206",
+    "name": "一次函数与一元一次方程",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_207",
+    "name": "一次函数与一元一次不等式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_208",
+    "name": "一次函数与二元一次方程组",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_209",
+    "name": "实际问题与一次函数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_219",
+    "name": "一元二次方程的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_220",
+    "name": "直接开平方法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_221",
+    "name": "配方法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_222",
+    "name": "公式法与求根公式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_223",
+    "name": "根的判别式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_224",
+    "name": "因式分解法",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_225",
+    "name": "一元二次方程解法的选择",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_226",
+    "name": "一元二次方程根与系数的关系",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_227",
+    "name": "增长率与传播问题",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_228",
+    "name": "面积与销售利润问题",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_229",
+    "name": "二次函数的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_230",
+    "name": "y=ax² 的图象与性质",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_231",
+    "name": "y=a(x-h)²+k 的图象与平移",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_232",
+    "name": "y=ax²+bx+c 的图象与性质",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_233",
+    "name": "待定系数法求二次函数解析式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_234",
+    "name": "二次函数与一元二次方程",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_235",
+    "name": "二次函数的最值",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_236",
+    "name": "实际问题与二次函数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_237",
+    "name": "反比例函数的概念",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_238",
+    "name": "反比例函数的图象与性质",
+    "status": "targeted-revision",
+    "expertReviewed": false,
+    "batch": "d1"
+  },
+  {
+    "topicId": "cnm_240",
+    "name": "待定系数法求反比例函数解析式",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_241",
+    "name": "反比例函数与一次函数的综合",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_242",
+    "name": "实际问题与反比例函数",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_277",
+    "name": "特殊角的三角函数值与计算",
+    "status": "pending-content-review",
+    "expertReviewed": false
+  }
+]

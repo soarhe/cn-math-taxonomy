@@ -1,0 +1,298 @@
+[
+  {
+    "questionId": "cnm_030_q1",
+    "topicId": "cnm_030",
+    "action": "revise-conditions",
+    "contentSha256": "4cb4042f921524d43df5217929a446b886cf4063cca1429af492c6135f8921a1",
+    "rubric": [],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_030_q3",
+    "topicId": "cnm_030",
+    "action": "revise-conditions",
+    "contentSha256": "cff20582e55024760c0a95d6d16d4217a91d08741f001802a0a6c92354eefdcd",
+    "rubric": [],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_030_q4",
+    "topicId": "cnm_030",
+    "action": "revise-conditions",
+    "contentSha256": "d599d33c5873763b96e35ddceaa6b0585078af5ca451ee6c00e2c775dfed52cb",
+    "rubric": [],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_197_q1",
+    "topicId": "cnm_197",
+    "action": "revise-conditions",
+    "contentSha256": "94909185038a03b4277f82acf7b7212f4cfe99d61ff51a74348e75e7e23a470f",
+    "rubric": [],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_004_q5",
+    "topicId": "cnm_004",
+    "action": "add",
+    "contentSha256": "9304f67374a7616fe781fc5842e5c6e51aa9d66b14ebf22ce29fbd69ed047702",
+    "rubric": [
+      "两条都有原点、正方向和统一单位长度",
+      "0、1、-2位置正确",
+      "区分纸面厘米与单位长度，说明数值不变"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_004_q6",
+    "topicId": "cnm_004",
+    "action": "add",
+    "contentSha256": "7e16aca3de93c4fbb07c0bbb1d2d90af59769bd9ea0f69140476fa35a7778224",
+    "rubric": [
+      "指出同一数轴单位长度必须统一",
+      "保留0、1时把2移到正确位置",
+      "补全正方向，说明修正方案；其他一致的比例也可"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_005_q5",
+    "topicId": "cnm_005",
+    "action": "add",
+    "contentSha256": "5b958acc5f7972d45a5be26c0cee1f21d144a8badf70c8922ab1227a4108a9dd",
+    "rubric": [
+      "数轴三要素完整且单位统一",
+      "三个点的位置与标注准确",
+      "用单位长度解释半单位的位置"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_005_q6",
+    "topicId": "cnm_005",
+    "action": "add",
+    "contentSha256": "5a21b6df3d5651f4c1e8009c5d597ecf2e2b1c48202809c6558f442e6b915ed7",
+    "rubric": [
+      "由-2到-1有两小格得每格0.5",
+      "向右加0.5得到-1.5",
+      "不能把每一格默认当作1"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_007_q5",
+    "topicId": "cnm_007",
+    "action": "add",
+    "contentSha256": "0151060aed1ff7522de9b31e1b79bd539d0c2f69957c80b50f47b4e23ff0a7f7",
+    "rubric": [
+      "标点正确",
+      "用到原点的距离解释三个值",
+      "区分大于0与大于或等于0"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_007_q6",
+    "topicId": "cnm_007",
+    "action": "add",
+    "contentSha256": "38c6f12091755a419828630c469f5638776c3861f44a0ed2cc8ea46ec1b44336",
+    "rubric": [
+      "说明负号表示相对方向而距离非负",
+      "图上标出-2与2",
+      "解释两点到原点的距离相同"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_030_q5",
+    "topicId": "cnm_030",
+    "action": "add",
+    "contentSha256": "3c65edf009ee9d32ba3d7a05b2508c7f4eeb233317f0c7bd094b7badf0271ad1",
+    "rubric": [
+      "图中相邻共用一边",
+      "解释第一个4根、以后每个新增3根",
+      "给出代数式及n为正整数的限制"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_030_q6",
+    "topicId": "cnm_030",
+    "action": "add",
+    "contentSha256": "353656a1d1334c4b1f863fac427f0be99502ed430009e3579bf8b03af2a71bd3",
+    "rubric": [
+      "说明未给出统一生成规则",
+      "给出两个前四项相同而第五项不同的序列",
+      "区分合理猜测与逻辑上唯一确定"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_078_q5",
+    "topicId": "cnm_078",
+    "action": "add",
+    "contentSha256": "a93d08c6b935057eeb03482e5daf2daf8f4e84b3c41e82db240804fa81d2bd7c",
+    "rubric": [
+      "正负两点位于对应区间且关于原点对称",
+      "给出负数区间的正确顺序",
+      "说明有限小数近似不等于精确根式"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_078_q6",
+    "topicId": "cnm_078",
+    "action": "add",
+    "contentSha256": "e6b85e2451dc39cfa6c4d80265a54f118ad0f6b532c3e1aa6deff4f250063128",
+    "rubric": [
+      "区分表示形式与数的存在",
+      "用实数与数轴点一一对应解释",
+      "分类正确且不把0遗漏"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_079_q6",
+    "topicId": "cnm_079",
+    "action": "add",
+    "contentSha256": "3c6112db366be5101d0af14ce3ac7d8eadbe7b24e5491e48461ce9c3030a2623",
+    "rubric": [
+      "两端平方计算正确",
+      "说明比较非负数可比较平方",
+      "区分界限、近似和精确相等"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_079_q7",
+    "topicId": "cnm_079",
+    "action": "add",
+    "contentSha256": "17c20654a3626ef2a768227e8365e6e2c18f3f7dbf8a753a77d88aba976b26f1",
+    "rubric": [
+      "先比较非负数及其平方",
+      "取相反数后大小次序反向",
+      "可用数轴左侧位置解释，不能忽略负号"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_095_q5",
+    "topicId": "cnm_095",
+    "action": "add",
+    "contentSha256": "bae0ae0c1ef9e7797225002a0af7369fb18bfe4f1332cc600ab00f83f3b5e4ed",
+    "rubric": [
+      "两图方向分别向右、向左",
+      "分别使用实心点和空心圈",
+      "说明解集不只含整数并给出有效例子"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_095_q6",
+    "topicId": "cnm_095",
+    "action": "add",
+    "contentSha256": "69bf29b5a8d0a7d284ac4505fa591bde1b8857f8f8b64d913a175e4889046c46",
+    "rubric": [
+      "正确画连续线段和两个端点",
+      "判断三个指定数",
+      "说明所有满足条件的实数都应包括"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_155_q6",
+    "topicId": "cnm_155",
+    "action": "add",
+    "contentSha256": "1b8e698c3e4f93afb78ba0316d665fb38841cc9307fa657f3c764c67455266c4",
+    "rubric": [
+      "写出因式分解",
+      "解释相邻整数必有一个为偶数且乘积仍是偶数",
+      "说明结论对任意整数成立，举例不替代证明"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_155_q7",
+    "topicId": "cnm_155",
+    "action": "add",
+    "contentSha256": "8bb5fc042ef16d26d734152585bc4c2d8fd194997e98dbacfd02245040f94a4e",
+    "rubric": [
+      "正确使用平方差公式",
+      "得到8n",
+      "用n为整数解释整除，而不是只列数值例子"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_197_q6",
+    "topicId": "cnm_197",
+    "action": "add",
+    "contentSha256": "1164bda8d2f3b93d3dc444ff2778e0d6e7384beb18fb5b7da5b4813bc948763e",
+    "rubric": [
+      "列表、坐标点计算正确",
+      "画出直线的一段且包含两个端点",
+      "用给定自变量范围解释不延长"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_197_q7",
+    "topicId": "cnm_197",
+    "action": "add",
+    "contentSha256": "919c606cbfcb694c29178fdbd161cb7bd6b01b79a9cd6c9ec594e7e119acd9dd",
+    "rubric": [
+      "从水平段读出200米",
+      "用累计路程不变解释停留2分钟",
+      "比较两段路程增量与时间，不能只比较高度"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_198_q6",
+    "topicId": "cnm_198",
+    "action": "add",
+    "contentSha256": "1512ac1cdad9044426ca919c74e1d01365b6b274632cdf0292123cdd62220789",
+    "rubric": [
+      "公式和取值范围完整",
+      "表格五组对应值与图上点一致",
+      "不能买半本，故不连成连续线段"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_198_q7",
+    "topicId": "cnm_198",
+    "action": "add",
+    "contentSha256": "4b486ba05fae2a9c0a5beb270039bce0da0e40eeacf39210aeb456f8ac41a1cb",
+    "rubric": [
+      "公式、单位与0≤t≤20明确",
+      "表格与图象对应且含端点",
+      "解释排空后模型改变，不能外推成负水量"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  }
+]
