@@ -1,0 +1,185 @@
+[
+  {
+    "questionId": "cnm_098_q1",
+    "topicId": "cnm_098",
+    "action": "revise-explanation-or-scope",
+    "contentSha256": "959211e641ce1458095bc45bf2f656f400de707c7262129496e5c995280a06e1",
+    "rubric": [],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_098_q3",
+    "topicId": "cnm_098",
+    "action": "revise-explanation-or-scope",
+    "contentSha256": "1c70ac3330feecda089e7b4e03d7cd47d757a68806edd4e292f354098840142d",
+    "rubric": [],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_166_q3",
+    "topicId": "cnm_166",
+    "action": "revise-explanation-or-scope",
+    "contentSha256": "4bcc56b5da9c3d96ec0af57b5aa17facd38404d6fe58843804f7a5d1c5217f49",
+    "rubric": [],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_045_q5",
+    "topicId": "cnm_045",
+    "action": "add",
+    "contentSha256": "4d040a77a65c206b39aec9d647b90f91ba527118611e681c2400df86c34e9e09",
+    "rubric": [
+      "说明x表示本数且为非负整数",
+      "用商品费用加运费等于总费用列式并求解",
+      "代回检查费用、单位和整数限制"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_045_q6",
+    "topicId": "cnm_045",
+    "action": "add",
+    "contentSha256": "b06d3cc01fe7a4ed667b263f05a1de8eea2008470753944de7d091349178bfb1",
+    "rubric": [
+      "正确设置未知数并列式",
+      "解得女生20.5人、男生24.5人",
+      "指出整数约束；四舍五入会破坏给定关系"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_091_q6",
+    "topicId": "cnm_091",
+    "action": "add",
+    "contentSha256": "4a14fbb10ecd39aad0b0a45280cb62fe5428216fd6b67bafa4f3036c8b13b72e",
+    "rubric": [
+      "未知数、单位及非负整数限制清楚",
+      "正确列两个方程并展示任一种有效消元过程",
+      "验证8+12=20和30×8+15×12=420"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_091_q7",
+    "topicId": "cnm_091",
+    "action": "add",
+    "contentSha256": "292f2de2e7af3f67add2e524a52b01a7375be1c328091746bbeb0e64c979ae13",
+    "rubric": [
+      "正确列式并识别两条件重复",
+      "说明两个方程不一定提供两条独立信息",
+      "两组不同正单价均代回验证"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_096_q5",
+    "topicId": "cnm_096",
+    "action": "add",
+    "contentSha256": "6eed54429d642f017ab82189fee58e13f24637aba4697112ce14ba9a7804646f",
+    "rubric": [
+      "四个结果正确",
+      "用乘负数的例子否定原说法",
+      "指出乘0不保持严格不等式且不能除以0"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_096_q6",
+    "topicId": "cnm_096",
+    "action": "add",
+    "contentSha256": "69894c4c1993f8d58b887a116167b3ba55f060148bfce255e8f5c6e52c4c44be",
+    "rubric": [
+      "分别写出三种情况",
+      "说明使用乘法性质的条件",
+      "可取a=1、b=2、c=-1检验错误推断"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_098_q5",
+    "topicId": "cnm_098",
+    "action": "add",
+    "contentSha256": "bced66900ac86aac2c227288891baab8d36d05e71575b2887267220f8f49791a",
+    "rubric": [
+      "说明x为非负整数并列出含等号的不等式",
+      "解得x≤7并取最大整数7",
+      "检查7本与8本，说明恰好等于预算允许"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_098_q6",
+    "topicId": "cnm_098",
+    "action": "add",
+    "contentSha256": "a0a0927c5f6c70cc1583e913f809b8f87bad55097805aefc4938da35e5103f88",
+    "rubric": [
+      "把总容量不少于人数转化为不等式",
+      "保留精确界限并向上取整",
+      "检验3辆与4辆，说明取整由实际条件决定"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_165_q5",
+    "topicId": "cnm_165",
+    "action": "add",
+    "contentSha256": "639df422dfdb1b7fac96861fff50d69ac42cbb9735a9e3ce175f5ad0f1be7635",
+    "rubric": [
+      "列全两个分母限制",
+      "去分母并解得2",
+      "检查分母和原方程两边，不只检查整式方程"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_165_q6",
+    "topicId": "cnm_165",
+    "action": "add",
+    "contentSha256": "ec0078698d626c53bb086dc3402c755ae6da45622d88a346030e50b005cc0a41",
+    "rubric": [
+      "由x²-1=(x-1)(x+1)排除±1",
+      "展示候选解1的来源",
+      "说明去分母只在原分母非零范围内等价，原方程无解"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_166_q5",
+    "topicId": "cnm_166",
+    "action": "add",
+    "contentSha256": "8f3f0b9da4e877c13526da10df244f7f6205bc7e9b04bbe629bee4a66ed172b0",
+    "rubric": [
+      "用路程除以速度表示时间并正确列式",
+      "解得4并满足正速度及分母条件",
+      "检查12/4=36/12=3并带单位作答"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_166_q6",
+    "topicId": "cnm_166",
+    "action": "add",
+    "contentSha256": "680fbd284055a16ac2c7aaac75071cda95cc1289c5519b4e2eec9d340c4f332b",
+    "rubric": [
+      "说明逆流仍向前要求x>3",
+      "正确列式并求得候选-21",
+      "区分代数解和实际可行解，不能接受负速度或负时间"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  }
+]

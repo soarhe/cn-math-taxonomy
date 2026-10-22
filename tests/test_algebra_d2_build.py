@@ -50,9 +50,9 @@ class AlgebraD2BuildTests(unittest.TestCase):
   for row in load('reviews/math-junior/batch-d2/question-review.json'):
    self.assertEqual(row['contentSha256'],digest(qs[row['questionId']]))
   app=(ROOT/'diagnose/app.js').read_text()
-  self.assertIn("const DATA_VERSION = 'algebra-2026-10.2'",app)
+  self.assertIn("const DATA_VERSION = '"+load('data/current-release.json')['version']+"'",app)
   self.assertIn('cnmDiagnose.session.algebra-2026-10.1.evidence-1.1',app)
-  self.assertEqual(load('data/current-release.json')['counts']['questions'],6224)
+  self.assertEqual(load('reviews/math-junior/batch-d2/release.json')['counts']['questions'],6224)
   build(ROOT,True)
  def test_process_tasks_and_mathematical_invariants(self):
   added=[c['after'] for c in PATCH['questions'] if c['before'] is None]

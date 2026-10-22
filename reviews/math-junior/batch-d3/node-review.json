@@ -1,0 +1,113 @@
+[
+  {
+    "topicId": "cnm_045",
+    "name": "列一元一次方程解应用题的步骤",
+    "finding": "补真实情境中的建模过程与非整数人数反例。",
+    "changedQuestionIds": [
+      "cnm_045_q5",
+      "cnm_045_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_045_q5",
+      "cnm_045_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d3"
+  },
+  {
+    "topicId": "cnm_091",
+    "name": "列二元一次方程组解应用题",
+    "finding": "补双条件建模与重复条件不足以确定答案的反例。",
+    "changedQuestionIds": [
+      "cnm_091_q6",
+      "cnm_091_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_091_q6",
+      "cnm_091_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d3"
+  },
+  {
+    "topicId": "cnm_096",
+    "name": "不等式的性质",
+    "finding": "补性质探索、负数反例与乘数符号条件。",
+    "changedQuestionIds": [
+      "cnm_096_q5",
+      "cnm_096_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_096_q5",
+      "cnm_096_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d3"
+  },
+  {
+    "topicId": "cnm_098",
+    "name": "一元一次不等式的应用",
+    "finding": "补整数取值、向上/向下取整理由，修正原解析的近似边界。",
+    "changedQuestionIds": [
+      "cnm_098_q1",
+      "cnm_098_q3",
+      "cnm_098_q5",
+      "cnm_098_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_098_q5",
+      "cnm_098_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d3"
+  },
+  {
+    "topicId": "cnm_165",
+    "name": "分式方程的解法与增根",
+    "finding": "明确核心范围，补去分母条件和增根产生原因。",
+    "changedQuestionIds": [
+      "cnm_165_q5",
+      "cnm_165_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_165_q5",
+      "cnm_165_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d3"
+  },
+  {
+    "topicId": "cnm_166",
+    "name": "分式方程的应用",
+    "finding": "将需解二次方程的工程旧题移至拓展；补核心列式、求解与实际条件检验。",
+    "changedQuestionIds": [
+      "cnm_166_q3",
+      "cnm_166_q5",
+      "cnm_166_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_166_q5",
+      "cnm_166_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d3"
+  }
+]

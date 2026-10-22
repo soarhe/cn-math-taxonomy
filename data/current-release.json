@@ -1,35 +1,36 @@
 {
-  "version": "algebra-2026-10.2",
+  "version": "algebra-2026-10.3",
   "engineVersion": "evidence-1.1",
   "date": "2026-10-22",
-  "baseCommit": "d98c4683f3c87401c525e02c56a79c3e6d60df1b",
-  "previousRelease": "algebra-2026-10.1",
+  "baseCommit": "c2584847bcd73869451177ed7373119c5fda0240",
+  "previousRelease": "algebra-2026-10.2",
   "expertReviewed": false,
   "counts": {
     "topics": 1505,
-    "questions": 6224,
+    "questions": 6236,
     "dependencies": 2181,
     "algebraInventory": 142,
-    "targetedJuniorTopics": 25,
+    "targetedJuniorTopics": 31,
     "primaryBridgeTopics": 4,
-    "changedQuestionObjects": 24,
-    "netAddedQuestions": 20,
+    "changedQuestionObjects": 15,
+    "netAddedQuestions": 12,
     "contentRequirementsSourceChecked": 49,
-    "partiallyReviewedRequirements": 25,
-    "pendingCoverageRequirements": 24,
-    "batchTargetedJuniorTopics": 10
+    "partiallyReviewedRequirements": 30,
+    "pendingCoverageRequirements": 19,
+    "batchTargetedJuniorTopics": 6
   },
   "files": {
-    "topics.json": "dfb5ef0c85c883aded627c97f0448613305fa634ce39ffb2ebad170def52bed9",
-    "questions.json": "2b0180f61acef632cb0ac4325c9f595df16c4a6245fc7b9d60eeda283e03090c",
+    "topics.json": "7c552fbb5f65c07dbff8d4a39349ff5335fe1e5f79a3b18f081e8dcbadbaa78d",
+    "questions.json": "9fcf0acc4b8f6c18963718efc42f227ac101f7635d8d6e5dcd8760fd1ead8666",
     "dependencies.json": "afd7418787e988b4f68145e8538000e5e2185f434ba39ef631a31f296287b8dd"
   },
   "authoring": {
     "authoring/statistics-2026-10/patch.json": "3ceb451858cb1b10aeb05b6ac48f38967d0fc40b389e81418004b8915014660a",
     "authoring/algebra-2026-10/patch.json": "f35af092304d51dae65c7d8495a73112f95d90d1fe57eeb14472a21d8c962cd0",
-    "authoring/algebra-d2-2026-10/patch.json": "3a9616334f5ad0ee6b342e3aefaac926486a21683a053f5ce10b8c377162069e"
+    "authoring/algebra-d2-2026-10/patch.json": "3a9616334f5ad0ee6b342e3aefaac926486a21683a053f5ce10b8c377162069e",
+    "authoring/algebra-d3-2026-10/patch.json": "ed404875cce778d0702b96e766b32f1222f845051a952acec5b31bd799658e27"
   },
-  "review": "reviews/math-junior/batch-d2/README.md",
-  "migration": "数学D1会话保留原样导出，不按D2题面重放；引擎版本与英语会话保持兼容。",
+  "review": "reviews/math-junior/batch-d3/README.md",
+  "migration": "数学D1/D2会话保留原样导出，不按D3题池重放；引擎版本及英语会话兼容性不变。",
   "countSemantics": "targetedJuniorTopics和primaryBridgeTopics为累计；changedQuestionObjects和netAddedQuestions为本批。"
 }

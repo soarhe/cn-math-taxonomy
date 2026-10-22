@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   const E = window.DiagEngine;
-  const DATA_VERSION = 'algebra-2026-10.2';
+  const DATA_VERSION = 'algebra-2026-10.3';
   const LS_LEGACY_SESSION = 'cnmDiagnose.session.v2';
   const LS_SESSION = 'cnmDiagnose.session.' + DATA_VERSION + '.' + E.ENGINE_VERSION;
   const LS_SESSION_EN = 'cneDiagnose.session.' + E.ENGINE_VERSION;
@@ -326,7 +326,7 @@
 
   function renderStart(errMsg) {
     const page = h('div');
-    const oldKeys = subject === 'math' ? [LS_LEGACY_SESSION, 'cnmDiagnose.session.algebra-2026-10.1.evidence-1.1', 'cnmDiagnose.session.statistics-2026-10.1', 'cnmDiagnose.session.statistics-2026-10.1.evidence-1'] : ['cneDiagnose.session.v2', 'cneDiagnose.session.evidence-1'];
+    const oldKeys = subject === 'math' ? [LS_LEGACY_SESSION, 'cnmDiagnose.session.algebra-2026-10.2.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.1.evidence-1.1', 'cnmDiagnose.session.statistics-2026-10.1', 'cnmDiagnose.session.statistics-2026-10.1.evidence-1'] : ['cneDiagnose.session.v2', 'cneDiagnose.session.evidence-1'];
     oldKeys.forEach(function (key) {
       const legacy = lsGet(key);
       if (!legacy) return;
