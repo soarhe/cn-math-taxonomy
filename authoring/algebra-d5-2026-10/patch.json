@@ -1,0 +1,308 @@
+{
+  "batch": "d5",
+  "baseCommit": "04c37bf2eb069bdce7e28b9949fa149a825a5f99",
+  "topics": [
+    {
+      "id": "cnm_206",
+      "beforeHash": "f7548adbff34f05a9bd85788d496735664d42c61a2f95766e7716ec8a8b03d84",
+      "before": {
+        "id": "cnm_206",
+        "name": "一次函数与一元一次方程",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.3",
+        "type": "conceptual",
+        "description": "方程 kx+b=0 的解就是函数 y=kx+b 的图象与 x 轴交点的横坐标。",
+        "mastery_criteria": [
+          "能由图象读出方程的解",
+          "能说明二者关系"
+        ],
+        "diagnostic_question": {
+          "question": "一次函数 y=2x-6 与 x 轴交点横坐标与方程 2x-6=0 的解有何关系？",
+          "answer": "相等，都是 3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.41",
+            "confidence": "inferred",
+            "note": "课标写一次函数与二元一次方程的关系；与一元一次方程是其特例"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_206",
+        "name": "一次函数与一元一次方程",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.3",
+        "type": "conceptual",
+        "description": "方程 kx+b=0 的解就是函数 y=kx+b 的图象与 x 轴交点的横坐标。",
+        "mastery_criteria": [
+          "能从实际图象读取与x轴交点的横坐标",
+          "能用交点纵坐标为0解释方程与函数的联系",
+          "能将非零目标函数值转化为与水平直线求交"
+        ],
+        "diagnostic_question": {
+          "question": "一次函数 y=2x-6 与 x 轴交点横坐标与方程 2x-6=0 的解有何关系？",
+          "answer": "相等，都是 3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.41",
+            "confidence": "inferred",
+            "note": "课标写一次函数与二元一次方程的关系；与一元一次方程是其特例"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_207",
+      "beforeHash": "f8aa23ac87f4e8ac2874ca24b9023fdadf461025b71b5e44a1cd4415c7741880",
+      "before": {
+        "id": "cnm_207",
+        "name": "一次函数与一元一次不等式",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.3",
+        "type": "conceptual",
+        "description": "不等式 kx+b>0 的解集是图象在 x 轴上方部分对应的 x 的范围。",
+        "mastery_criteria": [
+          "能由图象写出不等式解集",
+          "能数形结合"
+        ],
+        "diagnostic_question": {
+          "question": "由 y=x-2 的图象，x-2>0 的解集是？",
+          "answer": "x>2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "inferred",
+            "note": "课标未列一次函数与不等式的关系，依托解不等式与一次函数图象"
+          },
+          {
+            "id": "cms-2022:4.NA.40",
+            "confidence": "inferred",
+            "note": "课标未列一次函数与不等式的关系，依托解不等式与一次函数图象"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_207",
+        "name": "一次函数与一元一次不等式",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.3",
+        "type": "conceptual",
+        "description": "不等式 kx+b>0 的解集是图象在 x 轴上方部分对应的 x 的范围。",
+        "mastery_criteria": [
+          "能按图象位于x轴上方或下方判断不等式解集",
+          "能比较同一横坐标处两图象的高低",
+          "能正确处理严格不等号及交点端点"
+        ],
+        "diagnostic_question": {
+          "question": "由 y=x-2 的图象，x-2>0 的解集是？",
+          "answer": "x>2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "inferred",
+            "note": "课标未列一次函数与不等式的关系，依托解不等式与一次函数图象"
+          },
+          {
+            "id": "cms-2022:4.NA.40",
+            "confidence": "inferred",
+            "note": "课标未列一次函数与不等式的关系，依托解不等式与一次函数图象"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_208",
+      "beforeHash": "61cf1d52d0e2795442a184ab658dd8b6d695befc3994b110f7e7f4f5c28d1a13",
+      "before": {
+        "id": "cnm_208",
+        "name": "一次函数与二元一次方程组",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.3",
+        "type": "conceptual",
+        "description": "两个一次函数图象的交点坐标就是对应二元一次方程组的解。",
+        "mastery_criteria": [
+          "能由交点求方程组的解",
+          "能用方程组求交点"
+        ],
+        "diagnostic_question": {
+          "question": "直线 y=x+1 与 y=-x+3 的交点坐标？",
+          "answer": "(1,2)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.41",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_208",
+        "name": "一次函数与二元一次方程组",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.3",
+        "type": "conceptual",
+        "description": "两个一次函数图象的交点坐标就是对应二元一次方程组的解。",
+        "mastery_criteria": [
+          "能读出交点的两个坐标并解释共同解",
+          "能用代入两个原方程核对交点",
+          "能说明平行且不重合的图象没有共同解"
+        ],
+        "diagnostic_question": {
+          "question": "直线 y=x+1 与 y=-x+3 的交点坐标？",
+          "answer": "(1,2)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.41",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_206_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_206_q5",
+        "topicId": "cnm_206",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图示一次函数y=2x-4（直线在图窗外继续延伸）。先从图上读出它与x轴的交点，写出方程2x-4=0的解，再解释为何读取横坐标而不是纵坐标。",
+        "answer": "交点(2,0)，方程解x=2；x轴上y=0，代入关系得到2x-4=0。",
+        "explanation": "从图上读出完整交点(2,0)；区分方程解2与交点纵坐标0；用x轴上y=0解释联系并代回验证。",
+        "rubric": [
+          "从图上读出完整交点(2,0)",
+          "区分方程解2与交点纵坐标0",
+          "用x轴上y=0解释联系并代回验证"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 350\" role=\"img\" aria-label=\"带单位刻度的直角坐标图，y=2x-4\"><g fill=\"none\" stroke=\"currentColor\"><path d=\"M60 70V300\" opacity=\"0.15\"/><path d=\"M105 70V300\" opacity=\"0.15\"/><path d=\"M150 70V300\" opacity=\"0.15\"/><path d=\"M195 70V300\" opacity=\"0.15\"/><path d=\"M240 70V300\" opacity=\"0.15\"/><path d=\"M285 70V300\" opacity=\"0.15\"/><path d=\"M330 70V300\" opacity=\"0.15\"/><path d=\"M375 70V300\" opacity=\"0.15\"/><path d=\"M60 300H375\" opacity=\"0.15\"/><path d=\"M60 277H375\" opacity=\"0.15\"/><path d=\"M60 254H375\" opacity=\"0.15\"/><path d=\"M60 231H375\" opacity=\"0.15\"/><path d=\"M60 208H375\" opacity=\"0.15\"/><path d=\"M60 185H375\" opacity=\"0.15\"/><path d=\"M60 162H375\" opacity=\"0.15\"/><path d=\"M60 139H375\" opacity=\"0.15\"/><path d=\"M60 116H375\" opacity=\"0.15\"/><path d=\"M60 93H375\" opacity=\"0.15\"/><path d=\"M60 70H375\" opacity=\"0.15\"/><path d=\"M45 208H395l-7 -4m7 4l-7 4M150 315V55l-4 7m4 -7l4 7\"/><path d=\"M150.0 300L375 70\" stroke-width=\"2.5\"/></g><g fill=\"currentColor\" font-size=\"13\"><text x=\"60\" y=\"225\" text-anchor=\"middle\">-2</text><text x=\"105\" y=\"225\" text-anchor=\"middle\">-1</text><text x=\"195\" y=\"225\" text-anchor=\"middle\">1</text><text x=\"240\" y=\"225\" text-anchor=\"middle\">2</text><text x=\"285\" y=\"225\" text-anchor=\"middle\">3</text><text x=\"330\" y=\"225\" text-anchor=\"middle\">4</text><text x=\"375\" y=\"225\" text-anchor=\"middle\">5</text><text x=\"140\" y=\"304\" text-anchor=\"end\">-4</text><text x=\"140\" y=\"281\" text-anchor=\"end\">-3</text><text x=\"140\" y=\"258\" text-anchor=\"end\">-2</text><text x=\"140\" y=\"235\" text-anchor=\"end\">-1</text><text x=\"140\" y=\"189\" text-anchor=\"end\">1</text><text x=\"140\" y=\"166\" text-anchor=\"end\">2</text><text x=\"140\" y=\"143\" text-anchor=\"end\">3</text><text x=\"140\" y=\"120\" text-anchor=\"end\">4</text><text x=\"140\" y=\"97\" text-anchor=\"end\">5</text><text x=\"140\" y=\"74\" text-anchor=\"end\">6</text><text x=\"136\" y=\"224\">0</text><text x=\"400\" y=\"213\">x</text><text x=\"159\" y=\"55\">y</text><text x=\"60\" y=\"20\">实线：y=2x-4</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_206_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_206_q6",
+        "topicId": "cnm_206",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "实线是y=2x-4，虚线是y=1，均在图窗外延伸。先读交点估计方程2x-4=1的解，再用代数计算核对。为什么这次不能找实线与x轴的交点？",
+        "answer": "交点约(2.5,1)，解x=2.5；此题要求函数值1，不是0。",
+        "explanation": "定位实线与水平虚线的交点；读出横坐标约2.5并由2x=5核对；解释目标纵坐标是1而非0；合理读图误差可接受。",
+        "rubric": [
+          "定位实线与水平虚线的交点",
+          "读出横坐标约2.5并由2x=5核对",
+          "解释目标纵坐标是1而非0；合理读图误差可接受"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 350\" role=\"img\" aria-label=\"带单位刻度的直角坐标图，y=2x-4；y=1\"><g fill=\"none\" stroke=\"currentColor\"><path d=\"M60 70V300\" opacity=\"0.15\"/><path d=\"M105 70V300\" opacity=\"0.15\"/><path d=\"M150 70V300\" opacity=\"0.15\"/><path d=\"M195 70V300\" opacity=\"0.15\"/><path d=\"M240 70V300\" opacity=\"0.15\"/><path d=\"M285 70V300\" opacity=\"0.15\"/><path d=\"M330 70V300\" opacity=\"0.15\"/><path d=\"M375 70V300\" opacity=\"0.15\"/><path d=\"M60 300H375\" opacity=\"0.15\"/><path d=\"M60 277H375\" opacity=\"0.15\"/><path d=\"M60 254H375\" opacity=\"0.15\"/><path d=\"M60 231H375\" opacity=\"0.15\"/><path d=\"M60 208H375\" opacity=\"0.15\"/><path d=\"M60 185H375\" opacity=\"0.15\"/><path d=\"M60 162H375\" opacity=\"0.15\"/><path d=\"M60 139H375\" opacity=\"0.15\"/><path d=\"M60 116H375\" opacity=\"0.15\"/><path d=\"M60 93H375\" opacity=\"0.15\"/><path d=\"M60 70H375\" opacity=\"0.15\"/><path d=\"M45 208H395l-7 -4m7 4l-7 4M150 315V55l-4 7m4 -7l4 7\"/><path d=\"M150.0 300L375 70\" stroke-width=\"2.5\"/><path d=\"M60 185L375 185\" stroke-width=\"2.5\" stroke-dasharray=\"8 5\"/></g><g fill=\"currentColor\" font-size=\"13\"><text x=\"60\" y=\"225\" text-anchor=\"middle\">-2</text><text x=\"105\" y=\"225\" text-anchor=\"middle\">-1</text><text x=\"195\" y=\"225\" text-anchor=\"middle\">1</text><text x=\"240\" y=\"225\" text-anchor=\"middle\">2</text><text x=\"285\" y=\"225\" text-anchor=\"middle\">3</text><text x=\"330\" y=\"225\" text-anchor=\"middle\">4</text><text x=\"375\" y=\"225\" text-anchor=\"middle\">5</text><text x=\"140\" y=\"304\" text-anchor=\"end\">-4</text><text x=\"140\" y=\"281\" text-anchor=\"end\">-3</text><text x=\"140\" y=\"258\" text-anchor=\"end\">-2</text><text x=\"140\" y=\"235\" text-anchor=\"end\">-1</text><text x=\"140\" y=\"189\" text-anchor=\"end\">1</text><text x=\"140\" y=\"166\" text-anchor=\"end\">2</text><text x=\"140\" y=\"143\" text-anchor=\"end\">3</text><text x=\"140\" y=\"120\" text-anchor=\"end\">4</text><text x=\"140\" y=\"97\" text-anchor=\"end\">5</text><text x=\"140\" y=\"74\" text-anchor=\"end\">6</text><text x=\"136\" y=\"224\">0</text><text x=\"400\" y=\"213\">x</text><text x=\"159\" y=\"55\">y</text><text x=\"60\" y=\"20\">实线：y=2x-4</text><text x=\"60\" y=\"40\">虚线：y=1</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_207_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_207_q5",
+        "topicId": "cnm_207",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "根据图中的y=-x+2，分别写出-x+2>0和-x+2≥0的解集，指出对应哪一部分图象及端点是否包含。直线在图窗外继续延伸。",
+        "answer": "分别为x<2与x≤2；取x轴上方的图象，第二个还包含交点(2,0)。",
+        "explanation": "读出x轴交点横坐标2；判断图象在x轴上方对应交点左侧；严格不等式排除2，非严格不等式包含2；不把图窗左边界当定义域。",
+        "rubric": [
+          "读出x轴交点横坐标2",
+          "判断图象在x轴上方对应交点左侧",
+          "严格不等式排除2，非严格不等式包含2；不把图窗左边界当定义域"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 350\" role=\"img\" aria-label=\"带单位刻度的直角坐标图，y=-x+2\"><g fill=\"none\" stroke=\"currentColor\"><path d=\"M60 70V300\" opacity=\"0.15\"/><path d=\"M105 70V300\" opacity=\"0.15\"/><path d=\"M150 70V300\" opacity=\"0.15\"/><path d=\"M195 70V300\" opacity=\"0.15\"/><path d=\"M240 70V300\" opacity=\"0.15\"/><path d=\"M285 70V300\" opacity=\"0.15\"/><path d=\"M330 70V300\" opacity=\"0.15\"/><path d=\"M375 70V300\" opacity=\"0.15\"/><path d=\"M60 300H375\" opacity=\"0.15\"/><path d=\"M60 277H375\" opacity=\"0.15\"/><path d=\"M60 254H375\" opacity=\"0.15\"/><path d=\"M60 231H375\" opacity=\"0.15\"/><path d=\"M60 208H375\" opacity=\"0.15\"/><path d=\"M60 185H375\" opacity=\"0.15\"/><path d=\"M60 162H375\" opacity=\"0.15\"/><path d=\"M60 139H375\" opacity=\"0.15\"/><path d=\"M60 116H375\" opacity=\"0.15\"/><path d=\"M60 93H375\" opacity=\"0.15\"/><path d=\"M60 70H375\" opacity=\"0.15\"/><path d=\"M45 208H395l-7 -4m7 4l-7 4M150 315V55l-4 7m4 -7l4 7\"/><path d=\"M60 116L375 277\" stroke-width=\"2.5\"/></g><g fill=\"currentColor\" font-size=\"13\"><text x=\"60\" y=\"225\" text-anchor=\"middle\">-2</text><text x=\"105\" y=\"225\" text-anchor=\"middle\">-1</text><text x=\"195\" y=\"225\" text-anchor=\"middle\">1</text><text x=\"240\" y=\"225\" text-anchor=\"middle\">2</text><text x=\"285\" y=\"225\" text-anchor=\"middle\">3</text><text x=\"330\" y=\"225\" text-anchor=\"middle\">4</text><text x=\"375\" y=\"225\" text-anchor=\"middle\">5</text><text x=\"140\" y=\"304\" text-anchor=\"end\">-4</text><text x=\"140\" y=\"281\" text-anchor=\"end\">-3</text><text x=\"140\" y=\"258\" text-anchor=\"end\">-2</text><text x=\"140\" y=\"235\" text-anchor=\"end\">-1</text><text x=\"140\" y=\"189\" text-anchor=\"end\">1</text><text x=\"140\" y=\"166\" text-anchor=\"end\">2</text><text x=\"140\" y=\"143\" text-anchor=\"end\">3</text><text x=\"140\" y=\"120\" text-anchor=\"end\">4</text><text x=\"140\" y=\"97\" text-anchor=\"end\">5</text><text x=\"140\" y=\"74\" text-anchor=\"end\">6</text><text x=\"136\" y=\"224\">0</text><text x=\"400\" y=\"213\">x</text><text x=\"159\" y=\"55\">y</text><text x=\"60\" y=\"20\">实线：y=-x+2</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_207_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_207_q6",
+        "topicId": "cnm_207",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图中实线y=x-1、虚线y=-x+3在图窗外继续延伸。根据同一x处两线高低，写出x-1>-x+3的解集，并用x=3核对。能用两条线各自与x轴的交点直接代替两线交点吗？",
+        "answer": "两线交点(2,1)；x>2时实线高于虚线，解集x>2。x=3时2>0。不能用各自零点代替。",
+        "explanation": "定位两线交点横坐标2；比较同一x的函数值，取实线更高的一侧且不含2；用3核对并区分两线交点与各自零点。",
+        "rubric": [
+          "定位两线交点横坐标2",
+          "比较同一x的函数值，取实线更高的一侧且不含2",
+          "用3核对并区分两线交点与各自零点"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 350\" role=\"img\" aria-label=\"带单位刻度的直角坐标图，y=x-1；y=-x+3\"><g fill=\"none\" stroke=\"currentColor\"><path d=\"M60 70V300\" opacity=\"0.15\"/><path d=\"M105 70V300\" opacity=\"0.15\"/><path d=\"M150 70V300\" opacity=\"0.15\"/><path d=\"M195 70V300\" opacity=\"0.15\"/><path d=\"M240 70V300\" opacity=\"0.15\"/><path d=\"M285 70V300\" opacity=\"0.15\"/><path d=\"M330 70V300\" opacity=\"0.15\"/><path d=\"M375 70V300\" opacity=\"0.15\"/><path d=\"M60 300H375\" opacity=\"0.15\"/><path d=\"M60 277H375\" opacity=\"0.15\"/><path d=\"M60 254H375\" opacity=\"0.15\"/><path d=\"M60 231H375\" opacity=\"0.15\"/><path d=\"M60 208H375\" opacity=\"0.15\"/><path d=\"M60 185H375\" opacity=\"0.15\"/><path d=\"M60 162H375\" opacity=\"0.15\"/><path d=\"M60 139H375\" opacity=\"0.15\"/><path d=\"M60 116H375\" opacity=\"0.15\"/><path d=\"M60 93H375\" opacity=\"0.15\"/><path d=\"M60 70H375\" opacity=\"0.15\"/><path d=\"M45 208H395l-7 -4m7 4l-7 4M150 315V55l-4 7m4 -7l4 7\"/><path d=\"M60 277L375 116\" stroke-width=\"2.5\"/><path d=\"M60 93L375 254\" stroke-width=\"2.5\" stroke-dasharray=\"8 5\"/></g><g fill=\"currentColor\" font-size=\"13\"><text x=\"60\" y=\"225\" text-anchor=\"middle\">-2</text><text x=\"105\" y=\"225\" text-anchor=\"middle\">-1</text><text x=\"195\" y=\"225\" text-anchor=\"middle\">1</text><text x=\"240\" y=\"225\" text-anchor=\"middle\">2</text><text x=\"285\" y=\"225\" text-anchor=\"middle\">3</text><text x=\"330\" y=\"225\" text-anchor=\"middle\">4</text><text x=\"375\" y=\"225\" text-anchor=\"middle\">5</text><text x=\"140\" y=\"304\" text-anchor=\"end\">-4</text><text x=\"140\" y=\"281\" text-anchor=\"end\">-3</text><text x=\"140\" y=\"258\" text-anchor=\"end\">-2</text><text x=\"140\" y=\"235\" text-anchor=\"end\">-1</text><text x=\"140\" y=\"189\" text-anchor=\"end\">1</text><text x=\"140\" y=\"166\" text-anchor=\"end\">2</text><text x=\"140\" y=\"143\" text-anchor=\"end\">3</text><text x=\"140\" y=\"120\" text-anchor=\"end\">4</text><text x=\"140\" y=\"97\" text-anchor=\"end\">5</text><text x=\"140\" y=\"74\" text-anchor=\"end\">6</text><text x=\"136\" y=\"224\">0</text><text x=\"400\" y=\"213\">x</text><text x=\"159\" y=\"55\">y</text><text x=\"60\" y=\"20\">实线：y=x-1</text><text x=\"60\" y=\"40\">虚线：y=-x+3</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_208_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_208_q5",
+        "topicId": "cnm_208",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "先从图上读出实线y=x+1与虚线y=-x+3的交点，再写出对应方程组的解并代回两个方程。为什么只报横坐标不完整？",
+        "answer": "交点(1,2)，x=1、y=2；2=1+1且2=-1+3。方程组需要同时确定两个未知数。",
+        "explanation": "从图上读出横坐标1和纵坐标2；把两个坐标作为同一组解代回两式；说明仅有横坐标不能完整表示方程组的解。",
+        "rubric": [
+          "从图上读出横坐标1和纵坐标2",
+          "把两个坐标作为同一组解代回两式",
+          "说明仅有横坐标不能完整表示方程组的解"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 350\" role=\"img\" aria-label=\"带单位刻度的直角坐标图，y=x+1；y=-x+3\"><g fill=\"none\" stroke=\"currentColor\"><path d=\"M60 70V300\" opacity=\"0.15\"/><path d=\"M105 70V300\" opacity=\"0.15\"/><path d=\"M150 70V300\" opacity=\"0.15\"/><path d=\"M195 70V300\" opacity=\"0.15\"/><path d=\"M240 70V300\" opacity=\"0.15\"/><path d=\"M285 70V300\" opacity=\"0.15\"/><path d=\"M330 70V300\" opacity=\"0.15\"/><path d=\"M375 70V300\" opacity=\"0.15\"/><path d=\"M60 300H375\" opacity=\"0.15\"/><path d=\"M60 277H375\" opacity=\"0.15\"/><path d=\"M60 254H375\" opacity=\"0.15\"/><path d=\"M60 231H375\" opacity=\"0.15\"/><path d=\"M60 208H375\" opacity=\"0.15\"/><path d=\"M60 185H375\" opacity=\"0.15\"/><path d=\"M60 162H375\" opacity=\"0.15\"/><path d=\"M60 139H375\" opacity=\"0.15\"/><path d=\"M60 116H375\" opacity=\"0.15\"/><path d=\"M60 93H375\" opacity=\"0.15\"/><path d=\"M60 70H375\" opacity=\"0.15\"/><path d=\"M45 208H395l-7 -4m7 4l-7 4M150 315V55l-4 7m4 -7l4 7\"/><path d=\"M60 231L375 70\" stroke-width=\"2.5\"/><path d=\"M60 93L375 254\" stroke-width=\"2.5\" stroke-dasharray=\"8 5\"/></g><g fill=\"currentColor\" font-size=\"13\"><text x=\"60\" y=\"225\" text-anchor=\"middle\">-2</text><text x=\"105\" y=\"225\" text-anchor=\"middle\">-1</text><text x=\"195\" y=\"225\" text-anchor=\"middle\">1</text><text x=\"240\" y=\"225\" text-anchor=\"middle\">2</text><text x=\"285\" y=\"225\" text-anchor=\"middle\">3</text><text x=\"330\" y=\"225\" text-anchor=\"middle\">4</text><text x=\"375\" y=\"225\" text-anchor=\"middle\">5</text><text x=\"140\" y=\"304\" text-anchor=\"end\">-4</text><text x=\"140\" y=\"281\" text-anchor=\"end\">-3</text><text x=\"140\" y=\"258\" text-anchor=\"end\">-2</text><text x=\"140\" y=\"235\" text-anchor=\"end\">-1</text><text x=\"140\" y=\"189\" text-anchor=\"end\">1</text><text x=\"140\" y=\"166\" text-anchor=\"end\">2</text><text x=\"140\" y=\"143\" text-anchor=\"end\">3</text><text x=\"140\" y=\"120\" text-anchor=\"end\">4</text><text x=\"140\" y=\"97\" text-anchor=\"end\">5</text><text x=\"140\" y=\"74\" text-anchor=\"end\">6</text><text x=\"136\" y=\"224\">0</text><text x=\"400\" y=\"213\">x</text><text x=\"159\" y=\"55\">y</text><text x=\"60\" y=\"20\">实线：y=x+1</text><text x=\"60\" y=\"40\">虚线：y=-x+3</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_208_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_208_q6",
+        "topicId": "cnm_208",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图中实线y=x+1与虚线y=x-1平行且不重合，均在图窗外延伸。对应方程组有解吗？用图象和代数分别说明，不要只凭“图窗内没看见交点”下结论。",
+        "answer": "无解。两直线平行且不重合，没有共同点；联立得x+1=x-1，化为1=-1，矛盾。",
+        "explanation": "用平行不重合说明整个图象没有交点；联立得到不可能的等式；区分确实无交点和交点在图窗外两种情况。",
+        "rubric": [
+          "用平行不重合说明整个图象没有交点",
+          "联立得到不可能的等式",
+          "区分确实无交点和交点在图窗外两种情况"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 350\" role=\"img\" aria-label=\"带单位刻度的直角坐标图，y=x+1；y=x-1\"><g fill=\"none\" stroke=\"currentColor\"><path d=\"M60 70V300\" opacity=\"0.15\"/><path d=\"M105 70V300\" opacity=\"0.15\"/><path d=\"M150 70V300\" opacity=\"0.15\"/><path d=\"M195 70V300\" opacity=\"0.15\"/><path d=\"M240 70V300\" opacity=\"0.15\"/><path d=\"M285 70V300\" opacity=\"0.15\"/><path d=\"M330 70V300\" opacity=\"0.15\"/><path d=\"M375 70V300\" opacity=\"0.15\"/><path d=\"M60 300H375\" opacity=\"0.15\"/><path d=\"M60 277H375\" opacity=\"0.15\"/><path d=\"M60 254H375\" opacity=\"0.15\"/><path d=\"M60 231H375\" opacity=\"0.15\"/><path d=\"M60 208H375\" opacity=\"0.15\"/><path d=\"M60 185H375\" opacity=\"0.15\"/><path d=\"M60 162H375\" opacity=\"0.15\"/><path d=\"M60 139H375\" opacity=\"0.15\"/><path d=\"M60 116H375\" opacity=\"0.15\"/><path d=\"M60 93H375\" opacity=\"0.15\"/><path d=\"M60 70H375\" opacity=\"0.15\"/><path d=\"M45 208H395l-7 -4m7 4l-7 4M150 315V55l-4 7m4 -7l4 7\"/><path d=\"M60 231L375 70\" stroke-width=\"2.5\"/><path d=\"M60 277L375 116\" stroke-width=\"2.5\" stroke-dasharray=\"8 5\"/></g><g fill=\"currentColor\" font-size=\"13\"><text x=\"60\" y=\"225\" text-anchor=\"middle\">-2</text><text x=\"105\" y=\"225\" text-anchor=\"middle\">-1</text><text x=\"195\" y=\"225\" text-anchor=\"middle\">1</text><text x=\"240\" y=\"225\" text-anchor=\"middle\">2</text><text x=\"285\" y=\"225\" text-anchor=\"middle\">3</text><text x=\"330\" y=\"225\" text-anchor=\"middle\">4</text><text x=\"375\" y=\"225\" text-anchor=\"middle\">5</text><text x=\"140\" y=\"304\" text-anchor=\"end\">-4</text><text x=\"140\" y=\"281\" text-anchor=\"end\">-3</text><text x=\"140\" y=\"258\" text-anchor=\"end\">-2</text><text x=\"140\" y=\"235\" text-anchor=\"end\">-1</text><text x=\"140\" y=\"189\" text-anchor=\"end\">1</text><text x=\"140\" y=\"166\" text-anchor=\"end\">2</text><text x=\"140\" y=\"143\" text-anchor=\"end\">3</text><text x=\"140\" y=\"120\" text-anchor=\"end\">4</text><text x=\"140\" y=\"97\" text-anchor=\"end\">5</text><text x=\"140\" y=\"74\" text-anchor=\"end\">6</text><text x=\"136\" y=\"224\">0</text><text x=\"400\" y=\"213\">x</text><text x=\"159\" y=\"55\">y</text><text x=\"60\" y=\"20\">实线：y=x+1</text><text x=\"60\" y=\"40\">虚线：y=x-1</text></g></svg>"
+      }
+    }
+  ],
+  "dependencies": []
+}

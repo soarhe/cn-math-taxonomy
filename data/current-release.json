@@ -1,27 +1,27 @@
 {
-  "version": "algebra-2026-10.4",
+  "version": "algebra-2026-10.5",
   "engineVersion": "evidence-1.1",
   "date": "2026-10-22",
-  "baseCommit": "01968a744580572d2561cbb3e8a85dc440084d72",
-  "previousRelease": "algebra-2026-10.3",
+  "baseCommit": "04c37bf2eb069bdce7e28b9949fa149a825a5f99",
+  "previousRelease": "algebra-2026-10.4",
   "expertReviewed": false,
   "counts": {
     "topics": 1505,
-    "questions": 6250,
+    "questions": 6256,
     "dependencies": 2181,
     "algebraInventory": 142,
-    "targetedJuniorTopics": 38,
+    "targetedJuniorTopics": 41,
     "primaryBridgeTopics": 4,
-    "changedQuestionObjects": 14,
-    "netAddedQuestions": 14,
+    "changedQuestionObjects": 6,
+    "netAddedQuestions": 6,
     "contentRequirementsSourceChecked": 49,
-    "partiallyReviewedRequirements": 30,
-    "pendingCoverageRequirements": 19,
-    "batchTargetedJuniorTopics": 7
+    "partiallyReviewedRequirements": 32,
+    "pendingCoverageRequirements": 17,
+    "batchTargetedJuniorTopics": 3
   },
   "files": {
-    "topics.json": "c1002396ca2966476f8c0c6c50b2c299b2e1c76de49ad34c56d24d8e986ed7a7",
-    "questions.json": "8d6ad4a9dbf52a8e803c6e1fd0abcb1389639dea1c9ef182b30a9e28cb2533bd",
+    "topics.json": "74dd8c73affeeb462b9e3ab463ebdea210e943de080b9f1594d8f21d99720e05",
+    "questions.json": "bdffff0c2474303906ff4db2a34a8d954477d3463e3c104051290562d21a2591",
     "dependencies.json": "b268a431a821e75b749f6c776609f0c4bd8f3473848552d7f369ea08edeee5a9"
   },
   "authoring": {
@@ -29,9 +29,10 @@
     "authoring/algebra-2026-10/patch.json": "f35af092304d51dae65c7d8495a73112f95d90d1fe57eeb14472a21d8c962cd0",
     "authoring/algebra-d2-2026-10/patch.json": "3a9616334f5ad0ee6b342e3aefaac926486a21683a053f5ce10b8c377162069e",
     "authoring/algebra-d3-2026-10/patch.json": "ed404875cce778d0702b96e766b32f1222f845051a952acec5b31bd799658e27",
-    "authoring/algebra-d4-2026-10/patch.json": "491ab5b447a51056042cd792822b4577070e0f4ea15477bfa377af8b073316e5"
+    "authoring/algebra-d4-2026-10/patch.json": "491ab5b447a51056042cd792822b4577070e0f4ea15477bfa377af8b073316e5",
+    "authoring/algebra-d5-2026-10/patch.json": "21a04f0e5682ca490b5a9d3b25edd64e44c3ffe6bd337027c194e8665d62ee3e"
   },
-  "review": "reviews/math-junior/batch-d4/README.md",
-  "migration": "数学D1/D2/D3会话保留原样导出，不按D4题池与先修关系重放；引擎版本与英语会话兼容性不变。",
+  "review": "reviews/math-junior/batch-d5/README.md",
+  "migration": "数学D1–D4会话保留原样导出，不按D5题池重放；引擎和英语会话版本不变。",
   "countSemantics": "targetedJuniorTopics和primaryBridgeTopics为累计；changedQuestionObjects和netAddedQuestions为本批。"
 }

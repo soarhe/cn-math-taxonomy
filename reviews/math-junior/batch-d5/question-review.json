@@ -1,0 +1,80 @@
+[
+  {
+    "questionId": "cnm_206_q5",
+    "topicId": "cnm_206",
+    "action": "add",
+    "contentSha256": "231a0c75bf4175892e262e402d2f56d95bb84ae98e2b737093b00e5f6818ea4b",
+    "rubric": [
+      "从图上读出完整交点(2,0)",
+      "区分方程解2与交点纵坐标0",
+      "用x轴上y=0解释联系并代回验证"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_206_q6",
+    "topicId": "cnm_206",
+    "action": "add",
+    "contentSha256": "d67b570df7d14ee6e2a542c7914c428948ef49f77ccddfb619cda36c18f84eb4",
+    "rubric": [
+      "定位实线与水平虚线的交点",
+      "读出横坐标约2.5并由2x=5核对",
+      "解释目标纵坐标是1而非0；合理读图误差可接受"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_207_q5",
+    "topicId": "cnm_207",
+    "action": "add",
+    "contentSha256": "b0e827ef2e03c584ae73f8862ec3fb00ac7b9604241d06d1d2b6eaa4bfc87c3d",
+    "rubric": [
+      "读出x轴交点横坐标2",
+      "判断图象在x轴上方对应交点左侧",
+      "严格不等式排除2，非严格不等式包含2；不把图窗左边界当定义域"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_207_q6",
+    "topicId": "cnm_207",
+    "action": "add",
+    "contentSha256": "998fafb88811677c662c0c217d869ae54d25689884d96475b6d0d4c407905ae5",
+    "rubric": [
+      "定位两线交点横坐标2",
+      "比较同一x的函数值，取实线更高的一侧且不含2",
+      "用3核对并区分两线交点与各自零点"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_208_q5",
+    "topicId": "cnm_208",
+    "action": "add",
+    "contentSha256": "b456d617819b39bc6e1462a17750d36818ae2e467f25e0149522126ecdf4b89d",
+    "rubric": [
+      "从图上读出横坐标1和纵坐标2",
+      "把两个坐标作为同一组解代回两式",
+      "说明仅有横坐标不能完整表示方程组的解"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_208_q6",
+    "topicId": "cnm_208",
+    "action": "add",
+    "contentSha256": "2898be88b8ae8dbdb4cfc72503c74dd18679926ba526cca771f309b1593b0918",
+    "rubric": [
+      "用平行不重合说明整个图象没有交点",
+      "联立得到不可能的等式",
+      "区分确实无交点和交点在图窗外两种情况"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  }
+]

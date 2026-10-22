@@ -1,0 +1,56 @@
+[
+  {
+    "topicId": "cnm_206",
+    "name": "一次函数与一元一次方程",
+    "finding": "补实际图象读数；区分交点坐标、方程解和函数值。",
+    "changedQuestionIds": [
+      "cnm_206_q5",
+      "cnm_206_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_206_q5",
+      "cnm_206_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d5"
+  },
+  {
+    "topicId": "cnm_207",
+    "name": "一次函数与一元一次不等式",
+    "finding": "补带图的上下位置判断，不用解析式求解替代读图证据。",
+    "changedQuestionIds": [
+      "cnm_207_q5",
+      "cnm_207_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_207_q5",
+      "cnm_207_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d5"
+  },
+  {
+    "topicId": "cnm_208",
+    "name": "一次函数与二元一次方程组",
+    "finding": "补交点读图、双方程验解与平行无解情形。",
+    "changedQuestionIds": [
+      "cnm_208_q5",
+      "cnm_208_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_208_q5",
+      "cnm_208_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d5"
+  }
+]

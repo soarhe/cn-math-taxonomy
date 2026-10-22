@@ -46,7 +46,7 @@ class AlgebraD4BuildTests(unittest.TestCase):
   for row in load('reviews/math-junior/batch-d4/question-review.json'):
    self.assertEqual(row['contentSha256'],digest(qs[row['questionId']]))
    self.assertEqual(qs[row['questionId']]['type'],'self');self.assertGreaterEqual(len(qs[row['questionId']]['rubric']),3)
-  self.assertEqual(load('data/current-release.json')['counts']['questions'],6250)
+  self.assertEqual(load('reviews/math-junior/batch-d4/release.json')['counts']['questions'],6250)
   self.assertEqual(load('reviews/math-junior/batch-d3/release.json')['counts']['questions'],6236)
   app=(ROOT/'diagnose/app.js').read_text();self.assertIn('cnmDiagnose.session.algebra-2026-10.3.evidence-1.1',app)
   build(ROOT,True)
