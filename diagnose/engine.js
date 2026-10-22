@@ -130,7 +130,7 @@
 
   function isTestable(graph, id) {
     const t = graph.byId[id];
-    return !!(t && !t.external && graph.bank[id] && graph.bank[id].length);
+    return !!(t && !t.external && graph.bank[id] && graph.bank[id].some(function (q) { return q.curriculum_scope !== 'supplementary'; }));
   }
 
   function questionById(graph, qid) {
@@ -141,7 +141,7 @@
 
   /* ------------------------------------------------------------------ 会话 */
 
-  const ENGINE_VERSION = 'evidence-1.1';
+  const ENGINE_VERSION = 'evidence-1.2';
   const RESULTS = { correct: 1, wrong: 1, skip: 1, defer: 1 };
   const DEFAULT_LIMIT = 16;
   const SCREEN_LIMIT = 40;
@@ -586,7 +586,7 @@
     }
     if (!volumes) return null;
     const ids = graph.topics.filter(function (t) {
-      if (t.external || t.curriculum_scope === 'optional') return false;
+      if (t.external || t.curriculum_scope === 'optional' || t.curriculum_scope === 'supplementary') return false;
       if (subj !== 'all' && subjectOf(t) !== subj) return false;
       return volumes.indexOf(parseChapter(t.chapter).volume) >= 0;
     }).map(function (t) { return t.id; });

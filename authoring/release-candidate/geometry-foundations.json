@@ -1,0 +1,931 @@
+{
+  "batch": "release-candidate-geometry-foundations",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_050",
+      "beforeHash": "f2db2cce6afa9c619b9d28cfef45639ec7aa422a25246fdf88c4830b38806c2a",
+      "before": {
+        "id": "cnm_050",
+        "name": "立体图形与平面图形",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第六章 几何图形初步 6.1.1",
+        "type": "conceptual",
+        "description": "认识棱柱、圆柱、圆锥、球等立体图形和其由平面图形构成的特征，并辨别常见的平面图形。",
+        "mastery_criteria": [
+          "能说出常见立体图形的名称",
+          "能区分立体图形与平面图形"
+        ],
+        "diagnostic_question": {
+          "question": "圆柱的侧面展开后是什么平面图形？",
+          "answer": "长方形"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_050",
+        "name": "立体图形与平面图形",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第六章 几何图形初步 6.1.1",
+        "type": "conceptual",
+        "description": "认识棱柱、圆柱、圆锥、球等立体图形，区分平面图形与立体图形。立体图形的表面可能含平面或曲面，球面不是平面。",
+        "mastery_criteria": [
+          "能说出常见立体图形的名称",
+          "能区分立体图形与平面图形"
+        ],
+        "diagnostic_question": {
+          "question": "圆柱的侧面展开后是什么平面图形？",
+          "answer": "长方形"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_052",
+      "beforeHash": "922f4e0151eb120e84df204ce4af20719186fcab017d3df11a7dbbf7322a7914",
+      "before": {
+        "id": "cnm_052",
+        "name": "点、线、面、体",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第六章 几何图形初步 6.1.2",
+        "type": "conceptual",
+        "description": "理解点动成线、线动成面、面动成体，认识几何图形的组成。",
+        "mastery_criteria": [
+          "能说出点线面体的关系",
+          "能举出实例"
+        ],
+        "diagnostic_question": {
+          "question": "直角三角形绕一条直角边旋转一周得到什么几何体？",
+          "answer": "圆锥"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_052",
+        "name": "点、线、面、体",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第六章 几何图形初步 6.1.2",
+        "type": "conceptual",
+        "description": "用运动直观理解图形：点沿轨迹运动形成线；线段沿不与自身平行的方向平移可扫出面；平面图形沿不在该平面内的方向平移可扫出体。并非任意运动都会增加维数。",
+        "mastery_criteria": [
+          "能说出点线面体的关系",
+          "能举出实例"
+        ],
+        "diagnostic_question": {
+          "question": "直角三角形绕一条直角边旋转一周得到什么几何体？",
+          "answer": "圆锥"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_066",
+      "beforeHash": "6ae33462698ab8ee304671c5cc579316026beb914bb2a32b902dbb0b98ae1301",
+      "before": {
+        "id": "cnm_066",
+        "name": "同位角、内错角、同旁内角",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第七章 相交线与平行线 7.1.3",
+        "type": "conceptual",
+        "description": "两条直线被第三条直线所截形成八个角，能辨认同位角、内错角、同旁内角。",
+        "mastery_criteria": [
+          "能在“三线八角”图中辨认三类角",
+          "能说出各自的位置特征"
+        ],
+        "diagnostic_question": {
+          "question": "直线 a、b 被 c 所截，位于 a、b 之间且在 c 两侧的角叫什么角？",
+          "answer": "内错角"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.13",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_066",
+        "name": "同位角、内错角、同旁内角",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第七章 相交线与平行线 7.1.3",
+        "type": "conceptual",
+        "description": "在同一平面内，截线分别与两条不同直线相交于两个不同点，形成通常所说的三线八角；按位置辨认同位角、内错角、同旁内角，不要求两条被截线先平行。",
+        "mastery_criteria": [
+          "能在“三线八角”图中辨认三类角",
+          "能说出各自的位置特征"
+        ],
+        "diagnostic_question": {
+          "question": "直线 a、b 被 c 所截，位于 a、b 之间且在 c 两侧的角叫什么角？",
+          "answer": "内错角"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.13",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_067",
+      "beforeHash": "558fb91ec696e2dd0cef1ede6a8d1872848134806487adc069914f55c9a8a924",
+      "before": {
+        "id": "cnm_067",
+        "name": "平行线与平行公理",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第七章 相交线与平行线 7.2.1",
+        "type": "conceptual",
+        "description": "在同一平面内不相交的两条直线叫平行线；过直线外一点有且只有一条直线与已知直线平行；平行于同一直线的两直线平行。",
+        "mastery_criteria": [
+          "能说出平行公理及其推论",
+          "会用符号表示平行"
+        ],
+        "diagnostic_question": {
+          "question": "若 a∥b，b∥c，则 a 与 c 的位置关系？",
+          "answer": "a∥c"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.14",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.15",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.22",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_067",
+        "name": "平行线与平行公理",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第七章 相交线与平行线 7.2.1",
+        "type": "conceptual",
+        "description": "在同一平面内不相交的两条直线叫平行线；过直线外一点有且只有一条直线与已知直线平行；两条不同的直线若平行于同一直线，则它们互相平行。",
+        "mastery_criteria": [
+          "能说出平行公理及其推论",
+          "会用符号表示平行"
+        ],
+        "diagnostic_question": {
+          "question": "若 a∥b，b∥c，则 a 与 c 的位置关系？",
+          "answer": "a∥c"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.14",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.15",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.22",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_050_q1",
+      "beforeHash": "cdd55e2d42a21a67dce6863fc4ff7f3fccf775fb226ffcfda9230607c64f467a",
+      "before": {
+        "id": "cnm_050_q1",
+        "topicId": "cnm_050",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "圆柱的侧面展开后是什么平面图形？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "三角形",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><polygon points=\"110,22 26,150 194,150\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><polygon points=\"110,22 26,150 194,150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "B",
+            "text": "圆",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><circle cx=\"110\" cy=\"86\" r=\"64\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"none\"/><circle cx=\"110\" cy=\"86\" r=\"64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"86\" r=\"3\" fill=\"currentColor\"/></svg>"
+          },
+          {
+            "key": "C",
+            "text": "长方形",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><rect x=\"26\" y=\"42\" width=\"168\" height=\"86\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"26\" y=\"42\" width=\"168\" height=\"86\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "D",
+            "text": "扇形",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 184 261.9\"><path d=\"M 36 130 L 96 26.1 A 120 120 0 0 1 96 233.9 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><path d=\"M 36 130 L 96 26.1 A 120 120 0 0 1 96 233.9 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          }
+        ],
+        "explanation": "沿圆柱的高剪开侧面并展平，得到长方形，它的长是底面圆的周长，宽是圆柱的高。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 208 180\"><path d=\"M 56 144 A 58 16 0 0 0 172 144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"56\" y1=\"44\" x2=\"56\" y2=\"144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"172\" y1=\"44\" x2=\"172\" y2=\"144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 56 144 A 58 16 0 0 1 172 144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>",
+        "hideChoiceText": true
+      },
+      "after": {
+        "id": "cnm_050_q1",
+        "topicId": "cnm_050",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "沿圆柱的一条母线（侧面上连接两底面的高）剪开并展平侧面，得到什么平面图形？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "三角形",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><polygon points=\"110,22 26,150 194,150\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><polygon points=\"110,22 26,150 194,150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "B",
+            "text": "圆",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><circle cx=\"110\" cy=\"86\" r=\"64\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"none\"/><circle cx=\"110\" cy=\"86\" r=\"64\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"110\" cy=\"86\" r=\"3\" fill=\"currentColor\"/></svg>"
+          },
+          {
+            "key": "C",
+            "text": "长方形",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 170\"><rect x=\"26\" y=\"42\" width=\"168\" height=\"86\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"26\" y=\"42\" width=\"168\" height=\"86\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "D",
+            "text": "扇形",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 184 261.9\"><path d=\"M 36 130 L 96 26.1 A 120 120 0 0 1 96 233.9 Z\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><path d=\"M 36 130 L 96 26.1 A 120 120 0 0 1 96 233.9 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          }
+        ],
+        "explanation": "沿圆柱的高剪开侧面并展平，得到长方形，它的长是底面圆的周长，宽是圆柱的高。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 208 180\"><path d=\"M 56 144 A 58 16 0 0 1 172 144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"56\" y1=\"44\" x2=\"56\" y2=\"144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"172\" y1=\"44\" x2=\"172\" y2=\"144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 56 144 A 58 16 0 0 0 172 144\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>",
+        "hideChoiceText": true,
+        "fixed_from_source": "release-candidate: 明确侧面的剪开方式"
+      }
+    },
+    {
+      "id": "cnm_051_q1",
+      "beforeHash": "461119877cca8cad953d2d553e3975cecb91744def483dfb83717a20c126ec0c",
+      "before": {
+        "id": "cnm_051_q1",
+        "topicId": "cnm_051",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "正方体展开图有几种常见形状？每种展开图共有几个正方形？（依次作答，用逗号隔开）",
+        "answer": "11，6",
+        "explanation": "正方体的展开图共有 11 种（1-4-1 型 6 种、2-3-1 型 3 种、2-2-2 型 1 种、3-3 型 1 种），每种都由 6 个相同的正方形组成。",
+        "verify": "[6+3+1+1, 1*6]",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 216 170\"><rect x=\"62\" y=\"16\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"62\" y=\"16\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"16\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"62\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"108\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"108\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"154\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"154\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"108\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"62\" y=\"108\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+      },
+      "after": {
+        "id": "cnm_051_q1",
+        "topicId": "cnm_051",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "正方体展开图有几种常见形状？每种展开图共有几个正方形？（依次作答，用逗号隔开）",
+        "answer": "11，6",
+        "explanation": "正方体的展开图共有 11 种（1-4-1 型 6 种、2-3-1 型 3 种、2-2-2 型 1 种、3-3 型 1 种），每种都由 6 个相同的正方形组成。 背出展开图种数不作为空间观察的核心诊断，核心需辨认和实际画图。",
+        "verify": "[6+3+1+1, 1*6]",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 216 170\"><rect x=\"62\" y=\"16\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"62\" y=\"16\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"16\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"16\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"62\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"108\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"108\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"154\" y=\"62\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"154\" y=\"62\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"62\" y=\"108\" width=\"46\" height=\"46\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><rect x=\"62\" y=\"108\" width=\"46\" height=\"46\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_051_q3",
+      "beforeHash": "6a36179c16e0030e80d93f9e5a1308eb08841e60bbe3144b1794a0f3d1fde0fc",
+      "before": {
+        "id": "cnm_051_q3",
+        "topicId": "cnm_051",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "用小立方块搭几何体：底层是 2 行 2 列共 4 个小立方块，第二层只在其中一个角上放 1 个小立方块。从上面看，能看到几个小正方形？",
+        "answer": "4",
+        "explanation": "从上面看，第二层的小立方块被遮在底层的正上方，看到的就是底层的 2×2 个小正方形，共 4 个。",
+        "verify": "2*2",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 127.7 108.8\"><polygon points=\"31.4,80 63.4,80 63.4,48 31.4,48\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"31.4,48 63.4,48 78.7,35.2 46.7,35.2\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"63.4,80 78.7,67.2 78.7,35.2 63.4,48\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"31.4\" y1=\"80\" x2=\"46.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"46.7\" y1=\"67.2\" x2=\"78.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"46.7\" y1=\"67.2\" x2=\"46.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"80\" x2=\"63.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"80\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"48\" x2=\"31.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"31.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"80\" x2=\"78.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"78.7\" y1=\"67.2\" x2=\"78.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"78.7\" y1=\"35.2\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"46.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"46.7\" y1=\"35.2\" x2=\"78.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"64.4,80 96.4,80 96.4,48 64.4,48\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"64.4,48 96.4,48 111.7,35.2 79.7,35.2\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"96.4,80 111.7,67.2 111.7,35.2 96.4,48\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"64.4\" y1=\"80\" x2=\"79.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"79.7\" y1=\"67.2\" x2=\"111.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"79.7\" y1=\"67.2\" x2=\"79.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"80\" x2=\"96.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"80\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"48\" x2=\"64.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"48\" x2=\"64.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"80\" x2=\"111.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"111.7\" y1=\"67.2\" x2=\"111.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"111.7\" y1=\"35.2\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"48\" x2=\"79.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"79.7\" y1=\"35.2\" x2=\"111.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"16,92.8 48,92.8 48,60.8 16,60.8\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"16,60.8 48,60.8 63.4,48 31.4,48\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"48,92.8 63.4,80 63.4,48 48,60.8\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"16\" y1=\"92.8\" x2=\"48\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"92.8\" x2=\"48\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"60.8\" x2=\"16\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"60.8\" x2=\"16\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"92.8\" x2=\"63.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"80\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"48\" x2=\"48\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"60.8\" x2=\"31.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"49,92.8 81,92.8 81,60.8 49,60.8\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"49,60.8 81,60.8 96.4,48 64.4,48\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"81,92.8 96.4,80 96.4,48 81,60.8\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"49\" y1=\"92.8\" x2=\"81\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"92.8\" x2=\"81\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"60.8\" x2=\"49\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"49\" y1=\"60.8\" x2=\"49\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"92.8\" x2=\"96.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"80\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"48\" x2=\"81\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"49\" y1=\"60.8\" x2=\"64.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"48\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"16,60.8 48,60.8 48,28.8 16,28.8\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"16,28.8 48,28.8 63.4,16 31.4,16\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"48,60.8 63.4,48 63.4,16 48,28.8\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"16\" y1=\"60.8\" x2=\"31.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"31.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"60.8\" x2=\"48\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"60.8\" x2=\"48\" y2=\"28.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"28.8\" x2=\"16\" y2=\"28.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"28.8\" x2=\"16\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"60.8\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"48\" x2=\"63.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"16\" x2=\"48\" y2=\"28.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"28.8\" x2=\"31.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"16\" x2=\"63.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+      },
+      "after": {
+        "id": "cnm_051_q3",
+        "topicId": "cnm_051",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "用小立方块搭几何体：底层是 2 行 2 列共 4 个小立方块，第二层只在其中一个角上放 1 个小立方块。从上面看，能看到几个小正方形？",
+        "answer": "4",
+        "explanation": "从上面看，上层小立方块遮住其正下方的小块，但二者在同一投影位置。四个底层位置都被占据，因此俯视图为2×2四个正方形。",
+        "verify": "2*2",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 127.7 108.8\"><polygon points=\"31.4,80 63.4,80 63.4,48 31.4,48\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"31.4,48 63.4,48 78.7,35.2 46.7,35.2\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"63.4,80 78.7,67.2 78.7,35.2 63.4,48\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"31.4\" y1=\"80\" x2=\"46.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"46.7\" y1=\"67.2\" x2=\"78.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"46.7\" y1=\"67.2\" x2=\"46.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"80\" x2=\"63.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"80\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"48\" x2=\"31.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"31.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"80\" x2=\"78.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"78.7\" y1=\"67.2\" x2=\"78.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"78.7\" y1=\"35.2\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"46.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"46.7\" y1=\"35.2\" x2=\"78.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"64.4,80 96.4,80 96.4,48 64.4,48\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"64.4,48 96.4,48 111.7,35.2 79.7,35.2\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"96.4,80 111.7,67.2 111.7,35.2 96.4,48\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"64.4\" y1=\"80\" x2=\"79.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"79.7\" y1=\"67.2\" x2=\"111.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"79.7\" y1=\"67.2\" x2=\"79.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"80\" x2=\"96.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"80\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"48\" x2=\"64.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"48\" x2=\"64.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"80\" x2=\"111.7\" y2=\"67.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"111.7\" y1=\"67.2\" x2=\"111.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"111.7\" y1=\"35.2\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"48\" x2=\"79.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"79.7\" y1=\"35.2\" x2=\"111.7\" y2=\"35.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"16,92.8 48,92.8 48,60.8 16,60.8\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"16,60.8 48,60.8 63.4,48 31.4,48\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"48,92.8 63.4,80 63.4,48 48,60.8\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"16\" y1=\"92.8\" x2=\"48\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"92.8\" x2=\"48\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"60.8\" x2=\"16\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"60.8\" x2=\"16\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"92.8\" x2=\"63.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"80\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"48\" x2=\"48\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"60.8\" x2=\"31.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"49,92.8 81,92.8 81,60.8 49,60.8\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"49,60.8 81,60.8 96.4,48 64.4,48\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"81,92.8 96.4,80 96.4,48 81,60.8\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"49\" y1=\"92.8\" x2=\"81\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"92.8\" x2=\"81\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"60.8\" x2=\"49\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"49\" y1=\"60.8\" x2=\"49\" y2=\"92.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"81\" y1=\"92.8\" x2=\"96.4\" y2=\"80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"80\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"48\" x2=\"81\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"49\" y1=\"60.8\" x2=\"64.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"64.4\" y1=\"48\" x2=\"96.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"16,60.8 48,60.8 48,28.8 16,28.8\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"16,28.8 48,28.8 63.4,16 31.4,16\" fill=\"currentColor\" fill-opacity=\"0.22\" stroke=\"none\"/><polygon points=\"48,60.8 63.4,48 63.4,16 48,28.8\" fill=\"currentColor\" fill-opacity=\"0.16\" stroke=\"none\"/><line x1=\"16\" y1=\"60.8\" x2=\"31.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"48\" x2=\"31.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"60.8\" x2=\"48\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"60.8\" x2=\"48\" y2=\"28.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"28.8\" x2=\"16\" y2=\"28.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"28.8\" x2=\"16\" y2=\"60.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"60.8\" x2=\"63.4\" y2=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"48\" x2=\"63.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"63.4\" y1=\"16\" x2=\"48\" y2=\"28.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"28.8\" x2=\"31.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"31.4\" y1=\"16\" x2=\"63.4\" y2=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+      }
+    },
+    {
+      "id": "cnm_056_q4",
+      "beforeHash": "a7b9d0e7c597fd16dc916e8f61bfc116095bd575aef74a237a086cf9563dd42b",
+      "before": {
+        "id": "cnm_056_q4",
+        "topicId": "cnm_056",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "从点 O 引出 4 条射线 OA、OB、OC、OD，它们依次排列，且 ∠AOD 小于平角，则图中小于平角的角共有几个？",
+        "answer": "6",
+        "explanation": "每两条射线构成一个角，共 4×3÷2=6 个：∠AOB、∠AOC、∠AOD、∠BOC、∠BOD、∠COD。",
+        "verify": "comb(4,2)",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 307 234\"><line x1=\"168\" y1=\"196\" x2=\"72.6\" y2=\"145.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"55\" y=\"140.9\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">A</text><line x1=\"168\" y1=\"196\" x2=\"124.1\" y2=\"97.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"115.9\" y=\"84.1\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">B</text><line x1=\"168\" y1=\"196\" x2=\"204.9\" y2=\"94.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"211.8\" y=\"80.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">C</text><line x1=\"168\" y1=\"196\" x2=\"265.1\" y2=\"148.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"144.9\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">D</text><circle cx=\"168\" cy=\"196\" r=\"3.2\" fill=\"currentColor\"/><text x=\"170\" y=\"218\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"start\">O</text></svg>"
+      },
+      "after": {
+        "id": "cnm_056_q4",
+        "topicId": "cnm_056",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "从点O引出四条不同射线OA、OB、OC、OD，OB、OC依次位于小于180°的∠AOD内部。任意两条射线组成的小于平角的角共有几个？",
+        "answer": "6",
+        "explanation": "每两条射线构成一个角，共 4×3÷2=6 个：∠AOB、∠AOC、∠AOD、∠BOC、∠BOD、∠COD。",
+        "verify": "comb(4,2)",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 307 234\"><line x1=\"168\" y1=\"196\" x2=\"72.6\" y2=\"145.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"55\" y=\"140.9\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">A</text><line x1=\"168\" y1=\"196\" x2=\"124.1\" y2=\"97.3\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"115.9\" y=\"84.1\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">B</text><line x1=\"168\" y1=\"196\" x2=\"204.9\" y2=\"94.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"211.8\" y=\"80.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">C</text><line x1=\"168\" y1=\"196\" x2=\"265.1\" y2=\"148.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"283\" y=\"144.9\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">D</text><circle cx=\"168\" cy=\"196\" r=\"3.2\" fill=\"currentColor\"/><text x=\"170\" y=\"218\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"start\">O</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_070_q4",
+      "beforeHash": "1d03c820a62614772c76a803216c86f18bc7814fd031f3e05b3d94d41593e47c",
+      "before": {
+        "id": "cnm_070_q4",
+        "topicId": "cnm_070",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "AB∥CD，直线 EF 交 AB 于点 E，交 CD 于点 F，点 A、D 在直线 EF 的同侧，EG 平分 ∠AEF，FG 平分 ∠EFD，EG、FG 相交于点 G，求 ∠G 的度数。",
+        "answer": "90",
+        "explanation": "AB∥CD，∠AEF+∠EFD=180°，两条角平分线使 ∠GEF+∠GFE=90°，所以 ∠G=180°-90°=90°。",
+        "verify": "180-180//2"
+      },
+      "after": {
+        "id": "cnm_070_q4",
+        "topicId": "cnm_070",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "AB∥CD，直线 EF 交 AB 于点 E，交 CD 于点 F，点 A、D 在直线 EF 的同侧，EG 平分 ∠AEF，FG 平分 ∠EFD，EG、FG 相交于点 G，求 ∠G 的度数。",
+        "answer": "90",
+        "explanation": "AB∥CD，∠AEF+∠EFD=180°，两条角平分线使 ∠GEF+∠GFE=90°，所以 ∠G=180°-90°=90°。 此题调用后续三角形内角和，作为补充综合题而非本阶段前置门槛。",
+        "verify": "180-180//2",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_070_q5",
+      "beforeHash": "31d44bdcb43963c2117d169e809d3519f77a0a796e56af455de6f5ccff16f97a",
+      "before": {
+        "id": "cnm_070_q5",
+        "topicId": "cnm_070",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列推理中，用到“平行线的判定”的是",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "因为 AB∥CD，所以 ∠1=∠2"
+          },
+          {
+            "key": "B",
+            "text": "因为 AB∥CD，所以 ∠1+∠3=180°"
+          },
+          {
+            "key": "C",
+            "text": "因为 ∠1=∠2，所以 AB∥CD"
+          },
+          {
+            "key": "D",
+            "text": "因为 AB∥CD，所以 ∠3=∠4"
+          }
+        ],
+        "explanation": "由角的关系得到两直线平行，是平行线的判定；其余三项由平行得到角的关系，是平行线的性质。"
+      },
+      "after": {
+        "id": "cnm_070_q5",
+        "topicId": "cnm_070",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "已知∠1、∠2是直线AB、CD被同一截线所截形成的一对同位角，∠3、∠4为图中的其他角。下列语句中，哪一项是用平行线判定、由角的条件推出平行？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "因为 AB∥CD，所以 ∠1=∠2"
+          },
+          {
+            "key": "B",
+            "text": "因为 AB∥CD，所以 ∠1+∠3=180°"
+          },
+          {
+            "key": "C",
+            "text": "因为 ∠1=∠2，所以 AB∥CD"
+          },
+          {
+            "key": "D",
+            "text": "因为 AB∥CD，所以 ∠3=∠4"
+          }
+        ],
+        "explanation": "C由一对同位角相等推出AB∥CD，使用判定。其余语句方向是从平行推角关系；没有补充具体角位置时，不能保证这些语句的角度结论成立。"
+      }
+    },
+    {
+      "id": "cnm_051_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_051_q6",
+        "topicId": "cnm_051",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用5个相同小立方块搭模型：底层为2行2列；上层放在后排左列。规定从前向后为行，从左向右为列。实际搭建或画立体草图，再画正面、左面、上面看到的图形。",
+        "answer": "正面看：左列高2、右列高1；左面看：前排高1、后排高2（须标清前后方向）；上面看：2×2四格。可保留可见小正方形分界。",
+        "explanation": "正面看：左列高2、右列高1；左面看：前排高1、后排高2（须标清前后方向）；上面看：2×2四格。可保留可见小正方形分界。",
+        "rubric": [
+          "作品包含搭建记录或清晰立体草图",
+          "正面两列高度2、1",
+          "左视按前后对应1、2，接受镜像布局但须标明方向",
+          "俯视为2×2，不因上层多一块而多一格"
+        ]
+      }
+    },
+    {
+      "id": "cnm_052_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_052_q6",
+        "topicId": "cnm_052",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "各举一个线段运动扫出平面区域、平面图形运动扫出立体的例子，再说明线段沿自身所在直线平移为何不能扫出二维区域。",
+        "answer": "例如线段垂直于自身平移扫出矩形，矩形垂直其平面平移扫出长方体；沿自身直线平移的线段始终在同一直线上，不能扫出二维区域。",
+        "explanation": "例如线段垂直于自身平移扫出矩形，矩形垂直其平面平移扫出长方体；沿自身直线平移的线段始终在同一直线上，不能扫出二维区域。",
+        "rubric": [
+          "例子说明对象与运动方向",
+          "面动成体例子中运动离开原平面",
+          "指出沿自身直线运动仍在线上"
+        ]
+      }
+    },
+    {
+      "id": "cnm_053_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_053_q6",
+        "topicId": "cnm_053",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上标出两个不同的点A、B，分别画直线AB、射线AB、射线BA、线段AB。标出端点，说明哪些图形相同、哪些不同。",
+        "answer": "直线AB向两端延伸；射线AB以A为端点经B延伸，射线BA以B为端点经A延伸，二者不同；线段AB仅限两端点之间。直线AB与BA相同，线段AB与BA也相同。",
+        "explanation": "直线AB向两端延伸；射线AB以A为端点经B延伸，射线BA以B为端点经A延伸，二者不同；线段AB仅限两端点之间。直线AB与BA相同，线段AB与BA也相同。",
+        "rubric": [
+          "实际画出四图并用箭头或文字表示延伸",
+          "射线端点方向正确",
+          "区分线段端点与直线无端点"
+        ]
+      }
+    },
+    {
+      "id": "cnm_055_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_055_q6",
+        "topicId": "cnm_055",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用尺画长5 cm的线段AB和长3 cm的线段CD，记录测量或叠合比较过程；在线段AB上标中点M并核验两段长度。",
+        "answer": "叠合时对齐起点且方向相同，较短线段终点在较长线段内部；AB>CD。AM=MB=2.5 cm。实际画图和测量可有工具允许的小误差，应记录。",
+        "explanation": "叠合时对齐起点且方向相同，较短线段终点在较长线段内部；AB>CD。AM=MB=2.5 cm。实际画图和测量可有工具允许的小误差，应记录。",
+        "rubric": [
+          "交付两条带单位线段",
+          "说明起点及方向对齐的比较过程",
+          "标出中点并分别测量2.5 cm",
+          "区分测量误差与数学等长条件"
+        ]
+      }
+    },
+    {
+      "id": "cnm_060_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_060_q6",
+        "topicId": "cnm_060",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "已知∠1+∠2=180°，∠3+∠4=180°且∠2=∠4。写出证明∠1=∠3的连续推理，标明使用的条件。",
+        "answer": "∠1=180°−∠2，∠3=180°−∠4；由∠2=∠4，等量代换得∠1=∠3，即等角的补角相等。",
+        "explanation": "∠1=180°−∠2，∠3=180°−∠4；由∠2=∠4，等量代换得∠1=∠3，即等角的补角相等。",
+        "rubric": [
+          "分别写出两个补角表达式",
+          "实际使用∠2=∠4",
+          "得到等角补角相等，而非仅背结论"
+        ]
+      }
+    },
+    {
+      "id": "cnm_062_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_062_q6",
+        "topicId": "cnm_062",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图中两直线AB、CD交于O。列出∠AOC的两个邻补角，指出每对的公共边与另两边的关系；若∠AOC=40°，求两邻补角。",
+        "answer": "邻补角为∠COB和∠AOD；前者公共边OC，OA与OB反向；后者公共边OA，OC与OD反向。两角均为140°。",
+        "explanation": "邻补角为∠COB和∠AOD；前者公共边OC，OA与OB反向；后者公共边OA，OC与OD反向。两角均为140°。",
+        "rubric": [
+          "从图中准确命名两个邻补角",
+          "指出公共边及反向射线",
+          "用180°−40°计算"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"直线AB与CD相交于O，A左B右，C左上D右下\"><path d=\"M35 110H365 M80 30L320 190\" stroke=\"currentColor\" fill=\"none\"/><g fill=\"currentColor\"><text x=\"20\" y=\"105\">A</text><text x=\"370\" y=\"105\">B</text><text x=\"65\" y=\"25\">C</text><text x=\"325\" y=\"205\">D</text><text x=\"195\" y=\"135\">O</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_063_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_063_q6",
+        "topicId": "cnm_063",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "按图写出∠AOC=∠BOD的证明。请明确指出它们共同与哪个角互补，不能只写“对顶角相等”。",
+        "answer": "∠AOC+∠COB=180°，∠BOD+∠COB=180°；因此二者都是∠COB的补角，故∠AOC=∠BOD。",
+        "explanation": "∠AOC+∠COB=180°，∠BOD+∠COB=180°；因此二者都是∠COB的补角，故∠AOC=∠BOD。",
+        "rubric": [
+          "正确选共同邻补角∠COB（或等价选∠AOD）",
+          "写两个和为180°的关系",
+          "用同角补角相等得出结论"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"直线AB与CD相交于O，A左B右，C左上D右下\"><path d=\"M35 110H365 M80 30L320 190\" stroke=\"currentColor\" fill=\"none\"/><g fill=\"currentColor\"><text x=\"20\" y=\"105\">A</text><text x=\"370\" y=\"105\">B</text><text x=\"65\" y=\"25\">C</text><text x=\"325\" y=\"205\">D</text><text x=\"195\" y=\"135\">O</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_064_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_064_q6",
+        "topicId": "cnm_064",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上画直线l及线外一点P，用直尺和三角尺过P作l的垂线，标垂足H。再在线上取一点Q作垂线，记录工具放置和检查过程。",
+        "answer": "一条直角边贴l，平移使另一条直角边过P，沿该边画线并标H；线上点Q则使直角顶点在Q、一边贴l，沿另一边画线。分别核查过指定点与直角。",
+        "explanation": "一条直角边贴l，平移使另一条直角边过P，沿该边画线并标H；线上点Q则使直角顶点在Q、一边贴l，沿另一边画线。分别核查过指定点与直角。",
+        "rubric": [
+          "实际完成线外和线上两种图",
+          "工具贴合、平移或定位步骤合理",
+          "标垂足和直角，确认指定点在所作线上"
+        ]
+      }
+    },
+    {
+      "id": "cnm_065_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_065_q6",
+        "topicId": "cnm_065",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画直线l和线外点P，作垂足H。用尺量PH，再在线上取不同于H的A、B，量PA、PB。提交图、三条测量记录和关于点到直线距离的结论。",
+        "answer": "距离是垂线段PH的长度；PA、PB均大于PH。实际数值随自画图而变，需带单位；若测量结果与性质不符，应检查垂直、取点和尺的读数。",
+        "explanation": "距离是垂线段PH的长度；PA、PB均大于PH。实际数值随自画图而变，需带单位；若测量结果与性质不符，应检查垂直、取点和尺的读数。",
+        "rubric": [
+          "先作垂足而非任取线上点",
+          "记录三条实际长度及单位",
+          "距离指长度，不是把任意最短的样本连线当垂线",
+          "说明精度误差不能推翻基本性质"
+        ]
+      }
+    },
+    {
+      "id": "cnm_066_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_066_q6",
+        "topicId": "cnm_066",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图中a、b被c截于两个不同点。列出与∠1同位的角、与∠3内错的角，以及与∠4同旁内的角；是否只有a∥b时这些位置名称才成立？",
+        "answer": "分别为∠5、∠5、∠5。名称由位置确定，无需a∥b；平行条件影响角度关系。",
+        "explanation": "分别为∠5、∠5、∠5。名称由位置确定，无需a∥b；平行条件影响角度关系。",
+        "rubric": [
+          "三个位置关系逐一正确辨认",
+          "说明内外位置与截线同侧/异侧",
+          "区分位置名称与角度相等/互补性质"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"两条被截直线a、b和截线c，交点E在上F在下；上交点四角从右上逆时针标1、2、3、4，下交点对应标5、6、7、8\"><path d=\"M30 75H390 M30 195H390 M120 245L290 15\" stroke=\"currentColor\" fill=\"none\"/><g fill=\"currentColor\" font-size=\"15\"><text x=\"395\" y=\"78\">a</text><text x=\"395\" y=\"198\">b</text><text x=\"294\" y=\"20\">c</text><text x=\"265\" y=\"60\">1</text><text x=\"220\" y=\"60\">2</text><text x=\"205\" y=\"98\">3</text><text x=\"245\" y=\"98\">4</text><text x=\"180\" y=\"180\">5</text><text x=\"130\" y=\"180\">6</text><text x=\"115\" y=\"220\">7</text><text x=\"155\" y=\"220\">8</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_068_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_068_q6",
+        "topicId": "cnm_068",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图中给定∠3=∠5，写出证明a∥b的步骤。再解释仅给∠1=∠3能否据此判定a∥b。",
+        "answer": "∠3与∠5是内错角，内错角相等，所以a∥b。∠1与∠3是在上交点的一对对顶角，本来相等，不能据此判断另一条直线b平行。",
+        "explanation": "∠3与∠5是内错角，内错角相等，所以a∥b。∠1与∠3是在上交点的一对对顶角，本来相等，不能据此判断另一条直线b平行。",
+        "rubric": [
+          "先识别位置再用内错角判定",
+          "结论a∥b有完整依据",
+          "指出对顶角条件不涉及b，不能充分判平行"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"两条被截直线a、b和截线c，交点E在上F在下；上交点四角从右上逆时针标1、2、3、4，下交点对应标5、6、7、8\"><path d=\"M30 75H390 M30 195H390 M120 245L290 15\" stroke=\"currentColor\" fill=\"none\"/><g fill=\"currentColor\" font-size=\"15\"><text x=\"395\" y=\"78\">a</text><text x=\"395\" y=\"198\">b</text><text x=\"294\" y=\"20\">c</text><text x=\"265\" y=\"60\">1</text><text x=\"220\" y=\"60\">2</text><text x=\"205\" y=\"98\">3</text><text x=\"245\" y=\"98\">4</text><text x=\"180\" y=\"180\">5</text><text x=\"130\" y=\"180\">6</text><text x=\"115\" y=\"220\">7</text><text x=\"155\" y=\"220\">8</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_070_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_070_q6",
+        "topicId": "cnm_070",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上画两条水平平行线，B在上、D在下，E在两线之间且在B、D左侧。射线BA、DC均向左，∠ABE=30°、∠CDE=40°。过E画一条辅助平行线，求∠BED并写出依据。",
+        "answer": "过E作向右的射线EF平行于两线，∠BEF=30°、∠FED=40°（内错角相等），故∠BED=70°。",
+        "explanation": "过E作向右的射线EF平行于两线，∠BEF=30°、∠FED=40°（内错角相等），故∠BED=70°。",
+        "rubric": [
+          "实际画原图及过E的辅助线",
+          "标明EF方向且位于∠BED内部",
+          "两次应用平行线性质并相加",
+          "明确已知平行用性质而非用判定"
+        ]
+      }
+    },
+    {
+      "id": "cnm_061_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_061_q6",
+        "topicId": "cnm_061",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设计一个课堂用的简化田径场：跑道中心线由两段90 m直线和两个半圆组成，总长400 m，取π=22/7。按1:1000画带尺寸草图，求半圆直径并标出场地外包矩形尺寸；说明此模型与实际比赛场地设计还差哪些条件。",
+        "answer": "弯道合计220 m=πd，d=70 m。外包矩形长90+70=160 m、宽70 m；图上分别16 cm、7 cm，直段9 cm、半圆半径3.5 cm。还需跑道宽度、测量线位置、安全缓冲和场地约束等；本任务只是中心线模型。",
+        "explanation": "弯道合计220 m=πd，d=70 m。外包矩形长90+70=160 m、宽70 m；图上分别16 cm、7 cm，直段9 cm、半圆半径3.5 cm。还需跑道宽度、测量线位置、安全缓冲和场地约束等；本任务只是中心线模型。",
+        "rubric": [
+          "实际交付两直段与两半圆相切的比例草图",
+          "计算直径70 m并标尺寸",
+          "比例与外包16 cm×7 cm对应",
+          "检查总长400 m并区分课堂模型与实际设计"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_050",
+      "beforeHash": "8313ea199a82f2ab45bf12c498f6f5d95ee4363bc285aa02a8f164a99bf171c3",
+      "before": [
+        {
+          "topicId": "cnm_050",
+          "prerequisiteId": "cnm_p207",
+          "strength": "hard",
+          "reason": "学习「立体图形与平面图形」需要先会小学的「圆柱的体积」。小学已认识基本立体图形。"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_050",
+          "prerequisiteId": "cnm_p207",
+          "strength": "soft",
+          "reason": "圆柱体积计算可作拓展联系；识别立体图形只需已有形状经验，不以体积公式为门槛。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_056",
+      "beforeHash": "7fc86a92518de1c2b8e5fb725556c5474617932792000889f58a816ac500bea1",
+      "before": [
+        {
+          "topicId": "cnm_056",
+          "prerequisiteId": "cnm_p100",
+          "strength": "hard",
+          "reason": "学习「角的概念与表示」需要先会小学的「角的度量」。初中对角的概念与表示是在小学已认识角、会度量角的基础上深化的。"
+        },
+        {
+          "topicId": "cnm_056",
+          "prerequisiteId": "cnm_053",
+          "strength": "hard",
+          "reason": "角由有公共端点的两条射线组成，需要先理解射线的概念"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_056",
+          "prerequisiteId": "cnm_p100",
+          "strength": "soft",
+          "reason": "角的度量经验有助认识角；角的命名与两射线定义不以熟练量角为必要门槛。"
+        },
+        {
+          "topicId": "cnm_056",
+          "prerequisiteId": "cnm_053",
+          "strength": "hard",
+          "reason": "角由有公共端点的两条射线组成，需要先理解射线的概念"
+        }
+      ]
+    },
+    {
+      "id": "cnm_067",
+      "beforeHash": "6066970579bb3234ab3f1258d9db131ec59635fd0a2e60307ef0707b4f173ff2",
+      "before": [
+        {
+          "topicId": "cnm_067",
+          "prerequisiteId": "cnm_p104",
+          "strength": "hard",
+          "reason": "学习「平行线与平行公理」需要先会小学的「平行」。初中的平行线概念和平行公理是对小学已认识平行关系的严格化表述。"
+        },
+        {
+          "topicId": "cnm_067",
+          "prerequisiteId": "cnm_054",
+          "strength": "hard",
+          "reason": "平行公理与“确定一条直线”类似"
+        },
+        {
+          "topicId": "cnm_067",
+          "prerequisiteId": "cnm_064",
+          "strength": "soft",
+          "reason": "可由同垂直于一线的两直线平行理解"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_067",
+          "prerequisiteId": "cnm_p104",
+          "strength": "hard",
+          "reason": "学习「平行线与平行公理」需要先会小学的「平行」。初中的平行线概念和平行公理是对小学已认识平行关系的严格化表述。"
+        },
+        {
+          "topicId": "cnm_067",
+          "prerequisiteId": "cnm_054",
+          "strength": "soft",
+          "reason": "两点确定直线可以类比理解唯一性，但不是平行公理的推导前提。"
+        },
+        {
+          "topicId": "cnm_067",
+          "prerequisiteId": "cnm_064",
+          "strength": "soft",
+          "reason": "可由同垂直于一线的两直线平行理解"
+        }
+      ]
+    },
+    {
+      "id": "cnm_053",
+      "beforeHash": "1af29acbbdd55685d80e49d76e19466a87990b0afe9c4ae24716a9fa4f32fce1",
+      "before": [
+        {
+          "topicId": "cnm_053",
+          "prerequisiteId": "cnm_052",
+          "strength": "hard",
+          "reason": "直线、射线、线段可以看作点运动形成的线，需要先认识点、线、面、体"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_053",
+          "prerequisiteId": "cnm_052",
+          "strength": "soft",
+          "reason": "点线面体的运动直观有助理解，但区分直线、射线、线段不要求先掌握全部空间图形抽象。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_058",
+      "beforeHash": "48e90332815a719f03e42bc498f22254e58588565c3012ab1f9af22131bbaf18",
+      "before": [
+        {
+          "topicId": "cnm_058",
+          "prerequisiteId": "cnm_057",
+          "strength": "hard",
+          "reason": "比较与计算角的大小常涉及度、分、秒的加减，需要先会度分秒的换算"
+        },
+        {
+          "topicId": "cnm_058",
+          "prerequisiteId": "cnm_055",
+          "strength": "soft",
+          "reason": "与线段的比较与运算类比"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_058",
+          "prerequisiteId": "cnm_057",
+          "strength": "soft",
+          "reason": "涉及分秒的角运算需用换算；整度角的比较、和差与角平分不必先掌握全部度分秒换算。"
+        },
+        {
+          "topicId": "cnm_058",
+          "prerequisiteId": "cnm_055",
+          "strength": "soft",
+          "reason": "与线段的比较与运算类比"
+        }
+      ]
+    },
+    {
+      "id": "cnm_065",
+      "beforeHash": "d07c207e6d367166c8bc911d5aafb3112ec77181ec2358d2d553c56d7287d5aa",
+      "before": [
+        {
+          "topicId": "cnm_065",
+          "prerequisiteId": "cnm_064",
+          "strength": "hard",
+          "reason": "垂线段最短以及点到直线的距离都是围绕垂线段展开的，需先理解垂线"
+        },
+        {
+          "topicId": "cnm_065",
+          "prerequisiteId": "cnm_054",
+          "strength": "hard",
+          "reason": "与两点之间线段最短相关"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_065",
+          "prerequisiteId": "cnm_064",
+          "strength": "hard",
+          "reason": "垂线段最短以及点到直线的距离都是围绕垂线段展开的，需先理解垂线"
+        },
+        {
+          "topicId": "cnm_065",
+          "prerequisiteId": "cnm_054",
+          "strength": "soft",
+          "reason": "两点间线段最短是相关基本事实；点到直线距离可直接通过垂线段定义学习，不应把另一最短性质作为唯一门槛。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_066",
+      "beforeHash": "16cd2d888a3e757a8c66ba75b39fb4049cbb850a46fbd8aa0323e295c995fb67",
+      "before": [
+        {
+          "topicId": "cnm_066",
+          "prerequisiteId": "cnm_063",
+          "strength": "hard",
+          "reason": "对顶角、邻补角是辨认“三线八角”的基础"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_066",
+          "prerequisiteId": "cnm_063",
+          "strength": "soft",
+          "reason": "对顶角关系可辅助识别；同位、内错、同旁内角按位置定义，不以掌握对顶角性质为硬门槛。"
+        }
+      ]
+    }
+  ]
+}

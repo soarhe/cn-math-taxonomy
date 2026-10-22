@@ -1,28 +1,26 @@
 {
-  "version": "algebra-2026-10.5",
-  "engineVersion": "evidence-1.1",
+  "version": "junior-2026-10.1",
+  "engineVersion": "evidence-1.2",
   "date": "2026-10-22",
-  "baseCommit": "04c37bf2eb069bdce7e28b9949fa149a825a5f99",
-  "previousRelease": "algebra-2026-10.4",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "previousRelease": "algebra-2026-10.5",
+  "status": "release-accepted",
   "expertReviewed": false,
   "counts": {
     "topics": 1505,
-    "questions": 6256,
+    "questions": 6407,
     "dependencies": 2181,
-    "algebraInventory": 142,
-    "targetedJuniorTopics": 41,
-    "primaryBridgeTopics": 4,
-    "changedQuestionObjects": 6,
-    "netAddedQuestions": 6,
-    "contentRequirementsSourceChecked": 49,
-    "partiallyReviewedRequirements": 32,
-    "pendingCoverageRequirements": 17,
-    "batchTargetedJuniorTopics": 3
+    "juniorTopicsFirstPassReviewed": 317,
+    "directPrimaryBridgeTopicsReviewed": 28,
+    "contentRequirementsSourceChecked2022": 157,
+    "partialRequirements": 145,
+    "gapRequirements": 12,
+    "netAddedQuestionsSinceD5": 151
   },
   "files": {
-    "topics.json": "74dd8c73affeeb462b9e3ab463ebdea210e943de080b9f1594d8f21d99720e05",
-    "questions.json": "bdffff0c2474303906ff4db2a34a8d954477d3463e3c104051290562d21a2591",
-    "dependencies.json": "b268a431a821e75b749f6c776609f0c4bd8f3473848552d7f369ea08edeee5a9"
+    "topics.json": "4499478991e242081ce813d919764d784c6d5fe0b9002c9522275199738a412b",
+    "questions.json": "74dd722619e3ec9059af1ac90ba1658a486c6a9d93c437cf7d8349e122baa9db",
+    "dependencies.json": "c2dbd7e00801e7d0ab79bd023cda8f8f349d01030382cd6006a2a687f7f57501"
   },
   "authoring": {
     "authoring/statistics-2026-10/patch.json": "3ceb451858cb1b10aeb05b6ac48f38967d0fc40b389e81418004b8915014660a",
@@ -30,9 +28,33 @@
     "authoring/algebra-d2-2026-10/patch.json": "3a9616334f5ad0ee6b342e3aefaac926486a21683a053f5ce10b8c377162069e",
     "authoring/algebra-d3-2026-10/patch.json": "ed404875cce778d0702b96e766b32f1222f845051a952acec5b31bd799658e27",
     "authoring/algebra-d4-2026-10/patch.json": "491ab5b447a51056042cd792822b4577070e0f4ea15477bfa377af8b073316e5",
-    "authoring/algebra-d5-2026-10/patch.json": "21a04f0e5682ca490b5a9d3b25edd64e44c3ffe6bd337027c194e8665d62ee3e"
+    "authoring/algebra-d5-2026-10/patch.json": "21a04f0e5682ca490b5a9d3b25edd64e44c3ffe6bd337027c194e8665d62ee3e",
+    "authoring/release-candidate/algebra-content.json": "7aef4af5dc72e555d5d0b053390b66054c00b4aa01b605d9e7727f8039d2de9f",
+    "authoring/release-candidate/algebra-graphs.json": "ba8b1bea67898b563654d7d4701ab52fcb114a0590c4b5784a33ee5dcab31357",
+    "authoring/release-candidate/circles.json": "940496cadac2426585dfb5707646efaa561ea8598d4f8ac767e79bc845f08699",
+    "authoring/release-candidate/congruence.json": "f6f6efaddafe07942a6a3636865de1bb6039da4ac80b6f4ea4679c0992c62b66",
+    "authoring/release-candidate/correctness.json": "05938d568ea6c1fed3e9ff8a99e5fb07e8ac56ed020bae1faaf0e77400f0d760",
+    "authoring/release-candidate/foundations.json": "1f30b23756f41cdb2bd65ef09b67676417866b35f36507a17c86cd9e70170349",
+    "authoring/release-candidate/fractions.json": "8616622bfe9ad476fd9d210c947fb91351a6118fa6ade8b8fe2aae4ede5cfbb1",
+    "authoring/release-candidate/geometry-coordinates.json": "291b7a296195de981f8750da04e8ec7885865f7bcea6c2fbf358b2466148eb1c",
+    "authoring/release-candidate/geometry-final.json": "bd707b654e1c8715a9c72300c4df75cb83c15801189aea7b92307d0c8253f5e3",
+    "authoring/release-candidate/geometry-foundations.json": "050ac0ce27a7770ea8ccaa9a12145c8bef6f9b00dc4db59ab01f0805a5eb846d",
+    "authoring/release-candidate/practice.json": "62d0b945f984a12cb5dfe571291b3d6d197356501613549efab7a10f6ea90439",
+    "authoring/release-candidate/prerequisites.json": "6d7d4d3d29559800f457497b7212a4c89861bd5734111527d3cd17ec28b07d00",
+    "authoring/release-candidate/primary-bridges.json": "4a7e23e1668e3310d32e2a5ca1a23eab333c0db98a1f15a29fa99eaba4694645",
+    "authoring/release-candidate/quadrilaterals-rotation.json": "562fd357e8b3779485bd87e5b11d8164b980a556be052abd6e5ebaa5f4385de5",
+    "authoring/release-candidate/source-boundaries.json": "f6063ff82876da48a11e607c3bb39eae657d3ebda95d336b5db1add5fd5edaa9",
+    "authoring/release-candidate/symmetry-pythagoras.json": "7f288d1b892c30b765a96aeeac6fded31120274641b7790e4fad80cd23ea2a35"
   },
-  "review": "reviews/math-junior/batch-d5/README.md",
-  "migration": "数学D1–D4会话保留原样导出，不按D5题池重放；引擎和英语会话版本不变。",
-  "countSemantics": "targetedJuniorTopics和primaryBridgeTopics为累计；changedQuestionObjects和netAddedQuestions为本批。"
+  "review": "reviews/release-candidate/README.md",
+  "migration": "旧数学D1–D5、统计版以及旧英语引擎会话保留原样导出，不按新版本重放。",
+  "countSemantics": "首轮审阅为记录覆盖；partial不是充分覆盖或学生掌握证明。",
+  "acceptance": "reviews/release-candidate/acceptance.json",
+  "reviewFiles": {
+    "reviews/release-candidate/node-review.json": "113b4114ed408559bac7fed448ee09c2e291d241277b92dd58dc8131d0207c65",
+    "reviews/release-candidate/coverage.json": "3379a1c6d8efdf5a0e11795936e077f87db56c6514c6965ad6e8aca97241d4f2",
+    "reviews/release-candidate/primary-bridges.json": "ff6a8ec47cc03167c237ffa56defdd650530d7d346cd178daed4f63d823bdf88",
+    "reviews/release-candidate/source-review.json": "4d666505a8cb89984ea61cbed58f6f2c9e099676c966c7f2bf9489755450e0ef",
+    "reviews/release-candidate/acceptance.json": "aad84b4c35afc709de5b0b3e867a39fc7e71dfc8d161836d46324526348b5f41"
+  }
 }

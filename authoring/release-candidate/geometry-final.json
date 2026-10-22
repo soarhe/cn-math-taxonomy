@@ -1,0 +1,1167 @@
+{
+  "batch": "release-candidate-geometry-final",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_268",
+      "beforeHash": "2b89e70915a24818c62c3c50ade32e47d95bd250fed31da8b6e9bea7771e56f7",
+      "before": {
+        "id": "cnm_268",
+        "name": "成比例线段",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十一章 相似",
+        "type": "conceptual",
+        "description": "四条线段 a、b、c、d 满足 a/b=c/d 叫成比例线段，掌握比例的基本性质与合比等变形。",
+        "mastery_criteria": [
+          "能判断线段成比例",
+          "能用比例性质变形"
+        ],
+        "diagnostic_question": {
+          "question": "已知 a/b=2/3，求 (a+b)/b。",
+          "answer": "5/3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.71",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_268",
+        "name": "成比例线段",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十一章 相似",
+        "type": "conceptual",
+        "description": "本节点线段长度均为正数。四条线段a、b、c、d满足a/b=c/d时称对应成比例，可用交叉相乘及合比等性质变形。",
+        "mastery_criteria": [
+          "能判断线段成比例",
+          "能用比例性质变形"
+        ],
+        "diagnostic_question": {
+          "question": "已知 a/b=2/3，求 (a+b)/b。",
+          "answer": "5/3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.71",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_273",
+      "beforeHash": "f92ad5a1b16ae4b1af042552b13c01b95506b78a720fbed6dbd19e53afdee541",
+      "before": {
+        "id": "cnm_273",
+        "name": "相似三角形的基本模型",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十一章 相似",
+        "type": "reasoning",
+        "description": "识别“A 型”“8 字型”“母子型（射影）”等相似基本图形并用于证明和计算。",
+        "mastery_criteria": [
+          "能识别基本模型",
+          "能添加平行线构造相似"
+        ],
+        "diagnostic_question": {
+          "question": "DE∥BC 且 D、E 在 AB、AC 上，图中有哪对相似三角形？",
+          "answer": "△ADE∽△ABC（A 型）"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.74",
+            "confidence": "inferred",
+            "note": "基本模型是判定与性质的归纳，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.GG.75",
+            "confidence": "inferred",
+            "note": "基本模型是判定与性质的归纳，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_273",
+        "name": "相似三角形的基本模型",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十一章 相似",
+        "type": "reasoning",
+        "description": "识别“A 型”“8 字型”“母子型（射影）”等相似基本图形并用于证明和计算。 本节点将综合辅助线模型列为补充方法，核心相似判定与性质在271、272中分别审阅。",
+        "mastery_criteria": [
+          "能识别基本模型",
+          "能添加平行线构造相似"
+        ],
+        "diagnostic_question": {
+          "question": "DE∥BC 且 D、E 在 AB、AC 上，图中有哪对相似三角形？",
+          "answer": "△ADE∽△ABC（A 型）"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.74",
+            "confidence": "inferred",
+            "note": "基本模型是判定与性质的归纳，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.GG.75",
+            "confidence": "inferred",
+            "note": "基本模型是判定与性质的归纳，课标未单列"
+          }
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_275",
+      "beforeHash": "53e2a1469dc41e20437ee3850e8bed96646b68f41dc3604bd631a0e311ca0a8e",
+      "before": {
+        "id": "cnm_275",
+        "name": "位似",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十一章 相似",
+        "type": "conceptual",
+        "description": "如果两个相似图形的对应点连线相交于一点且对应边平行，这样的相似叫位似，会在平面直角坐标系中作位似图形。",
+        "mastery_criteria": [
+          "能判断位似并找位似中心",
+          "能作出位似图形并写出坐标"
+        ],
+        "diagnostic_question": {
+          "question": "位似比 1:2 的两个图形面积比？",
+          "answer": "1:4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.76",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.92",
+            "confidence": "inferred",
+            "note": "坐标系中的位似另见 GG.92"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_275",
+        "name": "位似",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十一章 相似",
+        "type": "conceptual",
+        "description": "位似可用同一中心O和统一非零比例系数k描述：对非中心点P，O、P、P′共线，有向位置关系OP′=k·OP；中心点固定。对应边所在直线平行或重合，长度按|k|缩放。k正时同侧、负时异侧。",
+        "mastery_criteria": [
+          "能判断位似并找位似中心",
+          "能作出位似图形并写出坐标"
+        ],
+        "diagnostic_question": {
+          "question": "位似比 1:2 的两个图形面积比？",
+          "answer": "1:4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.76",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.92",
+            "confidence": "inferred",
+            "note": "坐标系中的位似另见 GG.92"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_266_q3",
+      "beforeHash": "ae16bdb46e07b5d30dedeba36b4bb09db5fdb656052a92695852302943768e3b",
+      "before": {
+        "id": "cnm_266_q3",
+        "topicId": "cnm_266",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "正三角形的外接圆半径为 6，求它的边心距。",
+        "answer": "3",
+        "explanation": "中心角 120°，边心距=R·cos60°=6×1/2=3。",
+        "verify": "6*cos(radians(60))"
+      },
+      "after": {
+        "id": "cnm_266_q3",
+        "topicId": "cnm_266",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "正三角形的外接圆半径为 6，求它的边心距。",
+        "answer": "3",
+        "explanation": "连接中心与相邻两顶点，中心角120°；作边心距，得到中心处角60°、顶点处角30°的直角三角形。边心距是30°角对边，等于斜边（外接圆半径6）的一半，为3。",
+        "verify": "6*cos(radians(60))"
+      }
+    },
+    {
+      "id": "cnm_269_q1",
+      "beforeHash": "ce90535551669fe4a497b26caa8e1cbdba1212c53d008927c50e8f88d95c8ac6",
+      "before": {
+        "id": "cnm_269_q1",
+        "topicId": "cnm_269",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "△ABC 中 DE∥BC，AD=2，DB=3，AE=4，求 EC。（D 在 AB 上，E 在 AC 上）",
+        "answer": "6",
+        "explanation": "由平行线分线段成比例，AD/DB=AE/EC，即 2/3=4/EC，所以 EC=6。",
+        "verify": "Fraction(4*3,2)"
+      },
+      "after": {
+        "id": "cnm_269_q1",
+        "topicId": "cnm_269",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "△ABC 中 DE∥BC，AD=2，DB=3，AE=4，求 EC。（D 在 AB 上，E 在 AC 上）（D、E分别位于线段AB、AC内部。）",
+        "answer": "6",
+        "explanation": "由平行线分线段成比例，AD/DB=AE/EC，即 2/3=4/EC，所以 EC=6。",
+        "verify": "Fraction(4*3,2)"
+      }
+    },
+    {
+      "id": "cnm_269_q2",
+      "beforeHash": "7f4668ed42c213833311d54418ad20680d80fba16a163246390a466992adb82b",
+      "before": {
+        "id": "cnm_269_q2",
+        "topicId": "cnm_269",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "△ABC 中，D、E 分别在 AB、AC 上，DE∥BC。下列比例式中错误的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "AD/AB=AE/AC"
+          },
+          {
+            "key": "B",
+            "text": "AD/DB=AE/EC"
+          },
+          {
+            "key": "C",
+            "text": "AB/AD=AC/AE"
+          },
+          {
+            "key": "D",
+            "text": "DE/BC=AD/DB"
+          }
+        ],
+        "answer": "D",
+        "explanation": "DE∥BC 时，DE/BC=AD/AB（△ADE∽△ABC），而不是 AD/DB，所以 D 错误；A、B、C 都是正确的比例式。"
+      },
+      "after": {
+        "id": "cnm_269_q2",
+        "topicId": "cnm_269",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "△ABC 中，D、E 分别在 AB、AC 上，DE∥BC。下列比例式中错误的是哪一个？（D、E分别位于线段AB、AC内部。）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "AD/AB=AE/AC"
+          },
+          {
+            "key": "B",
+            "text": "AD/DB=AE/EC"
+          },
+          {
+            "key": "C",
+            "text": "AB/AD=AC/AE"
+          },
+          {
+            "key": "D",
+            "text": "DE/BC=AD/DB"
+          }
+        ],
+        "answer": "D",
+        "explanation": "DE∥BC 时，DE/BC=AD/AB（△ADE∽△ABC），而不是 AD/DB，所以 D 错误；A、B、C 都是正确的比例式。"
+      }
+    },
+    {
+      "id": "cnm_269_q4",
+      "beforeHash": "12a3c65e257166fac55a683cb631f88d822f5027099af97c912e82cbcc251518",
+      "before": {
+        "id": "cnm_269_q4",
+        "topicId": "cnm_269",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，D、E 分别在 AB、AC 上，DE∥BC，AD=4，DB=2，EC=3，求 AC 的长。",
+        "answer": "9",
+        "explanation": "由 AD/DB=AE/EC 得 4/2=AE/3，AE=6，所以 AC=AE+EC=6+3=9。",
+        "verify": "3*Fraction(4,2)+3"
+      },
+      "after": {
+        "id": "cnm_269_q4",
+        "topicId": "cnm_269",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，D、E 分别在 AB、AC 上，DE∥BC，AD=4，DB=2，EC=3，求 AC 的长。（D、E分别位于线段AB、AC内部。）",
+        "answer": "9",
+        "explanation": "由 AD/DB=AE/EC 得 4/2=AE/3，AE=6，所以 AC=AE+EC=6+3=9。",
+        "verify": "3*Fraction(4,2)+3"
+      }
+    },
+    {
+      "id": "cnm_273_q1",
+      "beforeHash": "ccbdc192637dfd8a72a6d4a6d5ba418f3707bce60950488172ec42505b7016aa",
+      "before": {
+        "id": "cnm_273_q1",
+        "topicId": "cnm_273",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "DE∥BC 且 D、E 在 AB、AC 上，图中有哪对相似三角形？（△ABC 中，D 在 AB 上，E 在 AC 上，对应顶点按顺序书写）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "△ADE∽△ABC"
+          },
+          {
+            "key": "B",
+            "text": "△ADE∽△ACB"
+          },
+          {
+            "key": "C",
+            "text": "△ADE∽△DBC"
+          }
+        ],
+        "answer": "A",
+        "explanation": "DE∥BC 得 ∠ADE=∠B，∠A 公共，所以 △ADE∽△ABC（A 型），对应顶点 A-A、D-B、E-C。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\"><polygon points=\"180,28 36,210 324,210\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"none\"/><polygon points=\"180,28 113.8,111.7 246.2,111.7\" fill=\"currentColor\" fill-opacity=\"0.14\" stroke=\"none\"/><polygon points=\"180,28 36,210 324,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"113.8\" y1=\"111.7\" x2=\"246.2\" y2=\"111.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"174,117.7 187,111.7 174,105.7\" fill=\"currentColor\"/><polygon points=\"174,216 187,210 174,204\" fill=\"currentColor\"/><text x=\"180\" y=\"20\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">A</text><text x=\"32\" y=\"226\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">B</text><text x=\"328\" y=\"226\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">C</text><text x=\"99.8\" y=\"111.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">D</text><text x=\"254.2\" y=\"111.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">E</text></svg>"
+      },
+      "after": {
+        "id": "cnm_273_q1",
+        "topicId": "cnm_273",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "DE∥BC 且 D、E 在 AB、AC 上，图中有哪对相似三角形？（△ABC 中，D 在 AB 上，E 在 AC 上，对应顶点按顺序书写）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "△ADE∽△ABC"
+          },
+          {
+            "key": "B",
+            "text": "△ADE∽△ACB"
+          },
+          {
+            "key": "C",
+            "text": "△ADE∽△DBC"
+          }
+        ],
+        "answer": "A",
+        "explanation": "DE∥BC 得 ∠ADE=∠B，∠A 公共，所以 △ADE∽△ABC（A 型），对应顶点 A-A、D-B、E-C。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\"><polygon points=\"180,28 36,210 324,210\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"none\"/><polygon points=\"180,28 113.8,111.7 246.2,111.7\" fill=\"currentColor\" fill-opacity=\"0.14\" stroke=\"none\"/><polygon points=\"180,28 36,210 324,210\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"113.8\" y1=\"111.7\" x2=\"246.2\" y2=\"111.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"174,117.7 187,111.7 174,105.7\" fill=\"currentColor\"/><polygon points=\"174,216 187,210 174,204\" fill=\"currentColor\"/><text x=\"180\" y=\"20\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">A</text><text x=\"32\" y=\"226\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">B</text><text x=\"328\" y=\"226\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">C</text><text x=\"99.8\" y=\"111.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">D</text><text x=\"254.2\" y=\"111.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">E</text></svg>",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_273_q2",
+      "beforeHash": "c8b69cfcfdd9f87366547caef560590b163538cf22045c9c0edb351bc14980ff",
+      "before": {
+        "id": "cnm_273_q2",
+        "topicId": "cnm_273",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "线段 AC 与 BD 相交于点 O，AB∥CD，OA=3，OC=6，AB=4，求 CD 的长。",
+        "answer": "8",
+        "explanation": "AB∥CD，得 △OAB∽△OCD（8 字型），OA/OC=AB/CD，即 3/6=4/CD，CD=8。",
+        "verify": "Fraction(4*6,3)"
+      },
+      "after": {
+        "id": "cnm_273_q2",
+        "topicId": "cnm_273",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "线段 AC 与 BD 相交于点 O，AB∥CD，OA=3，OC=6，AB=4，求 CD 的长。",
+        "answer": "8",
+        "explanation": "AB∥CD，得 △OAB∽△OCD（8 字型），OA/OC=AB/CD，即 3/6=4/CD，CD=8。",
+        "verify": "Fraction(4*6,3)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_273_q3",
+      "beforeHash": "ed923846c2245a9f00fa9c1c79b4a547f1dca5dcbdaa2602963baa07abf3cc14",
+      "before": {
+        "id": "cnm_273_q3",
+        "topicId": "cnm_273",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "Rt△ABC 中 ∠ACB=90°，CD⊥AB 于 D，AD=4，BD=9，求 CD 的长。",
+        "answer": "6",
+        "explanation": "母子型：△ACD∽△CBD，所以 CD/BD=AD/CD，CD²=AD·BD=36，CD=6。",
+        "verify": "sqrt(4*9)"
+      },
+      "after": {
+        "id": "cnm_273_q3",
+        "topicId": "cnm_273",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "Rt△ABC 中 ∠ACB=90°，CD⊥AB 于 D，AD=4，BD=9，求 CD 的长。",
+        "answer": "6",
+        "explanation": "母子型：△ACD∽△CBD，所以 CD/BD=AD/CD，CD²=AD·BD=36，CD=6。",
+        "verify": "sqrt(4*9)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_273_q4",
+      "beforeHash": "74536eecfbbacf12a2582bd1c4cf3c241d17d9a98aef44a6f9423b7f49861903",
+      "before": {
+        "id": "cnm_273_q4",
+        "topicId": "cnm_273",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，D 在 BC 上，BD:DC=1:2，E 为 AD 的中点，连接 BE 并延长交 AC 于 F，求 AF/FC 的值。（结果写成最简分数）",
+        "answer": "1/3",
+        "explanation": "过 D 作 DG∥BF 交 AC 于 G。E 是 AD 中点，EF∥DG，所以 AF=FG；又 DG∥BF，CG/GF=CD/DB=2，得 GC=2FG。所以 AF:FC=1:3，值为 1/3。",
+        "verify": "Fraction(1)/(1+2)"
+      },
+      "after": {
+        "id": "cnm_273_q4",
+        "topicId": "cnm_273",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，D 在 BC 上，BD:DC=1:2，E 为 AD 的中点，连接 BE 并延长交 AC 于 F，求 AF/FC 的值。（结果写成最简分数）",
+        "answer": "1/3",
+        "explanation": "过 D 作 DG∥BF 交 AC 于 G。E 是 AD 中点，EF∥DG，所以 AF=FG；又 DG∥BF，CG/GF=CD/DB=2，得 GC=2FG。所以 AF:FC=1:3，值为 1/3。",
+        "verify": "Fraction(1)/(1+2)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_274_q1",
+      "beforeHash": "1c813d69398d5d79a95878a4d1eeac8c89df04abc2d5b5c775c96281a98e4e30",
+      "before": {
+        "id": "cnm_274_q1",
+        "topicId": "cnm_274",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "身高 1.6 m 的人影长 2 m，同一时刻旗杆影长 15 m，旗杆多高？（单位：m）",
+        "answer": "12",
+        "explanation": "同一时刻物高与影长成比例：1.6/2=h/15，h=12。",
+        "verify": "Fraction(8,5)/2*15"
+      },
+      "after": {
+        "id": "cnm_274_q1",
+        "topicId": "cnm_274",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "身高 1.6 m 的人影长 2 m，同一时刻旗杆影长 15 m，旗杆多高？（单位：m）（地面水平、物体竖直，视同一地点同一时刻的太阳光为平行光。）",
+        "answer": "12",
+        "explanation": "同一时刻物高与影长成比例：1.6/2=h/15，h=12。",
+        "verify": "Fraction(8,5)/2*15"
+      }
+    },
+    {
+      "id": "cnm_274_q2",
+      "beforeHash": "507f7a44c420390b99044a6c2a081dcd299d985838bb867f53634e38d4ec94be",
+      "before": {
+        "id": "cnm_274_q2",
+        "topicId": "cnm_274",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "同一时刻，2 m 长的竹竿竖直放置，影长 1.5 m；一棵树的影长为 6 m，求树高。（单位：m）",
+        "answer": "8",
+        "explanation": "物高:影长 相同，2/1.5=h/6，h=8。",
+        "verify": "Fraction(2)/Fraction(3,2)*6"
+      },
+      "after": {
+        "id": "cnm_274_q2",
+        "topicId": "cnm_274",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "同一时刻，2 m 长的竹竿竖直放置，影长 1.5 m；一棵树的影长为 6 m，求树高。（单位：m）（地面水平、物体竖直，视同一地点同一时刻的太阳光为平行光。）",
+        "answer": "8",
+        "explanation": "物高:影长 相同，2/1.5=h/6，h=8。",
+        "verify": "Fraction(2)/Fraction(3,2)*6"
+      }
+    },
+    {
+      "id": "cnm_274_q3",
+      "beforeHash": "8f46ec74296740524d686c70fa916ed82d6c6e457e274b8bfb11eb57adbc98fd",
+      "before": {
+        "id": "cnm_274_q3",
+        "topicId": "cnm_274",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "地面上放一面平面镜，小明眼睛离地 1.5 m，站在离镜子 3 m 处，恰好从镜中看到树顶，镜子到树根的距离为 12 m（人、镜、树根在同一直线上）。求树高。（单位：m）",
+        "answer": "6",
+        "explanation": "由光的反射，人与树构成两个相似直角三角形：1.5/3=h/12，h=6。",
+        "verify": "Fraction(3,2)/3*12"
+      },
+      "after": {
+        "id": "cnm_274_q3",
+        "topicId": "cnm_274",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "地面上放一面平面镜，小明眼睛离地 1.5 m，站在离镜子 3 m 处，恰好从镜中看到树顶，镜子到树根的距离为 12 m（人、镜、树根在同一直线上）。求树高。（单位：m）（镜面水平置于平坦地面，树干竖直，人和树分处镜的两侧，忽略镜面高度。）",
+        "answer": "6",
+        "explanation": "由光的反射，人与树构成两个相似直角三角形：1.5/3=h/12，h=6。",
+        "verify": "Fraction(3,2)/3*12"
+      }
+    },
+    {
+      "id": "cnm_274_q4",
+      "beforeHash": "1f38a401b90e0605406dcdeafad9a441c409df0b641d7fa55aed29e6ac7fa864",
+      "before": {
+        "id": "cnm_274_q4",
+        "topicId": "cnm_274",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "旗杆底部到墙的水平距离为 6 m，旗杆顶端的影子恰好落在墙上，离地面 2 m 高。同一时刻，1 m 长的竹竿影长 0.5 m。求旗杆的高度。（单位：m）",
+        "answer": "14",
+        "explanation": "光线每向前 0.5 m 下降 1 m，即水平 1 m 下降 2 m。从旗杆顶到墙水平 6 m，下降 12 m，故旗杆高 2+12=14 m。",
+        "verify": "2+6/Fraction(1,2)"
+      },
+      "after": {
+        "id": "cnm_274_q4",
+        "topicId": "cnm_274",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "旗杆底部到墙的水平距离为 6 m，旗杆顶端的影子恰好落在墙上，离地面 2 m 高。同一时刻，1 m 长的竹竿影长 0.5 m。求旗杆的高度。（单位：m）（地面水平、物体竖直，视同一地点同一时刻的太阳光为平行光。）",
+        "answer": "14",
+        "explanation": "光线每向前 0.5 m 下降 1 m，即水平 1 m 下降 2 m。从旗杆顶到墙水平 6 m，下降 12 m，故旗杆高 2+12=14 m。",
+        "verify": "2+6/Fraction(1,2)"
+      }
+    },
+    {
+      "id": "cnm_275_q4",
+      "beforeHash": "2a0a9664a8b91412fac08c8d00248a3596fe54b24fc4969a3468ca77345bf729",
+      "before": {
+        "id": "cnm_275_q4",
+        "topicId": "cnm_275",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列关于位似的说法正确的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "相似图形一定是位似图形"
+          },
+          {
+            "key": "B",
+            "text": "位似图形一定是相似图形"
+          },
+          {
+            "key": "C",
+            "text": "位似图形的对应边不一定平行"
+          },
+          {
+            "key": "D",
+            "text": "位似图形的对应点连线不一定交于一点"
+          }
+        ],
+        "answer": "B",
+        "explanation": "位似是特殊的相似：对应点连线交于一点（位似中心）且对应边平行。所以位似一定相似，反之不一定。"
+      },
+      "after": {
+        "id": "cnm_275_q4",
+        "topicId": "cnm_275",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列关于位似的说法正确的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "相似图形一定是位似图形"
+          },
+          {
+            "key": "B",
+            "text": "位似图形一定是相似图形"
+          },
+          {
+            "key": "C",
+            "text": "对应边所在直线的夹角可以为45°"
+          },
+          {
+            "key": "D",
+            "text": "每一对对应点可以随意另选不同的位似中心"
+          }
+        ],
+        "answer": "B",
+        "explanation": "同一位似用统一中心和比例系数，保角且对应边长成比例，因此一定相似。对应边所在直线平行或重合，不能成45°；一般相似还可能含旋转，未必是位似。"
+      }
+    },
+    {
+      "id": "cnm_280_q5",
+      "beforeHash": "a4a7f34363f6260ee436bd579fec4888f4a53b9b16398fff8e24c56273c538ad",
+      "before": {
+        "id": "cnm_280_q5",
+        "topicId": "cnm_280",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "某大坝横截面是梯形 ABCD，AD∥BC，坝顶宽 AD=6 m，坝高 4 m，迎水坡 AB 的坡度为 1:1.5，背水坡 CD 的坡度为 1:2，求坝底 BC 的长。（单位：m）",
+        "answer": "20",
+        "explanation": "AB 一侧水平宽 4×1.5=6，CD 一侧水平宽 4×2=8，所以 BC=6+6+8=20。",
+        "verify": "6+4*Fraction(3,2)+4*2",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 264 200\"><polygon points=\"82,132 28,168 208,168 136,132\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><polygon points=\"82,132 28,168 208,168 136,132\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"82\" y1=\"132\" x2=\"82\" y2=\"168\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"136\" y1=\"132\" x2=\"136\" y2=\"168\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"109\" y=\"122\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">6 m</text><text x=\"74\" y=\"150\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">4 m</text><text x=\"37\" y=\"156\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">1 : 1.5</text><text x=\"188\" y=\"150\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">1 : 2</text><text x=\"82\" y=\"106\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"136\" y=\"106\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"28\" y=\"186\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"208\" y=\"186\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">C</text></svg>"
+      },
+      "after": {
+        "id": "cnm_280_q5",
+        "topicId": "cnm_280",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "某大坝横截面是梯形 ABCD，AD∥BC，坝顶宽 AD=6 m，坝高 4 m，迎水坡 AB 的坡度为 1:1.5，背水坡 CD 的坡度为 1:2，求坝底 BC 的长。（单位：m）（AD为上底，迎水坡和背水坡均向外放坡，上底两端的铅垂足都落在下底BC上。）",
+        "answer": "20",
+        "explanation": "AB 一侧水平宽 4×1.5=6，CD 一侧水平宽 4×2=8，所以 BC=6+6+8=20。",
+        "verify": "6+4*Fraction(3,2)+4*2",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 264 200\"><polygon points=\"82,132 28,168 208,168 136,132\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><polygon points=\"82,132 28,168 208,168 136,132\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"82\" y1=\"132\" x2=\"82\" y2=\"168\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"136\" y1=\"132\" x2=\"136\" y2=\"168\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"109\" y=\"122\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">6 m</text><text x=\"109\" y=\"157\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">4 m</text><text x=\"37\" y=\"156\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">1 : 1.5</text><text x=\"188\" y=\"150\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">1 : 2</text><text x=\"82\" y=\"106\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">A</text><text x=\"136\" y=\"106\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">D</text><text x=\"28\" y=\"186\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">B</text><text x=\"208\" y=\"186\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">C</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_281_q2",
+      "beforeHash": "804fdfd806ed175b1b976d3efcc67eabb54f3035292b57d3b9e6e7c54d8f7dc2",
+      "before": {
+        "id": "cnm_281_q2",
+        "topicId": "cnm_281",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列现象中，形成的影子属于平行投影的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "路灯下的影子"
+          },
+          {
+            "key": "B",
+            "text": "台灯下的影子"
+          },
+          {
+            "key": "C",
+            "text": "太阳光下的影子"
+          },
+          {
+            "key": "D",
+            "text": "手电筒照射形成的影子"
+          }
+        ],
+        "answer": "C",
+        "explanation": "太阳离地球很远，太阳光可近似看作平行光线，形成平行投影；灯光、手电筒光由一点发出，是中心投影。"
+      },
+      "after": {
+        "id": "cnm_281_q2",
+        "topicId": "cnm_281",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列现象中，形成的影子属于平行投影的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "路灯下的影子"
+          },
+          {
+            "key": "B",
+            "text": "台灯下的影子"
+          },
+          {
+            "key": "C",
+            "text": "太阳光下的影子"
+          },
+          {
+            "key": "D",
+            "text": "理想点光源照射形成的影子"
+          }
+        ],
+        "answer": "C",
+        "explanation": "太阳光在局部可近似平行。其余选项按近似点光源模型处理，投影线交于光源；真实灯具光束是否近似平行须看光学结构，不能一概而论。"
+      }
+    },
+    {
+      "id": "cnm_282_q1",
+      "beforeHash": "bc6ff69167e174abd93d48a958cec8844b1ac7a6d4823b1684782a433256947e",
+      "before": {
+        "id": "cnm_282_q1",
+        "topicId": "cnm_282",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "投影线垂直于投影面的投影叫什么？请选择。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "平行投影"
+          },
+          {
+            "key": "B",
+            "text": "中心投影"
+          },
+          {
+            "key": "C",
+            "text": "正投影"
+          },
+          {
+            "key": "D",
+            "text": "斜投影"
+          }
+        ],
+        "answer": "C",
+        "explanation": "投影线垂直于投影面的平行投影叫做正投影。"
+      },
+      "after": {
+        "id": "cnm_282_q1",
+        "topicId": "cnm_282",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "投影线垂直于投影面的平行投影，最具体的名称是什么？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "平行投影"
+          },
+          {
+            "key": "B",
+            "text": "中心投影"
+          },
+          {
+            "key": "C",
+            "text": "正投影"
+          },
+          {
+            "key": "D",
+            "text": "斜投影"
+          }
+        ],
+        "answer": "C",
+        "explanation": "投影线垂直于投影面的平行投影叫做正投影。",
+        "fixed_from_source": "release-candidate: 正投影包含于平行投影，明确询问最具体名称"
+      }
+    },
+    {
+      "id": "cnm_283_q1",
+      "beforeHash": "20af51588ca363f724f2fa017271fce8cf763d799a75b199b55c5e82d7efa3e0",
+      "before": {
+        "id": "cnm_283_q1",
+        "topicId": "cnm_283",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "圆柱的三视图各是什么形状？请选择。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "主视图、左视图为矩形，俯视图为圆"
+          },
+          {
+            "key": "B",
+            "text": "主视图、俯视图为矩形，左视图为圆"
+          },
+          {
+            "key": "C",
+            "text": "三个视图都是矩形"
+          },
+          {
+            "key": "D",
+            "text": "三个视图都是圆"
+          }
+        ],
+        "answer": "A",
+        "explanation": "圆柱竖直放置时，从正面和左面看都是矩形，从上面看是圆。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 216 194\"><path d=\"M 56 156 A 62 18 0 0 0 180 156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"56\" y1=\"46\" x2=\"56\" y2=\"156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"46\" x2=\"180\" y2=\"156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 56 156 A 62 18 0 0 1 180 156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"118\" cy=\"46\" rx=\"62\" ry=\"18\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><ellipse cx=\"118\" cy=\"46\" rx=\"62\" ry=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+      },
+      "after": {
+        "id": "cnm_283_q1",
+        "topicId": "cnm_283",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "圆柱的三视图各是什么形状？请选择。（圆柱底面水平、轴线竖直。）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "主视图、左视图为矩形，俯视图为圆"
+          },
+          {
+            "key": "B",
+            "text": "主视图、俯视图为矩形，左视图为圆"
+          },
+          {
+            "key": "C",
+            "text": "三个视图都是矩形"
+          },
+          {
+            "key": "D",
+            "text": "三个视图都是圆"
+          }
+        ],
+        "answer": "A",
+        "explanation": "圆柱竖直放置时，从正面和左面看都是矩形，从上面看是圆。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 216 194\"><path d=\"M 56 156 A 62 18 0 0 1 180 156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"56\" y1=\"46\" x2=\"56\" y2=\"156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"46\" x2=\"180\" y2=\"156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 56 156 A 62 18 0 0 0 180 156\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"118\" cy=\"46\" rx=\"62\" ry=\"18\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><ellipse cx=\"118\" cy=\"46\" rx=\"62\" ry=\"18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+      }
+    },
+    {
+      "id": "cnm_283_q2",
+      "beforeHash": "6e1c977b03a2e3776d8f47c8fb7fbe3728383a739a7d58cbc9b48e5d3a2f9e2d",
+      "before": {
+        "id": "cnm_283_q2",
+        "topicId": "cnm_283",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列几何体中，主视图、左视图、俯视图都是正方形的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "圆柱",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 208 176\"><path d=\"M 56 140 A 58 16 0 0 0 172 140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"56\" y1=\"44\" x2=\"56\" y2=\"140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"172\" y1=\"44\" x2=\"172\" y2=\"140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 56 140 A 58 16 0 0 1 172 140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "B",
+            "text": "圆锥",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 224 172\"><path d=\"M 64 138 A 60 16 0 0 0 184 138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"26\" x2=\"64\" y2=\"138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"26\" x2=\"184\" y2=\"138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 64 138 A 60 16 0 0 1 184 138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "C",
+            "text": "球",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 188 176\"><path d=\"M 38.5 90 A 59.5 21.1 0 0 0 157.5 90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"98\" cy=\"90\" r=\"62\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 38.5 90 A 59.5 21.1 0 0 1 157.5 90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 98 28 A 26 62 0 0 1 98 152\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 98 152 A 26 62 0 0 1 98 28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "D",
+            "text": "正方体",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 184.7 164.4\"><polygon points=\"32,146.4 118,146.4 118,60.4 32,60.4\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"32,60.4 118,60.4 162.7,26 76.7,26\" fill=\"currentColor\" fill-opacity=\"0.20\" stroke=\"none\"/><polygon points=\"118,146.4 162.7,112 162.7,26 118,60.4\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"none\"/><line x1=\"32\" y1=\"146.4\" x2=\"76.7\" y2=\"112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"76.7\" y1=\"112\" x2=\"162.7\" y2=\"112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"76.7\" y1=\"112\" x2=\"76.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"32\" y1=\"146.4\" x2=\"118\" y2=\"146.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"118\" y1=\"146.4\" x2=\"118\" y2=\"60.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"118\" y1=\"60.4\" x2=\"32\" y2=\"60.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"32\" y1=\"60.4\" x2=\"32\" y2=\"146.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"118\" y1=\"146.4\" x2=\"162.7\" y2=\"112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"162.7\" y1=\"112\" x2=\"162.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"162.7\" y1=\"26\" x2=\"118\" y2=\"60.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"32\" y1=\"60.4\" x2=\"76.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"76.7\" y1=\"26\" x2=\"162.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"75\" y1=\"139.4\" x2=\"75\" y2=\"153.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"111\" y1=\"103.4\" x2=\"125\" y2=\"103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"39\" y1=\"103.4\" x2=\"25\" y2=\"103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"136.1\" y1=\"123.7\" x2=\"144.6\" y2=\"134.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"155.7\" y1=\"69\" x2=\"169.7\" y2=\"69\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"50.1\" y1=\"37.7\" x2=\"58.6\" y2=\"48.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          }
+        ],
+        "answer": "D",
+        "explanation": "正方体从任何一个正面方向看都是正方形；球的三视图都是圆，圆柱、圆锥的三视图中有圆或三角形。",
+        "hideChoiceText": true
+      },
+      "after": {
+        "id": "cnm_283_q2",
+        "topicId": "cnm_283",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列几何体中，主视图、左视图、俯视图都是正方形的是哪一个？（各几何体按通常正放方式，正方体的面分别平行于三个投影面。）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "圆柱",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 208 176\"><path d=\"M 56 140 A 58 16 0 0 0 172 140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"56\" y1=\"44\" x2=\"56\" y2=\"140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"172\" y1=\"44\" x2=\"172\" y2=\"140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 56 140 A 58 16 0 0 1 172 140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"currentColor\" fill-opacity=\"0.18\" stroke=\"none\"/><ellipse cx=\"114\" cy=\"44\" rx=\"58\" ry=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "B",
+            "text": "圆锥",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 224 172\"><path d=\"M 64 138 A 60 16 0 0 0 184 138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"26\" x2=\"64\" y2=\"138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"124\" y1=\"26\" x2=\"184\" y2=\"138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 64 138 A 60 16 0 0 1 184 138\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "C",
+            "text": "球",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 188 176\"><path d=\"M 38.5 90 A 59.5 21.1 0 0 0 157.5 90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"98\" cy=\"90\" r=\"62\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 38.5 90 A 59.5 21.1 0 0 1 157.5 90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 98 28 A 26 62 0 0 1 98 152\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><path d=\"M 98 152 A 26 62 0 0 1 98 28\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          },
+          {
+            "key": "D",
+            "text": "正方体",
+            "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 184.7 164.4\"><polygon points=\"32,146.4 118,146.4 118,60.4 32,60.4\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"none\"/><polygon points=\"32,60.4 118,60.4 162.7,26 76.7,26\" fill=\"currentColor\" fill-opacity=\"0.20\" stroke=\"none\"/><polygon points=\"118,146.4 162.7,112 162.7,26 118,60.4\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"none\"/><line x1=\"32\" y1=\"146.4\" x2=\"76.7\" y2=\"112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"76.7\" y1=\"112\" x2=\"162.7\" y2=\"112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"76.7\" y1=\"112\" x2=\"76.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"32\" y1=\"146.4\" x2=\"118\" y2=\"146.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"118\" y1=\"146.4\" x2=\"118\" y2=\"60.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"118\" y1=\"60.4\" x2=\"32\" y2=\"60.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"32\" y1=\"60.4\" x2=\"32\" y2=\"146.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"118\" y1=\"146.4\" x2=\"162.7\" y2=\"112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"162.7\" y1=\"112\" x2=\"162.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"162.7\" y1=\"26\" x2=\"118\" y2=\"60.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"32\" y1=\"60.4\" x2=\"76.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"76.7\" y1=\"26\" x2=\"162.7\" y2=\"26\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"75\" y1=\"139.4\" x2=\"75\" y2=\"153.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"111\" y1=\"103.4\" x2=\"125\" y2=\"103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"39\" y1=\"103.4\" x2=\"25\" y2=\"103.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"136.1\" y1=\"123.7\" x2=\"144.6\" y2=\"134.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"155.7\" y1=\"69\" x2=\"169.7\" y2=\"69\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"50.1\" y1=\"37.7\" x2=\"58.6\" y2=\"48.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+          }
+        ],
+        "answer": "D",
+        "explanation": "按题设正放，正方体三个正投影面上的轮廓均为正方形。不能推广为任意斜向观察正方体都得到正方形。",
+        "hideChoiceText": true
+      }
+    },
+    {
+      "id": "cnm_266_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_266_q6",
+        "topicId": "cnm_266",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用圆规画圆，以其半径为圆规开度沿圆周连续截取六段并连接六个点。保留作图痕迹，标出中心、外接圆半径、边心距和中心角，解释为何得到正六边形。",
+        "answer": "相邻顶点与圆心构成三边等于半径的等边三角形，中心角60°；六个60°合为360°，六边相等且六内角相等。边心距是圆心到任一边的垂线段，与外接半径不同。",
+        "explanation": "相邻顶点与圆心构成三边等于半径的等边三角形，中心角60°；六个60°合为360°，六边相等且六内角相等。边心距是圆心到任一边的垂线段，与外接半径不同。",
+        "rubric": [
+          "实际圆规截弧六等分并连接",
+          "标半径、垂直边心距和60°",
+          "用等边三角形解释而非只凭外观"
+        ]
+      }
+    },
+    {
+      "id": "cnm_269_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_269_q5",
+        "topicId": "cnm_269",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画三条互不重合的平行线，分别截两条直线于依次排列的A、B、C及D、E、F。已知AB=3、BC=6、DE=4，标出对应段，列比例求EF，并检验AB/AC与DE/DF。",
+        "answer": "AB/BC=DE/EF，3/6=4/EF得EF=8；AC=9、DF=12，AB/AC=1/3=DE/DF。对应段必须由同两条平行线截得。",
+        "explanation": "AB/BC=DE/EF，3/6=4/EF得EF=8；AC=9、DF=12，AB/AC=1/3=DE/DF。对应段必须由同两条平行线截得。",
+        "rubric": [
+          "实际画三线及两截线并按顺序标点",
+          "对应短段比而不混用全段",
+          "得EF=8并检查全段比"
+        ]
+      }
+    },
+    {
+      "id": "cnm_271_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_271_q6",
+        "topicId": "cnm_271",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "△ABC中D在AB内部，且∠ACD=∠ABC。画图并按正确对应顺序证明△ACD∽△ABC；已知AD=4、AB=9，求AC。",
+        "answer": "∠CAD=∠BAC为公共方向的角，另有∠ACD=∠ABC，故AA相似，A↔A、C↔B、D↔C。AC/AB=AD/AC，AC²=36，正长度AC=6。",
+        "explanation": "∠CAD=∠BAC为公共方向的角，另有∠ACD=∠ABC，故AA相似，A↔A、C↔B、D↔C。AC/AB=AD/AC，AC²=36，正长度AC=6。",
+        "rubric": [
+          "标图使D在内部",
+          "两角对应与全等区分",
+          "相似式和比例顺序一致",
+          "只取正长度6"
+        ]
+      }
+    },
+    {
+      "id": "cnm_273_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_273_q5",
+        "topicId": "cnm_273",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "△ABC中D在BC内部且BD:DC=1:2，E为AD中点，直线BE交AC于F。过D作DG∥BF交AC于G，画图并证明AF:FC=1:3。",
+        "answer": "在△ADG中E为AD中点，EF∥DG，故F为AG中点，AF=FG。在△CBF中DG∥BF，CD/DB=CG/GF=2，得CG=2GF。由A、F、G、C顺序，FC=FG+GC=3AF。",
+        "explanation": "在△ADG中E为AD中点，EF∥DG，故F为AG中点，AF=FG。在△CBF中DG∥BF，CD/DB=CG/GF=2，得CG=2GF。由A、F、G、C顺序，FC=FG+GC=3AF。",
+        "rubric": [
+          "实际添加DG并确认点序",
+          "中位线或比例得AF=FG",
+          "截线比例得CG=2GF",
+          "相加得1:3"
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_274_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_274_q5",
+        "topicId": "cnm_274",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设计用影长估计旗杆高度的测量方案：竖直标杆高2 m，影长1.5 m，同时旗杆影长6 m。画出两直角三角形，说明相似理由、计算结果和两种可能的测量误差。",
+        "answer": "水平地面、物体竖直给直角，近似平行太阳光给另一组等角，AA相似；2/1.5=h/6，h=8 m。不同步、杆不竖直、地面坡度、影端模糊等会影响结果，不能将比例当无条件成立。",
+        "explanation": "水平地面、物体竖直给直角，近似平行太阳光给另一组等角，AA相似；2/1.5=h/6，h=8 m。不同步、杆不竖直、地面坡度、影端模糊等会影响结果，不能将比例当无条件成立。",
+        "rubric": [
+          "实际示意图、标杆与旗杆对应",
+          "明确同一光线角和直角",
+          "列比例求8 m",
+          "给出至少两项误差及合理控制方法"
+        ]
+      }
+    },
+    {
+      "id": "cnm_275_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_275_q6",
+        "topicId": "cnm_275",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在坐标纸上画△ABC，A(1,1)、B(3,1)、C(1,2)，以O为中心分别按k=2和k=−2作位似像。写坐标并比较两像的方向与面积。",
+        "answer": "k=2像为(2,2)、(6,2)、(2,4)；k=−2像为(−2,−2)、(−6,−2)、(−2,−4)。分别与原点同侧/异侧，边长均为2倍，面积均为4倍。",
+        "explanation": "k=2像为(2,2)、(6,2)、(2,4)；k=−2像为(−2,−2)、(−6,−2)、(−2,−4)。分别与原点同侧/异侧，边长均为2倍，面积均为4倍。",
+        "rubric": [
+          "实际画两像和对应点共线关系",
+          "六坐标正确",
+          "区分带符号系数与正的长度比",
+          "面积均4倍"
+        ]
+      }
+    },
+    {
+      "id": "cnm_276_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_276_q6",
+        "topicId": "cnm_276",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画两个直角三角形，它们各有一个相等的锐角α。用相似说明各自的“α对边/斜边”“邻边/斜边”“对边/邻边”分别相同，为什么不能任意调换对边和邻边？",
+        "answer": "一个直角及锐角α分别相等，故AA相似；对应边成同一比例，三组对应边比不变。对边、邻边相对于所选锐角定义，改选另一个锐角时角色交换，不能不说明角就调换。",
+        "explanation": "一个直角及锐角α分别相等，故AA相似；对应边成同一比例，三组对应边比不变。对边、邻边相对于所选锐角定义，改选另一个锐角时角色交换，不能不说明角就调换。",
+        "rubric": [
+          "实际标两图同一α及三种边",
+          "由AA相似说明比值不变",
+          "准确写三比及参考角"
+        ]
+      }
+    },
+    {
+      "id": "cnm_278_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_278_q6",
+        "topicId": "cnm_278",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "Rt△ABC中∠C=90°，∠A=30°，斜边AB=10 cm。画图，选择关系求出全部其余边和角，列出完整结果并用勾股定理核对。",
+        "answer": "∠B=60°；BC=AB sinA=5 cm，AC=AB cosA=5√3 cm。三角分别30°、60°、90°，三边5、5√3、10；25+75=100核对成立。",
+        "explanation": "∠B=60°；BC=AB sinA=5 cm，AC=AB cosA=5√3 cm。三角分别30°、60°、90°，三边5、5√3、10；25+75=100核对成立。",
+        "rubric": [
+          "实际标直角、已知角和斜边",
+          "选择正确sin/cos对应",
+          "完整给两未知边和第三角",
+          "用平方和核对且长度带单位"
+        ]
+      }
+    },
+    {
+      "id": "cnm_279_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_279_q6",
+        "topicId": "cnm_279",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "观察者目高1.6 m，距竖直旗杆底水平30 m，看到杆顶仰角45°。自画示意图，标眼睛处水平线、仰角及相应俯角，求旗杆高度。",
+        "answer": "眼睛至杆顶的高度差=30tan45°=30 m，加目高1.6得31.6 m。杆顶处相对于水平线的俯角为45°，两水平线平行；不能把仰角标成视线与竖直杆的夹角。",
+        "explanation": "眼睛至杆顶的高度差=30tan45°=30 m，加目高1.6得31.6 m。杆顶处相对于水平线的俯角为45°，两水平线平行；不能把仰角标成视线与竖直杆的夹角。",
+        "rubric": [
+          "实际标目高、水平距离和水平参考线",
+          "用高度差建立正切关系",
+          "加回1.6 m",
+          "在杆顶正确标俯角并说明等角依据"
+        ]
+      }
+    },
+    {
+      "id": "cnm_280_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_280_q6",
+        "topicId": "cnm_280",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画坡面长50 m、坡度3:4的斜坡横截面，标铅直高度、水平宽度和坡角。求高、宽，并说明为什么不能用50×3/4求高度。",
+        "answer": "高:宽=3:4，斜边比例为5，故高30 m、宽40 m；50是坡面斜长，不是水平宽，坡度=高/宽不等于高/坡面长。",
+        "explanation": "高:宽=3:4，斜边比例为5，故高30 m、宽40 m；50是坡面斜长，不是水平宽，坡度=高/宽不等于高/坡面长。",
+        "rubric": [
+          "实际画直角三角形并标三种长度",
+          "用3、4、5比例或勾股求30与40",
+          "解释3/4是tan而非sin"
+        ]
+      }
+    },
+    {
+      "id": "cnm_281_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_281_q6",
+        "topicId": "cnm_281",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "水平地面上灯高6 m，离灯柱底6 m处有竖直高1.5 m的人。画过灯和人头的投影线直到地面，标影长s并列比例求解；说明影长为何不是灯柱底到影端总长。",
+        "answer": "大直角三角形高6、底6+s；小三角形高1.5、底s。1.5/6=s/(6+s)，得s=2 m；灯底到影端为8 m，人的影长从脚下开始。",
+        "explanation": "大直角三角形高6、底6+s；小三角形高1.5、底s。1.5/6=s/(6+s)，得s=2 m；灯底到影端为8 m，人的影长从脚下开始。",
+        "rubric": [
+          "实际画点光源射线、地面交点和两三角形",
+          "底分别6+s与s",
+          "列比例解2 m",
+          "区分总距离8与影长2"
+        ]
+      }
+    },
+    {
+      "id": "cnm_282_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_282_q6",
+        "topicId": "cnm_282",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用侧视示意图表示投影面为一条水平线：先画与它平行的线段AB，再画与它垂直的线段CD。分别过端点作垂直于投影面的投影线，画出两线段的正投影并比较。",
+        "answer": "AB投影为等长线段A′B′；CD两端投影到同一点，投影退化为点。投影线都须垂直于投影面，不是从任意点作放射线。",
+        "explanation": "AB投影为等长线段A′B′；CD两端投影到同一点，投影退化为点。投影线都须垂直于投影面，不是从任意点作放射线。",
+        "rubric": [
+          "实际两种示意图及端点投影线",
+          "平行线段投影等长",
+          "垂直线段投影为点",
+          "区分正投影与点光源投影"
+        ]
+      }
+    },
+    {
+      "id": "cnm_283_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_283_q6",
+        "topicId": "cnm_283",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在2×2底面每格堆小立方体且无悬空，前排/后排各从左到右记录高度。比较搭法甲前排(2,1)、后排(1,2)与乙前排(2,2)、后排(2,1)。画各自俯视、主视、左视图：不标高度数字时，三视图是否足以区分两搭法？",
+        "answer": "两者俯视均2×2满格；主视两列最高都2；左视前后两排最高都2，因此按可见单位格轮廓绘制的三视图相同。甲6块，乙7块，内部遮挡不同；这些三视图不能唯一还原数量，附加每格高度才可区分。",
+        "explanation": "两者俯视均2×2满格；主视两列最高都2；左视前后两排最高都2，因此按可见单位格轮廓绘制的三视图相同。甲6块，乙7块，内部遮挡不同；这些三视图不能唯一还原数量，附加每格高度才可区分。",
+        "rubric": [
+          "实际画两搭法三方向图并标前后左右",
+          "由每列/每排最高判断投影",
+          "计算甲6乙7",
+          "指出还原的歧义而非断言任何三视图唯一"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_268",
+      "beforeHash": "7de15b940fa9c7a322033235f275d4f5a43d99186ae03f08f91234b597886bb1",
+      "before": [
+        {
+          "topicId": "cnm_268",
+          "prerequisiteId": "cnm_p210",
+          "strength": "hard",
+          "reason": "学习「成比例线段」需要先会小学的「比例的意义和基本性质」。成比例线段是比与比例概念在线段上的应用，需要小学已学的比与比例。"
+        },
+        {
+          "topicId": "cnm_268",
+          "prerequisiteId": "cnm_157",
+          "strength": "hard",
+          "reason": "比例变形用分式性质"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_268",
+          "prerequisiteId": "cnm_p210",
+          "strength": "hard",
+          "reason": "学习「成比例线段」需要先会小学的「比例的意义和基本性质」。成比例线段是比与比例概念在线段上的应用，需要小学已学的比与比例。"
+        },
+        {
+          "topicId": "cnm_268",
+          "prerequisiteId": "cnm_157",
+          "strength": "soft",
+          "reason": "可直接使用小学比例基本性质；分式性质提供另一解释，不必先掌握全部分式变形。"
+        }
+      ]
+    }
+  ]
+}

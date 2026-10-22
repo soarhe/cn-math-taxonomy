@@ -1,0 +1,179 @@
+{
+  "batch": "source-boundaries",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_112",
+      "beforeHash": "47f5da36a3b19679b539efeccc5b9fb3cd9039d0edfe467b9aeb6675d4d78545",
+      "before": {
+        "id": "cnm_112",
+        "name": "三角形的高",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十三章 三角形 13.2",
+        "type": "conceptual",
+        "description": "从三角形的一个顶点向对边（或其延长线）作垂线，顶点与垂足间的线段叫高，三角形有三条高。",
+        "mastery_criteria": [
+          "能画出锐角、直角、钝角三角形的高",
+          "知道三条高所在直线交于一点"
+        ],
+        "diagnostic_question": {
+          "question": "钝角三角形的高在三角形外部吗？",
+          "answer": "钝角所对边上的高在三角形内部，另外两条在外部"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.23",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_112",
+        "name": "三角形的高",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十三章 三角形 13.2",
+        "type": "conceptual",
+        "description": "从三角形的一个顶点向对边（或其延长线）作垂线，顶点与垂足间的线段叫高，三角形有三条高。",
+        "mastery_criteria": [
+          "能画出锐角、直角、钝角三角形的高",
+          "能识别顶点、对边所在直线与垂足"
+        ],
+        "diagnostic_question": {
+          "question": "钝角三角形的高在三角形外部吗？",
+          "answer": "钝角所对边上的高在三角形内部，另外两条在外部"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.23",
+            "confidence": "exact"
+          }
+        ],
+        "scope_note": "三高共点及垂心位置作为补充知识，不列入本节点核心诊断。依据2022课标印刷页65三角形①未列该结论；这是本库范围取舍，不声称课标禁止教学。"
+      }
+    },
+    {
+      "id": "cnm_263",
+      "beforeHash": "d035304ceebc468f83a1f5861c2755893af09aaa5575b550aa1078dacdd0feea",
+      "before": {
+        "id": "cnm_263",
+        "name": "切线长定理",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第三十章 直线与圆的位置关系 30.1",
+        "type": "reasoning",
+        "description": "从圆外一点引圆的两条切线，切线长相等，圆心与该点的连线平分两切线的夹角。",
+        "mastery_criteria": [
+          "能叙述定理",
+          "能用于求线段与角"
+        ],
+        "diagnostic_question": {
+          "question": "从圆外点 P 引切线 PA、PB，PA=6，PB 多长？",
+          "answer": "6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.52",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_263",
+        "name": "切线长定理",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第三十章 直线与圆的位置关系 30.1",
+        "type": "reasoning",
+        "description": "从圆外一点引圆的两条切线，切线长相等，圆心与该点的连线平分两切线的夹角。",
+        "mastery_criteria": [
+          "能叙述定理",
+          "能用于求线段与角"
+        ],
+        "diagnostic_question": {
+          "question": "从圆外点 P 引切线 PA、PB，PA=6，PB 多长？",
+          "answer": "6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.52",
+            "confidence": "exact"
+          }
+        ],
+        "curriculum_scope": "optional",
+        "scope_note": "2022课标印刷页67圆⑧有星号，为选学。"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_112_q5",
+      "beforeHash": "57f94dd5b722a25f8d7891d7501f61677d6a3e2a4c120e7a71382ca558c7e1f0",
+      "before": {
+        "id": "cnm_112_q5",
+        "topicId": "cnm_112",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "钝角三角形三条高所在直线的交点在什么位置？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "三角形内部"
+          },
+          {
+            "key": "B",
+            "text": "某一边的中点"
+          },
+          {
+            "key": "C",
+            "text": "三角形外部"
+          },
+          {
+            "key": "D",
+            "text": "某一个顶点"
+          }
+        ],
+        "explanation": "三角形三条高所在直线交于一点；锐角三角形交点在内部，直角三角形在直角顶点，钝角三角形在外部。"
+      },
+      "after": {
+        "id": "cnm_112_q5",
+        "topicId": "cnm_112",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "钝角三角形三条高所在直线的交点在什么位置？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "三角形内部"
+          },
+          {
+            "key": "B",
+            "text": "某一边的中点"
+          },
+          {
+            "key": "C",
+            "text": "三角形外部"
+          },
+          {
+            "key": "D",
+            "text": "某一个顶点"
+          }
+        ],
+        "explanation": "三角形三条高所在直线交于一点；锐角三角形交点在内部，直角三角形在直角顶点，钝角三角形在外部。",
+        "curriculum_scope": "supplementary"
+      }
+    }
+  ],
+  "dependencies": []
+}

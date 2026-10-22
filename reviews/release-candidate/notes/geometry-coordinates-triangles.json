@@ -1,0 +1,480 @@
+[
+  {
+    "topicId": "cnm_071",
+    "name": "定义、命题与定理",
+    "decision": "revise",
+    "finding": "真假、反例选项正确，但标准要求自行改写命题与举反例，补开放任务。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_071_q1",
+      "cnm_071_q2",
+      "cnm_071_q3",
+      "cnm_071_q4",
+      "cnm_071_q5"
+    ],
+    "snapshotSha256": "c6009e0c11646150b30d9a974858802720d56f6dcca302f2d1c3124e62cfd4e7",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "5e73f2f5c816cda7f92b17f0ca81011f2d9792a93e1fc596be4874a7b65fc1f2",
+    "postQuestionIds": [
+      "cnm_071_q1",
+      "cnm_071_q2",
+      "cnm_071_q3",
+      "cnm_071_q4",
+      "cnm_071_q5",
+      "cnm_071_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_072",
+    "name": "平移的概念与性质",
+    "decision": "revise",
+    "finding": "q5沿BC方向应明确B指向C，否则方向歧义；对应点连线性质保留。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_072_q1",
+      "cnm_072_q2",
+      "cnm_072_q3",
+      "cnm_072_q4",
+      "cnm_072_q5"
+    ],
+    "snapshotSha256": "94501b1ef584b6d408a8d28d39089c729d522ca4090a7b0ed85eb85c5abf16f8",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "6a4992d7fde6bdd4d140b08fca9d8911e1540de31564dd9c68d1e3d3b81f0d73",
+    "postQuestionIds": [
+      "cnm_072_q1",
+      "cnm_072_q2",
+      "cnm_072_q3",
+      "cnm_072_q4",
+      "cnm_072_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_073",
+    "name": "平移作图",
+    "decision": "revise",
+    "finding": "题名作图却无实际作图任务，现有坐标题借用后续坐标章节；补不依赖坐标的方格平移图作业。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_073_q1",
+      "cnm_073_q2",
+      "cnm_073_q3",
+      "cnm_073_q4",
+      "cnm_073_q5"
+    ],
+    "snapshotSha256": "651317e56bf7c755f02d1f2e82a0b6355e7831b7caa7295d1d6a6c272809f5ea",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "9783442a6872cc1e6cff86906ccc0268da8ac9e9901e4112388d4400813fcfbd",
+    "postQuestionIds": [
+      "cnm_073_q1",
+      "cnm_073_q2",
+      "cnm_073_q3",
+      "cnm_073_q4",
+      "cnm_073_q5",
+      "cnm_073_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_081",
+    "name": "有序数对",
+    "decision": "revise",
+    "finding": "描述顺序不同位置不同应改为交换分量可能改变位置，(3,3)反例；现题正确。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_081_q1",
+      "cnm_081_q2",
+      "cnm_081_q3",
+      "cnm_081_q4"
+    ],
+    "snapshotSha256": "220c5af55ac44be88e24e5b8bcaa951db515c41490585634715f28ff6d529e47",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "f9628273c33190084f9ccd4871ad084ef6d8f38189961a21c9aafb62ec13dd2f",
+    "postQuestionIds": [
+      "cnm_081_q1",
+      "cnm_081_q2",
+      "cnm_081_q3",
+      "cnm_081_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_082",
+    "name": "平面直角坐标系与点的坐标",
+    "decision": "revise",
+    "finding": "只有选项和已给坐标，没有真正读图/描点任务，补双向任务及坐标轴标注。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_082_q1",
+      "cnm_082_q2",
+      "cnm_082_q3",
+      "cnm_082_q4"
+    ],
+    "snapshotSha256": "f0d4e3b0e568e26167ab019e14e12e14bf5488c4a8328cf5bfb94e494d94dadc",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "a6507ed10faf2ac28d0afe1933ba740f2cae54030ab0a672cd403ed5d63a2068",
+    "postQuestionIds": [
+      "cnm_082_q1",
+      "cnm_082_q2",
+      "cnm_082_q3",
+      "cnm_082_q4",
+      "cnm_082_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_083",
+    "name": "象限与坐标轴上点的坐标特征",
+    "decision": "retain",
+    "finding": "象限符号、轴上零坐标、负半轴不属象限均覆盖，五题答案正确。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_083_q1",
+      "cnm_083_q2",
+      "cnm_083_q3",
+      "cnm_083_q4",
+      "cnm_083_q5"
+    ],
+    "snapshotSha256": "c716af1963af0619507ebd9b6aed608dc4b77c7f3f1114288aff27c045ba26d1",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "c716af1963af0619507ebd9b6aed608dc4b77c7f3f1114288aff27c045ba26d1",
+    "postQuestionIds": [
+      "cnm_083_q1",
+      "cnm_083_q2",
+      "cnm_083_q3",
+      "cnm_083_q4",
+      "cnm_083_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_084",
+    "name": "用坐标描述简单几何图形",
+    "decision": "revise",
+    "finding": "距离和面积计算正确；绝对值008是表达距离的方法之一，不应阻挡直接数格/比较坐标法，降soft；补自行选坐标系描述图形任务。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_084_q1",
+      "cnm_084_q2",
+      "cnm_084_q3",
+      "cnm_084_q4"
+    ],
+    "snapshotSha256": "0692cf5ad4a6b064101ae49b59baeca45885053ddc71a9108ab76a9cf8540190",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "6658a1fe7d62ec7a7ccdcc6148f3f055ab95124f1dc303ddfb59d71ab9b505fb",
+    "postQuestionIds": [
+      "cnm_084_q1",
+      "cnm_084_q2",
+      "cnm_084_q3",
+      "cnm_084_q4",
+      "cnm_084_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_085",
+    "name": "用坐标表示地理位置",
+    "decision": "revise",
+    "finding": "选择合适原点为选项辨认，其他题已给原点、方向、单位；补自行建系、比较坐标不同而实际位置相同的任务。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_085_q1",
+      "cnm_085_q2",
+      "cnm_085_q3",
+      "cnm_085_q4"
+    ],
+    "snapshotSha256": "93b829be4c98e14779acf7455d8c34563116ed8b310309ec2c310470aebd09ff",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "ad0488ea7f4f67e00bc3156fa09f4b52869bc556f93deb1757d1ec5d5df4f379",
+    "postQuestionIds": [
+      "cnm_085_q1",
+      "cnm_085_q2",
+      "cnm_085_q3",
+      "cnm_085_q4",
+      "cnm_085_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_086",
+    "name": "用坐标表示平移",
+    "decision": "retain",
+    "finding": "正逆平移、多个点统一位移答案与解释一致，保留；实际绘图由073承担，节点本身不声称测到画图。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_086_q1",
+      "cnm_086_q2",
+      "cnm_086_q3",
+      "cnm_086_q4"
+    ],
+    "snapshotSha256": "7a8f1c5b5d38e2d67745a6309b43a01d812131af8a5b9bef934ce587bc75b55e",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "7a8f1c5b5d38e2d67745a6309b43a01d812131af8a5b9bef934ce587bc75b55e",
+    "postQuestionIds": [
+      "cnm_086_q1",
+      "cnm_086_q2",
+      "cnm_086_q3",
+      "cnm_086_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_110",
+    "name": "三角形的概念与分类",
+    "decision": "revise",
+    "finding": "按边分类把等腰和等边并列会掩盖包含关系，明确等边是特殊等腰；现分类与比例角题答案正确。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_110_q1",
+      "cnm_110_q2",
+      "cnm_110_q3",
+      "cnm_110_q4"
+    ],
+    "snapshotSha256": "8b3b7b4cf768bbccd1c80b2fa9a7ad66611425d6415cdc290a41ad0a36806ef1",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "c623298f729566626c6df167e2c06dd4047e3c4be4ba8725585583ff02a1791f",
+    "postQuestionIds": [
+      "cnm_110_q1",
+      "cnm_110_q2",
+      "cnm_110_q3",
+      "cnm_110_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_111",
+    "name": "三角形三边关系",
+    "decision": "retain",
+    "finding": "严格三边不等式、整数上界及等腰两种边分配检验正确，保留。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_111_q1",
+      "cnm_111_q2",
+      "cnm_111_q3",
+      "cnm_111_q4"
+    ],
+    "snapshotSha256": "440b9f78d1455a8a51f587d4eea42dde6820782ff467a37a58998b8198a1cbec",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "440b9f78d1455a8a51f587d4eea42dde6820782ff467a37a58998b8198a1cbec",
+    "postQuestionIds": [
+      "cnm_111_q1",
+      "cnm_111_q2",
+      "cnm_111_q3",
+      "cnm_111_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_112",
+    "name": "三角形的高",
+    "decision": "revise",
+    "finding": "高的内部/外部、面积计算正确，缺三类三角形实际作高任务；三高共点的课标核心资格待条目核对，暂不凭教师印象降级。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_112_q1",
+      "cnm_112_q2",
+      "cnm_112_q3",
+      "cnm_112_q4",
+      "cnm_112_q5"
+    ],
+    "snapshotSha256": "6d820b20f88d82c21f488199ca7e54bc2e4affeb13bf561a1c7044e10dd14e83",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "f309c1bcd0cc03f75a392b80739e7f68946688daec4400ddd588878f60dce878",
+    "postQuestionIds": [
+      "cnm_112_q1",
+      "cnm_112_q2",
+      "cnm_112_q3",
+      "cnm_112_q4",
+      "cnm_112_q5",
+      "cnm_112_q6"
+    ],
+    "sourceResolution": "已核对2022课标印刷页65三角形①；高的概念属于核心，垂心共点及位置列补充。见source-boundaries.json。",
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_113",
+    "name": "三角形的中线",
+    "decision": "revise",
+    "finding": "中线长度、面积及周长差正确；缺实际画中线和等底同高的完整说理任务。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_113_q1",
+      "cnm_113_q2",
+      "cnm_113_q3",
+      "cnm_113_q4"
+    ],
+    "snapshotSha256": "b24397183bbba7316f9171a633cfba615285ed2387316c53f2f45553824ba7b4",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "dfc10672de8cb1fc980bf1ad4c72ed56584d1a5ce6bf13815e987b9420d9808e",
+    "postQuestionIds": [
+      "cnm_113_q1",
+      "cnm_113_q2",
+      "cnm_113_q3",
+      "cnm_113_q4",
+      "cnm_113_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_114",
+    "name": "三角形的角平分线",
+    "decision": "revise",
+    "finding": "角度及内心位置正确，缺实际画内角平分线任务；q3/q5用三角形内角和是后续学习依赖，作阶段说明。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_114_q1",
+      "cnm_114_q2",
+      "cnm_114_q3",
+      "cnm_114_q4",
+      "cnm_114_q5"
+    ],
+    "snapshotSha256": "4ec959828c706416cf180f1ceb44b22af125b56a0402c0c2ff3bb486f7f4c374",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "3d21e347ecaf8d4942c3b73dd1810895911e452a6439402850714cd9ac7c6056",
+    "postQuestionIds": [
+      "cnm_114_q1",
+      "cnm_114_q2",
+      "cnm_114_q3",
+      "cnm_114_q4",
+      "cnm_114_q5",
+      "cnm_114_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_115",
+    "name": "三角形内角和定理",
+    "decision": "revise",
+    "finding": "证明题只选择依据，补自己画辅助线并完成完整证明；数值与双情况答案正确。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_115_q1",
+      "cnm_115_q2",
+      "cnm_115_q3",
+      "cnm_115_q4",
+      "cnm_115_q5"
+    ],
+    "snapshotSha256": "8be82aac113c2ba8dc6cac3806717a178159f93a970e739ce3949fd41e8bc8b5",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-coordinates.json"
+    ],
+    "postImplementationSha256": "e91e3bf07688081573df5693d0bdd9f2279137b85753832db097df05755c340f",
+    "postQuestionIds": [
+      "cnm_115_q1",
+      "cnm_115_q2",
+      "cnm_115_q3",
+      "cnm_115_q4",
+      "cnm_115_q5",
+      "cnm_115_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_116",
+    "name": "直角三角形的两个锐角互余",
+    "decision": "retain",
+    "finding": "互余性质及逆向判断和斜边高角关系正确，五题保留。",
+    "scope": "逐题题干、选项文字、答案、解析与先修检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_116_q1",
+      "cnm_116_q2",
+      "cnm_116_q3",
+      "cnm_116_q4",
+      "cnm_116_q5"
+    ],
+    "snapshotSha256": "d2b87b880a835dc0d64a1e8a89644b51e84ab20758584db9c88cbb67bbc15605",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "d2b87b880a835dc0d64a1e8a89644b51e84ab20758584db9c88cbb67bbc15605",
+    "postQuestionIds": [
+      "cnm_116_q1",
+      "cnm_116_q2",
+      "cnm_116_q3",
+      "cnm_116_q4",
+      "cnm_116_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

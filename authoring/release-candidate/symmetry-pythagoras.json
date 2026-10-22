@@ -1,0 +1,887 @@
+{
+  "batch": "release-candidate-symmetry-pythagoras",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_181",
+      "beforeHash": "fd5e7e6d5b5d9ea445a13b6130b3275b516d7f69ebf6d6c6a954ae509b85ba57",
+      "before": {
+        "id": "cnm_181",
+        "name": "多边形的内角和",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十一章 四边形 21.1",
+        "type": "reasoning",
+        "description": "n 边形内角和为 (n-2)×180°，可通过分割成三角形推导。",
+        "mastery_criteria": [
+          "能推导内角和公式",
+          "能用公式求边数或角度"
+        ],
+        "diagnostic_question": {
+          "question": "八边形内角和是多少？",
+          "answer": "1080°"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.39",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_181",
+        "name": "多边形的内角和",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十一章 四边形 21.1",
+        "type": "reasoning",
+        "description": "凸n边形可从一个顶点作对角线分成n−2个三角形，因此内角和为(n−2)×180°。核心推导使用凸多边形，避免把任意凹图从一顶点扇形分割的步骤照搬。",
+        "mastery_criteria": [
+          "能推导内角和公式",
+          "能用公式求边数或角度"
+        ],
+        "diagnostic_question": {
+          "question": "八边形内角和是多少？",
+          "answer": "1080°"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.39",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_182",
+      "beforeHash": "c742d52e2ade5707c45eae0411b368a3c2a1db6c244ab5fb595a6c2fff6518bb",
+      "before": {
+        "id": "cnm_182",
+        "name": "多边形的外角和",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十一章 四边形 21.1",
+        "type": "reasoning",
+        "description": "任意多边形的外角和为 360°。",
+        "mastery_criteria": [
+          "能说明外角和为 360°",
+          "能用于求正多边形的边数"
+        ],
+        "diagnostic_question": {
+          "question": "正六边形一个外角是多少度？",
+          "answer": "60°"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.39",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_182",
+        "name": "多边形的外角和",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十一章 四边形 21.1",
+        "type": "reasoning",
+        "description": "凸多边形每个顶点取一个与内角相邻、沿边同一绕行方向的外角，外角和为360°。凹多边形涉及有向转角约定，不沿用未加说明的正角求和。",
+        "mastery_criteria": [
+          "能说明外角和为 360°",
+          "能用于求正多边形的边数"
+        ],
+        "diagnostic_question": {
+          "question": "正六边形一个外角是多少度？",
+          "answer": "60°"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.39",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_134_q4",
+      "beforeHash": "1daabec8c133f2dc530f9cc29416ac880c286981b21770b8d1c4053e8f86332e",
+      "before": {
+        "id": "cnm_134_q4",
+        "topicId": "cnm_134",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "分别以线段 AB 的两端点 A、B 为圆心，5 cm 为半径画弧，两弧相交于 C、D。若 AB=8 cm，求 CD 的长。（单位：cm）",
+        "answer": "6",
+        "explanation": "CD 垂直平分 AB，设交点为 M，则 AM=4，CM=√(5²-4²)=3，CD=2CM=6。",
+        "verify": "2*sqrt(5**2-4**2)"
+      },
+      "after": {
+        "id": "cnm_134_q4",
+        "topicId": "cnm_134",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "分别以线段 AB 的两端点 A、B 为圆心，5 cm 为半径画弧，两弧相交于 C、D。若 AB=8 cm，求 CD 的长。（单位：cm）",
+        "answer": "6",
+        "explanation": "CD 垂直平分 AB，设交点为 M，则 AM=4，CM=√(5²-4²)=3，CD=2CM=6。 本题需勾股定理，安排在学完该定理后的复习阶段；不作为本节点首次学习的作图/性质证据。",
+        "verify": "2*sqrt(5**2-4**2)"
+      }
+    },
+    {
+      "id": "cnm_134_q5",
+      "beforeHash": "ed94473086acff3d3026ae9cddfc1a0a59a4e4b9fcb991ed89314c949753d4d6",
+      "before": {
+        "id": "cnm_134_q5",
+        "topicId": "cnm_134",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "线段 AB=6 cm，点 P 在 AB 的垂直平分线上，且 PA=5 cm，求点 P 到直线 AB 的距离。（单位：cm）",
+        "answer": "4",
+        "explanation": "设垂足为 M，则 AM=3，PM⊥AB，PM=√(5²-3²)=4。",
+        "verify": "sqrt(5**2-3**2)"
+      },
+      "after": {
+        "id": "cnm_134_q5",
+        "topicId": "cnm_134",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "线段 AB=6 cm，点 P 在 AB 的垂直平分线上，且 PA=5 cm，求点 P 到直线 AB 的距离。（单位：cm）",
+        "answer": "4",
+        "explanation": "设垂足为 M，则 AM=3，PM⊥AB，PM=√(5²-3²)=4。 本题需勾股定理，安排在学完该定理后的复习阶段；不作为本节点首次学习的作图/性质证据。",
+        "verify": "sqrt(5**2-3**2)"
+      }
+    },
+    {
+      "id": "cnm_135_q1",
+      "beforeHash": "fa00ee63dbdb1dd989ec9c2a4e52db1f6632ce2a444c0f838d3d190d6456e1c8",
+      "before": {
+        "id": "cnm_135_q1",
+        "topicId": "cnm_135",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "如何作点 A 关于直线 l 的对称点？",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "过 A 作 l 的平行线，在 l 的另一侧截取等长线段"
+          },
+          {
+            "key": "B",
+            "text": "以 A 为圆心、任意长为半径画弧交 l 于一点，该点即所求"
+          },
+          {
+            "key": "C",
+            "text": "连接 A 与 l 上任一点 P 并延长到 A′，使 PA′=PA"
+          },
+          {
+            "key": "D",
+            "text": "过 A 作 l 的垂线，垂足为 O，在垂线上另一侧截取 OA′=OA，A′ 即所求"
+          }
+        ],
+        "explanation": "对称点的连线被对称轴垂直平分，所以要先作垂线，再取等距点。"
+      },
+      "after": {
+        "id": "cnm_135_q1",
+        "topicId": "cnm_135",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "如何作点 A 关于直线 l 的对称点？（A不在l上。）",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "过 A 作 l 的平行线，在 l 的另一侧截取等长线段"
+          },
+          {
+            "key": "B",
+            "text": "以 A 为圆心、任意长为半径画弧交 l 于一点，该点即所求"
+          },
+          {
+            "key": "C",
+            "text": "连接 A 与 l 上任一点 P 并延长到 A′，使 PA′=PA"
+          },
+          {
+            "key": "D",
+            "text": "过 A 作 l 的垂线，垂足为 O，在垂线上另一侧截取 OA′=OA，A′ 即所求"
+          }
+        ],
+        "explanation": "对称点的连线被对称轴垂直平分，所以要先作垂线，再取等距点。"
+      }
+    },
+    {
+      "id": "cnm_137_q4",
+      "beforeHash": "9ce959d730ebcbfd4174294542811b488a45823221d929749474cbe1b11dc64f",
+      "before": {
+        "id": "cnm_137_q4",
+        "topicId": "cnm_137",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "等腰 △ABC 中，AB=AC=13，BC=10，AD⊥BC 于 D，求 AD 的长。",
+        "answer": "12",
+        "explanation": "三线合一，D 是 BC 中点，BD=5，AD=√(13²-5²)=12。",
+        "verify": "sqrt(13**2-5**2)"
+      },
+      "after": {
+        "id": "cnm_137_q4",
+        "topicId": "cnm_137",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "等腰 △ABC 中，AB=AC=13，BC=10，AD⊥BC 于 D，求 AD 的长。",
+        "answer": "12",
+        "explanation": "三线合一，D 是 BC 中点，BD=5，AD=√(13²-5²)=12。 本题需勾股定理，安排在学完该定理后的复习阶段；不作为本节点首次学习的作图/性质证据。",
+        "verify": "sqrt(13**2-5**2)"
+      }
+    },
+    {
+      "id": "cnm_138_q3",
+      "beforeHash": "562a71fcd3c1839555e2b8dfddc9e1ad4b51c27249c83e96a2352fbdeed9b78a",
+      "before": {
+        "id": "cnm_138_q3",
+        "topicId": "cnm_138",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列条件中，能判定 △ABC 是等腰三角形的是：",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "∠A=30°，∠B=50°"
+          },
+          {
+            "key": "B",
+            "text": "∠A=50°，∠B=60°"
+          },
+          {
+            "key": "C",
+            "text": "∠A=20°，∠B=60°"
+          },
+          {
+            "key": "D",
+            "text": "∠A=40°，∠B=70°"
+          }
+        ],
+        "explanation": "先求第三个角：A 项中 ∠C=70°=∠B，是等腰三角形；其余各项三个角两两不等。"
+      },
+      "after": {
+        "id": "cnm_138_q3",
+        "topicId": "cnm_138",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列条件中，能判定 △ABC 是等腰三角形的是：",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "∠A=30°，∠B=50°"
+          },
+          {
+            "key": "B",
+            "text": "∠A=50°，∠B=60°"
+          },
+          {
+            "key": "C",
+            "text": "∠A=20°，∠B=60°"
+          },
+          {
+            "key": "D",
+            "text": "∠A=40°，∠B=70°"
+          }
+        ],
+        "explanation": "D项∠C=180°−40°−70°=70°=∠B，所以是等腰三角形。A项第三角100°，B项70°，C项100°；这三项的三个角均两两不同。"
+      }
+    },
+    {
+      "id": "cnm_181_q3",
+      "beforeHash": "360d942855fe8227424dc2aaaee26ea839a6bfb942224f94318501026b84d126",
+      "before": {
+        "id": "cnm_181_q3",
+        "topicId": "cnm_181",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "把 n 边形从一个顶点出发的所有对角线都画出来，它被分成几个三角形？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "n-3 个"
+          },
+          {
+            "key": "B",
+            "text": "n-2 个"
+          },
+          {
+            "key": "C",
+            "text": "n-1 个"
+          },
+          {
+            "key": "D",
+            "text": "n 个"
+          }
+        ],
+        "answer": "B",
+        "explanation": "从一个顶点可引 n-3 条对角线，把多边形分成 n-2 个三角形，所以内角和为 (n-2)×180°。"
+      },
+      "after": {
+        "id": "cnm_181_q3",
+        "topicId": "cnm_181",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "把 凸n边形从一个顶点出发的所有对角线都画出来，它被分成几个三角形？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "n-3 个"
+          },
+          {
+            "key": "B",
+            "text": "n-2 个"
+          },
+          {
+            "key": "C",
+            "text": "n-1 个"
+          },
+          {
+            "key": "D",
+            "text": "n 个"
+          }
+        ],
+        "answer": "B",
+        "explanation": "从一个顶点可引 n-3 条对角线，把多边形分成 n-2 个三角形，所以内角和为 (n-2)×180°。"
+      }
+    },
+    {
+      "id": "cnm_182_q2",
+      "beforeHash": "070c58639815d0f7fc101d3555cd2393a6d5e9cfb2f64917a102a8b82b0e10c3",
+      "before": {
+        "id": "cnm_182_q2",
+        "topicId": "cnm_182",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "任意多边形的外角和（每个顶点处取一个外角）等于：",
+        "choices": [
+          {
+            "key": "A",
+            "text": "360°"
+          },
+          {
+            "key": "B",
+            "text": "180°"
+          },
+          {
+            "key": "C",
+            "text": "(n-2)×180°"
+          },
+          {
+            "key": "D",
+            "text": "与边数 n 有关"
+          }
+        ],
+        "answer": "A",
+        "explanation": "任意多边形的外角和都等于 360°，与边数无关。"
+      },
+      "after": {
+        "id": "cnm_182_q2",
+        "topicId": "cnm_182",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "凸多边形的外角和（沿边同一绕行方向，每个顶点处取一个与内角邻补的外角）等于：",
+        "choices": [
+          {
+            "key": "A",
+            "text": "360°"
+          },
+          {
+            "key": "B",
+            "text": "180°"
+          },
+          {
+            "key": "C",
+            "text": "(n-2)×180°"
+          },
+          {
+            "key": "D",
+            "text": "与边数 n 有关"
+          }
+        ],
+        "answer": "A",
+        "explanation": "凸n边形的n组内外邻补角合计n×180°，减去内角和(n−2)×180°，得到360°，与边数无关。"
+      }
+    },
+    {
+      "id": "cnm_182_q4",
+      "beforeHash": "2a3903a740ad202eca64110dd3efc4e7b5f482af6cc966dd8baeb9ece3133167",
+      "before": {
+        "id": "cnm_182_q4",
+        "topicId": "cnm_182",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "一个多边形的内角和是外角和的 3 倍，求这个多边形的边数。",
+        "answer": "8",
+        "explanation": "外角和为 360°，内角和为 1080°，(n-2)×180=1080，n=8。",
+        "verify": "3*360//180+2"
+      },
+      "after": {
+        "id": "cnm_182_q4",
+        "topicId": "cnm_182",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "一个凸多边形的内角和是外角和的 3 倍，求这个多边形的边数。",
+        "answer": "8",
+        "explanation": "外角和为 360°，内角和为 1080°，(n-2)×180=1080，n=8。",
+        "verify": "3*360//180+2"
+      }
+    },
+    {
+      "id": "cnm_134_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_134_q6",
+        "topicId": "cnm_134",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "自画一条非零线段AB，用圆规与无刻度直尺作其垂直平分线，保留两组交弧痕迹。标中点M并说明为何所作直线同时垂直和平分AB。",
+        "answer": "以A、B为圆心取相同且大于AB/2的半径画弧，交于不同两点C、D，连CD交AB于M。C、D各到A、B等距，由垂直平分线判定均在该线上，两点定线得到CD即所求。",
+        "explanation": "以A、B为圆心取相同且大于AB/2的半径画弧，交于不同两点C、D，连CD交AB于M。C、D各到A、B等距，由垂直平分线判定均在该线上，两点定线得到CD即所求。",
+        "rubric": [
+          "实际保留相同半径交弧而非先测中点替代",
+          "两交点不同且半径条件正确",
+          "用等距判定及两点定线说明依据",
+          "标交点M及直角/等分记号"
+        ]
+      }
+    },
+    {
+      "id": "cnm_135_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_135_q5",
+        "topicId": "cnm_135",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上画一个三角形ABC及经过顶点A、但不经过B、C的直线l。作三角形关于l的对称图形并保留对应点的垂线、等距记号，说明A的像在哪里。",
+        "answer": "A′=A；分别过B、C作l的垂线并在另一侧截取相同距离得B′、C′，连接A′B′C′。轴上的点固定，不能把A再移到轴外。",
+        "explanation": "A′=A；分别过B、C作l的垂线并在另一侧截取相同距离得B′、C′，连接A′B′C′。轴上的点固定，不能把A再移到轴外。",
+        "rubric": [
+          "实际画三角形及给定轴",
+          "轴外两点先作垂线再等距",
+          "保留A固定并连接对应顶点",
+          "用垂直平分关系核对"
+        ]
+      }
+    },
+    {
+      "id": "cnm_136_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_136_q6",
+        "topicId": "cnm_136",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在坐标纸上画△ABC，A(1,1)、B(3,1)、C(1,2)。分别画它关于x轴和y轴的像，写各顶点坐标，并用图说明两条坐标变化规则。",
+        "answer": "关于x轴：(1,−1)、(3,−1)、(1,−2)；关于y轴：(−1,1)、(−3,1)、(−1,2)。前者横坐标不变、纵坐标取相反数，后者相反。",
+        "explanation": "关于x轴：(1,−1)、(3,−1)、(1,−2)；关于y轴：(−1,1)、(−3,1)、(−1,2)。前者横坐标不变、纵坐标取相反数，后者相反。",
+        "rubric": [
+          "实际画原图及两像，使用统一刻度",
+          "写出六个正确坐标",
+          "从垂直于对称轴及两侧等距解释规则"
+        ]
+      }
+    },
+    {
+      "id": "cnm_137_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_137_q6",
+        "topicId": "cnm_137",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "△ABC中AB=AC，D为BC中点。画图并用SSS证明两底角相等，同时说明AD为什么也是顶角平分线和底边上的高。",
+        "answer": "AB=AC、BD=CD、AD公共，△ABD≌△ACD（SSS）；故∠B=∠C，∠BAD=∠CAD且∠ADB=∠ADC。后两角互补，所以都90°；AD同时为中线、顶角平分线和高。",
+        "explanation": "AB=AC、BD=CD、AD公共，△ABD≌△ACD（SSS）；故∠B=∠C，∠BAD=∠CAD且∠ADB=∠ADC。后两角互补，所以都90°；AD同时为中线、顶角平分线和高。",
+        "rubric": [
+          "三组边及对应顺序正确",
+          "分别推出底角相等与顶角平分",
+          "用邻补证明直角，而非直接假设AD垂直"
+        ]
+      }
+    },
+    {
+      "id": "cnm_138_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_138_q6",
+        "topicId": "cnm_138",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "已知△ABC中∠B=∠C。作∠A的平分线交BC于D，写出证明AB=AC的过程，不能直接把待证结论当已知。",
+        "answer": "∠BAD=∠CAD，∠B=∠C，AD公共；△ABD≌△ACD（AAS），所以AB=AC。没有使用AB=AC作为全等条件，避免循环论证。",
+        "explanation": "∠BAD=∠CAD，∠B=∠C，AD公共；△ABD≌△ACD（AAS），所以AB=AC。没有使用AB=AC作为全等条件，避免循环论证。",
+        "rubric": [
+          "实际画平分线",
+          "列两角及对应非夹边AD",
+          "AAS对应正确",
+          "推出AB=AC而不预先使用"
+        ]
+      }
+    },
+    {
+      "id": "cnm_139_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_139_q6",
+        "topicId": "cnm_139",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "等腰三角形有一个角为60°。分别讨论这个角是顶角、底角时的情况，证明一定是等边三角形。",
+        "answer": "若顶角60°，两底角相等且和120°，故各60°；若底角60°，另一底角60°，顶角也60°。三角相等，由等角对等边得三边相等。",
+        "explanation": "若顶角60°，两底角相等且和120°，故各60°；若底角60°，另一底角60°，顶角也60°。三角相等，由等角对等边得三边相等。",
+        "rubric": [
+          "完整区分顶角和底角",
+          "各自结合等腰性质与内角和",
+          "最后由等角对等边推出等边"
+        ]
+      }
+    },
+    {
+      "id": "cnm_175_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_175_q5",
+        "topicId": "cnm_175",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "取同样的四个直角三角形，直角边a、b，斜边c。画一个边长a+b的大正方形，把四三角形直角放在四个顶角，相邻的两直角边沿大正方形边且合计a+b。证明中间空白是正方形，再用面积证明勾股定理。",
+        "answer": "中间四边都是c；相邻两个三角形的锐角和90°，所以每个中间角为180°−90°=90°。故中间正方形面积c²。(a+b)²=4(ab/2)+c²，展开消去2ab得a²+b²=c²。",
+        "explanation": "中间四边都是c；相邻两个三角形的锐角和90°，所以每个中间角为180°−90°=90°。故中间正方形面积c²。(a+b)²=4(ab/2)+c²，展开消去2ab得a²+b²=c²。",
+        "rubric": [
+          "实际画出无重叠、无遗漏的拼图",
+          "说明中间边等长且角为直角，不凭外观认定正方形",
+          "列总面积与分面积等式",
+          "化简得到定理；a,b均为正"
+        ]
+      }
+    },
+    {
+      "id": "cnm_176_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_176_q5",
+        "topicId": "cnm_176",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "一根25 m长梯子靠在竖直墙与水平地面上，顶端起初高24 m，后降至20 m，梯长不变。分别画前后直角三角形，求底端水平移动距离，说明为何不等于顶端下降4 m。",
+        "answer": "起初水平距离√(625−576)=7 m，后来√(625−400)=15 m，外移8 m。两次使用固定斜边的平方关系，水平与竖直变化不是相同线性关系。",
+        "explanation": "起初水平距离√(625−576)=7 m，后来√(625−400)=15 m，外移8 m。两次使用固定斜边的平方关系，水平与竖直变化不是相同线性关系。",
+        "rubric": [
+          "实际画两个共墙地的直角模型并标量",
+          "分别求7与15",
+          "求差8而非把15当移动量",
+          "说明垂直墙地和梯长不变的假设"
+        ]
+      }
+    },
+    {
+      "id": "cnm_177_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_177_q5",
+        "topicId": "cnm_177",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "已知三角形ABC三边为a、b、c且a²+b²=c²。构造一个直角三角形，使其两直角边长a、b，用勾股定理和SSS证明原三角形是直角三角形。",
+        "answer": "构造的直角三角形斜边d满足d²=a²+b²=c²；长度为正，故d=c。两个三角形三边分别相等，由SSS全等；原三角形对边c的角因此为90°。",
+        "explanation": "构造的直角三角形斜边d满足d²=a²+b²=c²；长度为正，故d=c。两个三角形三边分别相等，由SSS全等；原三角形对边c的角因此为90°。",
+        "rubric": [
+          "构造对象明确且a,b为正",
+          "从平方相等利用正长度得d=c",
+          "SSS转移直角结论",
+          "不把待证逆定理用于证明过程"
+        ]
+      }
+    },
+    {
+      "id": "cnm_178_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_178_q5",
+        "topicId": "cnm_178",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在坐标纸上画A(0,0)、B(3,1)、C(1,−3)，分别构造轴向直角三角形求AB²、AC²、BC²，再用逆定理判断直角位置并求面积。",
+        "answer": "AB²=3²+1²=10，AC²=1²+3²=10，BC²=2²+4²=20；AB²+AC²=BC²，故∠A=90°。面积为(1/2)√10·√10=5。",
+        "explanation": "AB²=3²+1²=10，AC²=1²+3²=10，BC²=2²+4²=20；AB²+AC²=BC²，故∠A=90°。面积为(1/2)√10·√10=5。",
+        "rubric": [
+          "实际描点并标坐标差",
+          "计算三个边平方且BC最长",
+          "使用逆定理说明直角在A",
+          "用两直角边求面积5"
+        ]
+      }
+    },
+    {
+      "id": "cnm_179_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_179_q5",
+        "topicId": "cnm_179",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上画单位数轴，O表示0、A表示2。过A作垂线取AB=1，以O为圆心、OB为半径画弧与数轴两侧相交于P、Q。保留痕迹并解释两点表示什么数。",
+        "answer": "OB²=2²+1²=5，OB=√5；正半轴交点表示√5，负半轴交点表示−√5。两点到O距离相等，但表示的数互为相反数。",
+        "explanation": "OB²=2²+1²=5，OB=√5；正半轴交点表示√5，负半轴交点表示−√5。两点到O距离相等，但表示的数互为相反数。",
+        "rubric": [
+          "实际作单位长度、垂线及圆弧",
+          "用勾股定理得到半径√5",
+          "区分长度非负与数轴负数",
+          "保留圆规截取证据，不能只写小数近似"
+        ]
+      }
+    },
+    {
+      "id": "cnm_181_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_181_q6",
+        "topicId": "cnm_181",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画一个凸六边形，从一个顶点画出所有对角线，数分成几个三角形并推导内角和。再用n表示边数说明一般公式中的n−2从何而来。",
+        "answer": "从一个顶点引3条对角线，分成4个三角形，所以内角和4×180°=720°。一般引n−3条对角线，分成n−2个三角形，得(n−2)×180°。",
+        "explanation": "从一个顶点引3条对角线，分成4个三角形，所以内角和4×180°=720°。一般引n−3条对角线，分成n−2个三角形，得(n−2)×180°。",
+        "rubric": [
+          "实际画凸图及不相交内部对角线",
+          "区别对角线3与三角形4",
+          "说明分割角和没有额外内部点角度",
+          "推广到n−2个三角形"
+        ]
+      }
+    },
+    {
+      "id": "cnm_182_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_182_q5",
+        "topicId": "cnm_182",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画一个凸五边形，按同一绕行方向在每个顶点延长一边并标外角。利用邻补关系与内角和，证明五个外角和360°，再说明与边数无关的原因。",
+        "answer": "每组内外角为180°，五组共900°；内角和540°，外角和900°−540°=360°。一般n×180°−(n−2)×180°=360°。",
+        "explanation": "每组内外角为180°，五组共900°；内角和540°，外角和900°−540°=360°。一般n×180°−(n−2)×180°=360°。",
+        "rubric": [
+          "实际正确标每顶点一个邻补外角",
+          "五边形计算900−540",
+          "给出一般式说明边数项消去",
+          "明确凸和同向绕行约定"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_137",
+      "beforeHash": "a37852531124102fa624c07d2b5efbedaa2848de2f73322b32ae30f71cc0f1fa",
+      "before": [
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_126",
+          "strength": "hard",
+          "reason": "等腰三角形性质的证明要用到全等三角形，需要先会综合运用全等判定"
+        },
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_114",
+          "strength": "hard",
+          "reason": "等腰三角形底边上的角平分线具有三线合一的性质，需要先理解角平分线"
+        },
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_113",
+          "strength": "hard",
+          "reason": "等腰三角形底边上的中线具有三线合一的性质，需要先理解中线"
+        },
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_112",
+          "strength": "hard",
+          "reason": "等腰三角形底边上的高具有三线合一的性质，需要先理解三角形的高"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_126",
+          "strength": "soft",
+          "reason": "可选SSS等具体判定证明等腰性质，不必先熟练全部综合全等方法。"
+        },
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_114",
+          "strength": "hard",
+          "reason": "等腰三角形顶角的平分线与底边中线、高重合，需理解角平分线；不存在“底边上的角平分线”这一表述。"
+        },
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_113",
+          "strength": "hard",
+          "reason": "等腰三角形底边上的中线具有三线合一的性质，需要先理解中线"
+        },
+        {
+          "topicId": "cnm_137",
+          "prerequisiteId": "cnm_112",
+          "strength": "hard",
+          "reason": "等腰三角形底边上的高具有三线合一的性质，需要先理解三角形的高"
+        }
+      ]
+    },
+    {
+      "id": "cnm_138",
+      "beforeHash": "7fabdd90a0efff831fa76d81aa4a95d40ab354a85ee8d2519833dcfcee0bb979",
+      "before": [
+        {
+          "topicId": "cnm_138",
+          "prerequisiteId": "cnm_137",
+          "strength": "hard",
+          "reason": "等腰三角形的判定是其性质的逆命题，需要先掌握等腰三角形的性质"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_138",
+          "prerequisiteId": "cnm_137",
+          "strength": "soft",
+          "reason": "性质可与判定对照；等角对等边可用AAS独立证明，不能把逆命题关系本身当作硬依赖理由。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_176",
+      "beforeHash": "81827b4b35903f71bcc8292fcf4f946e47df0ef3899823c95c7af3719c971028",
+      "before": [
+        {
+          "topicId": "cnm_176",
+          "prerequisiteId": "cnm_174",
+          "strength": "hard",
+          "reason": "勾股定理的应用以勾股定理本身为工具，需要先掌握勾股定理"
+        },
+        {
+          "topicId": "cnm_176",
+          "prerequisiteId": "cnm_171",
+          "strength": "hard",
+          "reason": "勾股定理应用中的结果常是二次根式，需要会化为最简二次根式"
+        },
+        {
+          "topicId": "cnm_176",
+          "prerequisiteId": "cnm_051",
+          "strength": "soft",
+          "reason": "立体图形展开求最短距离"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_176",
+          "prerequisiteId": "cnm_174",
+          "strength": "hard",
+          "reason": "勾股定理的应用以勾股定理本身为工具，需要先掌握勾股定理"
+        },
+        {
+          "topicId": "cnm_176",
+          "prerequisiteId": "cnm_171",
+          "strength": "soft",
+          "reason": "某些非完全平方数结果需要根式化简，但整数边或保留根号的应用可直接完成，不将全部根式化简设为硬门槛。"
+        },
+        {
+          "topicId": "cnm_176",
+          "prerequisiteId": "cnm_051",
+          "strength": "soft",
+          "reason": "立体图形展开求最短距离"
+        }
+      ]
+    },
+    {
+      "id": "cnm_177",
+      "beforeHash": "41753d25bfeccda6ac900d55202da7cde8f1b7444c11a4e2fb1518901f512ddd",
+      "before": [
+        {
+          "topicId": "cnm_177",
+          "prerequisiteId": "cnm_174",
+          "strength": "hard",
+          "reason": "勾股定理的逆定理与勾股定理互为逆命题，需要先掌握勾股定理"
+        },
+        {
+          "topicId": "cnm_177",
+          "prerequisiteId": "cnm_122",
+          "strength": "hard",
+          "reason": "勾股定理逆定理的证明要用边边边判定两个三角形全等，需要先掌握SSS"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_177",
+          "prerequisiteId": "cnm_174",
+          "strength": "hard",
+          "reason": "勾股定理的逆定理与勾股定理互为逆命题，需要先掌握勾股定理"
+        },
+        {
+          "topicId": "cnm_177",
+          "prerequisiteId": "cnm_122",
+          "strength": "soft",
+          "reason": "SSS支持逆定理的证明；直接应用已知逆定理检验三边不要求先熟练SSS证明。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_179",
+      "beforeHash": "b926fecb954ea652d2a2dc59e7a193ea8a378b9378ce404161a706573d352480",
+      "before": [
+        {
+          "topicId": "cnm_179",
+          "prerequisiteId": "cnm_176",
+          "strength": "hard",
+          "reason": "借助勾股定理求线段长"
+        },
+        {
+          "topicId": "cnm_179",
+          "prerequisiteId": "cnm_078",
+          "strength": "hard",
+          "reason": "在数轴上表示无理数是实数在数轴上的表示的具体应用，需要先理解实数与数轴"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_179",
+          "prerequisiteId": "cnm_174",
+          "strength": "hard",
+          "reason": "构造给定直角边的三角形并确定斜边长度直接使用勾股定理，无需先完成全部应用模型。"
+        },
+        {
+          "topicId": "cnm_179",
+          "prerequisiteId": "cnm_078",
+          "strength": "hard",
+          "reason": "在数轴上表示无理数是实数在数轴上的表示的具体应用，需要先理解实数与数轴"
+        }
+      ]
+    }
+  ]
+}

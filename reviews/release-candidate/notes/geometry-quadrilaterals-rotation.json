@@ -1,0 +1,485 @@
+[
+  {
+    "topicId": "cnm_183",
+    "name": "平行四边形的性质",
+    "decision": "revise",
+    "finding": "性质计算正确但没有完整证明；补从平行定义推对边相等及对角线互相平分，126全套综合判定非唯一门槛。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_183_q1",
+      "cnm_183_q2",
+      "cnm_183_q3",
+      "cnm_183_q4",
+      "cnm_183_q5"
+    ],
+    "snapshotSha256": "0ac379638d2438642242cc83ea4a70be14d606a32441161002f779fe58dad0ed",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "3a47ddc26a62940df64c7fccfe623baa096457da461e5fa714863d586edb355f",
+    "postQuestionIds": [
+      "cnm_183_q1",
+      "cnm_183_q2",
+      "cnm_183_q3",
+      "cnm_183_q4",
+      "cnm_183_q5",
+      "cnm_183_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_184",
+    "name": "平行四边形的判定",
+    "decision": "revise",
+    "finding": "判定选择正确，缺证明作品；补一组对边平行且相等与“另一组边相等”区别及反例，183逆命题不是所有判定的必要前提。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_184_q1",
+      "cnm_184_q2",
+      "cnm_184_q3",
+      "cnm_184_q4",
+      "cnm_184_q5"
+    ],
+    "snapshotSha256": "daa8902305db88a45873672478351263a11ff971767ed1c96bacbb6d1d7cdd9c",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "55aafc1efbacc011493d9c4924a53799b4559ed7332473fbd70851513a18cbe9",
+    "postQuestionIds": [
+      "cnm_184_q1",
+      "cnm_184_q2",
+      "cnm_184_q3",
+      "cnm_184_q4",
+      "cnm_184_q5",
+      "cnm_184_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_185",
+    "name": "三角形的中位线",
+    "decision": "revise",
+    "finding": "中位线长度正确，但标准声称会证明，补倍长构造全等和平行四边形完整证明。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_185_q1",
+      "cnm_185_q2",
+      "cnm_185_q3",
+      "cnm_185_q4"
+    ],
+    "snapshotSha256": "867c27caeb25ffcf85bc89367c2805800b5b4f1c36314423e35681fedb7670c6",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "e247bfc3e9e48c9ae2422598c5cc199bb3f03bba6cf3d7cb31277790efe0a611",
+    "postQuestionIds": [
+      "cnm_185_q1",
+      "cnm_185_q2",
+      "cnm_185_q3",
+      "cnm_185_q4",
+      "cnm_185_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_186",
+    "name": "矩形的性质",
+    "decision": "retain",
+    "finding": "矩形对角线、等边构造、面积四等分及q5角关系正确，保留；q2所谓特有相对一般平行四边形而非排除其他四边形。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_186_q1",
+      "cnm_186_q2",
+      "cnm_186_q3",
+      "cnm_186_q4",
+      "cnm_186_q5"
+    ],
+    "snapshotSha256": "d15d69c17abae6ab47bffe3c367211208cacafc9c616eca2c5ab1334945e85b4",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "d15d69c17abae6ab47bffe3c367211208cacafc9c616eca2c5ab1334945e85b4",
+    "postQuestionIds": [
+      "cnm_186_q1",
+      "cnm_186_q2",
+      "cnm_186_q3",
+      "cnm_186_q4",
+      "cnm_186_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_187",
+    "name": "直角三角形斜边上的中线",
+    "decision": "revise",
+    "finding": "斜边中线数值正确但无矩形证明过程，补构造矩形与对角线论证。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_187_q1",
+      "cnm_187_q2",
+      "cnm_187_q3",
+      "cnm_187_q4"
+    ],
+    "snapshotSha256": "2f4fde7555c1cf62fc8fddc495075911a1366135ede81150aa82b16d1a79bd43",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "4f1997493fde2f32ce11f849f9a0ad1e9e3915886ebde0e3ac186f300152dcdb",
+    "postQuestionIds": [
+      "cnm_187_q1",
+      "cnm_187_q2",
+      "cnm_187_q3",
+      "cnm_187_q4",
+      "cnm_187_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_188",
+    "name": "矩形的判定",
+    "decision": "revise",
+    "finding": "矩形判定及勾股计算正确，补等对角线平行四边形判矩形的证明；避免性质逆命题被当独立依据。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_188_q1",
+      "cnm_188_q2",
+      "cnm_188_q3",
+      "cnm_188_q4"
+    ],
+    "snapshotSha256": "3067238b30b8cfd141a6b0e275e2d6cf29a5487252fc1ffa48b9c0d36f356b63",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "948fe8a7815987856296ff6bbc75e9bbb107ade68fdf754970108cda77df4de3",
+    "postQuestionIds": [
+      "cnm_188_q1",
+      "cnm_188_q2",
+      "cnm_188_q3",
+      "cnm_188_q4",
+      "cnm_188_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_189",
+    "name": "菱形的性质",
+    "decision": "retain",
+    "finding": "菱形半对角线计算、面积与边高关系正确，标准以性质叙述/计算为主，保留。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_189_q1",
+      "cnm_189_q2",
+      "cnm_189_q3",
+      "cnm_189_q4",
+      "cnm_189_q5"
+    ],
+    "snapshotSha256": "2e34e0e814de62769b5f67ac7f4dbb39620a309516b0f5eb8cbec3454afa6260",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "2e34e0e814de62769b5f67ac7f4dbb39620a309516b0f5eb8cbec3454afa6260",
+    "postQuestionIds": [
+      "cnm_189_q1",
+      "cnm_189_q2",
+      "cnm_189_q3",
+      "cnm_189_q4",
+      "cnm_189_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_190",
+    "name": "菱形的判定",
+    "decision": "revise",
+    "finding": "菱形判定数值正确，补从对角线垂直和互相平分证明邻边相等过程。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_190_q1",
+      "cnm_190_q2",
+      "cnm_190_q3",
+      "cnm_190_q4",
+      "cnm_190_q5"
+    ],
+    "snapshotSha256": "c16401fb21a3ef6eb8c756c3e67cd03a18fd496826fd3296f721c18af6fa051e",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "ef9ef241e28a96540b33c0b200546d47ffd142f55b61428fd66d091e5adafb20",
+    "postQuestionIds": [
+      "cnm_190_q1",
+      "cnm_190_q2",
+      "cnm_190_q3",
+      "cnm_190_q4",
+      "cnm_190_q5",
+      "cnm_190_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_191",
+    "name": "正方形的性质与判定",
+    "decision": "revise",
+    "finding": "声称会画包含关系但全为数值与选择，补四类关系图及反向命题反例。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_191_q1",
+      "cnm_191_q2",
+      "cnm_191_q3",
+      "cnm_191_q4",
+      "cnm_191_q5"
+    ],
+    "snapshotSha256": "9e1912636757f812490558ff58a743d94e7887b3906f6afd9dd3a098c51d6c42",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "7672de78303127ea222ccf63a85b1fa0fabb6b0474dea15cb774347bb00ed463",
+    "postQuestionIds": [
+      "cnm_191_q1",
+      "cnm_191_q2",
+      "cnm_191_q3",
+      "cnm_191_q4",
+      "cnm_191_q5",
+      "cnm_191_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_192",
+    "name": "四边形中的折叠与动点问题",
+    "decision": "revise",
+    "finding": "折叠和动点数值正确，缺自己画对应与建模过程；属于课标未单列的综合补充方法，标supplementary并补作品，不能硬依赖已学全部正方形判定。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_192_q1",
+      "cnm_192_q2",
+      "cnm_192_q3",
+      "cnm_192_q4"
+    ],
+    "snapshotSha256": "9246e0a515a7bf7a0dc1a73adc64364c44fade4ec8a637b702f745ff56b7ed21",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "6acfb694afe82abb1bb887f795161044da606a522b87da8b302a1dbfea1d6a20",
+    "postQuestionIds": [
+      "cnm_192_q1",
+      "cnm_192_q2",
+      "cnm_192_q3",
+      "cnm_192_q4",
+      "cnm_192_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_239",
+    "name": "反比例函数中 k 的几何意义",
+    "decision": "revise",
+    "finding": "面积数值正确，缺几何推导与不同象限负坐标解释，补画矩形与绝对值面积推理。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_239_q1",
+      "cnm_239_q2",
+      "cnm_239_q3",
+      "cnm_239_q4"
+    ],
+    "snapshotSha256": "310bf8d811dc55ec976f624dcb7a63ea9554ce2698c9fc00394f521a98ff55cb",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "5c10e9e25ef5659ffb4e34e334a4b8f65cb7258ca7fc935f42823b11d09cb871",
+    "postQuestionIds": [
+      "cnm_239_q1",
+      "cnm_239_q2",
+      "cnm_239_q3",
+      "cnm_239_q4",
+      "cnm_239_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_244",
+    "name": "图形的旋转",
+    "decision": "revise",
+    "finding": "q1需点不等于旋转中心；q4需A′不等于A且在AB内部，零旋转也满足旧字面；补旋转有向角与小夹角的范围区别。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_244_q1",
+      "cnm_244_q2",
+      "cnm_244_q3",
+      "cnm_244_q4"
+    ],
+    "snapshotSha256": "d8bb0b55a0dfc41ad6e6a266ad76c52e57904b380766d72a6454becd9e39c6b8",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "336800dc7d2c300dc1f0cc4375b5ae82e8d941fc5dd1bce2db389d1f2e8d54b7",
+    "postQuestionIds": [
+      "cnm_244_q1",
+      "cnm_244_q2",
+      "cnm_244_q3",
+      "cnm_244_q4",
+      "cnm_244_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_245",
+    "name": "旋转的性质",
+    "decision": "revise",
+    "finding": "q1中A相等与B成比例可同时成立（比例1），改B为比例系数不为1；旋转角大于180时不能等同小夹角，中心点也不能构成两射线角；q4补非零和内部条件。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_245_q1",
+      "cnm_245_q2",
+      "cnm_245_q3",
+      "cnm_245_q4"
+    ],
+    "snapshotSha256": "c68307c092a28687e9fb7eefc519d5432158e864ceb5efd01ea7c428d89f3a32",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "4cd6aba1c584292110b5f790b1f0c18004d9d2df62ef9a855b82917ba4e41e6c",
+    "postQuestionIds": [
+      "cnm_245_q1",
+      "cnm_245_q2",
+      "cnm_245_q3",
+      "cnm_245_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_246",
+    "name": "旋转作图",
+    "decision": "revise",
+    "finding": "作图节点无实际作品，补带方向距离的旋转作图；尺规复制角127不是使用量角器/方格作图的唯一硬前提。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_246_q1",
+      "cnm_246_q2",
+      "cnm_246_q3",
+      "cnm_246_q4"
+    ],
+    "snapshotSha256": "77123adb01f8afc44562f486898953b8b404acef146bba113f0444c8813b0324",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "06558175b60e85bd06d754ea7b9adfc00f660ba93df91cde6c93f83024dbabd8",
+    "postQuestionIds": [
+      "cnm_246_q1",
+      "cnm_246_q2",
+      "cnm_246_q3",
+      "cnm_246_q4",
+      "cnm_246_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_247",
+    "name": "旋转变换在证明与计算中的应用",
+    "decision": "revise",
+    "finding": "半角模型与内部点旋转数值可推出，但没有完整构造证明，补90度旋转的标图与角关系；综合模型作为补充难度安排，不宣称课标逐题禁止。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_247_q1",
+      "cnm_247_q2",
+      "cnm_247_q3",
+      "cnm_247_q4"
+    ],
+    "snapshotSha256": "ac0a16d68f078f85c6bfd35f633fe285c89bfaeed123b8fe9e189178c9016f40",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "64a19fdb253ed274b3b846329cb4794e569915190476a6b8ddf743a9f1b34407",
+    "postQuestionIds": [
+      "cnm_247_q1",
+      "cnm_247_q2",
+      "cnm_247_q3",
+      "cnm_247_q4",
+      "cnm_247_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_248",
+    "name": "中心对称与中心对称图形",
+    "decision": "revise",
+    "finding": "概念区分与计数正确，找中心未有自主图形证据，补实际标中心及180度核验。",
+    "scope": "逐题文字题意、选项、答案、解析及先修首轮检查；原SVG待视觉检查；非教师认证",
+    "questionIds": [
+      "cnm_248_q1",
+      "cnm_248_q2",
+      "cnm_248_q3",
+      "cnm_248_q4"
+    ],
+    "snapshotSha256": "9d1ca5bca1b53654fc3db5f8413ec17a058f2496e4b89fb1ecca6366be1f1a7c",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "256268041b24738726002fd0b99183ad1a372b9467bc1b4309a2e854f079b250",
+    "postQuestionIds": [
+      "cnm_248_q1",
+      "cnm_248_q2",
+      "cnm_248_q3",
+      "cnm_248_q4",
+      "cnm_248_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/quadrilaterals-rotation.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

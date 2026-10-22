@@ -1,0 +1,725 @@
+{
+  "scope": "直接指向初中节点的28个小学先修节点；不递归扩展到全部小学题库。已修36道题。",
+  "rows": [
+    {
+      "topicId": "cnm_p062",
+      "name": "时、分、秒的进率",
+      "decision": "retain-with-limitations",
+      "finding": "保留时间单位换算，作为角度六十进制的类比soft，不能据此认定角度单位已掌握。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_057",
+          "prerequisiteId": "cnm_p062",
+          "strength": "soft",
+          "reason": "学习「度、分、秒及其换算」需要先会小学的「时、分、秒的进率」。度、分、秒之间是六十进制，可类比小学已学的时、分、秒单位换算。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p062_q1",
+        "cnm_p062_q2",
+        "cnm_p062_q3",
+        "cnm_p062_q4"
+      ],
+      "snapshotSha256": "1c049c9d34cfcc00fa10ba0d2d26548fb718b80ed423b1b0bdca2eebeb12530c",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p085",
+      "name": "复式统计表",
+      "decision": "revise",
+      "finding": "改为实际二维表格信息提取；整理数据成表仍缺开放任务。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_102",
+          "prerequisiteId": "cnm_p085",
+          "strength": "hard",
+          "reason": "学习「全面调查与抽样调查」需要先会小学的「复式统计表」。小学已学数据收集与整理。"
+        },
+        {
+          "topicId": "cnm_106",
+          "prerequisiteId": "cnm_p085",
+          "strength": "hard",
+          "reason": "学习「频数分布表与数据分组」需要先会小学的「复式统计表」。对数据分组整理要以小学学过的统计表和统计图知识为基础。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p085_q1",
+        "cnm_p085_q2",
+        "cnm_p085_q3",
+        "cnm_p085_q4"
+      ],
+      "snapshotSha256": "144bd246929a6466bdbc2554eed9417042e79810c1f20ad147ba8ac175591799",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p089",
+      "name": "长方形和正方形的面积",
+      "decision": "retain-with-limitations",
+      "finding": "面积公式计算正确；尚不能证明会推导面积公式，衔接面积模型仅soft。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_148",
+          "prerequisiteId": "cnm_p089",
+          "strength": "soft",
+          "reason": "学习「完全平方公式」需要先会小学的「长方形和正方形的面积」。完全平方公式可以用小学学过的正方形和长方形面积图形来直观解释。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p089_q1",
+        "cnm_p089_q2",
+        "cnm_p089_q3",
+        "cnm_p089_q4"
+      ],
+      "snapshotSha256": "b56a581246cede2b17b60af0dbbd47c1d14cd6d10130cef5fef0558ba148235b",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p100",
+      "name": "角的度量",
+      "decision": "revise",
+      "finding": "改为量角器定位和刻度选择；真实量角及画指定角仍缺操作证据。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_295",
+          "prerequisiteId": "cnm_p100",
+          "strength": "hard",
+          "reason": "学习「扇形图的绘制：百分比与圆心角的换算」需要先会小学的「角的度量」。按圆心角画出扇形需要用量角器作角，需要小学已学的角的度量。"
+        },
+        {
+          "topicId": "cnm_056",
+          "prerequisiteId": "cnm_p100",
+          "strength": "soft",
+          "reason": "角的度量经验有助认识角；角的命名与两射线定义不以熟练量角为必要门槛。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p100_q1",
+        "cnm_p100_q2",
+        "cnm_p100_q3",
+        "cnm_p100_q4"
+      ],
+      "snapshotSha256": "778d514e27c71271dfdd914989d2a6c2042e8b2ec6be87ffea1c162019a8d85f",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p103",
+      "name": "垂直",
+      "decision": "revise",
+      "finding": "补垂直定义与非例；尺具作图由初中064任务检查。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_064",
+          "prerequisiteId": "cnm_p103",
+          "strength": "hard",
+          "reason": "学习「垂线」需要先会小学的「垂直」。小学已初步认识垂直。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p103_q1",
+        "cnm_p103_q2",
+        "cnm_p103_q3",
+        "cnm_p103_q4"
+      ],
+      "snapshotSha256": "ea01154b14445b132cbb6e7dd7771cc60051f9e561e8b575bc40c6f59f5ce403",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p104",
+      "name": "平行",
+      "decision": "revise",
+      "finding": "去掉与平行无关算术，补延长后关系与垂直区别；未覆盖所有图形识别变式。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_067",
+          "prerequisiteId": "cnm_p104",
+          "strength": "hard",
+          "reason": "学习「平行线与平行公理」需要先会小学的「平行」。初中的平行线概念和平行公理是对小学已认识平行关系的严格化表述。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p104_q1",
+        "cnm_p104_q2",
+        "cnm_p104_q3",
+        "cnm_p104_q4"
+      ],
+      "snapshotSha256": "90eeee6a1edf46e41ffc6cc3edc04a8a05b51720547f872b87c9936f8ffc6d30",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p113",
+      "name": "从不同方向观察物体",
+      "decision": "revise",
+      "finding": "纠正多视图简单相加的隐含误导；模型与视图的操作证据主要在初中051。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_051",
+          "prerequisiteId": "cnm_p113",
+          "strength": "soft",
+          "reason": "学习「从不同方向看与立体图形的展开图」需要先会小学的「从不同方向观察物体」。需要空间想象与折叠展开。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p113_q1",
+        "cnm_p113_q2",
+        "cnm_p113_q3",
+        "cnm_p113_q4"
+      ],
+      "snapshotSha256": "41a76579276e5fc8efa4b2eb208bad79f354548e74cac7933158a1b9fd3c9152",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p121",
+      "name": "求小数的近似数",
+      "decision": "retain-with-limitations",
+      "finding": "沿用D1四舍五入修订；数位和连续进位有直接题。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_023",
+          "prerequisiteId": "cnm_p121",
+          "strength": "hard",
+          "reason": "学习「近似数与有效数字」需要先会小学的「求小数的近似数」。基于小数的数位与四舍五入。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p121_q1",
+        "cnm_p121_q2",
+        "cnm_p121_q3",
+        "cnm_p121_q4"
+      ],
+      "snapshotSha256": "824c1585ba7696738733ea2b47477130671769b6d650d9a4018cd57e7a06e4b2",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p122",
+      "name": "三角形的分类",
+      "decision": "revise",
+      "finding": "用真实三角形角度分类替代比较单角大小；补等边属于等腰的包含关系。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_110",
+          "prerequisiteId": "cnm_p122",
+          "strength": "hard",
+          "reason": "学习「三角形的概念与分类」需要先会小学的「三角形的分类」。小学已学三角形的分类。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p122_q1",
+        "cnm_p122_q2",
+        "cnm_p122_q3",
+        "cnm_p122_q4"
+      ],
+      "snapshotSha256": "509a909807902987d82d1ebd9da9fcdb16d794850456420743e9699c07d019d6",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p127",
+      "name": "轴对称",
+      "decision": "revise",
+      "finding": "补对应点位置，仍缺学生实际画完整对称图形的独立任务。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_131",
+          "prerequisiteId": "cnm_p127",
+          "strength": "hard",
+          "reason": "学习「轴对称图形与两个图形成轴对称」需要先会小学的「轴对称」。小学已初步认识轴对称。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p127_q1",
+        "cnm_p127_q2",
+        "cnm_p127_q3",
+        "cnm_p127_q4"
+      ],
+      "snapshotSha256": "a9cbd10a86c21717b7d1b768979a61f6f3bfc2fddb8a2e02ecc4d0cc79a5f404",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p128",
+      "name": "平移",
+      "decision": "revise",
+      "finding": "修正双方向位移直接相加误导，保留大小形状不变与单方向位置题。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_072",
+          "prerequisiteId": "cnm_p128",
+          "strength": "hard",
+          "reason": "学习「平移的概念与性质」需要先会小学的「平移」。小学已初步认识平移。"
+        },
+        {
+          "topicId": "cnm_120",
+          "prerequisiteId": "cnm_p128",
+          "strength": "soft",
+          "reason": "平移可产生全等图形，是理解全等的一个例子；全等定义也可通过叠合、旋转或反射理解，不以小学平移为硬门槛。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p128_q1",
+        "cnm_p128_q2",
+        "cnm_p128_q3",
+        "cnm_p128_q4"
+      ],
+      "snapshotSha256": "93d7f52b21e642ebc0fc81b9b6c0ed0ddb673eb047ded60a78dceefeb4345bb3",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p129",
+      "name": "平均数",
+      "decision": "retain-with-limitations",
+      "finding": "概念及均值计算可用；部分题只求总和，不算完整均值证据。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_213",
+          "prerequisiteId": "cnm_p129",
+          "strength": "hard",
+          "reason": "学习「中位数与众数」需要先会小学的「平均数」。中位数与众数是在小学统计表与统计图学习的基础上引入的新统计量。"
+        },
+        {
+          "topicId": "cnm_211",
+          "prerequisiteId": "cnm_p129",
+          "strength": "hard",
+          "reason": "学习「平均数」需要先会小学的「平均数」。初中平均数的学习是在小学已学平均数概念的基础上深化的。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p129_q1",
+        "cnm_p129_q2",
+        "cnm_p129_q3",
+        "cnm_p129_q4"
+      ],
+      "snapshotSha256": "ad94f2d96683b8e675f7be58289cd86ef5297c04aca6099799fbab18ec9fb12a",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p136",
+      "name": "用数对确定位置",
+      "decision": "revise",
+      "finding": "改列行相加为有序数对读写；采用先列后行约定。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_081",
+          "prerequisiteId": "cnm_p136",
+          "strength": "hard",
+          "reason": "学习「有序数对」需要先会小学的「用数对确定位置」。小学已学用数对表示位置。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p136_q1",
+        "cnm_p136_q2",
+        "cnm_p136_q3",
+        "cnm_p136_q4"
+      ],
+      "snapshotSha256": "a9053e5cd63a74a62c6023a03fc198d5f54bc9b6ecd23a1d40b6538b33d610d7",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p140",
+      "name": "可能性",
+      "decision": "revise",
+      "finding": "增加随机抽球可能性及非必然性，限定等机会条件。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_284",
+          "prerequisiteId": "cnm_p140",
+          "strength": "hard",
+          "reason": "学习「随机事件、必然事件与不可能事件」需要先会小学的「可能性」。随机事件的分类建立在小学已学的可能性大小的基础之上。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p140_q1",
+        "cnm_p140_q2",
+        "cnm_p140_q3",
+        "cnm_p140_q4"
+      ],
+      "snapshotSha256": "c6dab34941b798aac510db5c683944508afb444b960d4b6455bc99ef4ec98d2e",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p142",
+      "name": "用字母表示数",
+      "decision": "revise",
+      "finding": "增加字母表达总价任务；代入算术题不能单独证明会建代数式。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_025",
+          "prerequisiteId": "cnm_p142",
+          "strength": "hard",
+          "reason": "学习「用字母表示数」需要先会小学的「用字母表示数」。小学已初步接触用字母表示数。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p142_q1",
+        "cnm_p142_q2",
+        "cnm_p142_q3",
+        "cnm_p142_q4"
+      ],
+      "snapshotSha256": "1885ba57992b0c11e0179baf7d6557b514445213bb5f05095617462cb2c218b7",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p159",
+      "name": "最小公倍数",
+      "decision": "revise",
+      "finding": "四题均改为实际求最小公倍数，避免题面直接提供答案或只问乘法。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_044",
+          "prerequisiteId": "cnm_p159",
+          "strength": "soft",
+          "reason": "最小公倍数有助于选取简便的去分母乘数，但任一非零公倍数都可使用；不把最小公倍数算法作为硬门槛。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p159_q1",
+        "cnm_p159_q2",
+        "cnm_p159_q3",
+        "cnm_p159_q4"
+      ],
+      "snapshotSha256": "c5403da93f341d3d2f9161d4e67dac47cfb8e730c20ce36de72debd2a51da64b",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p165",
+      "name": "分数的意义",
+      "decision": "revise",
+      "finding": "补整体份数与实际块数区别；保留分母含义。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_003",
+          "prerequisiteId": "cnm_p165",
+          "strength": "hard",
+          "reason": "学习「有理数的分类」需要先会小学的「分数的意义」。分数是有理数的重要组成部分。"
+        },
+        {
+          "topicId": "cnm_285",
+          "prerequisiteId": "cnm_p165",
+          "strength": "hard",
+          "reason": "学习「概率的意义与等可能事件的概率」需要先会小学的「分数的意义」。概率用分数表示可能性大小，需要先理解分数的意义与运算。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p165_q1",
+        "cnm_p165_q2",
+        "cnm_p165_q3",
+        "cnm_p165_q4"
+      ],
+      "snapshotSha256": "e1e62ce36ba8ab035a3515e10f570068311e80d9a7141c99a32c1deb5eda814f",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p171",
+      "name": "旋转",
+      "decision": "revise",
+      "finding": "增加方向旋转判断；缺完整图形的实际旋转作图。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_244",
+          "prerequisiteId": "cnm_p171",
+          "strength": "hard",
+          "reason": "学习「图形的旋转」需要先会小学的「旋转」。小学已初步认识旋转。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p171_q1",
+        "cnm_p171_q2",
+        "cnm_p171_q3",
+        "cnm_p171_q4"
+      ],
+      "snapshotSha256": "1135e2b333db5bba8d8ca4836db4cf93736c44cb76189bec67ce0c6269c98078",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p175",
+      "name": "折线统计图",
+      "decision": "retain-with-limitations",
+      "finding": "仍主要考图表用途和给定数字计算，无真实折线图读图；明确保留诊断证据缺口。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_105",
+          "prerequisiteId": "cnm_p175",
+          "strength": "hard",
+          "reason": "学习「扇形图、条形图与折线图」需要先会小学的「折线统计图」。小学已学三种统计图。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p175_q1",
+        "cnm_p175_q2",
+        "cnm_p175_q3",
+        "cnm_p175_q4"
+      ],
+      "snapshotSha256": "71975079a35f58a51d74caa891ddb4e471c11d944db007d68725a13e645de21b",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p194",
+      "name": "百分数的意义",
+      "decision": "revise",
+      "finding": "修正1的100%误写为100，含百分数意义与求部分量任务。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_212",
+          "prerequisiteId": "cnm_p194",
+          "strength": "soft",
+          "reason": "学习「加权平均数」需要先会小学的「百分数的意义」。加权平均数中的权常用百分数来表示，需要小学已学的百分数知识。"
+        },
+        {
+          "topicId": "cnm_295",
+          "prerequisiteId": "cnm_p194",
+          "strength": "hard",
+          "reason": "学习「扇形图的绘制：百分比与圆心角的换算」需要先会小学的「百分数的意义」。把各类数据换算成占总数的百分比需要小学已学的百分数知识。"
+        },
+        {
+          "topicId": "cnm_297",
+          "prerequisiteId": "cnm_p194",
+          "strength": "hard",
+          "reason": "学习「频率（相对频数）的计算与意义」需要先会小学的「百分数的意义」。频率常写成百分数，需要小学已学的百分数知识。"
+        },
+        {
+          "topicId": "cnm_317",
+          "prerequisiteId": "cnm_p194",
+          "strength": "hard",
+          "reason": "解释百分位位置需理解百分数表示比例。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p194_q1",
+        "cnm_p194_q2",
+        "cnm_p194_q3",
+        "cnm_p194_q4"
+      ],
+      "snapshotSha256": "829135a925d2873e5ffcda85b4fdd53dff711bbc97662dc74cd0623dfefed79c",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p199",
+      "name": "扇形统计图",
+      "decision": "retain-with-limitations",
+      "finding": "比例和部分量计算可用；没有真实扇形图读图证据，不能据此宣称图表能力已覆盖。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_105",
+          "prerequisiteId": "cnm_p199",
+          "strength": "hard",
+          "reason": "学习「扇形图、条形图与折线图」需要先会小学的「扇形统计图」。小学已学三种统计图。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p199_q1",
+        "cnm_p199_q2",
+        "cnm_p199_q3",
+        "cnm_p199_q4"
+      ],
+      "snapshotSha256": "9f3cc42d5001697b188c6f8766955609639026c342d99aa595b009a5c9248857",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p201",
+      "name": "认识负数",
+      "decision": "revise",
+      "finding": "增加海拔负数表达，避免只考正数相加。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_001",
+          "prerequisiteId": "cnm_p201",
+          "strength": "hard",
+          "reason": "学习「正数与负数的概念」需要先会小学的「认识负数」。小学已初步认识负数，这里系统化定义。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p201_q1",
+        "cnm_p201_q2",
+        "cnm_p201_q3",
+        "cnm_p201_q4"
+      ],
+      "snapshotSha256": "ac1939c20d0862a4896c75a42d07b34e01fb4e57179efeebee70ad4f44021133",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p203",
+      "name": "折扣",
+      "decision": "retain-with-limitations",
+      "finding": "折扣含义与价格题可用；部分题仍给出算式，建模证据有限。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_048",
+          "prerequisiteId": "cnm_p203",
+          "strength": "soft",
+          "reason": "利润率以成本为基数；折扣题是相关应用，不是所有利润问题的必要前提。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p203_q1",
+        "cnm_p203_q2",
+        "cnm_p203_q3",
+        "cnm_p203_q4"
+      ],
+      "snapshotSha256": "6cb2f2b7b1e41cad020d8148624173b479dbe49ed04be0f9422b70b86811ea34",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p205",
+      "name": "百分数的应用",
+      "decision": "revise",
+      "finding": "增加真实增长率问题，要求自行确定基数；其他题仍偏算术。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_227",
+          "prerequisiteId": "cnm_p205",
+          "strength": "soft",
+          "reason": "学习「增长率与传播问题」需要先会小学的「百分数的应用」。增长率常用百分数表示，小学已学的百分数知识是基础。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p205_q1",
+        "cnm_p205_q2",
+        "cnm_p205_q3",
+        "cnm_p205_q4"
+      ],
+      "snapshotSha256": "f5ccf92e55bb9744d19209ce2e14be0da43def9ee7b6c58830c75fb1d85f1b4a",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p207",
+      "name": "圆柱的体积",
+      "decision": "retain-with-limitations",
+      "finding": "圆柱体积计算正确；仅作几何体背景soft，不把体积算法作为认识几何体门槛。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_050",
+          "prerequisiteId": "cnm_p207",
+          "strength": "soft",
+          "reason": "圆柱体积计算可作拓展联系；识别立体图形只需已有形状经验，不以体积公式为门槛。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p207_q1",
+        "cnm_p207_q2",
+        "cnm_p207_q3",
+        "cnm_p207_q4"
+      ],
+      "snapshotSha256": "e31ebf36f5587cf503e754aaa447e6a6c899cfa84a36a6c5b3b663094bd56557",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p210",
+      "name": "比例的意义和基本性质",
+      "decision": "revise",
+      "finding": "增加比例判断和外项识别，避免只做乘法。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_268",
+          "prerequisiteId": "cnm_p210",
+          "strength": "hard",
+          "reason": "学习「成比例线段」需要先会小学的「比例的意义和基本性质」。成比例线段是比与比例概念在线段上的应用，需要小学已学的比与比例。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p210_q1",
+        "cnm_p210_q2",
+        "cnm_p210_q3",
+        "cnm_p210_q4"
+      ],
+      "snapshotSha256": "794ab030f73e7aab063f3da512369c6688ae6de817330c07e5004193eeef391c",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p213",
+      "name": "正比例",
+      "decision": "revise",
+      "finding": "补数量总价比值不变情境；缺非正比例对照实例。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_200",
+          "prerequisiteId": "cnm_p213",
+          "strength": "hard",
+          "reason": "学习「正比例函数」需要先会小学的「正比例」。正比例函数是小学已学正比例关系的函数化表达，小学经验可以迁移。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p213_q1",
+        "cnm_p213_q2",
+        "cnm_p213_q3",
+        "cnm_p213_q4"
+      ],
+      "snapshotSha256": "25eeddf022981151169e7d2f827a8df07b47939a49ea149b4d1336870eeb3931",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    },
+    {
+      "topicId": "cnm_p214",
+      "name": "反比例",
+      "decision": "revise",
+      "finding": "补固定路程的乘积不变情境；缺非反比例对照实例。",
+      "juniorEdges": [
+        {
+          "topicId": "cnm_237",
+          "prerequisiteId": "cnm_p214",
+          "strength": "hard",
+          "reason": "学习「反比例函数的概念」需要先会小学的「反比例」。反比例函数是小学已学反比例关系的函数化表达，小学经验可以迁移。"
+        }
+      ],
+      "questionIds": [
+        "cnm_p214_q1",
+        "cnm_p214_q2",
+        "cnm_p214_q3",
+        "cnm_p214_q4"
+      ],
+      "snapshotSha256": "19177a332bc54930a35ed7a0099275071946ee736a43c2f973e82c85a53f2e9e",
+      "expertReviewed": false,
+      "coverage": "partial",
+      "status": "first-pass-reviewed"
+    }
+  ]
+}

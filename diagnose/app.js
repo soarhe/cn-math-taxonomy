@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   const E = window.DiagEngine;
-  const DATA_VERSION = 'algebra-2026-10.5';
+  const DATA_VERSION = 'junior-2026-10.1';
   const LS_LEGACY_SESSION = 'cnmDiagnose.session.v2';
   const LS_SESSION = 'cnmDiagnose.session.' + DATA_VERSION + '.' + E.ENGINE_VERSION;
   const LS_SESSION_EN = 'cneDiagnose.session.' + E.ENGINE_VERSION;
@@ -326,7 +326,7 @@
 
   function renderStart(errMsg) {
     const page = h('div');
-    const oldKeys = subject === 'math' ? [LS_LEGACY_SESSION, 'cnmDiagnose.session.algebra-2026-10.4.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.3.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.2.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.1.evidence-1.1', 'cnmDiagnose.session.statistics-2026-10.1', 'cnmDiagnose.session.statistics-2026-10.1.evidence-1'] : ['cneDiagnose.session.v2', 'cneDiagnose.session.evidence-1'];
+    const oldKeys = subject === 'math' ? [LS_LEGACY_SESSION, 'cnmDiagnose.session.algebra-2026-10.5.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.4.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.3.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.2.evidence-1.1', 'cnmDiagnose.session.algebra-2026-10.1.evidence-1.1', 'cnmDiagnose.session.statistics-2026-10.1', 'cnmDiagnose.session.statistics-2026-10.1.evidence-1'] : ['cneDiagnose.session.evidence-1.1', 'cneDiagnose.session.v2', 'cneDiagnose.session.evidence-1'];
     oldKeys.forEach(function (key) {
       const legacy = lsGet(key);
       if (!legacy) return;
@@ -856,6 +856,7 @@
         stat('shaky', sum.shaky.length, '不稳'),
         stat('ok', sum.mastered.length, '初步通过'),
         stat('unk', sum.untested.length, '未测/待确认')),
+      session.targets.some(function (id) { return !E.isTestable(D.graph,id); }) ? h('p', { class: 'notice' }, '部分目标没有可用的核心诊断题（可能仅含补充题），保持未测；请查阅题库或选择其他目标。') : null,
       sum.deferred.length ? h('p', { class: 'notice' }, '暂时跳过：' + sum.deferred.map(nameOf).join('、') + '。这些项目不计作答错。') : null,
       sum.unconfirmed.length ? h('p', { class: 'notice' }, '「' + sum.unconfirmed.map(nameOf).join('」「') + '」仅有一次未通过记录，因题量上限或没有可用复测题而未确认，证据不足，保留为「未测/待确认」。') : null,
       sum.limitReached ? h('p', { class: 'notice' }, '已达到题量上限（' + sum.limit + '），剩余没测到的知识点标为「未测」。候选补习起点的先修里若有未测点，真正的候选起点可能更靠前。',
@@ -878,7 +879,7 @@
         const notes = h('div');
         if (r.pendingPrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.pendingPrereqs.map(nameOf).join('」「') + '」没来得及测（题量用完），真正的候选起点可能更靠前。' }));
         if (r.outOfScopePrereqs.length) notes.append(h('div', { class: 'notice', text: '它的先修「' + r.outOfScopePrereqs.map(nameOf).join('」「') + '」不在所选范围内，没有检查。' }));
-        if (r.externalPrereqs.length) notes.append(h('div', { class: 'muted small', text: '小学先修（无诊断题，未测）：' + r.externalPrereqs.map(nameOf).join('、') }));
+        if (r.externalPrereqs.length) notes.append(h('div', { class: 'muted small', text: '先修（无可用核心诊断题，未测）：' + r.externalPrereqs.map(nameOf).join('、') }));
         return topicItem(r.id, statusTags(r.id, rootSet, targetSet), notes);
       }) : h('p', { text: targetsMastered ? '没有。' : '暂未发现。' })));
 

@@ -1,0 +1,1608 @@
+{
+  "batch": "release-candidate-algebra-content",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_152",
+      "beforeHash": "76f7613d51ab9cae7e55bf407d893cfeb652ecffc6df3237df5f16f1f59671e3",
+      "before": {
+        "id": "cnm_152",
+        "name": "公式法：平方差",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17.2",
+        "type": "procedural",
+        "description": "a²-b²=(a+b)(a-b)，把符合平方差结构的多项式因式分解。",
+        "mastery_criteria": [
+          "能识别平方差结构",
+          "分解彻底"
+        ],
+        "diagnostic_question": {
+          "question": "分解 4x²-9。",
+          "answer": "(2x+3)(2x-3)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_152",
+        "name": "公式法：平方差",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17.2",
+        "type": "procedural",
+        "description": "a²-b²=(a+b)(a-b)，把符合平方差结构的多项式因式分解。 核心任务按课标直接利用公式不超过二次，综合挑战另标补充。",
+        "mastery_criteria": [
+          "能识别平方差结构",
+          "分解彻底"
+        ],
+        "diagnostic_question": {
+          "question": "分解 4x²-9。",
+          "answer": "(2x+3)(2x-3)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_153",
+      "beforeHash": "17c2e3d7687f9f0733e03a30daa865abc0e2955cb08f2a052b173f1ebfeade7b",
+      "before": {
+        "id": "cnm_153",
+        "name": "公式法：完全平方",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17.2",
+        "type": "procedural",
+        "description": "a²±2ab+b²=(a±b)²，识别完全平方式。",
+        "mastery_criteria": [
+          "能判断是否是完全平方式",
+          "能正确分解"
+        ],
+        "diagnostic_question": {
+          "question": "分解 x²-6x+9。",
+          "answer": "(x-3)²"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_153",
+        "name": "公式法：完全平方",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17.2",
+        "type": "procedural",
+        "description": "a²±2ab+b²=(a±b)²，识别完全平方式。 核心任务按课标直接利用公式不超过二次，综合挑战另标补充。",
+        "mastery_criteria": [
+          "能判断是否是完全平方式",
+          "能正确分解"
+        ],
+        "diagnostic_question": {
+          "question": "分解 x²-6x+9。",
+          "answer": "(x-3)²"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_164",
+      "beforeHash": "6650af7c8919e9e565d8ed2fc6a228977bda3b79afe740f59fb5bfff3ee1d841",
+      "before": {
+        "id": "cnm_164",
+        "name": "零指数幂、负整数指数幂与科学记数法",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.4",
+        "type": "procedural",
+        "description": "a⁰=1（a≠0），a⁻ⁿ=1/aⁿ，并用 a×10⁻ⁿ 表示绝对值较小的数。",
+        "mastery_criteria": [
+          "能计算含零指数与负整数指数的式子",
+          "能把小数写成科学记数法"
+        ],
+        "diagnostic_question": {
+          "question": "计算 2⁻³ 并把 0.00032 用科学记数法表示。",
+          "answer": "1/8；3.2×10⁻⁴"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.17",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_164",
+        "name": "零指数幂、负整数指数幂与科学记数法",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.4",
+        "type": "procedural",
+        "description": "a⁰=1（a≠0）；a⁻ⁿ=1/aⁿ（a≠0，n为正整数）。科学记数法写成c×10ᵐ，其中1≤|c|<10，m为整数。",
+        "mastery_criteria": [
+          "能计算含零指数与负整数指数的式子",
+          "能把小数写成科学记数法"
+        ],
+        "diagnostic_question": {
+          "question": "计算 2⁻³ 并把 0.00032 用科学记数法表示。",
+          "answer": "1/8；3.2×10⁻⁴"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.17",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_171",
+      "beforeHash": "d7b6987cccd8a3af872704dea6ebc382419699b0e0cda8ea33425be6f5c3b2df",
+      "before": {
+        "id": "cnm_171",
+        "name": "最简二次根式与分母有理化",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第十九章 二次根式 19.2",
+        "type": "procedural",
+        "description": "被开方数不含能开尽方的因数或因式、也不含分母的二次根式是最简二次根式，会化简并有理化分母。",
+        "mastery_criteria": [
+          "能判断最简二次根式",
+          "能化简 1/√2 等"
+        ],
+        "diagnostic_question": {
+          "question": "化简 √18 和 1/√2。",
+          "answer": "3√2；√2/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.13",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_171",
+        "name": "最简二次根式与分母有理化",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第十九章 二次根式 19.2",
+        "type": "procedural",
+        "description": "核心任务的被开方数仅限于数：最简二次根式的被开方数不含分母，也不含能开尽方的因数（除1外）。会化简简单数值根式并有理化简单数值分母。",
+        "mastery_criteria": [
+          "能判断最简二次根式",
+          "能化简 1/√2 等"
+        ],
+        "diagnostic_question": {
+          "question": "化简 √18 和 1/√2。",
+          "answer": "3√2；√2/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.13",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_203",
+      "beforeHash": "4446142c65a4c1f7b9433a11c5d6131ee8e102aae6d060b3d5a758c3bb733101",
+      "before": {
+        "id": "cnm_203",
+        "name": "一次函数的性质",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.2",
+        "type": "conceptual",
+        "description": "k 决定增减性与倾斜方向，b 决定与 y 轴交点，据此判断图象经过的象限。",
+        "mastery_criteria": [
+          "能由 k、b 判断增减性与象限",
+          "能比较函数值大小"
+        ],
+        "diagnostic_question": {
+          "question": "y=-3x+1 的增减性及经过的象限？",
+          "answer": "y 随 x 增大而减小；经过一、二、四象限"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.40",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_203",
+        "name": "一次函数的性质",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.2",
+        "type": "conceptual",
+        "description": "一次函数y=kx+b中k≠0，k的符号决定增减性，b决定与y轴交点；在坐标单位尺度相同的图中才可直接比较倾斜程度。",
+        "mastery_criteria": [
+          "能由 k、b 判断增减性与象限",
+          "能比较函数值大小"
+        ],
+        "diagnostic_question": {
+          "question": "y=-3x+1 的增减性及经过的象限？",
+          "answer": "y 随 x 增大而减小；经过一、二、四象限"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.40",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_204",
+      "beforeHash": "00ad0d22cbaa02e9d6c2fb029db63675add658c5f4a130e0b849b7448115ac66",
+      "before": {
+        "id": "cnm_204",
+        "name": "一次函数图象的平移",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.2",
+        "type": "procedural",
+        "description": "直线 y=kx+b 向上（下）平移 m 个单位得 y=kx+b±m。",
+        "mastery_criteria": [
+          "能写出平移后的解析式",
+          "能说明平移不改变 k"
+        ],
+        "diagnostic_question": {
+          "question": "y=2x 向上平移 3 个单位的解析式？",
+          "answer": "y=2x+3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.40",
+            "confidence": "inferred",
+            "note": "图象平移是k、b变化对图象影响的延伸，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_204",
+        "name": "一次函数图象的平移",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 23.2",
+        "type": "procedural",
+        "description": "一次函数图象平移可用对应点的坐标变化推导；上下平移改变截距而斜率k不变。用m表示移动距离时约定m≥0，方向另行说明。",
+        "mastery_criteria": [
+          "能写出平移后的解析式",
+          "能说明平移不改变 k"
+        ],
+        "diagnostic_question": {
+          "question": "y=2x 向上平移 3 个单位的解析式？",
+          "answer": "y=2x+3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.40",
+            "confidence": "inferred",
+            "note": "图象平移是k、b变化对图象影响的延伸，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_220",
+      "beforeHash": "ec6e58e67ca0020c8b77c22251b02e328d9d4db7dda92b1814d571f07a12fb33",
+      "before": {
+        "id": "cnm_220",
+        "name": "直接开平方法",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "procedural",
+        "description": "形如 x²=p 或 (x+m)²=p 的方程，利用平方根的意义直接求解。",
+        "mastery_criteria": [
+          "能判断可用直接开平方法",
+          "能求出两个根并考虑 p<0 无解"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 (x-1)²=9。",
+          "answer": "x=4 或 x=-2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.27",
+            "confidence": "inferred",
+            "note": "直接开平方法是配方法的特例，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_220",
+        "name": "直接开平方法",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "procedural",
+        "description": "形如 x²=p 或 (x+m)²=p 的方程，利用平方根的意义直接求解。",
+        "mastery_criteria": [
+          "能判断可用直接开平方法",
+          "能区分右端正数、零、负数时实根的情况"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 (x-1)²=9。",
+          "answer": "x=4 或 x=-2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.27",
+            "confidence": "inferred",
+            "note": "直接开平方法是配方法的特例，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_222",
+      "beforeHash": "f3bcf22b59e5f340e933d8d944b224ffbe4903d1825184bda6069cddd7eb9322",
+      "before": {
+        "id": "cnm_222",
+        "name": "公式法与求根公式",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "procedural",
+        "description": "由配方法推出求根公式 x=(-b±√(b²-4ac))/(2a)（b²-4ac≥0），并用其解方程。",
+        "mastery_criteria": [
+          "能写出求根公式",
+          "能正确代入求解并化简"
+        ],
+        "diagnostic_question": {
+          "question": "用公式法解 2x²-3x-2=0。",
+          "answer": "x=(3±5)/4，即 x=2 或 x=-1/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.27",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_222",
+        "name": "公式法与求根公式",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "procedural",
+        "description": "对ax²+bx+c=0且a≠0，判别式Δ=b²−4ac≥0时，求根公式为x=(−b±√Δ)/(2a)。公式可由配方法推导；应用时先化为一般式再确定系数。",
+        "mastery_criteria": [
+          "能写出求根公式",
+          "能正确代入求解并化简"
+        ],
+        "diagnostic_question": {
+          "question": "用公式法解 2x²-3x-2=0。",
+          "answer": "x=(3±5)/4，即 x=2 或 x=-1/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.27",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_223",
+      "beforeHash": "039692e6e2968e47fb9561e12ed6e104a1ff7ab471337475c4611aa7a024296d",
+      "before": {
+        "id": "cnm_223",
+        "name": "根的判别式",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "conceptual",
+        "description": "Δ=b²-4ac 决定根的情况：Δ>0 两个不等实根，Δ=0 两个相等实根，Δ<0 无实根。",
+        "mastery_criteria": [
+          "能由 Δ 判断根的个数",
+          "能求参数范围"
+        ],
+        "diagnostic_question": {
+          "question": "x²-4x+k=0 有两个不相等实根，求 k 的范围。",
+          "answer": "k<4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.28",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_223",
+        "name": "根的判别式",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "conceptual",
+        "description": "对ax²+bx+c=0（a≠0），Δ=b²−4ac>0时有两个不同实根，Δ=0时有两个相等实根（一个不同实数值），Δ<0时无实根。",
+        "mastery_criteria": [
+          "能由 Δ 判断根的个数",
+          "能求参数范围"
+        ],
+        "diagnostic_question": {
+          "question": "x²-4x+k=0 有两个不相等实根，求 k 的范围。",
+          "answer": "k<4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.28",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_237",
+      "beforeHash": "bc5758bdeb8e560010d39ef90e2a5254d3ebe218708195a3cf52694ce1612dd7",
+      "before": {
+        "id": "cnm_237",
+        "name": "反比例函数的概念",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十七章 反比例函数 27.1",
+        "type": "conceptual",
+        "description": "形如 y=k/x（k≠0）的函数叫反比例函数，也可写成 xy=k。",
+        "mastery_criteria": [
+          "能判断反比例函数",
+          "能由条件求 k"
+        ],
+        "diagnostic_question": {
+          "question": "y=k/x 的图象过点 (2,3)，k 是多少？",
+          "answer": "6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.47",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_237",
+        "name": "反比例函数的概念",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十七章 反比例函数 27.1",
+        "type": "conceptual",
+        "description": "形如y=k/x（k≠0且x≠0）的函数叫反比例函数；也可写成xy=k，定义域仍须x≠0。",
+        "mastery_criteria": [
+          "能判断反比例函数",
+          "能由条件求 k"
+        ],
+        "diagnostic_question": {
+          "question": "y=k/x 的图象过点 (2,3)，k 是多少？",
+          "answer": "6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.47",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_277",
+      "beforeHash": "222125973b7a886b05ede899578f9c77704640999951a44a3def6dec8064b01d",
+      "before": {
+        "id": "cnm_277",
+        "name": "特殊角的三角函数值与计算",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十二章 锐角三角函数",
+        "type": "procedural",
+        "description": "熟记 30°、45°、60° 的正弦、余弦、正切值，并会借助计算器求一般角的值。",
+        "mastery_criteria": [
+          "能背出特殊角的值",
+          "能进行含特殊角的计算"
+        ],
+        "diagnostic_question": {
+          "question": "求 sin30°、cos45°、tan60° 的值。",
+          "answer": "1/2；√2/2；√3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.78",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.79",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_277",
+        "name": "特殊角的三角函数值与计算",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十二章 锐角三角函数",
+        "type": "procedural",
+        "description": "熟记 30°、45°、60° 的正弦、余弦、正切值，并会借助计算器求一般角的值。",
+        "mastery_criteria": [
+          "能背出特殊角的值",
+          "能进行含特殊角的计算",
+          "能设置角度制用计算器求一般锐角三角函数值并按要求取近似值"
+        ],
+        "diagnostic_question": {
+          "question": "求 sin30°、cos45°、tan60° 的值。",
+          "answer": "1/2；√2/2；√3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.78",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.79",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_080_q4",
+      "beforeHash": "25aa2330b560fbc4e506c016db93ec1b00d77c3a6c5a61b3f0c2c74d6f13ae52",
+      "before": {
+        "id": "cnm_080_q4",
+        "topicId": "cnm_080",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "计算 (√2+1)² + (√2-1)²。",
+        "answer": "6",
+        "explanation": "(√2+1)²=2+2√2+1=3+2√2，(√2-1)²=3-2√2，两式相加，含 √2 的项抵消，得 6。",
+        "verify": "(2+1)+(2+1)"
+      },
+      "after": {
+        "id": "cnm_080_q4",
+        "topicId": "cnm_080",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "计算 (√2+1)² + (√2-1)²。",
+        "answer": "6",
+        "explanation": "(√2+1)²=2+2√2+1=3+2√2，(√2-1)²=3-2√2，两式相加，含 √2 的项抵消，得 6。 范围说明：涉及后续完全平方公式的综合运算，不作为七下实数运算的核心门槛。",
+        "verify": "(2+1)+(2+1)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_147_q5",
+      "beforeHash": "aa5ca5870eab09a011996544ef7819c352baa07cf58aabba9d1d114f2178e4a5",
+      "before": {
+        "id": "cnm_147_q5",
+        "topicId": "cnm_147",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "计算 (2+1)(2^2+1)(2^4+1)(2^8+1) 的值。",
+        "answer": "65535",
+        "explanation": "乘以 (2-1)=1 后连续用平方差公式，结果为 2^16-1=65535。",
+        "verify": "(2+1)*(2**2+1)*(2**4+1)*(2**8+1)"
+      },
+      "after": {
+        "id": "cnm_147_q5",
+        "topicId": "cnm_147",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "计算 (2+1)(2^2+1)(2^4+1)(2^8+1) 的值。",
+        "answer": "65535",
+        "explanation": "乘以 (2-1)=1 后连续用平方差公式，结果为 2^16-1=65535。 范围说明：连续四因式迭代是补充挑战；这是本题库难度安排，不表示课标逐题禁止该计算。",
+        "verify": "(2+1)*(2**2+1)*(2**4+1)*(2**8+1)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_152_q5",
+      "beforeHash": "bbb887ce83852f56a2e085a43adb260e533e6ed76f421d6edc9c9afcadc99fcf",
+      "before": {
+        "id": "cnm_152_q5",
+        "topicId": "cnm_152",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "分解因式 x^4-16，结果（分解彻底）是：",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x^2+4)(x+2)(x-2)"
+          },
+          {
+            "key": "B",
+            "text": "(x^2+4)(x^2-4)"
+          },
+          {
+            "key": "C",
+            "text": "(x+2)^2(x-2)^2"
+          },
+          {
+            "key": "D",
+            "text": "(x^2-4)^2"
+          }
+        ],
+        "explanation": "x^4-16=(x^2+4)(x^2-4)，其中 x^2-4 还能继续分解为 (x+2)(x-2)，x^2+4 不能再分。"
+      },
+      "after": {
+        "id": "cnm_152_q5",
+        "topicId": "cnm_152",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "分解因式 x^4-16，结果（分解彻底）是：",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x^2+4)(x+2)(x-2)"
+          },
+          {
+            "key": "B",
+            "text": "(x^2+4)(x^2-4)"
+          },
+          {
+            "key": "C",
+            "text": "(x+2)^2(x-2)^2"
+          },
+          {
+            "key": "D",
+            "text": "(x^2-4)^2"
+          }
+        ],
+        "explanation": "x^4-16=(x^2+4)(x^2-4)，其中 x^2-4 还能继续分解为 (x+2)(x-2)，x^2+4 不能再分。 范围说明：四次多项式连续分解超过课标直接利用公式不超过二次的核心范围。",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_153_q5",
+      "beforeHash": "779cea92aef659f1edd6c56b45ccd978d2d931caa5117e695cd0d7d1c60f22a5",
+      "before": {
+        "id": "cnm_153_q5",
+        "topicId": "cnm_153",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "已知 x²+y²-4x+6y+13=0，求 x+y 的值。",
+        "answer": "-1",
+        "explanation": "配方：(x-2)²+(y+3)²=0，所以 x=2，y=-3，x+y=-1。",
+        "verify": "isqrt(4)+(-isqrt(9))"
+      },
+      "after": {
+        "id": "cnm_153_q5",
+        "topicId": "cnm_153",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "已知 x²+y²-4x+6y+13=0，求 x+y 的值。",
+        "answer": "-1",
+        "explanation": "配方：(x-2)²+(y+3)²=0，所以 x=2，y=-3，x+y=-1。 范围说明：两变量五项综合配方不作为本节点直接识别完全平方式的核心诊断。",
+        "verify": "isqrt(4)+(-isqrt(9))",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_164_q1",
+      "beforeHash": "f6a86c783246d168a7919d9d6619cf004dd9a633752311fd81ae7aab33af263d",
+      "before": {
+        "id": "cnm_164_q1",
+        "topicId": "cnm_164",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 2⁻³ 并把 0.00032 用科学记数法表示。",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/8；3.2×10⁻⁴"
+          },
+          {
+            "key": "B",
+            "text": "-8；3.2×10⁻⁴"
+          },
+          {
+            "key": "C",
+            "text": "1/8；3.2×10⁻³"
+          },
+          {
+            "key": "D",
+            "text": "1/6；32×10⁻⁵"
+          }
+        ],
+        "explanation": "2⁻³=1/2³=1/8；0.00032 的第一个非零数字 3 前面有 4 个 0，所以是 3.2×10⁻⁴。"
+      },
+      "after": {
+        "id": "cnm_164_q1",
+        "topicId": "cnm_164",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 2⁻³ 并把 0.00032 用科学记数法表示。",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/8；3.2×10⁻⁴"
+          },
+          {
+            "key": "B",
+            "text": "-8；3.2×10⁻⁴"
+          },
+          {
+            "key": "C",
+            "text": "1/8；3.2×10⁻³"
+          },
+          {
+            "key": "D",
+            "text": "1/6；32×10⁻⁵"
+          }
+        ],
+        "explanation": "2⁻³=1/2³=1/8；把0.00032的小数点向右移动4位得到3.2，所以原数为3.2×10⁻⁴。"
+      }
+    },
+    {
+      "id": "cnm_168_q4",
+      "beforeHash": "e9b4ee02576ed0f2c5e7ab44d645b41cf50c537535dd0091e7a9dc8b3b40d221",
+      "before": {
+        "id": "cnm_168_q4",
+        "topicId": "cnm_168",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "若 1<a<3，化简 √((a-1)²)+√((a-3)²)，结果是一个常数，这个常数是多少？",
+        "answer": "2",
+        "explanation": "因 a-1>0，a-3<0，所以原式=(a-1)+(3-a)=2。",
+        "verify": "abs(2-1)+abs(2-3)"
+      },
+      "after": {
+        "id": "cnm_168_q4",
+        "topicId": "cnm_168",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "若 1<a<3，化简 √((a-1)²)+√((a-3)²)，结果是一个常数，这个常数是多少？",
+        "answer": "2",
+        "explanation": "因 a-1>0，a-3<0，所以原式=(a-1)+(3-a)=2。 范围说明：含字母被开方数不作为课标根号下仅限于数的核心运算。",
+        "verify": "abs(2-1)+abs(2-3)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_170_q4",
+      "beforeHash": "271f80e3f26e3bf37b7b2a3ddcd4f229047edaffb329a2765b0911b4e917a598",
+      "before": {
+        "id": "cnm_170_q4",
+        "topicId": "cnm_170",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "要使等式 √x/√(x-2) = √(x/(x-2)) 成立，x 的取值范围是",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "x≥2"
+          },
+          {
+            "key": "B",
+            "text": "x≥0"
+          },
+          {
+            "key": "C",
+            "text": "x>0"
+          },
+          {
+            "key": "D",
+            "text": "x>2"
+          }
+        ],
+        "explanation": "需被开方数 x≥0 且分母的根式 √(x-2) 中 x-2>0（分母不为 0），综合得 x>2。"
+      },
+      "after": {
+        "id": "cnm_170_q4",
+        "topicId": "cnm_170",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "要使等式 √x/√(x-2) = √(x/(x-2)) 成立，x 的取值范围是",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "x≥2"
+          },
+          {
+            "key": "B",
+            "text": "x≥0"
+          },
+          {
+            "key": "C",
+            "text": "x>0"
+          },
+          {
+            "key": "D",
+            "text": "x>2"
+          }
+        ],
+        "explanation": "需被开方数 x≥0 且分母的根式 √(x-2) 中 x-2>0（分母不为 0），综合得 x>2。 范围说明：含字母被开方数不作为核心运算。",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_193_q1",
+      "beforeHash": "b008dd354d2c7c4c4b510851fbdd4738009017cb67e3513dfada70ae69754c08",
+      "before": {
+        "id": "cnm_193_q1",
+        "topicId": "cnm_193",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "圆周长 C=2πr 中变量与常量各是什么？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "C、r 是变量，2π 是常量"
+          },
+          {
+            "key": "B",
+            "text": "C、r、π 都是变量"
+          },
+          {
+            "key": "C",
+            "text": "r 是变量，C 和 2π 是常量"
+          },
+          {
+            "key": "D",
+            "text": "C 是变量，r 和 2π 是常量"
+          }
+        ],
+        "answer": "A",
+        "explanation": "半径 r 变化时周长 C 随之变化，二者是变量；2π 的值始终不变，是常量。"
+      },
+      "after": {
+        "id": "cnm_193_q1",
+        "topicId": "cnm_193",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "当圆的半径r不断变化时，圆周长C=2πr中变量与常量各是什么？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "C、r 是变量，2π 是常量"
+          },
+          {
+            "key": "B",
+            "text": "C、r、π 都是变量"
+          },
+          {
+            "key": "C",
+            "text": "r 是变量，C 和 2π 是常量"
+          },
+          {
+            "key": "D",
+            "text": "C 是变量，r 和 2π 是常量"
+          }
+        ],
+        "answer": "A",
+        "explanation": "半径 r 变化时周长 C 随之变化，二者是变量；2π 的值始终不变，是常量。",
+        "fixed_from_source": "release-candidate: 明确变化过程"
+      }
+    },
+    {
+      "id": "cnm_199_q1",
+      "beforeHash": "9c80e8a666b374393689bc5f8e837848ae11663d378a1a953253fa710265639e",
+      "before": {
+        "id": "cnm_199_q1",
+        "topicId": "cnm_199",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "弹簧原长 10 cm，每挂 1 kg 伸长 0.5 cm，写出弹簧长度 L 与质量 m 的关系。下列正确的是：",
+        "choices": [
+          {
+            "key": "A",
+            "text": "L=0.5m"
+          },
+          {
+            "key": "B",
+            "text": "L=10m+0.5"
+          },
+          {
+            "key": "C",
+            "text": "L=10-0.5m"
+          },
+          {
+            "key": "D",
+            "text": "L=10+0.5m"
+          }
+        ],
+        "answer": "D",
+        "explanation": "长度=原长+伸长量，伸长量为 0.5m，所以 L=10+0.5m。"
+      },
+      "after": {
+        "id": "cnm_199_q1",
+        "topicId": "cnm_199",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "弹簧原长 10 cm，每挂 1 kg 伸长 0.5 cm，写出弹簧长度 L 与质量 m 的关系。下列正确的是：（已知这种线性伸长规律适用于0≤m≤8 kg，m为所挂质量。）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "L=0.5m"
+          },
+          {
+            "key": "B",
+            "text": "L=10m+0.5"
+          },
+          {
+            "key": "C",
+            "text": "L=10-0.5m"
+          },
+          {
+            "key": "D",
+            "text": "L=10+0.5m"
+          }
+        ],
+        "answer": "D",
+        "explanation": "长度=原长+伸长量，伸长量为 0.5m，所以 L=10+0.5m。"
+      }
+    },
+    {
+      "id": "cnm_199_q2",
+      "beforeHash": "7878aa3c77ece41ea9ce4a794d2e955b7be30ade044d6157e8b1d23fe0edfa91",
+      "before": {
+        "id": "cnm_199_q2",
+        "topicId": "cnm_199",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "弹簧原长 10 cm，每挂 1 kg 伸长 0.5 cm，挂 6 kg 物体时弹簧长度是多少 cm？",
+        "answer": "13",
+        "explanation": "L=10+0.5×6=13。",
+        "verify": "10+Fraction(1,2)*6"
+      },
+      "after": {
+        "id": "cnm_199_q2",
+        "topicId": "cnm_199",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "弹簧原长 10 cm，每挂 1 kg 伸长 0.5 cm，挂 6 kg 物体时弹簧长度是多少 cm？（已知这种线性伸长规律适用于0≤m≤8 kg，m为所挂质量。）",
+        "answer": "13",
+        "explanation": "L=10+0.5×6=13。",
+        "verify": "10+Fraction(1,2)*6"
+      }
+    },
+    {
+      "id": "cnm_203_q1",
+      "beforeHash": "91af736c614d5aa90362fd47147f106fe41df20798085d8f314c59346dc72c12",
+      "before": {
+        "id": "cnm_203_q1",
+        "topicId": "cnm_203",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "y=-3x+1 的增减性及经过的象限？",
+        "answer": "y 随 x 增大而减小；经过一、二、四象限",
+        "explanation": "k=-3<0，所以 y 随 x 增大而减小；b=1>0，图象与 y 轴交于正半轴，再结合 k<0，图象经过一、二、四象限。"
+      },
+      "after": {
+        "id": "cnm_203_q1",
+        "topicId": "cnm_203",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "y=-3x+1 的增减性及经过的象限？",
+        "answer": "y 随 x 增大而减小；经过一、二、四象限",
+        "explanation": "k=-3<0，所以 y 随 x 增大而减小；b=1>0，图象与 y 轴交于正半轴，再结合 k<0，图象经过一、二、四象限。",
+        "rubric": [
+          "由k=−3<0判断递减",
+          "由截距(0,1)、(1/3,0)或等价推理判断象限",
+          "正确列出一、二、四象限"
+        ]
+      }
+    },
+    {
+      "id": "cnm_209_q2",
+      "beforeHash": "816306e5dc9fa02d251021349c1389b22fd7c35dfff7a3bf1901748a2d84534d",
+      "before": {
+        "id": "cnm_209_q2",
+        "topicId": "cnm_209",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "某弹簧原长 10 cm，每挂 1 kg 物体伸长 0.5 cm，挂 6 kg 物体时弹簧长度是多少 cm？",
+        "answer": "13",
+        "explanation": "长度 y=10+0.5x，x=6 时 y=10+3=13。",
+        "verify": "10+Fraction(1,2)*6"
+      },
+      "after": {
+        "id": "cnm_209_q2",
+        "topicId": "cnm_209",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "某弹簧原长 10 cm，每挂 1 kg 物体伸长 0.5 cm，挂 6 kg 物体时弹簧长度是多少 cm？（已知这种线性伸长规律适用于0≤m≤8 kg，m为所挂质量。）",
+        "answer": "13",
+        "explanation": "长度 y=10+0.5x，x=6 时 y=10+3=13。",
+        "verify": "10+Fraction(1,2)*6"
+      }
+    },
+    {
+      "id": "cnm_224_q1",
+      "beforeHash": "e99b85a5a3f7aba0879b7b8e42b73cf63dec56d7336a454d3f32c26dba9ca154",
+      "before": {
+        "id": "cnm_224_q1",
+        "topicId": "cnm_224",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "解方程 x²-5x+6=0。（两个根用逗号隔开）",
+        "answer": "2，3",
+        "unordered": true,
+        "explanation": "左边分解为 (x-2)(x-3)=0，所以 x=2 或 x=3。",
+        "verify": "roots2(1,-5,6)"
+      },
+      "after": {
+        "id": "cnm_224_q1",
+        "topicId": "cnm_224",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "解方程 x²-5x+6=0。（两个根用逗号隔开）（可使用已验证的恒等式x²−5x+6=(x−2)(x−3)，重点说明乘积为零的含义。）",
+        "answer": "2，3",
+        "unordered": true,
+        "explanation": "左边分解为 (x-2)(x-3)=0，所以 x=2 或 x=3。 这里可直接使用题给分解，不要求先掌握十字相乘算法。",
+        "verify": "roots2(1,-5,6)"
+      }
+    },
+    {
+      "id": "cnm_224_q3",
+      "beforeHash": "f6470a72b5d0e6ccd161a40197c8b5fea36e4ffa40c409f99a33779294606814",
+      "before": {
+        "id": "cnm_224_q3",
+        "topicId": "cnm_224",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "解方程 2x²-5x-3=0。（两个根用逗号隔开）",
+        "answer": "3，-1/2",
+        "unordered": true,
+        "explanation": "十字相乘分解得 (2x+1)(x-3)=0，所以 x=-1/2 或 x=3。",
+        "verify": "roots2(2,-5,-3)"
+      },
+      "after": {
+        "id": "cnm_224_q3",
+        "topicId": "cnm_224",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "解方程 2x²-5x-3=0。（两个根用逗号隔开）（可使用已验证的恒等式2x²−5x−3=(2x+1)(x−3)，重点说明乘积为零的含义。）",
+        "answer": "3，-1/2",
+        "unordered": true,
+        "explanation": "十字相乘分解得 (2x+1)(x-3)=0，所以 x=-1/2 或 x=3。 这里可直接使用题给分解，不要求先掌握十字相乘算法。",
+        "verify": "roots2(2,-5,-3)"
+      }
+    },
+    {
+      "id": "cnm_236_q1",
+      "beforeHash": "22f35878887062b391608810e7598d72377fd73f7398370d9ec36f3b80365cf2",
+      "before": {
+        "id": "cnm_236_q1",
+        "topicId": "cnm_236",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "进价 20 元，售价 x 元时日销量为 100-2x 件，求日利润的最大值。（单位：元）",
+        "answer": "450",
+        "explanation": "日利润 y=(x-20)(100-2x)=-2x²+140x-2000=-2(x-35)²+450，x=35 时最大利润为 450 元。",
+        "verify": "max([(x-20)*(100-2*x) for x in range(20,51)])"
+      },
+      "after": {
+        "id": "cnm_236_q1",
+        "topicId": "cnm_236",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "进价 20 元，售价 x 元时日销量为 100-2x 件，求日利润的最大值。（单位：元）（该销量模型适用于20≤x≤50，且允许最优售价35元。）",
+        "answer": "450",
+        "explanation": "日利润 y=(x-20)(100-2x)=-2x²+140x-2000=-2(x-35)²+450，x=35 时最大利润为 450 元。",
+        "verify": "max([(x-20)*(100-2*x) for x in range(20,51)])"
+      }
+    },
+    {
+      "id": "cnm_236_q2",
+      "beforeHash": "8ead9b305f370cb2e8709388a3f20de7016761a63f6fe22ce96b0a0edec58372",
+      "before": {
+        "id": "cnm_236_q2",
+        "topicId": "cnm_236",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "一个球从地面被抛出，t 秒时的高度 h=-5t²+20t（单位：m），球能达到的最大高度是多少 m？",
+        "answer": "20",
+        "explanation": "h=-5(t-2)²+20，t=2 时最大，最大高度 20 m。",
+        "verify": "max([-5*t*t+20*t for t in range(0,5)])"
+      },
+      "after": {
+        "id": "cnm_236_q2",
+        "topicId": "cnm_236",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "一个球从地面被抛出，t 秒时的高度 h=-5t²+20t（单位：m），球能达到的最大高度是多少 m？（模型限于从抛出到第一次落地的0≤t≤4。）",
+        "answer": "20",
+        "explanation": "h=-5(t-2)²+20，t=2 时最大，最大高度 20 m。",
+        "verify": "max([-5*t*t+20*t for t in range(0,5)])"
+      }
+    },
+    {
+      "id": "cnm_170_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_170_q5",
+        "topicId": "cnm_170",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "√12/√3、√0/√3、√3/√0这三个式子哪些有意义？计算有意义的式子，并说明不能计算另一式的原因。",
+        "answer": "前两个有意义，分别为2、0；第三个分母√0=0，无意义。",
+        "explanation": "前两个有意义，分别为2、0；第三个分母√0=0，无意义。",
+        "rubric": [
+          "区分分子可为0与分母不可为0",
+          "分别算得2、0",
+          "不把除以0说成等于0"
+        ]
+      }
+    },
+    {
+      "id": "cnm_171_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_171_q5",
+        "topicId": "cnm_171",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "把1/√2化成分母为有理数的形式，写出分子、分母同时乘的数，并说明为什么值不变。",
+        "answer": "分子分母同乘非零数√2，得到√2/(√2·√2)=√2/2；相当于乘1，因此值不变。",
+        "explanation": "分子分母同乘非零数√2，得到√2/(√2·√2)=√2/2；相当于乘1，因此值不变。",
+        "rubric": [
+          "分子与分母同时乘√2",
+          "指出√2≠0且比值为1",
+          "分母化为2"
+        ]
+      }
+    },
+    {
+      "id": "cnm_193_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_193_q6",
+        "topicId": "cnm_193",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "自编一个生活中的变化过程，说明什么量固定、什么量变化。再说明同一个量在另一个过程中能否成为常量。",
+        "answer": "例如以固定单价3元购买不同数量的笔，总价和数量变化，单价固定；若固定买2支并比较不同商店，数量为常量而单价和总价可变化。",
+        "explanation": "例如以固定单价3元购买不同数量的笔，总价和数量变化，单价固定；若固定买2支并比较不同商店，数量为常量而单价和总价可变化。",
+        "rubric": [
+          "给出明确情境和变化过程",
+          "变量与固定条件一致",
+          "用第二情境说明变量/常量依赖所讨论过程；其他合理例子同样有效"
+        ]
+      }
+    },
+    {
+      "id": "cnm_199_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_199_q6",
+        "topicId": "cnm_199",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "某弹簧空载长10 cm，实验确认在质量0至8 kg内，每增加1 kg伸长0.5 cm。设质量m、长度L，建立模型和取值范围，并解释能否据此预测20 kg时的长度。",
+        "answer": "L=10+0.5m，0≤m≤8。不能仅凭这个实验模型外推到20 kg，因为题设未确认该范围仍满足线性规律。",
+        "explanation": "L=10+0.5m，0≤m≤8。不能仅凭这个实验模型外推到20 kg，因为题设未确认该范围仍满足线性规律。",
+        "rubric": [
+          "区分原长与伸长量",
+          "模型写L=10+0.5m及单位",
+          "给出0≤m≤8并拒绝无依据外推"
+        ]
+      }
+    },
+    {
+      "id": "cnm_046_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_046_q5",
+        "topicId": "cnm_046",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "甲单独完成一项工作需6小时，乙需3小时。假设二人效率恒定、合作互不影响，设合做t小时完成。将总工作量记为1，列方程并解释各项。",
+        "answer": "甲效率1/6，乙效率1/3；t/6+t/3=1，解得t=2小时。各项分别是甲、乙完成的工作量；效率相加依赖题设假设。",
+        "explanation": "甲效率1/6，乙效率1/3；t/6+t/3=1，解得t=2小时。各项分别是甲、乙完成的工作量；效率相加依赖题设假设。",
+        "rubric": [
+          "总量归一后给出两效率",
+          "列出工作量相加等于1",
+          "解得2并解释假设"
+        ]
+      }
+    },
+    {
+      "id": "cnm_046_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_046_q6",
+        "topicId": "cnm_046",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "某车间共15名工人，每人每天能做3件A零件或2件B零件；1套产品需1件A和2件B。若所有人固定分组且日产零件恰好配套，设x人做A，列式并求分组人数。",
+        "answer": "A日产3x，B日产2(15−x)；按B数量为A的2倍，2(15−x)=2·3x，得x=15/4，不是整数。因此在题设固定分组条件下无恰好配套的整数方案。",
+        "explanation": "A日产3x，B日产2(15−x)；按B数量为A的2倍，2(15−x)=2·3x，得x=15/4，不是整数。因此在题设固定分组条件下无恰好配套的整数方案。",
+        "rubric": [
+          "将零件数量比与工人数区别",
+          "正确列2(15−x)=6x",
+          "求得3.75并解释无整数分组；不强行四舍五入"
+        ]
+      }
+    },
+    {
+      "id": "cnm_048_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_048_q5",
+        "topicId": "cnm_048",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "进价80元的商品，按售价打九折出售后仍获得20%的利润率（以进价为基数）。设原标价x元，自行列方程、求标价并检验。",
+        "answer": "0.9x−80=80×20%，得0.9x=96，x=320/3元。检验折后收入96元，利润16元，16/80=20%。标价精确值为320/3；若必须精确到分，需另约定舍入规则。",
+        "explanation": "0.9x−80=80×20%，得0.9x=96，x=320/3元。检验折后收入96元，利润16元，16/80=20%。标价精确值为320/3；若必须精确到分，需另约定舍入规则。",
+        "rubric": [
+          "利润率分母为进价80",
+          "折后收入0.9x而非利润",
+          "求精确标价并核对利润率"
+        ]
+      }
+    },
+    {
+      "id": "cnm_049_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_049_q5",
+        "topicId": "cnm_049",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "一次行程的费用：不超过3 km收10元，超过部分每km加2元，按实际里程连续计费。某次付18元，列方程求里程，并核查所用收费区间；付8元能否发生？",
+        "answer": "18>10所以里程x>3，10+2(x−3)=18，得x=7，满足区间。任何正里程收费至少10元，8元不能发生。",
+        "explanation": "18>10所以里程x>3，10+2(x−3)=18，得x=7，满足区间。任何正里程收费至少10元，8元不能发生。",
+        "rubric": [
+          "先据费用判断超出起步区间",
+          "只对x−3计附加费",
+          "解得7且核查x>3",
+          "说明8元不在收费可能范围"
+        ]
+      }
+    },
+    {
+      "id": "cnm_092_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_092_q6",
+        "topicId": "cnm_092",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用10%和30%的盐水配制100 g浓度18%的盐水，无盐水损失。设两种盐水质量为x、y克，列方程组并求解、检验盐的总质量。",
+        "answer": "x+y=100，0.10x+0.30y=18；解得x=60、y=40。盐质量6+12=18 g，占100 g的18%。",
+        "explanation": "x+y=100，0.10x+0.30y=18；解得x=60、y=40。盐质量6+12=18 g，占100 g的18%。",
+        "rubric": [
+          "区分溶液质量与盐质量",
+          "列总质量和盐质量两方程",
+          "解得60、40且均非负",
+          "检验浓度18%"
+        ]
+      }
+    },
+    {
+      "id": "cnm_100_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_100_q5",
+        "topicId": "cnm_100",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "某活动租车，每辆可坐8人。若租5辆坐不下，租6辆恰有空位，参加人数n为正整数。列不等式组并写出所有可能人数。",
+        "answer": "n>40且n<48，n为整数，所以n=41、42、43、44、45、46、47。",
+        "explanation": "n>40且n<48，n为整数，所以n=41、42、43、44、45、46、47。",
+        "rubric": [
+          "坐不下表示严格大于40",
+          "有空位表示严格小于48",
+          "列交集并落实整数条件"
+        ]
+      }
+    },
+    {
+      "id": "cnm_147_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_147_q6",
+        "topicId": "cnm_147",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用平方差公式计算103×97，指出相同部分和互为相反数的部分，并解释中间项为什么抵消。",
+        "answer": "(100+3)(100−3)=100²−3²=9991；展开中的−300与+300抵消。",
+        "explanation": "(100+3)(100−3)=100²−3²=9991；展开中的−300与+300抵消。",
+        "rubric": [
+          "识别100与±3",
+          "能说明交叉项互相抵消",
+          "得到9991"
+        ]
+      }
+    },
+    {
+      "id": "cnm_149_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_149_q5",
+        "topicId": "cnm_149",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "计算(x+2)(x−2)+(x−1)²。先说明各部分选什么公式，再展开并合并；也可以使用分配律核对。",
+        "answer": "第一部分平方差得x²−4；第二部分完全平方得x²−2x+1；合并为2x²−2x−3。",
+        "explanation": "第一部分平方差得x²−4；第二部分完全平方得x²−2x+1；合并为2x²−2x−3。",
+        "rubric": [
+          "区分平方差与完全平方结构",
+          "保留完全平方的中间项−2x",
+          "合并得2x²−2x−3；接受等价展开方法"
+        ]
+      }
+    },
+    {
+      "id": "cnm_204_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_204_q5",
+        "topicId": "cnm_204",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "直线y=2x+1向右平移3个单位，推导新解析式。用旧点(0,1)的新位置核对，并解释斜率为何不变。",
+        "answer": "旧横坐标为x−3，新式y=2(x−3)+1=2x−5。旧点变为(3,1)，满足新式。两点的横向差、纵向差均不变，因此斜率仍为2。",
+        "explanation": "旧横坐标为x−3，新式y=2(x−3)+1=2x−5。旧点变为(3,1)，满足新式。两点的横向差、纵向差均不变，因此斜率仍为2。",
+        "rubric": [
+          "用旧坐标x−3替换",
+          "检验(3,1)",
+          "说明平移不改变两点坐标差"
+        ]
+      }
+    },
+    {
+      "id": "cnm_209_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_209_q6",
+        "topicId": "cnm_209",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用水方案A：前10吨每吨2元，超出部分每吨3元；方案B：每月固定费5元，加每吨2元。用水x≥0吨，分别建费用模型，比较何时选A更便宜（不考虑其他费用）。",
+        "answer": "A在0≤x≤10时为2x，在x>10时为20+3(x−10)=3x−10；B=5+2x。前一区间A恒便宜；后一区间A<B等价x<15，结合x>10。因此0≤x<15选A，x=15相同，x>15选B。",
+        "explanation": "A在0≤x≤10时为2x，在x>10时为20+3(x−10)=3x−10；B=5+2x。前一区间A恒便宜；后一区间A<B等价x<15，结合x>10。因此0≤x<15选A，x=15相同，x>15选B。",
+        "rubric": [
+          "完整列出A的两段及B",
+          "分段比较并交回各自区间",
+          "端点10连续且15等价",
+          "给出全范围结论"
+        ]
+      }
+    },
+    {
+      "id": "cnm_220_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_220_q5",
+        "topicId": "cnm_220",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "分别解(x−2)²=9、(x−2)²=0、(x−2)²=−1，说明每个方程有几个不同的实数解。",
+        "answer": "分别为x=5或−1（两个不同值）；x=2（一个不同值，也称两个相等实根）；无实数解，因为平方非负。",
+        "explanation": "分别为x=5或−1（两个不同值）；x=2（一个不同值，也称两个相等实根）；无实数解，因为平方非负。",
+        "rubric": [
+          "正数右端取±平方根",
+          "零只给一个不同实数值",
+          "负数右端无实数解"
+        ]
+      }
+    },
+    {
+      "id": "cnm_222_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_222_q5",
+        "topicId": "cnm_222",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用求根公式解2x²−3x−2=0，必须写出a、b、c、判别式和代入公式的过程。",
+        "answer": "a=2，b=−3，c=−2，Δ=9+16=25；x=(3±5)/4，得x=2或−1/2。",
+        "explanation": "a=2，b=−3，c=−2，Δ=9+16=25；x=(3±5)/4，得x=2或−1/2。",
+        "rubric": [
+          "系数保留符号",
+          "判别式为25",
+          "分母2a=4，分子−b=3",
+          "求两根并可代回核对"
+        ]
+      }
+    },
+    {
+      "id": "cnm_223_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_223_q5",
+        "topicId": "cnm_223",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "对a≠0的方程ax²+bx+c=0，用求根公式解释为什么Δ=0只有一个不同实数解，Δ<0没有实数解。",
+        "answer": "Δ=0时√Δ=0，公式中的加减结果均为−b/(2a)；Δ<0时不存在实数√Δ，方程无实数解。",
+        "explanation": "Δ=0时√Δ=0，公式中的加减结果均为−b/(2a)；Δ<0时不存在实数√Δ，方程无实数解。",
+        "rubric": [
+          "明确a≠0保证分母非零",
+          "说明±0给同一个值",
+          "将负判别式与无实数平方根联系"
+        ]
+      }
+    },
+    {
+      "id": "cnm_224_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_224_q5",
+        "topicId": "cnm_224",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解x(x−3)=0。小明直接两边除以x，只得到x=3。指出问题并给出完整解集。",
+        "answer": "乘积为0意味着x=0或x−3=0，所以x=0或3。直接除以可能为0的x会漏掉x=0。",
+        "explanation": "乘积为0意味着x=0或x−3=0，所以x=0或3。直接除以可能为0的x会漏掉x=0。",
+        "rubric": [
+          "用零乘积性质分两种情况",
+          "列出0和3",
+          "解释除以x须先排除零且需另查零解"
+        ]
+      }
+    },
+    {
+      "id": "cnm_225_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_225_q5",
+        "topicId": "cnm_225",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解(x−1)²=4，并比较直接开平方法与展开后用公式法。两种方法是否都有效，为什么此题通常选前者？",
+        "answer": "直接开平方得x−1=±2，x=3或−1。展开得x²−2x−3=0，公式法Δ=16，同得3、−1。两者均有效，前者直接利用平方结构、步骤较少。",
+        "explanation": "直接开平方得x−1=±2，x=3或−1。展开得x²−2x−3=0，公式法Δ=16，同得3、−1。两者均有效，前者直接利用平方结构、步骤较少。",
+        "rubric": [
+          "展示两种合法方法",
+          "两法均得3、−1",
+          "以结构和步骤说明选择，而非宣称其他方法错误"
+        ]
+      }
+    },
+    {
+      "id": "cnm_236_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_236_q6",
+        "topicId": "cnm_236",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "商品进价30元，题设销量模型为160−2x件，且仅在30≤x≤50适用。建立利润函数并求可行最大利润，解释为什么不能直接采用抛物线顶点。",
+        "answer": "w=(x−30)(160−2x)=−2(x−55)²+1250。顶点x=55在区间外；在[30,50]上利润递增，所以取x=50，最大w=1200元。",
+        "explanation": "w=(x−30)(160−2x)=−2(x−55)²+1250。顶点x=55在区间外；在[30,50]上利润递增，所以取x=50，最大w=1200元。",
+        "rubric": [
+          "建立单件利润乘销量模型",
+          "配方或等价找到顶点55",
+          "使用约束排除顶点",
+          "端点50给最大1200"
+        ]
+      }
+    },
+    {
+      "id": "cnm_242_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_242_q5",
+        "topicId": "cnm_242",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "一辆车匀速行驶120 km，速度v km/h为正，时间t h。建立t关于v的关系、写取值范围，并解释速度加倍时用时如何变化。",
+        "answer": "vt=120，t=120/v，v>0且t>0；v变为2v时t变为120/(2v)=原来的一半。实际速度还应符合情境限制，题目未给额外上限。",
+        "explanation": "vt=120，t=120/v，v>0且t>0；v变为2v时t变为120/(2v)=原来的一半。实际速度还应符合情境限制，题目未给额外上限。",
+        "rubric": [
+          "用路程=速度×时间建立模型",
+          "给出正值范围",
+          "用关系式说明反向变化"
+        ]
+      }
+    },
+    {
+      "id": "cnm_277_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_277_q6",
+        "topicId": "cnm_277",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "使用计算器求sin37°与cos37°，保留三位小数。记录角度模式和输入过程，再用sin30°校验模式是否正确。",
+        "answer": "设置DEG（角度制），输入sin(37)约为0.602、cos(37)约为0.799；sin(30)=0.5验证模式。若使用RAD直接输入37，表示37弧度，不是本题。",
+        "explanation": "设置DEG（角度制），输入sin(37)约为0.602、cos(37)约为0.799；sin(30)=0.5验证模式。若使用RAD直接输入37，表示37弧度，不是本题。",
+        "rubric": [
+          "实际记录所用工具及DEG模式",
+          "结果按三位小数为0.602、0.799",
+          "用sin30°=0.5交叉检查",
+          "区分角度制和弧度制"
+        ]
+      }
+    }
+  ],
+  "dependencies": []
+}

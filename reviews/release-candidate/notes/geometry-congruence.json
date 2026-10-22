@@ -1,0 +1,501 @@
+[
+  {
+    "topicId": "cnm_117",
+    "name": "三角形的外角及其性质",
+    "decision": "revise",
+    "finding": "外角计算正确，但缺图中自行识别内外角；补边延长方向与标图说明。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_117_q1",
+      "cnm_117_q2",
+      "cnm_117_q3",
+      "cnm_117_q4",
+      "cnm_117_q5"
+    ],
+    "snapshotSha256": "a0fddb934582962784a50d21bf5a7fdab8ca83bd7c7519989c573c0583ae36e3",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "c60f3ac65a75a327987daa4636bdca1ec3af0927b0861b1c76edbf15d7f19f39",
+    "postQuestionIds": [
+      "cnm_117_q1",
+      "cnm_117_q2",
+      "cnm_117_q3",
+      "cnm_117_q4",
+      "cnm_117_q5",
+      "cnm_117_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_118",
+    "name": "几何证明的基本格式",
+    "decision": "revise",
+    "finding": "声称会规范证明，现题仅选格式/依据，补完整已知求证证明作品。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_118_q1",
+      "cnm_118_q2",
+      "cnm_118_q3",
+      "cnm_118_q4",
+      "cnm_118_q5"
+    ],
+    "snapshotSha256": "47562a7f82bd3cc85c3b0b2978786c566fc9ea4d795877ed30421a92b422f792",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "d42b4298732034add2407150cd10e5123a48a72e1dfd9568ed41ea6ccb89450c",
+    "postQuestionIds": [
+      "cnm_118_q1",
+      "cnm_118_q2",
+      "cnm_118_q3",
+      "cnm_118_q4",
+      "cnm_118_q5",
+      "cnm_118_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_120",
+    "name": "全等图形与全等三角形",
+    "decision": "revise",
+    "finding": "小学平移非定义全等的必要硬门槛；q4要求三个字母但answer带三角符号，需核对accept支持，补实际对应与书写任务。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_120_q1",
+      "cnm_120_q2",
+      "cnm_120_q3",
+      "cnm_120_q4"
+    ],
+    "snapshotSha256": "40bbd6d091495e04c347c3badb20555e1b4eaac205ee00213dea0d203213a0ac",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "027311f9adc3b344fa3af3d0c77ae6c4429988637bcf09dfc3a7194e8451c254",
+    "postQuestionIds": [
+      "cnm_120_q1",
+      "cnm_120_q2",
+      "cnm_120_q3",
+      "cnm_120_q4",
+      "cnm_120_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_121",
+    "name": "全等三角形的性质",
+    "decision": "retain",
+    "finding": "全等对应顺序、内角和、周长差和边长方程均正确，保留。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_121_q1",
+      "cnm_121_q2",
+      "cnm_121_q3",
+      "cnm_121_q4",
+      "cnm_121_q5"
+    ],
+    "snapshotSha256": "918c5855b24ab2079a87549be73179d69750fa2c8ce6987474873710324ceeed",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "918c5855b24ab2079a87549be73179d69750fa2c8ce6987474873710324ceeed",
+    "postQuestionIds": [
+      "cnm_121_q1",
+      "cnm_121_q2",
+      "cnm_121_q3",
+      "cnm_121_q4",
+      "cnm_121_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_122",
+    "name": "全等判定：边边边（SSS）",
+    "decision": "revise",
+    "finding": "SSS选择题不能体现完整证明，补公共边及对应顺序证明；121性质为方法关联，不是判定定义唯一前提。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_122_q1",
+      "cnm_122_q2",
+      "cnm_122_q3",
+      "cnm_122_q4",
+      "cnm_122_q5"
+    ],
+    "snapshotSha256": "7fd29a2cb461853cdf17acd5715eb331933226e744367394620bc26f11dfeaef",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "a47d5fb249251293167334e41c6ae467820bfe5ed7283dcb29ce9e77a5a4ebcc",
+    "postQuestionIds": [
+      "cnm_122_q1",
+      "cnm_122_q2",
+      "cnm_122_q3",
+      "cnm_122_q4",
+      "cnm_122_q5",
+      "cnm_122_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_123",
+    "name": "全等判定：边角边（SAS）",
+    "decision": "revise",
+    "finding": "q1选项“必须夹角”易误读为全等必要条件，改为仅凭两边及非夹角一般不能保证，SAS要求夹角；补完整SAS证明。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_123_q1",
+      "cnm_123_q2",
+      "cnm_123_q3",
+      "cnm_123_q4",
+      "cnm_123_q5"
+    ],
+    "snapshotSha256": "7587d4391ecc013ae9feb8756fd5dcb006f6aad8e7f9eff4e29e1b9dfc2af437",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "f8dfa9120d4440a06f2cd03f0089e771c66de782f23c29b4c22b83cf24649331",
+    "postQuestionIds": [
+      "cnm_123_q1",
+      "cnm_123_q2",
+      "cnm_123_q3",
+      "cnm_123_q4",
+      "cnm_123_q5",
+      "cnm_123_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_124",
+    "name": "全等判定：角边角（ASA）与角角边（AAS）",
+    "decision": "revise",
+    "finding": "q4没有边相等只支持第三角相等，不能称已推出全等；补以ASA和角和推导AAS的完整过程。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_124_q1",
+      "cnm_124_q2",
+      "cnm_124_q3",
+      "cnm_124_q4",
+      "cnm_124_q5"
+    ],
+    "snapshotSha256": "20e40f87a749007f4b2f5f86079625d70490eb62ebd17580b25b2d4e95fc825b",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "a51a2c5c35d070e587bc3375b29f76ed8b78c0acd63cdc8d4118c528a2c1cecc",
+    "postQuestionIds": [
+      "cnm_124_q1",
+      "cnm_124_q2",
+      "cnm_124_q3",
+      "cnm_124_q4",
+      "cnm_124_q5",
+      "cnm_124_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_125",
+    "name": "全等判定：斜边、直角边（HL）",
+    "decision": "revise",
+    "finding": "“只能用HL”不成立，可借勾股补第三边再SSS；q5把四边形内角误作对角线分出的直角，原HL证明错误，改用ADC与BCD公共直角边及AC、BD斜边。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_125_q1",
+      "cnm_125_q2",
+      "cnm_125_q3",
+      "cnm_125_q4",
+      "cnm_125_q5"
+    ],
+    "snapshotSha256": "9c09462780269edc8367ac1960171329ffa03a04b4b711e1c6e18c7641650d14",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "22df413a98b37968bc6f3913acd7b54b335869f4c0bac134505827a8f5bd55ef",
+    "postQuestionIds": [
+      "cnm_125_q1",
+      "cnm_125_q2",
+      "cnm_125_q3",
+      "cnm_125_q4",
+      "cnm_125_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_126",
+    "name": "综合运用全等判定与规范书写",
+    "decision": "revise",
+    "finding": "标准要求规范证明但只有判定选择和单值，补完整证明与对应关系；所有判定同时设硬前提过强，改为可选方法soft并保留证明格式hard，说明引擎尚无OR组。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_126_q1",
+      "cnm_126_q2",
+      "cnm_126_q3",
+      "cnm_126_q4",
+      "cnm_126_q5"
+    ],
+    "snapshotSha256": "b9005ca1c7468c41b329e63a32c9508ed8cb0f3c713ac9b082b5f59d56e31325",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "f22dc3164079438490ec2409be81c8ee226631f530a3d2736a2f70b3f0840ae6",
+    "postQuestionIds": [
+      "cnm_126_q1",
+      "cnm_126_q2",
+      "cnm_126_q3",
+      "cnm_126_q4",
+      "cnm_126_q5",
+      "cnm_126_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_127",
+    "name": "基本尺规作图：作等角与角平分线",
+    "decision": "revise",
+    "finding": "无实际尺规作图作品，补复制角/平分角工具操作与痕迹；半径相交说明限定非退化角且P不同于O。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_127_q1",
+      "cnm_127_q2",
+      "cnm_127_q3",
+      "cnm_127_q4"
+    ],
+    "snapshotSha256": "ac3677fcd8f3d9e3de811db2faff12b4631362118f1a2d7fb8d03a53be040083",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "0072da1387f6e9c2e8b06ba8c43ec2c978d0f4ed22452e7ae619badf930039b6",
+    "postQuestionIds": [
+      "cnm_127_q1",
+      "cnm_127_q2",
+      "cnm_127_q3",
+      "cnm_127_q4",
+      "cnm_127_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_128",
+    "name": "角平分线的性质",
+    "decision": "revise",
+    "finding": "q5周长18且内切半径3的三角形不存在（面积27超过同周长等边三角形最大值），改为可实现的周长36、半径3，面积54。另补角平分线性质证明。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_128_q1",
+      "cnm_128_q2",
+      "cnm_128_q3",
+      "cnm_128_q4",
+      "cnm_128_q5"
+    ],
+    "snapshotSha256": "015d1004693a49221cf4cbce7d5f11eb29170fae8ae87387d8773eb0cc9f8df2",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "8ef684be4ab36d2391c3b2fe1f2d073a50b2947eb1e8ff012585da8319e03054",
+    "postQuestionIds": [
+      "cnm_128_q1",
+      "cnm_128_q2",
+      "cnm_128_q3",
+      "cnm_128_q4",
+      "cnm_128_q5",
+      "cnm_128_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_129",
+    "name": "角平分线的判定",
+    "decision": "revise",
+    "finding": "判定与方向辨别正确，补HL完整证明及角内条件；性质128不是判定独立证明必须先会，降soft。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_129_q1",
+      "cnm_129_q2",
+      "cnm_129_q3",
+      "cnm_129_q4",
+      "cnm_129_q5"
+    ],
+    "snapshotSha256": "b3bfb93f1ad74b28469f723361708d8fb01d493b3708879d375b77b71d52710f",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "266f04ee5ea57d1309164de008e2242139ed0352ab27add8b46e7b38a82de422",
+    "postQuestionIds": [
+      "cnm_129_q1",
+      "cnm_129_q2",
+      "cnm_129_q3",
+      "cnm_129_q4",
+      "cnm_129_q5",
+      "cnm_129_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_130",
+    "name": "全等三角形的常见辅助线与模型",
+    "decision": "revise",
+    "finding": "倍长中线数值正确，未检查自己添加辅助线与完整证明；作为未单列映射的补充方法节点标supplementary，避免全模型当课标独立必修。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_130_q1",
+      "cnm_130_q2",
+      "cnm_130_q3",
+      "cnm_130_q4",
+      "cnm_130_q5"
+    ],
+    "snapshotSha256": "5d7e6a9952abb848c872aa9ac7409fa5600f01e07c1203f5ace6cb993ff8744a",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "d9d0499759cd0b5e9c34c6de5a801d4b6b05fe4806901e5710326e23137e0bf8",
+    "postQuestionIds": [
+      "cnm_130_q1",
+      "cnm_130_q2",
+      "cnm_130_q3",
+      "cnm_130_q4",
+      "cnm_130_q5",
+      "cnm_130_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_131",
+    "name": "轴对称图形与两个图形成轴对称",
+    "decision": "revise",
+    "finding": "q5把一般平行四边形默认非轴对称有歧义，改问一定轴对称的类别；补实际折叠/对称轴辨认任务。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_131_q1",
+      "cnm_131_q2",
+      "cnm_131_q3",
+      "cnm_131_q4",
+      "cnm_131_q5"
+    ],
+    "snapshotSha256": "785f5a4de11a7ed9fefb1f89abfdfa68c33668f30339a3197448cf8798401102",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "b1c4cd93e23da91484a9f66486fd922452bf5d7872400abc11489b5031d6fcdd",
+    "postQuestionIds": [
+      "cnm_131_q1",
+      "cnm_131_q2",
+      "cnm_131_q3",
+      "cnm_131_q4",
+      "cnm_131_q5",
+      "cnm_131_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_132",
+    "name": "轴对称的性质",
+    "decision": "revise",
+    "finding": "对称点连线垂直平分须限点不在轴上；轴上点与其像重合，应明确特殊情况。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_132_q1",
+      "cnm_132_q2",
+      "cnm_132_q3",
+      "cnm_132_q4"
+    ],
+    "snapshotSha256": "5fb5e145f757898d0c4edfb3d0334220ffead2a18f8ce523fa73f5ecb615cdd5",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "159871deaf30e424ba7615beda7d902890c8a3ee4164d6eeb20f1a23cf015c3a",
+    "postQuestionIds": [
+      "cnm_132_q1",
+      "cnm_132_q2",
+      "cnm_132_q3",
+      "cnm_132_q4",
+      "cnm_132_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_133",
+    "name": "线段垂直平分线的性质与判定",
+    "decision": "revise",
+    "finding": "性质与判定计算正确，补证明及中点退化情形处理；126全套全等不是单一SSS/SAS证明必需硬门槛，降soft。",
+    "scope": "逐题文字题干、选项、答案、解析和所列先修检查；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_133_q1",
+      "cnm_133_q2",
+      "cnm_133_q3",
+      "cnm_133_q4"
+    ],
+    "snapshotSha256": "a7b2184c0b72401e0f4d5bdb517e10e9feb9d871ffec1a14ece9020ff02f940c",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "ffcd67705c84a9df85bbe73624ef617585994944e67b090fda8190e5f759c9d1",
+    "postQuestionIds": [
+      "cnm_133_q1",
+      "cnm_133_q2",
+      "cnm_133_q3",
+      "cnm_133_q4",
+      "cnm_133_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/congruence.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

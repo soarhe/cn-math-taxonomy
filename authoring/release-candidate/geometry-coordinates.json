@@ -1,0 +1,403 @@
+{
+  "batch": "release-candidate-geometry-coordinates",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_081",
+      "beforeHash": "4d809abccb64d334053280da87a2ae0202a6b5b0b1ec793fa17b5a2e6d72afdf",
+      "before": {
+        "id": "cnm_081",
+        "name": "有序数对",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第九章 平面直角坐标系 9.1.1",
+        "type": "conceptual",
+        "description": "用有顺序的两个数表示位置，如（列，行），顺序不同表示的位置不同。",
+        "mastery_criteria": [
+          "能用有序数对表示位置",
+          "能说明为什么要有顺序"
+        ],
+        "diagnostic_question": {
+          "question": "电影票“3 排 5 号”与“5 排 3 号”相同吗？",
+          "answer": "不同"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.85",
+            "confidence": "inferred",
+            "note": "有序数对是平面直角坐标系的铺垫，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_081",
+        "name": "有序数对",
+        "domain": "图形与几何",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第九章 平面直角坐标系 9.1.1",
+        "type": "conceptual",
+        "description": "用有顺序的两个数表示位置，例如约定先列后行。交换两个分量可能改变位置；两分量相同时交换后数对不变。",
+        "mastery_criteria": [
+          "能用有序数对表示位置",
+          "能说明为什么要有顺序"
+        ],
+        "diagnostic_question": {
+          "question": "电影票“3 排 5 号”与“5 排 3 号”相同吗？",
+          "answer": "不同"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.85",
+            "confidence": "inferred",
+            "note": "有序数对是平面直角坐标系的铺垫，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_110",
+      "beforeHash": "29259841174ba9f0829bcd122cc5b17b207aded3614730984109b71a4251c097",
+      "before": {
+        "id": "cnm_110",
+        "name": "三角形的概念与分类",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十三章 三角形 13.1",
+        "type": "conceptual",
+        "description": "认识三角形的边、角、顶点，按边（不等边、等腰、等边）和按角（锐角、直角、钝角）对三角形分类。",
+        "mastery_criteria": [
+          "能说出三角形的基本元素",
+          "能按边或按角对三角形分类"
+        ],
+        "diagnostic_question": {
+          "question": "三个内角分别是 30°、60°、90° 的三角形是什么三角形？",
+          "answer": "直角三角形"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.23",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_110",
+        "name": "三角形的概念与分类",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十三章 三角形 13.1",
+        "type": "conceptual",
+        "description": "认识三角形的边、角、顶点。按角分为锐角、直角、钝角三角形；按边可分不等边和等腰，其中等边三角形是三边都相等的特殊等腰三角形。",
+        "mastery_criteria": [
+          "能说出三角形的基本元素",
+          "能按边或按角对三角形分类"
+        ],
+        "diagnostic_question": {
+          "question": "三个内角分别是 30°、60°、90° 的三角形是什么三角形？",
+          "answer": "直角三角形"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.23",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_072_q5",
+      "beforeHash": "e09a2fabed4adb54d3d6053a05e0dbc42bfd989080f74ea800f8a24e21368a45",
+      "before": {
+        "id": "cnm_072_q5",
+        "topicId": "cnm_072",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 沿 BC 方向平移 3 cm 得到 △DEF（点 B、C、E、F 在同一直线上，且 BC=10 cm），求 BF 与 EC 的长。（依次作答，用逗号隔开，单位：cm）",
+        "answer": "13，7",
+        "explanation": "BE=CF=3，BF=BC+CF=10+3=13；EC=BC-BE=10-3=7。",
+        "verify": "[10+3, 10-3]"
+      },
+      "after": {
+        "id": "cnm_072_q5",
+        "topicId": "cnm_072",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 沿从B指向C的方向平移 3 cm 得到 △DEF（点 B、C、E、F 在同一直线上，且 BC=10 cm），求 BF 与 EC 的长。（依次作答，用逗号隔开，单位：cm）",
+        "answer": "13，7",
+        "explanation": "BE=CF=3，BF=BC+CF=10+3=13；EC=BC-BE=10-3=7。",
+        "verify": "[10+3, 10-3]"
+      }
+    },
+    {
+      "id": "cnm_114_q3",
+      "beforeHash": "00b94cacd5a216cc8b3fc68512a887b99f90c9f9062ab8573b881db67e3506da",
+      "before": {
+        "id": "cnm_114_q3",
+        "topicId": "cnm_114",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "△ABC 中，∠B=50°，∠C=70°，AD 平分 ∠BAC 交 BC 于 D，求 ∠ADB 的度数。",
+        "answer": "100",
+        "explanation": "∠BAC=180°-50°-70°=60°，∠BAD=30°；在 △ABD 中 ∠ADB=180°-50°-30°=100°。",
+        "verify": "180-50-(180-50-70)//2"
+      },
+      "after": {
+        "id": "cnm_114_q3",
+        "topicId": "cnm_114",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "△ABC 中，∠B=50°，∠C=70°，AD 平分 ∠BAC 交 BC 于 D，求 ∠ADB 的度数。",
+        "answer": "100",
+        "explanation": "∠BAC=180°-50°-70°=60°，∠BAD=30°；在 △ABD 中 ∠ADB=180°-50°-30°=100°。 本题需要三角形内角和，宜在学完该性质后用于复习。",
+        "verify": "180-50-(180-50-70)//2"
+      }
+    },
+    {
+      "id": "cnm_114_q5",
+      "beforeHash": "0bdd1416ba393a8fca5e664211afd7386c6505c95ad311247e2d7c195dbe4bae",
+      "before": {
+        "id": "cnm_114_q5",
+        "topicId": "cnm_114",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，∠A=80°，BD 平分 ∠ABC，CE 平分 ∠ACB，BD、CE 相交于点 O，求 ∠BOC 的度数。",
+        "answer": "130",
+        "explanation": "∠ABC+∠ACB=100°，∠OBC+∠OCB=50°，所以 ∠BOC=180°-50°=130°。",
+        "verify": "180-(180-80)//2"
+      },
+      "after": {
+        "id": "cnm_114_q5",
+        "topicId": "cnm_114",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，∠A=80°，BD 平分 ∠ABC，CE 平分 ∠ACB，BD、CE 相交于点 O，求 ∠BOC 的度数。",
+        "answer": "130",
+        "explanation": "∠ABC+∠ACB=100°，∠OBC+∠OCB=50°，所以 ∠BOC=180°-50°=130°。 本题需要三角形内角和，宜在学完该性质后用于复习。",
+        "verify": "180-(180-80)//2"
+      }
+    },
+    {
+      "id": "cnm_071_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_071_q6",
+        "topicId": "cnm_071",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "把“相等的角是对顶角”改写为如果……那么……，指出条件与结论，并自行画图给出反例。反例须说明为什么满足条件却不满足结论。",
+        "answer": "如果两个角相等，那么它们互为对顶角。条件是两个角相等；结论是互为对顶角。可画顶点不同的两个直角：都为90°但顶点不同，不是对顶角。",
+        "explanation": "如果两个角相等，那么它们互为对顶角。条件是两个角相等；结论是互为对顶角。可画顶点不同的两个直角：都为90°但顶点不同，不是对顶角。",
+        "rubric": [
+          "正确改写，不倒换条件结论",
+          "实际给出图或具体构造",
+          "同时核验相等和非对顶角；不只说命题为假"
+        ]
+      }
+    },
+    {
+      "id": "cnm_073_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_073_q6",
+        "topicId": "cnm_073",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在方格纸上自画一个不对称三角形ABC，沿方格向右平移3格、再向上平移2格得到A′B′C′。保留原图，标出三对对应点，用一对对应点复核方向和距离。",
+        "answer": "每个顶点都右移3格、上移2格，再按原顺序连接。对应边长度、对应角不变；所有对应点的位移一致。坐标不是完成本任务的必需工具。",
+        "explanation": "每个顶点都右移3格、上移2格，再按原顺序连接。对应边长度、对应角不变；所有对应点的位移一致。坐标不是完成本任务的必需工具。",
+        "rubric": [
+          "实际提交方格纸原图与像",
+          "三顶点统一右3上2而非分别移动",
+          "连线顺序一致并标对应点",
+          "用同一对点记录移动量"
+        ]
+      }
+    },
+    {
+      "id": "cnm_082_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_082_q5",
+        "topicId": "cnm_082",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "先读图写出P、Q的坐标，再在纸上重画坐标系并描出A(−3,−2)、B(0,4)、C(2,0)。标明原点、轴名、正方向和单位长度。",
+        "answer": "P(−2,3)、Q(3,−1)。A在第三象限；B在y轴正半轴；C在x轴正半轴。描点须按横坐标、纵坐标顺序定位。",
+        "explanation": "P(−2,3)、Q(3,−1)。A在第三象限；B在y轴正半轴；C在x轴正半轴。描点须按横坐标、纵坐标顺序定位。",
+        "rubric": [
+          "正确读出P、Q而非交换坐标",
+          "实际画出三点与坐标轴",
+          "轴名、原点、方向和单位齐全",
+          "B、C落在对应坐标轴上"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 390\" role=\"img\" aria-label=\"坐标图：每格1，图上标有P和Q，请读出坐标\"><title>坐标图：每格1，图上标有P和Q，请读出坐标</title><path d=\"M45 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"189\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">6</text><path d=\"M45 217H301 M173 345V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"221\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"232\" font-size=\"10\" fill=\"currentColor\">O</text><g fill=\"currentColor\"><circle cx=\"109\" cy=\"121\" r=\"3\"/><text x=\"115\" y=\"115\">P</text><circle cx=\"269\" cy=\"249\" r=\"3\"/><text x=\"275\" y=\"244\">Q</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_084_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_084_q5",
+        "topicId": "cnm_084",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "矩形长4、宽3，自选一个顶点为原点，两条邻边所在直线作坐标轴，画图并写四顶点坐标。用坐标求边长和面积；改选另一顶点作原点后，实际面积会变化吗？",
+        "answer": "一种选择为(0,0)、(4,0)、(4,3)、(0,3)，边长4、3，面积12。改变原点可改变坐标数值，但不改变实际边长和面积；其他一致的坐标安排也正确。",
+        "explanation": "一种选择为(0,0)、(4,0)、(4,3)、(0,3)，边长4、3，面积12。改变原点可改变坐标数值，但不改变实际边长和面积；其他一致的坐标安排也正确。",
+        "rubric": [
+          "给出自选原点、轴方向及单位",
+          "四顶点与图形一致",
+          "由坐标求4、3及面积12",
+          "区分坐标表示变化与图形本身变化"
+        ]
+      }
+    },
+    {
+      "id": "cnm_085_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_085_q5",
+        "topicId": "cnm_085",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "校园简图中，图书馆在校门东30 m、北40 m，操场在校门西20 m、北10 m。自行建立坐标系并画图表示两地，再说明更换原点后如何避免沟通混淆。",
+        "answer": "例如校门为原点，东为x正向、北为y正向，每单位10 m；图书馆(3,4)、操场(−2,1)。换原点后须同时说明新原点、方向和单位，位置不变但坐标可能变化。",
+        "explanation": "例如校门为原点，东为x正向、北为y正向，每单位10 m；图书馆(3,4)、操场(−2,1)。换原点后须同时说明新原点、方向和单位，位置不变但坐标可能变化。",
+        "rubric": [
+          "实际建系并明示三项约定",
+          "两地坐标按所选约定正确",
+          "画图与比例一致",
+          "知道不同坐标系不能直接混用数对"
+        ]
+      }
+    },
+    {
+      "id": "cnm_112_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_112_q6",
+        "topicId": "cnm_112",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "分别画一个锐角、一个直角、一个钝角三角形，并画出各自三条高；标出顶点、对应边所在直线、垂足及直角符号。需要延长对边时用虚线标示。",
+        "answer": "锐角三角形三条高在内部；直角三角形两高与直角边重合；钝角三角形两条高落在外部、一条在内部。每条高必须从顶点垂直于对边所在直线。",
+        "explanation": "锐角三角形三条高在内部；直角三角形两高与直角边重合；钝角三角形两条高落在外部、一条在内部。每条高必须从顶点垂直于对边所在直线。",
+        "rubric": [
+          "提交三个不同类型的三角形及共九条高",
+          "逐条匹配顶点与对边，不能向邻边作垂线",
+          "外部高正确延长对边",
+          "直角图两条高与边重合；不把测量近似当定理证明"
+        ]
+      }
+    },
+    {
+      "id": "cnm_113_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_113_q5",
+        "topicId": "cnm_113",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "自画一个不等边三角形ABC，在BC上找中点D并画中线AD。说明△ABD和△ACD面积相等，是否也能推出两者周长相等？",
+        "answer": "BD=CD；两三角形从A到直线BC的高相同，所以面积相等。周长差为AB−AC，故一般不相等，不能由等面积推等周长。",
+        "explanation": "BD=CD；两三角形从A到直线BC的高相同，所以面积相等。周长差为AB−AC，故一般不相等，不能由等面积推等周长。",
+        "rubric": [
+          "实际标中点、等长记号和中线",
+          "完整写等底同高面积论证",
+          "区分面积与周长，可用不等边反例"
+        ]
+      }
+    },
+    {
+      "id": "cnm_114_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_114_q6",
+        "topicId": "cnm_114",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "自画一个三角形ABC，用量角器作∠A的平分线，与BC交于D，标出AD。记录两半角的测量；解释AD是否必定经过BC中点。",
+        "answer": "先量∠A再取一半方向画射线，与BC相交的线段AD是三角形角平分线。一般不必经过BC中点；中线平分边长，角平分线平分角度，两种条件不同。",
+        "explanation": "先量∠A再取一半方向画射线，与BC相交的线段AD是三角形角平分线。一般不必经过BC中点；中线平分边长，角平分线平分角度，两种条件不同。",
+        "rubric": [
+          "实际画图和记录两半角",
+          "AD起于顶点、终于对边",
+          "按工具精度核查两半角相等",
+          "不把角平分线混同中线；本任务是量角作图，尺规作图另审"
+        ]
+      }
+    },
+    {
+      "id": "cnm_115_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_115_q6",
+        "topicId": "cnm_115",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画△ABC，令BC水平且B在C左侧，A在BC所在直线上方。过A作DE∥BC，D在A左、E在A右。写出三角形内角和为180°的完整证明，并在图中标出两对相等角。",
+        "answer": "由DE∥BC，∠DAB=∠ABC、∠CAE=∠ACB（内错角相等）。∠DAB+∠BAC+∠CAE为平角180°，代换得∠ABC+∠BAC+∠ACB=180°。",
+        "explanation": "由DE∥BC，∠DAB=∠ABC、∠CAE=∠ACB（内错角相等）。∠DAB+∠BAC+∠CAE为平角180°，代换得∠ABC+∠BAC+∠ACB=180°。",
+        "rubric": [
+          "实际画辅助平行线与相等角标记",
+          "写出两次平行线性质及对应角",
+          "用平角及等量代换完成证明",
+          "不能只测量三角和当作一般证明"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_084",
+      "beforeHash": "51f5e705ca461332a4f9dd9eea7f689079c52a010a3f28ac414304906c49dd28",
+      "before": [
+        {
+          "topicId": "cnm_084",
+          "prerequisiteId": "cnm_083",
+          "strength": "hard",
+          "reason": "需要熟悉点的坐标特征"
+        },
+        {
+          "topicId": "cnm_084",
+          "prerequisiteId": "cnm_008",
+          "strength": "hard",
+          "reason": "距离用坐标差的绝对值"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_084",
+          "prerequisiteId": "cnm_083",
+          "strength": "hard",
+          "reason": "需要熟悉点的坐标特征"
+        },
+        {
+          "topicId": "cnm_084",
+          "prerequisiteId": "cnm_008",
+          "strength": "soft",
+          "reason": "坐标差绝对值是一种距离表达法；数格或用较大坐标减较小坐标也能求轴向线段长，不应将绝对值化简设为唯一门槛。"
+        }
+      ]
+    }
+  ]
+}

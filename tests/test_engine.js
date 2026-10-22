@@ -1047,9 +1047,9 @@ test('题库：判题器接受每道题自己的参考答案（self 一律自评
   assert.deepStrictEqual(bad.slice(0, 20), []);
 });
 
-test('带题库的图：每个正式知识点可测、外部节点不可测；hasBank 为 true', () => {
+test('带题库的图：含核心题的正式知识点可测、外部及纯补充题节点不可测；hasBank 为 true', () => {
   assert.strictEqual(RGQ.hasBank, true);
-  assert.ok(formal.every((t) => E.isTestable(RGQ, t.id)));
+  formal.forEach(t => assert.strictEqual(E.isTestable(RGQ, t.id), questions.some(q => q.topicId === t.id && q.curriculum_scope !== 'supplementary')));
   assert.ok(topics.filter((t) => t.external).every((t) => !E.isTestable(RGQ, t.id)));
 });
 
@@ -1098,6 +1098,7 @@ function expectedHardFailures(graph, targets, known) {
   while (queue.length) {
     const id = queue.shift();
     if (visited.has(id) || !E.isTestable(graph, id)) continue;
+    if (graph.hasBank && !(graph.bank[id] || []).some(q => q.curriculum_scope !== 'supplementary')) continue;
     visited.add(id);
     if (known.has(id)) continue;
     failures.add(id);
@@ -1139,6 +1140,11 @@ test('带题库：任何一个知识点“第一题错、第二题对” => 不�
   let withPrereq = 0;
   formal.forEach((t) => {
     const { s, asked } = simulateBank([t.id], new Set(), new Set([t.id]), 9999);
+    if (!(RGQ.bank[t.id] || []).some(q => q.curriculum_scope !== 'supplementary')) {
+      assert.deepStrictEqual(asked, []);
+      assert.strictEqual(E.statusOf(s, t.id), 'unknown');
+      return;
+    }
     assert.deepStrictEqual(asked, [t.id + '#1', t.id + '#2'], t.id);
     assert.strictEqual(E.statusOf(s, t.id), 'shaky');
     const sum = E.summarize(RGQ, s);
@@ -1581,6 +1587,27 @@ test('核心诊断不抽取已标注的拓展题，不能耗尽核心后回退�
     const it=E.nextItem(RGQ,E.createSession(RGQ,['cnm_226'],{seed}));
     assert.ok(!['cnm_226_q4','cnm_226_q5'].includes(it.question.id));
   }
+});
+
+test('纯补充题目标不阻挡同会话的核心目标，也不产生通过或失败', () => {
+  const g=E.buildGraph([mk('A'),mk('Z')],[],[mq('A',1,'b'),mq('A',2,'b'),mq('Z',1,'b',{curriculum_scope:'supplementary'})]);
+  let s=E.createSession(g,['A','Z']);
+  assert.strictEqual(E.isTestable(g,'Z'),false);
+  assert.strictEqual(E.nextItem(g,s).topicId,'A');
+  s=E.applyAnswer(g,s,'A','correct');
+  assert.strictEqual(E.nextItem(g,s),null);
+  assert.strictEqual(E.summarize(g,s).finished,true);
+  assert.ok(E.summarize(g,s).untested.includes('Z'));
+  assert.strictEqual(E.statusOf(s,'Z'),'unknown');
+});
+test('年级筛查排除选学和补充节点，切线长定理保留显式诊断', () => {
+  for (const grade of ['七年级','八年级','九年级']) {
+    const ids=E.gradeTargets(RGQ,grade).ids;
+    assert.ok(ids.every(id=>!['optional','supplementary'].includes(RGQ.byId[id].curriculum_scope)));
+  }
+  assert.strictEqual(RGQ.byId.cnm_263.curriculum_scope,'optional');
+  assert.strictEqual(E.nextItem(RGQ,E.createSession(RGQ,['cnm_263'])).topicId,'cnm_263');
+  assert.strictEqual(E.nextItem(RGQ,E.createSession(RGQ,['cnm_130'])),null);
 });
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

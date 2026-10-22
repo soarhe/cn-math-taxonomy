@@ -1,0 +1,5465 @@
+{
+  "scope": "317个初中节点首轮；不是教师认证或能力全覆盖结论",
+  "count": 317,
+  "rows": [
+    {
+      "topicId": "cnm_001",
+      "name": "正数与负数的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "正负数与0辨析已有四题；q4使用字母但给出正数条件，未见答案错误。",
+      "questionIds": [
+        "cnm_001_q1",
+        "cnm_001_q2",
+        "cnm_001_q3",
+        "cnm_001_q4"
+      ],
+      "currentSnapshotSha256": "15740a293934242877bcb92fa9277395c2bcd18db6335adb75b2b2580d8aad44",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_002",
+      "name": "用正负数表示相反意义的量",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "东/西、海拔、收支、变化量四情境明确正方向，保留；水位最终变化不等同绝对水位。",
+      "questionIds": [
+        "cnm_002_q1",
+        "cnm_002_q2",
+        "cnm_002_q3",
+        "cnm_002_q4"
+      ],
+      "currentSnapshotSha256": "4f4544e364429c088c1a703497e8dc5fd592163d733ce2b782c04f826eeb8357",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_003",
+      "name": "有理数的分类",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "定义补正负有理数口径，q1加入量规；π非有理数的识别依赖后续无理数内容，q2改为本节点可直接判断的分类任务。",
+      "questionIds": [
+        "cnm_003_q1",
+        "cnm_003_q2",
+        "cnm_003_q3",
+        "cnm_003_q4"
+      ],
+      "currentSnapshotSha256": "2e28c1cf128f02b779f38e8036309c5180961cac67b224d23c6d33c172ba9ad9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_004",
+      "name": "数轴",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "增加实际作图和刻度纠错；选择三要素不代替作图证据。",
+      "questionIds": [
+        "cnm_004_q1",
+        "cnm_004_q2",
+        "cnm_004_q3",
+        "cnm_004_q4",
+        "cnm_004_q5",
+        "cnm_004_q6"
+      ],
+      "currentSnapshotSha256": "c432117aca7a465d24beb8f171c56b4cf8388e93b3a4420f79ecdfe2f50e649f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_005",
+      "name": "在数轴上表示有理数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补实际标点和读取非整数刻度；原比较题只作为大小关系证据。",
+      "questionIds": [
+        "cnm_005_q1",
+        "cnm_005_q2",
+        "cnm_005_q3",
+        "cnm_005_q4",
+        "cnm_005_q5",
+        "cnm_005_q6"
+      ],
+      "currentSnapshotSha256": "271cf16f3d93ddd3a51d8fa87a1088ba34532c267efd0b7dec65988ffce4455d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_006",
+      "name": "相反数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "描述“位于原点两侧”不适用于0，补非零限定及0例外；q2解析的倒数/相反数逐项说清。",
+      "questionIds": [
+        "cnm_006_q1",
+        "cnm_006_q2",
+        "cnm_006_q3",
+        "cnm_006_q4"
+      ],
+      "currentSnapshotSha256": "c9088dea68ef70aa6eb8946aa67d96816a9f3ed0ec2d0409de8df7a0191ff17a",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_007",
+      "name": "绝对值的概念与几何意义",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补距离解释和0反例，避免只记去负号。",
+      "questionIds": [
+        "cnm_007_q1",
+        "cnm_007_q2",
+        "cnm_007_q3",
+        "cnm_007_q4",
+        "cnm_007_q5",
+        "cnm_007_q6"
+      ],
+      "currentSnapshotSha256": "5f93563b04a95162cb32f48e690fc5333c9abf83ee4060d3993866ea7e0f7899",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_008",
+      "name": "绝对值的化简与计算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "现题覆盖绝对值正数与非正条件，但|x|=a缺a=0与a<0，补统一边界解释任务。",
+      "questionIds": [
+        "cnm_008_q1",
+        "cnm_008_q2",
+        "cnm_008_q3",
+        "cnm_008_q4",
+        "cnm_008_q5"
+      ],
+      "currentSnapshotSha256": "44503242e6cac68d5059209236a0e52b6a1f9252097dd07ab736b8f77b6fc703",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_009",
+      "name": "有理数的大小比较",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "现题无实际数轴作答，补数轴比较任务；绝对值法是一种比较方法，008不应单独硬依赖，需记录替代方法限制。",
+      "questionIds": [
+        "cnm_009_q1",
+        "cnm_009_q2",
+        "cnm_009_q3",
+        "cnm_009_q4",
+        "cnm_009_q5"
+      ],
+      "currentSnapshotSha256": "80c3184dfacfff64d5742cfd898c3cdb5d3591185c10ec14244c6e134af75e90",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_010",
+      "name": "有理数的加法法则",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "同号、异号、分数及条件符号题完整可计算；法则解释证据有限，作为首轮保留及待教学抽查项。",
+      "questionIds": [
+        "cnm_010_q1",
+        "cnm_010_q2",
+        "cnm_010_q3",
+        "cnm_010_q4"
+      ],
+      "currentSnapshotSha256": "1d0763ae7c34656cdf887b6312e357962d4fad46137ad5600ca08c1c6141f68f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_011",
+      "name": "加法运算律与简便运算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "最终数值不能证明用过运算律；增加展示重组并说明交换/结合依据任务。",
+      "questionIds": [
+        "cnm_011_q1",
+        "cnm_011_q2",
+        "cnm_011_q3",
+        "cnm_011_q4",
+        "cnm_011_q5"
+      ],
+      "currentSnapshotSha256": "4d800691e9cbabf4a53eb3d610bf500d2fc2eccedb1a1361b569a311322ab8f2",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_012",
+      "name": "有理数的减法法则",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "改写选择题与整数/分数/温差计算一致，保留。",
+      "questionIds": [
+        "cnm_012_q1",
+        "cnm_012_q2",
+        "cnm_012_q3",
+        "cnm_012_q4",
+        "cnm_012_q5"
+      ],
+      "currentSnapshotSha256": "c4b99afd3ecbe5d45895dfe78820948584dac50d11d47710566eb96971e477d4",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_013",
+      "name": "有理数的加减混合运算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "q3显式检查省略括号，其他题检查计算和连续整数分组；保留。",
+      "questionIds": [
+        "cnm_013_q1",
+        "cnm_013_q2",
+        "cnm_013_q3",
+        "cnm_013_q4",
+        "cnm_013_q5"
+      ],
+      "currentSnapshotSha256": "947c40a50575528a4d6104870569af0e3d039ec3a5e164101d47281bb66998dc",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_014",
+      "name": "有理数的乘法法则",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "正负零、分数与字母代入符号条件题均可支持核心运算；保留。",
+      "questionIds": [
+        "cnm_014_q1",
+        "cnm_014_q2",
+        "cnm_014_q3",
+        "cnm_014_q4",
+        "cnm_014_q5"
+      ],
+      "currentSnapshotSha256": "a695c77654d0083c431f68d618f183de604303c24ef4e408eb0900396f4500ff",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_015",
+      "name": "乘法运算律与多个因数相乘",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "q1声称用分配律却只收数值，补过程题；零因数条件已在描述与q5正确限定。",
+      "questionIds": [
+        "cnm_015_q1",
+        "cnm_015_q2",
+        "cnm_015_q3",
+        "cnm_015_q4",
+        "cnm_015_q5",
+        "cnm_015_q6"
+      ],
+      "currentSnapshotSha256": "3cf961c656ca386ec1013b9548dbf1f1a5b4dff4bc781eeb4607fcefba800541",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_016",
+      "name": "倒数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "0没有倒数只在解析里，没有原因解释任务，补用0乘任何数为0的论证。",
+      "questionIds": [
+        "cnm_016_q1",
+        "cnm_016_q2",
+        "cnm_016_q3",
+        "cnm_016_q4",
+        "cnm_016_q5",
+        "cnm_016_q6"
+      ],
+      "currentSnapshotSha256": "fd0f5deaf73653bd232615b05dd35de8bf9850ad0044d5455593ebb136895bb3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_017",
+      "name": "有理数的除法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "分数除法、除零排除、零作被除数均有题；保留。",
+      "questionIds": [
+        "cnm_017_q1",
+        "cnm_017_q2",
+        "cnm_017_q3",
+        "cnm_017_q4",
+        "cnm_017_q5"
+      ],
+      "currentSnapshotSha256": "dd00cfe9c842cca1b7d352bdbb96a7b00d7fe4781c49d736f687efa84b6f9550",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_018",
+      "name": "有理数的加减乘除混合运算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "新增两类实际情境及解释任务后补 NA.05 引用；不以补引用代替任务。",
+      "questionIds": [
+        "cnm_018_q1",
+        "cnm_018_q2",
+        "cnm_018_q3",
+        "cnm_018_q4",
+        "cnm_018_q5",
+        "cnm_018_q6",
+        "cnm_018_q7"
+      ],
+      "currentSnapshotSha256": "6975be659441ff7c48b87a20f1a15caef4485975199a7466528a32f5ea3029fb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_019",
+      "name": "乘方的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "q1要求写含义却仅收相同的两个数值，不能辨析结构；补展开与偶次方对比任务，并限定连乘定义中n为正整数。",
+      "questionIds": [
+        "cnm_019_q1",
+        "cnm_019_q2",
+        "cnm_019_q3",
+        "cnm_019_q4",
+        "cnm_019_q5",
+        "cnm_019_q6"
+      ],
+      "currentSnapshotSha256": "4d9db56090a8dfea140ee59dec23e5b242cdb8b87bebb692beaffc82c927bc68",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_020",
+      "name": "乘方的运算与符号规律",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "奇偶次、负分数、0及±1高次题正确；保留。",
+      "questionIds": [
+        "cnm_020_q1",
+        "cnm_020_q2",
+        "cnm_020_q3",
+        "cnm_020_q4",
+        "cnm_020_q5"
+      ],
+      "currentSnapshotSha256": "1473c6970b40b2dcc73f51c84dcc91fee99d31a16851ce648738d46f468bf64b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_021",
+      "name": "含乘方的有理数混合运算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "混合运算覆盖乘方负号、括号、分数等，运算顺序与答案核对一致；保留。",
+      "questionIds": [
+        "cnm_021_q1",
+        "cnm_021_q2",
+        "cnm_021_q3",
+        "cnm_021_q4",
+        "cnm_021_q5"
+      ],
+      "currentSnapshotSha256": "05647bdfb7507b8c0c091b1af2befc34f5e90143092ae02883368529f5f6580f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_022",
+      "name": "科学记数法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "补计算器科学记数法显示的读写证据，保留小数科学记数法在164。",
+      "questionIds": [
+        "cnm_022_q1",
+        "cnm_022_q2",
+        "cnm_022_q3",
+        "cnm_022_q4",
+        "cnm_022_q5",
+        "cnm_022_q6"
+      ],
+      "currentSnapshotSha256": "76f9b3a0daeec348541457ba460a3f323cbbbef9b0c999865d4986ffc0dd8ab3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_023",
+      "name": "近似数与精确度",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "核心改为近似数、精确度与实际近似计算；原有效数字题面替换，不把未列出的术语列成必修门槛。",
+      "questionIds": [
+        "cnm_023_q1",
+        "cnm_023_q2",
+        "cnm_023_q3",
+        "cnm_023_q4",
+        "cnm_023_q5",
+        "cnm_023_q6"
+      ],
+      "currentSnapshotSha256": "8309568e763106b4b80a717323ee185ff7ed969637e4da08d88b7bafbb4c95e2",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_024",
+      "name": "进位制的认识与探究",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "二进制数值正确；补计数/进位操作与解释，不能只收转换结果。",
+      "questionIds": [
+        "cnm_024_q1",
+        "cnm_024_q2",
+        "cnm_024_q3",
+        "cnm_024_q4",
+        "cnm_024_q5",
+        "cnm_024_q6"
+      ],
+      "currentSnapshotSha256": "362e348394f6d579debd400eb6933f7b6ce59ec54c3e4b4bdc3c8a1c51ff0da5",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_025",
+      "name": "用字母表示数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "字母运算律表达、情境式子及非正取值辨析已有证据；情境取值限制在各应用点补，不强挂大小比较。",
+      "questionIds": [
+        "cnm_025_q1",
+        "cnm_025_q2",
+        "cnm_025_q3",
+        "cnm_025_q4"
+      ],
+      "currentSnapshotSha256": "e4b42183a5af7cc093b2e926f0cc76a8166a71e2b56a5bd8ad0bcbe5d341a3d9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_026",
+      "name": "代数式的概念与书写规范",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "描述应明确单独的数/字母也是代数式；认识书写规范不要求全部混合运算018，降该边为soft。",
+      "questionIds": [
+        "cnm_026_q1",
+        "cnm_026_q2",
+        "cnm_026_q3",
+        "cnm_026_q4"
+      ],
+      "currentSnapshotSha256": "f53f36121652c4c72583e569ebbb306938e9476a34f8834f5d146792aa613887",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_027",
+      "name": "列代数式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "补资料查阅与公式选择的过程证据；单纯代入题不承担该子能力。",
+      "questionIds": [
+        "cnm_027_q1",
+        "cnm_027_q2",
+        "cnm_027_q3",
+        "cnm_027_q4",
+        "cnm_027_q5",
+        "cnm_027_q6"
+      ],
+      "currentSnapshotSha256": "760d107513abf3c09b85d9db00f7f69b13a43a4e0a39742fc437d6fdf1eb9fb0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_028",
+      "name": "解释代数式的实际意义",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "开放题有真实解释任务，补量规与排空前时间范围，明确表达式适用条件。",
+      "questionIds": [
+        "cnm_028_q1",
+        "cnm_028_q2",
+        "cnm_028_q3",
+        "cnm_028_q4"
+      ],
+      "currentSnapshotSha256": "02aa17598cd358698873f40ee6744a595363891ab15a95ba8feb8435444a2735",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_029",
+      "name": "代数式的值",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "正负、分数代入及整体代入均有正确题目；保留。",
+      "questionIds": [
+        "cnm_029_q1",
+        "cnm_029_q2",
+        "cnm_029_q3",
+        "cnm_029_q4"
+      ],
+      "currentSnapshotSha256": "22fc9268e943f74b8f755a080ec0437d3b19c5c5edad5079af91a06c6fb416b1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_030",
+      "name": "用代数式表示规律",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补生成规则，避免有限数列唯一外推；增加结构推导。",
+      "questionIds": [
+        "cnm_030_q1",
+        "cnm_030_q2",
+        "cnm_030_q3",
+        "cnm_030_q4",
+        "cnm_030_q5",
+        "cnm_030_q6"
+      ],
+      "currentSnapshotSha256": "af0edca470e08dad4acb4c78e967baa79dbd9b854918cf2152958ff8e366d294",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_031",
+      "name": "单项式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "定义应说明单独数/字母、字母非负整数指数，现有题支持系数次数；补边界表述。",
+      "questionIds": [
+        "cnm_031_q1",
+        "cnm_031_q2",
+        "cnm_031_q3",
+        "cnm_031_q4"
+      ],
+      "currentSnapshotSha256": "99a3b84eb7e7bbd31d6bd2f00b7c3ea9b2c4989a96e2b84d7299d7bff68ac429",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_032",
+      "name": "多项式与整式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "项数次数、常数项带符号、非整式均有题；q4绝对值指数为综合项，答案±1一致。",
+      "questionIds": [
+        "cnm_032_q1",
+        "cnm_032_q2",
+        "cnm_032_q3",
+        "cnm_032_q4"
+      ],
+      "currentSnapshotSha256": "285a1b272c759d55fe43a937329a5cb61d3553dff0b53c5b2962491d3d748f15",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_033",
+      "name": "同类项",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "字母顺序、相同字母指数、常数同类项均有直接题目，保留。",
+      "questionIds": [
+        "cnm_033_q1",
+        "cnm_033_q2",
+        "cnm_033_q3",
+        "cnm_033_q4"
+      ],
+      "currentSnapshotSha256": "86858c4a6c1a2a2c9d2983262a3cd22c52405671fad419f79de95322174498b6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_034",
+      "name": "合并同类项",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "合并结果题不能证明理解分配律依据，补解释为什么系数相加而字母部分不变。",
+      "questionIds": [
+        "cnm_034_q1",
+        "cnm_034_q2",
+        "cnm_034_q3",
+        "cnm_034_q4",
+        "cnm_034_q5"
+      ],
+      "currentSnapshotSha256": "8b4b4d6c1b4d78c18c854c61c0f79b04e1a4787a3ba194cd679a1bb90eb51ee0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_035",
+      "name": "去括号法则",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "完整表达式短答与负号/倍数选择题支持去括号，保留；核心运算与分配律关联合理。",
+      "questionIds": [
+        "cnm_035_q1",
+        "cnm_035_q2",
+        "cnm_035_q3",
+        "cnm_035_q4"
+      ],
+      "currentSnapshotSha256": "d46525ca72c407d105454dc99a2d3027d033b36b400517bc6fbb3ade58174e63",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_036",
+      "name": "整式的加减",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "含负括号的完整结果短答及复合整式相减支持核心运算；保留。",
+      "questionIds": [
+        "cnm_036_q1",
+        "cnm_036_q2",
+        "cnm_036_q3",
+        "cnm_036_q4"
+      ],
+      "currentSnapshotSha256": "49d9024a28399c64353a97fb563677ece45f05394b7351dc51c942b60f7fc184",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_037",
+      "name": "整式化简求值",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "所有题只收最后值，不能确认先化简；补展示化简与负数代入的过程证据。",
+      "questionIds": [
+        "cnm_037_q1",
+        "cnm_037_q2",
+        "cnm_037_q3",
+        "cnm_037_q4",
+        "cnm_037_q5"
+      ],
+      "currentSnapshotSha256": "95cf37773c55df7b370ac0b883a2344c9fe2706852d3970f23d75ea608d59f28",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_038",
+      "name": "整式加减的应用",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "周长列式已有题，解释意义弱；补实际长度范围与化简意义任务。",
+      "questionIds": [
+        "cnm_038_q1",
+        "cnm_038_q2",
+        "cnm_038_q3",
+        "cnm_038_q4",
+        "cnm_038_q5"
+      ],
+      "currentSnapshotSha256": "05c491e36bd99ab6eb599e1bf26f06e0be1907de7320e06a18e8f49658b4c095",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_039",
+      "name": "方程与方程的解",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "补经历估计方程解的过程；保留求解与验解的不同证据。",
+      "questionIds": [
+        "cnm_039_q1",
+        "cnm_039_q2",
+        "cnm_039_q3",
+        "cnm_039_q4",
+        "cnm_039_q5",
+        "cnm_039_q6"
+      ],
+      "currentSnapshotSha256": "f0942fe1541c29f63732957a37c94807dc8b2d11452b8af7898b0422f5ffcb0c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_040",
+      "name": "等式的性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "同乘0仍保持相等，但不能作为等价变形恢复原解；描述将同乘与同除条件混写，需区分等式成立和解集等价。",
+      "questionIds": [
+        "cnm_040_q1",
+        "cnm_040_q2",
+        "cnm_040_q3",
+        "cnm_040_q4",
+        "cnm_040_q5"
+      ],
+      "currentSnapshotSha256": "49aa37d2d5ecaab1713b63b5ede014c4a71576b5e7dfac11ef6aebb7c6aecb50",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_041",
+      "name": "一元一次方程的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-foundations.json",
+      "firstPassFinding": "标准式掌握标准漏a≠0；补描述与判据，现q4已直接检查该条件。",
+      "questionIds": [
+        "cnm_041_q1",
+        "cnm_041_q2",
+        "cnm_041_q3",
+        "cnm_041_q4"
+      ],
+      "currentSnapshotSha256": "953bc713d2344f78819e8adc2148366ab27f0df40b5d85a66f6a559e50464404",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_042",
+      "name": "移项与合并同类项解方程",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d4/node-review.json",
+      "firstPassFinding": "补移项依据与错误步骤定位，不仅收最终数值。",
+      "questionIds": [
+        "cnm_042_q1",
+        "cnm_042_q2",
+        "cnm_042_q3",
+        "cnm_042_q4",
+        "cnm_042_q5",
+        "cnm_042_q6"
+      ],
+      "currentSnapshotSha256": "36763ee05c35d82687b6452d90469da7b265fd9d35bbc6a4faffbe23924478a7",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_043",
+      "name": "含括号的一元一次方程",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d4/node-review.json",
+      "firstPassFinding": "补负号分配到每项的解释和纠错。",
+      "questionIds": [
+        "cnm_043_q1",
+        "cnm_043_q2",
+        "cnm_043_q3",
+        "cnm_043_q4",
+        "cnm_043_q5",
+        "cnm_043_q6"
+      ],
+      "currentSnapshotSha256": "eabf63f77247fcf14f70ac5b4b6d2b20b721be82422c7e5070d87c7ddb1f0b71",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_044",
+      "name": "含分母的一元一次方程",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d4/node-review.json",
+      "firstPassFinding": "最小公倍数是便利选择而非唯一合法选择；补漏乘纠错。",
+      "questionIds": [
+        "cnm_044_q1",
+        "cnm_044_q2",
+        "cnm_044_q3",
+        "cnm_044_q4",
+        "cnm_044_q5",
+        "cnm_044_q6"
+      ],
+      "currentSnapshotSha256": "264e9c2898de0bcaa4f601538d82b12244751c6bb8574148801a0a32c18d5434",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_045",
+      "name": "列一元一次方程解应用题的步骤",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d3/node-review.json",
+      "firstPassFinding": "补真实情境中的建模过程与非整数人数反例。",
+      "questionIds": [
+        "cnm_045_q1",
+        "cnm_045_q2",
+        "cnm_045_q3",
+        "cnm_045_q4",
+        "cnm_045_q5",
+        "cnm_045_q6"
+      ],
+      "currentSnapshotSha256": "ba5deeae7491fea7bcca685fc01afaf54f37b7cacc479fbb0e1ee3ad238b43fe",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_046",
+      "name": "配套与工程问题",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "配套和效率数值正确，但未检查建模过程；补工作总量归一、效率恒定假设和配套比例的完整列式任务。",
+      "questionIds": [
+        "cnm_046_q1",
+        "cnm_046_q2",
+        "cnm_046_q3",
+        "cnm_046_q4",
+        "cnm_046_q5",
+        "cnm_046_q6"
+      ],
+      "currentSnapshotSha256": "4b05a83d7f64ca13ab0b2cbdf21caba057de0418ac3eebadf5842d64908006d9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_047",
+      "name": "行程问题（相遇与追及）",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "掌握标准要求线段图但四题仅数字；补相遇与追及画图、时间起点区别，保留原题。",
+      "questionIds": [
+        "cnm_047_q1",
+        "cnm_047_q2",
+        "cnm_047_q3",
+        "cnm_047_q4",
+        "cnm_047_q5",
+        "cnm_047_q6"
+      ],
+      "currentSnapshotSha256": "60ee88fc7994f719e6636257e8b8a33709fb8f1552f73310c8d1540587403f15",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_048",
+      "name": "销售与利润问题",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "价格题答案正确，补利润率分母为进价的解释与方程过程；折扣节点只覆盖部分题，不应作全部利润任务硬门槛。",
+      "questionIds": [
+        "cnm_048_q1",
+        "cnm_048_q2",
+        "cnm_048_q3",
+        "cnm_048_q4",
+        "cnm_048_q5"
+      ],
+      "currentSnapshotSha256": "73c2d1d95d296fabcca7c4abcadfa5f6faa4c513a025eea6ed851b26327899e9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_049",
+      "name": "分段计费与方案选择",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "名称为分段计费但现题均整段线性方案；增加真实起步量/超出量分段计费及分段有效性核验。",
+      "questionIds": [
+        "cnm_049_q1",
+        "cnm_049_q2",
+        "cnm_049_q3",
+        "cnm_049_q4",
+        "cnm_049_q5"
+      ],
+      "currentSnapshotSha256": "9b7405b5cd6915b0f233caaffdce9b7cfc8c548ea15e2a1293a509f22ec7cf20",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_050",
+      "name": "立体图形与平面图形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "描述误把曲面立体说成由平面图形构成；圆柱侧面展开须沿母线剪开。小学圆柱体积不是识别立体图形必要硬先修，修订。",
+      "questionIds": [
+        "cnm_050_q1",
+        "cnm_050_q2",
+        "cnm_050_q3",
+        "cnm_050_q4"
+      ],
+      "currentSnapshotSha256": "84bf55581623585e5e081f18016c47f20a8533d4520a1ca7f7e5b88587a08f8e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_051",
+      "name": "从不同方向看与立体图形的展开图",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "q3说上层小块被底层遮住的解释颠倒：是投影占位重合。q1背11种展开图数量不能证明辨认，改任务并补真正三方向草图证据；现图需集中渲染检查。",
+      "questionIds": [
+        "cnm_051_q1",
+        "cnm_051_q2",
+        "cnm_051_q3",
+        "cnm_051_q4",
+        "cnm_051_q5",
+        "cnm_051_q6"
+      ],
+      "currentSnapshotSha256": "39156df55d9f738a8cecad52536fd5317eedc6857646b118d99d41b47b796148",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_052",
+      "name": "点、线、面、体",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "点动成线等表述须说明运动方向与非退化条件，避免沿自身平移也成面。旋转体与体积数值正确，补自举例解释而非仅选项辨认。",
+      "questionIds": [
+        "cnm_052_q1",
+        "cnm_052_q2",
+        "cnm_052_q3",
+        "cnm_052_q4",
+        "cnm_052_q5",
+        "cnm_052_q6"
+      ],
+      "currentSnapshotSha256": "36d816ffeb7cfd92585c11214e21e4db1470b2d91463d91234e81ec525b547de",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_053",
+      "name": "直线、射线、线段",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "定义辨认及计数题正确，缺实际画直线/射线/线段任务；052点线面体抽象不是射线定义的必要硬前提。",
+      "questionIds": [
+        "cnm_053_q1",
+        "cnm_053_q2",
+        "cnm_053_q3",
+        "cnm_053_q4",
+        "cnm_053_q5",
+        "cnm_053_q6"
+      ],
+      "currentSnapshotSha256": "14255e1f5df2383ee368884aa43d94f7237e1115d02e53ba98b041a65f8da37b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_054",
+      "name": "直线与线段的基本事实",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "两条基本事实及生活辨认、三点计数、最短折线路径答案一致；明确距离为长度，首轮保留。",
+      "questionIds": [
+        "cnm_054_q1",
+        "cnm_054_q2",
+        "cnm_054_q3",
+        "cnm_054_q4",
+        "cnm_054_q5"
+      ],
+      "currentSnapshotSha256": "dae8ec8c1de5f8093ead4021302fbbaefea26901f44f5f47f97ce5b22e2baeaa",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_055",
+      "name": "线段的比较与运算",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "中点、叠合判断与两种共线位置计算正确；缺实际测量/叠合作业，补过程证据。",
+      "questionIds": [
+        "cnm_055_q1",
+        "cnm_055_q2",
+        "cnm_055_q3",
+        "cnm_055_q4",
+        "cnm_055_q5",
+        "cnm_055_q6"
+      ],
+      "currentSnapshotSha256": "79800d0fbfd2130db6e0485dde3efc6926c772c32573b0f4f35062838e4bceb5",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_056",
+      "name": "角的概念与表示",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "q4须明确OB、OC在小于平角的AOD内部且四射线不同，避免位置歧义；角命名题正确。角概念不应强依赖熟练角度量，调整小学边。",
+      "questionIds": [
+        "cnm_056_q1",
+        "cnm_056_q2",
+        "cnm_056_q3",
+        "cnm_056_q4",
+        "cnm_056_q5"
+      ],
+      "currentSnapshotSha256": "07507cd96d62a4ba5279eaf1dd554370f32d781c72b9544f30ad6e0c6038ca45",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_057",
+      "name": "度、分、秒及其换算",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "度分秒五题数值及六十进制进退位正确，含秒换度和借位；类比时间为soft合理。",
+      "questionIds": [
+        "cnm_057_q1",
+        "cnm_057_q2",
+        "cnm_057_q3",
+        "cnm_057_q4",
+        "cnm_057_q5"
+      ],
+      "currentSnapshotSha256": "8613a667af18bdf3e5028aaca003918031842d13a22ca851e56702106a10a761",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_058",
+      "name": "角的比较与运算（含角平分线）",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "角和差、倍分及两位置答案正确；057完整度分秒换算不是整度角比较与平分线任务必要门槛，降soft。",
+      "questionIds": [
+        "cnm_058_q1",
+        "cnm_058_q2",
+        "cnm_058_q3",
+        "cnm_058_q4",
+        "cnm_058_q5"
+      ],
+      "currentSnapshotSha256": "48f9e1404d603f00fbbae7e1975f86d6dd9aa6428730e4bf32db15da035a5467",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_059",
+      "name": "余角和补角",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "互余互补定义及五题计算一致，已有度分借位和一元一次条件题，首轮保留。",
+      "questionIds": [
+        "cnm_059_q1",
+        "cnm_059_q2",
+        "cnm_059_q3",
+        "cnm_059_q4",
+        "cnm_059_q5"
+      ],
+      "currentSnapshotSha256": "9bddf8f08ce8b3593f9f9fe1800df94e0716c994925c542e590392dc9c9c461e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_060",
+      "name": "同角（等角）的余角、补角相等",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "选项可识别理由但无法证明会书写推理，增加同角/等角余补相等的完整说理。",
+      "questionIds": [
+        "cnm_060_q1",
+        "cnm_060_q2",
+        "cnm_060_q3",
+        "cnm_060_q4",
+        "cnm_060_q5",
+        "cnm_060_q6"
+      ],
+      "currentSnapshotSha256": "e9fa88d60f56fd20eeb7cb58df3d66fc9174dc39a9c118d1940c07d99b5ce61e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_061",
+      "name": "综合与实践：设计学校田径运动会比赛场地",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "运动会场地为综合实践，五题仅计算或选择，不足以支撑设计场地、尺寸标注、解释合理性；补可执行设计作品与限制反思任务。",
+      "questionIds": [
+        "cnm_061_q1",
+        "cnm_061_q2",
+        "cnm_061_q3",
+        "cnm_061_q4",
+        "cnm_061_q5",
+        "cnm_061_q6"
+      ],
+      "currentSnapshotSha256": "d26e7070b2286ac3cd9da127e174354cb4777d310c2838ee17b2faf593261c92",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_062",
+      "name": "邻补角",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "五题角度/数量正确，但图中找邻补角的标准无实际图例定位作答，补带标签图。",
+      "questionIds": [
+        "cnm_062_q1",
+        "cnm_062_q2",
+        "cnm_062_q3",
+        "cnm_062_q4",
+        "cnm_062_q5",
+        "cnm_062_q6"
+      ],
+      "currentSnapshotSha256": "8ee930e217ece46ff063490c4832e93393b3261acd0a25bfca4640d1c018d7ea",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_063",
+      "name": "对顶角及其性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "对顶角识别和六射线计数正确；缺本人写出由共同邻补角推出相等的过程。",
+      "questionIds": [
+        "cnm_063_q1",
+        "cnm_063_q2",
+        "cnm_063_q3",
+        "cnm_063_q4",
+        "cnm_063_q5",
+        "cnm_063_q6"
+      ],
+      "currentSnapshotSha256": "3389667f9929b9c84c15dcd35a84b413528578bee344ad3f40e9bd1e5d7d6f3b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_064",
+      "name": "垂线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "三角尺步骤选择题不能替代实际作图，补线外与线上两种作垂线操作；q5角位置与140度结果一致。",
+      "questionIds": [
+        "cnm_064_q1",
+        "cnm_064_q2",
+        "cnm_064_q3",
+        "cnm_064_q4",
+        "cnm_064_q5",
+        "cnm_064_q6"
+      ],
+      "currentSnapshotSha256": "21292c968c50c42c594ee12aa9d78e3f68c9c601f4463713e1599eabc07854ef",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_065",
+      "name": "垂线段最短与点到直线的距离",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "已知三个连线长只能得距离上界的题正确；增加实际作垂足和度量记录。054两点间最短是相关事实而非距离定义的唯一前提，降soft。",
+      "questionIds": [
+        "cnm_065_q1",
+        "cnm_065_q2",
+        "cnm_065_q3",
+        "cnm_065_q4",
+        "cnm_065_q5",
+        "cnm_065_q6"
+      ],
+      "currentSnapshotSha256": "1af7bafa6aaa4960998cc38d24b14f61a0cb8bc3398989978f91b836ccc47d70",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_066",
+      "name": "同位角、内错角、同旁内角",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "三线八角需明确截线与被截两线相交于两个不同点；图中定位需多对角辨认。对顶角性质不应是位置识别的硬门槛。",
+      "questionIds": [
+        "cnm_066_q1",
+        "cnm_066_q2",
+        "cnm_066_q3",
+        "cnm_066_q4",
+        "cnm_066_q5",
+        "cnm_066_q6"
+      ],
+      "currentSnapshotSha256": "a26b1efe50e97122138d008efafaf97341cb4b93c836630e75968bd15c3640a0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_067",
+      "name": "平行线与平行公理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "平行公理和交点数量正确；描述推论须补两条直线不同，054两点定直线只是类比应降soft。",
+      "questionIds": [
+        "cnm_067_q1",
+        "cnm_067_q2",
+        "cnm_067_q3",
+        "cnm_067_q4",
+        "cnm_067_q5"
+      ],
+      "currentSnapshotSha256": "c9e9808fe3df4bf7bd667166565bf8565c921d9a7a3ea3c94aa461d28d5a1a30",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_068",
+      "name": "平行线的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "判定选择与代数计算正确，q4主要测性质；增加读图并完整写出判定推理的过程。",
+      "questionIds": [
+        "cnm_068_q1",
+        "cnm_068_q2",
+        "cnm_068_q3",
+        "cnm_068_q4",
+        "cnm_068_q5",
+        "cnm_068_q6"
+      ],
+      "currentSnapshotSha256": "a2951b657656429043bd582ab86622d6c00e3870c417c470f76054894f424beb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_069",
+      "name": "平行线的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "性质方向清楚，角方程及角平分线计算正确；图形实际定位的不足将由066/068任务补充，单节点不宣称覆盖作图证明。",
+      "questionIds": [
+        "cnm_069_q1",
+        "cnm_069_q2",
+        "cnm_069_q3",
+        "cnm_069_q4",
+        "cnm_069_q5"
+      ],
+      "currentSnapshotSha256": "c79380768436505a66b451ea0b947ae9a6874911918b4c132fcc37b5a0134628",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_070",
+      "name": "平行线判定与性质的综合应用",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-foundations.json",
+      "firstPassFinding": "q5只有∠1=∠2未指明角位置，不能据此有效判平行；补同位角前提。含折线题需本人画辅助平行线并给依据；q4用三角形角和，后学内容标明补充。",
+      "questionIds": [
+        "cnm_070_q1",
+        "cnm_070_q2",
+        "cnm_070_q3",
+        "cnm_070_q4",
+        "cnm_070_q5",
+        "cnm_070_q6"
+      ],
+      "currentSnapshotSha256": "7d9d748389d0a040e664b76a44c6b6f7bc1dbc9df30b4716df113e6ef34ef9e9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_071",
+      "name": "定义、命题与定理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "真假、反例选项正确，但标准要求自行改写命题与举反例，补开放任务。",
+      "questionIds": [
+        "cnm_071_q1",
+        "cnm_071_q2",
+        "cnm_071_q3",
+        "cnm_071_q4",
+        "cnm_071_q5",
+        "cnm_071_q6"
+      ],
+      "currentSnapshotSha256": "5e73f2f5c816cda7f92b17f0ca81011f2d9792a93e1fc596be4874a7b65fc1f2",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_072",
+      "name": "平移的概念与性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "q5沿BC方向应明确B指向C，否则方向歧义；对应点连线性质保留。",
+      "questionIds": [
+        "cnm_072_q1",
+        "cnm_072_q2",
+        "cnm_072_q3",
+        "cnm_072_q4",
+        "cnm_072_q5"
+      ],
+      "currentSnapshotSha256": "6a4992d7fde6bdd4d140b08fca9d8911e1540de31564dd9c68d1e3d3b81f0d73",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_073",
+      "name": "平移作图",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "题名作图却无实际作图任务，现有坐标题借用后续坐标章节；补不依赖坐标的方格平移图作业。",
+      "questionIds": [
+        "cnm_073_q1",
+        "cnm_073_q2",
+        "cnm_073_q3",
+        "cnm_073_q4",
+        "cnm_073_q5",
+        "cnm_073_q6"
+      ],
+      "currentSnapshotSha256": "9783442a6872cc1e6cff86906ccc0268da8ac9e9901e4112388d4400813fcfbd",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_074",
+      "name": "平方根与算术平方根",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "补算术平方根的非负性和0边界；避免“正的平方根”定义遗漏0。",
+      "questionIds": [
+        "cnm_074_q1",
+        "cnm_074_q2",
+        "cnm_074_q3",
+        "cnm_074_q4",
+        "cnm_074_q5",
+        "cnm_074_q6",
+        "cnm_074_q7"
+      ],
+      "currentSnapshotSha256": "f1c1fb0164fc5a2ce9b5dbbcee382a026e15efc79bede803b1ae1f0978c9de59",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_075",
+      "name": "开平方与平方根的求法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "补计算器操作证据，核心手算限定百以内完全平方数；保留数字根式化简。",
+      "questionIds": [
+        "cnm_075_q1",
+        "cnm_075_q2",
+        "cnm_075_q3",
+        "cnm_075_q4",
+        "cnm_075_q5",
+        "cnm_075_q6"
+      ],
+      "currentSnapshotSha256": "84d7eee2d193cf0ec985db6163c646ebeea94335227fd87a8be9f5e606453680",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_076",
+      "name": "立方根",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "补立方与开立方的逆关系和计算器证据；平方根仅作类比，不作为硬先修。",
+      "questionIds": [
+        "cnm_076_q1",
+        "cnm_076_q2",
+        "cnm_076_q3",
+        "cnm_076_q4",
+        "cnm_076_q5",
+        "cnm_076_q6",
+        "cnm_076_q7"
+      ],
+      "currentSnapshotSha256": "427b692aed99d7d950c01cecbaf22af58e2111d638ee1922795bd13fb69394a8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_077",
+      "name": "无理数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "无限不循环辨析已有证据；会开平方不是理解所有无理数定义的必要条件，075硬边降soft并保留根式示例支持。",
+      "questionIds": [
+        "cnm_077_q1",
+        "cnm_077_q2",
+        "cnm_077_q3",
+        "cnm_077_q4"
+      ],
+      "currentSnapshotSha256": "1d5b9de8284c8ced51024604fe96b2837b17954919bda5884234ac2015f7b3b4",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_078",
+      "name": "实数的分类与数轴表示",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补无理数位置和近似标点的证据。",
+      "questionIds": [
+        "cnm_078_q1",
+        "cnm_078_q2",
+        "cnm_078_q3",
+        "cnm_078_q4",
+        "cnm_078_q5",
+        "cnm_078_q6"
+      ],
+      "currentSnapshotSha256": "5628abb5070ad9a1ae2a9d9c90de7d4068fecc83f7f1e942f2f81447ebeb2296",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_079",
+      "name": "算术平方根的估值与大小比较",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补估值理由、精度和负号次序，不只检查最终整数。",
+      "questionIds": [
+        "cnm_079_q1",
+        "cnm_079_q2",
+        "cnm_079_q3",
+        "cnm_079_q4",
+        "cnm_079_q5",
+        "cnm_079_q6",
+        "cnm_079_q7"
+      ],
+      "currentSnapshotSha256": "2385f5c8c779dc7e5b8094b6bdce60eb7da27b6b7fcab32e7ce38866d06fc340",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_080",
+      "name": "实数的运算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "q4完全平方根式展开在七下节点引入八上公式，应移拓展或给不依赖后学公式的核心替代任务；近似计算q5正确。",
+      "questionIds": [
+        "cnm_080_q1",
+        "cnm_080_q2",
+        "cnm_080_q3",
+        "cnm_080_q4",
+        "cnm_080_q5"
+      ],
+      "currentSnapshotSha256": "c62f1889f8de37f25f7ef80be25614adef3dfb0823cb67d6230f3acbac291eb3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_081",
+      "name": "有序数对",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "描述顺序不同位置不同应改为交换分量可能改变位置，(3,3)反例；现题正确。",
+      "questionIds": [
+        "cnm_081_q1",
+        "cnm_081_q2",
+        "cnm_081_q3",
+        "cnm_081_q4"
+      ],
+      "currentSnapshotSha256": "f9628273c33190084f9ccd4871ad084ef6d8f38189961a21c9aafb62ec13dd2f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_082",
+      "name": "平面直角坐标系与点的坐标",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "只有选项和已给坐标，没有真正读图/描点任务，补双向任务及坐标轴标注。",
+      "questionIds": [
+        "cnm_082_q1",
+        "cnm_082_q2",
+        "cnm_082_q3",
+        "cnm_082_q4",
+        "cnm_082_q5"
+      ],
+      "currentSnapshotSha256": "a6507ed10faf2ac28d0afe1933ba740f2cae54030ab0a672cd403ed5d63a2068",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_083",
+      "name": "象限与坐标轴上点的坐标特征",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "象限符号、轴上零坐标、负半轴不属象限均覆盖，五题答案正确。",
+      "questionIds": [
+        "cnm_083_q1",
+        "cnm_083_q2",
+        "cnm_083_q3",
+        "cnm_083_q4",
+        "cnm_083_q5"
+      ],
+      "currentSnapshotSha256": "c716af1963af0619507ebd9b6aed608dc4b77c7f3f1114288aff27c045ba26d1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_084",
+      "name": "用坐标描述简单几何图形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "距离和面积计算正确；绝对值008是表达距离的方法之一，不应阻挡直接数格/比较坐标法，降soft；补自行选坐标系描述图形任务。",
+      "questionIds": [
+        "cnm_084_q1",
+        "cnm_084_q2",
+        "cnm_084_q3",
+        "cnm_084_q4",
+        "cnm_084_q5"
+      ],
+      "currentSnapshotSha256": "6658a1fe7d62ec7a7ccdcc6148f3f055ab95124f1dc303ddfb59d71ab9b505fb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_085",
+      "name": "用坐标表示地理位置",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "选择合适原点为选项辨认，其他题已给原点、方向、单位；补自行建系、比较坐标不同而实际位置相同的任务。",
+      "questionIds": [
+        "cnm_085_q1",
+        "cnm_085_q2",
+        "cnm_085_q3",
+        "cnm_085_q4",
+        "cnm_085_q5"
+      ],
+      "currentSnapshotSha256": "ad0488ea7f4f67e00bc3156fa09f4b52869bc556f93deb1757d1ec5d5df4f379",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_086",
+      "name": "用坐标表示平移",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "正逆平移、多个点统一位移答案与解释一致，保留；实际绘图由073承担，节点本身不声称测到画图。",
+      "questionIds": [
+        "cnm_086_q1",
+        "cnm_086_q2",
+        "cnm_086_q3",
+        "cnm_086_q4"
+      ],
+      "currentSnapshotSha256": "7a8f1c5b5d38e2d67745a6309b43a01d812131af8a5b9bef934ce587bc75b55e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_087",
+      "name": "二元一次方程及其解",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "“未知数次数都是1”会误含xy，应明确各未知项总次数1、整理后两未知数系数非零；q2解析需说项次数，现答案正确。",
+      "questionIds": [
+        "cnm_087_q1",
+        "cnm_087_q2",
+        "cnm_087_q3",
+        "cnm_087_q4",
+        "cnm_087_q5"
+      ],
+      "currentSnapshotSha256": "7df4d7b65d9edf319f1c8f35e01a5e97c046533b2b46d4a92a9e490609e6134f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_088",
+      "name": "二元一次方程组及其解",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "方程组不要求每个方程都同时含两未知数；q2解析与先修理由过强，补{x=1,x+y=3}反例辨析，检验题正确。",
+      "questionIds": [
+        "cnm_088_q1",
+        "cnm_088_q2",
+        "cnm_088_q3",
+        "cnm_088_q4",
+        "cnm_088_q5",
+        "cnm_088_q6"
+      ],
+      "currentSnapshotSha256": "ae58d05596d2a837859e488fd329aa7187472d409a98584a4df86c216f560f59",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_089",
+      "name": "代入消元法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d4/node-review.json",
+      "firstPassFinding": "补整体代入过程及不能代回同式制造恒等式的反例。",
+      "questionIds": [
+        "cnm_089_q1",
+        "cnm_089_q2",
+        "cnm_089_q3",
+        "cnm_089_q4",
+        "cnm_089_q5",
+        "cnm_089_q6",
+        "cnm_089_q7"
+      ],
+      "currentSnapshotSha256": "70e34b9e325a31065994a3be81fb01c2a9689ec9e706c96ae4fbf972e9d9e44e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_090",
+      "name": "加减消元法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d4/node-review.json",
+      "firstPassFinding": "补加减消元完整过程与整式倍乘一致性。",
+      "questionIds": [
+        "cnm_090_q1",
+        "cnm_090_q2",
+        "cnm_090_q3",
+        "cnm_090_q4",
+        "cnm_090_q5",
+        "cnm_090_q6",
+        "cnm_090_q7"
+      ],
+      "currentSnapshotSha256": "33ae1492e32d16089506095451d83e5c9716640d0934b04325502f260f4b1add",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_091",
+      "name": "列二元一次方程组解应用题",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d3/node-review.json",
+      "firstPassFinding": "补双条件建模与重复条件不足以确定答案的反例。",
+      "questionIds": [
+        "cnm_091_q1",
+        "cnm_091_q2",
+        "cnm_091_q3",
+        "cnm_091_q4",
+        "cnm_091_q5",
+        "cnm_091_q6",
+        "cnm_091_q7"
+      ],
+      "currentSnapshotSha256": "78755622ac8b5a264c66137fbdad513a9365188a5a8afce38d2fe934c482e7fd",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_092",
+      "name": "方程组应用的常见类型",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "浓度和行程题只有结果，补至少一个质量守恒完整列式解释；q5已检验非整数人数。",
+      "questionIds": [
+        "cnm_092_q1",
+        "cnm_092_q2",
+        "cnm_092_q3",
+        "cnm_092_q4",
+        "cnm_092_q5",
+        "cnm_092_q6"
+      ],
+      "currentSnapshotSha256": "72f3a0d22e50e57d8ff85ba62bd22b4cc23d8dfdf38aae87e94313bbbed82c25",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_093",
+      "name": "三元一次方程组（选学）",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "源文带星号，标为选学、不作为考试要求；保留教材位置但不伪称必修。",
+      "questionIds": [
+        "cnm_093_q1",
+        "cnm_093_q2",
+        "cnm_093_q3",
+        "cnm_093_q4",
+        "cnm_093_q5"
+      ],
+      "currentSnapshotSha256": "b74e0983a6a95170466c2a4711e959c1d5a09b2adb1dcb93a2e266a1e4ec0416",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_094",
+      "name": "不等式及其解集",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "文字不等关系、解与解集、整数范围题均有直接证据，现答案正确。",
+      "questionIds": [
+        "cnm_094_q1",
+        "cnm_094_q2",
+        "cnm_094_q3",
+        "cnm_094_q4"
+      ],
+      "currentSnapshotSha256": "728bb81d5b7973214b4f6a87c3b7be90d9f8b50fc9cd6084819dce6f0008a4f2",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_095",
+      "name": "在数轴上表示不等式的解集",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补作图、端点和连续解集证据。",
+      "questionIds": [
+        "cnm_095_q1",
+        "cnm_095_q2",
+        "cnm_095_q3",
+        "cnm_095_q4",
+        "cnm_095_q5",
+        "cnm_095_q6"
+      ],
+      "currentSnapshotSha256": "9ceeb61f763c7ac0a2027775a78deb9c67db888b2b9dd34f6bd9577e4eb4e4dd",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_096",
+      "name": "不等式的性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d3/node-review.json",
+      "firstPassFinding": "补性质探索、负数反例与乘数符号条件。",
+      "questionIds": [
+        "cnm_096_q1",
+        "cnm_096_q2",
+        "cnm_096_q3",
+        "cnm_096_q4",
+        "cnm_096_q5",
+        "cnm_096_q6"
+      ],
+      "currentSnapshotSha256": "edcd4b3bc4636c913e449c77c7fd406e3bbb530573bbf2e9d7ca2277ecaf6da2",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_097",
+      "name": "一元一次不等式的解法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d4/node-review.json",
+      "firstPassFinding": "补负数除法改向及实际画图，避免结果字符串承担作图证据。",
+      "questionIds": [
+        "cnm_097_q1",
+        "cnm_097_q2",
+        "cnm_097_q3",
+        "cnm_097_q4",
+        "cnm_097_q5",
+        "cnm_097_q6"
+      ],
+      "currentSnapshotSha256": "d047d5464779aadb83d932b7d6a26579af8a4735bcf67a2a9c9ceec55ee815a8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_098",
+      "name": "一元一次不等式的应用",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d3/node-review.json",
+      "firstPassFinding": "补整数取值、向上/向下取整理由，修正原解析的近似边界。",
+      "questionIds": [
+        "cnm_098_q1",
+        "cnm_098_q2",
+        "cnm_098_q3",
+        "cnm_098_q4",
+        "cnm_098_q5",
+        "cnm_098_q6"
+      ],
+      "currentSnapshotSha256": "dd1f9d7def90a75ce5cc42c52cd655860c459733f2dfec27923e12cb280e623d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_099",
+      "name": "一元一次不等式组的解法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d4/node-review.json",
+      "firstPassFinding": "用公共部分解释解集，补严格端点与单点解边界。",
+      "questionIds": [
+        "cnm_099_q1",
+        "cnm_099_q2",
+        "cnm_099_q3",
+        "cnm_099_q4",
+        "cnm_099_q5",
+        "cnm_099_q6"
+      ],
+      "currentSnapshotSha256": "8e1d67af5b413099d4ee1797457e9e25bcdd88ef4f6a00cb14e918fcfb7581c1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_100",
+      "name": "不等式组的应用",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "q1要求列不等式组但只收人数，补完整列式和整数方案核验任务，数值结果5/6及上界8正确。",
+      "questionIds": [
+        "cnm_100_q1",
+        "cnm_100_q2",
+        "cnm_100_q3",
+        "cnm_100_q4",
+        "cnm_100_q5"
+      ],
+      "currentSnapshotSha256": "4133e9ad653d2503fff0cb238df28a64e19d43d9cf9c8e2549d4667c509fa8f6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_101",
+      "name": "综合与实践：低碳生活",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "排放因子未标模拟及人公里口径，可能误当真实测量；补数据来源/单位记录、方案不等式与建议任务。100不等式组并非所有比较唯一前提。",
+      "questionIds": [
+        "cnm_101_q1",
+        "cnm_101_q2",
+        "cnm_101_q3",
+        "cnm_101_q4",
+        "cnm_101_q5"
+      ],
+      "currentSnapshotSha256": "f385b7b3ee86be3989bc0152f57142b940233c1dcf9a3bd4ef8a01706e9ecfc0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_102",
+      "name": "全面调查与抽样调查",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留调查方式选择；适用条件和准确性由既有题辨析，待教师审核。",
+      "questionIds": [
+        "cnm_102_q1",
+        "cnm_102_q2",
+        "cnm_102_q3",
+        "cnm_102_q4"
+      ],
+      "currentSnapshotSha256": "16d1cf94eccb75a907bde24fef35f1efdc31aa17f3a9ba4e3221b4681b93cfe3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_103",
+      "name": "总体、个体、样本与样本容量",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留；样本指观测值与样本容量的区分已有题，先修调查类型暂保留。",
+      "questionIds": [
+        "cnm_103_q1",
+        "cnm_103_q2",
+        "cnm_103_q3",
+        "cnm_103_q4"
+      ],
+      "currentSnapshotSha256": "575ed5f913a79463daef2274d9664c063e8e484e4786c71302686c83d88d3b16",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_104",
+      "name": "样本的代表性与随机抽样",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "修正代表性保证；补随机波动解释，完整抽样框与便利抽样分开。",
+      "questionIds": [
+        "cnm_104_q1",
+        "cnm_104_q2",
+        "cnm_104_q3",
+        "cnm_104_q4",
+        "cnm_104_q5"
+      ],
+      "currentSnapshotSha256": "476715bf4c731194290e58cbbc50a794093209ff6fd7a5004d1dd878f4fc7b01",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_105",
+      "name": "扇形图、条形图与折线图",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留图表选择，已有小学条形/折线背景；真实读图证据由305等具体图题补充，本点仍待扩图。",
+      "questionIds": [
+        "cnm_105_q1",
+        "cnm_105_q2",
+        "cnm_105_q3",
+        "cnm_105_q4"
+      ],
+      "currentSnapshotSha256": "53f94d0c51ba3df98c18d067d8b85716b13ea6bc2344ad29b520976b9601984f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_106",
+      "name": "频数分布表与数据分组",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "明确组端点，98/41分组题指定起点；避免未给分组起点时机械套组数。",
+      "questionIds": [
+        "cnm_106_q1",
+        "cnm_106_q2",
+        "cnm_106_q3",
+        "cnm_106_q4"
+      ],
+      "currentSnapshotSha256": "d97777a68bf5f11e490c947f24b445d2ec046baaa26e941176bdfb05b4d47c87",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_107",
+      "name": "频数分布直方图",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "注明等距且纵轴频数；补实际绘图任务与评分判据。",
+      "questionIds": [
+        "cnm_107_q1",
+        "cnm_107_q2",
+        "cnm_107_q3",
+        "cnm_107_q4",
+        "cnm_107_q5"
+      ],
+      "currentSnapshotSha256": "b05f44a89ef7189588e6b9a23f7f39726c4d3713445fc17920173a4fd8cc0c0c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_108",
+      "name": "趋势图",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留经济/气温趋势情境；补事实、延续假设与预测限制，不把趋势预测当保证。",
+      "questionIds": [
+        "cnm_108_q1",
+        "cnm_108_q2",
+        "cnm_108_q3",
+        "cnm_108_q4",
+        "cnm_108_q5"
+      ],
+      "currentSnapshotSha256": "356b1baf52509bedd88eb9bd61181b7402469942a7cb709e7a22d4164f6bc7af",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_109",
+      "name": "综合与实践：日昼时长规律的探究",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "全年极值和数据示例不能冒充观测；补至少多日期两地点数据记录、趋势图与范围限制，q3三个时点不能证明逐日单调。",
+      "questionIds": [
+        "cnm_109_q1",
+        "cnm_109_q2",
+        "cnm_109_q3",
+        "cnm_109_q4",
+        "cnm_109_q5"
+      ],
+      "currentSnapshotSha256": "464bd81a9c20dbe751834076d44b412956cb367ed6532535e4daa1a451524902",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_110",
+      "name": "三角形的概念与分类",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "按边分类把等腰和等边并列会掩盖包含关系，明确等边是特殊等腰；现分类与比例角题答案正确。",
+      "questionIds": [
+        "cnm_110_q1",
+        "cnm_110_q2",
+        "cnm_110_q3",
+        "cnm_110_q4"
+      ],
+      "currentSnapshotSha256": "c623298f729566626c6df167e2c06dd4047e3c4be4ba8725585583ff02a1791f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_111",
+      "name": "三角形三边关系",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "严格三边不等式、整数上界及等腰两种边分配检验正确，保留。",
+      "questionIds": [
+        "cnm_111_q1",
+        "cnm_111_q2",
+        "cnm_111_q3",
+        "cnm_111_q4"
+      ],
+      "currentSnapshotSha256": "440b9f78d1455a8a51f587d4eea42dde6820782ff467a37a58998b8198a1cbec",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_112",
+      "name": "三角形的高",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "高的内部/外部、面积计算正确，缺三类三角形实际作高任务；三高共点的课标核心资格待条目核对，暂不凭教师印象降级。",
+      "questionIds": [
+        "cnm_112_q1",
+        "cnm_112_q2",
+        "cnm_112_q3",
+        "cnm_112_q4",
+        "cnm_112_q5",
+        "cnm_112_q6"
+      ],
+      "currentSnapshotSha256": "55af67adf3b880a8082e6d1f8ccd7011aa30819a6277fd9dde54cdd23f96584b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_113",
+      "name": "三角形的中线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "中线长度、面积及周长差正确；缺实际画中线和等底同高的完整说理任务。",
+      "questionIds": [
+        "cnm_113_q1",
+        "cnm_113_q2",
+        "cnm_113_q3",
+        "cnm_113_q4",
+        "cnm_113_q5"
+      ],
+      "currentSnapshotSha256": "dfc10672de8cb1fc980bf1ad4c72ed56584d1a5ce6bf13815e987b9420d9808e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_114",
+      "name": "三角形的角平分线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "角度及内心位置正确，缺实际画内角平分线任务；q3/q5用三角形内角和是后续学习依赖，作阶段说明。",
+      "questionIds": [
+        "cnm_114_q1",
+        "cnm_114_q2",
+        "cnm_114_q3",
+        "cnm_114_q4",
+        "cnm_114_q5",
+        "cnm_114_q6"
+      ],
+      "currentSnapshotSha256": "3d21e347ecaf8d4942c3b73dd1810895911e452a6439402850714cd9ac7c6056",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_115",
+      "name": "三角形内角和定理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "证明题只选择依据，补自己画辅助线并完成完整证明；数值与双情况答案正确。",
+      "questionIds": [
+        "cnm_115_q1",
+        "cnm_115_q2",
+        "cnm_115_q3",
+        "cnm_115_q4",
+        "cnm_115_q5",
+        "cnm_115_q6"
+      ],
+      "currentSnapshotSha256": "e91e3bf07688081573df5693d0bdd9f2279137b85753832db097df05755c340f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_116",
+      "name": "直角三角形的两个锐角互余",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-coordinates-triangles.json",
+      "firstPassFinding": "互余性质及逆向判断和斜边高角关系正确，五题保留。",
+      "questionIds": [
+        "cnm_116_q1",
+        "cnm_116_q2",
+        "cnm_116_q3",
+        "cnm_116_q4",
+        "cnm_116_q5"
+      ],
+      "currentSnapshotSha256": "d2b87b880a835dc0d64a1e8a89644b51e84ab20758584db9c88cbb67bbc15605",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_117",
+      "name": "三角形的外角及其性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "外角计算正确，但缺图中自行识别内外角；补边延长方向与标图说明。",
+      "questionIds": [
+        "cnm_117_q1",
+        "cnm_117_q2",
+        "cnm_117_q3",
+        "cnm_117_q4",
+        "cnm_117_q5",
+        "cnm_117_q6"
+      ],
+      "currentSnapshotSha256": "c60f3ac65a75a327987daa4636bdca1ec3af0927b0861b1c76edbf15d7f19f39",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_118",
+      "name": "几何证明的基本格式",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "声称会规范证明，现题仅选格式/依据，补完整已知求证证明作品。",
+      "questionIds": [
+        "cnm_118_q1",
+        "cnm_118_q2",
+        "cnm_118_q3",
+        "cnm_118_q4",
+        "cnm_118_q5",
+        "cnm_118_q6"
+      ],
+      "currentSnapshotSha256": "d42b4298732034add2407150cd10e5123a48a72e1dfd9568ed41ea6ccb89450c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_119",
+      "name": "综合与实践：确定匀质薄板的重心位置",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "悬挂两次须产生两条不同悬线；补实际悬挂记录与中线对照、误差讨论，操作前中线不是必需硬前提。",
+      "questionIds": [
+        "cnm_119_q1",
+        "cnm_119_q2",
+        "cnm_119_q3",
+        "cnm_119_q4",
+        "cnm_119_q5"
+      ],
+      "currentSnapshotSha256": "5c968e7c98fa1142cea809fc97e245fdee993ae5b944c9f71dc5a4343c099060",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_120",
+      "name": "全等图形与全等三角形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "小学平移非定义全等的必要硬门槛；q4要求三个字母但answer带三角符号，需核对accept支持，补实际对应与书写任务。",
+      "questionIds": [
+        "cnm_120_q1",
+        "cnm_120_q2",
+        "cnm_120_q3",
+        "cnm_120_q4",
+        "cnm_120_q5"
+      ],
+      "currentSnapshotSha256": "027311f9adc3b344fa3af3d0c77ae6c4429988637bcf09dfc3a7194e8451c254",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_121",
+      "name": "全等三角形的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "全等对应顺序、内角和、周长差和边长方程均正确，保留。",
+      "questionIds": [
+        "cnm_121_q1",
+        "cnm_121_q2",
+        "cnm_121_q3",
+        "cnm_121_q4",
+        "cnm_121_q5"
+      ],
+      "currentSnapshotSha256": "918c5855b24ab2079a87549be73179d69750fa2c8ce6987474873710324ceeed",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_122",
+      "name": "全等判定：边边边（SSS）",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "SSS选择题不能体现完整证明，补公共边及对应顺序证明；121性质为方法关联，不是判定定义唯一前提。",
+      "questionIds": [
+        "cnm_122_q1",
+        "cnm_122_q2",
+        "cnm_122_q3",
+        "cnm_122_q4",
+        "cnm_122_q5",
+        "cnm_122_q6"
+      ],
+      "currentSnapshotSha256": "a47d5fb249251293167334e41c6ae467820bfe5ed7283dcb29ce9e77a5a4ebcc",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_123",
+      "name": "全等判定：边角边（SAS）",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "q1选项“必须夹角”易误读为全等必要条件，改为仅凭两边及非夹角一般不能保证，SAS要求夹角；补完整SAS证明。",
+      "questionIds": [
+        "cnm_123_q1",
+        "cnm_123_q2",
+        "cnm_123_q3",
+        "cnm_123_q4",
+        "cnm_123_q5",
+        "cnm_123_q6"
+      ],
+      "currentSnapshotSha256": "f8dfa9120d4440a06f2cd03f0089e771c66de782f23c29b4c22b83cf24649331",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_124",
+      "name": "全等判定：角边角（ASA）与角角边（AAS）",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "q4没有边相等只支持第三角相等，不能称已推出全等；补以ASA和角和推导AAS的完整过程。",
+      "questionIds": [
+        "cnm_124_q1",
+        "cnm_124_q2",
+        "cnm_124_q3",
+        "cnm_124_q4",
+        "cnm_124_q5",
+        "cnm_124_q6"
+      ],
+      "currentSnapshotSha256": "a51a2c5c35d070e587bc3375b29f76ed8b78c0acd63cdc8d4118c528a2c1cecc",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_125",
+      "name": "全等判定：斜边、直角边（HL）",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "“只能用HL”不成立，可借勾股补第三边再SSS；q5把四边形内角误作对角线分出的直角，原HL证明错误，改用ADC与BCD公共直角边及AC、BD斜边。",
+      "questionIds": [
+        "cnm_125_q1",
+        "cnm_125_q2",
+        "cnm_125_q3",
+        "cnm_125_q4",
+        "cnm_125_q5"
+      ],
+      "currentSnapshotSha256": "22df413a98b37968bc6f3913acd7b54b335869f4c0bac134505827a8f5bd55ef",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_126",
+      "name": "综合运用全等判定与规范书写",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "标准要求规范证明但只有判定选择和单值，补完整证明与对应关系；所有判定同时设硬前提过强，改为可选方法soft并保留证明格式hard，说明引擎尚无OR组。",
+      "questionIds": [
+        "cnm_126_q1",
+        "cnm_126_q2",
+        "cnm_126_q3",
+        "cnm_126_q4",
+        "cnm_126_q5",
+        "cnm_126_q6"
+      ],
+      "currentSnapshotSha256": "f22dc3164079438490ec2409be81c8ee226631f530a3d2736a2f70b3f0840ae6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_127",
+      "name": "基本尺规作图：作等角与角平分线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "无实际尺规作图作品，补复制角/平分角工具操作与痕迹；半径相交说明限定非退化角且P不同于O。",
+      "questionIds": [
+        "cnm_127_q1",
+        "cnm_127_q2",
+        "cnm_127_q3",
+        "cnm_127_q4",
+        "cnm_127_q5"
+      ],
+      "currentSnapshotSha256": "33c8ea67a02c91945c0d307284f4c88f00d85f6988ca01e3177799c4c17f10e4",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_128",
+      "name": "角平分线的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "q5周长18且内切半径3的三角形不存在（面积27超过同周长等边三角形最大值），改为可实现的周长36、半径3，面积54。另补角平分线性质证明。",
+      "questionIds": [
+        "cnm_128_q1",
+        "cnm_128_q2",
+        "cnm_128_q3",
+        "cnm_128_q4",
+        "cnm_128_q5",
+        "cnm_128_q6"
+      ],
+      "currentSnapshotSha256": "8ef684be4ab36d2391c3b2fe1f2d073a50b2947eb1e8ff012585da8319e03054",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_129",
+      "name": "角平分线的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "判定与方向辨别正确，补HL完整证明及角内条件；性质128不是判定独立证明必须先会，降soft。",
+      "questionIds": [
+        "cnm_129_q1",
+        "cnm_129_q2",
+        "cnm_129_q3",
+        "cnm_129_q4",
+        "cnm_129_q5",
+        "cnm_129_q6"
+      ],
+      "currentSnapshotSha256": "266f04ee5ea57d1309164de008e2242139ed0352ab27add8b46e7b38a82de422",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_130",
+      "name": "全等三角形的常见辅助线与模型",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "倍长中线数值正确，未检查自己添加辅助线与完整证明；作为未单列映射的补充方法节点标supplementary，避免全模型当课标独立必修。",
+      "questionIds": [
+        "cnm_130_q1",
+        "cnm_130_q2",
+        "cnm_130_q3",
+        "cnm_130_q4",
+        "cnm_130_q5",
+        "cnm_130_q6"
+      ],
+      "currentSnapshotSha256": "d9d0499759cd0b5e9c34c6de5a801d4b6b05fe4806901e5710326e23137e0bf8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_131",
+      "name": "轴对称图形与两个图形成轴对称",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "q5把一般平行四边形默认非轴对称有歧义，改问一定轴对称的类别；补实际折叠/对称轴辨认任务。",
+      "questionIds": [
+        "cnm_131_q1",
+        "cnm_131_q2",
+        "cnm_131_q3",
+        "cnm_131_q4",
+        "cnm_131_q5",
+        "cnm_131_q6"
+      ],
+      "currentSnapshotSha256": "b1c4cd93e23da91484a9f66486fd922452bf5d7872400abc11489b5031d6fcdd",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_132",
+      "name": "轴对称的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "对称点连线垂直平分须限点不在轴上；轴上点与其像重合，应明确特殊情况。",
+      "questionIds": [
+        "cnm_132_q1",
+        "cnm_132_q2",
+        "cnm_132_q3",
+        "cnm_132_q4",
+        "cnm_132_q5"
+      ],
+      "currentSnapshotSha256": "159871deaf30e424ba7615beda7d902890c8a3ee4164d6eeb20f1a23cf015c3a",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_133",
+      "name": "线段垂直平分线的性质与判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-congruence.json",
+      "firstPassFinding": "性质与判定计算正确，补证明及中点退化情形处理；126全套全等不是单一SSS/SAS证明必需硬门槛，降soft。",
+      "questionIds": [
+        "cnm_133_q1",
+        "cnm_133_q2",
+        "cnm_133_q3",
+        "cnm_133_q4",
+        "cnm_133_q5"
+      ],
+      "currentSnapshotSha256": "ffcd67705c84a9df85bbe73624ef617585994944e67b090fda8190e5f759c9d1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_134",
+      "name": "作线段的垂直平分线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "选择尺规步骤不等于实际作图，补保留痕迹任务；q4/q5使用勾股，注明学后复习阶段。",
+      "questionIds": [
+        "cnm_134_q1",
+        "cnm_134_q2",
+        "cnm_134_q3",
+        "cnm_134_q4",
+        "cnm_134_q5",
+        "cnm_134_q6"
+      ],
+      "currentSnapshotSha256": "2035a81cf19afcefafb2f9696f87aaf3cd44f3460eef04aaa83948dcf17a0dfe",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_135",
+      "name": "画轴对称图形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "实际轴对称作图缺失；q1作轴外点应补条件，另处理轴上点固定。",
+      "questionIds": [
+        "cnm_135_q1",
+        "cnm_135_q2",
+        "cnm_135_q3",
+        "cnm_135_q4",
+        "cnm_135_q5"
+      ],
+      "currentSnapshotSha256": "78d1646a8b8ea84ebb8467587fe3ce1441d99f3c869bb8382f808eba16425686",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_136",
+      "name": "坐标系中的轴对称",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "坐标计算正确但画图标准无作图证据，补关于两轴作图并比较。",
+      "questionIds": [
+        "cnm_136_q1",
+        "cnm_136_q2",
+        "cnm_136_q3",
+        "cnm_136_q4",
+        "cnm_136_q5",
+        "cnm_136_q6"
+      ],
+      "currentSnapshotSha256": "b944bffc52538791d268bb09c0f1092c408f21997395ea533b824826f0ebe569",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_137",
+      "name": "等腰三角形的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "底角与三线合一只检查数值，补SSS证明并明确顶角平分线（不是“底边上的角平分线”）；126综合全等不是唯一必要硬门槛，q4需学后勾股复习。",
+      "questionIds": [
+        "cnm_137_q1",
+        "cnm_137_q2",
+        "cnm_137_q3",
+        "cnm_137_q4",
+        "cnm_137_q5",
+        "cnm_137_q6"
+      ],
+      "currentSnapshotSha256": "140e7a26fb8181ccef80bc52ba0ffae52000b77264ae4aba8bc521fb76fc91b9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_138",
+      "name": "等腰三角形的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "q3答案D正确但解析写成A项且角数值对应错，修复解析；补等角对等边完整推理。137逆命题关系不等于证明必要硬前提。",
+      "questionIds": [
+        "cnm_138_q1",
+        "cnm_138_q2",
+        "cnm_138_q3",
+        "cnm_138_q4",
+        "cnm_138_q5",
+        "cnm_138_q6"
+      ],
+      "currentSnapshotSha256": "ea532d0479be95981fec1dd55c535046f9ccd8d283f569a193d5c5c1fb0fcdee",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_139",
+      "name": "等边三角形的性质与判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "等边性质及判定数值正确；补等腰含60度时顶角/底角两种情况的证明过程。",
+      "questionIds": [
+        "cnm_139_q1",
+        "cnm_139_q2",
+        "cnm_139_q3",
+        "cnm_139_q4",
+        "cnm_139_q5",
+        "cnm_139_q6"
+      ],
+      "currentSnapshotSha256": "82cd85995b80f15b66e5b1823c64ffaa7c97cf3f3a0365590f3d89505d56a2b7",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_140",
+      "name": "含 30° 角的直角三角形的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "30度对边与斜边关系题正确，q5钝角顶点所作垂线位置和两次等角对等边推理一致，保留。",
+      "questionIds": [
+        "cnm_140_q1",
+        "cnm_140_q2",
+        "cnm_140_q3",
+        "cnm_140_q4",
+        "cnm_140_q5"
+      ],
+      "currentSnapshotSha256": "ff2eefe40c0d5eb93ffec2990c4b7e720996df6044db3e4d1954702268c48d76",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_141",
+      "name": "综合与实践：最短路径问题",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "最短路计算正确但缺自己作对称点和证明；补实际作图及取等条件检验，不能只给长度。",
+      "questionIds": [
+        "cnm_141_q1",
+        "cnm_141_q2",
+        "cnm_141_q3",
+        "cnm_141_q4",
+        "cnm_141_q5",
+        "cnm_141_q6"
+      ],
+      "currentSnapshotSha256": "baa9fda9b66cec84418a58453dd90c3632ddbd62baaf7daa82b31a278c54ad62",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_142",
+      "name": "同底数幂的乘法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "q5假设2^m=3要求非整数指数，超出本节点正整数指数法则范围，移拓展且注明依赖扩展指数法则；其余题保留。",
+      "questionIds": [
+        "cnm_142_q1",
+        "cnm_142_q2",
+        "cnm_142_q3",
+        "cnm_142_q4",
+        "cnm_142_q5"
+      ],
+      "currentSnapshotSha256": "74ce3b568b2fb28c79b4bf949ad6901d58643b3cef1cb63e7a58238121a4eb90",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_143",
+      "name": "幂的乘方与积的乘方",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "三种幂法则辨析和负系数、指数题正确；描述补指数为正整数可与后续零/负指数节点区别。",
+      "questionIds": [
+        "cnm_143_q1",
+        "cnm_143_q2",
+        "cnm_143_q3",
+        "cnm_143_q4",
+        "cnm_143_q5"
+      ],
+      "currentSnapshotSha256": "fbdfbff6735e857ec3b01735aca720a8e9d68b1bedb3efaaf47fab9ab1ce8e6a",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_144",
+      "name": "单项式乘单项式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "单项式乘法系数、指数和代入题支持核心，答案正确，保留。",
+      "questionIds": [
+        "cnm_144_q1",
+        "cnm_144_q2",
+        "cnm_144_q3",
+        "cnm_144_q4"
+      ],
+      "currentSnapshotSha256": "3b809a78f9dbad6e1e41be3f81d3436ffe631620ea0fe8ca6154488c4eff8d5f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_145",
+      "name": "单项式乘多项式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "单项式对每项分配含负号已有选择/数值证据，保留。",
+      "questionIds": [
+        "cnm_145_q1",
+        "cnm_145_q2",
+        "cnm_145_q3",
+        "cnm_145_q4"
+      ],
+      "currentSnapshotSha256": "ca4e44b8afff23e8569874b2f5561bd582594d63f18e376b89839cd6453966fb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_146",
+      "name": "多项式乘多项式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "把核心运算范围写入节点，避免无上限多项式乘法。",
+      "questionIds": [
+        "cnm_146_q1",
+        "cnm_146_q2",
+        "cnm_146_q3",
+        "cnm_146_q4",
+        "cnm_146_q5"
+      ],
+      "currentSnapshotSha256": "4fd645d8e0150173f70d7c016571a7becd495c8fe28a714ecde3d8c82125c15b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_147",
+      "name": "平方差公式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "多项式平方差选择题正确；q5连续迭代四因式超出核心复杂度可标拓展，补简单结构解释任务，不批量提高核心难度。",
+      "questionIds": [
+        "cnm_147_q1",
+        "cnm_147_q2",
+        "cnm_147_q3",
+        "cnm_147_q4",
+        "cnm_147_q5",
+        "cnm_147_q6"
+      ],
+      "currentSnapshotSha256": "19de2b42b5e2c701d5af86ca82e862b5319da3c42336cb70793105b11e19e029",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_148",
+      "name": "完全平方公式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "公式应用已有题；课标结构理解需补图形面积/乘法展开解释中间项的任务，图区分正长度条件。",
+      "questionIds": [
+        "cnm_148_q1",
+        "cnm_148_q2",
+        "cnm_148_q3",
+        "cnm_148_q4",
+        "cnm_148_q5"
+      ],
+      "currentSnapshotSha256": "c00402c4c710263ef8811b5bb86e1f325c85c4dc159a6f5d60c137029996d041",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_149",
+      "name": "乘法公式的综合运用",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "综合题只收结果，补整体代换和公式选择说明；不把正确数值等同于灵活选法证据。",
+      "questionIds": [
+        "cnm_149_q1",
+        "cnm_149_q2",
+        "cnm_149_q3",
+        "cnm_149_q4",
+        "cnm_149_q5"
+      ],
+      "currentSnapshotSha256": "a1907867ebc8b57a0d0e89d53e7d7ef9a7d1ea4495555e37ebc7cb43d2a3e979",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_150",
+      "name": "因式分解的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "因式分解方向、积形式与乘法逆关系有直接辨析题，数值核对正确，保留。",
+      "questionIds": [
+        "cnm_150_q1",
+        "cnm_150_q2",
+        "cnm_150_q3",
+        "cnm_150_q4"
+      ],
+      "currentSnapshotSha256": "8d24d69aa79ced06dfc5a8ccac52b4b9a50c0d35a65a040fad7766c7f091e348",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_151",
+      "name": "提公因式法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-models-products.json",
+      "firstPassFinding": "q2“公因式的数字系数”不唯一，必须说明最大正整数系数公因式；补提取后常数1不能遗漏的过程检查。",
+      "questionIds": [
+        "cnm_151_q1",
+        "cnm_151_q2",
+        "cnm_151_q3",
+        "cnm_151_q4",
+        "cnm_151_q5",
+        "cnm_151_q6"
+      ],
+      "currentSnapshotSha256": "d45078ff2ecf27dde5bf6892671653b5aba505b1abf6bd5c34b909eba6d38889",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_152",
+      "name": "公式法：平方差",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "平方差识别正确；q5四次多项式超过因式分解核心次数范围，移拓展并限定核心二次多项式。",
+      "questionIds": [
+        "cnm_152_q1",
+        "cnm_152_q2",
+        "cnm_152_q3",
+        "cnm_152_q4",
+        "cnm_152_q5"
+      ],
+      "currentSnapshotSha256": "87f154f69d7bc9c27b1b46960bbe3adbd705d5c2a51a8f020ccaff176e6d0eae",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_153",
+      "name": "公式法：完全平方",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "标准完全平方识别题正确；q5两变量五项配方属于综合拓展，区分核心范围；保留参数±8双解。",
+      "questionIds": [
+        "cnm_153_q1",
+        "cnm_153_q2",
+        "cnm_153_q3",
+        "cnm_153_q4",
+        "cnm_153_q5"
+      ],
+      "currentSnapshotSha256": "9c1c92cd1809c1adce84931794f548a9b1add3df58d83ae813c8f036dfe11c9e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_154",
+      "name": "综合运用因式分解",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "明确公式法直接利用公式不超过二次；不引入任意高次技巧作为核心要求。",
+      "questionIds": [
+        "cnm_154_q1",
+        "cnm_154_q2",
+        "cnm_154_q3",
+        "cnm_154_q4"
+      ],
+      "currentSnapshotSha256": "0fdf10f9a972c7e5ff2f1301e28cdcf80102e43d1e07715f8766bd264a91d012",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_155",
+      "name": "因式分解的应用",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补完整代数推理，列举或选择结论不替代证明。",
+      "questionIds": [
+        "cnm_155_q1",
+        "cnm_155_q2",
+        "cnm_155_q3",
+        "cnm_155_q4",
+        "cnm_155_q5",
+        "cnm_155_q6",
+        "cnm_155_q7"
+      ],
+      "currentSnapshotSha256": "c671243d270d17e7e55c9b089211d7f7560b662768d74a5f4d59d42168b029d3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_156",
+      "name": "分式的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "分母含字母与π常数区分、有意义/无意义/值零的排除条件均有题，保留。",
+      "questionIds": [
+        "cnm_156_q1",
+        "cnm_156_q2",
+        "cnm_156_q3",
+        "cnm_156_q4"
+      ],
+      "currentSnapshotSha256": "978f05d2495cb2f9faad6e8230635c7975576e0e8d15059db0849d3eba48bbfd",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_157",
+      "name": "分式的基本性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "性质需强调同乘整式在当前取值下非零；补约分变形不能扩充原定义域的实例。",
+      "questionIds": [
+        "cnm_157_q1",
+        "cnm_157_q2",
+        "cnm_157_q3",
+        "cnm_157_q4",
+        "cnm_157_q5"
+      ],
+      "currentSnapshotSha256": "eea9c591e92a9df58f85d9e02720b2c309eb4e3ca5f63eed4713be9647473d84",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_158",
+      "name": "分式的约分与最简分式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "约分题答案式子正确但解析常遗漏原定义域，补x≠0,-1等限制及约分后不能补入被排除点的过程任务。",
+      "questionIds": [
+        "cnm_158_q1",
+        "cnm_158_q2",
+        "cnm_158_q3",
+        "cnm_158_q4",
+        "cnm_158_q5",
+        "cnm_158_q6"
+      ],
+      "currentSnapshotSha256": "88b920e28ec88c63a0ea743c578750ed5b97813a3df1f9e1d098198974ec70c9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_159",
+      "name": "分式的通分",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "通分最简公分母题正确；描述不能把最简视为唯一合法公分母，补原分母非零范围和非最简通分仍等值。",
+      "questionIds": [
+        "cnm_159_q1",
+        "cnm_159_q2",
+        "cnm_159_q3",
+        "cnm_159_q4",
+        "cnm_159_q5"
+      ],
+      "currentSnapshotSha256": "b364d08b3313cc7a1bbe734a246f4482631c8f71fe22ed1daf07f8a1249e2b58",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_160",
+      "name": "分式的乘除",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "除数分式不为0是独立条件，现解析只写求倒数；补分母与除数分子限制，q3排除0,-2,-1。",
+      "questionIds": [
+        "cnm_160_q1",
+        "cnm_160_q2",
+        "cnm_160_q3",
+        "cnm_160_q4",
+        "cnm_160_q5"
+      ],
+      "currentSnapshotSha256": "f7f913534930c95fdd58dfb3cf9a585148cf877a51cb7c340b93f49844c3788d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_161",
+      "name": "分式的加减",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "运算结果正确；统一在题目/解析写原分母限制，防止常数化简后丢原定义域。",
+      "questionIds": [
+        "cnm_161_q1",
+        "cnm_161_q2",
+        "cnm_161_q3",
+        "cnm_161_q4",
+        "cnm_161_q5"
+      ],
+      "currentSnapshotSha256": "62e7790105cf91abcafa8019e107740a58486fa78370978f845141686674028a",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_162",
+      "name": "分式的混合运算与化简求值",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "混合式化简后定义域缩失未说明，q1排除0,-1，q3排除-1,0,1，q4排除2,3；补过程与无效代入辨析。",
+      "questionIds": [
+        "cnm_162_q1",
+        "cnm_162_q2",
+        "cnm_162_q3",
+        "cnm_162_q4",
+        "cnm_162_q5"
+      ],
+      "currentSnapshotSha256": "ce732c5e92b3b95f65584a73aee3b5e805e1b646060c32da0093a0ff163a5e77",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_163",
+      "name": "同底数幂的除法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "q5仅x≠0并不足以由幂值相等推出指数相等，x=1是反例；改为关于x的恒等式或固定底数2，补m/n正整数范围与x≠0。",
+      "questionIds": [
+        "cnm_163_q1",
+        "cnm_163_q2",
+        "cnm_163_q3",
+        "cnm_163_q4",
+        "cnm_163_q5"
+      ],
+      "currentSnapshotSha256": "d4f3bf0135a8c64fd0ccf5db9a676b5a98dbc410c569cf35946010755f02186d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_164",
+      "name": "零指数幂、负整数指数幂与科学记数法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "负指数定义需同时限定底数非零及n正整数；q1科学记数解释改用小数点移动，避免前导零计数约定误导。",
+      "questionIds": [
+        "cnm_164_q1",
+        "cnm_164_q2",
+        "cnm_164_q3",
+        "cnm_164_q4"
+      ],
+      "currentSnapshotSha256": "9a1c0afa2badfcb62ef479a4170f06bec503ae0b8af34eb08ce3b021ed4bd2c1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_165",
+      "name": "分式方程的解法与增根",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d3/node-review.json",
+      "firstPassFinding": "明确核心范围，补去分母条件和增根产生原因。",
+      "questionIds": [
+        "cnm_165_q1",
+        "cnm_165_q2",
+        "cnm_165_q3",
+        "cnm_165_q4",
+        "cnm_165_q5",
+        "cnm_165_q6"
+      ],
+      "currentSnapshotSha256": "890e1d2efae31138f32431d72a3c05488af7d47604706f81afd3ebdfb9984000",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_166",
+      "name": "分式方程的应用",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d3/node-review.json",
+      "firstPassFinding": "将需解二次方程的工程旧题移至拓展；补核心列式、求解与实际条件检验。",
+      "questionIds": [
+        "cnm_166_q1",
+        "cnm_166_q2",
+        "cnm_166_q3",
+        "cnm_166_q4",
+        "cnm_166_q5",
+        "cnm_166_q6"
+      ],
+      "currentSnapshotSha256": "839656ed16159b9bb4ff0e8ce8cc3eb852d62f92dae6e7bf00ab4cb7dad86633",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_167",
+      "name": "二次根式的概念与数值条件",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "NA.13核心根号下仅限于数；重设核心样题，保留原符号范围题q4为明确拓展。",
+      "questionIds": [
+        "cnm_167_q1",
+        "cnm_167_q2",
+        "cnm_167_q3",
+        "cnm_167_q4"
+      ],
+      "currentSnapshotSha256": "280aa080ab2adc15f3a9b2ef94ee4ff243d6a6a925ac2c7f661283bbecf16900",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_168",
+      "name": "二次根式的性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "核心数值性质正确；q4含字母根式化简移拓展，与167的数字被开方数核心口径一致。",
+      "questionIds": [
+        "cnm_168_q1",
+        "cnm_168_q2",
+        "cnm_168_q3",
+        "cnm_168_q4"
+      ],
+      "currentSnapshotSha256": "a6f8af98f852918a410007a4f26ba6e60c10aeabade2c71a33ce40a8ac68f9db",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_169",
+      "name": "二次根式的乘法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "数值根式乘法、提平方因数均在核心范围且结果正确，保留。",
+      "questionIds": [
+        "cnm_169_q1",
+        "cnm_169_q2",
+        "cnm_169_q3",
+        "cnm_169_q4",
+        "cnm_169_q5"
+      ],
+      "currentSnapshotSha256": "a20d87b236ff1b4e3d9105a6bd848fee1b6e2fcace3760884f1971d5716e9fd8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_170",
+      "name": "二次根式的除法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "q4字母根式定义域移拓展，核心补数值分母0的排除辨析，计算题正确。",
+      "questionIds": [
+        "cnm_170_q1",
+        "cnm_170_q2",
+        "cnm_170_q3",
+        "cnm_170_q4",
+        "cnm_170_q5"
+      ],
+      "currentSnapshotSha256": "145ffb1a653673683582e4d8294d014d3d3f7daed838c8403e95752efbd2f676",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_171",
+      "name": "最简二次根式与分母有理化",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "定义核心明确数字被开方数；分母有理化保留为简单数值运算，补同乘不改变值说明，不将一般字母因式作为必修。",
+      "questionIds": [
+        "cnm_171_q1",
+        "cnm_171_q2",
+        "cnm_171_q3",
+        "cnm_171_q4",
+        "cnm_171_q5"
+      ],
+      "currentSnapshotSha256": "64570c6f76ea9cd04e5d3cc02018af4eba9699ed0f85dedd49dc7bce4fa59740",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_172",
+      "name": "二次根式的加减",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "化简后同类合并、不可直接加被开方数辨析均正确，保留。",
+      "questionIds": [
+        "cnm_172_q1",
+        "cnm_172_q2",
+        "cnm_172_q3",
+        "cnm_172_q4"
+      ],
+      "currentSnapshotSha256": "cab1d4130a885f9ed0a50f37eab4a260896ee5b4ea81fad91b0b3e21b690d9e9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_173",
+      "name": "二次根式的混合运算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "数值被开方数的混合运算与乘法公式现四题结果正确，保留，不能由数值题断言解释能力充分。",
+      "questionIds": [
+        "cnm_173_q1",
+        "cnm_173_q2",
+        "cnm_173_q3",
+        "cnm_173_q4"
+      ],
+      "currentSnapshotSha256": "dd163bc1de28f7081f91e4c7107f90440c5da36da759330740ed369752b1d903",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_174",
+      "name": "勾股定理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "勾股公式、求直角边/斜边和未指定最长边时分类完整；证明由175独立覆盖。",
+      "questionIds": [
+        "cnm_174_q1",
+        "cnm_174_q2",
+        "cnm_174_q3",
+        "cnm_174_q4"
+      ],
+      "currentSnapshotSha256": "9e653b97a1fdb32f8447abad2120abfdfb98f6e925c9a62dc9ea1e2f224b22e7",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_175",
+      "name": "勾股定理的证明",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "拼图选择/面积数值正确，但缺本人说明中心四边形为何正方形及完整面积推导，补作图证明。原图待视觉核对。",
+      "questionIds": [
+        "cnm_175_q1",
+        "cnm_175_q2",
+        "cnm_175_q3",
+        "cnm_175_q4",
+        "cnm_175_q5"
+      ],
+      "currentSnapshotSha256": "7ebb80ee4374e36ac390aab2f0fd4e51f238609499a939fa0c529253b56364e0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_176",
+      "name": "勾股定理的应用",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "应用数值和折叠式正确，但没有自行建图证据；补梯子变化作图与假设。根式化简171并非所有应用必要硬前提。",
+      "questionIds": [
+        "cnm_176_q1",
+        "cnm_176_q2",
+        "cnm_176_q3",
+        "cnm_176_q4",
+        "cnm_176_q5"
+      ],
+      "currentSnapshotSha256": "c9a3f16816f1d050f634e98a621b12b6b567e58d16317e4bc9ed0b64cbe3ebdd",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_177",
+      "name": "勾股定理的逆定理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "逆定理应用正确，但SSS是推导工具，不应阻挡已知逆定理的判断应用，降soft并补逆定理的构造证明。",
+      "questionIds": [
+        "cnm_177_q1",
+        "cnm_177_q2",
+        "cnm_177_q3",
+        "cnm_177_q4",
+        "cnm_177_q5"
+      ],
+      "currentSnapshotSha256": "063eaeb7848ec959cbf1adb4fb8c756ee62cc2fec7c0bb715a3d93687991d676",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_178",
+      "name": "勾股定理逆定理的应用",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "题目方向/坐标计算正确，q4仅填面积无法证明用了逆定理，补完整构造边平方与判直角过程。",
+      "questionIds": [
+        "cnm_178_q1",
+        "cnm_178_q2",
+        "cnm_178_q3",
+        "cnm_178_q4",
+        "cnm_178_q5"
+      ],
+      "currentSnapshotSha256": "53ca998bdb76ce39b8bf8dd93709128dbfae66e03d11a4a3d80003194b382f2e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_179",
+      "name": "用勾股定理在数轴上表示无理数",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "标准要求圆规截取无实际操作证据；补正负数轴点构造。176完整应用不是必要硬前提，改直接依赖174定理。",
+      "questionIds": [
+        "cnm_179_q1",
+        "cnm_179_q2",
+        "cnm_179_q3",
+        "cnm_179_q4",
+        "cnm_179_q5"
+      ],
+      "currentSnapshotSha256": "c914e9b3f1ad9be26f17c9e8c1bbf6a506a6af96cb2b212ce18aac5ebca8e2c3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_180",
+      "name": "多边形及其对角线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "对角线计数与正多边形边角双条件正确，保留。",
+      "questionIds": [
+        "cnm_180_q1",
+        "cnm_180_q2",
+        "cnm_180_q3",
+        "cnm_180_q4"
+      ],
+      "currentSnapshotSha256": "7ce8241c3c429beb40152d3c7733cc7e68d3e3bb9cb148868c07adc8c739e1eb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_181",
+      "name": "多边形的内角和",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "从任一顶点画所有对角线分割需凸多边形条件，补限定并提供自主推导作品。",
+      "questionIds": [
+        "cnm_181_q1",
+        "cnm_181_q2",
+        "cnm_181_q3",
+        "cnm_181_q4",
+        "cnm_181_q5",
+        "cnm_181_q6"
+      ],
+      "currentSnapshotSha256": "639a9b281bfbcc7d4746de35f5090453263932978a88667ee463f677f939263f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_182",
+      "name": "多边形的外角和",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-symmetry-pythagoras.json",
+      "firstPassFinding": "任意多边形外角和360度缺凸/有向约定，核心改为凸多边形每顶点一个同向邻补外角，补完整推导。",
+      "questionIds": [
+        "cnm_182_q1",
+        "cnm_182_q2",
+        "cnm_182_q3",
+        "cnm_182_q4",
+        "cnm_182_q5"
+      ],
+      "currentSnapshotSha256": "ced07599764fc077a527a4f3310c2e953f021309cd763da0d499fc8d7be625c9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_183",
+      "name": "平行四边形的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "性质计算正确但没有完整证明；补从平行定义推对边相等及对角线互相平分，126全套综合判定非唯一门槛。",
+      "questionIds": [
+        "cnm_183_q1",
+        "cnm_183_q2",
+        "cnm_183_q3",
+        "cnm_183_q4",
+        "cnm_183_q5",
+        "cnm_183_q6"
+      ],
+      "currentSnapshotSha256": "3a47ddc26a62940df64c7fccfe623baa096457da461e5fa714863d586edb355f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_184",
+      "name": "平行四边形的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "判定选择正确，缺证明作品；补一组对边平行且相等与“另一组边相等”区别及反例，183逆命题不是所有判定的必要前提。",
+      "questionIds": [
+        "cnm_184_q1",
+        "cnm_184_q2",
+        "cnm_184_q3",
+        "cnm_184_q4",
+        "cnm_184_q5",
+        "cnm_184_q6"
+      ],
+      "currentSnapshotSha256": "55aafc1efbacc011493d9c4924a53799b4559ed7332473fbd70851513a18cbe9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_185",
+      "name": "三角形的中位线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "中位线长度正确，但标准声称会证明，补倍长构造全等和平行四边形完整证明。",
+      "questionIds": [
+        "cnm_185_q1",
+        "cnm_185_q2",
+        "cnm_185_q3",
+        "cnm_185_q4",
+        "cnm_185_q5"
+      ],
+      "currentSnapshotSha256": "e247bfc3e9e48c9ae2422598c5cc199bb3f03bba6cf3d7cb31277790efe0a611",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_186",
+      "name": "矩形的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "矩形对角线、等边构造、面积四等分及q5角关系正确，保留；q2所谓特有相对一般平行四边形而非排除其他四边形。",
+      "questionIds": [
+        "cnm_186_q1",
+        "cnm_186_q2",
+        "cnm_186_q3",
+        "cnm_186_q4",
+        "cnm_186_q5"
+      ],
+      "currentSnapshotSha256": "d15d69c17abae6ab47bffe3c367211208cacafc9c616eca2c5ab1334945e85b4",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_187",
+      "name": "直角三角形斜边上的中线",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "斜边中线数值正确但无矩形证明过程，补构造矩形与对角线论证。",
+      "questionIds": [
+        "cnm_187_q1",
+        "cnm_187_q2",
+        "cnm_187_q3",
+        "cnm_187_q4",
+        "cnm_187_q5"
+      ],
+      "currentSnapshotSha256": "4f1997493fde2f32ce11f849f9a0ad1e9e3915886ebde0e3ac186f300152dcdb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_188",
+      "name": "矩形的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "矩形判定及勾股计算正确，补等对角线平行四边形判矩形的证明；避免性质逆命题被当独立依据。",
+      "questionIds": [
+        "cnm_188_q1",
+        "cnm_188_q2",
+        "cnm_188_q3",
+        "cnm_188_q4",
+        "cnm_188_q5"
+      ],
+      "currentSnapshotSha256": "948fe8a7815987856296ff6bbc75e9bbb107ade68fdf754970108cda77df4de3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_189",
+      "name": "菱形的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "菱形半对角线计算、面积与边高关系正确，标准以性质叙述/计算为主，保留。",
+      "questionIds": [
+        "cnm_189_q1",
+        "cnm_189_q2",
+        "cnm_189_q3",
+        "cnm_189_q4",
+        "cnm_189_q5"
+      ],
+      "currentSnapshotSha256": "2e34e0e814de62769b5f67ac7f4dbb39620a309516b0f5eb8cbec3454afa6260",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_190",
+      "name": "菱形的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "菱形判定数值正确，补从对角线垂直和互相平分证明邻边相等过程。",
+      "questionIds": [
+        "cnm_190_q1",
+        "cnm_190_q2",
+        "cnm_190_q3",
+        "cnm_190_q4",
+        "cnm_190_q5",
+        "cnm_190_q6"
+      ],
+      "currentSnapshotSha256": "ef9ef241e28a96540b33c0b200546d47ffd142f55b61428fd66d091e5adafb20",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_191",
+      "name": "正方形的性质与判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "声称会画包含关系但全为数值与选择，补四类关系图及反向命题反例。",
+      "questionIds": [
+        "cnm_191_q1",
+        "cnm_191_q2",
+        "cnm_191_q3",
+        "cnm_191_q4",
+        "cnm_191_q5",
+        "cnm_191_q6"
+      ],
+      "currentSnapshotSha256": "7672de78303127ea222ccf63a85b1fa0fabb6b0474dea15cb774347bb00ed463",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_192",
+      "name": "四边形中的折叠与动点问题",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "折叠和动点数值正确，缺自己画对应与建模过程；属于课标未单列的综合补充方法，标supplementary并补作品，不能硬依赖已学全部正方形判定。",
+      "questionIds": [
+        "cnm_192_q1",
+        "cnm_192_q2",
+        "cnm_192_q3",
+        "cnm_192_q4",
+        "cnm_192_q5"
+      ],
+      "currentSnapshotSha256": "2ae754075dc9553321131500ffb9e0b15bfef89dd8be03114d7838480d4e2f84",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_193",
+      "name": "变量与常量",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "q1应明确半径变化过程；举生活实例的掌握标准无相应自编证据，补固定/变化条件对照。列代数式027不是识别变量唯一必要前提。",
+      "questionIds": [
+        "cnm_193_q1",
+        "cnm_193_q2",
+        "cnm_193_q3",
+        "cnm_193_q4",
+        "cnm_193_q5",
+        "cnm_193_q6"
+      ],
+      "currentSnapshotSha256": "a5e33f4cfa6db8f8fb77344ec080eab846f4663b5928377279947d1ee274d0e3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_194",
+      "name": "函数的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "q2解析称x=1时圆x²+y²=1有两个y错误，应取x=0；补定义中的给定范围与常函数/多对一辨析。",
+      "questionIds": [
+        "cnm_194_q1",
+        "cnm_194_q2",
+        "cnm_194_q3",
+        "cnm_194_q4",
+        "cnm_194_q5",
+        "cnm_194_q6"
+      ],
+      "currentSnapshotSha256": "9fc55b9d4e4b89ad4421480614e49c5e82f17a1f32844f901db84f67b325250f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_195",
+      "name": "自变量的取值范围",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "分式根式交集、实际正长度及根式作分母严格不等式均有正确题，保留。",
+      "questionIds": [
+        "cnm_195_q1",
+        "cnm_195_q2",
+        "cnm_195_q3",
+        "cnm_195_q4",
+        "cnm_195_q5"
+      ],
+      "currentSnapshotSha256": "eba26c8cf41ffd1d24a04fc45b0efae230026d1ba3a7b731fc8b9cc6deff166b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_196",
+      "name": "函数值",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "代入、反求多值、参数式求值均正确，保留；反求的两个x不违背函数唯一y定义。",
+      "questionIds": [
+        "cnm_196_q1",
+        "cnm_196_q2",
+        "cnm_196_q3",
+        "cnm_196_q4",
+        "cnm_196_q5"
+      ],
+      "currentSnapshotSha256": "bf5181c478c3a81ce10e083df2ed185d3a14553da176d92d82c755f6bf567ea9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_197",
+      "name": "函数的图象",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "修正指定两点的唯一性暗示，补实际作图和有图可读的过程题。",
+      "questionIds": [
+        "cnm_197_q1",
+        "cnm_197_q2",
+        "cnm_197_q3",
+        "cnm_197_q4",
+        "cnm_197_q5",
+        "cnm_197_q6",
+        "cnm_197_q7"
+      ],
+      "currentSnapshotSha256": "4ae3bebaa837ddc1de7ba6735f1f756fef9ebb7209f96d44b2701a3fea31a3c9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_198",
+      "name": "函数的三种表示方法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d2/node-review.json",
+      "firstPassFinding": "补离散/连续定义域和模型边界，三种方法名称记忆不代表会转换。",
+      "questionIds": [
+        "cnm_198_q1",
+        "cnm_198_q2",
+        "cnm_198_q3",
+        "cnm_198_q4",
+        "cnm_198_q5",
+        "cnm_198_q6",
+        "cnm_198_q7"
+      ],
+      "currentSnapshotSha256": "74f3e16e468efc6509a4b969c94d82e30698270261914d0c32aae83434c66fa1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_199",
+      "name": "用函数刻画实际变化规律",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "弹簧模型须给适用范围且包含6kg以免过度外推；补完整建模与定义域过程任务。",
+      "questionIds": [
+        "cnm_199_q1",
+        "cnm_199_q2",
+        "cnm_199_q3",
+        "cnm_199_q4",
+        "cnm_199_q5",
+        "cnm_199_q6"
+      ],
+      "currentSnapshotSha256": "25626aaf43b8a1fe351b7e0ce218f18c95e20e9bfa7b472d60f2ce3cbd75e6ce",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_200",
+      "name": "正比例函数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "掌握标准含画图但四题均无作图；补正比例实际绘图并处理k=0排除。",
+      "questionIds": [
+        "cnm_200_q1",
+        "cnm_200_q2",
+        "cnm_200_q3",
+        "cnm_200_q4",
+        "cnm_200_q5"
+      ],
+      "currentSnapshotSha256": "241da08ec115135c373b258dbc71e858afed0aba0b2aabeb999ee99722858e15",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_201",
+      "name": "一次函数的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "一次函数k≠0及正比例特例条件题正确；正比例先修是否硬依赖留作概念类比专项，不当作本轮必改边。",
+      "questionIds": [
+        "cnm_201_q1",
+        "cnm_201_q2",
+        "cnm_201_q3",
+        "cnm_201_q4"
+      ],
+      "currentSnapshotSha256": "ebdb5781f1eb3007e7c4bf105b1614d902afc50dd9ec0e5a61c149d6f9c820a3",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_202",
+      "name": "一次函数的图象与画法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-fractions-functions.json",
+      "firstPassFinding": "没有实际作图任务；补两不同点画直线，尤其b=0时两个轴交点重合不能当两点。",
+      "questionIds": [
+        "cnm_202_q1",
+        "cnm_202_q2",
+        "cnm_202_q3",
+        "cnm_202_q4",
+        "cnm_202_q5"
+      ],
+      "currentSnapshotSha256": "7ce556c30e8eef62420aad3bf2dc98b7ee4e202eb194756b9b84a9fc794473e5",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_203",
+      "name": "一次函数的性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "现有开放题有解释入口，补明确量规与k非零、同一坐标尺度条件，保留数值比较题。",
+      "questionIds": [
+        "cnm_203_q1",
+        "cnm_203_q2",
+        "cnm_203_q3",
+        "cnm_203_q4",
+        "cnm_203_q5"
+      ],
+      "currentSnapshotSha256": "2b35cc424dd93067655941f2cbdd1539f982e6ccdc8dcc5454fb41603c01bb78",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_204",
+      "name": "一次函数图象的平移",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "平移式子题正确但“说明k不变”缺过程；补对应点变化解释任务，m指非负移动距离。",
+      "questionIds": [
+        "cnm_204_q1",
+        "cnm_204_q2",
+        "cnm_204_q3",
+        "cnm_204_q4",
+        "cnm_204_q5"
+      ],
+      "currentSnapshotSha256": "8227db5f41209c1805a3afed79ff283a29638c3e86ccaa3fc4c561c68c093952",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_205",
+      "name": "待定系数法求一次函数解析式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "图象确定解析式无实际图，补读图列式；089是替代方法之一应由hard降soft，保留090soft并记录OR未实现。",
+      "questionIds": [
+        "cnm_205_q1",
+        "cnm_205_q2",
+        "cnm_205_q3",
+        "cnm_205_q4",
+        "cnm_205_q5",
+        "cnm_205_q6"
+      ],
+      "currentSnapshotSha256": "f784c17bf891cccf00920eeca1cdd74d4defa2be9ed51b550e3cc3565e06805c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_206",
+      "name": "一次函数与一元一次方程",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d5/node-review.json",
+      "firstPassFinding": "补实际图象读数；区分交点坐标、方程解和函数值。",
+      "questionIds": [
+        "cnm_206_q1",
+        "cnm_206_q2",
+        "cnm_206_q3",
+        "cnm_206_q4",
+        "cnm_206_q5",
+        "cnm_206_q6"
+      ],
+      "currentSnapshotSha256": "2a5dcb6771a8a185c9dece91cdede038796a3a11bbbb35e7ac2bad57bf73e708",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_207",
+      "name": "一次函数与一元一次不等式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d5/node-review.json",
+      "firstPassFinding": "补带图的上下位置判断，不用解析式求解替代读图证据。",
+      "questionIds": [
+        "cnm_207_q1",
+        "cnm_207_q2",
+        "cnm_207_q3",
+        "cnm_207_q4",
+        "cnm_207_q5",
+        "cnm_207_q6"
+      ],
+      "currentSnapshotSha256": "ca6c55fa7038b4f6086a51817612609fc18789df615f519a6a6c668c354469b9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_208",
+      "name": "一次函数与二元一次方程组",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d5/node-review.json",
+      "firstPassFinding": "补交点读图、双方程验解与平行无解情形。",
+      "questionIds": [
+        "cnm_208_q1",
+        "cnm_208_q2",
+        "cnm_208_q3",
+        "cnm_208_q4",
+        "cnm_208_q5",
+        "cnm_208_q6"
+      ],
+      "currentSnapshotSha256": "9cd19ac72259e2f8b5ae68b962f57533272709e6119dc046629afea29e190261",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_209",
+      "name": "实际问题与一次函数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "弹簧q2适用范围未说明；补真实分段模型和方案比较过程；205待定系数法非所有应用必需，降soft。",
+      "questionIds": [
+        "cnm_209_q1",
+        "cnm_209_q2",
+        "cnm_209_q3",
+        "cnm_209_q4",
+        "cnm_209_q5",
+        "cnm_209_q6"
+      ],
+      "currentSnapshotSha256": "7004dcdf101e188057bd497ca70183626b289222d850facc8f1fffd89b433564",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_210",
+      "name": "综合与实践：音乐与数学",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "弦长频率数值正确但乘积固定是题设模型；补表格与乘积检验、控制变量和外推限制，不伪造实测。",
+      "questionIds": [
+        "cnm_210_q1",
+        "cnm_210_q2",
+        "cnm_210_q3",
+        "cnm_210_q4",
+        "cnm_210_q5",
+        "cnm_210_q6"
+      ],
+      "currentSnapshotSha256": "e914ad4e5608703befbb0711f3d6214245986cc5d3839b0fc581e65ef642a2dc",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_211",
+      "name": "平均数",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "移除整套有理数混合运算hard门槛，保留小学均值背景；原均值题可独立核验。",
+      "questionIds": [
+        "cnm_211_q1",
+        "cnm_211_q2",
+        "cnm_211_q3",
+        "cnm_211_q4",
+        "cnm_211_q5"
+      ],
+      "currentSnapshotSha256": "e441f74b69aac3538ba215542d73cf4e492d5f3723bf6707b4a770c5defed153",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_212",
+      "name": "加权平均数",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "权可以是频数或人数，不只重要程度；保留数值与权重解释题。",
+      "questionIds": [
+        "cnm_212_q1",
+        "cnm_212_q2",
+        "cnm_212_q3",
+        "cnm_212_q4",
+        "cnm_212_q5"
+      ],
+      "currentSnapshotSha256": "15b95b5935662790216c69ae18200a8820f0ecf7a91e35679f6597a45c96cf12",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_213",
+      "name": "中位数与众数",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留中位数/众数；明确其复合范围使216仅需中位数子能力，节点级依赖仍为近似。",
+      "questionIds": [
+        "cnm_213_q1",
+        "cnm_213_q2",
+        "cnm_213_q3",
+        "cnm_213_q4",
+        "cnm_213_q5"
+      ],
+      "currentSnapshotSha256": "7c852f8e67bf598767d9cce91631bcd146300c195e110382a38dae6dee79ae22",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_214",
+      "name": "集中趋势统计量的选择",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "工资题限定为一般员工典型水平，不能脱离目标一律选择中位数。",
+      "questionIds": [
+        "cnm_214_q1",
+        "cnm_214_q2",
+        "cnm_214_q3",
+        "cnm_214_q4"
+      ],
+      "currentSnapshotSha256": "9141674c19cc2f958415fe4f3754d3edf86b396860be3aada45da462c7d6a523",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_215",
+      "name": "离差平方和、方差与极差",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "显式加入离差平方和，标准差退出本节点首轮核心任务；保留ID并记录含义调整。",
+      "questionIds": [
+        "cnm_215_q1",
+        "cnm_215_q2",
+        "cnm_215_q3",
+        "cnm_215_q4",
+        "cnm_215_q5",
+        "cnm_215_q6"
+      ],
+      "currentSnapshotSha256": "13ac1b093b12d9a45649ff12866e39fb627a7e80d91156b37c2c047961707752",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_216",
+      "name": "数据的四分位数",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "补未排序数据和解释任务；保留题中算法约定，奇数规则不冒充全国唯一算法。",
+      "questionIds": [
+        "cnm_216_q1",
+        "cnm_216_q2",
+        "cnm_216_q3",
+        "cnm_216_q4",
+        "cnm_216_q5",
+        "cnm_216_q6",
+        "cnm_216_q7"
+      ],
+      "currentSnapshotSha256": "d7caabd1fbc62f143c0a4e2d0d22f59464a6b4c551b6663e82cbd10c20623a45",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_217",
+      "name": "数据的分组与由分组数据估计平均数",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留组中值加权估计并保留误差辨析；不是SP.06分类优化的替代。",
+      "questionIds": [
+        "cnm_217_q1",
+        "cnm_217_q2",
+        "cnm_217_q3",
+        "cnm_217_q4",
+        "cnm_217_q5"
+      ],
+      "currentSnapshotSha256": "5bed9ba90c51095a23ab3913ef8fd2f3d8de29eeec2d7449cbb3cdabd3b9e850",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_218",
+      "name": "综合与实践：学生体质健康调查与分析",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "平均方差不足以“全面比较”体质，样本与指标条件需说明；补匿名数据/模拟任务、抽样方案和局限，避免计算当真实调查。",
+      "questionIds": [
+        "cnm_218_q1",
+        "cnm_218_q2",
+        "cnm_218_q3",
+        "cnm_218_q4",
+        "cnm_218_q5",
+        "cnm_218_q6"
+      ],
+      "currentSnapshotSha256": "4a1f4d8f47dd9c9fdb1378d3591eb659f16e9fe9fd927d2105f881d6fb647b4d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_219",
+      "name": "一元二次方程的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "整理后次数、系数符号与a非零均有正确题，保留。",
+      "questionIds": [
+        "cnm_219_q1",
+        "cnm_219_q2",
+        "cnm_219_q3",
+        "cnm_219_q4"
+      ],
+      "currentSnapshotSha256": "fafd931224a345a057c0c5efee47d5a5a5ca79f838d38d66c23ef5964fcac4da",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_220",
+      "name": "直接开平方法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "掌握标准“求出两个根”漏p=0单一实数值情形，补p正/零/负分类解释。",
+      "questionIds": [
+        "cnm_220_q1",
+        "cnm_220_q2",
+        "cnm_220_q3",
+        "cnm_220_q4",
+        "cnm_220_q5"
+      ],
+      "currentSnapshotSha256": "1c9d36b74362057cdf1ecdeab06f95b3e86142bbe7d44e6f589b5c4e54e294b7",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_221",
+      "name": "配方法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "描述需先化二次项系数1再取一次系数一半平方；补非首一系数的配方过程题。",
+      "questionIds": [
+        "cnm_221_q1",
+        "cnm_221_q2",
+        "cnm_221_q3",
+        "cnm_221_q4",
+        "cnm_221_q5"
+      ],
+      "currentSnapshotSha256": "cca9a62587982d1bbf804a88c05900a3d31c19f8f803e088ee9315e11ae39fdf",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_222",
+      "name": "公式法与求根公式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "只收根不能证明公式法，补a,b,c、判别式与分母2a步骤；描述补a≠0。配方推导知识不等于应用公式必需，边降soft并保留推导说明。",
+      "questionIds": [
+        "cnm_222_q1",
+        "cnm_222_q2",
+        "cnm_222_q3",
+        "cnm_222_q4",
+        "cnm_222_q5"
+      ],
+      "currentSnapshotSha256": "757dffcadbae3bbb2b1b78ca8ade234d3d6c0396d7a0acf5a79a6012f676f3c9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_223",
+      "name": "根的判别式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "描述补一元二次a≠0前提；现题q4正确排除k=0，补判别式与根式意义解释。",
+      "questionIds": [
+        "cnm_223_q1",
+        "cnm_223_q2",
+        "cnm_223_q3",
+        "cnm_223_q4",
+        "cnm_223_q5"
+      ],
+      "currentSnapshotSha256": "a24b10a5eaef017a1ddedb7fb8e0890f7c22460e6195c53e436b76de82e67fd1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_224",
+      "name": "因式分解法",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "q3十字相乘超出当前限定的基础因式分解方法，移拓展或换可提公因式/公式法核心题；补零乘积性质与不能除可能为0的因式。",
+      "questionIds": [
+        "cnm_224_q1",
+        "cnm_224_q2",
+        "cnm_224_q3",
+        "cnm_224_q4",
+        "cnm_224_q5"
+      ],
+      "currentSnapshotSha256": "d7010e7350d21c4cc8c3f292720557a5b1d6f42ab6e65d0be4edf3bd11dfb730",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_225",
+      "name": "一元二次方程解法的选择",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "方法选择题已有，但缺说明理由过程；补对比两种有效方法并避免将“最合适”当数学唯一解法。",
+      "questionIds": [
+        "cnm_225_q1",
+        "cnm_225_q2",
+        "cnm_225_q3",
+        "cnm_225_q4",
+        "cnm_225_q5"
+      ],
+      "currentSnapshotSha256": "dafd08f401e8043689c339dea26cd357af07b79f3159654f201dc183c29b1e22",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_226",
+      "name": "一元二次方程根与系数的关系",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "取消整节点拓展标签；核心为了解根与系数关系和条件，复杂对称式另列拓展。",
+      "questionIds": [
+        "cnm_226_q1",
+        "cnm_226_q2",
+        "cnm_226_q3",
+        "cnm_226_q4",
+        "cnm_226_q5",
+        "cnm_226_q6"
+      ],
+      "currentSnapshotSha256": "de26acdef7324b698a85944d42c8ba017e7f4a7cd8d93a52a60f25649620ebe6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_227",
+      "name": "增长率与传播问题",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "传染q4未说明每轮全部现患病者继续传播、对象不重叠等计数假设，必须补成理想模型；补增长率/降价率有效根解释。",
+      "questionIds": [
+        "cnm_227_q1",
+        "cnm_227_q2",
+        "cnm_227_q3",
+        "cnm_227_q4",
+        "cnm_227_q5"
+      ],
+      "currentSnapshotSha256": "466a8df6bb38d068e693cd19438f99577596dcdc1c5901ea842b5cb26ecdedb4",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_228",
+      "name": "面积与销售利润问题",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "标准要画图却只收数值；补围栏图、两个可行根及利润模型取值范围过程任务。",
+      "questionIds": [
+        "cnm_228_q1",
+        "cnm_228_q2",
+        "cnm_228_q3",
+        "cnm_228_q4",
+        "cnm_228_q5",
+        "cnm_228_q6"
+      ],
+      "currentSnapshotSha256": "6683648a118179095f0d116d1b2df82c59b966021273b65a1ed8fbb1dbae1d63",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_229",
+      "name": "二次函数的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "定义判断正确；一次函数201只是类比，降soft以免把会一次函数类型当二次定义必要条件。",
+      "questionIds": [
+        "cnm_229_q1",
+        "cnm_229_q2",
+        "cnm_229_q3",
+        "cnm_229_q4"
+      ],
+      "currentSnapshotSha256": "a75905f2f1a0b7615c243de08ea8317d085d952b1bf067e1d9071638c6a48955",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_230",
+      "name": "y=ax² 的图象与性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "全部为选择/代入，无实际描点作图；补列表画图、两侧增减及开口大小同坐标尺度限制。",
+      "questionIds": [
+        "cnm_230_q1",
+        "cnm_230_q2",
+        "cnm_230_q3",
+        "cnm_230_q4",
+        "cnm_230_q5"
+      ],
+      "currentSnapshotSha256": "99fd3d2d5a1f9646369aeb72d4539025c370bade3622840f77d608c23fcc6518",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_231",
+      "name": "y=a(x-h)²+k 的图象与平移",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "平移结果题正确，补对应点/顶点解释；204一次函数平移只是类比，应降soft。",
+      "questionIds": [
+        "cnm_231_q1",
+        "cnm_231_q2",
+        "cnm_231_q3",
+        "cnm_231_q4",
+        "cnm_231_q5"
+      ],
+      "currentSnapshotSha256": "efdd7d433f756329335a4de893c114abbfc2c7e21a533de6975f6b51d048c726",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_232",
+      "name": "y=ax²+bx+c 的图象与性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "配方选择和顶点数值正确，补完整配方与左右分支性质的图象解释。",
+      "questionIds": [
+        "cnm_232_q1",
+        "cnm_232_q2",
+        "cnm_232_q3",
+        "cnm_232_q4",
+        "cnm_232_q5"
+      ],
+      "currentSnapshotSha256": "6d2da0e59cb7edde9c383cab6eaedb7f6e1def307270f5c9c3508a973d34d102",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_233",
+      "name": "待定系数法求二次函数解析式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "093三元一次方程组为选学却被作必修硬先修，降soft并说明顶点式/交点式可降元；q1可先由截距消去c，无需三元必备。补条件选式过程。",
+      "questionIds": [
+        "cnm_233_q1",
+        "cnm_233_q2",
+        "cnm_233_q3",
+        "cnm_233_q4",
+        "cnm_233_q5"
+      ],
+      "currentSnapshotSha256": "4eff81f464e0ab7334abdb4a105fc032eae01fb58b1617f6f7a2d587403dc287",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_234",
+      "name": "二次函数与一元二次方程",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "补真实函数图象读近似解的任务；不把求精确根替代图象估计。",
+      "questionIds": [
+        "cnm_234_q1",
+        "cnm_234_q2",
+        "cnm_234_q3",
+        "cnm_234_q4",
+        "cnm_234_q5",
+        "cnm_234_q6"
+      ],
+      "currentSnapshotSha256": "198d150c52d6221645463e55146f2798ca1de80859f6fcd7512230df42b17d78",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_235",
+      "name": "二次函数的最值",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "无限制顶点最值与区间外顶点案例均有题且正确，保留；过程性理由待新函数应用题支持。",
+      "questionIds": [
+        "cnm_235_q1",
+        "cnm_235_q2",
+        "cnm_235_q3",
+        "cnm_235_q4"
+      ],
+      "currentSnapshotSha256": "730a2f571cb1793caae6ab75838cb17e9ccb65f2d02beb19d6940b2944425edf",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_236",
+      "name": "实际问题与二次函数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "补建模、定义域和可行最大值过程；233待定系数法非所有面积/利润应用必需降soft。给利润与运动模型明确适用区间。",
+      "questionIds": [
+        "cnm_236_q1",
+        "cnm_236_q2",
+        "cnm_236_q3",
+        "cnm_236_q4",
+        "cnm_236_q5",
+        "cnm_236_q6"
+      ],
+      "currentSnapshotSha256": "db99811ffb27c3b692d20cb4b9b45119936025983ccb6d283030f83f07e0b925",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_237",
+      "name": "反比例函数的概念",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "定义补x≠0与k≠0同时满足；其他题正确。",
+      "questionIds": [
+        "cnm_237_q1",
+        "cnm_237_q2",
+        "cnm_237_q3",
+        "cnm_237_q4"
+      ],
+      "currentSnapshotSha256": "12c48768d34c5fd12f967c39675334918f32e2bc68ee6430c376e5782b76d13d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_238",
+      "name": "反比例函数的图象与性质",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/math-junior/batch-d1/node-review.json",
+      "firstPassFinding": "明确增减性只在每个分支内；补不能跨越0推广的反例及绘图任务。",
+      "questionIds": [
+        "cnm_238_q1",
+        "cnm_238_q2",
+        "cnm_238_q3",
+        "cnm_238_q4",
+        "cnm_238_q5",
+        "cnm_238_q6"
+      ],
+      "currentSnapshotSha256": "db0c09b218ec1538c1909a2cc64c0d8dda8a49074673b63543cef5c8b6a7f9bf",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_239",
+      "name": "反比例函数中 k 的几何意义",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "面积数值正确，缺几何推导与不同象限负坐标解释，补画矩形与绝对值面积推理。",
+      "questionIds": [
+        "cnm_239_q1",
+        "cnm_239_q2",
+        "cnm_239_q3",
+        "cnm_239_q4",
+        "cnm_239_q5"
+      ],
+      "currentSnapshotSha256": "5c10e9e25ef5659ffb4e34e334a4b8f65cb7258ca7fc935f42823b11d09cb871",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_240",
+      "name": "待定系数法求反比例函数解析式",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "直接求k、求解析式、检验其他点均有证据；042整套解方程不是乘积k=xy必要条件，边应降soft（边修订另记）。",
+      "questionIds": [
+        "cnm_240_q1",
+        "cnm_240_q2",
+        "cnm_240_q3",
+        "cnm_240_q4"
+      ],
+      "currentSnapshotSha256": "deb9fa7c02d84b811faab6a0e416f70e6d979f90a5199551c01e5e2d32263cbb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_241",
+      "name": "反比例函数与一次函数的综合",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "声称图上比较但无图；补图象与x=0断点及联立两个解的过程。原q3面积计算为5/2正确。",
+      "questionIds": [
+        "cnm_241_q1",
+        "cnm_241_q2",
+        "cnm_241_q3",
+        "cnm_241_q4",
+        "cnm_241_q5"
+      ],
+      "currentSnapshotSha256": "21b1c70ec86ef0d40ec7609cdea6191746c864bc6b5283bf9b8cc07661b71e97",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_242",
+      "name": "实际问题与反比例函数",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "反比例总量模型题正确，补建立式子与正值范围的过程；240待定系数方法非直接总量已知题必要硬边，降soft。",
+      "questionIds": [
+        "cnm_242_q1",
+        "cnm_242_q2",
+        "cnm_242_q3",
+        "cnm_242_q4",
+        "cnm_242_q5"
+      ],
+      "currentSnapshotSha256": "39e90babac249a944ec29aa5499a53f0138249197fff1a3c2a4ee86c8ca2fcc7",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_243",
+      "name": "综合与实践：高铁列车运行中的数量关系",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "速度题数值正确，需区分全程平均速度与巡航速度；补表格模型及停站/变速限制，242反比例非恒速正比例任务唯一前提。",
+      "questionIds": [
+        "cnm_243_q1",
+        "cnm_243_q2",
+        "cnm_243_q3",
+        "cnm_243_q4",
+        "cnm_243_q5"
+      ],
+      "currentSnapshotSha256": "40d8fe76cc606ceebb9c9006b755527eb39611e580d93cbd32582204c0ae3726",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_244",
+      "name": "图形的旋转",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "q1需点不等于旋转中心；q4需A′不等于A且在AB内部，零旋转也满足旧字面；补旋转有向角与小夹角的范围区别。",
+      "questionIds": [
+        "cnm_244_q1",
+        "cnm_244_q2",
+        "cnm_244_q3",
+        "cnm_244_q4",
+        "cnm_244_q5"
+      ],
+      "currentSnapshotSha256": "336800dc7d2c300dc1f0cc4375b5ae82e8d941fc5dd1bce2db389d1f2e8d54b7",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_245",
+      "name": "旋转的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "q1中A相等与B成比例可同时成立（比例1），改B为比例系数不为1；旋转角大于180时不能等同小夹角，中心点也不能构成两射线角；q4补非零和内部条件。",
+      "questionIds": [
+        "cnm_245_q1",
+        "cnm_245_q2",
+        "cnm_245_q3",
+        "cnm_245_q4"
+      ],
+      "currentSnapshotSha256": "4cd6aba1c584292110b5f790b1f0c18004d9d2df62ef9a855b82917ba4e41e6c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_246",
+      "name": "旋转作图",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "作图节点无实际作品，补带方向距离的旋转作图；尺规复制角127不是使用量角器/方格作图的唯一硬前提。",
+      "questionIds": [
+        "cnm_246_q1",
+        "cnm_246_q2",
+        "cnm_246_q3",
+        "cnm_246_q4",
+        "cnm_246_q5"
+      ],
+      "currentSnapshotSha256": "06558175b60e85bd06d754ea7b9adfc00f660ba93df91cde6c93f83024dbabd8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_247",
+      "name": "旋转变换在证明与计算中的应用",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "半角模型与内部点旋转数值可推出，但没有完整构造证明，补90度旋转的标图与角关系；综合模型作为补充难度安排，不宣称课标逐题禁止。",
+      "questionIds": [
+        "cnm_247_q1",
+        "cnm_247_q2",
+        "cnm_247_q3",
+        "cnm_247_q4",
+        "cnm_247_q5"
+      ],
+      "currentSnapshotSha256": "64a19fdb253ed274b3b846329cb4794e569915190476a6b8ddf743a9f1b34407",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_248",
+      "name": "中心对称与中心对称图形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-quadrilaterals-rotation.json",
+      "firstPassFinding": "概念区分与计数正确，找中心未有自主图形证据，补实际标中心及180度核验。",
+      "questionIds": [
+        "cnm_248_q1",
+        "cnm_248_q2",
+        "cnm_248_q3",
+        "cnm_248_q4",
+        "cnm_248_q5"
+      ],
+      "currentSnapshotSha256": "256268041b24738726002fd0b99183ad1a372b9467bc1b4309a2e854f079b250",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_249",
+      "name": "关于原点对称的点的坐标",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "坐标正负计算正确，缺实际画中心对称图形任务；136轴对称类比不是必需硬前提，降soft。",
+      "questionIds": [
+        "cnm_249_q1",
+        "cnm_249_q2",
+        "cnm_249_q3",
+        "cnm_249_q4",
+        "cnm_249_q5",
+        "cnm_249_q6"
+      ],
+      "currentSnapshotSha256": "efb1895bf12d91f85a29aada1ba3fd167efc82a3134ce5f1889c4fbbf27371a7",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_250",
+      "name": "圆的有关概念",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "最长弦计算及概念选项正确，缺图中指出圆各元素及说明最长弦依据，补自画标注。",
+      "questionIds": [
+        "cnm_250_q1",
+        "cnm_250_q2",
+        "cnm_250_q3",
+        "cnm_250_q4",
+        "cnm_250_q5"
+      ],
+      "currentSnapshotSha256": "fb37d1bb4b007ff28825d137485626eca2b418123c7c0afb589c83825f948296",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_251",
+      "name": "垂径定理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "弦心距、半弦勾股、推论排除直径及两平行弦异侧距离均正确，保留；原SVG待视觉核对。",
+      "questionIds": [
+        "cnm_251_q1",
+        "cnm_251_q2",
+        "cnm_251_q3",
+        "cnm_251_q4",
+        "cnm_251_q5"
+      ],
+      "currentSnapshotSha256": "81b80c512133db946acb60957fab2553c7a854bdf2d7dc042ab49a750d41013d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_252",
+      "name": "弧、弦、圆心角的关系",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "等弧等弦计算正确；q3六等分点需明确按圆周顺序命名保证AB为相邻弦；245旋转证明是方法之一而非应用关系必须硬前提，降soft。",
+      "questionIds": [
+        "cnm_252_q1",
+        "cnm_252_q2",
+        "cnm_252_q3",
+        "cnm_252_q4",
+        "cnm_252_q5"
+      ],
+      "currentSnapshotSha256": "dcff7e36ae28daf7dcd381c96a9d7f8e7ef1c4f533ee6b099c8c0de175632ae6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_253",
+      "name": "圆周角定理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "q1“弧上的圆周角”误导顶点位置，明确100度劣弧与顶点在对应优弧内部；补同弦两侧圆周角关系的实际标图任务。",
+      "questionIds": [
+        "cnm_253_q1",
+        "cnm_253_q2",
+        "cnm_253_q3",
+        "cnm_253_q4",
+        "cnm_253_q5",
+        "cnm_253_q6"
+      ],
+      "currentSnapshotSha256": "98257b7373d60d6f51cdf211dd14d16991a25f00c46552cdee28f3a230efc6b1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_254",
+      "name": "直径所对的圆周角",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "直径所对直角、逆向判径及勾股/30度边正确，端点退化已由题设角或长度排除，保留。",
+      "questionIds": [
+        "cnm_254_q1",
+        "cnm_254_q2",
+        "cnm_254_q3",
+        "cnm_254_q4",
+        "cnm_254_q5"
+      ],
+      "currentSnapshotSha256": "696ec8aacbd27dcff35add4e1afa22293084e636da35cd2f87cb63d6c91f9b25",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_255",
+      "name": "圆内接四边形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "对角互补、邻补外角、角比和优劣弧位置答案一致，保留。",
+      "questionIds": [
+        "cnm_255_q1",
+        "cnm_255_q2",
+        "cnm_255_q3",
+        "cnm_255_q4",
+        "cnm_255_q5"
+      ],
+      "currentSnapshotSha256": "3e1cd191bca567f390013f838875e6e523286d78babce93f820a953f9a89743e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_256",
+      "name": "弧长",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "公式题正确，但标准推导仅有代入，补圆周等分比例推导与单位区分。",
+      "questionIds": [
+        "cnm_256_q1",
+        "cnm_256_q2",
+        "cnm_256_q3",
+        "cnm_256_q4",
+        "cnm_256_q5",
+        "cnm_256_q6"
+      ],
+      "currentSnapshotSha256": "fd3b2e98a84c95d0c7af48db44a62ccd8984347e39fb1e8e4a0344ab13c6bacf",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_257",
+      "name": "扇形面积",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "弓形题q5需明确正方形内部劣弧，避免优弧另一面积；补自画扇形减三角形的实际过程。弧长非直接用圆面积比例求扇形面积的唯一必要前提。",
+      "questionIds": [
+        "cnm_257_q1",
+        "cnm_257_q2",
+        "cnm_257_q3",
+        "cnm_257_q4",
+        "cnm_257_q5",
+        "cnm_257_q6"
+      ],
+      "currentSnapshotSha256": "e043ad281a805cdd5fbde3af0e7c347716b628e53641273a735541a83247b363",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_258",
+      "name": "圆锥的侧面积与全面积",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "圆锥公式及参数正确，补实际展开图标注母线、底面周长与扇形半径/弧长并推出公式。",
+      "questionIds": [
+        "cnm_258_q1",
+        "cnm_258_q2",
+        "cnm_258_q3",
+        "cnm_258_q4",
+        "cnm_258_q5",
+        "cnm_258_q6"
+      ],
+      "currentSnapshotSha256": "1be8618aafaf816d255bcd6ad8df40fc5a0cfbd67c523b3f6ee75a2bdcc39987",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_259",
+      "name": "点与圆的位置关系",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "内外位置、整数范围和最远最近距离正确，保留。",
+      "questionIds": [
+        "cnm_259_q1",
+        "cnm_259_q2",
+        "cnm_259_q3",
+        "cnm_259_q4",
+        "cnm_259_q5"
+      ],
+      "currentSnapshotSha256": "cef83519d043b50a5d636e6ad38ee43d1902c94a88084a200a48a72fa74f66a5",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_260",
+      "name": "直线与圆的位置关系",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "距离半径三分及公共点数、坐标轴/整数参数均正确，保留。",
+      "questionIds": [
+        "cnm_260_q1",
+        "cnm_260_q2",
+        "cnm_260_q3",
+        "cnm_260_q4",
+        "cnm_260_q5"
+      ],
+      "currentSnapshotSha256": "9992bbc7db1da9d18bd97719e25f83d381f2e15446cf05ad1cfa733ab98a0f5c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_261",
+      "name": "切线的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "两类判切线方法选择正确，但缺独立证明过程，补连半径与无已知切点的作垂线两种任务。",
+      "questionIds": [
+        "cnm_261_q1",
+        "cnm_261_q2",
+        "cnm_261_q3",
+        "cnm_261_q4",
+        "cnm_261_q5",
+        "cnm_261_q6"
+      ],
+      "currentSnapshotSha256": "35cda36c9ed5b622fbb4c3ba5e89972c1761d3d23651c1bc91acef717a4f9c4e",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_262",
+      "name": "切线的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "切线垂直过切点半径、勾股及30度关系正确，保留；现图待视觉核对。",
+      "questionIds": [
+        "cnm_262_q1",
+        "cnm_262_q2",
+        "cnm_262_q3",
+        "cnm_262_q4",
+        "cnm_262_q5"
+      ],
+      "currentSnapshotSha256": "f581091b61ba7a9af21057dfaf44cdab78685afc0e557c914376db20cdefd0b0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_263",
+      "name": "切线长定理",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "两切线长度、角平分、圆心角和面积计算正确，保留。",
+      "questionIds": [
+        "cnm_263_q1",
+        "cnm_263_q2",
+        "cnm_263_q3",
+        "cnm_263_q4",
+        "cnm_263_q5"
+      ],
+      "currentSnapshotSha256": "268cd78d8e838c7a829dcbc2561b6e5d23ab5c421ef57b9225472a32f1a5beeb",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_264",
+      "name": "三角形的内切圆",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-circles.json",
+      "firstPassFinding": "直角三角形内切半径与切点长度计算正确；263边理由称等距必须切线长错误，半径垂直/角平分亦可，降soft并改理由；补r公式面积法解释。",
+      "questionIds": [
+        "cnm_264_q1",
+        "cnm_264_q2",
+        "cnm_264_q3",
+        "cnm_264_q4",
+        "cnm_264_q5",
+        "cnm_264_q6"
+      ],
+      "currentSnapshotSha256": "67f8224e59281cfd3b5b574d5328ef551b4bc80a8707fe0823a78c5602db9709",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_265",
+      "name": "三角形的外接圆",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "直角外心位置、半径及钝角外心、40度圆周角对应80度圆心角计算正确，保留。",
+      "questionIds": [
+        "cnm_265_q1",
+        "cnm_265_q2",
+        "cnm_265_q3",
+        "cnm_265_q4",
+        "cnm_265_q5"
+      ],
+      "currentSnapshotSha256": "054115b9b2250bbafa8695c0429d0d84f021070ac5cd9a5bf21285a2aaaaafc8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_266",
+      "name": "正多边形与圆",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "作正多边形描述无实际作图任务；补圆规六等分及半径/边心距标注。q3用后续cos60可改为30度直角三角形性质解释。",
+      "questionIds": [
+        "cnm_266_q1",
+        "cnm_266_q2",
+        "cnm_266_q3",
+        "cnm_266_q4",
+        "cnm_266_q5",
+        "cnm_266_q6"
+      ],
+      "currentSnapshotSha256": "4093624b472539e341185010e33735b3192f1c92a154e09a8529e099ae014fae",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_267",
+      "name": "综合与实践：生活中的优化问题",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "优化题值正确，补取值范围、整数方案和可行性验证的完整作品，q4需求线性只为给定假设。",
+      "questionIds": [
+        "cnm_267_q1",
+        "cnm_267_q2",
+        "cnm_267_q3",
+        "cnm_267_q4",
+        "cnm_267_q5",
+        "cnm_267_q6"
+      ],
+      "currentSnapshotSha256": "3438cc1cdb34b59c6d580197159d49f49b6edd5bfc4310340b5bed3f972e112a",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_268",
+      "name": "成比例线段",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "比例数值正确，线段默认正长度应明确；157分式运算不是小学比例变形的必要硬门槛，降soft。",
+      "questionIds": [
+        "cnm_268_q1",
+        "cnm_268_q2",
+        "cnm_268_q3",
+        "cnm_268_q4"
+      ],
+      "currentSnapshotSha256": "36d5255c64117de24bb21682cd98265e0c72570d8251fa22bdcc45eac5581382",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_269",
+      "name": "平行线分线段成比例",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "比例结果正确，D/E位置须在边内部避免端点分母0；补自画两截线对应关系。",
+      "questionIds": [
+        "cnm_269_q1",
+        "cnm_269_q2",
+        "cnm_269_q3",
+        "cnm_269_q4",
+        "cnm_269_q5"
+      ],
+      "currentSnapshotSha256": "b3aff12673a649dc6aee4361132517babfa4abe6cb055a8a409efea241dc9d91",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_270",
+      "name": "相似多边形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "相似多边形边角双条件、比例方向、角和和周长正确，保留。",
+      "questionIds": [
+        "cnm_270_q1",
+        "cnm_270_q2",
+        "cnm_270_q3",
+        "cnm_270_q4",
+        "cnm_270_q5"
+      ],
+      "currentSnapshotSha256": "872a65b61d5ba17c02a8930cd847b60ba239c0aa273c74441daa8770a6ab3e57",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_271",
+      "name": "相似三角形的判定",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "判定选择正确，但声称会证明无完整作品；补AA及两边比夹角区别的证明过程。",
+      "questionIds": [
+        "cnm_271_q1",
+        "cnm_271_q2",
+        "cnm_271_q3",
+        "cnm_271_q4",
+        "cnm_271_q5",
+        "cnm_271_q6"
+      ],
+      "currentSnapshotSha256": "370a5a1b50ba3796078cbad5d673c8602b612a300dc4926345f472e45df18c25",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_272",
+      "name": "相似三角形的性质",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "面积比平方、对应高及周长比例数值正确，保留。",
+      "questionIds": [
+        "cnm_272_q1",
+        "cnm_272_q2",
+        "cnm_272_q3",
+        "cnm_272_q4",
+        "cnm_272_q5"
+      ],
+      "currentSnapshotSha256": "7415c5b2b2c4e17967767af10ee421bdf22b2d60e122dfb0845bea5709813ab6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_273",
+      "name": "相似三角形的基本模型",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "A型/8字/高模型数值正确，q4辅助线比例正确但需本人构造证明；补自画辅助线任务，作为补充模型归纳而非课标独立硬门槛。",
+      "questionIds": [
+        "cnm_273_q1",
+        "cnm_273_q2",
+        "cnm_273_q3",
+        "cnm_273_q4",
+        "cnm_273_q5"
+      ],
+      "currentSnapshotSha256": "94dad30300a3439ac05bbc9bf01077e46e1dd6e90cdc23d91cf49f433acf2aee",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_274",
+      "name": "相似三角形的实际应用",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "高度比例正确，缺水平地面、竖直物体、太阳光平行等条件和测量方案证据；补含示意图的完整方案。",
+      "questionIds": [
+        "cnm_274_q1",
+        "cnm_274_q2",
+        "cnm_274_q3",
+        "cnm_274_q4",
+        "cnm_274_q5"
+      ],
+      "currentSnapshotSha256": "e0ad38b61ffeef7760851cdf04f8fc87b536236f3e8da2d299198df966453c65",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_275",
+      "name": "位似",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "定义忽略对应边共线、中心点固定及统一有向比例；q4“对应边不一定平行”在共线情形可真，改为明确错误选项；补实际作位似图。",
+      "questionIds": [
+        "cnm_275_q1",
+        "cnm_275_q2",
+        "cnm_275_q3",
+        "cnm_275_q4",
+        "cnm_275_q5",
+        "cnm_275_q6"
+      ],
+      "currentSnapshotSha256": "863119ba3a37e50e163d5a8138354fe546fb451625172004e882be98e557529c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_276",
+      "name": "锐角三角函数的定义",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "边比计算正确，只有角大小影响比值的标准需相似推理过程，补解释任务。",
+      "questionIds": [
+        "cnm_276_q1",
+        "cnm_276_q2",
+        "cnm_276_q3",
+        "cnm_276_q4",
+        "cnm_276_q5",
+        "cnm_276_q6"
+      ],
+      "currentSnapshotSha256": "b843320b77a9035b84a7ba96acd3565cb6976547084a4e9fc05a9d272a00f335",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_277",
+      "name": "特殊角的三角函数值与计算",
+      "domain": "数与代数",
+      "reviewRecord": "reviews/release-candidate/notes/algebra-functions-quadratics.json",
+      "firstPassFinding": "无计算器实际操作题，补角度制/弧度制辨析与一般锐角求值；现特殊角计算均正确。",
+      "questionIds": [
+        "cnm_277_q1",
+        "cnm_277_q2",
+        "cnm_277_q3",
+        "cnm_277_q4",
+        "cnm_277_q5",
+        "cnm_277_q6"
+      ],
+      "currentSnapshotSha256": "a95008e5477efad21eeff56bf1182f573eeffa8733d5ab7f0e47de126d9ae369",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_278",
+      "name": "解直角三角形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "现题多只求部分元素，补完整解三角形、选择三角函数并核验六元素任务。",
+      "questionIds": [
+        "cnm_278_q1",
+        "cnm_278_q2",
+        "cnm_278_q3",
+        "cnm_278_q4",
+        "cnm_278_q5",
+        "cnm_278_q6"
+      ],
+      "currentSnapshotSha256": "9549885317e953664379327b4eb6348da966208cd7d7ec1db8bba7ad8e688a83",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_279",
+      "name": "仰角、俯角与方向角问题",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "仰俯与方向数值正确，但缺本人标水平线与目高作图，补仰角俯角对应说明。",
+      "questionIds": [
+        "cnm_279_q1",
+        "cnm_279_q2",
+        "cnm_279_q3",
+        "cnm_279_q4",
+        "cnm_279_q5",
+        "cnm_279_q6"
+      ],
+      "currentSnapshotSha256": "3c17b3e50115b8920c60204a6c693d78ab76b2fc759174c61fe443010d0082dd",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_280",
+      "name": "坡度与坡角问题",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "坡度计算正确，坝底q5补两侧向外放坡条件；补坡面长与水平宽的区别作图。",
+      "questionIds": [
+        "cnm_280_q1",
+        "cnm_280_q2",
+        "cnm_280_q3",
+        "cnm_280_q4",
+        "cnm_280_q5",
+        "cnm_280_q6"
+      ],
+      "currentSnapshotSha256": "7092bd22ada5e81d0949923c050d06e29f4494013d97dbc42743f581cf6e9b85",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_281",
+      "name": "平行投影与中心投影",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "灯影数值正确，太阳近似平行说明合理；手电筒不可一概点光源，改理想点光源条件；补实际作投影线并求影长。",
+      "questionIds": [
+        "cnm_281_q1",
+        "cnm_281_q2",
+        "cnm_281_q3",
+        "cnm_281_q4",
+        "cnm_281_q5",
+        "cnm_281_q6"
+      ],
+      "currentSnapshotSha256": "83ec2aeb25871ae35c86a055d2de19dc2acdc741d668f8652eaa4e001dc0b030",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_282",
+      "name": "正投影",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "q1正投影也是平行投影，须问最具体名称避免两项均可；实际画投影标准缺证据，补平行/垂直于面两种作图，现计算正确。",
+      "questionIds": [
+        "cnm_282_q1",
+        "cnm_282_q2",
+        "cnm_282_q3",
+        "cnm_282_q4",
+        "cnm_282_q5",
+        "cnm_282_q6"
+      ],
+      "currentSnapshotSha256": "3bf4ab40ce95c9849570505da40d73860d5e9a15f08a379f8d35ac0bf07b6db6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_283",
+      "name": "三视图及由三视图想象立体图形",
+      "domain": "图形与几何",
+      "reviewRecord": "reviews/release-candidate/notes/geometry-final.json",
+      "firstPassFinding": "圆柱题未说明放置方向，补底面水平；正方体三视图需面与投影面平行。还原立体不能无条件唯一，补有歧义的两种搭法和实际三视图作品。",
+      "questionIds": [
+        "cnm_283_q1",
+        "cnm_283_q2",
+        "cnm_283_q3",
+        "cnm_283_q4",
+        "cnm_283_q5",
+        "cnm_283_q6"
+      ],
+      "currentSnapshotSha256": "084f80a8dc2b3a4241fcc96626c86ffd571d79c055c1faeab062d4df87838a08",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_284",
+      "name": "随机事件、必然事件与不可能事件",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留三类事件，当前为初中有限模型；不扩展连续概率的零概率事件。",
+      "questionIds": [
+        "cnm_284_q1",
+        "cnm_284_q2",
+        "cnm_284_q3",
+        "cnm_284_q4"
+      ],
+      "currentSnapshotSha256": "d8c968a07f1a7e854ad68327b5af2f259c48c59c30522c699f02a95a53656ea8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_285",
+      "name": "概率的意义与等可能事件的概率",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "改为等可能基本结果计数；补列举和解释任务，同步fallback。",
+      "questionIds": [
+        "cnm_285_q1",
+        "cnm_285_q2",
+        "cnm_285_q3",
+        "cnm_285_q4",
+        "cnm_285_q5",
+        "cnm_285_q6"
+      ],
+      "currentSnapshotSha256": "174e68dfaf8c8f27556e4cf33c456a1432da5826bcefe8ff304ece2370b26c5f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_286",
+      "name": "用列举法求概率",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留有限等可能列举；原四题数值可通过表达式核验。",
+      "questionIds": [
+        "cnm_286_q1",
+        "cnm_286_q2",
+        "cnm_286_q3",
+        "cnm_286_q4"
+      ],
+      "currentSnapshotSha256": "f57002b95b114bcad0697fdb2f24e5935cda5950cb0e02ad93029b494a52aea2",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_287",
+      "name": "用列表法与树状图求概率",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "补实际列表/树图任务，修正三步试验不能列表的绝对说法；明确独立投掷。",
+      "questionIds": [
+        "cnm_287_q1",
+        "cnm_287_q2",
+        "cnm_287_q3",
+        "cnm_287_q4",
+        "cnm_287_q5",
+        "cnm_287_q6"
+      ],
+      "currentSnapshotSha256": "e741e49965f27ae15fdb74810bdce4ea2e92e69a82ce5f24a710adfcf859358a",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_288",
+      "name": "用频率估计概率",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "限定相同条件，补波动和非单调收敛反例；与285整体硬关系降soft。",
+      "questionIds": [
+        "cnm_288_q1",
+        "cnm_288_q2",
+        "cnm_288_q3",
+        "cnm_288_q4",
+        "cnm_288_q5",
+        "cnm_288_q6"
+      ],
+      "currentSnapshotSha256": "c9093cc5ce6d5c9beaf775e40fdaec07a14e1120b2407de9f27e0053c6f8894d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_289",
+      "name": "概率的应用与游戏的公平性",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "公平比较限定相同收益损失规则，防止把胜率相等泛化为所有游戏公平。",
+      "questionIds": [
+        "cnm_289_q1",
+        "cnm_289_q2",
+        "cnm_289_q3",
+        "cnm_289_q4"
+      ],
+      "currentSnapshotSha256": "3a24b32e5f2888e0cd2d4f276ab487bbd2e26826343e083c40452461cb0ef40b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_290",
+      "name": "综合与实践：停车设计问题",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "原“车位深度”忽略实体矩形车宽分量，需明确现题是平行四边形标线模型；增矩形车位完整投影比较，保留教材活动内容未核实说明。",
+      "questionIds": [
+        "cnm_290_q1",
+        "cnm_290_q2",
+        "cnm_290_q3",
+        "cnm_290_q4",
+        "cnm_290_q5",
+        "cnm_290_q6"
+      ],
+      "currentSnapshotSha256": "76711f5d29bb2481773859cf14ec1e931e35d1508cf93f57414b1209b7a17c6c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_291",
+      "name": "综合与实践：建筑中的数学",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "比例换算正确，三视图只能在给定几何体候选中判断，不能唯一确定真实建筑；补自行比例绘图与三视图、模型限制。",
+      "questionIds": [
+        "cnm_291_q1",
+        "cnm_291_q2",
+        "cnm_291_q3",
+        "cnm_291_q4",
+        "cnm_291_q5",
+        "cnm_291_q6"
+      ],
+      "currentSnapshotSha256": "8c677e34770df9c36d4100ac36c9c68b0b237a2cf363e884918fe20fed9482e0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_292",
+      "name": "数据收集的方法：问卷调查、实验与查阅资料",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "修正种子数据必须亲自实验的表述，已有资料可作背景；问卷设计偏差题保留。",
+      "questionIds": [
+        "cnm_292_q1",
+        "cnm_292_q2",
+        "cnm_292_q3",
+        "cnm_292_q4"
+      ],
+      "currentSnapshotSha256": "6900deffb3027ac65da2d20c53976c503dca3f9dac5f99efa92ce4c262868e40",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_293",
+      "name": "数据的分类整理与划记法、统计表",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留划记和合计核对；不凭合计错误就改合计。现整数题分组无歧义。",
+      "questionIds": [
+        "cnm_293_q1",
+        "cnm_293_q2",
+        "cnm_293_q3",
+        "cnm_293_q4"
+      ],
+      "currentSnapshotSha256": "ff33523ccfea22feb0ae0e92c80c76756a47398ceefacb26be452e92180985c9",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_294",
+      "name": "条形图与折线图的绘制",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "补真实折线绘制及坐标单位评分，数值题不能代替绘图过程。",
+      "questionIds": [
+        "cnm_294_q1",
+        "cnm_294_q2",
+        "cnm_294_q3",
+        "cnm_294_q4",
+        "cnm_294_q5"
+      ],
+      "currentSnapshotSha256": "0083a249da0bc444b86176a350946bcb18cfa1d57253dea8642e372bf4f52479",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_295",
+      "name": "扇形图的绘制：百分比与圆心角的换算",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "补真实扇形绘制及角度合计判据，保留量角器操作要求。",
+      "questionIds": [
+        "cnm_295_q1",
+        "cnm_295_q2",
+        "cnm_295_q3",
+        "cnm_295_q4",
+        "cnm_295_q5"
+      ],
+      "currentSnapshotSha256": "37be6e38e36a16f76e875df4f224beca6989479b12428a8c795273bfa713ed56",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_296",
+      "name": "统计图的误导与偏差辨识",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留截断纵轴辨析；截断轴不是所有图形一律禁止，具体解释针对条形高度比较。",
+      "questionIds": [
+        "cnm_296_q1",
+        "cnm_296_q2",
+        "cnm_296_q3",
+        "cnm_296_q4"
+      ],
+      "currentSnapshotSha256": "06b14a6a9dc6c59377ef32afec3ae48284e27541162b93681797e7a808de4627",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_297",
+      "name": "频率（相对频数）的计算与意义",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "频率改为本批观测占比，声明分类互斥穷尽，不把样本比例当总体真实比例。",
+      "questionIds": [
+        "cnm_297_q1",
+        "cnm_297_q2",
+        "cnm_297_q3",
+        "cnm_297_q4"
+      ],
+      "currentSnapshotSha256": "6a2b12ab21bbb892cf16db229a0c10d0e5cd14dc62e2c5b08154b55c66a6b64c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_298",
+      "name": "简单随机抽样的实施（抽签法与随机数）",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "补实施任务、无放回和不保证每班入样；代表性辨析降soft，样本概念为hard。",
+      "questionIds": [
+        "cnm_298_q1",
+        "cnm_298_q2",
+        "cnm_298_q3",
+        "cnm_298_q4",
+        "cnm_298_q5",
+        "cnm_298_q6"
+      ],
+      "currentSnapshotSha256": "d8964cf60cae1d2fd8fa5dd59fe04dbb74f30297801bd75dfee6a1da0ebcbc0d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_299",
+      "name": "用样本百分比估计总体数量",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "标志重捕题补封闭等条件；比较抽样方法统一完整名单，保留估计措辞。",
+      "questionIds": [
+        "cnm_299_q1",
+        "cnm_299_q2",
+        "cnm_299_q3",
+        "cnm_299_q4"
+      ],
+      "currentSnapshotSha256": "b95e663315c841de2eb3eb71006e8245354bf72d1a1ac1547128722c3894552f",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_300",
+      "name": "统计活动的基本过程",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "补工具计算、缺失值处理、报告和反馈任务；追加SP.10映射，不以背步骤为实施证据。",
+      "questionIds": [
+        "cnm_300_q1",
+        "cnm_300_q2",
+        "cnm_300_q3",
+        "cnm_300_q4",
+        "cnm_300_q5",
+        "cnm_300_q6"
+      ],
+      "currentSnapshotSha256": "93a4f9752012f37743022e210cb22cb0058eb836805b60a65fc67aa4ac389f90",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_301",
+      "name": "频数分布直方图的读图与分析",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留同区间频数读图和比例；实际图形形式仍需扩充，现题主要给文字频数。",
+      "questionIds": [
+        "cnm_301_q1",
+        "cnm_301_q2",
+        "cnm_301_q3",
+        "cnm_301_q4"
+      ],
+      "currentSnapshotSha256": "ed8b898b4fac6cc7780cf92c0c4c8a0fdc71ec4ccc698cca61e38c104833a171",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_302",
+      "name": "用样本平均数估计总体平均数",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留样本均值估计，明确估计不等于总体确定值；题库比较抽样方式。",
+      "questionIds": [
+        "cnm_302_q1",
+        "cnm_302_q2",
+        "cnm_302_q3",
+        "cnm_302_q4",
+        "cnm_302_q5"
+      ],
+      "currentSnapshotSha256": "7258d46dd36326f1f919974da7d829745a54fe7735106d6b7b8162546487b798",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_303",
+      "name": "极端值对平均数与中位数的影响",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "中位数较稳健但并非删除极端值后不变，修正描述边界。",
+      "questionIds": [
+        "cnm_303_q1",
+        "cnm_303_q2",
+        "cnm_303_q3",
+        "cnm_303_q4",
+        "cnm_303_q5"
+      ],
+      "currentSnapshotSha256": "1dbf505e81bd3403db63c6eaee3369582cbd351a1b7ab2aeb7d4e225d5f7cd5b",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_304",
+      "name": "用方差比较两组数据的稳定性",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "比较同变量同单位，稳定不自动等于决策最优；保留数值计算。",
+      "questionIds": [
+        "cnm_304_q1",
+        "cnm_304_q2",
+        "cnm_304_q3",
+        "cnm_304_q4",
+        "cnm_304_q5"
+      ],
+      "currentSnapshotSha256": "c91be13d2ee9fde070e839c745b3bbb7a3549031e86d5e2747aa933856d67214",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_305",
+      "name": "箱线图的读取与比较",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "修复重复值人数题，补SVG读图和绘图任务，明确须端约定及离群点画法。",
+      "questionIds": [
+        "cnm_305_q1",
+        "cnm_305_q2",
+        "cnm_305_q3",
+        "cnm_305_q4",
+        "cnm_305_q5",
+        "cnm_305_q6",
+        "cnm_305_q7",
+        "cnm_305_q8"
+      ],
+      "currentSnapshotSha256": "c4dbe7f3aa4dbe78b110432b516dc536d3f00afa3a6ab02aa8f86b8a1adddd24",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_306",
+      "name": "用样本方差估计总体的稳定性",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "修改两处从样本直断总体的解析，保留估计与小样本限制。",
+      "questionIds": [
+        "cnm_306_q1",
+        "cnm_306_q2",
+        "cnm_306_q3",
+        "cnm_306_q4",
+        "cnm_306_q5"
+      ],
+      "currentSnapshotSha256": "fcbb5d7d1a21ab78caebea0302b723d466577f10d4174fd9012fc34e01e4368d",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_307",
+      "name": "事件发生可能性大小的比较与排序",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "补基本结果等可能条件及球的同质随机抽取条件。",
+      "questionIds": [
+        "cnm_307_q1",
+        "cnm_307_q2",
+        "cnm_307_q3",
+        "cnm_307_q4"
+      ],
+      "currentSnapshotSha256": "70d87eaeaad83eefd8ae6b075208b068ec43a168dabe9bef568a47b7d7ee67e1",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_308",
+      "name": "概率的取值范围与概率的性质",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留概率范围辨析；范围限本课程有限正概率基本结果模型。",
+      "questionIds": [
+        "cnm_308_q1",
+        "cnm_308_q2",
+        "cnm_308_q3",
+        "cnm_308_q4"
+      ],
+      "currentSnapshotSha256": "40669d65eec3ac704c90230e75386604f7e99e02ad3bb2c69af208d30a8f69fc",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_309",
+      "name": "等可能性与古典概型的判断",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "不均匀骰子不能直接套1/6，但也不能断言某面概率绝不为1/6；不增加反向hard环。",
+      "questionIds": [
+        "cnm_309_q1",
+        "cnm_309_q2",
+        "cnm_309_q3",
+        "cnm_309_q4"
+      ],
+      "currentSnapshotSha256": "157a332b073b5c3180e5c9de742f6ff5b96e249d10062d6be060b6823bec9765",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_310",
+      "name": "放回与不放回摸球问题的区分",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "明确球的同质和随机抽取；放回/不放回分别计数，原数值可核验。",
+      "questionIds": [
+        "cnm_310_q1",
+        "cnm_310_q2",
+        "cnm_310_q3",
+        "cnm_310_q4"
+      ],
+      "currentSnapshotSha256": "371e21a81b5c725b62c2870350fc0296e96863f7bae742924352abab1cf03afc",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_311",
+      "name": "三步及以上试验用树状图求概率",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "明确独立条件，保留三步树图应用；不因标题“以上”无限扩展题目复杂度。",
+      "questionIds": [
+        "cnm_311_q1",
+        "cnm_311_q2",
+        "cnm_311_q3",
+        "cnm_311_q4"
+      ],
+      "currentSnapshotSha256": "2307b919be9b2520803b4253e46351c241ac19b366caf0201295832c9f498c49",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_312",
+      "name": "用频率估计合格率、发芽率等实际概率",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留频率估计发芽/合格率；模型假设相同条件，外推数量仍为估计。",
+      "questionIds": [
+        "cnm_312_q1",
+        "cnm_312_q2",
+        "cnm_312_q3",
+        "cnm_312_q4"
+      ],
+      "currentSnapshotSha256": "9c088161c352497d1078a9c5d66ae5e78af93e2640430cfe16cbc0c11cd1cdb8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_313",
+      "name": "概率与统计图表综合问题",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留图表到概率的综合应用；目前多为文字给数，后续补真实图表变式。",
+      "questionIds": [
+        "cnm_313_q1",
+        "cnm_313_q2",
+        "cnm_313_q3",
+        "cnm_313_q4"
+      ],
+      "currentSnapshotSha256": "8e5073a7cc71ce3c089fa5e2140e08ceb2a3cefa795fd361f6a07a9b01e901d6",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_314",
+      "name": "对概率意义的常见误解辨析",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "保留赌徒谬误辨析，明确独立；概率意义不仅是会算比值。",
+      "questionIds": [
+        "cnm_314_q1",
+        "cnm_314_q2",
+        "cnm_314_q3",
+        "cnm_314_q4"
+      ],
+      "currentSnapshotSha256": "2245276995cf50c699630148af5f7a0f8816a22a02ecce6a75f9172c0b6707b8",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_315",
+      "name": "综合与实践：用随机试验检验游戏的公平性（补充课题）",
+      "domain": "综合与实践",
+      "reviewRecord": "reviews/release-candidate/notes/practice.json",
+      "firstPassFinding": "q1用有限频率接近即基本公平过度断言，q4增加试验频率必更近错误；补等可能/独立假设、分批记录和有限样本局限。保持补充课题范围。",
+      "questionIds": [
+        "cnm_315_q1",
+        "cnm_315_q2",
+        "cnm_315_q3",
+        "cnm_315_q4",
+        "cnm_315_q5"
+      ],
+      "currentSnapshotSha256": "0e4dca1781a82e043fec0d760ef549bbe547fbfefd7216a9289eddb1b011e10c",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_316",
+      "name": "按组内离差平方和比较分类方案",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "新增固定组数的组内平方和比较，3题含数值与约束解释；不引入聚类算法。",
+      "questionIds": [
+        "cnm_316_q1",
+        "cnm_316_q2",
+        "cnm_316_q3"
+      ],
+      "currentSnapshotSha256": "d4d4ddac7d0cec1be126b2a7d128d9f00109b85c606de4ce20d4544ebe89d3d0",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    },
+    {
+      "topicId": "cnm_317",
+      "name": "百分位数的意义",
+      "domain": "统计与概率",
+      "reviewRecord": "reviews/math-junior/batch-b/node-review.json",
+      "firstPassFinding": "新增百分位意义，3题区分位置/阈值/原始分数；高中算法不作为先修。",
+      "questionIds": [
+        "cnm_317_q1",
+        "cnm_317_q2",
+        "cnm_317_q3"
+      ],
+      "currentSnapshotSha256": "f59cdbea6059ea686fc191632e10b27705d250864b05ea57a3bc0b4c3b621853",
+      "status": "first-pass-reviewed",
+      "expertReviewed": false
+    }
+  ]
+}

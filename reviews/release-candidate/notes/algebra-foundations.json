@@ -1,0 +1,853 @@
+[
+  {
+    "topicId": "cnm_001",
+    "name": "正数与负数的概念",
+    "decision": "retain",
+    "finding": "正负数与0辨析已有四题；q4使用字母但给出正数条件，未见答案错误。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_001_q1",
+      "cnm_001_q2",
+      "cnm_001_q3",
+      "cnm_001_q4"
+    ],
+    "snapshotSha256": "15740a293934242877bcb92fa9277395c2bcd18db6335adb75b2b2580d8aad44",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "15740a293934242877bcb92fa9277395c2bcd18db6335adb75b2b2580d8aad44",
+    "postQuestionIds": [
+      "cnm_001_q1",
+      "cnm_001_q2",
+      "cnm_001_q3",
+      "cnm_001_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_002",
+    "name": "用正负数表示相反意义的量",
+    "decision": "retain",
+    "finding": "东/西、海拔、收支、变化量四情境明确正方向，保留；水位最终变化不等同绝对水位。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_002_q1",
+      "cnm_002_q2",
+      "cnm_002_q3",
+      "cnm_002_q4"
+    ],
+    "snapshotSha256": "4f4544e364429c088c1a703497e8dc5fd592163d733ce2b782c04f826eeb8357",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "4f4544e364429c088c1a703497e8dc5fd592163d733ce2b782c04f826eeb8357",
+    "postQuestionIds": [
+      "cnm_002_q1",
+      "cnm_002_q2",
+      "cnm_002_q3",
+      "cnm_002_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_003",
+    "name": "有理数的分类",
+    "decision": "revise",
+    "finding": "定义补正负有理数口径，q1加入量规；π非有理数的识别依赖后续无理数内容，q2改为本节点可直接判断的分类任务。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_003_q1",
+      "cnm_003_q2",
+      "cnm_003_q3",
+      "cnm_003_q4"
+    ],
+    "snapshotSha256": "d4f9efe198ce102807a9654c779050a6d5b4000b5cf8ad84f30268fb6c43b8a3",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "2e28c1cf128f02b779f38e8036309c5180961cac67b224d23c6d33c172ba9ad9",
+    "postQuestionIds": [
+      "cnm_003_q1",
+      "cnm_003_q2",
+      "cnm_003_q3",
+      "cnm_003_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_006",
+    "name": "相反数",
+    "decision": "revise",
+    "finding": "描述“位于原点两侧”不适用于0，补非零限定及0例外；q2解析的倒数/相反数逐项说清。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_006_q1",
+      "cnm_006_q2",
+      "cnm_006_q3",
+      "cnm_006_q4"
+    ],
+    "snapshotSha256": "b7d58bdd9fdf51c8b9ed620d9b258c946a04d35f2dafe683a14188396f7aaf91",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "c9088dea68ef70aa6eb8946aa67d96816a9f3ed0ec2d0409de8df7a0191ff17a",
+    "postQuestionIds": [
+      "cnm_006_q1",
+      "cnm_006_q2",
+      "cnm_006_q3",
+      "cnm_006_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_008",
+    "name": "绝对值的化简与计算",
+    "decision": "revise",
+    "finding": "现题覆盖绝对值正数与非正条件，但|x|=a缺a=0与a<0，补统一边界解释任务。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_008_q1",
+      "cnm_008_q2",
+      "cnm_008_q3",
+      "cnm_008_q4"
+    ],
+    "snapshotSha256": "927493074eefbd81129151e49261d7b60a58b07f4057114714f3fe47da830780",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "44503242e6cac68d5059209236a0e52b6a1f9252097dd07ab736b8f77b6fc703",
+    "postQuestionIds": [
+      "cnm_008_q1",
+      "cnm_008_q2",
+      "cnm_008_q3",
+      "cnm_008_q4",
+      "cnm_008_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_009",
+    "name": "有理数的大小比较",
+    "decision": "revise",
+    "finding": "现题无实际数轴作答，补数轴比较任务；绝对值法是一种比较方法，008不应单独硬依赖，需记录替代方法限制。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_009_q1",
+      "cnm_009_q2",
+      "cnm_009_q3",
+      "cnm_009_q4"
+    ],
+    "snapshotSha256": "777acd89474422ba49bef71ee39193ebdca1259e719ff0a56e440a9cc7e16fd7",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "80c3184dfacfff64d5742cfd898c3cdb5d3591185c10ec14244c6e134af75e90",
+    "postQuestionIds": [
+      "cnm_009_q1",
+      "cnm_009_q2",
+      "cnm_009_q3",
+      "cnm_009_q4",
+      "cnm_009_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_010",
+    "name": "有理数的加法法则",
+    "decision": "retain",
+    "finding": "同号、异号、分数及条件符号题完整可计算；法则解释证据有限，作为首轮保留及待教学抽查项。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_010_q1",
+      "cnm_010_q2",
+      "cnm_010_q3",
+      "cnm_010_q4"
+    ],
+    "snapshotSha256": "1d0763ae7c34656cdf887b6312e357962d4fad46137ad5600ca08c1c6141f68f",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "1d0763ae7c34656cdf887b6312e357962d4fad46137ad5600ca08c1c6141f68f",
+    "postQuestionIds": [
+      "cnm_010_q1",
+      "cnm_010_q2",
+      "cnm_010_q3",
+      "cnm_010_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_011",
+    "name": "加法运算律与简便运算",
+    "decision": "revise",
+    "finding": "最终数值不能证明用过运算律；增加展示重组并说明交换/结合依据任务。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_011_q1",
+      "cnm_011_q2",
+      "cnm_011_q3",
+      "cnm_011_q4"
+    ],
+    "snapshotSha256": "4899bab203928d8ed5ccda9e0d4211b1bb912b67dcded555d840298b8c398fbe",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "4d800691e9cbabf4a53eb3d610bf500d2fc2eccedb1a1361b569a311322ab8f2",
+    "postQuestionIds": [
+      "cnm_011_q1",
+      "cnm_011_q2",
+      "cnm_011_q3",
+      "cnm_011_q4",
+      "cnm_011_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_012",
+    "name": "有理数的减法法则",
+    "decision": "retain",
+    "finding": "改写选择题与整数/分数/温差计算一致，保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_012_q1",
+      "cnm_012_q2",
+      "cnm_012_q3",
+      "cnm_012_q4",
+      "cnm_012_q5"
+    ],
+    "snapshotSha256": "c4b99afd3ecbe5d45895dfe78820948584dac50d11d47710566eb96971e477d4",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "c4b99afd3ecbe5d45895dfe78820948584dac50d11d47710566eb96971e477d4",
+    "postQuestionIds": [
+      "cnm_012_q1",
+      "cnm_012_q2",
+      "cnm_012_q3",
+      "cnm_012_q4",
+      "cnm_012_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_013",
+    "name": "有理数的加减混合运算",
+    "decision": "retain",
+    "finding": "q3显式检查省略括号，其他题检查计算和连续整数分组；保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_013_q1",
+      "cnm_013_q2",
+      "cnm_013_q3",
+      "cnm_013_q4",
+      "cnm_013_q5"
+    ],
+    "snapshotSha256": "947c40a50575528a4d6104870569af0e3d039ec3a5e164101d47281bb66998dc",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "947c40a50575528a4d6104870569af0e3d039ec3a5e164101d47281bb66998dc",
+    "postQuestionIds": [
+      "cnm_013_q1",
+      "cnm_013_q2",
+      "cnm_013_q3",
+      "cnm_013_q4",
+      "cnm_013_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_014",
+    "name": "有理数的乘法法则",
+    "decision": "retain",
+    "finding": "正负零、分数与字母代入符号条件题均可支持核心运算；保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_014_q1",
+      "cnm_014_q2",
+      "cnm_014_q3",
+      "cnm_014_q4",
+      "cnm_014_q5"
+    ],
+    "snapshotSha256": "a695c77654d0083c431f68d618f183de604303c24ef4e408eb0900396f4500ff",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "a695c77654d0083c431f68d618f183de604303c24ef4e408eb0900396f4500ff",
+    "postQuestionIds": [
+      "cnm_014_q1",
+      "cnm_014_q2",
+      "cnm_014_q3",
+      "cnm_014_q4",
+      "cnm_014_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_015",
+    "name": "乘法运算律与多个因数相乘",
+    "decision": "revise",
+    "finding": "q1声称用分配律却只收数值，补过程题；零因数条件已在描述与q5正确限定。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_015_q1",
+      "cnm_015_q2",
+      "cnm_015_q3",
+      "cnm_015_q4",
+      "cnm_015_q5"
+    ],
+    "snapshotSha256": "1bfdcc56ceba5eb6f71f12dddb64aeaf172937658e1ae22796a9c5d336c806ad",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "3cf961c656ca386ec1013b9548dbf1f1a5b4dff4bc781eeb4607fcefba800541",
+    "postQuestionIds": [
+      "cnm_015_q1",
+      "cnm_015_q2",
+      "cnm_015_q3",
+      "cnm_015_q4",
+      "cnm_015_q5",
+      "cnm_015_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_016",
+    "name": "倒数",
+    "decision": "revise",
+    "finding": "0没有倒数只在解析里，没有原因解释任务，补用0乘任何数为0的论证。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_016_q1",
+      "cnm_016_q2",
+      "cnm_016_q3",
+      "cnm_016_q4",
+      "cnm_016_q5"
+    ],
+    "snapshotSha256": "b15cd422e4a14c2ac4c2af95315a1a9ae9e5a8e2510a92c2c10a9cfd2a1fa2a5",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "fd0f5deaf73653bd232615b05dd35de8bf9850ad0044d5455593ebb136895bb3",
+    "postQuestionIds": [
+      "cnm_016_q1",
+      "cnm_016_q2",
+      "cnm_016_q3",
+      "cnm_016_q4",
+      "cnm_016_q5",
+      "cnm_016_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_017",
+    "name": "有理数的除法",
+    "decision": "retain",
+    "finding": "分数除法、除零排除、零作被除数均有题；保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_017_q1",
+      "cnm_017_q2",
+      "cnm_017_q3",
+      "cnm_017_q4",
+      "cnm_017_q5"
+    ],
+    "snapshotSha256": "dd00cfe9c842cca1b7d352bdbb96a7b00d7fe4781c49d736f687efa84b6f9550",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "dd00cfe9c842cca1b7d352bdbb96a7b00d7fe4781c49d736f687efa84b6f9550",
+    "postQuestionIds": [
+      "cnm_017_q1",
+      "cnm_017_q2",
+      "cnm_017_q3",
+      "cnm_017_q4",
+      "cnm_017_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_019",
+    "name": "乘方的概念",
+    "decision": "revise",
+    "finding": "q1要求写含义却仅收相同的两个数值，不能辨析结构；补展开与偶次方对比任务，并限定连乘定义中n为正整数。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_019_q1",
+      "cnm_019_q2",
+      "cnm_019_q3",
+      "cnm_019_q4",
+      "cnm_019_q5"
+    ],
+    "snapshotSha256": "241f7b700f7c50b4c78bf6f86a08d23f347b8d61143351f36a21293e67fc8c88",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "4d9db56090a8dfea140ee59dec23e5b242cdb8b87bebb692beaffc82c927bc68",
+    "postQuestionIds": [
+      "cnm_019_q1",
+      "cnm_019_q2",
+      "cnm_019_q3",
+      "cnm_019_q4",
+      "cnm_019_q5",
+      "cnm_019_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_020",
+    "name": "乘方的运算与符号规律",
+    "decision": "retain",
+    "finding": "奇偶次、负分数、0及±1高次题正确；保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_020_q1",
+      "cnm_020_q2",
+      "cnm_020_q3",
+      "cnm_020_q4",
+      "cnm_020_q5"
+    ],
+    "snapshotSha256": "1473c6970b40b2dcc73f51c84dcc91fee99d31a16851ce648738d46f468bf64b",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "1473c6970b40b2dcc73f51c84dcc91fee99d31a16851ce648738d46f468bf64b",
+    "postQuestionIds": [
+      "cnm_020_q1",
+      "cnm_020_q2",
+      "cnm_020_q3",
+      "cnm_020_q4",
+      "cnm_020_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_021",
+    "name": "含乘方的有理数混合运算",
+    "decision": "retain",
+    "finding": "混合运算覆盖乘方负号、括号、分数等，运算顺序与答案核对一致；保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_021_q1",
+      "cnm_021_q2",
+      "cnm_021_q3",
+      "cnm_021_q4",
+      "cnm_021_q5"
+    ],
+    "snapshotSha256": "05647bdfb7507b8c0c091b1af2befc34f5e90143092ae02883368529f5f6580f",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "05647bdfb7507b8c0c091b1af2befc34f5e90143092ae02883368529f5f6580f",
+    "postQuestionIds": [
+      "cnm_021_q1",
+      "cnm_021_q2",
+      "cnm_021_q3",
+      "cnm_021_q4",
+      "cnm_021_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_025",
+    "name": "用字母表示数",
+    "decision": "retain",
+    "finding": "字母运算律表达、情境式子及非正取值辨析已有证据；情境取值限制在各应用点补，不强挂大小比较。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_025_q1",
+      "cnm_025_q2",
+      "cnm_025_q3",
+      "cnm_025_q4"
+    ],
+    "snapshotSha256": "e4b42183a5af7cc093b2e926f0cc76a8166a71e2b56a5bd8ad0bcbe5d341a3d9",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "e4b42183a5af7cc093b2e926f0cc76a8166a71e2b56a5bd8ad0bcbe5d341a3d9",
+    "postQuestionIds": [
+      "cnm_025_q1",
+      "cnm_025_q2",
+      "cnm_025_q3",
+      "cnm_025_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_026",
+    "name": "代数式的概念与书写规范",
+    "decision": "revise",
+    "finding": "描述应明确单独的数/字母也是代数式；认识书写规范不要求全部混合运算018，降该边为soft。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_026_q1",
+      "cnm_026_q2",
+      "cnm_026_q3",
+      "cnm_026_q4"
+    ],
+    "snapshotSha256": "db9a6145aa0e2ef5a0bd9965bb357102b08e39cfee5e6fb45228769bb715629c",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "f53f36121652c4c72583e569ebbb306938e9476a34f8834f5d146792aa613887",
+    "postQuestionIds": [
+      "cnm_026_q1",
+      "cnm_026_q2",
+      "cnm_026_q3",
+      "cnm_026_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_028",
+    "name": "解释代数式的实际意义",
+    "decision": "revise",
+    "finding": "开放题有真实解释任务，补量规与排空前时间范围，明确表达式适用条件。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_028_q1",
+      "cnm_028_q2",
+      "cnm_028_q3",
+      "cnm_028_q4"
+    ],
+    "snapshotSha256": "23dadd4911f8643eb23c18313d7f4e053b6169cbfe993d640929b02dccabf99f",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "02aa17598cd358698873f40ee6744a595363891ab15a95ba8feb8435444a2735",
+    "postQuestionIds": [
+      "cnm_028_q1",
+      "cnm_028_q2",
+      "cnm_028_q3",
+      "cnm_028_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_029",
+    "name": "代数式的值",
+    "decision": "retain",
+    "finding": "正负、分数代入及整体代入均有正确题目；保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_029_q1",
+      "cnm_029_q2",
+      "cnm_029_q3",
+      "cnm_029_q4"
+    ],
+    "snapshotSha256": "22fc9268e943f74b8f755a080ec0437d3b19c5c5edad5079af91a06c6fb416b1",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "22fc9268e943f74b8f755a080ec0437d3b19c5c5edad5079af91a06c6fb416b1",
+    "postQuestionIds": [
+      "cnm_029_q1",
+      "cnm_029_q2",
+      "cnm_029_q3",
+      "cnm_029_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_031",
+    "name": "单项式",
+    "decision": "revise",
+    "finding": "定义应说明单独数/字母、字母非负整数指数，现有题支持系数次数；补边界表述。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_031_q1",
+      "cnm_031_q2",
+      "cnm_031_q3",
+      "cnm_031_q4"
+    ],
+    "snapshotSha256": "4e4d7380883d7fbbefb339e9b05e9a66db600ad3c2cc8dced2dc39d86e3b7c71",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "99a3b84eb7e7bbd31d6bd2f00b7c3ea9b2c4989a96e2b84d7299d7bff68ac429",
+    "postQuestionIds": [
+      "cnm_031_q1",
+      "cnm_031_q2",
+      "cnm_031_q3",
+      "cnm_031_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_032",
+    "name": "多项式与整式",
+    "decision": "retain",
+    "finding": "项数次数、常数项带符号、非整式均有题；q4绝对值指数为综合项，答案±1一致。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_032_q1",
+      "cnm_032_q2",
+      "cnm_032_q3",
+      "cnm_032_q4"
+    ],
+    "snapshotSha256": "285a1b272c759d55fe43a937329a5cb61d3553dff0b53c5b2962491d3d748f15",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "285a1b272c759d55fe43a937329a5cb61d3553dff0b53c5b2962491d3d748f15",
+    "postQuestionIds": [
+      "cnm_032_q1",
+      "cnm_032_q2",
+      "cnm_032_q3",
+      "cnm_032_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_033",
+    "name": "同类项",
+    "decision": "retain",
+    "finding": "字母顺序、相同字母指数、常数同类项均有直接题目，保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_033_q1",
+      "cnm_033_q2",
+      "cnm_033_q3",
+      "cnm_033_q4"
+    ],
+    "snapshotSha256": "86858c4a6c1a2a2c9d2983262a3cd22c52405671fad419f79de95322174498b6",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "86858c4a6c1a2a2c9d2983262a3cd22c52405671fad419f79de95322174498b6",
+    "postQuestionIds": [
+      "cnm_033_q1",
+      "cnm_033_q2",
+      "cnm_033_q3",
+      "cnm_033_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_034",
+    "name": "合并同类项",
+    "decision": "revise",
+    "finding": "合并结果题不能证明理解分配律依据，补解释为什么系数相加而字母部分不变。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_034_q1",
+      "cnm_034_q2",
+      "cnm_034_q3",
+      "cnm_034_q4"
+    ],
+    "snapshotSha256": "5e05dff974f0907b58a2e033e11adf0fc5c729479080a40e5cf39aae9cbd8c89",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "8b4b4d6c1b4d78c18c854c61c0f79b04e1a4787a3ba194cd679a1bb90eb51ee0",
+    "postQuestionIds": [
+      "cnm_034_q1",
+      "cnm_034_q2",
+      "cnm_034_q3",
+      "cnm_034_q4",
+      "cnm_034_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_035",
+    "name": "去括号法则",
+    "decision": "retain",
+    "finding": "完整表达式短答与负号/倍数选择题支持去括号，保留；核心运算与分配律关联合理。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_035_q1",
+      "cnm_035_q2",
+      "cnm_035_q3",
+      "cnm_035_q4"
+    ],
+    "snapshotSha256": "d46525ca72c407d105454dc99a2d3027d033b36b400517bc6fbb3ade58174e63",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "d46525ca72c407d105454dc99a2d3027d033b36b400517bc6fbb3ade58174e63",
+    "postQuestionIds": [
+      "cnm_035_q1",
+      "cnm_035_q2",
+      "cnm_035_q3",
+      "cnm_035_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_036",
+    "name": "整式的加减",
+    "decision": "retain",
+    "finding": "含负括号的完整结果短答及复合整式相减支持核心运算；保留。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_036_q1",
+      "cnm_036_q2",
+      "cnm_036_q3",
+      "cnm_036_q4"
+    ],
+    "snapshotSha256": "49d9024a28399c64353a97fb563677ece45f05394b7351dc51c942b60f7fc184",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "49d9024a28399c64353a97fb563677ece45f05394b7351dc51c942b60f7fc184",
+    "postQuestionIds": [
+      "cnm_036_q1",
+      "cnm_036_q2",
+      "cnm_036_q3",
+      "cnm_036_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_037",
+    "name": "整式化简求值",
+    "decision": "revise",
+    "finding": "所有题只收最后值，不能确认先化简；补展示化简与负数代入的过程证据。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_037_q1",
+      "cnm_037_q2",
+      "cnm_037_q3",
+      "cnm_037_q4"
+    ],
+    "snapshotSha256": "90af3b0e465cb8352a9a41da9fa3dcb743802daf2c94e5a4a103d255c8e4759f",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "95cf37773c55df7b370ac0b883a2344c9fe2706852d3970f23d75ea608d59f28",
+    "postQuestionIds": [
+      "cnm_037_q1",
+      "cnm_037_q2",
+      "cnm_037_q3",
+      "cnm_037_q4",
+      "cnm_037_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_038",
+    "name": "整式加减的应用",
+    "decision": "revise",
+    "finding": "周长列式已有题，解释意义弱；补实际长度范围与化简意义任务。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_038_q1",
+      "cnm_038_q2",
+      "cnm_038_q3",
+      "cnm_038_q4"
+    ],
+    "snapshotSha256": "26cc37e685384bc2f0516b7419d021f56ad8dc578d7752ed54aecc2b13f87356",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "05c491e36bd99ab6eb599e1bf26f06e0be1907de7320e06a18e8f49658b4c095",
+    "postQuestionIds": [
+      "cnm_038_q1",
+      "cnm_038_q2",
+      "cnm_038_q3",
+      "cnm_038_q4",
+      "cnm_038_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_040",
+    "name": "等式的性质",
+    "decision": "revise",
+    "finding": "同乘0仍保持相等，但不能作为等价变形恢复原解；描述将同乘与同除条件混写，需区分等式成立和解集等价。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_040_q1",
+      "cnm_040_q2",
+      "cnm_040_q3",
+      "cnm_040_q4"
+    ],
+    "snapshotSha256": "2bbab06940c3482111b07ba25116639392aa987ab2bb688e28621dd1b61d368d",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "49aa37d2d5ecaab1713b63b5ede014c4a71576b5e7dfac11ef6aebb7c6aecb50",
+    "postQuestionIds": [
+      "cnm_040_q1",
+      "cnm_040_q2",
+      "cnm_040_q3",
+      "cnm_040_q4",
+      "cnm_040_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_041",
+    "name": "一元一次方程的概念",
+    "decision": "revise",
+    "finding": "标准式掌握标准漏a≠0；补描述与判据，现q4已直接检查该条件。",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_041_q1",
+      "cnm_041_q2",
+      "cnm_041_q3",
+      "cnm_041_q4"
+    ],
+    "snapshotSha256": "046344fdf03d127da0f54f58eb4df5502b931371d6814181e76c51a64b6a268b",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "953bc713d2344f78819e8adc2148366ab27f0df40b5d85a66f6a559e50464404",
+    "postQuestionIds": [
+      "cnm_041_q1",
+      "cnm_041_q2",
+      "cnm_041_q3",
+      "cnm_041_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/foundations.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

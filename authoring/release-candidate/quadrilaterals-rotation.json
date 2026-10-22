@@ -1,0 +1,935 @@
+{
+  "batch": "release-candidate-quadrilaterals-rotation",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_192",
+      "beforeHash": "6353bff00c4c60adbd13aeeae246cdbfc8fc15f2ebda072c9aa7c9fa0587b3f6",
+      "before": {
+        "id": "cnm_192",
+        "name": "四边形中的折叠与动点问题",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十一章 四边形 综合",
+        "type": "reasoning",
+        "description": "在矩形、菱形、正方形背景中处理折叠、动点，利用全等、勾股定理建立方程。",
+        "mastery_criteria": [
+          "能画出折叠前后的对应关系",
+          "能列方程求线段长"
+        ],
+        "diagnostic_question": {
+          "question": "矩形 ABCD 中 AB=5，AD=3，沿 AE 折叠使 B 落在 CD 边上的 F 点，求 CF。",
+          "answer": "AF=5，DF=4，CF=1"
+        },
+        "external": false,
+        "standards": []
+      },
+      "after": {
+        "id": "cnm_192",
+        "name": "四边形中的折叠与动点问题",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十一章 四边形 综合",
+        "type": "reasoning",
+        "description": "在矩形、菱形、正方形背景中处理折叠、动点，利用全等、勾股定理建立方程。 本节点是未单列课标条目的综合补充任务，不作为所有学生的默认核心诊断入口。",
+        "mastery_criteria": [
+          "能画出折叠前后的对应关系",
+          "能列方程求线段长"
+        ],
+        "diagnostic_question": {
+          "question": "矩形 ABCD 中 AB=5，AD=3，沿 AE 折叠使 B 落在 CD 边上的 F 点，求 CF。",
+          "answer": "AF=5，DF=4，CF=1"
+        },
+        "external": false,
+        "standards": [],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_245",
+      "beforeHash": "2903a58f68c9161178d2ca751ba6d96caaad4a2f9eec679320e2bb672ad14c0b",
+      "before": {
+        "id": "cnm_245",
+        "name": "旋转的性质",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十八章 旋转 28.1",
+        "type": "reasoning",
+        "description": "旋转前后图形全等，对应点到旋转中心的距离相等，对应点与旋转中心连线所成的角等于旋转角。",
+        "mastery_criteria": [
+          "能叙述性质",
+          "能用性质求线段与角"
+        ],
+        "diagnostic_question": {
+          "question": "旋转前后对应线段、对应角有何关系？",
+          "answer": "分别相等"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.64",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_245",
+        "name": "旋转的性质",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十八章 旋转 28.1",
+        "type": "reasoning",
+        "description": "旋转前后图形全等；对应点到中心距离相等，中心自身固定。对非中心点，其半径射线按指定方向转过同一角度；当旋转角大于180°或包含整周时，不能把它直接等同于两射线的较小夹角。",
+        "mastery_criteria": [
+          "能叙述性质",
+          "能用性质求线段与角"
+        ],
+        "diagnostic_question": {
+          "question": "旋转前后对应线段、对应角有何关系？",
+          "answer": "分别相等"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.64",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_247",
+      "beforeHash": "b6ca003536806b8fc2e47f2886f27c7fea3f48c8407c230c1dac5eae23fc12c5",
+      "before": {
+        "id": "cnm_247",
+        "name": "旋转变换在证明与计算中的应用",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十八章 旋转 28.1",
+        "type": "reasoning",
+        "description": "利用旋转构造全等三角形，解决正方形、等边三角形中的线段与角问题（“半角模型”等）。",
+        "mastery_criteria": [
+          "能识别旋转构型",
+          "能写出旋转构造的证明"
+        ],
+        "diagnostic_question": {
+          "question": "正方形 ABCD 中点 E、F 分别在 BC、CD 上，∠EAF=45°，如何证 EF=BE+DF？",
+          "answer": "把 △ADF 绕 A 旋转 90° 使 AD 与 AB 重合，证 △AEF≌△AEF′"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.64",
+            "confidence": "inferred",
+            "note": "旋转变换在证明与计算中的应用，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_247",
+        "name": "旋转变换在证明与计算中的应用",
+        "domain": "图形与几何",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十八章 旋转 28.1",
+        "type": "reasoning",
+        "description": "利用旋转构造全等三角形，解决正方形、等边三角形中的线段与角问题（“半角模型”等）。 本节点按题库教学难度列为补充构造证明，不表示课标禁止这些题。",
+        "mastery_criteria": [
+          "能识别旋转构型",
+          "能写出旋转构造的证明"
+        ],
+        "diagnostic_question": {
+          "question": "正方形 ABCD 中点 E、F 分别在 BC、CD 上，∠EAF=45°，如何证 EF=BE+DF？",
+          "answer": "把 △ADF 绕 A 旋转 90° 使 AD 与 AB 重合，证 △AEF≌△AEF′"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.64",
+            "confidence": "inferred",
+            "note": "旋转变换在证明与计算中的应用，课标未单列"
+          }
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_192_q1",
+      "beforeHash": "48302526e580e9e7b850e7f3aa1732bf1b1903d8eca2500d10a4af005f32376e",
+      "before": {
+        "id": "cnm_192_q1",
+        "topicId": "cnm_192",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "矩形 ABCD 中 AB=5，AD=3，沿 AE 折叠使 B 落在 CD 边上的 F 点，求 CF。（E 在 BC 上，只填 CF 的长）",
+        "answer": "1",
+        "explanation": "折叠后 AF=AB=5，Rt△ADF 中 DF=√(5²-3²)=4，所以 CF=CD-DF=5-4=1。",
+        "verify": "5-sqrt(5**2-3**2)",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 234 162\"><polygon points=\"36,28 206,28 206,130 36,130\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"none\"/><polygon points=\"36,28 206,28 206,130 36,130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"28\" x2=\"206\" y2=\"84.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"206\" y1=\"28\" x2=\"172\" y2=\"130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"172\" cy=\"130\" r=\"3.2\" fill=\"currentColor\"/><text x=\"121\" y=\"18\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">5</text><text x=\"24\" y=\"79\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"end\">3</text><text x=\"32\" y=\"20\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"end\">A</text><text x=\"212\" y=\"22\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"start\">B</text><text x=\"212\" y=\"134\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"start\">C</text><text x=\"32\" y=\"146\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"end\">D</text><text x=\"214\" y=\"84.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"start\">E</text><text x=\"172\" y=\"148\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">F</text></svg>"
+      },
+      "after": {
+        "id": "cnm_192_q1",
+        "topicId": "cnm_192",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "矩形 ABCD 中 AB=5，AD=3，沿 AE 折叠使 B 落在 CD 边上的 F 点，求 CF。（E 在 BC 上，只填 CF 的长）",
+        "answer": "1",
+        "explanation": "折叠后 AF=AB=5，Rt△ADF 中 DF=√(5²-3²)=4，所以 CF=CD-DF=5-4=1。",
+        "verify": "5-sqrt(5**2-3**2)",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 234 162\"><polygon points=\"36,28 206,28 206,130 36,130\" fill=\"currentColor\" fill-opacity=\"0.1\" stroke=\"none\"/><polygon points=\"36,28 206,28 206,130 36,130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"36\" y1=\"28\" x2=\"206\" y2=\"84.7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"206\" y1=\"28\" x2=\"172\" y2=\"130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"172\" cy=\"130\" r=\"3.2\" fill=\"currentColor\"/><text x=\"121\" y=\"18\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"middle\">5</text><text x=\"24\" y=\"79\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"16\" text-anchor=\"end\">3</text><text x=\"32\" y=\"20\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"end\">A</text><text x=\"212\" y=\"22\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"start\">B</text><text x=\"212\" y=\"134\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"start\">C</text><text x=\"32\" y=\"146\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"end\">D</text><text x=\"214\" y=\"84.7\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"start\">E</text><text x=\"172\" y=\"148\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"14\" text-anchor=\"middle\">F</text></svg>",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_192_q2",
+      "beforeHash": "73a73223d6539c772bbfdb6e538010c1fe9c3df082772118b948fa6edc406392",
+      "before": {
+        "id": "cnm_192_q2",
+        "topicId": "cnm_192",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "将矩形纸片 ABCD 沿 AE 折叠（E 在边 BC 上），点 B 落在点 F 处。若 ∠BAE=25°，求 ∠BEF 的度数。",
+        "answer": "130",
+        "explanation": "Rt△ABE 中 ∠AEB=65°，折叠后 ∠AEF=∠AEB=65°，所以 ∠BEF=130°。",
+        "verify": "2*(90-25)",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 252 202.8\"><polygon points=\"48,40 224,40 224,172 48,172\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"none\"/><polygon points=\"48,40 224,40 224,172 48,172\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"40\" x2=\"224\" y2=\"122.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"224\" y1=\"40\" x2=\"161.1\" y2=\"174.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"224\" y1=\"122.1\" x2=\"161.1\" y2=\"174.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"161.1\" cy=\"174.8\" r=\"3.2\" fill=\"currentColor\"/><path d=\"M 80 40 A 32 32 0 0 1 77 53.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"94.9\" y=\"55.6\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">25°</text><text x=\"44\" y=\"34\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">A</text><text x=\"230\" y=\"36\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">B</text><text x=\"230\" y=\"188\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">C</text><text x=\"42\" y=\"188\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">D</text><text x=\"232\" y=\"122.1\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">E</text><text x=\"169.1\" y=\"178.8\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">F</text></svg>"
+      },
+      "after": {
+        "id": "cnm_192_q2",
+        "topicId": "cnm_192",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "将矩形纸片 ABCD 沿 AE 折叠（E 在边 BC 上），点 B 落在点 F 处。若 ∠BAE=25°，求 ∠BEF 的度数。",
+        "answer": "130",
+        "explanation": "Rt△ABE 中 ∠AEB=65°，折叠后 ∠AEF=∠AEB=65°，所以 ∠BEF=130°。",
+        "verify": "2*(90-25)",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 252 202.8\"><polygon points=\"48,40 224,40 224,172 48,172\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"none\"/><polygon points=\"48,40 224,40 224,172 48,172\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"48\" y1=\"40\" x2=\"224\" y2=\"122.1\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"224\" y1=\"40\" x2=\"161.1\" y2=\"174.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-dasharray=\"7 5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><line x1=\"224\" y1=\"122.1\" x2=\"161.1\" y2=\"174.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"161.1\" cy=\"174.8\" r=\"3.2\" fill=\"currentColor\"/><path d=\"M 80 40 A 32 32 0 0 1 77 53.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"94.9\" y=\"55.6\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"middle\">25°</text><text x=\"44\" y=\"34\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">A</text><text x=\"230\" y=\"36\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">B</text><text x=\"230\" y=\"188\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">C</text><text x=\"42\" y=\"188\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"end\">D</text><text x=\"232\" y=\"122.1\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">E</text><text x=\"169.1\" y=\"195\" fill=\"currentColor\" font-family=\"Noto Sans CJK SC, Noto Sans SC, sans-serif\" font-weight=\"650\" font-size=\"15\" text-anchor=\"start\">F</text></svg>",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_192_q3",
+      "beforeHash": "8e77ad057aa729dcb6fc4376631b849abedd42e8f5adc3a1f3c90a4dbee4a170",
+      "before": {
+        "id": "cnm_192_q3",
+        "topicId": "cnm_192",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "矩形纸片 ABCD 中，AB=6，BC=8。折叠纸片使点 A 与点 C 重合，折痕交 BC 于点 E，求 CE 的长。（结果写成分数）",
+        "answer": "25/4",
+        "explanation": "折痕是 AC 的垂直平分线，EA=EC=x，Rt△ABE 中 6²+(8-x)²=x²，解得 x=25/4。",
+        "verify": "Fraction(6**2+8**2,2*8)"
+      },
+      "after": {
+        "id": "cnm_192_q3",
+        "topicId": "cnm_192",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "矩形纸片 ABCD 中，AB=6，BC=8。折叠纸片使点 A 与点 C 重合，折痕交 BC 于点 E，求 CE 的长。（结果写成分数）",
+        "answer": "25/4",
+        "explanation": "折痕是 AC 的垂直平分线，EA=EC=x，Rt△ABE 中 6²+(8-x)²=x²，解得 x=25/4。",
+        "verify": "Fraction(6**2+8**2,2*8)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_192_q4",
+      "beforeHash": "e5a13ea00e5bc3027403a1450f3365e7087aaae3e2acbe351b75999f588c8e49",
+      "before": {
+        "id": "cnm_192_q4",
+        "topicId": "cnm_192",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "矩形 ABCD 中，AB=6，BC=10。点 P 从 A 出发沿 AB 向 B 运动，速度每秒 1 个单位；点 Q 从 B 出发沿 BC 向 C 运动，速度每秒 2 个单位。两点同时出发，其中一点到达终点时停止。几秒时 △PBQ 的面积为 8？（多个答案用逗号隔开）",
+        "answer": "2，4",
+        "explanation": "t 秒时 PB=6-t，BQ=2t，面积 (6-t)×2t÷2=8，即 t²-6t+8=0，t=2 或 4，且 0≤t≤5，均符合。",
+        "verify": "roots2(1,-6,8)",
+        "unordered": true
+      },
+      "after": {
+        "id": "cnm_192_q4",
+        "topicId": "cnm_192",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "矩形 ABCD 中，AB=6，BC=10。点 P 从 A 出发沿 AB 向 B 运动，速度每秒 1 个单位；点 Q 从 B 出发沿 BC 向 C 运动，速度每秒 2 个单位。两点同时出发，其中一点到达终点时停止。几秒时 △PBQ 的面积为 8？（多个答案用逗号隔开）",
+        "answer": "2，4",
+        "explanation": "t 秒时 PB=6-t，BQ=2t，面积 (6-t)×2t÷2=8，即 t²-6t+8=0，t=2 或 4，且 0≤t≤5，均符合。",
+        "verify": "roots2(1,-6,8)",
+        "unordered": true,
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_244_q1",
+      "beforeHash": "f0614178e3ca7636a3f07e2ac7d1bdb35b2e1d0c0f40cbdc50a8785576223c1a",
+      "before": {
+        "id": "cnm_244_q1",
+        "topicId": "cnm_244",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "点 A 绕 O 顺时针旋转 90° 得 A′，OA 与 OA′ 有何关系？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "OA=OA′，且 ∠AOA′=180°"
+          },
+          {
+            "key": "B",
+            "text": "OA∥OA′，且 OA=OA′"
+          },
+          {
+            "key": "C",
+            "text": "OA=OA′，且 ∠AOA′=90°"
+          }
+        ],
+        "explanation": "旋转时对应点到旋转中心的距离相等，所以 OA=OA′；对应点与旋转中心的连线所成的角等于旋转角，所以 ∠AOA′=90°。"
+      },
+      "after": {
+        "id": "cnm_244_q1",
+        "topicId": "cnm_244",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "点 A 绕 O 顺时针旋转 90° 得 A′，OA 与 OA′ 有何关系？（A≠O。）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "OA=OA′，且 ∠AOA′=180°"
+          },
+          {
+            "key": "B",
+            "text": "OA∥OA′，且 OA=OA′"
+          },
+          {
+            "key": "C",
+            "text": "OA=OA′，且 ∠AOA′=90°"
+          }
+        ],
+        "explanation": "旋转时对应点到旋转中心的距离相等，所以 OA=OA′；对应点与旋转中心的连线所成的角等于旋转角，所以 ∠AOA′=90°。"
+      }
+    },
+    {
+      "id": "cnm_244_q4",
+      "beforeHash": "6622571a53fce5c570e9e0a42b067a51d29aed9586177049c55a83d52e5c0c1b",
+      "before": {
+        "id": "cnm_244_q4",
+        "topicId": "cnm_244",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 绕点 C 旋转得到 △A′B′C，点 A′ 恰好落在 AB 边上。已知 ∠A=70°，求旋转角 ∠ACA′ 的度数（单位：度）。",
+        "answer": "40",
+        "explanation": "旋转后 CA=CA′，所以 ∠CA′A=∠A=70°，在 △ACA′ 中 ∠ACA′=180°-70°-70°=40°。",
+        "verify": "180-2*70"
+      },
+      "after": {
+        "id": "cnm_244_q4",
+        "topicId": "cnm_244",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 绕点 C 旋转得到 △A′B′C，点 A′ 恰好落在 AB 边上。已知 ∠A=70°，求旋转角 ∠ACA′ 的度数（单位：度）。（A′位于线段AB内部且不同于A；所求为两射线的较小夹角。）",
+        "answer": "40",
+        "explanation": "旋转后 CA=CA′，所以 ∠CA′A=∠A=70°，在 △ACA′ 中 ∠ACA′=180°-70°-70°=40°。",
+        "verify": "180-2*70"
+      }
+    },
+    {
+      "id": "cnm_245_q1",
+      "beforeHash": "7f84a6a0b6a311fc3582c47bd0b1f89a0f57b5c2908ca67c671b73ddc6c638e6",
+      "before": {
+        "id": "cnm_245_q1",
+        "topicId": "cnm_245",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "旋转前后对应线段、对应角有何关系？",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "对应线段相等，对应角相等"
+          },
+          {
+            "key": "B",
+            "text": "对应线段成比例，对应角相等"
+          },
+          {
+            "key": "C",
+            "text": "对应线段相等，对应角互补"
+          }
+        ],
+        "explanation": "旋转前后的图形全等，所以对应线段分别相等，对应角分别相等。"
+      },
+      "after": {
+        "id": "cnm_245_q1",
+        "topicId": "cnm_245",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "旋转前后对应线段、对应角有何关系？",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "对应线段相等，对应角相等"
+          },
+          {
+            "key": "B",
+            "text": "对应线段的长度比例系数不为1，对应角相等"
+          },
+          {
+            "key": "C",
+            "text": "对应线段相等，对应角互补"
+          }
+        ],
+        "explanation": "旋转保持长度和角度，故A正确。长度相等也意味着比例为1，所以不能把笼统“成比例”作为错误选项；B明确说比例不为1才错误。"
+      }
+    },
+    {
+      "id": "cnm_245_q4",
+      "beforeHash": "045939b8597248608376f56de73aad0e4cd4ef8f5beeedf4a1a3e194d0ec8cf9",
+      "before": {
+        "id": "cnm_245_q4",
+        "topicId": "cnm_245",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 绕点 C 旋转得到 △A′B′C，点 A′ 恰好落在 AB 边上，且 ∠A=65°。求旋转角 ∠ACA′ 的度数（单位：度）。",
+        "answer": "50",
+        "explanation": "旋转后 CA′=CA，故 ∠CA′A=∠A=65°，所以 ∠ACA′=180°-2×65°=50°。",
+        "verify": "180-2*65"
+      },
+      "after": {
+        "id": "cnm_245_q4",
+        "topicId": "cnm_245",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 绕点 C 旋转得到 △A′B′C，点 A′ 恰好落在 AB 边上，且 ∠A=65°。求旋转角 ∠ACA′ 的度数（单位：度）。（A′位于线段AB内部且不同于A；所求为两射线的较小夹角。）",
+        "answer": "50",
+        "explanation": "旋转后 CA′=CA，故 ∠CA′A=∠A=65°，所以 ∠ACA′=180°-2×65°=50°。",
+        "verify": "180-2*65"
+      }
+    },
+    {
+      "id": "cnm_247_q1",
+      "beforeHash": "d2b08a2b3e8c7b244e88e1d9578f1480a42cecc166eb3bfd1116db776a132e17",
+      "before": {
+        "id": "cnm_247_q1",
+        "topicId": "cnm_247",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "正方形 ABCD 中点 E、F 分别在 BC、CD 上，∠EAF=45°，如何证 EF=BE+DF？",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "过 A 作 EF 的垂线，证 △ABE≌△ADF"
+          },
+          {
+            "key": "B",
+            "text": "把 △ADF 绕 A 旋转 90° 使 AD 与 AB 重合，证 △AEF≌△AEF′"
+          },
+          {
+            "key": "C",
+            "text": "连接 AC、BD，证 AC⊥BD"
+          }
+        ],
+        "explanation": "半角模型：把 △ADF 绕 A 旋转 90° 得 △ABF′，则 F′、B、E 共线，再由 ∠EAF′=45°=∠EAF 及 AF=AF′ 得 △AEF≌△AEF′，所以 EF=EF′=BE+DF。"
+      },
+      "after": {
+        "id": "cnm_247_q1",
+        "topicId": "cnm_247",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "正方形 ABCD 中点 E、F 分别在 BC、CD 上，∠EAF=45°，如何证 EF=BE+DF？",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "过 A 作 EF 的垂线，证 △ABE≌△ADF"
+          },
+          {
+            "key": "B",
+            "text": "把 △ADF 绕 A 旋转 90° 使 AD 与 AB 重合，证 △AEF≌△AEF′"
+          },
+          {
+            "key": "C",
+            "text": "连接 AC、BD，证 AC⊥BD"
+          }
+        ],
+        "explanation": "半角模型：把 △ADF 绕 A 旋转 90° 得 △ABF′，则 F′、B、E 共线，再由 ∠EAF′=45°=∠EAF 及 AF=AF′ 得 △AEF≌△AEF′，所以 EF=EF′=BE+DF。",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_247_q2",
+      "beforeHash": "b6ba216fb5eaa29fe3de0c3ac9b9ca0f45d223a14244f4a0b1802f20a4d1db60",
+      "before": {
+        "id": "cnm_247_q2",
+        "topicId": "cnm_247",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "正方形 ABCD 中，把 △ADF 绕点 A 旋转 90°，使 AD 与 AB 重合，点 F 的对应点为 F′。若 DF=3，求 BF′ 的长。",
+        "answer": "3",
+        "explanation": "旋转前后对应线段相等，BF′=DF=3。",
+        "verify": "3"
+      },
+      "after": {
+        "id": "cnm_247_q2",
+        "topicId": "cnm_247",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "正方形 ABCD 中，把 △ADF 绕点 A 旋转 90°，使 AD 与 AB 重合，点 F 的对应点为 F′。若 DF=3，求 BF′ 的长。",
+        "answer": "3",
+        "explanation": "旋转前后对应线段相等，BF′=DF=3。",
+        "verify": "3",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_247_q3",
+      "beforeHash": "5ac9d6a7047490d00789137d250750e3367141c8aa9ca98f9b2d5b33f5ab1211",
+      "before": {
+        "id": "cnm_247_q3",
+        "topicId": "cnm_247",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "正方形 ABCD 边长为 6，点 E、F 分别在 BC、CD 上，∠EAF=45°，BE=2，DF=3，求 EF 的长。",
+        "answer": "5",
+        "explanation": "由半角模型 EF=BE+DF=2+3=5。验证：CE=4，CF=3，EF=√(4^2+3^2)=5。",
+        "verify": "sqrt((6-2)**2+(6-3)**2)"
+      },
+      "after": {
+        "id": "cnm_247_q3",
+        "topicId": "cnm_247",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "正方形 ABCD 边长为 6，点 E、F 分别在 BC、CD 上，∠EAF=45°，BE=2，DF=3，求 EF 的长。",
+        "answer": "5",
+        "explanation": "由半角模型 EF=BE+DF=2+3=5。验证：CE=4，CF=3，EF=√(4^2+3^2)=5。",
+        "verify": "sqrt((6-2)**2+(6-3)**2)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_247_q4",
+      "beforeHash": "7add1c0ad842e2751c64d72905fbd9b706735a0a272d481db5d3eae1a1bd7ead",
+      "before": {
+        "id": "cnm_247_q4",
+        "topicId": "cnm_247",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "等边三角形 ABC 内有一点 P，PA=3，PB=4，PC=5，求 ∠APB 的度数（单位：度）。",
+        "answer": "150",
+        "explanation": "把 △BPC 绕点 B 旋转 60° 使 BC 与 BA 重合，得 △BP′A，则 BP′=BP=4，∠PBP′=60°，△BPP′ 为等边三角形，PP′=4。在 △APP′ 中 3^2+4^2=5^2，∠APP′=90°，所以 ∠APB=90°+60°=150°。",
+        "verify": "90+60"
+      },
+      "after": {
+        "id": "cnm_247_q4",
+        "topicId": "cnm_247",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "等边三角形 ABC 内有一点 P，PA=3，PB=4，PC=5，求 ∠APB 的度数（单位：度）。",
+        "answer": "150",
+        "explanation": "把 △BPC 绕点 B 旋转 60° 使 BC 与 BA 重合，得 △BP′A，则 BP′=BP=4，∠PBP′=60°，△BPP′ 为等边三角形，PP′=4。在 △APP′ 中 3^2+4^2=5^2，∠APP′=90°，所以 ∠APB=90°+60°=150°。",
+        "verify": "90+60",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_183_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_183_q6",
+        "topicId": "cnm_183",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画平行四边形ABCD，两对边平行是已知。连接AC、BD交于O，先用全等证明AB=CD，再证明OA=OC、OB=OD。",
+        "answer": "由平行线得∠BAC=∠DCA、∠BCA=∠DAC，AC公共，△ABC≌△CDA（ASA），故AB=CD。再由两组内错角∠BAO=∠DCO、∠ABO=∠CDO及AB=CD，△AOB≌△COD（ASA），得OA=OC、OB=OD。",
+        "explanation": "由平行线得∠BAC=∠DCA、∠BCA=∠DAC，AC公共，△ABC≌△CDA（ASA），故AB=CD。再由两组内错角∠BAO=∠DCO、∠ABO=∠CDO及AB=CD，△AOB≌△COD（ASA），得OA=OC、OB=OD。",
+        "rubric": [
+          "实际画对角线并定位O",
+          "先从定义证明对边相等，不循环引用待证性质",
+          "第二组ASA边角对应正确",
+          "得到两条对角线都被平分"
+        ]
+      }
+    },
+    {
+      "id": "cnm_184_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_184_q6",
+        "topicId": "cnm_184",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在凸四边形ABCD中AB∥CD且AB=CD，连接AC，证明它是平行四边形。若把AB=CD换成AD=BC，是否仍必然成立？",
+        "answer": "∠BAC=∠DCA，AB=CD且AC公共，△BAC≌△DCA（SAS）；得∠BCA=∠DAC，从而BC∥AD，与AB∥CD合得平行四边形。换成AD=BC不充分，非平行四边形的等腰梯形可作反例。",
+        "explanation": "∠BAC=∠DCA，AB=CD且AC公共，△BAC≌△DCA（SAS）；得∠BCA=∠DAC，从而BC∥AD，与AB∥CD合得平行四边形。换成AD=BC不充分，非平行四边形的等腰梯形可作反例。",
+        "rubric": [
+          "列SAS三条件",
+          "从对应角用判定得到另一组平行",
+          "结合定义完成结论",
+          "给出满足替代条件但不满足结论的等腰梯形"
+        ]
+      }
+    },
+    {
+      "id": "cnm_185_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_185_q5",
+        "topicId": "cnm_185",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "△ABC中D、E分别是AB、AC中点。延长DE到F使EF=DE，连接CF、BF。画图并证明DE∥BC且DE=BC/2。",
+        "answer": "AE=CE、DE=FE，∠AED=∠CEF，△AED≌△CEF（SAS），故AD=CF且AD∥CF。由AD=DB且A、D、B共线，DB=CF且DB∥CF，四边形DBCF为平行四边形，所以DF∥BC且DF=BC。DF=2DE，得结论。",
+        "explanation": "AE=CE、DE=FE，∠AED=∠CEF，△AED≌△CEF（SAS），故AD=CF且AD∥CF。由AD=DB且A、D、B共线，DB=CF且DB∥CF，四边形DBCF为平行四边形，所以DF∥BC且DF=BC。DF=2DE，得结论。",
+        "rubric": [
+          "正确延长与连接构造",
+          "SAS及对应边平行推理正确",
+          "用一组对边平行且相等判DBCF",
+          "最后用DF=2DE得到两结论"
+        ]
+      }
+    },
+    {
+      "id": "cnm_187_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_187_q5",
+        "topicId": "cnm_187",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "Rt△ABC中∠C=90°，D为AB中点。延长CD至E使DE=CD，连接AE、BE，证明CD=AB/2。",
+        "answer": "四边形ACBE的对角线AB、CE互相平分，故为平行四边形；∠ACB=90°，故为矩形。矩形对角线相等，CE=AB，CD=CE/2=AB/2。",
+        "explanation": "四边形ACBE的对角线AB、CE互相平分，故为平行四边形；∠ACB=90°，故为矩形。矩形对角线相等，CE=AB，CD=CE/2=AB/2。",
+        "rubric": [
+          "画正确的ACBE顺序与对角线",
+          "用互相平分判平行四边形",
+          "用一个直角判矩形",
+          "用对角线相等得到结论"
+        ]
+      }
+    },
+    {
+      "id": "cnm_188_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_188_q5",
+        "topicId": "cnm_188",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "已知平行四边形ABCD的对角线AC=BD。用SSS证明两个相邻角相等，再证明四边形为矩形。",
+        "answer": "△ABC与△BAD中AB公共、BC=AD（平行四边形对边相等）、AC=BD，SSS全等；所以∠ABC=∠BAD。邻角互补，故两角都90°，平行四边形为矩形。",
+        "explanation": "△ABC与△BAD中AB公共、BC=AD（平行四边形对边相等）、AC=BD，SSS全等；所以∠ABC=∠BAD。邻角互补，故两角都90°，平行四边形为矩形。",
+        "rubric": [
+          "三组边准确对应",
+          "推出相邻角相等",
+          "结合互补得到直角",
+          "不直接把对角线相等当作已证明的结论重复陈述"
+        ]
+      }
+    },
+    {
+      "id": "cnm_190_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_190_q6",
+        "topicId": "cnm_190",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "平行四边形ABCD的对角线AC、BD交于O且互相垂直。证明它为菱形，并说明如果没有平行四边形前提，结论为何不一定成立。",
+        "answer": "OA=OC，OB公共且∠AOB=∠COB=90°，△AOB≌△COB（SAS），故AB=CB。平行四边形有一组邻边相等，四边都相等，为菱形。缺前提时对角线垂直未必互相平分，可有非菱形风筝形反例。",
+        "explanation": "OA=OC，OB公共且∠AOB=∠COB=90°，△AOB≌△COB（SAS），故AB=CB。平行四边形有一组邻边相等，四边都相等，为菱形。缺前提时对角线垂直未必互相平分，可有非菱形风筝形反例。",
+        "rubric": [
+          "使用平行四边形互相平分性质",
+          "SAS得邻边相等",
+          "结合对边相等得四边相等",
+          "解释反例缺少互相平分"
+        ]
+      }
+    },
+    {
+      "id": "cnm_191_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_191_q6",
+        "topicId": "cnm_191",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画出平行四边形、矩形、菱形、正方形的包含关系图，说明矩形与菱形的交集；分别给出矩形不是正方形、菱形不是正方形的例子。",
+        "answer": "矩形与菱形都包含于平行四边形，它们的交集是正方形；2×3矩形不是正方形；边长2且有60°内角的菱形不是正方形。正方形同时继承两类性质。",
+        "explanation": "矩形与菱形都包含于平行四边形，它们的交集是正方形；2×3矩形不是正方形；边长2且有60°内角的菱形不是正方形。正方形同时继承两类性质。",
+        "rubric": [
+          "实际绘出包含与交集关系",
+          "不把矩形和菱形误画成包含关系",
+          "两个反例满足其类别且不满足正方形"
+        ]
+      }
+    },
+    {
+      "id": "cnm_192_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_192_q5",
+        "topicId": "cnm_192",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在矩形纸片ABCD中AB=6、BC=8，折叠使A与C重合，折痕与BC交于E。自画折叠示意，标等距关系，设CE=x列式求解，并检验E在线段BC上。",
+        "answer": "E在折痕上，EA=EC=x，BE=8−x；△ABE为直角三角形，36+(8−x)²=x²，得x=25/4。0<25/4<8，E在线段BC上，符合条件。",
+        "explanation": "E在折痕上，EA=EC=x，BE=8−x；△ABE为直角三角形，36+(8−x)²=x²，得x=25/4。0<25/4<8，E在线段BC上，符合条件。",
+        "rubric": [
+          "画折痕和A、C对应",
+          "依据轴对称得EA=EC",
+          "列勾股方程并解25/4",
+          "检查0<x<8而不忽略图形范围"
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_239_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_239_q5",
+        "topicId": "cnm_239",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在坐标纸上取反比例函数y=−6/x的一点P(−2,3)，向两轴作垂线形成矩形。标边长求面积，再设任一点P(a,b)说明为何面积是|k|而不是k。",
+        "answer": "边长2、3，面积6；一般边长为|a|、|b|，面积|a||b|=|ab|=|k|。直角三角形POA面积为|k|/2。坐标可负，几何长度和面积不可负。",
+        "explanation": "边长2、3，面积6；一般边长为|a|、|b|，面积|a||b|=|ab|=|k|。直角三角形POA面积为|k|/2。坐标可负，几何长度和面积不可负。",
+        "rubric": [
+          "实际画第二象限点与垂线",
+          "标绝对值边长并得面积6",
+          "用ab=k推一般式",
+          "说明三角形面积的一半关系"
+        ]
+      }
+    },
+    {
+      "id": "cnm_244_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_244_q5",
+        "topicId": "cnm_244",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画点O及其右方点A，分别画A绕O逆时针90°和270°后的点。解释两次较小夹角为何都为90°，却不是同一次旋转；O自身怎样变化？",
+        "answer": "90°像在O上方，270°像在O下方，距离均等于OA。较小夹角不记录转动方向和超过180°的转动量；两次指定旋转不同。O固定，不能把OO看成确定方向的射线。",
+        "explanation": "90°像在O上方，270°像在O下方，距离均等于OA。较小夹角不记录转动方向和超过180°的转动量；两次指定旋转不同。O固定，不能把OO看成确定方向的射线。",
+        "rubric": [
+          "实际画两个不同方向的像",
+          "保持半径长度",
+          "区分有方向旋转角与较小夹角",
+          "明确中心固定"
+        ]
+      }
+    },
+    {
+      "id": "cnm_246_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_246_q5",
+        "topicId": "cnm_246",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画△ABC，绕顶点C逆时针旋转90°。实际作出A′、B′并连接像，保留两条半径转角和等距标记；再说明C′在哪里。可用量角器、三角尺或方格。",
+        "answer": "从CA、CB分别逆时针转90°得到新射线，截CA′=CA、CB′=CB，连接A′B′C；C′=C。必须两点使用同方向、同角度，不能只画等距而忽略转角。",
+        "explanation": "从CA、CB分别逆时针转90°得到新射线，截CA′=CA、CB′=CB，连接A′B′C；C′=C。必须两点使用同方向、同角度，不能只画等距而忽略转角。",
+        "rubric": [
+          "实际交付原图和像",
+          "两条半径转角均逆时针90°",
+          "两距离保持并正确连接",
+          "中心顶点固定"
+        ]
+      }
+    },
+    {
+      "id": "cnm_247_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_247_q5",
+        "topicId": "cnm_247",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画正方形ABCD，A左下、B右下、C右上、D左上，E、F分别在BC、CD内部且∠EAF=45°。将△ADF绕A顺时针旋转90°得△ABF′。标出F′的位置并证明EF=BE+DF。",
+        "answer": "F′在直线BC上、位于B下方，BF′=DF且AF′=AF。设∠BAE=α、∠DAF=β，则α+β=45°；旋转后∠BAF′=β，故∠EAF′=45°。AE公共，由SAS得△AEF≌△AEF′，EF=EF′=EB+BF′=BE+DF。",
+        "explanation": "F′在直线BC上、位于B下方，BF′=DF且AF′=AF。设∠BAE=α、∠DAF=β，则α+β=45°；旋转后∠BAF′=β，故∠EAF′=45°。AE公共，由SAS得△AEF≌△AEF′，EF=EF′=EB+BF′=BE+DF。",
+        "rubric": [
+          "实际画F′在B外侧而非在线段BE内",
+          "从正方形直角分解得α+β=45°",
+          "两边和夹角SAS对应准确",
+          "利用共线顺序作长度相加"
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_248_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_248_q5",
+        "topicId": "cnm_248",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "自画一个一般平行四边形，标出你认为的对称中心O，用180°旋转的对应点关系核验；再画一个非等边的不等边三角形及它关于O的像，说明原三角形是否因此成为中心对称图形。",
+        "answer": "平行四边形两对角线交点O分别是AC、BD中点，180°使A↔C、B↔D，故自身重合。三角形与其像成中心对称关系，不代表原三角形绕O后与自身重合。",
+        "explanation": "平行四边形两对角线交点O分别是AC、BD中点，180°使A↔C、B↔D，故自身重合。三角形与其像成中心对称关系，不代表原三角形绕O后与自身重合。",
+        "rubric": [
+          "实际标中心及两对中点对应",
+          "用180°核验而不混用轴对称",
+          "画三角形与其像",
+          "区分两图关系和单图自身性质"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_183",
+      "beforeHash": "0fe1622ae8935888618a647f3bbd37220807d678718e21416d5a0d72036dd270",
+      "before": [
+        {
+          "topicId": "cnm_183",
+          "prerequisiteId": "cnm_180",
+          "strength": "hard",
+          "reason": "平行四边形是特殊的四边形，需要先理解多边形和对角线的基本概念"
+        },
+        {
+          "topicId": "cnm_183",
+          "prerequisiteId": "cnm_126",
+          "strength": "hard",
+          "reason": "平行四边形性质的证明要用全等三角形，需要先会综合运用全等判定"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_183",
+          "prerequisiteId": "cnm_180",
+          "strength": "hard",
+          "reason": "平行四边形是特殊的四边形，需要先理解多边形和对角线的基本概念"
+        },
+        {
+          "topicId": "cnm_183",
+          "prerequisiteId": "cnm_126",
+          "strength": "soft",
+          "reason": "可用特定ASA判定证明性质，不要求预先熟练全部综合全等方法。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_184",
+      "beforeHash": "42e1f43349daae1628593a00ad94aac5d7f59b5456fb952049ad7cbc20e9663c",
+      "before": [
+        {
+          "topicId": "cnm_184",
+          "prerequisiteId": "cnm_183",
+          "strength": "hard",
+          "reason": "平行四边形的判定与其性质互为逆命题，需要先掌握平行四边形的性质"
+        },
+        {
+          "topicId": "cnm_184",
+          "prerequisiteId": "cnm_068",
+          "strength": "hard",
+          "reason": "平行四边形判定的证明要用到平行线的判定，需要先掌握平行线的判定"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_184",
+          "prerequisiteId": "cnm_183",
+          "strength": "soft",
+          "reason": "性质可与判定对照；具体判定可用全等与平行线独立证明，不能仅因互为逆命题就设为统一硬门槛。"
+        },
+        {
+          "topicId": "cnm_184",
+          "prerequisiteId": "cnm_068",
+          "strength": "hard",
+          "reason": "平行四边形判定的证明要用到平行线的判定，需要先掌握平行线的判定"
+        }
+      ]
+    },
+    {
+      "id": "cnm_192",
+      "beforeHash": "85f333eb4d45c97eceb164accc38f9ec99e62d30b14d4c509ef4151718e70d11",
+      "before": [
+        {
+          "topicId": "cnm_192",
+          "prerequisiteId": "cnm_191",
+          "strength": "hard",
+          "reason": "需要特殊四边形的性质"
+        },
+        {
+          "topicId": "cnm_192",
+          "prerequisiteId": "cnm_176",
+          "strength": "hard",
+          "reason": "常用勾股定理列方程"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_192",
+          "prerequisiteId": "cnm_191",
+          "strength": "soft",
+          "reason": "折叠任务按具体矩形/菱形背景选性质，不要求先掌握全部正方形判定。"
+        },
+        {
+          "topicId": "cnm_192",
+          "prerequisiteId": "cnm_176",
+          "strength": "hard",
+          "reason": "常用勾股定理列方程"
+        }
+      ]
+    },
+    {
+      "id": "cnm_246",
+      "beforeHash": "aca47bfe494fcc56964b03300aeff6c2389a9dd508ece33a4f621e26498d8507",
+      "before": [
+        {
+          "topicId": "cnm_246",
+          "prerequisiteId": "cnm_245",
+          "strength": "hard",
+          "reason": "旋转作图依据旋转的性质确定对应点，需要先掌握旋转的性质"
+        },
+        {
+          "topicId": "cnm_246",
+          "prerequisiteId": "cnm_127",
+          "strength": "hard",
+          "reason": "旋转作图要作出指定大小的旋转角，需要会作等角"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_246",
+          "prerequisiteId": "cnm_245",
+          "strength": "hard",
+          "reason": "旋转作图依据旋转的性质确定对应点，需要先掌握旋转的性质"
+        },
+        {
+          "topicId": "cnm_246",
+          "prerequisiteId": "cnm_127",
+          "strength": "soft",
+          "reason": "尺规复制已知角是一种作图方式；也可使用量角器或方格完成指定旋转，不将该单一工具方法设为硬门槛。"
+        }
+      ]
+    }
+  ]
+}

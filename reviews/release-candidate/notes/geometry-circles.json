@@ -1,0 +1,483 @@
+[
+  {
+    "topicId": "cnm_249",
+    "name": "关于原点对称的点的坐标",
+    "decision": "revise",
+    "finding": "坐标正负计算正确，缺实际画中心对称图形任务；136轴对称类比不是必需硬前提，降soft。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_249_q1",
+      "cnm_249_q2",
+      "cnm_249_q3",
+      "cnm_249_q4",
+      "cnm_249_q5"
+    ],
+    "snapshotSha256": "c0ea76672963bd8ba03270fde450dd3edef8a98bc457965714baf2b41218fa8a",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "efb1895bf12d91f85a29aada1ba3fd167efc82a3134ce5f1889c4fbbf27371a7",
+    "postQuestionIds": [
+      "cnm_249_q1",
+      "cnm_249_q2",
+      "cnm_249_q3",
+      "cnm_249_q4",
+      "cnm_249_q5",
+      "cnm_249_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_250",
+    "name": "圆的有关概念",
+    "decision": "revise",
+    "finding": "最长弦计算及概念选项正确，缺图中指出圆各元素及说明最长弦依据，补自画标注。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_250_q1",
+      "cnm_250_q2",
+      "cnm_250_q3",
+      "cnm_250_q4"
+    ],
+    "snapshotSha256": "682feb8fdc1fff35b7a328cf4daf4e4eb59fad3ee2353342f7166841bb18ae15",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "fb37d1bb4b007ff28825d137485626eca2b418123c7c0afb589c83825f948296",
+    "postQuestionIds": [
+      "cnm_250_q1",
+      "cnm_250_q2",
+      "cnm_250_q3",
+      "cnm_250_q4",
+      "cnm_250_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_251",
+    "name": "垂径定理",
+    "decision": "retain",
+    "finding": "弦心距、半弦勾股、推论排除直径及两平行弦异侧距离均正确，保留；原SVG待视觉核对。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_251_q1",
+      "cnm_251_q2",
+      "cnm_251_q3",
+      "cnm_251_q4",
+      "cnm_251_q5"
+    ],
+    "snapshotSha256": "81b80c512133db946acb60957fab2553c7a854bdf2d7dc042ab49a750d41013d",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "81b80c512133db946acb60957fab2553c7a854bdf2d7dc042ab49a750d41013d",
+    "postQuestionIds": [
+      "cnm_251_q1",
+      "cnm_251_q2",
+      "cnm_251_q3",
+      "cnm_251_q4",
+      "cnm_251_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_252",
+    "name": "弧、弦、圆心角的关系",
+    "decision": "revise",
+    "finding": "等弧等弦计算正确；q3六等分点需明确按圆周顺序命名保证AB为相邻弦；245旋转证明是方法之一而非应用关系必须硬前提，降soft。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_252_q1",
+      "cnm_252_q2",
+      "cnm_252_q3",
+      "cnm_252_q4",
+      "cnm_252_q5"
+    ],
+    "snapshotSha256": "57a2765a0c4e707c18b59fae8fadf632f07b7ba98938bbcb498533c536f15842",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "dcff7e36ae28daf7dcd381c96a9d7f8e7ef1c4f533ee6b099c8c0de175632ae6",
+    "postQuestionIds": [
+      "cnm_252_q1",
+      "cnm_252_q2",
+      "cnm_252_q3",
+      "cnm_252_q4",
+      "cnm_252_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_253",
+    "name": "圆周角定理",
+    "decision": "revise",
+    "finding": "q1“弧上的圆周角”误导顶点位置，明确100度劣弧与顶点在对应优弧内部；补同弦两侧圆周角关系的实际标图任务。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_253_q1",
+      "cnm_253_q2",
+      "cnm_253_q3",
+      "cnm_253_q4",
+      "cnm_253_q5"
+    ],
+    "snapshotSha256": "1fa1487c9fec9cd2e58e1730a0178971b8f9adb381543cd81149d33c321bf771",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "98257b7373d60d6f51cdf211dd14d16991a25f00c46552cdee28f3a230efc6b1",
+    "postQuestionIds": [
+      "cnm_253_q1",
+      "cnm_253_q2",
+      "cnm_253_q3",
+      "cnm_253_q4",
+      "cnm_253_q5",
+      "cnm_253_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_254",
+    "name": "直径所对的圆周角",
+    "decision": "retain",
+    "finding": "直径所对直角、逆向判径及勾股/30度边正确，端点退化已由题设角或长度排除，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_254_q1",
+      "cnm_254_q2",
+      "cnm_254_q3",
+      "cnm_254_q4",
+      "cnm_254_q5"
+    ],
+    "snapshotSha256": "696ec8aacbd27dcff35add4e1afa22293084e636da35cd2f87cb63d6c91f9b25",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "696ec8aacbd27dcff35add4e1afa22293084e636da35cd2f87cb63d6c91f9b25",
+    "postQuestionIds": [
+      "cnm_254_q1",
+      "cnm_254_q2",
+      "cnm_254_q3",
+      "cnm_254_q4",
+      "cnm_254_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_255",
+    "name": "圆内接四边形",
+    "decision": "retain",
+    "finding": "对角互补、邻补外角、角比和优劣弧位置答案一致，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_255_q1",
+      "cnm_255_q2",
+      "cnm_255_q3",
+      "cnm_255_q4",
+      "cnm_255_q5"
+    ],
+    "snapshotSha256": "3e1cd191bca567f390013f838875e6e523286d78babce93f820a953f9a89743e",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "3e1cd191bca567f390013f838875e6e523286d78babce93f820a953f9a89743e",
+    "postQuestionIds": [
+      "cnm_255_q1",
+      "cnm_255_q2",
+      "cnm_255_q3",
+      "cnm_255_q4",
+      "cnm_255_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_256",
+    "name": "弧长",
+    "decision": "revise",
+    "finding": "公式题正确，但标准推导仅有代入，补圆周等分比例推导与单位区分。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_256_q1",
+      "cnm_256_q2",
+      "cnm_256_q3",
+      "cnm_256_q4",
+      "cnm_256_q5"
+    ],
+    "snapshotSha256": "ec793a4d3a628a09b49e8a4e3a547b6cc7a738da8784d198cd32f5410568d689",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "fd3b2e98a84c95d0c7af48db44a62ccd8984347e39fb1e8e4a0344ab13c6bacf",
+    "postQuestionIds": [
+      "cnm_256_q1",
+      "cnm_256_q2",
+      "cnm_256_q3",
+      "cnm_256_q4",
+      "cnm_256_q5",
+      "cnm_256_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_257",
+    "name": "扇形面积",
+    "decision": "revise",
+    "finding": "弓形题q5需明确正方形内部劣弧，避免优弧另一面积；补自画扇形减三角形的实际过程。弧长非直接用圆面积比例求扇形面积的唯一必要前提。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_257_q1",
+      "cnm_257_q2",
+      "cnm_257_q3",
+      "cnm_257_q4",
+      "cnm_257_q5"
+    ],
+    "snapshotSha256": "db84f35b5c7b31c8c46d2f0e400832ec152050d7fe684376d7011727cc281938",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "e043ad281a805cdd5fbde3af0e7c347716b628e53641273a735541a83247b363",
+    "postQuestionIds": [
+      "cnm_257_q1",
+      "cnm_257_q2",
+      "cnm_257_q3",
+      "cnm_257_q4",
+      "cnm_257_q5",
+      "cnm_257_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_258",
+    "name": "圆锥的侧面积与全面积",
+    "decision": "revise",
+    "finding": "圆锥公式及参数正确，补实际展开图标注母线、底面周长与扇形半径/弧长并推出公式。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_258_q1",
+      "cnm_258_q2",
+      "cnm_258_q3",
+      "cnm_258_q4",
+      "cnm_258_q5"
+    ],
+    "snapshotSha256": "7e23ad5e1eba3241784903b46c2dff5c94901bd6c6b9db614d88544497c1b6b9",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "1be8618aafaf816d255bcd6ad8df40fc5a0cfbd67c523b3f6ee75a2bdcc39987",
+    "postQuestionIds": [
+      "cnm_258_q1",
+      "cnm_258_q2",
+      "cnm_258_q3",
+      "cnm_258_q4",
+      "cnm_258_q5",
+      "cnm_258_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_259",
+    "name": "点与圆的位置关系",
+    "decision": "retain",
+    "finding": "内外位置、整数范围和最远最近距离正确，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_259_q1",
+      "cnm_259_q2",
+      "cnm_259_q3",
+      "cnm_259_q4",
+      "cnm_259_q5"
+    ],
+    "snapshotSha256": "cef83519d043b50a5d636e6ad38ee43d1902c94a88084a200a48a72fa74f66a5",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "cef83519d043b50a5d636e6ad38ee43d1902c94a88084a200a48a72fa74f66a5",
+    "postQuestionIds": [
+      "cnm_259_q1",
+      "cnm_259_q2",
+      "cnm_259_q3",
+      "cnm_259_q4",
+      "cnm_259_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_260",
+    "name": "直线与圆的位置关系",
+    "decision": "retain",
+    "finding": "距离半径三分及公共点数、坐标轴/整数参数均正确，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_260_q1",
+      "cnm_260_q2",
+      "cnm_260_q3",
+      "cnm_260_q4",
+      "cnm_260_q5"
+    ],
+    "snapshotSha256": "9992bbc7db1da9d18bd97719e25f83d381f2e15446cf05ad1cfa733ab98a0f5c",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "9992bbc7db1da9d18bd97719e25f83d381f2e15446cf05ad1cfa733ab98a0f5c",
+    "postQuestionIds": [
+      "cnm_260_q1",
+      "cnm_260_q2",
+      "cnm_260_q3",
+      "cnm_260_q4",
+      "cnm_260_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_261",
+    "name": "切线的判定",
+    "decision": "revise",
+    "finding": "两类判切线方法选择正确，但缺独立证明过程，补连半径与无已知切点的作垂线两种任务。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_261_q1",
+      "cnm_261_q2",
+      "cnm_261_q3",
+      "cnm_261_q4",
+      "cnm_261_q5"
+    ],
+    "snapshotSha256": "85613298aa3886bc947d5ae91115f1d74d947eef034b880f57ea610aaae39749",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "35cda36c9ed5b622fbb4c3ba5e89972c1761d3d23651c1bc91acef717a4f9c4e",
+    "postQuestionIds": [
+      "cnm_261_q1",
+      "cnm_261_q2",
+      "cnm_261_q3",
+      "cnm_261_q4",
+      "cnm_261_q5",
+      "cnm_261_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_262",
+    "name": "切线的性质",
+    "decision": "retain",
+    "finding": "切线垂直过切点半径、勾股及30度关系正确，保留；现图待视觉核对。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_262_q1",
+      "cnm_262_q2",
+      "cnm_262_q3",
+      "cnm_262_q4",
+      "cnm_262_q5"
+    ],
+    "snapshotSha256": "f581091b61ba7a9af21057dfaf44cdab78685afc0e557c914376db20cdefd0b0",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "f581091b61ba7a9af21057dfaf44cdab78685afc0e557c914376db20cdefd0b0",
+    "postQuestionIds": [
+      "cnm_262_q1",
+      "cnm_262_q2",
+      "cnm_262_q3",
+      "cnm_262_q4",
+      "cnm_262_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_263",
+    "name": "切线长定理",
+    "decision": "retain",
+    "finding": "两切线长度、角平分、圆心角和面积计算正确，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_263_q1",
+      "cnm_263_q2",
+      "cnm_263_q3",
+      "cnm_263_q4",
+      "cnm_263_q5"
+    ],
+    "snapshotSha256": "d8f5b1a463d06780dec76fd1d990d2bbf4c3ab3c03811e78d31e3c7937724d35",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "d8f5b1a463d06780dec76fd1d990d2bbf4c3ab3c03811e78d31e3c7937724d35",
+    "postQuestionIds": [
+      "cnm_263_q1",
+      "cnm_263_q2",
+      "cnm_263_q3",
+      "cnm_263_q4",
+      "cnm_263_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_264",
+    "name": "三角形的内切圆",
+    "decision": "revise",
+    "finding": "直角三角形内切半径与切点长度计算正确；263边理由称等距必须切线长错误，半径垂直/角平分亦可，降soft并改理由；补r公式面积法解释。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；现有SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_264_q1",
+      "cnm_264_q2",
+      "cnm_264_q3",
+      "cnm_264_q4",
+      "cnm_264_q5"
+    ],
+    "snapshotSha256": "506d0e4a6c9c0715c015713acd89dbb0128321df5645bed4ee08aefa7a68fd5a",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "67f8224e59281cfd3b5b574d5328ef551b4bc80a8707fe0823a78c5602db9709",
+    "postQuestionIds": [
+      "cnm_264_q1",
+      "cnm_264_q2",
+      "cnm_264_q3",
+      "cnm_264_q4",
+      "cnm_264_q5",
+      "cnm_264_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/circles.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

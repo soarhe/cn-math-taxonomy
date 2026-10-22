@@ -1,0 +1,1216 @@
+{
+  "batch": "release-candidate-practice",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_210",
+      "beforeHash": "ab5c7ca5f4586360915a11c7734799d4801d59242283e67cbba62c8da14cfde8",
+      "before": {
+        "id": "cnm_210",
+        "name": "综合与实践：音乐与数学",
+        "domain": "综合与实践",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 综合与实践",
+        "type": "modeling",
+        "description": "探究弦长、频率、音高等量之间的数量关系，用函数思想描述音乐中的数学。",
+        "mastery_criteria": [
+          "能收集弦长与音高数据",
+          "能用表格或函数描述关系"
+        ],
+        "diagnostic_question": {
+          "question": "弦长与频率的乘积为定值，弦长减半时频率怎样变化？",
+          "answer": "变为原来的 2 倍"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.IP.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_210",
+        "name": "综合与实践：音乐与数学",
+        "domain": "综合与实践",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第二十三章 一次函数 综合与实践",
+        "type": "modeling",
+        "description": "用表格和函数探究弦长与频率的给定模型。把Lf为常数作为待检验假设，记录弦的其他条件；不把音高和频率混为同一数值，也不无条件外推。",
+        "mastery_criteria": [
+          "能收集弦长与音高数据",
+          "能用表格或函数描述关系"
+        ],
+        "diagnostic_question": {
+          "question": "弦长与频率的乘积为定值，弦长减半时频率怎样变化？",
+          "answer": "变为原来的 2 倍"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.IP.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_290",
+      "beforeHash": "8cac6aeb193b9d6560961acb4f36fa090150ed11127d1013d39d1c934c3c98eb",
+      "before": {
+        "id": "cnm_290",
+        "name": "综合与实践：停车设计问题",
+        "domain": "综合与实践",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十二章 锐角三角函数 综合与实践",
+        "type": "modeling",
+        "description": "以教材章末综合与实践的主题名建模（具体活动内容未核实）：在给定场地中设计停车位的摆放角度与尺寸，用解直角三角形计算占用的宽度和深度并比较方案。",
+        "mastery_criteria": [
+          "能把车位摆放角度与占用的长度、宽度转化为直角三角形的边角关系",
+          "能比较不同摆放方案并说明理由"
+        ],
+        "diagnostic_question": {
+          "question": "斜列式车位的车位线长 5 m，与行车道所成的锐角为 60°，则车位在垂直于行车道方向上占用的深度约为多少 m？（√3≈1.73）",
+          "answer": "5×sin60°=5×√3/2≈4.3 m"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.IP.01",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.80",
+            "confidence": "inferred",
+            "note": "项目活动用解直角三角形建模"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_290",
+        "name": "综合与实践：停车设计问题",
+        "domain": "综合与实践",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十二章 锐角三角函数 综合与实践",
+        "type": "modeling",
+        "description": "课堂停车布局建模练习，非已核实教材活动。既有题采用边界平行于路沿的平行四边形标线格，只计算标线投影或路沿分段；不能直接作为矩形车辆/车位的完整外包尺寸，更未包含通道和端部空间。新增任务比较矩形投影模型。",
+        "mastery_criteria": [
+          "能把车位摆放角度与占用的长度、宽度转化为直角三角形的边角关系",
+          "能比较不同摆放方案并说明理由"
+        ],
+        "diagnostic_question": {
+          "question": "斜列式车位的车位线长 5 m，与行车道所成的锐角为 60°，则车位在垂直于行车道方向上占用的深度约为多少 m？（√3≈1.73）",
+          "answer": "5×sin60°=5×√3/2≈4.3 m"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.IP.01",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.GG.80",
+            "confidence": "inferred",
+            "note": "项目活动用解直角三角形建模"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_315",
+      "beforeHash": "c2427671ab84e2692b63e7bd096d84cc69f263feb2c9c5774a5b0fa09aa9080b",
+      "before": {
+        "id": "cnm_315",
+        "name": "综合与实践：用随机试验检验游戏的公平性（补充课题）",
+        "domain": "综合与实践",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 综合应用（补充课题，非已核实的教材栏目）",
+        "type": "modeling",
+        "description": "设计一个两人转盘或摸球游戏，用列表法、树状图算出双方获胜的概率，再用多次试验的频率检验游戏是否公平。本条为补充课题，非已核实的教材栏目，供教师取舍。",
+        "mastery_criteria": [
+          "能设计规则使双方获胜的概率相等并用概率说明",
+          "能用试验频率检验理论概率并解释误差"
+        ],
+        "diagnostic_question": {
+          "question": "设计一个转盘游戏使两人获胜的概率相等，并说明如何用试验检验。",
+          "answer": "转盘 8 等分，4 份甲得分、4 份乙得分，双方概率均为 1/2；转 100 次，若两人获胜频率都接近 0.5 则基本公平"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.IP.02",
+            "confidence": "inferred",
+            "note": "项目活动：试验调查与频率估计概率"
+          },
+          {
+            "id": "cms-2022:4.SP.13",
+            "confidence": "inferred",
+            "note": "项目活动：试验调查与频率估计概率"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_315",
+        "name": "综合与实践：用随机试验检验游戏的公平性（补充课题）",
+        "domain": "综合与实践",
+        "grade": 9,
+        "semester": "下",
+        "chapter": "九下 第三十四章 随机事件的概率 综合应用（补充课题，非已核实的教材栏目）",
+        "type": "modeling",
+        "description": "设计一个两人转盘或摸球游戏，用列表法、树状图算出双方获胜的概率，再用多次试验的频率检验游戏是否公平。本条为补充课题，非已核实的教材栏目，供教师取舍。",
+        "mastery_criteria": [
+          "能设计规则使双方获胜的概率相等并用概率说明",
+          "能用试验频率检验理论概率并解释误差"
+        ],
+        "diagnostic_question": {
+          "question": "设计一个转盘游戏使两人获胜的概率相等，并说明如何用试验检验。",
+          "answer": "转盘 8 等分，4 份甲得分、4 份乙得分，双方概率均为 1/2；转 100 次，若两人获胜频率都接近 0.5 则基本公平"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.IP.02",
+            "confidence": "inferred",
+            "note": "项目活动：试验调查与频率估计概率"
+          },
+          {
+            "id": "cms-2022:4.SP.13",
+            "confidence": "inferred",
+            "note": "项目活动：试验调查与频率估计概率"
+          }
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_101_q1",
+      "beforeHash": "c619e5568ed9fb051875178162f8898f304952877130e9f770dba3019f62eb6b",
+      "before": {
+        "id": "cnm_101_q1",
+        "topicId": "cnm_101",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "某人每天通勤 10 km，公交每公里排放 0.05 kg，私家车每公里排放 0.2 kg，改乘公交一天少排放多少 kg？",
+        "answer": "1.5",
+        "explanation": "每公里少排放 0.2-0.05=0.15 kg，10 km 共少排放 10×0.15=1.5 kg。",
+        "verify": "10*(Fraction(2,10)-Fraction(5,100))"
+      },
+      "after": {
+        "id": "cnm_101_q1",
+        "topicId": "cnm_101",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "某人每天通勤 10 km，公交每公里排放 0.05 kg，私家车每公里排放 0.2 kg，改乘公交一天少排放多少 kg？（本题排放数值为教学假设，按同一人出行的kg/人·km口径比较，不是实测排放因子。）",
+        "answer": "1.5",
+        "explanation": "每公里少排放 0.2-0.05=0.15 kg，10 km 共少排放 10×0.15=1.5 kg。",
+        "verify": "10*(Fraction(2,10)-Fraction(5,100))"
+      }
+    },
+    {
+      "id": "cnm_101_q2",
+      "beforeHash": "d8a15491cdca48f19b3dfe0719213aba332bb0277e1b8643322fcd76a9ed6607",
+      "before": {
+        "id": "cnm_101_q2",
+        "topicId": "cnm_101",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "改乘公交一天少排放 1.5 kg，一年按 200 个出行日计算，共少排放多少 kg？",
+        "answer": "300",
+        "explanation": "200×1.5=300 kg。",
+        "verify": "200*Fraction(3,2)"
+      },
+      "after": {
+        "id": "cnm_101_q2",
+        "topicId": "cnm_101",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "改乘公交一天少排放 1.5 kg，一年按 200 个出行日计算，共少排放多少 kg？（本题排放数值为教学假设，按同一人出行的kg/人·km口径比较，不是实测排放因子。）",
+        "answer": "300",
+        "explanation": "200×1.5=300 kg。",
+        "verify": "200*Fraction(3,2)"
+      }
+    },
+    {
+      "id": "cnm_101_q3",
+      "beforeHash": "dad07fda9882dd123824175e0bb79d2996a5e918bdb43e63794c8615178b71fe",
+      "before": {
+        "id": "cnm_101_q3",
+        "topicId": "cnm_101",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "某人每天通勤 x km。私家车每公里排放 0.2 kg，公交每公里排放 0.05 kg。要使改乘公交一天至少少排放 3 kg，x 至少是多少 km？",
+        "answer": "20",
+        "explanation": "列不等式 (0.2-0.05)x≥3，即 0.15x≥3，x≥20，所以 x 至少为 20 km。",
+        "verify": "Fraction(3)/(Fraction(2,10)-Fraction(5,100))"
+      },
+      "after": {
+        "id": "cnm_101_q3",
+        "topicId": "cnm_101",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "某人每天通勤 x km。私家车每公里排放 0.2 kg，公交每公里排放 0.05 kg。要使改乘公交一天至少少排放 3 kg，x 至少是多少 km？（本题排放数值为教学假设，按同一人出行的kg/人·km口径比较，不是实测排放因子。）",
+        "answer": "20",
+        "explanation": "列不等式 (0.2-0.05)x≥3，即 0.15x≥3，x≥20，所以 x 至少为 20 km。",
+        "verify": "Fraction(3)/(Fraction(2,10)-Fraction(5,100))"
+      }
+    },
+    {
+      "id": "cnm_101_q4",
+      "beforeHash": "9035952d95b481a783d975170fdd2b23df1e415291f92376a8836dd8e88aa050",
+      "before": {
+        "id": "cnm_101_q4",
+        "topicId": "cnm_101",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "方案 A：每月固定排放 30 kg，另每行驶 1 km 排放 0.1 kg；方案 B：每行驶 1 km 排放 0.25 kg，无固定排放。每月行驶超过多少 km 时，方案 A 的排放量更少？（单位：km）",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "200"
+          },
+          {
+            "key": "B",
+            "text": "120"
+          },
+          {
+            "key": "C",
+            "text": "150"
+          },
+          {
+            "key": "D",
+            "text": "300"
+          }
+        ],
+        "explanation": "设行驶 x km，A 更少即 30+0.1x<0.25x，0.15x>30，x>200，所以超过 200 km 时 A 更少。",
+        "verify": "Fraction(30)/(Fraction(1,4)-Fraction(1,10))"
+      },
+      "after": {
+        "id": "cnm_101_q4",
+        "topicId": "cnm_101",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "方案 A：每月固定排放 30 kg，另每行驶 1 km 排放 0.1 kg；方案 B：每行驶 1 km 排放 0.25 kg，无固定排放。每月行驶超过多少 km 时，方案 A 的排放量更少？（单位：km）（本题排放数值为教学假设，按同一人出行的kg/人·km口径比较，不是实测排放因子。）",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "200"
+          },
+          {
+            "key": "B",
+            "text": "120"
+          },
+          {
+            "key": "C",
+            "text": "150"
+          },
+          {
+            "key": "D",
+            "text": "300"
+          }
+        ],
+        "explanation": "设行驶 x km，A 更少即 30+0.1x<0.25x，0.15x>30，x>200，所以超过 200 km 时 A 更少。",
+        "verify": "Fraction(30)/(Fraction(1,4)-Fraction(1,10))"
+      }
+    },
+    {
+      "id": "cnm_109_q1",
+      "beforeHash": "ad3ad5b89d03ddb407ea0598e5bd677f38706a5d20626eb25aa6ac805fdeb790",
+      "before": {
+        "id": "cnm_109_q1",
+        "topicId": "cnm_109",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "北半球夏至日昼最长，这一点在趋势图上表现为什么？（图中纵轴为昼长，横轴为日期）",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "曲线的最高点（峰值）"
+          },
+          {
+            "key": "B",
+            "text": "曲线的最低点"
+          },
+          {
+            "key": "C",
+            "text": "曲线与横轴的交点"
+          }
+        ],
+        "explanation": "昼长最大，对应曲线纵坐标最大的点，即最高点（峰值）。"
+      },
+      "after": {
+        "id": "cnm_109_q1",
+        "topicId": "cnm_109",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "假设某地全年昼长趋势图中夏至对应观测到的最大昼长。纵轴为昼长、横轴为日期，这个最大值在图上表现为什么？",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "曲线的最高点（峰值）"
+          },
+          {
+            "key": "B",
+            "text": "曲线的最低点"
+          },
+          {
+            "key": "C",
+            "text": "曲线与横轴的交点"
+          }
+        ],
+        "explanation": "昼长最大，对应曲线纵坐标最大的点，即最高点（峰值）。",
+        "fixed_from_source": "release-candidate: 以给定观测情境考查图读数，避免无条件概括所有北半球地区"
+      }
+    },
+    {
+      "id": "cnm_109_q3",
+      "beforeHash": "e51d7474f81cb68e4c31646d4e5c2e89c65bbc5e016d5f7296d9c6a688c78dff",
+      "before": {
+        "id": "cnm_109_q3",
+        "topicId": "cnm_109",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "北半球某地春分、夏至、秋分的昼长（小时）依次为 12、15、12。从夏至到秋分，昼长趋势图上的曲线",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "上升"
+          },
+          {
+            "key": "B",
+            "text": "下降"
+          },
+          {
+            "key": "C",
+            "text": "保持水平"
+          }
+        ],
+        "explanation": "夏至昼长 15 小时，秋分降到 12 小时，数值变小，曲线下降。"
+      },
+      "after": {
+        "id": "cnm_109_q3",
+        "topicId": "cnm_109",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "某地春分、夏至、秋分的教学示例昼长为12、15、12小时。只连接给定的夏至和秋分两点，所得线段的方向是？",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "上升"
+          },
+          {
+            "key": "B",
+            "text": "下降"
+          },
+          {
+            "key": "C",
+            "text": "保持水平"
+          }
+        ],
+        "explanation": "给定两点的纵坐标从15降至12，连线下降；这两个时点本身不能证明期间每一天都严格下降。"
+      }
+    },
+    {
+      "id": "cnm_119_q2",
+      "beforeHash": "bedb4b16cc9605ee44c0521a5b891c4d77cf774aa34a7f107b7236943d3ed9dd",
+      "before": {
+        "id": "cnm_119_q2",
+        "topicId": "cnm_119",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "用悬挂法找三角形薄板的重心：每次悬挂静止后，沿悬线在薄板上画一条线，重心就在这些线上。至少要悬挂几次，才能确定重心的位置？",
+        "answer": "2",
+        "explanation": "两条不平行的线相交于一点，悬挂 2 次得到两条线，它们的交点就是重心。"
+      },
+      "after": {
+        "id": "cnm_119_q2",
+        "topicId": "cnm_119",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "用悬挂法找三角形薄板的重心：每次悬挂静止后，沿悬线在薄板上画一条线，重心就在这些线上。至少要悬挂几次，才能确定重心的位置？（两次从不同位置悬挂，得到两条不重合的悬线。）",
+        "answer": "2",
+        "explanation": "两条不平行的线相交于一点，悬挂 2 次得到两条线，它们的交点就是重心。"
+      }
+    },
+    {
+      "id": "cnm_218_q1",
+      "beforeHash": "2a4be5c47f4895de92cc83f088a81045ca5bc8701508a36cb29af82cd88c2266",
+      "before": {
+        "id": "cnm_218_q1",
+        "topicId": "cnm_218",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "怎样比较两个班的体质测试成绩？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "只比较各班的最高分"
+          },
+          {
+            "key": "B",
+            "text": "只比较各班的人数"
+          },
+          {
+            "key": "C",
+            "text": "用平均数比较整体水平，用方差比较整齐程度"
+          },
+          {
+            "key": "D",
+            "text": "只比较各班的最低分"
+          }
+        ],
+        "answer": "C",
+        "explanation": "平均数反映整体水平，方差反映数据的波动（整齐）程度，两者结合才能全面比较。"
+      },
+      "after": {
+        "id": "cnm_218_q1",
+        "topicId": "cnm_218",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "怎样比较两个班的体质测试成绩？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "只比较各班的最高分"
+          },
+          {
+            "key": "B",
+            "text": "只比较各班的人数"
+          },
+          {
+            "key": "C",
+            "text": "用平均数比较整体水平，用方差比较整齐程度"
+          },
+          {
+            "key": "D",
+            "text": "只比较各班的最低分"
+          }
+        ],
+        "answer": "C",
+        "explanation": "对于口径一致的同一成绩指标，平均数描述水平、方差描述离散程度，两者比只看极值更有信息；仍需检查样本、分布与指标含义，不能据此全面评价学生体质。"
+      }
+    },
+    {
+      "id": "cnm_267_q4",
+      "beforeHash": "df229b25c2eedd317cdf003b6a04e04b8f8aeaaa91827c9419de827b4f23a67c",
+      "before": {
+        "id": "cnm_267_q4",
+        "topicId": "cnm_267",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "某商品进价 30 元，售价 40 元时每天卖 100 件，售价每涨 1 元，每天少卖 5 件（涨价为整数元）。求每天的最大利润（单位：元）。",
+        "answer": "1125",
+        "explanation": "设涨价 x 元，利润 P=(10+x)(100-5x)=-5x^2+50x+1000=-5(x-5)^2+1125，x=5 时最大为 1125。",
+        "verify": "max([(10+x)*(100-5*x) for x in range(0,21)])"
+      },
+      "after": {
+        "id": "cnm_267_q4",
+        "topicId": "cnm_267",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "某商品进价 30 元，售价 40 元时每天卖 100 件，售价每涨 1 元，每天少卖 5 件（涨价为整数元）。求每天的最大利润（单位：元）。（需求公式仅作为0≤涨价≤20元的教学假设，不含额外成本。）",
+        "answer": "1125",
+        "explanation": "设涨价 x 元，利润 P=(10+x)(100-5x)=-5x^2+50x+1000=-5(x-5)^2+1125，x=5 时最大为 1125。",
+        "verify": "max([(10+x)*(100-5*x) for x in range(0,21)])"
+      }
+    },
+    {
+      "id": "cnm_290_q1",
+      "beforeHash": "e67f3e5638f6cb0771c1dc57e0a72758d45ff4497dca9cda29a67740d3d0ebea",
+      "before": {
+        "id": "cnm_290_q1",
+        "topicId": "cnm_290",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "斜列式车位的车位线长 5 m，与行车道所成的锐角为 60°，则车位在垂直于行车道方向上占用的深度约为多少 m？（√3≈1.73）（结果保留一位小数）",
+        "answer": "4.3",
+        "explanation": "深度=5×sin60°=5×√3/2≈5×1.73/2=4.325，保留一位小数约 4.3 m。",
+        "verify": "round(5*1.73/2,1)"
+      },
+      "after": {
+        "id": "cnm_290_q1",
+        "topicId": "cnm_290",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "斜列式车位的车位线长 5 m，与行车道所成的锐角为 60°，则车位在垂直于行车道方向上占用的深度约为多少 m？（√3≈1.73）（结果保留一位小数）（课堂理想标线模型：车位格为平行四边形，其另两边平行路沿；仅按纵向分界线或路沿重复分段计算，不计端部、通道及车辆外包限制。）",
+        "answer": "4.3",
+        "explanation": "深度=5×sin60°=5×√3/2≈5×1.73/2=4.325，保留一位小数约 4.3 m。",
+        "verify": "round(5*1.73/2,1)"
+      }
+    },
+    {
+      "id": "cnm_290_q2",
+      "beforeHash": "a28d8e8cdae3990ea0bc6b1610e72a298abb01a9fd9b106b4db764c9674bde49",
+      "before": {
+        "id": "cnm_290_q2",
+        "topicId": "cnm_290",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "斜列式车位的车位线长 6 m，与行车道所成的锐角为 30°，则车位在垂直于行车道方向上占用的深度是多少 m？",
+        "answer": "3",
+        "explanation": "深度=6×sin30°=6×1/2=3 m。",
+        "verify": "6*Fraction(1,2)"
+      },
+      "after": {
+        "id": "cnm_290_q2",
+        "topicId": "cnm_290",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "斜列式车位的车位线长 6 m，与行车道所成的锐角为 30°，则车位在垂直于行车道方向上占用的深度是多少 m？（课堂理想标线模型：车位格为平行四边形，其另两边平行路沿；仅按纵向分界线或路沿重复分段计算，不计端部、通道及车辆外包限制。）",
+        "answer": "3",
+        "explanation": "深度=6×sin30°=6×1/2=3 m。",
+        "verify": "6*Fraction(1,2)"
+      }
+    },
+    {
+      "id": "cnm_290_q3",
+      "beforeHash": "09d9905ccbea18f06e2de3db16d87068e8bb930b926c2df19cb16d3f5ba04525",
+      "before": {
+        "id": "cnm_290_q3",
+        "topicId": "cnm_290",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "斜列式车位的相邻两条车位线互相平行，它们之间的垂直距离（车位宽）为 2.5 m，车位线与行车道所成锐角为 30°，则每个车位沿行车道方向占用的长度是多少 m？",
+        "answer": "5",
+        "explanation": "沿行车道方向占用的长度 x 满足 2.5=x·sin30°，所以 x=2.5÷1/2=5 m。",
+        "verify": "Fraction(5,2)/Fraction(1,2)"
+      },
+      "after": {
+        "id": "cnm_290_q3",
+        "topicId": "cnm_290",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "斜列式车位的相邻两条车位线互相平行，它们之间的垂直距离（车位宽）为 2.5 m，车位线与行车道所成锐角为 30°，则每个车位沿行车道方向占用的长度是多少 m？（课堂理想标线模型：车位格为平行四边形，其另两边平行路沿；仅按纵向分界线或路沿重复分段计算，不计端部、通道及车辆外包限制。）",
+        "answer": "5",
+        "explanation": "沿行车道方向占用的长度 x 满足 2.5=x·sin30°，所以 x=2.5÷1/2=5 m。",
+        "verify": "Fraction(5,2)/Fraction(1,2)"
+      }
+    },
+    {
+      "id": "cnm_290_q4",
+      "beforeHash": "bc7c2928fcad757b62184c0a6c7fc5b1efe5a900933c4c5c2205d0b59a9830aa",
+      "before": {
+        "id": "cnm_290_q4",
+        "topicId": "cnm_290",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "场地在垂直于行车道方向上的深度只有 4 m，车位线长 5 m。下列车位摆放角度（车位线与行车道所成锐角）中，能放得下的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "45°"
+          },
+          {
+            "key": "B",
+            "text": "60°"
+          },
+          {
+            "key": "C",
+            "text": "75°"
+          },
+          {
+            "key": "D",
+            "text": "90°"
+          }
+        ],
+        "answer": "A",
+        "explanation": "所需深度为 5×sinθ。45° 时约 3.5 m ≤ 4；60° 约 4.33 m、75° 约 4.83 m、90° 为 5 m，都超过 4 m。"
+      },
+      "after": {
+        "id": "cnm_290_q4",
+        "topicId": "cnm_290",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "场地在垂直于行车道方向上的深度只有 4 m，车位线长 5 m。下列车位摆放角度（车位线与行车道所成锐角）中，能放得下的是哪一个？（课堂理想标线模型：车位格为平行四边形，其另两边平行路沿；仅按纵向分界线或路沿重复分段计算，不计端部、通道及车辆外包限制。）",
+        "choices": [
+          {
+            "key": "A",
+            "text": "45°"
+          },
+          {
+            "key": "B",
+            "text": "60°"
+          },
+          {
+            "key": "C",
+            "text": "75°"
+          },
+          {
+            "key": "D",
+            "text": "90°"
+          }
+        ],
+        "answer": "A",
+        "explanation": "所需深度为 5×sinθ。45° 时约 3.5 m ≤ 4；60° 约 4.33 m、75° 约 4.83 m、90° 为 5 m，都超过 4 m。"
+      }
+    },
+    {
+      "id": "cnm_290_q5",
+      "beforeHash": "0e24978756798a517a915f4ed250badd252e9a9274faaeec4a8bc933512ecdbf",
+      "before": {
+        "id": "cnm_290_q5",
+        "topicId": "cnm_290",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "行车道一侧有一段长 40 m 的路边可设车位，车位宽均为 2.5 m（相邻车位线间的垂直距离）。垂直式车位沿路边每个占 2.5 m；斜列式车位线与行车道所成锐角为 30°。垂直式、斜列式各最多可设几个车位？（依次作答，用逗号隔开）",
+        "answer": "16，8",
+        "explanation": "垂直式：40÷2.5=16 个。斜列式每个沿路边占 2.5÷sin30°=5 m，40÷5=8 个。",
+        "verify": "[floor(Fraction(40)/Fraction(5,2)), floor(Fraction(40)/(Fraction(5,2)/Fraction(1,2)))]"
+      },
+      "after": {
+        "id": "cnm_290_q5",
+        "topicId": "cnm_290",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "行车道一侧有一段长 40 m 的路边可设车位，车位宽均为 2.5 m（相邻车位线间的垂直距离）。垂直式车位沿路边每个占 2.5 m；斜列式车位线与行车道所成锐角为 30°。垂直式、斜列式各最多可设几个车位？（依次作答，用逗号隔开）（课堂理想标线模型：车位格为平行四边形，其另两边平行路沿；仅按纵向分界线或路沿重复分段计算，不计端部、通道及车辆外包限制。）",
+        "answer": "16，8",
+        "explanation": "垂直式：40÷2.5=16 个。斜列式每个沿路边占 2.5÷sin30°=5 m，40÷5=8 个。",
+        "verify": "[floor(Fraction(40)/Fraction(5,2)), floor(Fraction(40)/(Fraction(5,2)/Fraction(1,2)))]"
+      }
+    },
+    {
+      "id": "cnm_315_q1",
+      "beforeHash": "ff1bce9184989ae75a1adb2e0ccafc20fd440639bf16202611250dc28e761872",
+      "before": {
+        "id": "cnm_315_q1",
+        "topicId": "cnm_315",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设计一个转盘游戏使两人获胜的概率相等，并说明如何用试验检验。",
+        "answer": "转盘 8 等分，4 份甲得分、4 份乙得分，双方概率均为 1/2；转 100 次，若两人获胜频率都接近 0.5 则基本公平",
+        "explanation": "将转盘等分后，让甲、乙各占一半的份数，则双方获胜概率都是 1/2；再做大量重复试验，比较两人获胜的频率是否接近 0.5。"
+      },
+      "after": {
+        "id": "cnm_315_q1",
+        "topicId": "cnm_315",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设计一个转盘游戏使两人获胜的概率相等，并说明如何用试验检验。",
+        "answer": "例如理想均匀转盘8等分，4份甲胜、4份乙胜，双方理论概率各1/2。预先约定试验次数，记录分批频数并与模型比较；有限频率接近1/2不能证明机制公平，偏离也不立即证明不公平。",
+        "explanation": "例如理想均匀转盘8等分，4份甲胜、4份乙胜，双方理论概率各1/2。预先约定试验次数，记录分批频数并与模型比较；有限频率接近1/2不能证明机制公平，偏离也不立即证明不公平。",
+        "rubric": [
+          "明确等可能、互斥且覆盖所有结果的规则",
+          "计算双方理论获胜概率",
+          "给出预先固定的记录方案",
+          "说明有限试验不能认证公平，不能看到结果再任意停试"
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_315_q2",
+      "beforeHash": "2fae4fa4aebd37116e0ec3682ab89e7e9104459fa2feaaef9dc2fac07fe44054",
+      "before": {
+        "id": "cnm_315_q2",
+        "topicId": "cnm_315",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "转盘被等分为 8 份，把其中 k 份涂红色，指针落在红色区域时甲胜，落在其余区域时乙胜。要使游戏公平，k 应等于多少？",
+        "answer": "4",
+        "explanation": "公平要求甲、乙获胜概率相等，即 k/8=(8-k)/8=1/2，所以 k=4。",
+        "verify": "8//2"
+      },
+      "after": {
+        "id": "cnm_315_q2",
+        "topicId": "cnm_315",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "转盘被等分为 8 份，把其中 k 份涂红色，指针落在红色区域时甲胜，落在其余区域时乙胜。要使游戏公平，k 应等于多少？（各等分区域按等可能模型处理；两个转盘的转动相互独立。）",
+        "answer": "4",
+        "explanation": "公平要求甲、乙获胜概率相等，即 k/8=(8-k)/8=1/2，所以 k=4。",
+        "verify": "8//2",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_315_q3",
+      "beforeHash": "9a0f8a3d5d233537c9cb7424cee674f4e86afdf542190c5a9931da6b188ddf5a",
+      "before": {
+        "id": "cnm_315_q3",
+        "topicId": "cnm_315",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "两个转盘各被等分成 3 份，分别标有数字 1、2、3。同时转动两个转盘，两个指针所指数字之和为偶数时甲胜，为奇数时乙胜。甲获胜的概率是多少？（结果写成最简分数）",
+        "answer": "5/9",
+        "explanation": "列表得共 9 种等可能结果，和为偶数的有 (1,1)、(1,3)、(2,2)、(3,1)、(3,3) 共 5 种，甲获胜概率为 5/9，大于 1/2，游戏不公平。",
+        "verify": "Fraction(len([1 for t in range(9) if (t//3+t%3)%2==0]),9)"
+      },
+      "after": {
+        "id": "cnm_315_q3",
+        "topicId": "cnm_315",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "两个转盘各被等分成 3 份，分别标有数字 1、2、3。同时转动两个转盘，两个指针所指数字之和为偶数时甲胜，为奇数时乙胜。甲获胜的概率是多少？（结果写成最简分数）（各等分区域按等可能模型处理；两个转盘的转动相互独立。）",
+        "answer": "5/9",
+        "explanation": "列表得共 9 种等可能结果，和为偶数的有 (1,1)、(1,3)、(2,2)、(3,1)、(3,3) 共 5 种，甲获胜概率为 5/9，大于 1/2，游戏不公平。",
+        "verify": "Fraction(len([1 for t in range(9) if (t//3+t%3)%2==0]),9)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_315_q4",
+      "beforeHash": "fe4b39b1bb1f0fba4d5e0f1c10559d7139a25d8d2243c651d2a6f0086048070a",
+      "before": {
+        "id": "cnm_315_q4",
+        "topicId": "cnm_315",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "某游戏理论上双方获胜的概率均为 1/2。小组做了 100 次试验，甲胜 46 次、乙胜 54 次，下列说法合理的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "游戏一定不公平，因为两个频率不相等"
+          },
+          {
+            "key": "B",
+            "text": "试验结果无效，必须重新设计游戏"
+          },
+          {
+            "key": "C",
+            "text": "频率与理论概率有小偏差属于正常的随机波动，不能据此断定游戏不公平，增加试验次数频率会更接近 1/2"
+          },
+          {
+            "key": "D",
+            "text": "应该修改规则让甲多获胜"
+          }
+        ],
+        "answer": "C",
+        "explanation": "试验频率会围绕概率波动，100 次试验中 46:54 的偏差不大；试验次数越多，频率越接近理论概率。"
+      },
+      "after": {
+        "id": "cnm_315_q4",
+        "topicId": "cnm_315",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "某游戏理论上双方获胜的概率均为 1/2。小组做了 100 次试验，甲胜 46 次、乙胜 54 次，下列说法合理的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "游戏一定不公平，因为两个频率不相等"
+          },
+          {
+            "key": "B",
+            "text": "试验结果无效，必须重新设计游戏"
+          },
+          {
+            "key": "C",
+            "text": "有限试验存在随机波动，不能只凭46:54断定不公平；增加次数有助于长期估计，但不保证每次都更接近1/2"
+          },
+          {
+            "key": "D",
+            "text": "应该修改规则让甲多获胜"
+          }
+        ],
+        "answer": "C",
+        "explanation": "在稳定、独立且理论概率1/2的模型下，有限样本频率会波动，单看46:54不能证明机制不公平。增加次数不保证每一段或每一次更新都更接近理论概率。",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_024_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_024_q6",
+        "topicId": "cnm_024",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用标有1、2、4、8、16的数位卡演示二进制从0111加1到1000，再把十进制13表示为二进制。提交进位记录并说明各位置0、1的意义。",
+        "answer": "0111+1从个位依次逢二进一得到1000；13=8+4+1，二进制1101。每位1表示取一份该数位权重，0表示不取。",
+        "explanation": "0111+1从个位依次逢二进一得到1000；13=8+4+1，二进制1101。每位1表示取一份该数位权重，0表示不取。",
+        "rubric": [
+          "实际记录三个连续进位",
+          "用数位权重解释而非按十进制读字符串",
+          "表示13为1101并反向核对"
+        ]
+      }
+    },
+    {
+      "id": "cnm_101_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_101_q5",
+        "topicId": "cnm_101",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "制作一周通勤距离表（可自行记录，也可明确标注模拟数据）。用教学假设每人公里公交0.05 kg、汽车0.2 kg，计算两方案总量；写出至少减排3 kg所需距离的不等式，并说明建议依赖哪些假设。",
+        "answer": "总距离为s人·km时两方案为0.05s和0.2s，差0.15s；至少3 kg需s≥20。实际建议取决于排放因子口径、乘员分摊和交通可用性；不能把这些假设值报作当地实测。",
+        "explanation": "总距离为s人·km时两方案为0.05s和0.2s，差0.15s；至少3 kg需s≥20。实际建议取决于排放因子口径、乘员分摊和交通可用性；不能把这些假设值报作当地实测。",
+        "rubric": [
+          "提交逐日表、单位、来源或模拟标记",
+          "按同一口径合计并计算差值",
+          "不等式及阈值20正确",
+          "结论写明适用条件，未采集不得声称完成实测"
+        ]
+      }
+    },
+    {
+      "id": "cnm_109_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_109_q5",
+        "topicId": "cnm_109",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "为两个地点各整理至少6个不同日期的昼长数据并画折线图。可使用可追溯公开数据，也可用明确标注的模拟数据练习。记录地点、日期、昼长单位和来源，比较趋势并指出数据不能支持的结论。",
+        "answer": "结果随数据不同。日期作横轴、统一小时作纵轴并使用一致尺度；描述观测范围内的差异。不把极值平均当全年平均，不凭少数点声称每日单调；模拟数据不用于证明真实天文规律。",
+        "explanation": "结果随数据不同。日期作横轴、统一小时作纵轴并使用一致尺度；描述观测范围内的差异。不把极值平均当全年平均，不凭少数点声称每日单调；模拟数据不用于证明真实天文规律。",
+        "rubric": [
+          "提交两地各至少6点数据和来源/模拟说明",
+          "统一单位及时间顺序并实际绘图",
+          "结论引用具体点而非只写变长变短",
+          "明确样本日期和地点限制"
+        ]
+      }
+    },
+    {
+      "id": "cnm_119_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_119_q5",
+        "topicId": "cnm_119",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用轻质均匀三角形卡片进行悬挂实验：从两个不同位置悬挂，静止后分别描出铅垂线，取交点；第三次悬挂核对。另作三条中线，比较位置并记录误差。",
+        "answer": "均匀三角形卡片的重心应在悬挂铅垂线上，与中线交点相符。孔位、线宽、未静止、厚薄不均等造成偏差；第三线可作核验。实验吻合是观察证据，不能替代一般定理证明。",
+        "explanation": "均匀三角形卡片的重心应在悬挂铅垂线上，与中线交点相符。孔位、线宽、未静止、厚薄不均等造成偏差；第三线可作核验。实验吻合是观察证据，不能替代一般定理证明。",
+        "rubric": [
+          "提交卡片或图像记录、三个悬挂点和线",
+          "前两线不重合，第三线核验",
+          "实际画中线作对照",
+          "报告误差；若只写方案，不能标为已完成实验"
+        ]
+      }
+    },
+    {
+      "id": "cnm_141_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_141_q6",
+        "topicId": "cnm_141",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画直线l及其同侧两点A、B，作A的对称点A′，连接A′B交l于P。提交作图痕迹，证明此P使PA+PB最小，并说明为何取等点存在。",
+        "answer": "A′、B在l两侧，线段A′B必与l相交。任意Q在l上，QA=QA′，QA+QB=QA′+QB≥A′B；当Q=P三点共线时取等，因此所作P最优。",
+        "explanation": "A′、B在l两侧，线段A′B必与l相交。任意Q在l上，QA=QA′，QA+QB=QA′+QB≥A′B；当Q=P三点共线时取等，因此所作P最优。",
+        "rubric": [
+          "实际作对称点并画交点",
+          "对任意Q用对称等长改写",
+          "引用两点间线段最短",
+          "说明异侧保证交点在线段上、取等可行"
+        ]
+      }
+    },
+    {
+      "id": "cnm_210_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_210_q6",
+        "topicId": "cnm_210",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "整理至少4组弦长L和频率f的数据，逐组计算Lf并作表，判断是否支持乘积近似不变。可使用模拟表L=20、30、40、60 cm；f=600、400、300、200 Hz。说明若实际实验应控制和记录什么。",
+        "answer": "模拟表四个乘积都12000 cm·Hz，符合f=12000/L，但这是构造数据。实际实验需记录同一弦的材质、张紧状态、测量方法等，观察乘积差异；只凭模拟表不能证明真实乐器服从模型。",
+        "explanation": "模拟表四个乘积都12000 cm·Hz，符合f=12000/L，但这是构造数据。实际实验需记录同一弦的材质、张紧状态、测量方法等，观察乘积差异；只凭模拟表不能证明真实乐器服从模型。",
+        "rubric": [
+          "四组数据、来源或模拟标记",
+          "乘积与单位正确",
+          "给出条件化模型和偏差讨论",
+          "提出控制变量及重复测量，未实验不声称实测"
+        ]
+      }
+    },
+    {
+      "id": "cnm_218_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_218_q6",
+        "topicId": "cnm_218",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设计两个班同一体测指标的比较方案，说明抽样、单位、匿名记录与缺失值处理；用已获准的匿名数据或明确标注的两组模拟数据，各至少8个值，画图并选择统计量比较。不要据此作个人健康诊断。",
+        "answer": "成果包括调查问题、样本框、记录表、图、统计量和局限。模拟数据仅检验计算与表达；真实数据也只支持该指标和样本范围的结论。异常值应核对，不能为得到理想结论任意删除。",
+        "explanation": "成果包括调查问题、样本框、记录表、图、统计量和局限。模拟数据仅检验计算与表达；真实数据也只支持该指标和样本范围的结论。异常值应核对，不能为得到理想结论任意删除。",
+        "rubric": [
+          "方案覆盖抽样和统一测量口径",
+          "两组数据均至少8值，注明来源/模拟且无姓名",
+          "至少一幅比较图及合适统计量",
+          "讨论代表性/缺失值/异常值，未实施不声称完成调查"
+        ]
+      }
+    },
+    {
+      "id": "cnm_243_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_243_q5",
+        "topicId": "cnm_243",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "使用教学模拟记录：累计时间0、1、2、3 h，累计路程0、300、600、780 km。计算各段和全程平均速度，画路程—时间图，说明能否用单一300 km/h恒速模型解释全程。",
+        "answer": "三段平均速度分别300、300、180 km/h，全程780/3=260 km/h；折线最后一段斜率减小，单一300模型会预测900 km而不符。停站、加减速等可能解释差异，但这些数据不能确定具体原因。",
+        "explanation": "三段平均速度分别300、300、180 km/h，全程780/3=260 km/h；折线最后一段斜率减小，单一300模型会预测900 km而不符。停站、加减速等可能解释差异，但这些数据不能确定具体原因。",
+        "rubric": [
+          "提交表与实际绘图",
+          "分段速度及全程260正确",
+          "用模型预测与780比较",
+          "区分平均与瞬时/巡航速度，不把可能原因当已证事实"
+        ]
+      }
+    },
+    {
+      "id": "cnm_267_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_267_q6",
+        "topicId": "cnm_267",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "36 m篱笆围矩形并加一道平行于宽的隔栏，设宽x。画图、列面积模型和范围，求最大值；若宽必须为整数，最优方案是否改变？说明模型忽略的实际因素。",
+        "answer": "3x+2y=36，0<x<12，y=(36−3x)/2；S=−1.5(x−6)²+54。x=6、y=9在范围内，最大54 m²；整数限制不改变该最优值。篱笆厚度、出入口等另需说明。",
+        "explanation": "3x+2y=36，0<x<12，y=(36−3x)/2；S=−1.5(x−6)²+54。x=6、y=9在范围内，最大54 m²；整数限制不改变该最优值。篱笆厚度、出入口等另需说明。",
+        "rubric": [
+          "实际图标清3条宽和2条长",
+          "范围0<x<12与面积模型",
+          "最优尺寸可行并检查总材料36",
+          "核验整数约束和模型限制"
+        ]
+      }
+    },
+    {
+      "id": "cnm_290_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_290_q6",
+        "topicId": "cnm_290",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "把车位明确建模为长5 m、宽2.5 m的矩形，长边与路沿夹角θ。画投影图，推导完整垂直深度D=5sinθ+2.5cosθ，比较θ=30°和90°的深度；说明为何只算5sinθ不足以验证矩形能放下。",
+        "answer": "完整矩形深度来自长边和宽边的垂直分量之和。30°时D=2.5+1.25√3≈4.67 m；90°时D=5 m。只算长边投影漏掉宽度的分量，斜列平行四边形标线与矩形外包不是同一模型。",
+        "explanation": "完整矩形深度来自长边和宽边的垂直分量之和。30°时D=2.5+1.25√3≈4.67 m；90°时D=5 m。只算长边投影漏掉宽度的分量，斜列平行四边形标线与矩形外包不是同一模型。",
+        "rubric": [
+          "实际画矩形及两分量",
+          "推导完整深度表达式",
+          "计算约4.67和5 m",
+          "明确仍未验证通道、端部与实际停车可行性"
+        ]
+      }
+    },
+    {
+      "id": "cnm_291_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_291_q6",
+        "topicId": "cnm_291",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "以教学用长方体建筑模型为对象，实物尺寸长10 m、宽6 m、高4 m。按1:100画主视、左视、俯视图并标尺寸，算模型与实物体积；说明只凭轮廓能否推断内部结构。",
+        "answer": "图中长10 cm、宽6 cm、高4 cm；主视10×4、左视6×4、俯视10×6（cm），长对正、高平齐、宽相等。实物体积240 m³，模型体积240 cm³。轮廓不确定内部布局，长方体是题设模型。",
+        "explanation": "图中长10 cm、宽6 cm、高4 cm；主视10×4、左视6×4、俯视10×6（cm），长对正、高平齐、宽相等。实物体积240 m³，模型体积240 cm³。轮廓不确定内部布局，长方体是题设模型。",
+        "rubric": [
+          "实际交付三视图及比例尺寸",
+          "单位换算与对应尺寸一致",
+          "模型240 cm³及实物240 m³正确",
+          "不把简单模型当实际建筑构造认证"
+        ]
+      }
+    },
+    {
+      "id": "cnm_315_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_315_q5",
+        "topicId": "cnm_315",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设计一个双方理论获胜概率相等的理想摸球或转盘游戏，先列出等可能结果再计算。预先约定进行5批、每批20次试验，提交每批和累计频数；可用模拟工具但须注明，解释某批更偏离1/2是否推翻模型。",
+        "answer": "如均匀8格转盘双方各4格，理论各1/2；实际记录不能预先编造。比较各批和累计频率，允许非单调波动。实验可检视实现与模型差异，但100次结果不能认证公平。",
+        "explanation": "如均匀8格转盘双方各4格，理论各1/2；实际记录不能预先编造。比较各批和累计频率，允许非单调波动。实验可检视实现与模型差异，但100次结果不能认证公平。",
+        "rubric": [
+          "理论规则包含等可能与独立重复假设",
+          "完整列结果和双方概率",
+          "提交5批原始计数及累计表，注明实物或模拟",
+          "解释波动和模型限制；未试验不得声称已检验"
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_101",
+      "beforeHash": "e108a0f2e4163cf13b71558054611853586f510cc71dd8976a9aede797add18b",
+      "before": [
+        {
+          "topicId": "cnm_101",
+          "prerequisiteId": "cnm_100",
+          "strength": "hard",
+          "reason": "低碳生活的探究需要用不等式组为实际问题建模并求解"
+        },
+        {
+          "topicId": "cnm_101",
+          "prerequisiteId": "cnm_092",
+          "strength": "soft",
+          "reason": "探究中的有些数量关系也可以用方程组建模，方程组应用的经验有帮助"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_101",
+          "prerequisiteId": "cnm_100",
+          "strength": "soft",
+          "reason": "方案比较可直接计算或用一个不等式；不必先掌握所有不等式组建模。"
+        },
+        {
+          "topicId": "cnm_101",
+          "prerequisiteId": "cnm_092",
+          "strength": "soft",
+          "reason": "探究中的有些数量关系也可以用方程组建模，方程组应用的经验有帮助"
+        }
+      ]
+    },
+    {
+      "id": "cnm_119",
+      "beforeHash": "5ffa3a58ebf02008a9d89db667935e55ca09902337a1c37208c6c53ba1ec7e32",
+      "before": [
+        {
+          "topicId": "cnm_119",
+          "prerequisiteId": "cnm_113",
+          "strength": "hard",
+          "reason": "薄板的重心就是三条中线的交点，需要先理解三角形的中线"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_119",
+          "prerequisiteId": "cnm_113",
+          "strength": "soft",
+          "reason": "中线用于与悬挂结果比较；开展悬挂实验本身不必预先掌握中线性质。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_218",
+      "beforeHash": "73ad95e46d6009d2da4f7399f6ee74d3a91b3e8248075ff9ef35bf96ad278e5e",
+      "before": [
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_214",
+          "strength": "hard",
+          "reason": "调查分析中要选择合适的统计量来描述数据，需要先学会选择统计量"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_215",
+          "strength": "hard",
+          "reason": "调查分析要刻画数据的离散程度，需要先掌握极差、方差与标准差"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_217",
+          "strength": "soft",
+          "reason": "调查的数据量较大时需要分组整理，由分组数据估计平均数的方法有帮助"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_104",
+          "strength": "soft",
+          "reason": "设计调查方案时要考虑样本是否具有代表性，学过随机抽样有帮助"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_296",
+          "strength": "soft",
+          "reason": "撰写调查分析报告时要避免图表误导读者，辨识误导的能力有帮助"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_214",
+          "strength": "hard",
+          "reason": "调查分析中要选择合适的统计量来描述数据，需要先学会选择统计量"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_215",
+          "strength": "soft",
+          "reason": "部分调查需方差比较离散度，也可先用图表、频数或中位数描述；不要求所有调查先掌握全部离散量。"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_217",
+          "strength": "soft",
+          "reason": "调查的数据量较大时需要分组整理，由分组数据估计平均数的方法有帮助"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_104",
+          "strength": "soft",
+          "reason": "设计调查方案时要考虑样本是否具有代表性，学过随机抽样有帮助"
+        },
+        {
+          "topicId": "cnm_218",
+          "prerequisiteId": "cnm_296",
+          "strength": "soft",
+          "reason": "撰写调查分析报告时要避免图表误导读者，辨识误导的能力有帮助"
+        }
+      ]
+    },
+    {
+      "id": "cnm_243",
+      "beforeHash": "0e42b485c86dd186fcfe60040e098949376172ffac5ac9024ec66fcabb9c2e09",
+      "before": [
+        {
+          "topicId": "cnm_243",
+          "prerequisiteId": "cnm_242",
+          "strength": "hard",
+          "reason": "高铁运行中的数量关系可用反比例函数建模，需要先会实际问题与反比例函数"
+        },
+        {
+          "topicId": "cnm_243",
+          "prerequisiteId": "cnm_047",
+          "strength": "soft",
+          "reason": "高铁运行涉及路程、速度、时间的关系，行程问题的经验有帮助"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_243",
+          "prerequisiteId": "cnm_242",
+          "strength": "soft",
+          "reason": "固定路程的变速模型用反比例，恒定速度下路程时间为正比例；活动不必先完成全部反比例应用。"
+        },
+        {
+          "topicId": "cnm_243",
+          "prerequisiteId": "cnm_047",
+          "strength": "soft",
+          "reason": "高铁运行涉及路程、速度、时间的关系，行程问题的经验有帮助"
+        }
+      ]
+    }
+  ]
+}

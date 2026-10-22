@@ -1,0 +1,376 @@
+[
+  {
+    "topicId": "cnm_024",
+    "name": "进位制的认识与探究",
+    "decision": "revise",
+    "finding": "二进制数值正确；补计数/进位操作与解释，不能只收转换结果。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_024_q1",
+      "cnm_024_q2",
+      "cnm_024_q3",
+      "cnm_024_q4",
+      "cnm_024_q5"
+    ],
+    "snapshotSha256": "d82650edad4ecd964fd0ad915b9db42c36fa02f3cb78ab114139151ab5efced8",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "362e348394f6d579debd400eb6933f7b6ce59ec54c3e4b4bdc3c8a1c51ff0da5",
+    "postQuestionIds": [
+      "cnm_024_q1",
+      "cnm_024_q2",
+      "cnm_024_q3",
+      "cnm_024_q4",
+      "cnm_024_q5",
+      "cnm_024_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_101",
+    "name": "综合与实践：低碳生活",
+    "decision": "revise",
+    "finding": "排放因子未标模拟及人公里口径，可能误当真实测量；补数据来源/单位记录、方案不等式与建议任务。100不等式组并非所有比较唯一前提。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_101_q1",
+      "cnm_101_q2",
+      "cnm_101_q3",
+      "cnm_101_q4"
+    ],
+    "snapshotSha256": "02c627eec6cd7582abb45cb6f59014c904b86ae512095e2ea28b780c8b6de2af",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "f385b7b3ee86be3989bc0152f57142b940233c1dcf9a3bd4ef8a01706e9ecfc0",
+    "postQuestionIds": [
+      "cnm_101_q1",
+      "cnm_101_q2",
+      "cnm_101_q3",
+      "cnm_101_q4",
+      "cnm_101_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_109",
+    "name": "综合与实践：日昼时长规律的探究",
+    "decision": "revise",
+    "finding": "全年极值和数据示例不能冒充观测；补至少多日期两地点数据记录、趋势图与范围限制，q3三个时点不能证明逐日单调。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_109_q1",
+      "cnm_109_q2",
+      "cnm_109_q3",
+      "cnm_109_q4"
+    ],
+    "snapshotSha256": "8b733066a310ece61890236129c8fbcbdc20520dddb87cdfa4b59e305ac79439",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "464bd81a9c20dbe751834076d44b412956cb367ed6532535e4daa1a451524902",
+    "postQuestionIds": [
+      "cnm_109_q1",
+      "cnm_109_q2",
+      "cnm_109_q3",
+      "cnm_109_q4",
+      "cnm_109_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_119",
+    "name": "综合与实践：确定匀质薄板的重心位置",
+    "decision": "revise",
+    "finding": "悬挂两次须产生两条不同悬线；补实际悬挂记录与中线对照、误差讨论，操作前中线不是必需硬前提。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_119_q1",
+      "cnm_119_q2",
+      "cnm_119_q3",
+      "cnm_119_q4"
+    ],
+    "snapshotSha256": "60754024be5db11000755882a5601ad1eda578630d37d0d8de88baefbbbfdfd2",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "5c968e7c98fa1142cea809fc97e245fdee993ae5b944c9f71dc5a4343c099060",
+    "postQuestionIds": [
+      "cnm_119_q1",
+      "cnm_119_q2",
+      "cnm_119_q3",
+      "cnm_119_q4",
+      "cnm_119_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_141",
+    "name": "综合与实践：最短路径问题",
+    "decision": "revise",
+    "finding": "最短路计算正确但缺自己作对称点和证明；补实际作图及取等条件检验，不能只给长度。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_141_q1",
+      "cnm_141_q2",
+      "cnm_141_q3",
+      "cnm_141_q4",
+      "cnm_141_q5"
+    ],
+    "snapshotSha256": "763bba73e06c1d4d70942a4068b65e3dbc93e5b5df52a5a73581df4bbabc9e7b",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "baa9fda9b66cec84418a58453dd90c3632ddbd62baaf7daa82b31a278c54ad62",
+    "postQuestionIds": [
+      "cnm_141_q1",
+      "cnm_141_q2",
+      "cnm_141_q3",
+      "cnm_141_q4",
+      "cnm_141_q5",
+      "cnm_141_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_210",
+    "name": "综合与实践：音乐与数学",
+    "decision": "revise",
+    "finding": "弦长频率数值正确但乘积固定是题设模型；补表格与乘积检验、控制变量和外推限制，不伪造实测。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_210_q1",
+      "cnm_210_q2",
+      "cnm_210_q3",
+      "cnm_210_q4",
+      "cnm_210_q5"
+    ],
+    "snapshotSha256": "c411b81c2bc1056c38c51bedbf01e10cbb2ecc366597a634148e61749d8b844b",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "e914ad4e5608703befbb0711f3d6214245986cc5d3839b0fc581e65ef642a2dc",
+    "postQuestionIds": [
+      "cnm_210_q1",
+      "cnm_210_q2",
+      "cnm_210_q3",
+      "cnm_210_q4",
+      "cnm_210_q5",
+      "cnm_210_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_218",
+    "name": "综合与实践：学生体质健康调查与分析",
+    "decision": "revise",
+    "finding": "平均方差不足以“全面比较”体质，样本与指标条件需说明；补匿名数据/模拟任务、抽样方案和局限，避免计算当真实调查。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_218_q1",
+      "cnm_218_q2",
+      "cnm_218_q3",
+      "cnm_218_q4",
+      "cnm_218_q5"
+    ],
+    "snapshotSha256": "de53a0be3168bcfc313157b6521ddf42e006e84318b967027d10dd5e62dd21d1",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "4a1f4d8f47dd9c9fdb1378d3591eb659f16e9fe9fd927d2105f881d6fb647b4d",
+    "postQuestionIds": [
+      "cnm_218_q1",
+      "cnm_218_q2",
+      "cnm_218_q3",
+      "cnm_218_q4",
+      "cnm_218_q5",
+      "cnm_218_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_243",
+    "name": "综合与实践：高铁列车运行中的数量关系",
+    "decision": "revise",
+    "finding": "速度题数值正确，需区分全程平均速度与巡航速度；补表格模型及停站/变速限制，242反比例非恒速正比例任务唯一前提。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_243_q1",
+      "cnm_243_q2",
+      "cnm_243_q3",
+      "cnm_243_q4"
+    ],
+    "snapshotSha256": "e3fe93cb3c3cbd584206d9120148fcc1f46d58af882037155ece071e870f3057",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "40d8fe76cc606ceebb9c9006b755527eb39611e580d93cbd32582204c0ae3726",
+    "postQuestionIds": [
+      "cnm_243_q1",
+      "cnm_243_q2",
+      "cnm_243_q3",
+      "cnm_243_q4",
+      "cnm_243_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_267",
+    "name": "综合与实践：生活中的优化问题",
+    "decision": "revise",
+    "finding": "优化题值正确，补取值范围、整数方案和可行性验证的完整作品，q4需求线性只为给定假设。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_267_q1",
+      "cnm_267_q2",
+      "cnm_267_q3",
+      "cnm_267_q4",
+      "cnm_267_q5"
+    ],
+    "snapshotSha256": "e85bbf7c55f971ee7f6c1b157fe72c21156af3a1ec3acb492f547ff07054200b",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "3438cc1cdb34b59c6d580197159d49f49b6edd5bfc4310340b5bed3f972e112a",
+    "postQuestionIds": [
+      "cnm_267_q1",
+      "cnm_267_q2",
+      "cnm_267_q3",
+      "cnm_267_q4",
+      "cnm_267_q5",
+      "cnm_267_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_290",
+    "name": "综合与实践：停车设计问题",
+    "decision": "revise",
+    "finding": "原“车位深度”忽略实体矩形车宽分量，需明确现题是平行四边形标线模型；增矩形车位完整投影比较，保留教材活动内容未核实说明。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_290_q1",
+      "cnm_290_q2",
+      "cnm_290_q3",
+      "cnm_290_q4",
+      "cnm_290_q5"
+    ],
+    "snapshotSha256": "72b7445d6a283605d2388295d06e8614b5e2470849e6b9b051fff3aeb28e4b65",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "76711f5d29bb2481773859cf14ec1e931e35d1508cf93f57414b1209b7a17c6c",
+    "postQuestionIds": [
+      "cnm_290_q1",
+      "cnm_290_q2",
+      "cnm_290_q3",
+      "cnm_290_q4",
+      "cnm_290_q5",
+      "cnm_290_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_291",
+    "name": "综合与实践：建筑中的数学",
+    "decision": "revise",
+    "finding": "比例换算正确，三视图只能在给定几何体候选中判断，不能唯一确定真实建筑；补自行比例绘图与三视图、模型限制。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_291_q1",
+      "cnm_291_q2",
+      "cnm_291_q3",
+      "cnm_291_q4",
+      "cnm_291_q5"
+    ],
+    "snapshotSha256": "9c84c60978803e7700e35abd995e4ec95e0ff488e33f1d741a52016e4d4bc4ed",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "8c677e34770df9c36d4100ac36c9c68b0b237a2cf363e884918fe20fed9482e0",
+    "postQuestionIds": [
+      "cnm_291_q1",
+      "cnm_291_q2",
+      "cnm_291_q3",
+      "cnm_291_q4",
+      "cnm_291_q5",
+      "cnm_291_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_315",
+    "name": "综合与实践：用随机试验检验游戏的公平性（补充课题）",
+    "decision": "revise",
+    "finding": "q1用有限频率接近即基本公平过度断言，q4增加试验频率必更近错误；补等可能/独立假设、分批记录和有限样本局限。保持补充课题范围。",
+    "scope": "逐题文字、答案、解析、活动证据及先修首轮检查；新增任务未由真实学生实施，不是教学有效性认证",
+    "questionIds": [
+      "cnm_315_q1",
+      "cnm_315_q2",
+      "cnm_315_q3",
+      "cnm_315_q4"
+    ],
+    "snapshotSha256": "225a05dde0f66856e5ddaaf75aa2281534e49e8b88ad961b4aa59cc25972e281",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "0e4dca1781a82e043fec0d760ef549bbe547fbfefd7216a9289eddb1b011e10c",
+    "postQuestionIds": [
+      "cnm_315_q1",
+      "cnm_315_q2",
+      "cnm_315_q3",
+      "cnm_315_q4",
+      "cnm_315_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/practice.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

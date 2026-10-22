@@ -1,0 +1,743 @@
+{
+  "batch": "release-candidate-correctness",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_087",
+      "beforeHash": "00f800082f0e7277a753bb4e7d41ec80dcaf943e63da29f0c752e56fcc11c8c9",
+      "before": {
+        "id": "cnm_087",
+        "name": "二元一次方程及其解",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.1",
+        "type": "conceptual",
+        "description": "含有两个未知数且未知数的次数都是 1 的整式方程叫二元一次方程，它有无数组解。",
+        "mastery_criteria": [
+          "能判断二元一次方程",
+          "能验证一对数是否是方程的解"
+        ],
+        "diagnostic_question": {
+          "question": "x=2，y=1 是方程 x+2y=4 的解吗？",
+          "answer": "是，因为 2+2×1=4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.23",
+            "confidence": "inferred",
+            "note": "二元一次方程及其解是方程组的基础概念，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.NA.25",
+            "confidence": "inferred",
+            "note": "二元一次方程及其解是方程组的基础概念，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_087",
+        "name": "二元一次方程及其解",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.1",
+        "type": "conceptual",
+        "description": "含两个未知数、含未知数的项的总次数均为1的整式方程叫二元一次方程，可写成ax+by=c（a、b均不为0），在实数范围有无数组解。",
+        "mastery_criteria": [
+          "能判断二元一次方程",
+          "能验证一对数是否是方程的解"
+        ],
+        "diagnostic_question": {
+          "question": "x=2，y=1 是方程 x+2y=4 的解吗？",
+          "answer": "是，因为 2+2×1=4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.23",
+            "confidence": "inferred",
+            "note": "二元一次方程及其解是方程组的基础概念，课标未单列"
+          },
+          {
+            "id": "cms-2022:4.NA.25",
+            "confidence": "inferred",
+            "note": "二元一次方程及其解是方程组的基础概念，课标未单列"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_163",
+      "beforeHash": "cb13e8e18a320dbebffbc4fe7ea30073a75215ed23ed0708f2e3817a3dd9e508",
+      "before": {
+        "id": "cnm_163",
+        "name": "同底数幂的除法",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.4",
+        "type": "procedural",
+        "description": "aᵐ÷aⁿ=aᵐ⁻ⁿ（a≠0，m>n），底数不变、指数相减。",
+        "mastery_criteria": [
+          "能叙述法则",
+          "能计算同底数幂的商"
+        ],
+        "diagnostic_question": {
+          "question": "计算 x⁸÷x³。",
+          "answer": "x⁵"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.17",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_163",
+        "name": "同底数幂的除法",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.4",
+        "type": "procedural",
+        "description": "aᵐ÷aⁿ=aᵐ⁻ⁿ，其中a≠0，m、n为正整数且m>n；底数不变、指数相减。",
+        "mastery_criteria": [
+          "能叙述法则",
+          "能计算同底数幂的商"
+        ],
+        "diagnostic_question": {
+          "question": "计算 x⁸÷x³。",
+          "answer": "x⁵"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.17",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_221",
+      "beforeHash": "77d158bd65e913d61f20255f1b45bf287df32640c14f47037474e85da49b4442",
+      "before": {
+        "id": "cnm_221",
+        "name": "配方法",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "procedural",
+        "description": "通过配方把方程化为 (x+m)²=n 的形式再求解，配方时加上一次项系数一半的平方。",
+        "mastery_criteria": [
+          "能完成配方",
+          "能用配方法解方程"
+        ],
+        "diagnostic_question": {
+          "question": "用配方法解 x²-4x-1=0。",
+          "answer": "(x-2)²=5，x=2±√5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.27",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_221",
+        "name": "配方法",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 25.2",
+        "type": "procedural",
+        "description": "配方法把方程化为(x+m)²=n后求解。通常先把二次项系数化为1，再在等式两边加一次项系数一半的平方；若提取系数在括号内配方，须计入括号外倍数。",
+        "mastery_criteria": [
+          "能完成配方",
+          "能用配方法解方程"
+        ],
+        "diagnostic_question": {
+          "question": "用配方法解 x²-4x-1=0。",
+          "answer": "(x-2)²=5，x=2±√5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.27",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_087_q2",
+      "beforeHash": "db4b313422b1356127e6dca70a0319d1148e2449a444dd323f05114aa58a92dd",
+      "before": {
+        "id": "cnm_087_q2",
+        "topicId": "cnm_087",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列方程中，是二元一次方程的是",
+        "choices": [
+          {
+            "key": "A",
+            "text": "xy=3"
+          },
+          {
+            "key": "B",
+            "text": "x^2+y=1"
+          },
+          {
+            "key": "C",
+            "text": "1/x+y=2"
+          },
+          {
+            "key": "D",
+            "text": "x+y=5"
+          }
+        ],
+        "answer": "D",
+        "explanation": "二元一次方程要求含两个未知数，且未知数的次数都是 1，并且是整式方程。xy 的次数是 2，x^2 的次数是 2，1/x 不是整式，只有 x+y=5 符合。"
+      },
+      "after": {
+        "id": "cnm_087_q2",
+        "topicId": "cnm_087",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列方程中，是二元一次方程的是",
+        "choices": [
+          {
+            "key": "A",
+            "text": "xy=3"
+          },
+          {
+            "key": "B",
+            "text": "x^2+y=1"
+          },
+          {
+            "key": "C",
+            "text": "1/x+y=2"
+          },
+          {
+            "key": "D",
+            "text": "x+y=5"
+          }
+        ],
+        "answer": "D",
+        "explanation": "含未知数的项的总次数应为1。xy虽然每个字母指数为1，但该项总次数为2；x²也是二次项；1/x不是整式。只有x+y=5符合。"
+      }
+    },
+    {
+      "id": "cnm_088_q2",
+      "beforeHash": "163b0e3975129ef3a19138731a7f502f4ccc858f9d8f924a3ab905e756b95c6a",
+      "before": {
+        "id": "cnm_088_q2",
+        "topicId": "cnm_088",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列是二元一次方程组的是",
+        "choices": [
+          {
+            "key": "A",
+            "text": "{xy=2, x+y=3}"
+          },
+          {
+            "key": "B",
+            "text": "{x^2+y=1, x-y=2}"
+          },
+          {
+            "key": "C",
+            "text": "{x+y=3, x-y=1}"
+          },
+          {
+            "key": "D",
+            "text": "{x+y=3, y+z=1}"
+          }
+        ],
+        "answer": "C",
+        "explanation": "二元一次方程组要求共含两个未知数，每个方程都是二元一次方程。A 中 xy 次数为 2，B 中 x^2 次数为 2，D 含三个未知数。"
+      },
+      "after": {
+        "id": "cnm_088_q2",
+        "topicId": "cnm_088",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列是二元一次方程组的是",
+        "choices": [
+          {
+            "key": "A",
+            "text": "{xy=2, x+y=3}"
+          },
+          {
+            "key": "B",
+            "text": "{x^2+y=1, x-y=2}"
+          },
+          {
+            "key": "C",
+            "text": "{x+y=3, x-y=1}"
+          },
+          {
+            "key": "D",
+            "text": "{x+y=3, y+z=1}"
+          }
+        ],
+        "answer": "C",
+        "explanation": "方程组共含两个未知数，每个方程是一次整式方程，但不要求每个方程都含两个未知数。A含二次项xy，B含二次项x²，D共含三个未知数，只有C符合。"
+      }
+    },
+    {
+      "id": "cnm_142_q5",
+      "beforeHash": "8bf1bd2304de2f05b6654b5202eec1805b7bda4739a5cc54f8838257545e3108",
+      "before": {
+        "id": "cnm_142_q5",
+        "topicId": "cnm_142",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "已知 2^m=3，2^n=5，求 2^(m+n+1) 的值。",
+        "answer": "30",
+        "explanation": "2^(m+n+1)=2^m·2^n·2=3×5×2=30。",
+        "verify": "3*5*2"
+      },
+      "after": {
+        "id": "cnm_142_q5",
+        "topicId": "cnm_142",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "已知 2^m=3，2^n=5，求 2^(m+n+1) 的值。",
+        "answer": "30",
+        "explanation": "本题需把幂运算法则推广到非整数指数，不作为本节点正整数指数核心诊断。推广后2^(m+n+1)=2^m·2^n·2=30。",
+        "verify": "3*5*2",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_151_q2",
+      "beforeHash": "46fd660d58b842e36cc1ec7d4233484b22ecbb34adbb60c4c51a811b17d71a4d",
+      "before": {
+        "id": "cnm_151_q2",
+        "topicId": "cnm_151",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "多项式 12x²y 与 18xy² 的公因式中，数字系数是多少？",
+        "answer": "6",
+        "explanation": "公因式的系数取各项系数的最大公约数，12 与 18 的最大公约数是 6。",
+        "verify": "gcd(12,18)"
+      },
+      "after": {
+        "id": "cnm_151_q2",
+        "topicId": "cnm_151",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "提取12x²y与18xy²的公因式时，正整数数字系数所能取的最大公约数是多少？",
+        "answer": "6",
+        "explanation": "公因式不唯一；采用最大正整数系数时取gcd(12,18)=6。",
+        "verify": "gcd(12,18)",
+        "fixed_from_source": "release-candidate: 明确最大正整数系数，避免公因式不唯一"
+      }
+    },
+    {
+      "id": "cnm_163_q1",
+      "beforeHash": "503f03c94264ec5087b0dbb8ab7ae511f3300f75e2a315a60c409c3a073c193e",
+      "before": {
+        "id": "cnm_163_q1",
+        "topicId": "cnm_163",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "计算 x⁸÷x³。",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "x¹¹"
+          },
+          {
+            "key": "B",
+            "text": "x²⁴"
+          },
+          {
+            "key": "C",
+            "text": "x⁵"
+          }
+        ],
+        "explanation": "同底数幂相除，底数不变、指数相减：8-3=5，结果为 x⁵。"
+      },
+      "after": {
+        "id": "cnm_163_q1",
+        "topicId": "cnm_163",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "计算 x⁸÷x³。（x≠0）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "x¹¹"
+          },
+          {
+            "key": "B",
+            "text": "x²⁴"
+          },
+          {
+            "key": "C",
+            "text": "x⁵"
+          }
+        ],
+        "explanation": "同底数幂相除，底数不变、指数相减：8-3=5，结果为 x⁵。"
+      }
+    },
+    {
+      "id": "cnm_163_q3",
+      "beforeHash": "3726917658ed459faedb1ad21985129adc923031e193266671db80b15eeef313",
+      "before": {
+        "id": "cnm_163_q3",
+        "topicId": "cnm_163",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "已知 a^m=12，a^n=3（a≠0），则 a^(m-n) 的值是多少？",
+        "answer": "4",
+        "explanation": "a^(m-n)=a^m÷a^n=12÷3=4。",
+        "verify": "12//3"
+      },
+      "after": {
+        "id": "cnm_163_q3",
+        "topicId": "cnm_163",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "已知a^m=12、a^n=3，其中a≠0，m、n为正整数且m>n，求a^(m−n)。",
+        "answer": "4",
+        "explanation": "a^(m-n)=a^m÷a^n=12÷3=4。",
+        "verify": "12//3"
+      }
+    },
+    {
+      "id": "cnm_163_q4",
+      "beforeHash": "2d0363854d241bd1c3f5359e78b1a85bde9f7cbbea3b8a6b157e5aa51a5ac53b",
+      "before": {
+        "id": "cnm_163_q4",
+        "topicId": "cnm_163",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列计算正确的是",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "a^6÷a^2=a^3"
+          },
+          {
+            "key": "B",
+            "text": "a^5÷a=a^5"
+          },
+          {
+            "key": "C",
+            "text": "a^4÷a^4=0"
+          },
+          {
+            "key": "D",
+            "text": "a^9÷a^3=a^6"
+          }
+        ],
+        "explanation": "指数应相减：a^6÷a^2=a^4，a^5÷a=a^4，a^4÷a^4=1；只有 a^9÷a^3=a^6 正确。"
+      },
+      "after": {
+        "id": "cnm_163_q4",
+        "topicId": "cnm_163",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下列计算正确的是（a≠0）",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "a^6÷a^2=a^3"
+          },
+          {
+            "key": "B",
+            "text": "a^5÷a=a^5"
+          },
+          {
+            "key": "C",
+            "text": "a^4÷a^4=0"
+          },
+          {
+            "key": "D",
+            "text": "a^9÷a^3=a^6"
+          }
+        ],
+        "explanation": "指数应相减：a^6÷a^2=a^4，a^5÷a=a^4，a^4÷a^4=1；只有 a^9÷a^3=a^6 正确。"
+      }
+    },
+    {
+      "id": "cnm_163_q5",
+      "beforeHash": "f01909576fcf937102322dc1f716706c9382fd1c9c4bbef47eb4cb2dd1776a48",
+      "before": {
+        "id": "cnm_163_q5",
+        "topicId": "cnm_163",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "若 x^(2m+1)÷x^m=x^5（x≠0），则 m 等于多少？",
+        "answer": "4",
+        "explanation": "左边 =x^(2m+1-m)=x^(m+1)，由 m+1=5 得 m=4。",
+        "verify": "[m for m in range(0,20) if (2*m+1)-m==5]"
+      },
+      "after": {
+        "id": "cnm_163_q5",
+        "topicId": "cnm_163",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "m为正整数，若2^(2m+1)÷2^m=2^5，求m。",
+        "answer": "4",
+        "explanation": "同底数幂相除得2^(m+1)=2^5。底数2的不同整数次幂不同，所以m+1=5，m=4。",
+        "verify": "[m for m in range(0,20) if (2*m+1)-m==5]",
+        "fixed_from_source": "release-candidate: 固定底数2，排除原题x=1等反例"
+      }
+    },
+    {
+      "id": "cnm_194_q2",
+      "beforeHash": "83d3c17224435e399daabf722c1e91784f7edd9175174917ef62488def443790",
+      "before": {
+        "id": "cnm_194_q2",
+        "topicId": "cnm_194",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各式中，y 是 x 的函数的是：",
+        "choices": [
+          {
+            "key": "A",
+            "text": "y²=x"
+          },
+          {
+            "key": "B",
+            "text": "|y|=x"
+          },
+          {
+            "key": "C",
+            "text": "y=3x-2"
+          },
+          {
+            "key": "D",
+            "text": "x²+y²=1"
+          }
+        ],
+        "answer": "C",
+        "explanation": "只有 y=3x-2 中每一个 x 都对应唯一的 y；其余三式中，一个 x（如 x=1）可对应两个 y。"
+      },
+      "after": {
+        "id": "cnm_194_q2",
+        "topicId": "cnm_194",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各式中，y 是 x 的函数的是：",
+        "choices": [
+          {
+            "key": "A",
+            "text": "y²=x"
+          },
+          {
+            "key": "B",
+            "text": "|y|=x"
+          },
+          {
+            "key": "C",
+            "text": "y=3x-2"
+          },
+          {
+            "key": "D",
+            "text": "x²+y²=1"
+          }
+        ],
+        "answer": "C",
+        "explanation": "y=3x−2对每个实数x都给出唯一的y；y²=x与|y|=x在x=1时都有y=±1；x²+y²=1在x=0时有y=±1。因此只有C符合。"
+      }
+    },
+    {
+      "id": "cnm_194_q3",
+      "beforeHash": "2db969a4f19316de5b6d0b55c3676f7bd3b0218c3e255a97a0c6a90d0487cde7",
+      "before": {
+        "id": "cnm_194_q3",
+        "topicId": "cnm_194",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "水池原有水 100 m³，每小时放出 4 m³，水量 V（m³）与放水时间 t（h）的关系为 V=100-4t。其中自变量是：",
+        "choices": [
+          {
+            "key": "A",
+            "text": "V"
+          },
+          {
+            "key": "B",
+            "text": "100"
+          },
+          {
+            "key": "C",
+            "text": "4"
+          },
+          {
+            "key": "D",
+            "text": "t"
+          }
+        ],
+        "answer": "D",
+        "explanation": "水量 V 随放水时间 t 的变化而变化，t 是自变量，V 是因变量。"
+      },
+      "after": {
+        "id": "cnm_194_q3",
+        "topicId": "cnm_194",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "水池原有水100 m³，以每小时4 m³匀速放水且没有补水。在0≤t≤25内，水量V（m³）与时间t（h）的关系为V=100−4t。其中自变量是：",
+        "choices": [
+          {
+            "key": "A",
+            "text": "V"
+          },
+          {
+            "key": "B",
+            "text": "100"
+          },
+          {
+            "key": "C",
+            "text": "4"
+          },
+          {
+            "key": "D",
+            "text": "t"
+          }
+        ],
+        "answer": "D",
+        "explanation": "水量 V 随放水时间 t 的变化而变化，t 是自变量，V 是因变量。"
+      }
+    },
+    {
+      "id": "cnm_227_q4",
+      "beforeHash": "c680e6c714915c3245f4fbac24d26680c584dd856863262cdc4564d11789a147",
+      "before": {
+        "id": "cnm_227_q4",
+        "topicId": "cnm_227",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "有一个人患流感，经过两轮传染后共有 121 人患流感（含最初的患者），每轮传染中平均一个人传染几个人？",
+        "answer": "10",
+        "explanation": "设每轮一人传染 x 人，则 1+x+x(1+x)=121，即 (1+x)²=121，1+x=±11，x=10 或 x=-12（舍去）。",
+        "verify": "isqrt(121)-1"
+      },
+      "after": {
+        "id": "cnm_227_q4",
+        "topicId": "cnm_227",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "理想化消息转发模型：初始1人收到消息。每轮开始时，所有已收到消息的人各向x个新对象转发；接收对象互不重复且此前未收到消息，新接收者从下一轮参与。两轮后累计121人收到消息，求非负整数x。",
+        "answer": "10",
+        "explanation": "第一轮后累计1+x人；第二轮新增x(1+x)人。因此(1+x)²=121。x=10或−12，按非负整数条件取10；这是按题设构造的计数模型。",
+        "verify": "isqrt(121)-1",
+        "fixed_from_source": "release-candidate: 将缺少传播条件的题目改为完整的消息转发计数模型"
+      }
+    },
+    {
+      "id": "cnm_088_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_088_q6",
+        "topicId": "cnm_088",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "{x=1，x+y=3}是二元一次方程组吗？求一组公共解并逐式检验。",
+        "answer": "是。方程组共含x、y两个未知数，两个方程都是一次方程；x=1、y=2满足1=1和1+2=3。",
+        "explanation": "是。方程组共含x、y两个未知数，两个方程都是一次方程；x=1、y=2满足1=1和1+2=3。",
+        "rubric": [
+          "不误认为每个方程必须含两个未知数",
+          "求出(1,2)",
+          "同时检验两个方程"
+        ]
+      }
+    },
+    {
+      "id": "cnm_151_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_151_q6",
+        "topicId": "cnm_151",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明把2x²+2x分解成2x·x。他漏了什么？写出正确分解，并展开检验。",
+        "answer": "漏了括号内的1。2x²+2x=2x(x+1)，展开为2x²+2x；原写法只有2x²。",
+        "explanation": "漏了括号内的1。2x²+2x=2x(x+1)，展开为2x²+2x；原写法只有2x²。",
+        "rubric": [
+          "指出原式第二项遗漏",
+          "括号保留x+1",
+          "展开恢复原式"
+        ]
+      }
+    },
+    {
+      "id": "cnm_194_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_194_q6",
+        "topicId": "cnm_194",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "对每个实数x规定y=2，y是否为x的函数？y=x²中x=−1和x=1都对应y=1，会不会破坏函数定义？",
+        "answer": "两者都是函数。函数要求每个允许的x唯一对应一个y，允许不同x对应同一个y；也允许函数值恒定。",
+        "explanation": "两者都是函数。函数要求每个允许的x唯一对应一个y，允许不同x对应同一个y；也允许函数值恒定。",
+        "rubric": [
+          "用每个x对应唯一y判断常值函数",
+          "区分一对多与多对一",
+          "不要求y必须变化或不同x有不同y"
+        ]
+      }
+    },
+    {
+      "id": "cnm_221_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_221_q5",
+        "topicId": "cnm_221",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用配方法解2x²−8x+2=0，写出先化二次项系数为1以及两边同时加数的过程。",
+        "answer": "两边除以2得x²−4x+1=0，移项x²−4x=−1，两边加4得(x−2)²=3，所以x=2±√3。",
+        "explanation": "两边除以2得x²−4x+1=0，移项x²−4x=−1，两边加4得(x−2)²=3，所以x=2±√3。",
+        "rubric": [
+          "先同除以2",
+          "两边同时加4并写成完全平方",
+          "保留正负两根2±√3"
+        ]
+      }
+    },
+    {
+      "id": "cnm_227_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_227_q5",
+        "topicId": "cnm_227",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "某产量连续两个月按相同增长率增长，由100增至144。自行设未知数、列方程、求解，并说明舍根依据。",
+        "answer": "设月增长率为x≥0。首月100(1+x)，次月100(1+x)²=144；得x=0.2或−2.2。负根不满足增长率非负且会使首月产量负，舍去；月增长率20%。",
+        "explanation": "设月增长率为x≥0。首月100(1+x)，次月100(1+x)²=144；得x=0.2或−2.2。负根不满足增长率非负且会使首月产量负，舍去；月增长率20%。",
+        "rubric": [
+          "逐月乘以1+x并列平方模型",
+          "求得两个代数根",
+          "依增长与产量约束舍去−2.2",
+          "以20%解释结论"
+        ]
+      }
+    }
+  ],
+  "dependencies": []
+}

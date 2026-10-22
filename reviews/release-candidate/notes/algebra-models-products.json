@@ -1,0 +1,578 @@
+[
+  {
+    "topicId": "cnm_046",
+    "name": "配套与工程问题",
+    "decision": "revise",
+    "finding": "配套和效率数值正确，但未检查建模过程；补工作总量归一、效率恒定假设和配套比例的完整列式任务。",
+    "questionIds": [
+      "cnm_046_q1",
+      "cnm_046_q2",
+      "cnm_046_q3",
+      "cnm_046_q4"
+    ],
+    "snapshotSha256": "3146916846d154318907e49263adc8884953a95ae4658ff2af7609359ae9623d",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "4b05a83d7f64ca13ab0b2cbdf21caba057de0418ac3eebadf5842d64908006d9",
+    "postQuestionIds": [
+      "cnm_046_q1",
+      "cnm_046_q2",
+      "cnm_046_q3",
+      "cnm_046_q4",
+      "cnm_046_q5",
+      "cnm_046_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_047",
+    "name": "行程问题（相遇与追及）",
+    "decision": "revise",
+    "finding": "掌握标准要求线段图但四题仅数字；补相遇与追及画图、时间起点区别，保留原题。",
+    "questionIds": [
+      "cnm_047_q1",
+      "cnm_047_q2",
+      "cnm_047_q3",
+      "cnm_047_q4"
+    ],
+    "snapshotSha256": "64e09e68beea846015e1f49cf86463c9a43ddb172198084170bcefdbf9c996d1",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "60ee88fc7994f719e6636257e8b8a33709fb8f1552f73310c8d1540587403f15",
+    "postQuestionIds": [
+      "cnm_047_q1",
+      "cnm_047_q2",
+      "cnm_047_q3",
+      "cnm_047_q4",
+      "cnm_047_q5",
+      "cnm_047_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_048",
+    "name": "销售与利润问题",
+    "decision": "revise",
+    "finding": "价格题答案正确，补利润率分母为进价的解释与方程过程；折扣节点只覆盖部分题，不应作全部利润任务硬门槛。",
+    "questionIds": [
+      "cnm_048_q1",
+      "cnm_048_q2",
+      "cnm_048_q3",
+      "cnm_048_q4"
+    ],
+    "snapshotSha256": "c6444760505b10ac13a59e9d3f798fc3f2e90be7fe50f8e00e2beebf824c1148",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "73c2d1d95d296fabcca7c4abcadfa5f6faa4c513a025eea6ed851b26327899e9",
+    "postQuestionIds": [
+      "cnm_048_q1",
+      "cnm_048_q2",
+      "cnm_048_q3",
+      "cnm_048_q4",
+      "cnm_048_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_049",
+    "name": "分段计费与方案选择",
+    "decision": "revise",
+    "finding": "名称为分段计费但现题均整段线性方案；增加真实起步量/超出量分段计费及分段有效性核验。",
+    "questionIds": [
+      "cnm_049_q1",
+      "cnm_049_q2",
+      "cnm_049_q3",
+      "cnm_049_q4"
+    ],
+    "snapshotSha256": "5a95e9d0b5b0a14c91ac76886fa35a47d0648620e598b61a0502bb705eb6a7ec",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "9b7405b5cd6915b0f233caaffdce9b7cfc8c548ea15e2a1293a509f22ec7cf20",
+    "postQuestionIds": [
+      "cnm_049_q1",
+      "cnm_049_q2",
+      "cnm_049_q3",
+      "cnm_049_q4",
+      "cnm_049_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_077",
+    "name": "无理数",
+    "decision": "revise",
+    "finding": "无限不循环辨析已有证据；会开平方不是理解所有无理数定义的必要条件，075硬边降soft并保留根式示例支持。",
+    "questionIds": [
+      "cnm_077_q1",
+      "cnm_077_q2",
+      "cnm_077_q3",
+      "cnm_077_q4"
+    ],
+    "snapshotSha256": "fb10bf129eb3f61659e5b0ddded735f08520a37c16717ea9895d498692cefe69",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "1d5b9de8284c8ced51024604fe96b2837b17954919bda5884234ac2015f7b3b4",
+    "postQuestionIds": [
+      "cnm_077_q1",
+      "cnm_077_q2",
+      "cnm_077_q3",
+      "cnm_077_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_080",
+    "name": "实数的运算",
+    "decision": "revise",
+    "finding": "q4完全平方根式展开在七下节点引入八上公式，应移拓展或给不依赖后学公式的核心替代任务；近似计算q5正确。",
+    "questionIds": [
+      "cnm_080_q1",
+      "cnm_080_q2",
+      "cnm_080_q3",
+      "cnm_080_q4",
+      "cnm_080_q5"
+    ],
+    "snapshotSha256": "ceb2371bc796e0211eed7ff4eac48d343ca7779a79e293f572a993710b513168",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "c62f1889f8de37f25f7ef80be25614adef3dfb0823cb67d6230f3acbac291eb3",
+    "postQuestionIds": [
+      "cnm_080_q1",
+      "cnm_080_q2",
+      "cnm_080_q3",
+      "cnm_080_q4",
+      "cnm_080_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_087",
+    "name": "二元一次方程及其解",
+    "decision": "revise",
+    "finding": "“未知数次数都是1”会误含xy，应明确各未知项总次数1、整理后两未知数系数非零；q2解析需说项次数，现答案正确。",
+    "questionIds": [
+      "cnm_087_q1",
+      "cnm_087_q2",
+      "cnm_087_q3",
+      "cnm_087_q4",
+      "cnm_087_q5"
+    ],
+    "snapshotSha256": "3bce686600383caa7c288bf325f73d1253f3cc25b9e7a855d64799da31e25286",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "7df4d7b65d9edf319f1c8f35e01a5e97c046533b2b46d4a92a9e490609e6134f",
+    "postQuestionIds": [
+      "cnm_087_q1",
+      "cnm_087_q2",
+      "cnm_087_q3",
+      "cnm_087_q4",
+      "cnm_087_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_088",
+    "name": "二元一次方程组及其解",
+    "decision": "revise",
+    "finding": "方程组不要求每个方程都同时含两未知数；q2解析与先修理由过强，补{x=1,x+y=3}反例辨析，检验题正确。",
+    "questionIds": [
+      "cnm_088_q1",
+      "cnm_088_q2",
+      "cnm_088_q3",
+      "cnm_088_q4",
+      "cnm_088_q5"
+    ],
+    "snapshotSha256": "044c7f2c8fcd9843d9f2470f6f9d087ac8fa6ed57d39e9a059d5d72f6a0da638",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "ae58d05596d2a837859e488fd329aa7187472d409a98584a4df86c216f560f59",
+    "postQuestionIds": [
+      "cnm_088_q1",
+      "cnm_088_q2",
+      "cnm_088_q3",
+      "cnm_088_q4",
+      "cnm_088_q5",
+      "cnm_088_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_092",
+    "name": "方程组应用的常见类型",
+    "decision": "revise",
+    "finding": "浓度和行程题只有结果，补至少一个质量守恒完整列式解释；q5已检验非整数人数。",
+    "questionIds": [
+      "cnm_092_q1",
+      "cnm_092_q2",
+      "cnm_092_q3",
+      "cnm_092_q4",
+      "cnm_092_q5"
+    ],
+    "snapshotSha256": "dd992f3559d71d2cee59227d430975318e5dba9a0ee487ad25e6fbdc239d7351",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "72f3a0d22e50e57d8ff85ba62bd22b4cc23d8dfdf38aae87e94313bbbed82c25",
+    "postQuestionIds": [
+      "cnm_092_q1",
+      "cnm_092_q2",
+      "cnm_092_q3",
+      "cnm_092_q4",
+      "cnm_092_q5",
+      "cnm_092_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_094",
+    "name": "不等式及其解集",
+    "decision": "retain",
+    "finding": "文字不等关系、解与解集、整数范围题均有直接证据，现答案正确。",
+    "questionIds": [
+      "cnm_094_q1",
+      "cnm_094_q2",
+      "cnm_094_q3",
+      "cnm_094_q4"
+    ],
+    "snapshotSha256": "728bb81d5b7973214b4f6a87c3b7be90d9f8b50fc9cd6084819dce6f0008a4f2",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "728bb81d5b7973214b4f6a87c3b7be90d9f8b50fc9cd6084819dce6f0008a4f2",
+    "postQuestionIds": [
+      "cnm_094_q1",
+      "cnm_094_q2",
+      "cnm_094_q3",
+      "cnm_094_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_100",
+    "name": "不等式组的应用",
+    "decision": "revise",
+    "finding": "q1要求列不等式组但只收人数，补完整列式和整数方案核验任务，数值结果5/6及上界8正确。",
+    "questionIds": [
+      "cnm_100_q1",
+      "cnm_100_q2",
+      "cnm_100_q3",
+      "cnm_100_q4"
+    ],
+    "snapshotSha256": "b4abb6983d13c3e579aaa21e191124d4d6b80fa8da7dcc02c09c8628b531d8a7",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "4133e9ad653d2503fff0cb238df28a64e19d43d9cf9c8e2549d4667c509fa8f6",
+    "postQuestionIds": [
+      "cnm_100_q1",
+      "cnm_100_q2",
+      "cnm_100_q3",
+      "cnm_100_q4",
+      "cnm_100_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_142",
+    "name": "同底数幂的乘法",
+    "decision": "revise",
+    "finding": "q5假设2^m=3要求非整数指数，超出本节点正整数指数法则范围，移拓展且注明依赖扩展指数法则；其余题保留。",
+    "questionIds": [
+      "cnm_142_q1",
+      "cnm_142_q2",
+      "cnm_142_q3",
+      "cnm_142_q4",
+      "cnm_142_q5"
+    ],
+    "snapshotSha256": "546c08947252e506a4274be1789866b406a00ca3dd0c088a51549cf124b2e655",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "74ce3b568b2fb28c79b4bf949ad6901d58643b3cef1cb63e7a58238121a4eb90",
+    "postQuestionIds": [
+      "cnm_142_q1",
+      "cnm_142_q2",
+      "cnm_142_q3",
+      "cnm_142_q4",
+      "cnm_142_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_143",
+    "name": "幂的乘方与积的乘方",
+    "decision": "retain",
+    "finding": "三种幂法则辨析和负系数、指数题正确；描述补指数为正整数可与后续零/负指数节点区别。",
+    "questionIds": [
+      "cnm_143_q1",
+      "cnm_143_q2",
+      "cnm_143_q3",
+      "cnm_143_q4",
+      "cnm_143_q5"
+    ],
+    "snapshotSha256": "fbdfbff6735e857ec3b01735aca720a8e9d68b1bedb3efaaf47fab9ab1ce8e6a",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "fbdfbff6735e857ec3b01735aca720a8e9d68b1bedb3efaaf47fab9ab1ce8e6a",
+    "postQuestionIds": [
+      "cnm_143_q1",
+      "cnm_143_q2",
+      "cnm_143_q3",
+      "cnm_143_q4",
+      "cnm_143_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_144",
+    "name": "单项式乘单项式",
+    "decision": "retain",
+    "finding": "单项式乘法系数、指数和代入题支持核心，答案正确，保留。",
+    "questionIds": [
+      "cnm_144_q1",
+      "cnm_144_q2",
+      "cnm_144_q3",
+      "cnm_144_q4"
+    ],
+    "snapshotSha256": "3b809a78f9dbad6e1e41be3f81d3436ffe631620ea0fe8ca6154488c4eff8d5f",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "3b809a78f9dbad6e1e41be3f81d3436ffe631620ea0fe8ca6154488c4eff8d5f",
+    "postQuestionIds": [
+      "cnm_144_q1",
+      "cnm_144_q2",
+      "cnm_144_q3",
+      "cnm_144_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_145",
+    "name": "单项式乘多项式",
+    "decision": "retain",
+    "finding": "单项式对每项分配含负号已有选择/数值证据，保留。",
+    "questionIds": [
+      "cnm_145_q1",
+      "cnm_145_q2",
+      "cnm_145_q3",
+      "cnm_145_q4"
+    ],
+    "snapshotSha256": "ca4e44b8afff23e8569874b2f5561bd582594d63f18e376b89839cd6453966fb",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "ca4e44b8afff23e8569874b2f5561bd582594d63f18e376b89839cd6453966fb",
+    "postQuestionIds": [
+      "cnm_145_q1",
+      "cnm_145_q2",
+      "cnm_145_q3",
+      "cnm_145_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_147",
+    "name": "平方差公式",
+    "decision": "revise",
+    "finding": "多项式平方差选择题正确；q5连续迭代四因式超出核心复杂度可标拓展，补简单结构解释任务，不批量提高核心难度。",
+    "questionIds": [
+      "cnm_147_q1",
+      "cnm_147_q2",
+      "cnm_147_q3",
+      "cnm_147_q4",
+      "cnm_147_q5"
+    ],
+    "snapshotSha256": "cf28e6ba34a31c3e035070cacc540bb11add8fb9618cea3cb981cce8022f9b21",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "19de2b42b5e2c701d5af86ca82e862b5319da3c42336cb70793105b11e19e029",
+    "postQuestionIds": [
+      "cnm_147_q1",
+      "cnm_147_q2",
+      "cnm_147_q3",
+      "cnm_147_q4",
+      "cnm_147_q5",
+      "cnm_147_q6"
+    ],
+    "resolutionNote": "q5改补充是本题库对连续迭代难度的安排，不宣称课标逐题禁止该数值计算。",
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_148",
+    "name": "完全平方公式",
+    "decision": "revise",
+    "finding": "公式应用已有题；课标结构理解需补图形面积/乘法展开解释中间项的任务，图区分正长度条件。",
+    "questionIds": [
+      "cnm_148_q1",
+      "cnm_148_q2",
+      "cnm_148_q3",
+      "cnm_148_q4"
+    ],
+    "snapshotSha256": "d252d66e68ba1f9e8167781052a8db6bdb0b0b3ee1757265c3023b254b088e65",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "c00402c4c710263ef8811b5bb86e1f325c85c4dc159a6f5d60c137029996d041",
+    "postQuestionIds": [
+      "cnm_148_q1",
+      "cnm_148_q2",
+      "cnm_148_q3",
+      "cnm_148_q4",
+      "cnm_148_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_149",
+    "name": "乘法公式的综合运用",
+    "decision": "revise",
+    "finding": "综合题只收结果，补整体代换和公式选择说明；不把正确数值等同于灵活选法证据。",
+    "questionIds": [
+      "cnm_149_q1",
+      "cnm_149_q2",
+      "cnm_149_q3",
+      "cnm_149_q4"
+    ],
+    "snapshotSha256": "2dc48c6ddbe6dba4e6aae9a5462de45c3e0906118c9bb29ef93c9917cfe4393a",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "a1907867ebc8b57a0d0e89d53e7d7ef9a7d1ea4495555e37ebc7cb43d2a3e979",
+    "postQuestionIds": [
+      "cnm_149_q1",
+      "cnm_149_q2",
+      "cnm_149_q3",
+      "cnm_149_q4",
+      "cnm_149_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_150",
+    "name": "因式分解的概念",
+    "decision": "retain",
+    "finding": "因式分解方向、积形式与乘法逆关系有直接辨析题，数值核对正确，保留。",
+    "questionIds": [
+      "cnm_150_q1",
+      "cnm_150_q2",
+      "cnm_150_q3",
+      "cnm_150_q4"
+    ],
+    "snapshotSha256": "8d24d69aa79ced06dfc5a8ccac52b4b9a50c0d35a65a040fad7766c7f091e348",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "8d24d69aa79ced06dfc5a8ccac52b4b9a50c0d35a65a040fad7766c7f091e348",
+    "postQuestionIds": [
+      "cnm_150_q1",
+      "cnm_150_q2",
+      "cnm_150_q3",
+      "cnm_150_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_151",
+    "name": "提公因式法",
+    "decision": "revise",
+    "finding": "q2“公因式的数字系数”不唯一，必须说明最大正整数系数公因式；补提取后常数1不能遗漏的过程检查。",
+    "questionIds": [
+      "cnm_151_q1",
+      "cnm_151_q2",
+      "cnm_151_q3",
+      "cnm_151_q4",
+      "cnm_151_q5"
+    ],
+    "snapshotSha256": "e7fc1e807d9037f5b19e1ef69da51e3f4686c97708d24d27bdd4bb1f792ec567",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "d45078ff2ecf27dde5bf6892671653b5aba505b1abf6bd5c34b909eba6d38889",
+    "postQuestionIds": [
+      "cnm_151_q1",
+      "cnm_151_q2",
+      "cnm_151_q3",
+      "cnm_151_q4",
+      "cnm_151_q5",
+      "cnm_151_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

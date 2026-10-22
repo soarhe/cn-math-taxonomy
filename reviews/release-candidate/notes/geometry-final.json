@@ -1,0 +1,525 @@
+[
+  {
+    "topicId": "cnm_265",
+    "name": "三角形的外接圆",
+    "decision": "retain",
+    "finding": "直角外心位置、半径及钝角外心、40度圆周角对应80度圆心角计算正确，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_265_q1",
+      "cnm_265_q2",
+      "cnm_265_q3",
+      "cnm_265_q4",
+      "cnm_265_q5"
+    ],
+    "snapshotSha256": "054115b9b2250bbafa8695c0429d0d84f021070ac5cd9a5bf21285a2aaaaafc8",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "054115b9b2250bbafa8695c0429d0d84f021070ac5cd9a5bf21285a2aaaaafc8",
+    "postQuestionIds": [
+      "cnm_265_q1",
+      "cnm_265_q2",
+      "cnm_265_q3",
+      "cnm_265_q4",
+      "cnm_265_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_266",
+    "name": "正多边形与圆",
+    "decision": "revise",
+    "finding": "作正多边形描述无实际作图任务；补圆规六等分及半径/边心距标注。q3用后续cos60可改为30度直角三角形性质解释。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_266_q1",
+      "cnm_266_q2",
+      "cnm_266_q3",
+      "cnm_266_q4",
+      "cnm_266_q5"
+    ],
+    "snapshotSha256": "d7e77ff1fc5a3aa20bb0b0d7d27e8614f06da4cc5bb58cd7be936420714c27db",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "4093624b472539e341185010e33735b3192f1c92a154e09a8529e099ae014fae",
+    "postQuestionIds": [
+      "cnm_266_q1",
+      "cnm_266_q2",
+      "cnm_266_q3",
+      "cnm_266_q4",
+      "cnm_266_q5",
+      "cnm_266_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_268",
+    "name": "成比例线段",
+    "decision": "revise",
+    "finding": "比例数值正确，线段默认正长度应明确；157分式运算不是小学比例变形的必要硬门槛，降soft。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_268_q1",
+      "cnm_268_q2",
+      "cnm_268_q3",
+      "cnm_268_q4"
+    ],
+    "snapshotSha256": "f717a10de04c124f861e5c06d3d23177adc9f4483a7f6d8bc30ed0d9d1191038",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "36d5255c64117de24bb21682cd98265e0c72570d8251fa22bdcc45eac5581382",
+    "postQuestionIds": [
+      "cnm_268_q1",
+      "cnm_268_q2",
+      "cnm_268_q3",
+      "cnm_268_q4"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_269",
+    "name": "平行线分线段成比例",
+    "decision": "revise",
+    "finding": "比例结果正确，D/E位置须在边内部避免端点分母0；补自画两截线对应关系。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_269_q1",
+      "cnm_269_q2",
+      "cnm_269_q3",
+      "cnm_269_q4"
+    ],
+    "snapshotSha256": "4ad2eb0471c00fcd5f0d7e76500236a0edbd2cf578e9a6ea27aeb52054ffd507",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "b3aff12673a649dc6aee4361132517babfa4abe6cb055a8a409efea241dc9d91",
+    "postQuestionIds": [
+      "cnm_269_q1",
+      "cnm_269_q2",
+      "cnm_269_q3",
+      "cnm_269_q4",
+      "cnm_269_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_270",
+    "name": "相似多边形",
+    "decision": "retain",
+    "finding": "相似多边形边角双条件、比例方向、角和和周长正确，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_270_q1",
+      "cnm_270_q2",
+      "cnm_270_q3",
+      "cnm_270_q4",
+      "cnm_270_q5"
+    ],
+    "snapshotSha256": "872a65b61d5ba17c02a8930cd847b60ba239c0aa273c74441daa8770a6ab3e57",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "872a65b61d5ba17c02a8930cd847b60ba239c0aa273c74441daa8770a6ab3e57",
+    "postQuestionIds": [
+      "cnm_270_q1",
+      "cnm_270_q2",
+      "cnm_270_q3",
+      "cnm_270_q4",
+      "cnm_270_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_271",
+    "name": "相似三角形的判定",
+    "decision": "revise",
+    "finding": "判定选择正确，但声称会证明无完整作品；补AA及两边比夹角区别的证明过程。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_271_q1",
+      "cnm_271_q2",
+      "cnm_271_q3",
+      "cnm_271_q4",
+      "cnm_271_q5"
+    ],
+    "snapshotSha256": "7b19c325beddcf802b3b4b9296c1182169d3fcb6d888a60f781ad881e8459b81",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "370a5a1b50ba3796078cbad5d673c8602b612a300dc4926345f472e45df18c25",
+    "postQuestionIds": [
+      "cnm_271_q1",
+      "cnm_271_q2",
+      "cnm_271_q3",
+      "cnm_271_q4",
+      "cnm_271_q5",
+      "cnm_271_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_272",
+    "name": "相似三角形的性质",
+    "decision": "retain",
+    "finding": "面积比平方、对应高及周长比例数值正确，保留。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_272_q1",
+      "cnm_272_q2",
+      "cnm_272_q3",
+      "cnm_272_q4",
+      "cnm_272_q5"
+    ],
+    "snapshotSha256": "7415c5b2b2c4e17967767af10ee421bdf22b2d60e122dfb0845bea5709813ab6",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "7415c5b2b2c4e17967767af10ee421bdf22b2d60e122dfb0845bea5709813ab6",
+    "postQuestionIds": [
+      "cnm_272_q1",
+      "cnm_272_q2",
+      "cnm_272_q3",
+      "cnm_272_q4",
+      "cnm_272_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_273",
+    "name": "相似三角形的基本模型",
+    "decision": "revise",
+    "finding": "A型/8字/高模型数值正确，q4辅助线比例正确但需本人构造证明；补自画辅助线任务，作为补充模型归纳而非课标独立硬门槛。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_273_q1",
+      "cnm_273_q2",
+      "cnm_273_q3",
+      "cnm_273_q4"
+    ],
+    "snapshotSha256": "edcd63a906016c3da4f1e8ade3680e905d5bc785cc47eca0d04b764e6b5945ad",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "94dad30300a3439ac05bbc9bf01077e46e1dd6e90cdc23d91cf49f433acf2aee",
+    "postQuestionIds": [
+      "cnm_273_q1",
+      "cnm_273_q2",
+      "cnm_273_q3",
+      "cnm_273_q4",
+      "cnm_273_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_274",
+    "name": "相似三角形的实际应用",
+    "decision": "revise",
+    "finding": "高度比例正确，缺水平地面、竖直物体、太阳光平行等条件和测量方案证据；补含示意图的完整方案。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_274_q1",
+      "cnm_274_q2",
+      "cnm_274_q3",
+      "cnm_274_q4"
+    ],
+    "snapshotSha256": "026bd11cf8108a0cbc4adcbfca571da86891c02e8020794537412f1c02d416e7",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "e0ad38b61ffeef7760851cdf04f8fc87b536236f3e8da2d299198df966453c65",
+    "postQuestionIds": [
+      "cnm_274_q1",
+      "cnm_274_q2",
+      "cnm_274_q3",
+      "cnm_274_q4",
+      "cnm_274_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_275",
+    "name": "位似",
+    "decision": "revise",
+    "finding": "定义忽略对应边共线、中心点固定及统一有向比例；q4“对应边不一定平行”在共线情形可真，改为明确错误选项；补实际作位似图。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_275_q1",
+      "cnm_275_q2",
+      "cnm_275_q3",
+      "cnm_275_q4",
+      "cnm_275_q5"
+    ],
+    "snapshotSha256": "be0aa83bb426674749a241639e268b0b1ac4242e9e827881af5d9f7229d6f9db",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "863119ba3a37e50e163d5a8138354fe546fb451625172004e882be98e557529c",
+    "postQuestionIds": [
+      "cnm_275_q1",
+      "cnm_275_q2",
+      "cnm_275_q3",
+      "cnm_275_q4",
+      "cnm_275_q5",
+      "cnm_275_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_276",
+    "name": "锐角三角函数的定义",
+    "decision": "revise",
+    "finding": "边比计算正确，只有角大小影响比值的标准需相似推理过程，补解释任务。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_276_q1",
+      "cnm_276_q2",
+      "cnm_276_q3",
+      "cnm_276_q4",
+      "cnm_276_q5"
+    ],
+    "snapshotSha256": "87399285d04ac02467ddb9f26216c2ac49d9dfa6bc985b7bf9d49c11d5e9b8fb",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "b843320b77a9035b84a7ba96acd3565cb6976547084a4e9fc05a9d272a00f335",
+    "postQuestionIds": [
+      "cnm_276_q1",
+      "cnm_276_q2",
+      "cnm_276_q3",
+      "cnm_276_q4",
+      "cnm_276_q5",
+      "cnm_276_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_278",
+    "name": "解直角三角形",
+    "decision": "revise",
+    "finding": "现题多只求部分元素，补完整解三角形、选择三角函数并核验六元素任务。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_278_q1",
+      "cnm_278_q2",
+      "cnm_278_q3",
+      "cnm_278_q4",
+      "cnm_278_q5"
+    ],
+    "snapshotSha256": "439bc443eb9d442d766cab9dc1337493da47d9d2119649bd52ab0bf3b5e6287a",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "9549885317e953664379327b4eb6348da966208cd7d7ec1db8bba7ad8e688a83",
+    "postQuestionIds": [
+      "cnm_278_q1",
+      "cnm_278_q2",
+      "cnm_278_q3",
+      "cnm_278_q4",
+      "cnm_278_q5",
+      "cnm_278_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_279",
+    "name": "仰角、俯角与方向角问题",
+    "decision": "revise",
+    "finding": "仰俯与方向数值正确，但缺本人标水平线与目高作图，补仰角俯角对应说明。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_279_q1",
+      "cnm_279_q2",
+      "cnm_279_q3",
+      "cnm_279_q4",
+      "cnm_279_q5"
+    ],
+    "snapshotSha256": "7d50b298230276998dbba5cd5dc5c10ea0141145f035750f331963f545887922",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "3c17b3e50115b8920c60204a6c693d78ab76b2fc759174c61fe443010d0082dd",
+    "postQuestionIds": [
+      "cnm_279_q1",
+      "cnm_279_q2",
+      "cnm_279_q3",
+      "cnm_279_q4",
+      "cnm_279_q5",
+      "cnm_279_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_280",
+    "name": "坡度与坡角问题",
+    "decision": "revise",
+    "finding": "坡度计算正确，坝底q5补两侧向外放坡条件；补坡面长与水平宽的区别作图。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_280_q1",
+      "cnm_280_q2",
+      "cnm_280_q3",
+      "cnm_280_q4",
+      "cnm_280_q5"
+    ],
+    "snapshotSha256": "e79fca2e49896535ed9b66bb2041201cf16924ad993177ec3bcb2a674f19c8b8",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "1ae119e635cff45bf41289b51ba0edce62c9ba4fefa9312cfd86e06ee10d5be3",
+    "postQuestionIds": [
+      "cnm_280_q1",
+      "cnm_280_q2",
+      "cnm_280_q3",
+      "cnm_280_q4",
+      "cnm_280_q5",
+      "cnm_280_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_281",
+    "name": "平行投影与中心投影",
+    "decision": "revise",
+    "finding": "灯影数值正确，太阳近似平行说明合理；手电筒不可一概点光源，改理想点光源条件；补实际作投影线并求影长。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_281_q1",
+      "cnm_281_q2",
+      "cnm_281_q3",
+      "cnm_281_q4",
+      "cnm_281_q5"
+    ],
+    "snapshotSha256": "a83285a3c79e9f66e6156db4c7b98352f464c06d7a3be301720d5185f7f5c0d7",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "83ec2aeb25871ae35c86a055d2de19dc2acdc741d668f8652eaa4e001dc0b030",
+    "postQuestionIds": [
+      "cnm_281_q1",
+      "cnm_281_q2",
+      "cnm_281_q3",
+      "cnm_281_q4",
+      "cnm_281_q5",
+      "cnm_281_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_282",
+    "name": "正投影",
+    "decision": "revise",
+    "finding": "q1正投影也是平行投影，须问最具体名称避免两项均可；实际画投影标准缺证据，补平行/垂直于面两种作图，现计算正确。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_282_q1",
+      "cnm_282_q2",
+      "cnm_282_q3",
+      "cnm_282_q4",
+      "cnm_282_q5"
+    ],
+    "snapshotSha256": "f775661a716e6dc51ed44787c6a13cd80f52574a7cd632eff449fd4137bb6717",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "3bf4ab40ce95c9849570505da40d73860d5e9a15f08a379f8d35ac0bf07b6db6",
+    "postQuestionIds": [
+      "cnm_282_q1",
+      "cnm_282_q2",
+      "cnm_282_q3",
+      "cnm_282_q4",
+      "cnm_282_q5",
+      "cnm_282_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_283",
+    "name": "三视图及由三视图想象立体图形",
+    "decision": "revise",
+    "finding": "圆柱题未说明放置方向，补底面水平；正方体三视图需面与投影面平行。还原立体不能无条件唯一，补有歧义的两种搭法和实际三视图作品。",
+    "scope": "逐题文字、答案、解析及先修首轮检查；原SVG待视觉核对；非教师认证",
+    "questionIds": [
+      "cnm_283_q1",
+      "cnm_283_q2",
+      "cnm_283_q3",
+      "cnm_283_q4",
+      "cnm_283_q5"
+    ],
+    "snapshotSha256": "73ac54ef168c0232f2dc0fec37edca5aa3a7b05eaebaa0089fd88b170f5652fe",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "4b371402bf3a15964c4be7c6603209360feb1529d0b703f04519827cf0bbcf1e",
+    "postQuestionIds": [
+      "cnm_283_q1",
+      "cnm_283_q2",
+      "cnm_283_q3",
+      "cnm_283_q4",
+      "cnm_283_q5",
+      "cnm_283_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/geometry-final.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

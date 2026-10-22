@@ -1,0 +1,652 @@
+[
+  {
+    "topicId": "cnm_050",
+    "name": "立体图形与平面图形",
+    "decision": "revise",
+    "finding": "描述误把曲面立体说成由平面图形构成；圆柱侧面展开须沿母线剪开。小学圆柱体积不是识别立体图形必要硬先修，修订。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_050_q1",
+      "cnm_050_q2",
+      "cnm_050_q3",
+      "cnm_050_q4"
+    ],
+    "snapshotSha256": "73ca65d32734800967e56c0fbba0c927120a6e19ef943f175889ffecaf8830dc",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "0b0451b62d4a6187bf58994a4a4a5f45e119994362c233e796b51d195d0d7fd5",
+    "postQuestionIds": [
+      "cnm_050_q1",
+      "cnm_050_q2",
+      "cnm_050_q3",
+      "cnm_050_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_051",
+    "name": "从不同方向看与立体图形的展开图",
+    "decision": "revise",
+    "finding": "q3说上层小块被底层遮住的解释颠倒：是投影占位重合。q1背11种展开图数量不能证明辨认，改任务并补真正三方向草图证据；现图需集中渲染检查。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_051_q1",
+      "cnm_051_q2",
+      "cnm_051_q3",
+      "cnm_051_q4",
+      "cnm_051_q5"
+    ],
+    "snapshotSha256": "2e11ae7459d5e96dd11e0e859351fdcc852ff9e81df1b7180a14bd527b462761",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "39156df55d9f738a8cecad52536fd5317eedc6857646b118d99d41b47b796148",
+    "postQuestionIds": [
+      "cnm_051_q1",
+      "cnm_051_q2",
+      "cnm_051_q3",
+      "cnm_051_q4",
+      "cnm_051_q5",
+      "cnm_051_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_052",
+    "name": "点、线、面、体",
+    "decision": "revise",
+    "finding": "点动成线等表述须说明运动方向与非退化条件，避免沿自身平移也成面。旋转体与体积数值正确，补自举例解释而非仅选项辨认。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_052_q1",
+      "cnm_052_q2",
+      "cnm_052_q3",
+      "cnm_052_q4",
+      "cnm_052_q5"
+    ],
+    "snapshotSha256": "460496411bb6369b3b29d860e3a417382b4aecc882364c6e3ccd38b5c7741265",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "36d816ffeb7cfd92585c11214e21e4db1470b2d91463d91234e81ec525b547de",
+    "postQuestionIds": [
+      "cnm_052_q1",
+      "cnm_052_q2",
+      "cnm_052_q3",
+      "cnm_052_q4",
+      "cnm_052_q5",
+      "cnm_052_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_053",
+    "name": "直线、射线、线段",
+    "decision": "revise",
+    "finding": "定义辨认及计数题正确，缺实际画直线/射线/线段任务；052点线面体抽象不是射线定义的必要硬前提。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_053_q1",
+      "cnm_053_q2",
+      "cnm_053_q3",
+      "cnm_053_q4",
+      "cnm_053_q5"
+    ],
+    "snapshotSha256": "8bb0951b48a7645c58462adc1604bd76f87a0e40511071d6eb174efc124092f4",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "14255e1f5df2383ee368884aa43d94f7237e1115d02e53ba98b041a65f8da37b",
+    "postQuestionIds": [
+      "cnm_053_q1",
+      "cnm_053_q2",
+      "cnm_053_q3",
+      "cnm_053_q4",
+      "cnm_053_q5",
+      "cnm_053_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_054",
+    "name": "直线与线段的基本事实",
+    "decision": "retain",
+    "finding": "两条基本事实及生活辨认、三点计数、最短折线路径答案一致；明确距离为长度，首轮保留。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_054_q1",
+      "cnm_054_q2",
+      "cnm_054_q3",
+      "cnm_054_q4",
+      "cnm_054_q5"
+    ],
+    "snapshotSha256": "dae8ec8c1de5f8093ead4021302fbbaefea26901f44f5f47f97ce5b22e2baeaa",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "dae8ec8c1de5f8093ead4021302fbbaefea26901f44f5f47f97ce5b22e2baeaa",
+    "postQuestionIds": [
+      "cnm_054_q1",
+      "cnm_054_q2",
+      "cnm_054_q3",
+      "cnm_054_q4",
+      "cnm_054_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_055",
+    "name": "线段的比较与运算",
+    "decision": "revise",
+    "finding": "中点、叠合判断与两种共线位置计算正确；缺实际测量/叠合作业，补过程证据。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_055_q1",
+      "cnm_055_q2",
+      "cnm_055_q3",
+      "cnm_055_q4",
+      "cnm_055_q5"
+    ],
+    "snapshotSha256": "013c18be023d36bba20670452bf4bf2e3ec4b174a3037be9046a63d4b6a8b6a1",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "79800d0fbfd2130db6e0485dde3efc6926c772c32573b0f4f35062838e4bceb5",
+    "postQuestionIds": [
+      "cnm_055_q1",
+      "cnm_055_q2",
+      "cnm_055_q3",
+      "cnm_055_q4",
+      "cnm_055_q5",
+      "cnm_055_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_056",
+    "name": "角的概念与表示",
+    "decision": "revise",
+    "finding": "q4须明确OB、OC在小于平角的AOD内部且四射线不同，避免位置歧义；角命名题正确。角概念不应强依赖熟练角度量，调整小学边。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_056_q1",
+      "cnm_056_q2",
+      "cnm_056_q3",
+      "cnm_056_q4",
+      "cnm_056_q5"
+    ],
+    "snapshotSha256": "0372ec0bc55cd3615add9f0776bbfd5f934dc7edf4aca291e0c59db81961ba9b",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "07507cd96d62a4ba5279eaf1dd554370f32d781c72b9544f30ad6e0c6038ca45",
+    "postQuestionIds": [
+      "cnm_056_q1",
+      "cnm_056_q2",
+      "cnm_056_q3",
+      "cnm_056_q4",
+      "cnm_056_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_057",
+    "name": "度、分、秒及其换算",
+    "decision": "retain",
+    "finding": "度分秒五题数值及六十进制进退位正确，含秒换度和借位；类比时间为soft合理。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_057_q1",
+      "cnm_057_q2",
+      "cnm_057_q3",
+      "cnm_057_q4",
+      "cnm_057_q5"
+    ],
+    "snapshotSha256": "8613a667af18bdf3e5028aaca003918031842d13a22ca851e56702106a10a761",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "8613a667af18bdf3e5028aaca003918031842d13a22ca851e56702106a10a761",
+    "postQuestionIds": [
+      "cnm_057_q1",
+      "cnm_057_q2",
+      "cnm_057_q3",
+      "cnm_057_q4",
+      "cnm_057_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_058",
+    "name": "角的比较与运算（含角平分线）",
+    "decision": "revise",
+    "finding": "角和差、倍分及两位置答案正确；057完整度分秒换算不是整度角比较与平分线任务必要门槛，降soft。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_058_q1",
+      "cnm_058_q2",
+      "cnm_058_q3",
+      "cnm_058_q4",
+      "cnm_058_q5"
+    ],
+    "snapshotSha256": "2d02593f0c6b60590ba987cc7d70b00a5709d5950b6543e540e6a6fd22f827c2",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "48f9e1404d603f00fbbae7e1975f86d6dd9aa6428730e4bf32db15da035a5467",
+    "postQuestionIds": [
+      "cnm_058_q1",
+      "cnm_058_q2",
+      "cnm_058_q3",
+      "cnm_058_q4",
+      "cnm_058_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_059",
+    "name": "余角和补角",
+    "decision": "retain",
+    "finding": "互余互补定义及五题计算一致，已有度分借位和一元一次条件题，首轮保留。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_059_q1",
+      "cnm_059_q2",
+      "cnm_059_q3",
+      "cnm_059_q4",
+      "cnm_059_q5"
+    ],
+    "snapshotSha256": "9bddf8f08ce8b3593f9f9fe1800df94e0716c994925c542e590392dc9c9c461e",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "9bddf8f08ce8b3593f9f9fe1800df94e0716c994925c542e590392dc9c9c461e",
+    "postQuestionIds": [
+      "cnm_059_q1",
+      "cnm_059_q2",
+      "cnm_059_q3",
+      "cnm_059_q4",
+      "cnm_059_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_060",
+    "name": "同角（等角）的余角、补角相等",
+    "decision": "revise",
+    "finding": "选项可识别理由但无法证明会书写推理，增加同角/等角余补相等的完整说理。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_060_q1",
+      "cnm_060_q2",
+      "cnm_060_q3",
+      "cnm_060_q4",
+      "cnm_060_q5"
+    ],
+    "snapshotSha256": "439a2bc3c245bc173922a45383892412c4e8143c25db3e01476dbcea8cd53d7e",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "e9fa88d60f56fd20eeb7cb58df3d66fc9174dc39a9c118d1940c07d99b5ce61e",
+    "postQuestionIds": [
+      "cnm_060_q1",
+      "cnm_060_q2",
+      "cnm_060_q3",
+      "cnm_060_q4",
+      "cnm_060_q5",
+      "cnm_060_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_062",
+    "name": "邻补角",
+    "decision": "revise",
+    "finding": "五题角度/数量正确，但图中找邻补角的标准无实际图例定位作答，补带标签图。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_062_q1",
+      "cnm_062_q2",
+      "cnm_062_q3",
+      "cnm_062_q4",
+      "cnm_062_q5"
+    ],
+    "snapshotSha256": "145804b4c96e555be9c2f4df1549ccfdfb7e529e69fa228cb87d82085944e16b",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "8ee930e217ece46ff063490c4832e93393b3261acd0a25bfca4640d1c018d7ea",
+    "postQuestionIds": [
+      "cnm_062_q1",
+      "cnm_062_q2",
+      "cnm_062_q3",
+      "cnm_062_q4",
+      "cnm_062_q5",
+      "cnm_062_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_063",
+    "name": "对顶角及其性质",
+    "decision": "revise",
+    "finding": "对顶角识别和六射线计数正确；缺本人写出由共同邻补角推出相等的过程。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_063_q1",
+      "cnm_063_q2",
+      "cnm_063_q3",
+      "cnm_063_q4",
+      "cnm_063_q5"
+    ],
+    "snapshotSha256": "5da2a238133483f7c3f5552315f66e3b29794404de2304d9fd3043476ec8c7ac",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "3389667f9929b9c84c15dcd35a84b413528578bee344ad3f40e9bd1e5d7d6f3b",
+    "postQuestionIds": [
+      "cnm_063_q1",
+      "cnm_063_q2",
+      "cnm_063_q3",
+      "cnm_063_q4",
+      "cnm_063_q5",
+      "cnm_063_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_064",
+    "name": "垂线",
+    "decision": "revise",
+    "finding": "三角尺步骤选择题不能替代实际作图，补线外与线上两种作垂线操作；q5角位置与140度结果一致。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_064_q1",
+      "cnm_064_q2",
+      "cnm_064_q3",
+      "cnm_064_q4",
+      "cnm_064_q5"
+    ],
+    "snapshotSha256": "409a5477f9f4157b9843ecb7b65da8664a09945d234f3271b4dfbf255ccf794e",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "21292c968c50c42c594ee12aa9d78e3f68c9c601f4463713e1599eabc07854ef",
+    "postQuestionIds": [
+      "cnm_064_q1",
+      "cnm_064_q2",
+      "cnm_064_q3",
+      "cnm_064_q4",
+      "cnm_064_q5",
+      "cnm_064_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_065",
+    "name": "垂线段最短与点到直线的距离",
+    "decision": "revise",
+    "finding": "已知三个连线长只能得距离上界的题正确；增加实际作垂足和度量记录。054两点间最短是相关事实而非距离定义的唯一前提，降soft。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_065_q1",
+      "cnm_065_q2",
+      "cnm_065_q3",
+      "cnm_065_q4",
+      "cnm_065_q5"
+    ],
+    "snapshotSha256": "98287c98caea8a67c8d8c1e6d5c5aac3fc46a85de18440c50cf7a9be22ad34ba",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "1af7bafa6aaa4960998cc38d24b14f61a0cb8bc3398989978f91b836ccc47d70",
+    "postQuestionIds": [
+      "cnm_065_q1",
+      "cnm_065_q2",
+      "cnm_065_q3",
+      "cnm_065_q4",
+      "cnm_065_q5",
+      "cnm_065_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_066",
+    "name": "同位角、内错角、同旁内角",
+    "decision": "revise",
+    "finding": "三线八角需明确截线与被截两线相交于两个不同点；图中定位需多对角辨认。对顶角性质不应是位置识别的硬门槛。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_066_q1",
+      "cnm_066_q2",
+      "cnm_066_q3",
+      "cnm_066_q4",
+      "cnm_066_q5"
+    ],
+    "snapshotSha256": "20fdf745523b9e63fda25f2d287fe42c0a412b0ac8faac0f517a284142a76447",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "a26b1efe50e97122138d008efafaf97341cb4b93c836630e75968bd15c3640a0",
+    "postQuestionIds": [
+      "cnm_066_q1",
+      "cnm_066_q2",
+      "cnm_066_q3",
+      "cnm_066_q4",
+      "cnm_066_q5",
+      "cnm_066_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_067",
+    "name": "平行线与平行公理",
+    "decision": "revise",
+    "finding": "平行公理和交点数量正确；描述推论须补两条直线不同，054两点定直线只是类比应降soft。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_067_q1",
+      "cnm_067_q2",
+      "cnm_067_q3",
+      "cnm_067_q4",
+      "cnm_067_q5"
+    ],
+    "snapshotSha256": "90f9d9d75597aadcbf0752dd41762292bb589956e50d92cd4ca9052fa75af70c",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "c9e9808fe3df4bf7bd667166565bf8565c921d9a7a3ea3c94aa461d28d5a1a30",
+    "postQuestionIds": [
+      "cnm_067_q1",
+      "cnm_067_q2",
+      "cnm_067_q3",
+      "cnm_067_q4",
+      "cnm_067_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_068",
+    "name": "平行线的判定",
+    "decision": "revise",
+    "finding": "判定选择与代数计算正确，q4主要测性质；增加读图并完整写出判定推理的过程。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_068_q1",
+      "cnm_068_q2",
+      "cnm_068_q3",
+      "cnm_068_q4",
+      "cnm_068_q5"
+    ],
+    "snapshotSha256": "69ff7273eb66cc886af70c93f8452f5af07ff2be7a52b189d8c7c2395a0161e1",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "a2951b657656429043bd582ab86622d6c00e3870c417c470f76054894f424beb",
+    "postQuestionIds": [
+      "cnm_068_q1",
+      "cnm_068_q2",
+      "cnm_068_q3",
+      "cnm_068_q4",
+      "cnm_068_q5",
+      "cnm_068_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_069",
+    "name": "平行线的性质",
+    "decision": "retain",
+    "finding": "性质方向清楚，角方程及角平分线计算正确；图形实际定位的不足将由066/068任务补充，单节点不宣称覆盖作图证明。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_069_q1",
+      "cnm_069_q2",
+      "cnm_069_q3",
+      "cnm_069_q4",
+      "cnm_069_q5"
+    ],
+    "snapshotSha256": "c79380768436505a66b451ea0b947ae9a6874911918b4c132fcc37b5a0134628",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "postImplementationSha256": "c79380768436505a66b451ea0b947ae9a6874911918b4c132fcc37b5a0134628",
+    "postQuestionIds": [
+      "cnm_069_q1",
+      "cnm_069_q2",
+      "cnm_069_q3",
+      "cnm_069_q4",
+      "cnm_069_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_070",
+    "name": "平行线判定与性质的综合应用",
+    "decision": "revise",
+    "finding": "q5只有∠1=∠2未指明角位置，不能据此有效判平行；补同位角前提。含折线题需本人画辅助平行线并给依据；q4用三角形角和，后学内容标明补充。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_070_q1",
+      "cnm_070_q2",
+      "cnm_070_q3",
+      "cnm_070_q4",
+      "cnm_070_q5"
+    ],
+    "snapshotSha256": "13399b52d5091ffb43b24983fdb3f9a4cd81708dfa20df132ae0b1cc178391e5",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "7d9d748389d0a040e664b76a44c6b6f7bc1dbc9df30b4716df113e6ef34ef9e9",
+    "postQuestionIds": [
+      "cnm_070_q1",
+      "cnm_070_q2",
+      "cnm_070_q3",
+      "cnm_070_q4",
+      "cnm_070_q5",
+      "cnm_070_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_061",
+    "name": "综合与实践：设计学校田径运动会比赛场地",
+    "decision": "revise",
+    "finding": "运动会场地为综合实践，五题仅计算或选择，不足以支撑设计场地、尺寸标注、解释合理性；补可执行设计作品与限制反思任务。",
+    "scope": "首轮题干、选项文字、答案、解析、能力描述及先修理由检查；已有SVG仅确认存在，尚待图形核对；非独立盲解、非教师认证",
+    "questionIds": [
+      "cnm_061_q1",
+      "cnm_061_q2",
+      "cnm_061_q3",
+      "cnm_061_q4",
+      "cnm_061_q5"
+    ],
+    "snapshotSha256": "9857221b33d54a0c25107eef953971094ce4b6659e05d8a6879dd19d4f056970",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "figureReviewStatus": "see-release-acceptance-for-exact-figure-scope",
+    "patches": [
+      "authoring/release-candidate/geometry-foundations.json"
+    ],
+    "postImplementationSha256": "d26e7070b2286ac3cd9da127e174354cb4777d310c2838ee17b2faf593261c92",
+    "postQuestionIds": [
+      "cnm_061_q1",
+      "cnm_061_q2",
+      "cnm_061_q3",
+      "cnm_061_q4",
+      "cnm_061_q5",
+      "cnm_061_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

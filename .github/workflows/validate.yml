@@ -11,13 +11,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: python scripts/validate.py
-      - run: python scripts/build_statistics.py --check
-      - run: python scripts/build_algebra.py --check
-      - run: python scripts/build_algebra_d2.py --check
-      - run: python scripts/build_algebra_d3.py --check
-      - run: python scripts/build_algebra_d4.py --check
-      - run: python scripts/build_algebra_d5.py --check
-      - run: python -m unittest discover -s tests -p 'test_*build.py'
-      - run: node tests/test_engine.js
-      - run: python scripts/verify_questions.py --file data/questions.json --report /tmp/current-verification.json
+      - run: python scripts/validate_release_candidate.py

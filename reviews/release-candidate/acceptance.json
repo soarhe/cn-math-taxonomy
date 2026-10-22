@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-22",
+  "dataVersion": "junior-2026-10.1",
+  "engineVersion": "evidence-1.2",
+  "status": "local-release-acceptance-passed",
+  "command": "python3 scripts/validate_release_candidate.py",
+  "checks": {
+    "structure": "passed",
+    "historicalPatches": 6,
+    "releaseCandidatePatches": 16,
+    "patchReplayChecks": "passed",
+    "pythonTests": {
+      "passed": 34,
+      "failed": 0
+    },
+    "engineTests": {
+      "passed": 98,
+      "failed": 0
+    },
+    "svgStructuralCheck": {
+      "figures": 146,
+      "passed": true
+    },
+    "answerVerification": {
+      "total": 6407,
+      "autoVerified": 5590,
+      "mismatch": 0,
+      "unverifiable": 817,
+      "unverifiableByType": {
+        "choice": 495,
+        "numeric": 39,
+        "self": 260,
+        "short": 23
+      }
+    }
+  },
+  "visualReview": {
+    "reviewedQuestionIds": [
+      "cnm_050_q1",
+      "cnm_051_q1",
+      "cnm_051_q3",
+      "cnm_056_q4",
+      "cnm_192_q1",
+      "cnm_192_q2",
+      "cnm_273_q1",
+      "cnm_280_q5",
+      "cnm_283_q1",
+      "cnm_009_q5",
+      "cnm_200_q5",
+      "cnm_202_q5",
+      "cnm_205_q6",
+      "cnm_148_q5",
+      "cnm_047_q5",
+      "cnm_228_q5",
+      "cnm_230_q5",
+      "cnm_231_q5",
+      "cnm_232_q5",
+      "cnm_241_q5",
+      "cnm_062_q6",
+      "cnm_063_q6",
+      "cnm_066_q6",
+      "cnm_068_q6",
+      "cnm_082_q5"
+    ],
+    "method": "浏览器渲染逐页检查本批修改对象中25道带图题；实际诊断页验证坐标读图与自评。",
+    "corrections": [
+      "cnm_050_q1/cnm_283_q1底面可见弧为实线、遮挡弧为虚线",
+      "cnm_192_q2标签F移离边线",
+      "cnm_280_q5高度标注与坡度标注分离"
+    ],
+    "limitation": "未重新视觉审阅所有历史图片；结构检查不替代图意核查。"
+  },
+  "browserAcceptance": [
+    {
+      "case": "coordinate-self-task",
+      "questionId": "cnm_082_q5",
+      "seed": "8",
+      "result": "图形和rubric可见；模拟自评后仅目标初步通过，未测先修未被传播通过。"
+    },
+    {
+      "case": "json-export",
+      "result": "下载文件实读核对：dataVersion=junior-2026-10.1，engineVersion=evidence-1.2；questionId准确，gradingMethod=self、answerExposed=true、时间保留。",
+      "simulated": true
+    },
+    {
+      "case": "supplementary-only-target",
+      "topicId": "cnm_130",
+      "result": "0答题、0通过，明确显示没有核心题且保持未测；同会话其他目标的继续行为另有引擎测试。"
+    }
+  ],
+  "limitations": [
+    "自动核验不是独立盲解，不能证明全部题意或答案正确。",
+    "开放任务使用rubric自评，未做教师认证或真实学生教学效度验证。",
+    "145条partial与12条gap都是明确保留的内容覆盖限制。",
+    "2025版全面来源比对未完成。"
+  ],
+  "expertReviewed": false
+}

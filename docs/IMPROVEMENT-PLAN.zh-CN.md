@@ -1,6 +1,6 @@
 # cn-math-taxonomy 完善方案
 
-日期：2026-10-22。实施进度：A–C已交付；D1完成数与代数首轮15个初中节点及4个小学衔接节点修订。D整体未完成。详见[批次D1](../reviews/math-junior/batch-d1/README.md)。下文“基线”和“建议”保留原方案背景。
+日期：2026-10-22。当前交付为[初中数学首轮可审阅版](../reviews/release-candidate/README.md)：317节点、157条覆盖判断和28个小学直接衔接节点已收齐，并完成集中验收。此轮固定终点不包括教师认证、全覆盖和高中/英语扩展。下文保留最初方案；未完成的更广目标属于后续路线，不是继续无限推进本轮的条件。
 
 Fork：https://github.com/soarhe/cn-math-taxonomy
 

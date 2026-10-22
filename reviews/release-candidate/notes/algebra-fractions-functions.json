@@ -1,0 +1,715 @@
+[
+  {
+    "topicId": "cnm_152",
+    "name": "公式法：平方差",
+    "decision": "revise",
+    "finding": "平方差识别正确；q5四次多项式超过因式分解核心次数范围，移拓展并限定核心二次多项式。",
+    "questionIds": [
+      "cnm_152_q1",
+      "cnm_152_q2",
+      "cnm_152_q3",
+      "cnm_152_q4",
+      "cnm_152_q5"
+    ],
+    "snapshotSha256": "c4ad2f22d4bd21e688519dcfe770d4dd7e726b7fa0102c13dbc2858a81c0df30",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "87f154f69d7bc9c27b1b46960bbe3adbd705d5c2a51a8f020ccaff176e6d0eae",
+    "postQuestionIds": [
+      "cnm_152_q1",
+      "cnm_152_q2",
+      "cnm_152_q3",
+      "cnm_152_q4",
+      "cnm_152_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_153",
+    "name": "公式法：完全平方",
+    "decision": "revise",
+    "finding": "标准完全平方识别题正确；q5两变量五项配方属于综合拓展，区分核心范围；保留参数±8双解。",
+    "questionIds": [
+      "cnm_153_q1",
+      "cnm_153_q2",
+      "cnm_153_q3",
+      "cnm_153_q4",
+      "cnm_153_q5"
+    ],
+    "snapshotSha256": "872b78d3224573887973f6967215d76e0a409d5b5a2c577df3307dcaebe05595",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "9c1c92cd1809c1adce84931794f548a9b1add3df58d83ae813c8f036dfe11c9e",
+    "postQuestionIds": [
+      "cnm_153_q1",
+      "cnm_153_q2",
+      "cnm_153_q3",
+      "cnm_153_q4",
+      "cnm_153_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_156",
+    "name": "分式的概念",
+    "decision": "retain",
+    "finding": "分母含字母与π常数区分、有意义/无意义/值零的排除条件均有题，保留。",
+    "questionIds": [
+      "cnm_156_q1",
+      "cnm_156_q2",
+      "cnm_156_q3",
+      "cnm_156_q4"
+    ],
+    "snapshotSha256": "978f05d2495cb2f9faad6e8230635c7975576e0e8d15059db0849d3eba48bbfd",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "978f05d2495cb2f9faad6e8230635c7975576e0e8d15059db0849d3eba48bbfd",
+    "postQuestionIds": [
+      "cnm_156_q1",
+      "cnm_156_q2",
+      "cnm_156_q3",
+      "cnm_156_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_157",
+    "name": "分式的基本性质",
+    "decision": "revise",
+    "finding": "性质需强调同乘整式在当前取值下非零；补约分变形不能扩充原定义域的实例。",
+    "questionIds": [
+      "cnm_157_q1",
+      "cnm_157_q2",
+      "cnm_157_q3",
+      "cnm_157_q4"
+    ],
+    "snapshotSha256": "a7dffda9a1b423f25a0b2201cb9fa9bb4a9a08fe4d2b0009f62ecdc48a11aa28",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/fractions.json"
+    ],
+    "postImplementationSha256": "eea9c591e92a9df58f85d9e02720b2c309eb4e3ca5f63eed4713be9647473d84",
+    "postQuestionIds": [
+      "cnm_157_q1",
+      "cnm_157_q2",
+      "cnm_157_q3",
+      "cnm_157_q4",
+      "cnm_157_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_158",
+    "name": "分式的约分与最简分式",
+    "decision": "revise",
+    "finding": "约分题答案式子正确但解析常遗漏原定义域，补x≠0,-1等限制及约分后不能补入被排除点的过程任务。",
+    "questionIds": [
+      "cnm_158_q1",
+      "cnm_158_q2",
+      "cnm_158_q3",
+      "cnm_158_q4",
+      "cnm_158_q5"
+    ],
+    "snapshotSha256": "70f66f517df1f4026abe5c736573f5776b0627c35a6129bf868a66541329fbbf",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/fractions.json"
+    ],
+    "postImplementationSha256": "88b920e28ec88c63a0ea743c578750ed5b97813a3df1f9e1d098198974ec70c9",
+    "postQuestionIds": [
+      "cnm_158_q1",
+      "cnm_158_q2",
+      "cnm_158_q3",
+      "cnm_158_q4",
+      "cnm_158_q5",
+      "cnm_158_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_159",
+    "name": "分式的通分",
+    "decision": "revise",
+    "finding": "通分最简公分母题正确；描述不能把最简视为唯一合法公分母，补原分母非零范围和非最简通分仍等值。",
+    "questionIds": [
+      "cnm_159_q1",
+      "cnm_159_q2",
+      "cnm_159_q3",
+      "cnm_159_q4"
+    ],
+    "snapshotSha256": "46e48de0209f71dfe00bcf5946da162e335a142ae438fb2f9e471f4a02f53181",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/fractions.json"
+    ],
+    "postImplementationSha256": "b364d08b3313cc7a1bbe734a246f4482631c8f71fe22ed1daf07f8a1249e2b58",
+    "postQuestionIds": [
+      "cnm_159_q1",
+      "cnm_159_q2",
+      "cnm_159_q3",
+      "cnm_159_q4",
+      "cnm_159_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_160",
+    "name": "分式的乘除",
+    "decision": "revise",
+    "finding": "除数分式不为0是独立条件，现解析只写求倒数；补分母与除数分子限制，q3排除0,-2,-1。",
+    "questionIds": [
+      "cnm_160_q1",
+      "cnm_160_q2",
+      "cnm_160_q3",
+      "cnm_160_q4"
+    ],
+    "snapshotSha256": "b4901af9d9950bf769885665c2fe25b2288fd6b07420ef651facc2301e60e236",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/fractions.json"
+    ],
+    "postImplementationSha256": "f7f913534930c95fdd58dfb3cf9a585148cf877a51cb7c340b93f49844c3788d",
+    "postQuestionIds": [
+      "cnm_160_q1",
+      "cnm_160_q2",
+      "cnm_160_q3",
+      "cnm_160_q4",
+      "cnm_160_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_161",
+    "name": "分式的加减",
+    "decision": "revise",
+    "finding": "运算结果正确；统一在题目/解析写原分母限制，防止常数化简后丢原定义域。",
+    "questionIds": [
+      "cnm_161_q1",
+      "cnm_161_q2",
+      "cnm_161_q3",
+      "cnm_161_q4"
+    ],
+    "snapshotSha256": "d25eb92df0e4b505e2b1d8b5f47e2438d69e226c86788bfaf3b8d2980214dd24",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/fractions.json"
+    ],
+    "postImplementationSha256": "62e7790105cf91abcafa8019e107740a58486fa78370978f845141686674028a",
+    "postQuestionIds": [
+      "cnm_161_q1",
+      "cnm_161_q2",
+      "cnm_161_q3",
+      "cnm_161_q4",
+      "cnm_161_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_162",
+    "name": "分式的混合运算与化简求值",
+    "decision": "revise",
+    "finding": "混合式化简后定义域缩失未说明，q1排除0,-1，q3排除-1,0,1，q4排除2,3；补过程与无效代入辨析。",
+    "questionIds": [
+      "cnm_162_q1",
+      "cnm_162_q2",
+      "cnm_162_q3",
+      "cnm_162_q4"
+    ],
+    "snapshotSha256": "79adecf8b59fb84b2a83c8fb5198ad74b3b2b15e6b65e9d49786b6b30e433a85",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/fractions.json"
+    ],
+    "postImplementationSha256": "ce732c5e92b3b95f65584a73aee3b5e805e1b646060c32da0093a0ff163a5e77",
+    "postQuestionIds": [
+      "cnm_162_q1",
+      "cnm_162_q2",
+      "cnm_162_q3",
+      "cnm_162_q4",
+      "cnm_162_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_163",
+    "name": "同底数幂的除法",
+    "decision": "revise",
+    "finding": "q5仅x≠0并不足以由幂值相等推出指数相等，x=1是反例；改为关于x的恒等式或固定底数2，补m/n正整数范围与x≠0。",
+    "questionIds": [
+      "cnm_163_q1",
+      "cnm_163_q2",
+      "cnm_163_q3",
+      "cnm_163_q4",
+      "cnm_163_q5"
+    ],
+    "snapshotSha256": "63eeb745eca818cac2d8d72b875bd7f99e388856ad36cf3fa770f05c1fdd28e0",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "d4f3bf0135a8c64fd0ccf5db9a676b5a98dbc410c569cf35946010755f02186d",
+    "postQuestionIds": [
+      "cnm_163_q1",
+      "cnm_163_q2",
+      "cnm_163_q3",
+      "cnm_163_q4",
+      "cnm_163_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_164",
+    "name": "零指数幂、负整数指数幂与科学记数法",
+    "decision": "revise",
+    "finding": "负指数定义需同时限定底数非零及n正整数；q1科学记数解释改用小数点移动，避免前导零计数约定误导。",
+    "questionIds": [
+      "cnm_164_q1",
+      "cnm_164_q2",
+      "cnm_164_q3",
+      "cnm_164_q4"
+    ],
+    "snapshotSha256": "7a877329f2254fb9d2b3d95f053cd3c0f8c23cd03e83b2298a10bdc01a17293a",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "9a1c0afa2badfcb62ef479a4170f06bec503ae0b8af34eb08ce3b021ed4bd2c1",
+    "postQuestionIds": [
+      "cnm_164_q1",
+      "cnm_164_q2",
+      "cnm_164_q3",
+      "cnm_164_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_168",
+    "name": "二次根式的性质",
+    "decision": "revise",
+    "finding": "核心数值性质正确；q4含字母根式化简移拓展，与167的数字被开方数核心口径一致。",
+    "questionIds": [
+      "cnm_168_q1",
+      "cnm_168_q2",
+      "cnm_168_q3",
+      "cnm_168_q4"
+    ],
+    "snapshotSha256": "0bf0fbc0b23710aafe6aadb401bc0139cc00ffc6892bc15d1e4ec967af9c53af",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "a6f8af98f852918a410007a4f26ba6e60c10aeabade2c71a33ce40a8ac68f9db",
+    "postQuestionIds": [
+      "cnm_168_q1",
+      "cnm_168_q2",
+      "cnm_168_q3",
+      "cnm_168_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_169",
+    "name": "二次根式的乘法",
+    "decision": "retain",
+    "finding": "数值根式乘法、提平方因数均在核心范围且结果正确，保留。",
+    "questionIds": [
+      "cnm_169_q1",
+      "cnm_169_q2",
+      "cnm_169_q3",
+      "cnm_169_q4",
+      "cnm_169_q5"
+    ],
+    "snapshotSha256": "a20d87b236ff1b4e3d9105a6bd848fee1b6e2fcace3760884f1971d5716e9fd8",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "a20d87b236ff1b4e3d9105a6bd848fee1b6e2fcace3760884f1971d5716e9fd8",
+    "postQuestionIds": [
+      "cnm_169_q1",
+      "cnm_169_q2",
+      "cnm_169_q3",
+      "cnm_169_q4",
+      "cnm_169_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_170",
+    "name": "二次根式的除法",
+    "decision": "revise",
+    "finding": "q4字母根式定义域移拓展，核心补数值分母0的排除辨析，计算题正确。",
+    "questionIds": [
+      "cnm_170_q1",
+      "cnm_170_q2",
+      "cnm_170_q3",
+      "cnm_170_q4"
+    ],
+    "snapshotSha256": "bd6b608a45eeef2d1f07db9b8b01ac37495b55782ade8df509f7c5a0fbff0ebf",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "145ffb1a653673683582e4d8294d014d3d3f7daed838c8403e95752efbd2f676",
+    "postQuestionIds": [
+      "cnm_170_q1",
+      "cnm_170_q2",
+      "cnm_170_q3",
+      "cnm_170_q4",
+      "cnm_170_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_171",
+    "name": "最简二次根式与分母有理化",
+    "decision": "revise",
+    "finding": "定义核心明确数字被开方数；分母有理化保留为简单数值运算，补同乘不改变值说明，不将一般字母因式作为必修。",
+    "questionIds": [
+      "cnm_171_q1",
+      "cnm_171_q2",
+      "cnm_171_q3",
+      "cnm_171_q4"
+    ],
+    "snapshotSha256": "631c38ffa02c1cd74dec65850338412e51ea115fb3abb6b3fd9b2c121733aff1",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "64570c6f76ea9cd04e5d3cc02018af4eba9699ed0f85dedd49dc7bce4fa59740",
+    "postQuestionIds": [
+      "cnm_171_q1",
+      "cnm_171_q2",
+      "cnm_171_q3",
+      "cnm_171_q4",
+      "cnm_171_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_172",
+    "name": "二次根式的加减",
+    "decision": "retain",
+    "finding": "化简后同类合并、不可直接加被开方数辨析均正确，保留。",
+    "questionIds": [
+      "cnm_172_q1",
+      "cnm_172_q2",
+      "cnm_172_q3",
+      "cnm_172_q4"
+    ],
+    "snapshotSha256": "cab1d4130a885f9ed0a50f37eab4a260896ee5b4ea81fad91b0b3e21b690d9e9",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "cab1d4130a885f9ed0a50f37eab4a260896ee5b4ea81fad91b0b3e21b690d9e9",
+    "postQuestionIds": [
+      "cnm_172_q1",
+      "cnm_172_q2",
+      "cnm_172_q3",
+      "cnm_172_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_173",
+    "name": "二次根式的混合运算",
+    "decision": "retain",
+    "finding": "数值被开方数的混合运算与乘法公式现四题结果正确，保留，不能由数值题断言解释能力充分。",
+    "questionIds": [
+      "cnm_173_q1",
+      "cnm_173_q2",
+      "cnm_173_q3",
+      "cnm_173_q4"
+    ],
+    "snapshotSha256": "dd163bc1de28f7081f91e4c7107f90440c5da36da759330740ed369752b1d903",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "dd163bc1de28f7081f91e4c7107f90440c5da36da759330740ed369752b1d903",
+    "postQuestionIds": [
+      "cnm_173_q1",
+      "cnm_173_q2",
+      "cnm_173_q3",
+      "cnm_173_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_193",
+    "name": "变量与常量",
+    "decision": "revise",
+    "finding": "q1应明确半径变化过程；举生活实例的掌握标准无相应自编证据，补固定/变化条件对照。列代数式027不是识别变量唯一必要前提。",
+    "questionIds": [
+      "cnm_193_q1",
+      "cnm_193_q2",
+      "cnm_193_q3",
+      "cnm_193_q4",
+      "cnm_193_q5"
+    ],
+    "snapshotSha256": "16425b795b9f01cabbaca70cff8fea2c4e789b6a323336d890948fb5a9d6e46f",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "a5e33f4cfa6db8f8fb77344ec080eab846f4663b5928377279947d1ee274d0e3",
+    "postQuestionIds": [
+      "cnm_193_q1",
+      "cnm_193_q2",
+      "cnm_193_q3",
+      "cnm_193_q4",
+      "cnm_193_q5",
+      "cnm_193_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_194",
+    "name": "函数的概念",
+    "decision": "revise",
+    "finding": "q2解析称x=1时圆x²+y²=1有两个y错误，应取x=0；补定义中的给定范围与常函数/多对一辨析。",
+    "questionIds": [
+      "cnm_194_q1",
+      "cnm_194_q2",
+      "cnm_194_q3",
+      "cnm_194_q4",
+      "cnm_194_q5"
+    ],
+    "snapshotSha256": "8538b7e5a64368604fa7ade95052c141d0e033318c41445804d8663b71f2282f",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "9fc55b9d4e4b89ad4421480614e49c5e82f17a1f32844f901db84f67b325250f",
+    "postQuestionIds": [
+      "cnm_194_q1",
+      "cnm_194_q2",
+      "cnm_194_q3",
+      "cnm_194_q4",
+      "cnm_194_q5",
+      "cnm_194_q6"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_195",
+    "name": "自变量的取值范围",
+    "decision": "retain",
+    "finding": "分式根式交集、实际正长度及根式作分母严格不等式均有正确题，保留。",
+    "questionIds": [
+      "cnm_195_q1",
+      "cnm_195_q2",
+      "cnm_195_q3",
+      "cnm_195_q4",
+      "cnm_195_q5"
+    ],
+    "snapshotSha256": "eba26c8cf41ffd1d24a04fc45b0efae230026d1ba3a7b731fc8b9cc6deff166b",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "eba26c8cf41ffd1d24a04fc45b0efae230026d1ba3a7b731fc8b9cc6deff166b",
+    "postQuestionIds": [
+      "cnm_195_q1",
+      "cnm_195_q2",
+      "cnm_195_q3",
+      "cnm_195_q4",
+      "cnm_195_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_196",
+    "name": "函数值",
+    "decision": "retain",
+    "finding": "代入、反求多值、参数式求值均正确，保留；反求的两个x不违背函数唯一y定义。",
+    "questionIds": [
+      "cnm_196_q1",
+      "cnm_196_q2",
+      "cnm_196_q3",
+      "cnm_196_q4",
+      "cnm_196_q5"
+    ],
+    "snapshotSha256": "bf5181c478c3a81ce10e083df2ed185d3a14553da176d92d82c755f6bf567ea9",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "bf5181c478c3a81ce10e083df2ed185d3a14553da176d92d82c755f6bf567ea9",
+    "postQuestionIds": [
+      "cnm_196_q1",
+      "cnm_196_q2",
+      "cnm_196_q3",
+      "cnm_196_q4",
+      "cnm_196_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_199",
+    "name": "用函数刻画实际变化规律",
+    "decision": "revise",
+    "finding": "弹簧模型须给适用范围且包含6kg以免过度外推；补完整建模与定义域过程任务。",
+    "questionIds": [
+      "cnm_199_q1",
+      "cnm_199_q2",
+      "cnm_199_q3",
+      "cnm_199_q4",
+      "cnm_199_q5"
+    ],
+    "snapshotSha256": "920e5f9220ea08ccbb58401049dc0b9c07d74ecca62d0d0f17ee785fe9671483",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "25626aaf43b8a1fe351b7e0ce218f18c95e20e9bfa7b472d60f2ce3cbd75e6ce",
+    "postQuestionIds": [
+      "cnm_199_q1",
+      "cnm_199_q2",
+      "cnm_199_q3",
+      "cnm_199_q4",
+      "cnm_199_q5",
+      "cnm_199_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_200",
+    "name": "正比例函数",
+    "decision": "revise",
+    "finding": "掌握标准含画图但四题均无作图；补正比例实际绘图并处理k=0排除。",
+    "questionIds": [
+      "cnm_200_q1",
+      "cnm_200_q2",
+      "cnm_200_q3",
+      "cnm_200_q4"
+    ],
+    "snapshotSha256": "65dbb20f62f5e1579c1d5cdf6ab48da4d5d2ca2084e7f58095606842cb701fa1",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "241da08ec115135c373b258dbc71e858afed0aba0b2aabeb999ee99722858e15",
+    "postQuestionIds": [
+      "cnm_200_q1",
+      "cnm_200_q2",
+      "cnm_200_q3",
+      "cnm_200_q4",
+      "cnm_200_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_201",
+    "name": "一次函数的概念",
+    "decision": "retain",
+    "finding": "一次函数k≠0及正比例特例条件题正确；正比例先修是否硬依赖留作概念类比专项，不当作本轮必改边。",
+    "questionIds": [
+      "cnm_201_q1",
+      "cnm_201_q2",
+      "cnm_201_q3",
+      "cnm_201_q4"
+    ],
+    "snapshotSha256": "ebdb5781f1eb3007e7c4bf105b1614d902afc50dd9ec0e5a61c149d6f9c820a3",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "ebdb5781f1eb3007e7c4bf105b1614d902afc50dd9ec0e5a61c149d6f9c820a3",
+    "postQuestionIds": [
+      "cnm_201_q1",
+      "cnm_201_q2",
+      "cnm_201_q3",
+      "cnm_201_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_202",
+    "name": "一次函数的图象与画法",
+    "decision": "revise",
+    "finding": "没有实际作图任务；补两不同点画直线，尤其b=0时两个轴交点重合不能当两点。",
+    "questionIds": [
+      "cnm_202_q1",
+      "cnm_202_q2",
+      "cnm_202_q3",
+      "cnm_202_q4"
+    ],
+    "snapshotSha256": "fc34a8c33e6fe0b34381c4a4d3ef9297e7bf9fe413acbc63c5bf729a24480c6f",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "7ce556c30e8eef62420aad3bf2dc98b7ee4e202eb194756b9b84a9fc794473e5",
+    "postQuestionIds": [
+      "cnm_202_q1",
+      "cnm_202_q2",
+      "cnm_202_q3",
+      "cnm_202_q4",
+      "cnm_202_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

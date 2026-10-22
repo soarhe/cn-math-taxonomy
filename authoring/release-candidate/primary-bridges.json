@@ -1,0 +1,1663 @@
+{
+  "batch": "primary-bridges",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_p085",
+      "beforeHash": "a26f1ecd77616c285d5b956a7cd00562fa0862e619aee25fb14c159dc72a1fbf",
+      "before": {
+        "id": "cnm_p085",
+        "name": "复式统计表",
+        "domain": "统计与概率",
+        "grade": 3,
+        "semester": "下",
+        "chapter": "三年级下册 第3单元 复式统计表",
+        "type": "procedural",
+        "description": "会把两类数据整理成复式统计表，并能从表里回答合计、谁多谁少。",
+        "mastery_criteria": [
+          "能读出表中某一格的数",
+          "能算出一行或一列的合计"
+        ],
+        "diagnostic_question": {
+          "question": "计算：12＋9＝？",
+          "answer": "21"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.SP.01",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:2.SP.02",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p085",
+        "name": "复式统计表",
+        "domain": "统计与概率",
+        "grade": 3,
+        "semester": "下",
+        "chapter": "三年级下册 第3单元 复式统计表",
+        "type": "procedural",
+        "description": "会把两类数据整理成复式统计表，并能从表里回答合计、谁多谁少。",
+        "mastery_criteria": [
+          "能读出表中某一格的数",
+          "能算出一行或一列的合计"
+        ],
+        "diagnostic_question": {
+          "question": "统计表：项目｜男生｜女生；跳绳｜12｜9；跑步｜8｜11。跳绳项目共有多少人？",
+          "answer": "21"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.SP.01",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:2.SP.02",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p100",
+      "beforeHash": "e02cdf3beba60fc684aca1a558eb956d6fc70313b3be40b695739ab29ac45145",
+      "before": {
+        "id": "cnm_p100",
+        "name": "角的度量",
+        "domain": "图形与几何",
+        "grade": 4,
+        "semester": "上",
+        "chapter": "四年级上册 第3单元 角的度量",
+        "type": "procedural",
+        "description": "认识角的各部分，会用量角器量角、画指定度数的角。",
+        "mastery_criteria": [
+          "能指出顶点和两条边",
+          "知道 1 度是度量角的单位"
+        ],
+        "diagnostic_question": {
+          "question": "计算：90－30＝？",
+          "answer": "60"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.GG.02",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p100",
+        "name": "角的度量",
+        "domain": "图形与几何",
+        "grade": 4,
+        "semester": "上",
+        "chapter": "四年级上册 第3单元 角的度量",
+        "type": "procedural",
+        "description": "认识角的各部分，会用量角器量角、画指定度数的角。",
+        "mastery_criteria": [
+          "能指出顶点和两条边",
+          "知道 1 度是度量角的单位"
+        ],
+        "diagnostic_question": {
+          "question": "量角器量角时，中心和0刻度线应怎样对齐？",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.GG.02",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p122",
+      "beforeHash": "05acb16097173e0f8a446f58912be710871c1fa0f217fc08f79b76c23530814d",
+      "before": {
+        "id": "cnm_p122",
+        "name": "三角形的分类",
+        "domain": "图形与几何",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第5单元 三角形",
+        "type": "conceptual",
+        "description": "会按角把三角形分成锐角、直角、钝角三角形，按边认出等腰三角形和等边三角形。",
+        "mastery_criteria": [
+          "能按角给三角形分类",
+          "能说出等边三角形三条边都相等"
+        ],
+        "diagnostic_question": {
+          "question": "直角比锐角怎样？",
+          "answer": "直角比锐角大"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.GG.04",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p122",
+        "name": "三角形的分类",
+        "domain": "图形与几何",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第5单元 三角形",
+        "type": "conceptual",
+        "description": "会按角把三角形分成锐角、直角、钝角三角形，按边认出等腰三角形和等边三角形。",
+        "mastery_criteria": [
+          "能按角给三角形分类",
+          "能说出等边三角形三条边都相等"
+        ],
+        "diagnostic_question": {
+          "question": "一个三角形的三个角是90°、60°、30°，它属于哪一类？",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.GG.04",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p159",
+      "beforeHash": "10d56d9167db66b5d8278e6d252c2cc6ac4a70d331c2423f40871c9513c9ae63",
+      "before": {
+        "id": "cnm_p159",
+        "name": "最小公倍数",
+        "domain": "数与代数",
+        "grade": 5,
+        "semester": "下",
+        "chapter": "五年级下册 第2单元 因数与倍数",
+        "type": "procedural",
+        "description": "会求两个数的公倍数和最小公倍数。",
+        "mastery_criteria": [
+          "能找出两个数的几个公倍数",
+          "能说出最小公倍数"
+        ],
+        "diagnostic_question": {
+          "question": "计算：4×3＝？",
+          "answer": "12"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:3.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p159",
+        "name": "最小公倍数",
+        "domain": "数与代数",
+        "grade": 5,
+        "semester": "下",
+        "chapter": "五年级下册 第2单元 因数与倍数",
+        "type": "procedural",
+        "description": "会求两个数的公倍数和最小公倍数。",
+        "mastery_criteria": [
+          "能找出两个数的几个公倍数",
+          "能说出最小公倍数"
+        ],
+        "diagnostic_question": {
+          "question": "4和3的最小公倍数是多少？",
+          "answer": "12"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:3.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_p085_q1",
+      "beforeHash": "eedf40355ca2f327573ae449d50e1caf21f7143e7eb10a5e1c45be94096ae51d",
+      "before": {
+        "id": "cnm_p085_q1",
+        "topicId": "cnm_p085",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：12＋9＝？",
+        "answer": "21",
+        "explanation": "男生 12 人、女生 9 人，合计 21 人。",
+        "verify": "12+9"
+      },
+      "after": {
+        "id": "cnm_p085_q1",
+        "topicId": "cnm_p085",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "统计表：项目｜男生｜女生；跳绳｜12｜9；跑步｜8｜11。跳绳项目共有多少人？",
+        "answer": "21",
+        "explanation": "读取跳绳这一行：12+9=21。",
+        "verify": "12+9"
+      }
+    },
+    {
+      "id": "cnm_p085_q2",
+      "beforeHash": "8b2ba73eaa46626a8db3362206497f35ac1a6e9760e9b5eaa5a40105d001188f",
+      "before": {
+        "id": "cnm_p085_q2",
+        "topicId": "cnm_p085",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：18－11＝？",
+        "answer": "7",
+        "explanation": "喜欢跳绳的 18 人，喜欢跑步的 11 人，多 7 人。",
+        "verify": "18-11"
+      },
+      "after": {
+        "id": "cnm_p085_q2",
+        "topicId": "cnm_p085",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "统计表：项目｜男生｜女生；跳绳｜12｜9；跑步｜8｜11。女生参加跑步的比参加跳绳的多几人？",
+        "answer": "2",
+        "explanation": "先选女生列，读出11和9，再求11−9=2。",
+        "verify": "11-9"
+      }
+    },
+    {
+      "id": "cnm_p100_q1",
+      "beforeHash": "1ea4e0f9bc7621feb83e8689e72b1ce90d76de7f5f22fe35201b03c9cb1957ee",
+      "before": {
+        "id": "cnm_p100_q1",
+        "topicId": "cnm_p100",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：90－30＝？",
+        "answer": "60",
+        "explanation": "直角 90 度，30 度的角比直角小 60 度。",
+        "verify": "90-30"
+      },
+      "after": {
+        "id": "cnm_p100_q1",
+        "topicId": "cnm_p100",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "量角器量角时，中心和0刻度线应怎样对齐？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "中心对准顶点，0刻度线对准角的一条边"
+          },
+          {
+            "key": "B",
+            "text": "中心放在角的任意一边上"
+          },
+          {
+            "key": "C",
+            "text": "只把量角器靠近角即可"
+          }
+        ],
+        "answer": "A",
+        "explanation": "中心对顶点，0刻度线对一边，从对应的0刻度读另一边。"
+      }
+    },
+    {
+      "id": "cnm_p100_q2",
+      "beforeHash": "459ccabfb50d78ba5c2209fdf4cfc692edb725eb4c92a7dfd1e18b8c28e63da4",
+      "before": {
+        "id": "cnm_p100_q2",
+        "topicId": "cnm_p100",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：180－90＝？",
+        "answer": "90",
+        "explanation": "平角 180 度，平角里有 2 个直角。",
+        "verify": "180-90"
+      },
+      "after": {
+        "id": "cnm_p100_q2",
+        "topicId": "cnm_p100",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "一条边对准量角器右侧0刻度，另一条边指向同一刻度上的内圈60和外圈120。应选哪一个读数？已知内圈从右侧0开始。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "60°"
+          },
+          {
+            "key": "B",
+            "text": "120°"
+          },
+          {
+            "key": "C",
+            "text": "180°"
+          }
+        ],
+        "answer": "A",
+        "explanation": "从与起始边对齐的0刻度所在的内圈读数。"
+      }
+    },
+    {
+      "id": "cnm_p103_q2",
+      "beforeHash": "df1525a7b05122457fd7681c8e9bf688a5dba8c11d5bab3d72d061fbdf2fbc13",
+      "before": {
+        "id": "cnm_p103_q2",
+        "topicId": "cnm_p103",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：90－0＝？",
+        "answer": "90",
+        "explanation": "垂直时夹角是 90 度。",
+        "verify": "90-0"
+      },
+      "after": {
+        "id": "cnm_p103_q2",
+        "topicId": "cnm_p103",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "两条直线互相垂直，交点处一个角是多少度？",
+        "answer": "90",
+        "explanation": "垂直的定义是两条直线相交成直角，直角为90°。",
+        "verify": "90"
+      }
+    },
+    {
+      "id": "cnm_p103_q4",
+      "beforeHash": "1627d024b90cada6e236d9aa4c528962ad5c6256542313e9843c642fc0011623",
+      "before": {
+        "id": "cnm_p103_q4",
+        "topicId": "cnm_p103",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "计算：180－90＝？",
+        "answer": "90",
+        "explanation": "直线是 180 度，垂直把一边分成 90 度。",
+        "verify": "180-90"
+      },
+      "after": {
+        "id": "cnm_p103_q4",
+        "topicId": "cnm_p103",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "两条直线相交形成的一个角是80°，它们互相垂直吗？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "不垂直"
+          },
+          {
+            "key": "B",
+            "text": "垂直"
+          },
+          {
+            "key": "C",
+            "text": "所有相交直线都垂直"
+          }
+        ],
+        "answer": "A",
+        "explanation": "垂直要求形成90°角，80°不是直角。"
+      }
+    },
+    {
+      "id": "cnm_p104_q2",
+      "beforeHash": "781288a506f7b654688dffc985b8b297ea4d3622e8b85b4c00d7090f30817adb",
+      "before": {
+        "id": "cnm_p104_q2",
+        "topicId": "cnm_p104",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：2＋2＝？",
+        "answer": "4",
+        "explanation": "两条平行线之间可以作许多相等的垂线段。",
+        "verify": "2+2"
+      },
+      "after": {
+        "id": "cnm_p104_q2",
+        "topicId": "cnm_p104",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "在同一平面内，两条不同直线目前画出的部分没有相交，就一定平行吗？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "不一定，还要考虑两端无限延长后是否相交"
+          },
+          {
+            "key": "B",
+            "text": "一定平行"
+          },
+          {
+            "key": "C",
+            "text": "一定垂直"
+          }
+        ],
+        "answer": "A",
+        "explanation": "直线向两端无限延长；仅有限图段不相交不足以判断。"
+      }
+    },
+    {
+      "id": "cnm_p104_q4",
+      "beforeHash": "a2c8b6a50551da6d8f35f172f134f8572b9bca05d0402829c430b5da6b7d4a3a",
+      "before": {
+        "id": "cnm_p104_q4",
+        "topicId": "cnm_p104",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "计算：5－5＝？",
+        "answer": "0",
+        "explanation": "平行线不会相交，延长后再比长度差仍可以是 0。",
+        "verify": "5-5"
+      },
+      "after": {
+        "id": "cnm_p104_q4",
+        "topicId": "cnm_p104",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "两条互相垂直的直线，能同时互相平行吗？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "不能，垂直时相交"
+          },
+          {
+            "key": "B",
+            "text": "能，只要一样长"
+          },
+          {
+            "key": "C",
+            "text": "能，只要画得短"
+          }
+        ],
+        "answer": "A",
+        "explanation": "平行直线不相交，垂直直线相交成直角。"
+      }
+    },
+    {
+      "id": "cnm_p113_q2",
+      "beforeHash": "b9a58fe990a1ef013ea88f1f57e9b29b4f53a5158011f2df637b6a2aa4ddd5a4",
+      "before": {
+        "id": "cnm_p113_q2",
+        "topicId": "cnm_p113",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：4＋2＝？",
+        "answer": "6",
+        "explanation": "前面看到 4 个方块，上面又露出 2 个，合起来按 4＋2 数是 6。",
+        "verify": "4+2"
+      },
+      "after": {
+        "id": "cnm_p113_q2",
+        "topicId": "cnm_p113",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "一个长方体盒子正面和上面都能看到同一条棱。能把两个方向看到的棱数直接相加，当作盒子的总棱数吗？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "不能，可能重复计数且可能有遮挡"
+          },
+          {
+            "key": "B",
+            "text": "能，两个方向一定不重复"
+          },
+          {
+            "key": "C",
+            "text": "能，总棱数随方向改变"
+          }
+        ],
+        "answer": "A",
+        "explanation": "不同视图可能包含同一条棱，不能直接相加确定总数。"
+      }
+    },
+    {
+      "id": "cnm_p122_q1",
+      "beforeHash": "95100d956b25ac26ae47cd5fd3cc46f2d1d05cada4613f64a73e27719dd127dd",
+      "before": {
+        "id": "cnm_p122_q1",
+        "topicId": "cnm_p122",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "直角比锐角怎样？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "直角比锐角大"
+          },
+          {
+            "key": "B",
+            "text": "直角比锐角小"
+          },
+          {
+            "key": "C",
+            "text": "直角和锐角一样大"
+          }
+        ],
+        "answer": "A",
+        "explanation": "有一个直角的三角形是直角三角形。",
+        "verify": "'直角比锐角大'"
+      },
+      "after": {
+        "id": "cnm_p122_q1",
+        "topicId": "cnm_p122",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "一个三角形的三个角是90°、60°、30°，它属于哪一类？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "直角三角形"
+          },
+          {
+            "key": "B",
+            "text": "锐角三角形"
+          },
+          {
+            "key": "C",
+            "text": "钝角三角形"
+          }
+        ],
+        "answer": "A",
+        "explanation": "有一个角是直角的三角形是直角三角形。"
+      }
+    },
+    {
+      "id": "cnm_p122_q2",
+      "beforeHash": "9b65e23cf88deee65a82cf55804094125ad0c8f7538cf0849d2956a4715ecfdb",
+      "before": {
+        "id": "cnm_p122_q2",
+        "topicId": "cnm_p122",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "钝角比直角怎样？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "钝角比直角大"
+          },
+          {
+            "key": "B",
+            "text": "钝角比直角小"
+          },
+          {
+            "key": "C",
+            "text": "钝角就是直角"
+          }
+        ],
+        "answer": "A",
+        "explanation": "有一个钝角的三角形是钝角三角形。",
+        "verify": "'钝角比直角大'"
+      },
+      "after": {
+        "id": "cnm_p122_q2",
+        "topicId": "cnm_p122",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "一个三角形的三个角是100°、40°、40°，按角分类属于哪一类？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "钝角三角形"
+          },
+          {
+            "key": "B",
+            "text": "锐角三角形"
+          },
+          {
+            "key": "C",
+            "text": "直角三角形"
+          }
+        ],
+        "answer": "A",
+        "explanation": "100°是钝角，有一个钝角的三角形是钝角三角形。"
+      }
+    },
+    {
+      "id": "cnm_p122_q4",
+      "beforeHash": "5f4ea6f36e9925b4060d0179bec5823f2854acb0d2e4c9f6ec988e2a93575d05",
+      "before": {
+        "id": "cnm_p122_q4",
+        "topicId": "cnm_p122",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "5＋5＋5 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "10"
+          },
+          {
+            "key": "B",
+            "text": "12"
+          },
+          {
+            "key": "C",
+            "text": "20"
+          },
+          {
+            "key": "D",
+            "text": "15"
+          }
+        ],
+        "answer": "D",
+        "explanation": "等边三角形三条边都是 5 厘米，周长 15 厘米。",
+        "verify": "5+5+5"
+      },
+      "after": {
+        "id": "cnm_p122_q4",
+        "topicId": "cnm_p122",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "三条边都是5厘米的三角形，下列说法正确的是哪项？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "它是等边三角形，也属于至少两边相等的等腰三角形"
+          },
+          {
+            "key": "B",
+            "text": "它不是等腰三角形"
+          },
+          {
+            "key": "C",
+            "text": "它一定有直角"
+          }
+        ],
+        "answer": "A",
+        "explanation": "等边三角形是等腰三角形的特殊情况。"
+      }
+    },
+    {
+      "id": "cnm_p127_q2",
+      "beforeHash": "0d6072072f58d7eef89b3ec04d23c3840f4112cddcd728309db123c98cbfa23a",
+      "before": {
+        "id": "cnm_p127_q2",
+        "topicId": "cnm_p127",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：4＋4＝？",
+        "answer": "8",
+        "explanation": "对称轴左边 4 格，右边也是 4 格，一共 8 格。",
+        "verify": "4+4"
+      },
+      "after": {
+        "id": "cnm_p127_q2",
+        "topicId": "cnm_p127",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "方格纸上一条竖直对称轴，点A在轴左侧同一横线的第4格处。A的对称点在轴右侧第几格处？",
+        "answer": "4",
+        "explanation": "对称点与轴的距离相等，沿同一横线到轴右侧第4格。",
+        "verify": "4"
+      }
+    },
+    {
+      "id": "cnm_p127_q4",
+      "beforeHash": "335bbd20c42c672f0c35df5eded9858ac2e4cdc780fec965057c9727b5afeafb",
+      "before": {
+        "id": "cnm_p127_q4",
+        "topicId": "cnm_p127",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "6＋6 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "12"
+          },
+          {
+            "key": "B",
+            "text": "10"
+          },
+          {
+            "key": "C",
+            "text": "11"
+          },
+          {
+            "key": "D",
+            "text": "16"
+          }
+        ],
+        "answer": "A",
+        "explanation": "左右各 6 格，一共 12 格。",
+        "verify": "6+6"
+      },
+      "after": {
+        "id": "cnm_p127_q4",
+        "topicId": "cnm_p127",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "点A在竖直对称轴左侧第2格、某横线上。它的对称点在哪里？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "同一横线、轴右侧第2格"
+          },
+          {
+            "key": "B",
+            "text": "同一横线、轴右侧第4格"
+          },
+          {
+            "key": "C",
+            "text": "轴左侧第2格"
+          }
+        ],
+        "answer": "A",
+        "explanation": "对应点分居轴两侧，到轴距离相等。"
+      }
+    },
+    {
+      "id": "cnm_p128_q2",
+      "beforeHash": "3b85cd007382a99ba5c38e472ea7dd03deed4011907a98bdfc67f169e330771b",
+      "before": {
+        "id": "cnm_p128_q2",
+        "topicId": "cnm_p128",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：3＋4＝？",
+        "answer": "7",
+        "explanation": "向右平移 3 格、再向上平移 4 格，格数相加是 7。",
+        "verify": "3+4"
+      },
+      "after": {
+        "id": "cnm_p128_q2",
+        "topicId": "cnm_p128",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "一个点先向右平移3格，再向上平移4格。它相对起点的位置是什么？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "右3格且上4格"
+          },
+          {
+            "key": "B",
+            "text": "右7格"
+          },
+          {
+            "key": "C",
+            "text": "上7格"
+          }
+        ],
+        "answer": "A",
+        "explanation": "两个方向的位移应分别保留，不能相加后当作单一方向位移。"
+      }
+    },
+    {
+      "id": "cnm_p128_q4",
+      "beforeHash": "8f3b9973a91afa0c8daa080492e164fd43863b73f7ae50c810a8f46b5fba19f1",
+      "before": {
+        "id": "cnm_p128_q4",
+        "topicId": "cnm_p128",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "8－3 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "4"
+          },
+          {
+            "key": "B",
+            "text": "6"
+          },
+          {
+            "key": "C",
+            "text": "11"
+          },
+          {
+            "key": "D",
+            "text": "5"
+          }
+        ],
+        "answer": "D",
+        "explanation": "向左平移 3 格，从第 8 格到第 5 格。",
+        "verify": "8-3"
+      },
+      "after": {
+        "id": "cnm_p128_q4",
+        "topicId": "cnm_p128",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "同一行格点从左向右编号。一个点在第8个格点，向左平移3格后到第几个格点？",
+        "answer": "5",
+        "explanation": "8−3=5，行不改变。",
+        "verify": "8-3"
+      }
+    },
+    {
+      "id": "cnm_p136_q2",
+      "beforeHash": "f84fd07411f8a1197e4e85790fb5a223b93fc410cc0edc198de77c867d11d907",
+      "before": {
+        "id": "cnm_p136_q2",
+        "topicId": "cnm_p136",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "点在第 4 列。4 的个位是几？",
+        "answer": "4",
+        "explanation": "列数是 4，个位就是 4。",
+        "verify": "4"
+      },
+      "after": {
+        "id": "cnm_p136_q2",
+        "topicId": "cnm_p136",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "约定数对先列后行。点A的位置是（4，2），它在第几列？",
+        "answer": "4",
+        "explanation": "数对的第一个数4表示列。",
+        "verify": "4"
+      }
+    },
+    {
+      "id": "cnm_p136_q3",
+      "beforeHash": "e8daa883df1ef49345c5772f8b1dc7d8090e10b15181d0364ec68d09a6f96b86",
+      "before": {
+        "id": "cnm_p136_q3",
+        "topicId": "cnm_p136",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "点在第 3 列第 5 行。列数和行数相加是多少？计算：3＋5＝？",
+        "answer": "8",
+        "explanation": "3＋5＝8。",
+        "verify": "3+5"
+      },
+      "after": {
+        "id": "cnm_p136_q3",
+        "topicId": "cnm_p136",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "约定数对先列后行。第3列第5行的位置应写成哪个数对？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "（3，5）"
+          },
+          {
+            "key": "B",
+            "text": "（5，3）"
+          },
+          {
+            "key": "C",
+            "text": "（8，0）"
+          }
+        ],
+        "answer": "A",
+        "explanation": "第一个数表示列，第二个数表示行。"
+      }
+    },
+    {
+      "id": "cnm_p136_q4",
+      "beforeHash": "d11682b8626bea2534039c3779794d9a052fac67ce65720eb02a01980251070c",
+      "before": {
+        "id": "cnm_p136_q4",
+        "topicId": "cnm_p136",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "6＋2 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "4"
+          },
+          {
+            "key": "B",
+            "text": "7"
+          },
+          {
+            "key": "C",
+            "text": "8"
+          },
+          {
+            "key": "D",
+            "text": "12"
+          }
+        ],
+        "answer": "C",
+        "explanation": "第 6 列第 2 行，6＋2＝8。",
+        "verify": "6+2"
+      },
+      "after": {
+        "id": "cnm_p136_q4",
+        "topicId": "cnm_p136",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "约定数对先列后行。（6，2）与（2，6）表示同一个位置吗？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "不同，一个第6列第2行，一个第2列第6行"
+          },
+          {
+            "key": "B",
+            "text": "相同，因为和都是8"
+          },
+          {
+            "key": "C",
+            "text": "相同，因为包含相同数字"
+          }
+        ],
+        "answer": "A",
+        "explanation": "顺序表达不同含义，不能通过相加比较位置。"
+      }
+    },
+    {
+      "id": "cnm_p140_q3",
+      "beforeHash": "ec3e8cf7d91decef988eea3785d6413741985ccd983f195c7dfa714388c5e138",
+      "before": {
+        "id": "cnm_p140_q3",
+        "topicId": "cnm_p140",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "计算：3＋2＝？",
+        "answer": "5",
+        "explanation": "袋中有 3 个红球和 2 个蓝球，一共 5 个，摸出的可能是红也可能是蓝。",
+        "verify": "3+2"
+      },
+      "after": {
+        "id": "cnm_p140_q3",
+        "topicId": "cnm_p140",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "不透明袋里有3个红球和2个蓝球，球除颜色外相同，充分混合后随机摸1个。能事先确定颜色吗？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "不能，红球和蓝球都有可能"
+          },
+          {
+            "key": "B",
+            "text": "一定红球"
+          },
+          {
+            "key": "C",
+            "text": "一定蓝球"
+          }
+        ],
+        "answer": "A",
+        "explanation": "数量更多不等于每次一定摸到该颜色。"
+      }
+    },
+    {
+      "id": "cnm_p140_q4",
+      "beforeHash": "3ba6fcb328ed4ac78f536c97b94894f2a36a10e1c7edfe9a9b5d4f5a7c81f548",
+      "before": {
+        "id": "cnm_p140_q4",
+        "topicId": "cnm_p140",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "4＋1 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "3"
+          },
+          {
+            "key": "B",
+            "text": "5"
+          },
+          {
+            "key": "C",
+            "text": "4"
+          },
+          {
+            "key": "D",
+            "text": "6"
+          }
+        ],
+        "answer": "B",
+        "explanation": "4 个红球加 1 个蓝球，一共 5 个。",
+        "verify": "4+1"
+      },
+      "after": {
+        "id": "cnm_p140_q4",
+        "topicId": "cnm_p140",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "不透明袋里有4个红球和1个蓝球，球除颜色外相同，每个球被摸到的机会相同。哪种颜色更容易摸到？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "红色，但不保证每次都是红色"
+          },
+          {
+            "key": "B",
+            "text": "蓝色"
+          },
+          {
+            "key": "C",
+            "text": "两种颜色机会一样"
+          }
+        ],
+        "answer": "A",
+        "explanation": "红球个数更多，摸到红球的可能性较大。"
+      }
+    },
+    {
+      "id": "cnm_p142_q4",
+      "beforeHash": "c4c1230301acdbf5eb4920b7017d27a171adf6035e3bef4886705e385cf22769",
+      "before": {
+        "id": "cnm_p142_q4",
+        "topicId": "cnm_p142",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "8×7 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "15"
+          },
+          {
+            "key": "B",
+            "text": "56"
+          },
+          {
+            "key": "C",
+            "text": "48"
+          },
+          {
+            "key": "D",
+            "text": "64"
+          }
+        ],
+        "answer": "B",
+        "explanation": "a＝7 时，8×a＝56。",
+        "verify": "8*7"
+      },
+      "after": {
+        "id": "cnm_p142_q4",
+        "topicId": "cnm_p142",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "每本练习本a元，买8本，应付总价用哪个式子表示？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "8a"
+          },
+          {
+            "key": "B",
+            "text": "8+a"
+          },
+          {
+            "key": "C",
+            "text": "a÷8"
+          }
+        ],
+        "answer": "A",
+        "explanation": "总价=单价×数量；字母可表示给定条件下的数。"
+      }
+    },
+    {
+      "id": "cnm_p159_q1",
+      "beforeHash": "38d6703716a90f2b9340a14afb48ea21cd1a5bfe331eb2723023024b787bdeff",
+      "before": {
+        "id": "cnm_p159_q1",
+        "topicId": "cnm_p159",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：4×3＝？",
+        "answer": "12",
+        "explanation": "4 和 3 的最小公倍数是 12。",
+        "verify": "4*3"
+      },
+      "after": {
+        "id": "cnm_p159_q1",
+        "topicId": "cnm_p159",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "4和3的最小公倍数是多少？",
+        "answer": "12",
+        "explanation": "4的倍数4、8、12；3的倍数3、6、9、12，最小的正公倍数是12。",
+        "verify": "12"
+      }
+    },
+    {
+      "id": "cnm_p159_q2",
+      "beforeHash": "d7678bb252b303c888bd0e53fe0c4df9e7ccb12ee036bfe4565f677fdabdfc85",
+      "before": {
+        "id": "cnm_p159_q2",
+        "topicId": "cnm_p159",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：6×5＝？",
+        "answer": "30",
+        "explanation": "6 和 5 互质，最小公倍数是 30。",
+        "verify": "6*5"
+      },
+      "after": {
+        "id": "cnm_p159_q2",
+        "topicId": "cnm_p159",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "6和5的最小公倍数是多少？",
+        "answer": "30",
+        "explanation": "6与5互质，最小公倍数为30。",
+        "verify": "30"
+      }
+    },
+    {
+      "id": "cnm_p159_q3",
+      "beforeHash": "ad7970fec58b8db97dde09dc8b71ed184423234049acefbc588a0650748bb8d1",
+      "before": {
+        "id": "cnm_p159_q3",
+        "topicId": "cnm_p159",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "2 和 8 的最小公倍数就是 8。8÷2 是多少？计算：8÷2＝？",
+        "answer": "4",
+        "explanation": "8÷2＝4，8 是 2 的倍数。",
+        "verify": "8/2"
+      },
+      "after": {
+        "id": "cnm_p159_q3",
+        "topicId": "cnm_p159",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "2和8的最小公倍数是多少？",
+        "answer": "8",
+        "explanation": "8本身是2的倍数，也是8的最小正倍数。",
+        "verify": "8"
+      }
+    },
+    {
+      "id": "cnm_p159_q4",
+      "beforeHash": "f464738c16fff52ea23bf333b27ed231f222f11df9bb03aade61445b825b2283",
+      "before": {
+        "id": "cnm_p159_q4",
+        "topicId": "cnm_p159",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "6×4÷2 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "12"
+          },
+          {
+            "key": "B",
+            "text": "8"
+          },
+          {
+            "key": "C",
+            "text": "10"
+          },
+          {
+            "key": "D",
+            "text": "24"
+          }
+        ],
+        "answer": "A",
+        "explanation": "6 和 4 的最小公倍数是 12。",
+        "verify": "6*4/2"
+      },
+      "after": {
+        "id": "cnm_p159_q4",
+        "topicId": "cnm_p159",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "6和4的最小公倍数是多少？",
+        "answer": "12",
+        "explanation": "正公倍数12、24等，最小的是12；不能不加判断直接相乘。",
+        "verify": "12"
+      }
+    },
+    {
+      "id": "cnm_p165_q4",
+      "beforeHash": "5e60ca3a05032360f6e23852577715f126b5e7906f2c3519bb1ad407fb6c9964",
+      "before": {
+        "id": "cnm_p165_q4",
+        "topicId": "cnm_p165",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "12÷3 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "3"
+          },
+          {
+            "key": "B",
+            "text": "6"
+          },
+          {
+            "key": "C",
+            "text": "4"
+          },
+          {
+            "key": "D",
+            "text": "9"
+          }
+        ],
+        "answer": "C",
+        "explanation": "12 的 1/3 是 4。",
+        "verify": "12/3"
+      },
+      "after": {
+        "id": "cnm_p165_q4",
+        "topicId": "cnm_p165",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "把12块糖看作一个整体，平均分成3份，取其中1份。这一份占全部糖的几分之几？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/3"
+          },
+          {
+            "key": "B",
+            "text": "1/4"
+          },
+          {
+            "key": "C",
+            "text": "4/1"
+          }
+        ],
+        "answer": "A",
+        "explanation": "平均分成3份取1份，是整体的1/3；4是糖的块数。"
+      }
+    },
+    {
+      "id": "cnm_p171_q2",
+      "beforeHash": "fc366fedef55952234a37c9c636b3c24dfdedbd7efc0af234bea397d98c0e048",
+      "before": {
+        "id": "cnm_p171_q2",
+        "topicId": "cnm_p171",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：90＋90＝？",
+        "answer": "180",
+        "explanation": "顺时针转 90 度再转 90 度，一共转了 180 度。",
+        "verify": "90+90"
+      },
+      "after": {
+        "id": "cnm_p171_q2",
+        "topicId": "cnm_p171",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "指针绕固定点从向上方向顺时针转90°，再同向转90°，共转多少度？",
+        "answer": "180",
+        "explanation": "同中心同方向连续旋转，角度相加90+90=180。",
+        "verify": "90+90"
+      }
+    },
+    {
+      "id": "cnm_p171_q4",
+      "beforeHash": "ee493b67112cf73572871f554e744c2094d87534090298a2ea078f9da8cd401d",
+      "before": {
+        "id": "cnm_p171_q4",
+        "topicId": "cnm_p171",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "360÷4 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "90"
+          },
+          {
+            "key": "B",
+            "text": "60"
+          },
+          {
+            "key": "C",
+            "text": "80"
+          },
+          {
+            "key": "D",
+            "text": "120"
+          }
+        ],
+        "answer": "A",
+        "explanation": "转一圈 360 度的四分之一是 90 度。",
+        "verify": "360/4"
+      },
+      "after": {
+        "id": "cnm_p171_q4",
+        "topicId": "cnm_p171",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "指针起初向上，绕固定端点顺时针转90°后指向哪里？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "右"
+          },
+          {
+            "key": "B",
+            "text": "左"
+          },
+          {
+            "key": "C",
+            "text": "下"
+          }
+        ],
+        "answer": "A",
+        "explanation": "从向上方向顺时针四分之一圈到右。"
+      }
+    },
+    {
+      "id": "cnm_p194_q4",
+      "beforeHash": "a4419d2d8935085754c9cf42d80c570fccd0c5eb655155b4c6bbdec6fb2f684f",
+      "before": {
+        "id": "cnm_p194_q4",
+        "topicId": "cnm_p194",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "1×100 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "10"
+          },
+          {
+            "key": "B",
+            "text": "50"
+          },
+          {
+            "key": "C",
+            "text": "100"
+          },
+          {
+            "key": "D",
+            "text": "1000"
+          }
+        ],
+        "answer": "C",
+        "explanation": "1 的 100% 是 100。",
+        "verify": "1*100"
+      },
+      "after": {
+        "id": "cnm_p194_q4",
+        "topicId": "cnm_p194",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "1的100%是多少？",
+        "answer": "1",
+        "explanation": "100%=1，所以1×100%=1，不是100。",
+        "verify": "1"
+      }
+    },
+    {
+      "id": "cnm_p201_q4",
+      "beforeHash": "a9cc0c7c1c2db5ba40fc322573c30045481804d579954a757748ebf5f33b15e6",
+      "before": {
+        "id": "cnm_p201_q4",
+        "topicId": "cnm_p201",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "18＋4 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "14"
+          },
+          {
+            "key": "B",
+            "text": "22"
+          },
+          {
+            "key": "C",
+            "text": "18"
+          },
+          {
+            "key": "D",
+            "text": "24"
+          }
+        ],
+        "answer": "B",
+        "explanation": "室温 18 度，冰箱零下 4 度，相差 22 度。",
+        "verify": "18+4"
+      },
+      "after": {
+        "id": "cnm_p201_q4",
+        "topicId": "cnm_p201",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "规定海平面为0米，高于海平面为正。某地低于海平面4米，海拔应记为多少米？",
+        "answer": "-4",
+        "explanation": "低于基准面4米记为−4米。",
+        "verify": "-4"
+      }
+    },
+    {
+      "id": "cnm_p205_q3",
+      "beforeHash": "50e53f19dee3fab0e8370983fc071cd685885eefcf36d06c75c0d697f39f953c",
+      "before": {
+        "id": "cnm_p205_q3",
+        "topicId": "cnm_p205",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "去年 40 人，今年 50 人。增加了多少人？计算：50－40＝？",
+        "answer": "10",
+        "explanation": "50－40＝10，10÷40＝25%，增长了 25%。",
+        "verify": "50-40"
+      },
+      "after": {
+        "id": "cnm_p205_q3",
+        "topicId": "cnm_p205",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "去年40人，今年50人。人数比去年增加百分之几？只填百分号前的数。",
+        "answer": "25",
+        "explanation": "增加量50−40=10，以去年40人为基数：10÷40×100%=25%。",
+        "verify": "(50-40)/40*100"
+      }
+    },
+    {
+      "id": "cnm_p210_q2",
+      "beforeHash": "b6a7c843587c6724fe2bcbce1885c45587bf0ab9439eb65cc9178907e7ed7a77",
+      "before": {
+        "id": "cnm_p210_q2",
+        "topicId": "cnm_p210",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：2×6＝？",
+        "answer": "12",
+        "explanation": "2：3＝4：6 里，外项 2×6＝12。",
+        "verify": "2*6"
+      },
+      "after": {
+        "id": "cnm_p210_q2",
+        "topicId": "cnm_p210",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列哪一组比能组成比例？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2:3和4:6"
+          },
+          {
+            "key": "B",
+            "text": "2:3和4:5"
+          },
+          {
+            "key": "C",
+            "text": "2:3和3:2"
+          }
+        ],
+        "answer": "A",
+        "explanation": "2÷3=4÷6，或外项2×6与内项3×4相等。"
+      }
+    },
+    {
+      "id": "cnm_p210_q4",
+      "beforeHash": "cdb6009f9c25fb604c64938e1d7dd085cbecf22e4de75323744ae09e3cad708f",
+      "before": {
+        "id": "cnm_p210_q4",
+        "topicId": "cnm_p210",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "5×8 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "40"
+          },
+          {
+            "key": "B",
+            "text": "13"
+          },
+          {
+            "key": "C",
+            "text": "30"
+          },
+          {
+            "key": "D",
+            "text": "45"
+          }
+        ],
+        "answer": "A",
+        "explanation": "5：4＝10：8 的外项之积是 40。",
+        "verify": "5*8"
+      },
+      "after": {
+        "id": "cnm_p210_q4",
+        "topicId": "cnm_p210",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "5:4=10:8中，两个外项是哪两个数？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "5和8"
+          },
+          {
+            "key": "B",
+            "text": "4和10"
+          },
+          {
+            "key": "C",
+            "text": "5和4"
+          }
+        ],
+        "answer": "A",
+        "explanation": "比例a:b=c:d中a、d为外项，b、c为内项。"
+      }
+    },
+    {
+      "id": "cnm_p213_q4",
+      "beforeHash": "6bbf641d21171143aa8a2d0714ebea25e564a4599676788d1ac2480816dd0904",
+      "before": {
+        "id": "cnm_p213_q4",
+        "topicId": "cnm_p213",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "12×5 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "17"
+          },
+          {
+            "key": "B",
+            "text": "50"
+          },
+          {
+            "key": "C",
+            "text": "72"
+          },
+          {
+            "key": "D",
+            "text": "60"
+          }
+        ],
+        "answer": "D",
+        "explanation": "每小时 12 千米，5 小时是 60 千米。",
+        "verify": "12*5"
+      },
+      "after": {
+        "id": "cnm_p213_q4",
+        "topicId": "cnm_p213",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "固定单价，每买一本书总价增加12元，数量和总价成正比例吗？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "是，总价除以数量为固定单价（数量非零）"
+          },
+          {
+            "key": "B",
+            "text": "否，只要两种量增加就不成比例"
+          },
+          {
+            "key": "C",
+            "text": "是，因为两种量的和一定"
+          }
+        ],
+        "answer": "A",
+        "explanation": "总价=12×数量，比值固定为12。"
+      }
+    },
+    {
+      "id": "cnm_p214_q4",
+      "beforeHash": "07ec354c83f907f1b057ab5590f24fab8dac243770c0ae492d8fc758b10c5c44",
+      "before": {
+        "id": "cnm_p214_q4",
+        "topicId": "cnm_p214",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "20×3÷5 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "8"
+          },
+          {
+            "key": "B",
+            "text": "10"
+          },
+          {
+            "key": "C",
+            "text": "15"
+          },
+          {
+            "key": "D",
+            "text": "12"
+          }
+        ],
+        "answer": "D",
+        "explanation": "20×3＝60，60÷5＝12。",
+        "verify": "20*3/5"
+      },
+      "after": {
+        "id": "cnm_p214_q4",
+        "topicId": "cnm_p214",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "同一段路程，速度与行完全程所用时间成反比例吗？假定速度保持不变且不计停留。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "是，速度与时间的乘积等于固定路程"
+          },
+          {
+            "key": "B",
+            "text": "否，因为时间会变"
+          },
+          {
+            "key": "C",
+            "text": "是，因为速度与时间的比值固定"
+          }
+        ],
+        "answer": "A",
+        "explanation": "路程=速度×时间，路程固定，两个正数量的乘积固定。"
+      }
+    }
+  ],
+  "dependencies": []
+}

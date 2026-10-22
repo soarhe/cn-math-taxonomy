@@ -51,7 +51,7 @@ class AlgebraD5BuildTests(unittest.TestCase):
   for x in req:
    self.assertIn(x['coverage'],['partial','pending']);self.assertFalse(x['expertReviewed'])
    for qid in x['evidenceQuestionIds']:self.assertIn(qid,qs)
-  self.assertEqual(load('data/current-release.json')['counts']['questions'],6256)
+  self.assertEqual(load('reviews/math-junior/batch-d5/release.json')['counts']['questions'],6256)
   self.assertEqual(load('reviews/math-junior/batch-d4/release.json')['counts']['questions'],6250)
   app=(ROOT/'diagnose/app.js').read_text();self.assertIn('cnmDiagnose.session.algebra-2026-10.4.evidence-1.1',app)
   self.assertIn("const DATA_VERSION = '"+load('data/current-release.json')['version']+"'",app)

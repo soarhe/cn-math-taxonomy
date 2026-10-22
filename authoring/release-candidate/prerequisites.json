@@ -1,0 +1,416 @@
+{
+  "batch": "release-candidate-algebra-prerequisites",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [],
+  "questions": [],
+  "dependencies": [
+    {
+      "id": "cnm_048",
+      "beforeHash": "0df81f5c25d740c82d4800fa024bfde7e82d653a2e5fee017b198f8dfecc437c",
+      "before": [
+        {
+          "topicId": "cnm_048",
+          "prerequisiteId": "cnm_p203",
+          "strength": "hard",
+          "reason": "学习「销售与利润问题」需要先会小学的「折扣」。利润率与折扣用百分数。"
+        },
+        {
+          "topicId": "cnm_048",
+          "prerequisiteId": "cnm_045",
+          "strength": "hard",
+          "reason": "遵循列方程的一般步骤"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_048",
+          "prerequisiteId": "cnm_p203",
+          "strength": "soft",
+          "reason": "利润率以成本为基数；折扣题是相关应用，不是所有利润问题的必要前提。"
+        },
+        {
+          "topicId": "cnm_048",
+          "prerequisiteId": "cnm_045",
+          "strength": "hard",
+          "reason": "遵循列方程的一般步骤"
+        }
+      ]
+    },
+    {
+      "id": "cnm_077",
+      "beforeHash": "28c26c66db06ab59e8adcbfdfc645db38926a58ae7599d3731fe2bb245fc87fe",
+      "before": [
+        {
+          "topicId": "cnm_077",
+          "prerequisiteId": "cnm_075",
+          "strength": "hard",
+          "reason": "无理数的典型例子如√2是通过开平方得到的，需要先会开平方求平方根"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_077",
+          "prerequisiteId": "cnm_075",
+          "strength": "soft",
+          "reason": "可用无限不循环小数理解无理数；开平方提供典型例子，但开平方算法不是概念的必要门槛。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_193",
+      "beforeHash": "50539cba18c6b52e142193a830d2c5b7f649d910ce2f8b47aa1543a8a181e3a0",
+      "before": [
+        {
+          "topicId": "cnm_193",
+          "prerequisiteId": "cnm_027",
+          "strength": "hard",
+          "reason": "需要用代数式表示数量关系"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_193",
+          "prerequisiteId": "cnm_027",
+          "strength": "soft",
+          "reason": "变量与常量可直接在情境中识别；列代数式提供表达工具，不是辨认概念的必要前提。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_205",
+      "beforeHash": "7295a16c478e54bae13d9a3f49ceb7c3b53d4ea1a4d173ab2a4f33fa848f88ef",
+      "before": [
+        {
+          "topicId": "cnm_205",
+          "prerequisiteId": "cnm_201",
+          "strength": "hard",
+          "reason": "待定系数法要先设出一次函数解析式的一般形式，需要先理解一次函数概念"
+        },
+        {
+          "topicId": "cnm_205",
+          "prerequisiteId": "cnm_089",
+          "strength": "hard",
+          "reason": "列出的二元一次方程组需消元"
+        },
+        {
+          "topicId": "cnm_205",
+          "prerequisiteId": "cnm_090",
+          "strength": "soft",
+          "reason": "待定系数法得到方程组后也可以用加减消元法求解"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_205",
+          "prerequisiteId": "cnm_201",
+          "strength": "hard",
+          "reason": "待定系数法要先设出一次函数解析式的一般形式，需要先理解一次函数概念"
+        },
+        {
+          "topicId": "cnm_205",
+          "prerequisiteId": "cnm_089",
+          "strength": "soft",
+          "reason": "可用代入消元，也可用加减消元等价求解；代入法不应作为唯一硬门槛。"
+        },
+        {
+          "topicId": "cnm_205",
+          "prerequisiteId": "cnm_090",
+          "strength": "soft",
+          "reason": "待定系数法得到方程组后也可以用加减消元法求解"
+        }
+      ]
+    },
+    {
+      "id": "cnm_209",
+      "beforeHash": "8bf9a1ecc9b16646281a026aff77f3bf3098482d6ca39f28ecb6a17bca4cf720",
+      "before": [
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_205",
+          "strength": "hard",
+          "reason": "解一次函数的应用题需要先用待定系数法求出解析式"
+        },
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_199",
+          "strength": "hard",
+          "reason": "一次函数的应用是用函数刻画实际变化规律的具体情形，需要先理解函数建模"
+        },
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_207",
+          "strength": "soft",
+          "reason": "方案选择类问题可转化为比较两个一次函数值的大小，需要用一次函数与不等式"
+        },
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_049",
+          "strength": "soft",
+          "reason": "一次函数的方案选择与分段计费问题的思路类似，可借鉴方程方案的比较方法"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_205",
+          "strength": "soft",
+          "reason": "有些模型可直接由数量关系列出；仅在需要由已知点确定系数时调用待定系数法。"
+        },
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_199",
+          "strength": "hard",
+          "reason": "一次函数的应用是用函数刻画实际变化规律的具体情形，需要先理解函数建模"
+        },
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_207",
+          "strength": "soft",
+          "reason": "方案选择类问题可转化为比较两个一次函数值的大小，需要用一次函数与不等式"
+        },
+        {
+          "topicId": "cnm_209",
+          "prerequisiteId": "cnm_049",
+          "strength": "soft",
+          "reason": "一次函数的方案选择与分段计费问题的思路类似，可借鉴方程方案的比较方法"
+        }
+      ]
+    },
+    {
+      "id": "cnm_222",
+      "beforeHash": "096359ffda798db4b9cf922aa0134c7e83d5f4af43d8b493201ce23caedc994d",
+      "before": [
+        {
+          "topicId": "cnm_222",
+          "prerequisiteId": "cnm_221",
+          "strength": "hard",
+          "reason": "求根公式是对一般形式的方程用配方法推导出来的，需要先掌握配方法"
+        },
+        {
+          "topicId": "cnm_222",
+          "prerequisiteId": "cnm_171",
+          "strength": "hard",
+          "reason": "求根公式的结果常含根式，需要会把二次根式化为最简"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_222",
+          "prerequisiteId": "cnm_221",
+          "strength": "soft",
+          "reason": "配方法支持求根公式的推导；准确使用已知公式不以熟练配方法为唯一前提。"
+        },
+        {
+          "topicId": "cnm_222",
+          "prerequisiteId": "cnm_171",
+          "strength": "hard",
+          "reason": "求根公式的结果常含根式，需要会把二次根式化为最简"
+        }
+      ]
+    },
+    {
+      "id": "cnm_229",
+      "beforeHash": "f78c98cbdb0bd0d79b8e0d6e764811223b0dfbb5b3979a214a847c672212ef74",
+      "before": [
+        {
+          "topicId": "cnm_229",
+          "prerequisiteId": "cnm_201",
+          "strength": "hard",
+          "reason": "二次函数的概念可以类比一次函数概念，由一次函数推广到二次函数"
+        },
+        {
+          "topicId": "cnm_229",
+          "prerequisiteId": "cnm_219",
+          "strength": "soft",
+          "reason": "与一元二次方程形式对应"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_229",
+          "prerequisiteId": "cnm_201",
+          "strength": "soft",
+          "reason": "一次函数提供类比，二次函数定义不要求先熟练掌握一次函数。"
+        },
+        {
+          "topicId": "cnm_229",
+          "prerequisiteId": "cnm_219",
+          "strength": "soft",
+          "reason": "与一元二次方程形式对应"
+        }
+      ]
+    },
+    {
+      "id": "cnm_231",
+      "beforeHash": "f03af0e4cf47181a5c104133b9149a1c742ef7daf2884fd6d11d72f5590e04db",
+      "before": [
+        {
+          "topicId": "cnm_231",
+          "prerequisiteId": "cnm_230",
+          "strength": "hard",
+          "reason": "研究y=a(x-h)²+k的图象要在y=ax²的图象基础上平移，需要先掌握y=ax²的图象与性质"
+        },
+        {
+          "topicId": "cnm_231",
+          "prerequisiteId": "cnm_204",
+          "strength": "hard",
+          "reason": "与一次函数平移规律类比"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_231",
+          "prerequisiteId": "cnm_230",
+          "strength": "hard",
+          "reason": "研究y=a(x-h)²+k的图象要在y=ax²的图象基础上平移，需要先掌握y=ax²的图象与性质"
+        },
+        {
+          "topicId": "cnm_231",
+          "prerequisiteId": "cnm_204",
+          "strength": "soft",
+          "reason": "一次函数平移可作类比；可直接由点坐标变化推导抛物线平移。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_233",
+      "beforeHash": "add97a078c260b5574a3a104cc595bd79d2aef0f073b4e2b0e4d39145c0106df",
+      "before": [
+        {
+          "topicId": "cnm_233",
+          "prerequisiteId": "cnm_232",
+          "strength": "hard",
+          "reason": "待定系数法要根据条件选用一般式、顶点式等形式，需要先掌握各种形式的特征"
+        },
+        {
+          "topicId": "cnm_233",
+          "prerequisiteId": "cnm_093",
+          "strength": "hard",
+          "reason": "三点法需解三元一次方程组"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_233",
+          "prerequisiteId": "cnm_232",
+          "strength": "hard",
+          "reason": "待定系数法要根据条件选用一般式、顶点式等形式，需要先掌握各种形式的特征"
+        },
+        {
+          "topicId": "cnm_233",
+          "prerequisiteId": "cnm_093",
+          "strength": "soft",
+          "reason": "三点一般式可能用三元方程组；顶点式、交点式可降低未知系数数量，不应把选学三元方程组设为统一门槛。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_236",
+      "beforeHash": "b68db5aff0cff2332629dba23e643e0557b9df9fcc2384eae6dc13236c20bad4",
+      "before": [
+        {
+          "topicId": "cnm_236",
+          "prerequisiteId": "cnm_235",
+          "strength": "hard",
+          "reason": "二次函数的实际应用通常是求最大或最小值，需要先会求二次函数最值"
+        },
+        {
+          "topicId": "cnm_236",
+          "prerequisiteId": "cnm_233",
+          "strength": "hard",
+          "reason": "应用题中要先建立解析式，需要先会用待定系数法求二次函数解析式"
+        },
+        {
+          "topicId": "cnm_236",
+          "prerequisiteId": "cnm_199",
+          "strength": "soft",
+          "reason": "函数建模的一般方法"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_236",
+          "prerequisiteId": "cnm_235",
+          "strength": "hard",
+          "reason": "二次函数的实际应用通常是求最大或最小值，需要先会求二次函数最值"
+        },
+        {
+          "topicId": "cnm_236",
+          "prerequisiteId": "cnm_233",
+          "strength": "soft",
+          "reason": "解析式可由情境数量关系直接建立；待定系数法只用于相应条件。"
+        },
+        {
+          "topicId": "cnm_236",
+          "prerequisiteId": "cnm_199",
+          "strength": "soft",
+          "reason": "函数建模的一般方法"
+        }
+      ]
+    },
+    {
+      "id": "cnm_240",
+      "beforeHash": "b44af4e1f260ad2c30db9d5ea2600d8bf048702fa45442c920c64d634e618315",
+      "before": [
+        {
+          "topicId": "cnm_240",
+          "prerequisiteId": "cnm_237",
+          "strength": "hard",
+          "reason": "待定系数法要先设出反比例函数的解析式，需要先理解反比例函数的概念"
+        },
+        {
+          "topicId": "cnm_240",
+          "prerequisiteId": "cnm_042",
+          "strength": "hard",
+          "reason": "求反比例函数的k值要列方程并求解，需要先会解一元一次方程"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_240",
+          "prerequisiteId": "cnm_237",
+          "strength": "hard",
+          "reason": "待定系数法要先设出反比例函数的解析式，需要先理解反比例函数的概念"
+        },
+        {
+          "topicId": "cnm_240",
+          "prerequisiteId": "cnm_042",
+          "strength": "soft",
+          "reason": "给定点可直接用k=xy求参数；完整的一元一次方程解法不是必要门槛。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_242",
+      "beforeHash": "1adff625f1dedbfcdfed67f4b10518444b057b63cf2c8f35c2ce4b48028bbc55",
+      "before": [
+        {
+          "topicId": "cnm_242",
+          "prerequisiteId": "cnm_240",
+          "strength": "hard",
+          "reason": "反比例函数的应用要先求出解析式，需要先会用待定系数法"
+        },
+        {
+          "topicId": "cnm_242",
+          "prerequisiteId": "cnm_199",
+          "strength": "hard",
+          "reason": "反比例函数的应用是用函数刻画实际问题，需要有函数建模的经验"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_242",
+          "prerequisiteId": "cnm_240",
+          "strength": "soft",
+          "reason": "已知乘积恒定即可列反比例关系；仅在需由观测点确定参数时调用待定系数法。"
+        },
+        {
+          "topicId": "cnm_242",
+          "prerequisiteId": "cnm_199",
+          "strength": "hard",
+          "reason": "反比例函数的应用是用函数刻画实际问题，需要有函数建模的经验"
+        }
+      ]
+    }
+  ]
+}

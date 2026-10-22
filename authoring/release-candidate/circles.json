@@ -1,0 +1,403 @@
+{
+  "batch": "release-candidate-circles",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [],
+  "questions": [
+    {
+      "id": "cnm_252_q3",
+      "beforeHash": "4e8647392b4daf4ca45bdd725a153168883d6e82c35a64f1b8260c9775917934",
+      "before": {
+        "id": "cnm_252_q3",
+        "topicId": "cnm_252",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "⊙O 的半径为 4，点 A、B、C、D、E、F 把圆周六等分，求弦 AB 的长。",
+        "answer": "4",
+        "explanation": "每段弧所对的圆心角为 360°÷6=60°，又 OA=OB，△OAB 为等边三角形，所以 AB=OA=4。",
+        "verify": "2*4*sin(radians(30))"
+      },
+      "after": {
+        "id": "cnm_252_q3",
+        "topicId": "cnm_252",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "⊙O 的半径为 4，点A、B、C、D、E、F按此顺序沿圆周排列并把圆周六等分，求弦 AB 的长。",
+        "answer": "4",
+        "explanation": "每段弧所对的圆心角为 360°÷6=60°，又 OA=OB，△OAB 为等边三角形，所以 AB=OA=4。",
+        "verify": "2*4*sin(radians(30))"
+      }
+    },
+    {
+      "id": "cnm_253_q1",
+      "beforeHash": "8ee3818f821fc74092520aa051686a3e936c9a2697172bbf7a86c7bf794eb805",
+      "before": {
+        "id": "cnm_253_q1",
+        "topicId": "cnm_253",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "圆心角 100° 所对弧上的圆周角是多少？（圆周角的顶点在该弧所对的优弧上，单位：度）",
+        "answer": "50",
+        "explanation": "同弧所对的圆周角等于圆心角的一半，100°÷2=50°。",
+        "verify": "100/2",
+        "fixed_from_source": "原题未说明圆周角顶点位置，补充为顶点在优弧上；答案 50° 不变"
+      },
+      "after": {
+        "id": "cnm_253_q1",
+        "topicId": "cnm_253",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "⊙O中∠AOB=100°，C在优弧AB内部且不与A、B重合。求截得劣弧AB的圆周角∠ACB。（单位：度）",
+        "answer": "50",
+        "explanation": "同弧所对的圆周角等于圆心角的一半，100°÷2=50°。",
+        "verify": "100/2",
+        "fixed_from_source": "release-candidate: 明确所截劣弧与顶点在另一弧，消除“弧上的圆周角”歧义"
+      }
+    },
+    {
+      "id": "cnm_257_q5",
+      "beforeHash": "6570d677ee05b651fce8aee2b8a715e736181018a2d0495718713704db53fe26",
+      "before": {
+        "id": "cnm_257_q5",
+        "topicId": "cnm_257",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "正方形 ABCD 边长为 4，以 A 为圆心、4 为半径作弧 BD，则弧 BD 与弦 BD 所围成的弓形面积是",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "4π-16"
+          },
+          {
+            "key": "B",
+            "text": "4π-8"
+          },
+          {
+            "key": "C",
+            "text": "16-4π"
+          },
+          {
+            "key": "D",
+            "text": "8-4π"
+          }
+        ],
+        "explanation": "弓形面积=扇形 ABD 面积-△ABD 面积=90π×16/360-4×4/2=4π-8。"
+      },
+      "after": {
+        "id": "cnm_257_q5",
+        "topicId": "cnm_257",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "正方形 ABCD 边长为 4，以 A 为圆心、4 为半径作位于正方形内部的劣弧BD，则弧 BD 与弦 BD 所围成的弓形面积是",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "4π-16"
+          },
+          {
+            "key": "B",
+            "text": "4π-8"
+          },
+          {
+            "key": "C",
+            "text": "16-4π"
+          },
+          {
+            "key": "D",
+            "text": "8-4π"
+          }
+        ],
+        "explanation": "弓形面积=扇形 ABD 面积-△ABD 面积=90π×16/360-4×4/2=4π-8。"
+      }
+    },
+    {
+      "id": "cnm_249_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_249_q6",
+        "topicId": "cnm_249",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在坐标纸上画三角形A(1,2)、B(4,1)、C(2,−1)，作关于原点的中心对称图形，写坐标并检查原点是否为每组对应点连线的中点。",
+        "answer": "对应点为A′(−1,−2)、B′(−4,−1)、C′(−2,1)；每对横纵坐标相加为0，中点是(0,0)。按对应顺序连线得像。",
+        "explanation": "对应点为A′(−1,−2)、B′(−4,−1)、C′(−2,1)；每对横纵坐标相加为0，中点是(0,0)。按对应顺序连线得像。",
+        "rubric": [
+          "实际描点、连图及对应线",
+          "六个坐标与图一致",
+          "检查每对中点为原点",
+          "不只关于某一坐标轴翻转"
+        ]
+      }
+    },
+    {
+      "id": "cnm_250_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_250_q5",
+        "topicId": "cnm_250",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用圆规画圆O，在圆上标A、B、C；画半径OA、非直径弦AB、经过O的直径CD，并标出弦AB对应的一条劣弧和一条优弧。说明为什么任何弦长度不超过直径。",
+        "answer": "若弦XY不过O，△XOY中XY<OX+OY=2r；若过O则为直径XY=2r。所以直径最长。两端点之间有两段弧，标注优劣弧需避免只用同样两字母产生歧义。",
+        "explanation": "若弦XY不过O，△XOY中XY<OX+OY=2r；若过O则为直径XY=2r。所以直径最长。两端点之间有两段弧，标注优劣弧需避免只用同样两字母产生歧义。",
+        "rubric": [
+          "实际画各元素且非直径弦不过圆心",
+          "劣弧小于半圆、优弧大于半圆并有清晰标记",
+          "用三角形不等式及经过圆心的等号情况解释最长弦"
+        ]
+      }
+    },
+    {
+      "id": "cnm_253_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_253_q6",
+        "topicId": "cnm_253",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画圆O及圆心角∠AOB=100°，在优弧AB内部取C、劣弧AB内部取D，连AC、BC、AD、BD。分别求∠ACB、∠ADB，并解释同一弦为什么未必对应相等的圆周角。",
+        "answer": "∠ACB截得100°劣弧，等于50°；∠ADB截得260°优弧，等于130°。同一弦两侧的圆周角所截弧不同，二者互补；同弧所对角才相等。",
+        "explanation": "∠ACB截得100°劣弧，等于50°；∠ADB截得260°优弧，等于130°。同一弦两侧的圆周角所截弧不同，二者互补；同弧所对角才相等。",
+        "rubric": [
+          "实际区分C、D在两弧内部的位置",
+          "写出所截弧100°与260°",
+          "算50°、130°并解释互补",
+          "不把顶点所在弧当作被角截得的弧"
+        ]
+      }
+    },
+    {
+      "id": "cnm_256_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_256_q6",
+        "topicId": "cnm_256",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "半径r的圆周长为2πr。说明n°的弧长公式从何而来（0<n≤360），再求半径6 cm、角度120°的弧长，并指出角度与长度单位。",
+        "answer": "n°占一周n/360，所以弧长l=(n/360)·2πr=nπr/180；代入得4π cm。n以度计，l是长度，不能把120°写成120 cm。",
+        "explanation": "n°占一周n/360，所以弧长l=(n/360)·2πr=nπr/180；代入得4π cm。n以度计，l是长度，不能把120°写成120 cm。",
+        "rubric": [
+          "用占整周比例而非只背公式",
+          "推到nπr/180",
+          "计算4π cm并区分单位"
+        ]
+      }
+    },
+    {
+      "id": "cnm_257_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_257_q6",
+        "topicId": "cnm_257",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画边长4的正方形ABCD，以A为圆心、AB为半径画正方形内的劣弧BD，涂出弧与弦BD之间的弓形。列面积分解并求弓形面积。",
+        "answer": "扇形圆心角90°，面积(90/360)π·4²=4π；△ABD为两直角边4的直角三角形，面积8；弓形=4π−8。",
+        "explanation": "扇形圆心角90°，面积(90/360)π·4²=4π；△ABD为两直角边4的直角三角形，面积8；弓形=4π−8。",
+        "rubric": [
+          "实际标出劣弧、弦及所求区域",
+          "扇形面积4π",
+          "三角形面积8且作差方向正确",
+          "结果正值、不是整圆减去三角形"
+        ]
+      }
+    },
+    {
+      "id": "cnm_258_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_258_q6",
+        "topicId": "cnm_258",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画底面半径3、母线5的直圆锥侧面展开示意。标出扇形半径、弧长和圆心角，推导侧面积，再求含底面的全面积。",
+        "answer": "扇形半径5，弧长等于底周长6π；nπ·5/180=6π得n=216°。侧面积=(6π×5)/2=15π，底面积9π，全面积24π。",
+        "explanation": "扇形半径5，弧长等于底周长6π；nπ·5/180=6π得n=216°。侧面积=(6π×5)/2=15π，底面积9π，全面积24π。",
+        "rubric": [
+          "实际展开图须画大于半圆的216°扇形",
+          "区分母线5与底半径3",
+          "弧长匹配底面周长而非底面直径",
+          "求侧面15π及全面24π"
+        ]
+      }
+    },
+    {
+      "id": "cnm_261_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_261_q6",
+        "topicId": "cnm_261",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "两种情形分别完成证明：①A在半径5的圆O上，直线AB上点B满足AB=12、OB=13；②半径5的圆O到直线l的垂足为H，已知OH=5。证明各直线为切线，并说明所用方法不同之处。",
+        "answer": "①OA²+AB²=OB²，由勾股逆定理OA⊥AB；A为半径外端，故AB为切线。②OH是垂距且等于半径，d=r，故l相切、H为切点。前者连半径证垂直，后者作垂直证半径。",
+        "explanation": "①OA²+AB²=OB²，由勾股逆定理OA⊥AB；A为半径外端，故AB为切线。②OH是垂距且等于半径，d=r，故l相切、H为切点。前者连半径证垂直，后者作垂直证半径。",
+        "rubric": [
+          "各自画圆、直线与关键垂线",
+          "①先证明垂直再使用A在圆上",
+          "②明确OH是距离而非任意连线",
+          "区分两条逻辑路径并给相切结论"
+        ]
+      }
+    },
+    {
+      "id": "cnm_264_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_264_q6",
+        "topicId": "cnm_264",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "直角三角形两直角边a、b，斜边c，内切圆半径r。连内心与三顶点，用面积分解推出r=ab/(a+b+c)，再用c²=a²+b²化为(a+b−c)/2，并核对3、4、5情形。",
+        "answer": "面积ab/2=r(a+b+c)/2，所以r=ab/(a+b+c)。由(a+b−c)(a+b+c)=2ab，得r=(a+b−c)/2；3、4、5时r=1。",
+        "explanation": "面积ab/2=r(a+b+c)/2，所以r=ab/(a+b+c)。由(a+b−c)(a+b+c)=2ab，得r=(a+b−c)/2；3、4、5时r=1。",
+        "rubric": [
+          "图中三条垂距都是r",
+          "三小三角形面积和等于原面积",
+          "完整推导两种公式等价且分母为正",
+          "核对r=1而非半周长本身"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_249",
+      "beforeHash": "dba6029ebf27a0f55640a422b5ecf5952a191b29a637ad0591e68a44017fb43e",
+      "before": [
+        {
+          "topicId": "cnm_249",
+          "prerequisiteId": "cnm_248",
+          "strength": "hard",
+          "reason": "关于原点对称的点的坐标规律源于中心对称，需要先理解中心对称"
+        },
+        {
+          "topicId": "cnm_249",
+          "prerequisiteId": "cnm_136",
+          "strength": "hard",
+          "reason": "与轴对称坐标规律对比"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_249",
+          "prerequisiteId": "cnm_248",
+          "strength": "hard",
+          "reason": "关于原点对称的点的坐标规律源于中心对称，需要先理解中心对称"
+        },
+        {
+          "topicId": "cnm_249",
+          "prerequisiteId": "cnm_136",
+          "strength": "soft",
+          "reason": "轴对称坐标规律可作比较；原点对称可直接由中点坐标或180度旋转理解，不以轴对称熟练度为必要门槛。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_252",
+      "beforeHash": "29f1392c72d56950394251422d99c6e19dbebc9625be43851de41cf18ec87b9e",
+      "before": [
+        {
+          "topicId": "cnm_252",
+          "prerequisiteId": "cnm_250",
+          "strength": "hard",
+          "reason": "弧、弦、圆心角的关系研究圆中的元素，需要先理解圆的有关概念"
+        },
+        {
+          "topicId": "cnm_252",
+          "prerequisiteId": "cnm_245",
+          "strength": "hard",
+          "reason": "可借助旋转不变性证明"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_252",
+          "prerequisiteId": "cnm_250",
+          "strength": "hard",
+          "reason": "弧、弦、圆心角的关系研究圆中的元素，需要先理解圆的有关概念"
+        },
+        {
+          "topicId": "cnm_252",
+          "prerequisiteId": "cnm_245",
+          "strength": "soft",
+          "reason": "旋转可用于证明弧弦圆心角关系；理解和直接应用该关系并非必须先熟练旋转性质。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_257",
+      "beforeHash": "ac4dd0850594ecaaf3930efd4696a92830b7828d26a61e5556b56d33c0b741d1",
+      "before": [
+        {
+          "topicId": "cnm_257",
+          "prerequisiteId": "cnm_256",
+          "strength": "hard",
+          "reason": "扇形面积公式与弧长公式有联系，需要先掌握弧长的计算"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_257",
+          "prerequisiteId": "cnm_256",
+          "strength": "soft",
+          "reason": "弧长用于S=lr/2形式；扇形面积也可直接用圆面积乘圆心角占整周比例，不以弧长计算为唯一必要前提。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_264",
+      "beforeHash": "b0aa71024b229b1c1ab0ef37f60fdf24c4a6f83d1ad356847ee20d814126cd4d",
+      "before": [
+        {
+          "topicId": "cnm_264",
+          "prerequisiteId": "cnm_263",
+          "strength": "hard",
+          "reason": "三角形内切圆的圆心到三边距离相等，要用切线长定理来推导"
+        },
+        {
+          "topicId": "cnm_264",
+          "prerequisiteId": "cnm_129",
+          "strength": "hard",
+          "reason": "三角形内切圆的圆心在各内角的平分线上，需要先掌握角平分线的判定"
+        },
+        {
+          "topicId": "cnm_264",
+          "prerequisiteId": "cnm_114",
+          "strength": "soft",
+          "reason": "内心是角平分线交点"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_264",
+          "prerequisiteId": "cnm_263",
+          "strength": "soft",
+          "reason": "切线长用于切点分段和一种半径公式推导；内心到三边等距可由角平分线性质与半径垂直直接得到，不必先掌握切线长全部应用。"
+        },
+        {
+          "topicId": "cnm_264",
+          "prerequisiteId": "cnm_129",
+          "strength": "hard",
+          "reason": "三角形内切圆的圆心在各内角的平分线上，需要先掌握角平分线的判定"
+        },
+        {
+          "topicId": "cnm_264",
+          "prerequisiteId": "cnm_114",
+          "strength": "soft",
+          "reason": "内心是角平分线交点"
+        }
+      ]
+    }
+  ]
+}

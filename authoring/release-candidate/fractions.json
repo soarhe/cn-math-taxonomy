@@ -1,0 +1,1230 @@
+{
+  "batch": "release-candidate-fractions",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_157",
+      "beforeHash": "43f5d9e283dc2106b0c5c441e44d06590af459ffa29eb0dbe3c6d71095e97cf6",
+      "before": {
+        "id": "cnm_157",
+        "name": "分式的基本性质",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.1",
+        "type": "conceptual",
+        "description": "分式的分子分母同乘（除以）同一个不为 0 的整式，分式值不变。",
+        "mastery_criteria": [
+          "能叙述性质",
+          "能做符号变形"
+        ],
+        "diagnostic_question": {
+          "question": "把 -a/(-b) 化简。",
+          "answer": "a/b"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_157",
+        "name": "分式的基本性质",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.1",
+        "type": "conceptual",
+        "description": "在原分母非零的范围内，分子分母同乘或同除以取值非零的同一整式，分式值不变；整式本身不是零多项式，不代表它在每个代入值处都非零。",
+        "mastery_criteria": [
+          "能叙述性质",
+          "能做符号变形",
+          "能说明并保留原分母及除数非零的取值限制"
+        ],
+        "diagnostic_question": {
+          "question": "把 -a/(-b) 化简。",
+          "answer": "a/b"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_158",
+      "beforeHash": "868dc8700f31ac9c240f7ab896245dc1fcb790ec4edcebd4b637d7cc871208bd",
+      "before": {
+        "id": "cnm_158",
+        "name": "分式的约分与最简分式",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.1",
+        "type": "procedural",
+        "description": "把分子分母的公因式约去，化为最简分式，必要时先因式分解。",
+        "mastery_criteria": [
+          "能找出公因式并约分",
+          "结果为最简分式"
+        ],
+        "diagnostic_question": {
+          "question": "约分 (x²-1)/(x²+x)。",
+          "answer": "(x-1)/x"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_158",
+        "name": "分式的约分与最简分式",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.1",
+        "type": "procedural",
+        "description": "先明确原分母非零的条件，再约去分子分母的公因式；化简后仍保留原式取值限制，必要时先因式分解。",
+        "mastery_criteria": [
+          "能找出公因式并约分",
+          "结果为最简分式",
+          "能说明并保留原分母及除数非零的取值限制"
+        ],
+        "diagnostic_question": {
+          "question": "约分 (x²-1)/(x²+x)。",
+          "answer": "(x-1)/x"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_159",
+      "beforeHash": "e208d20a245db11c19449c4331145319512fbb9b7d73534c4a3c7bbb0f19429c",
+      "before": {
+        "id": "cnm_159",
+        "name": "分式的通分",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.1",
+        "type": "procedural",
+        "description": "把异分母分式化为同分母分式，需要确定最简公分母。",
+        "mastery_criteria": [
+          "能找最简公分母",
+          "能完成通分"
+        ],
+        "diagnostic_question": {
+          "question": "把 1/x 与 1/(x+1) 通分。",
+          "answer": "(x+1)/[x(x+1)]，x/[x(x+1)]"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_159",
+        "name": "分式的通分",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.1",
+        "type": "procedural",
+        "description": "把异分母分式化为同分母分式；通常选最简公分母以简化计算，也可以使用其他合适的公分母。通分须保持原式有定义的条件。",
+        "mastery_criteria": [
+          "能找最简公分母",
+          "能完成通分",
+          "能说明并保留原分母及除数非零的取值限制"
+        ],
+        "diagnostic_question": {
+          "question": "把 1/x 与 1/(x+1) 通分。",
+          "answer": "(x+1)/[x(x+1)]，x/[x(x+1)]"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_160",
+      "beforeHash": "a85d0bbb8815419469bc142b49b5efa29c8c057d4ccb7f0ca12cb65718153f72",
+      "before": {
+        "id": "cnm_160",
+        "name": "分式的乘除",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.2",
+        "type": "procedural",
+        "description": "分式相乘分子乘分子、分母乘分母；除以分式等于乘它的倒数，乘除后要约分。",
+        "mastery_criteria": [
+          "能完成分式乘除",
+          "结果化为最简"
+        ],
+        "diagnostic_question": {
+          "question": "计算 (a/b)÷(a²/b²)。",
+          "answer": "b/a"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_160",
+        "name": "分式的乘除",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.2",
+        "type": "procedural",
+        "description": "原各分母必须非零，作除数的分式还必须值非零。分式相乘分子乘分子、分母乘分母；除以非零分式等于乘它的倒数。约分后保留原式限制。",
+        "mastery_criteria": [
+          "能完成分式乘除",
+          "结果化为最简",
+          "能说明并保留原分母及除数非零的取值限制"
+        ],
+        "diagnostic_question": {
+          "question": "计算 (a/b)÷(a²/b²)。",
+          "answer": "b/a"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_161",
+      "beforeHash": "803354375f376430b033a0822768f16f7b127a87ff3d0a3947f998fed1fc9263",
+      "before": {
+        "id": "cnm_161",
+        "name": "分式的加减",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.3",
+        "type": "procedural",
+        "description": "同分母分式相加减分母不变，异分母先通分；结果化为最简。",
+        "mastery_criteria": [
+          "能完成同分母与异分母加减",
+          "符号处理正确"
+        ],
+        "diagnostic_question": {
+          "question": "计算 1/(x-1) - 1/(x+1)。",
+          "answer": "2/(x²-1)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_161",
+        "name": "分式的加减",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.3",
+        "type": "procedural",
+        "description": "在原各分母非零的条件下，同分母分式加减时分母不变，异分母先通分；结果化简后仍保留原式取值限制。",
+        "mastery_criteria": [
+          "能完成同分母与异分母加减",
+          "符号处理正确",
+          "能说明并保留原分母及除数非零的取值限制"
+        ],
+        "diagnostic_question": {
+          "question": "计算 1/(x-1) - 1/(x+1)。",
+          "answer": "2/(x²-1)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_162",
+      "beforeHash": "dacdd9bb82ab804f522c5e4091d7f9c108484d26af2298cd54d4303913fa0788",
+      "before": {
+        "id": "cnm_162",
+        "name": "分式的混合运算与化简求值",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.3",
+        "type": "procedural",
+        "description": "按先乘方、再乘除、后加减、有括号先算括号的顺序进行混合运算，并化简求值。",
+        "mastery_criteria": [
+          "能确定运算顺序",
+          "结果为最简分式"
+        ],
+        "diagnostic_question": {
+          "question": "化简 (1+1/x)÷((x+1)/x²)。",
+          "answer": "x"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.16",
+            "confidence": "inferred",
+            "note": "化简后代入求值，课标无专门条款"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_162",
+        "name": "分式的混合运算与化简求值",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十八章 分式 18.3",
+        "type": "procedural",
+        "description": "先确定各分母非零且各除数非零的条件，再按运算顺序化简。结果须保留原式限制；代入前核查取值是否合法。",
+        "mastery_criteria": [
+          "能确定运算顺序",
+          "结果为最简分式",
+          "能说明并保留原分母及除数非零的取值限制"
+        ],
+        "diagnostic_question": {
+          "question": "化简 (1+1/x)÷((x+1)/x²)。",
+          "answer": "x"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.21",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.16",
+            "confidence": "inferred",
+            "note": "化简后代入求值，课标无专门条款"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_157_q1",
+      "beforeHash": "48e4c79a103ea6dce816b2ed84d5a4bce9120deb6c927dd10846f7870a166231",
+      "before": {
+        "id": "cnm_157_q1",
+        "topicId": "cnm_157",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "把 -a/(-b) 化简。",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "-a/b"
+          },
+          {
+            "key": "B",
+            "text": "b/a"
+          },
+          {
+            "key": "C",
+            "text": "a/b"
+          },
+          {
+            "key": "D",
+            "text": "-b/a"
+          }
+        ],
+        "explanation": "分子、分母同乘 -1（不为 0），分式的值不变，得 a/b。"
+      },
+      "after": {
+        "id": "cnm_157_q1",
+        "topicId": "cnm_157",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "把 -a/(-b) 化简。（在原式有意义的取值范围内计算。）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "-a/b"
+          },
+          {
+            "key": "B",
+            "text": "b/a"
+          },
+          {
+            "key": "C",
+            "text": "a/b"
+          },
+          {
+            "key": "D",
+            "text": "-b/a"
+          }
+        ],
+        "explanation": "分子、分母同乘 -1（不为 0），分式的值不变，得 a/b。 原式要求b≠0；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_157_q2",
+      "beforeHash": "64e4463c17985fc949b3cd3df38e7551528981ae12e6847a369ba1515b0e7132",
+      "before": {
+        "id": "cnm_157_q2",
+        "topicId": "cnm_157",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "把分式 3/(2x) 的分子、分母同乘 4，得到 12/(mx)，则 m 等于多少？",
+        "answer": "8",
+        "explanation": "分母 2x 乘 4 得 8x，所以 m=8（分子 3×4=12 也对应）。",
+        "verify": "2*4"
+      },
+      "after": {
+        "id": "cnm_157_q2",
+        "topicId": "cnm_157",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "把分式 3/(2x) 的分子、分母同乘 4，得到 12/(mx)，则 m 等于多少？（在原式有意义的取值范围内计算。）",
+        "answer": "8",
+        "explanation": "分母 2x 乘 4 得 8x，所以 m=8（分子 3×4=12 也对应）。 原式要求x≠0；化简后的等式仍限于这些取值。",
+        "verify": "2*4"
+      }
+    },
+    {
+      "id": "cnm_157_q4",
+      "beforeHash": "eca29be675422b80676217fdb570c4758dcece2d7622b2e69a74ff7d007bd42e",
+      "before": {
+        "id": "cnm_157_q4",
+        "topicId": "cnm_157",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "不改变分式的值，把 (0.2x+0.5)/(0.3x-0.1) 的分子、分母都乘 10，得到 (ax+5)/(bx-1)，则 a+b 等于多少？",
+        "answer": "5",
+        "explanation": "分子 0.2x+0.5 乘 10 得 2x+5，分母 0.3x-0.1 乘 10 得 3x-1，所以 a=2，b=3，a+b=5。",
+        "verify": "round(0.2*10)+round(0.3*10)"
+      },
+      "after": {
+        "id": "cnm_157_q4",
+        "topicId": "cnm_157",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "不改变分式的值，把 (0.2x+0.5)/(0.3x-0.1) 的分子、分母都乘 10，得到 (ax+5)/(bx-1)，则 a+b 等于多少？（在原式有意义的取值范围内计算。）",
+        "answer": "5",
+        "explanation": "分子 0.2x+0.5 乘 10 得 2x+5，分母 0.3x-0.1 乘 10 得 3x-1，所以 a=2，b=3，a+b=5。 原式要求x≠1/3；化简后的等式仍限于这些取值。",
+        "verify": "round(0.2*10)+round(0.3*10)"
+      }
+    },
+    {
+      "id": "cnm_158_q1",
+      "beforeHash": "a3ea41aafccc5f98060d47723b8ccb38c13a4fb0a57e92a49f57cc8b1a70aabe",
+      "before": {
+        "id": "cnm_158_q1",
+        "topicId": "cnm_158",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "约分 (x²-1)/(x²+x)。",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x-1)/x"
+          },
+          {
+            "key": "B",
+            "text": "-1/x"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)/x"
+          },
+          {
+            "key": "D",
+            "text": "x-1"
+          }
+        ],
+        "explanation": "分子 x²-1=(x+1)(x-1)，分母 x²+x=x(x+1)，约去公因式 x+1 得 (x-1)/x。"
+      },
+      "after": {
+        "id": "cnm_158_q1",
+        "topicId": "cnm_158",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "约分 (x²-1)/(x²+x)。（在原式有意义的取值范围内计算。）",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x-1)/x"
+          },
+          {
+            "key": "B",
+            "text": "-1/x"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)/x"
+          },
+          {
+            "key": "D",
+            "text": "x-1"
+          }
+        ],
+        "explanation": "分子 x²-1=(x+1)(x-1)，分母 x²+x=x(x+1)，约去公因式 x+1 得 (x-1)/x。 原式要求x≠0且x≠−1；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_158_q4",
+      "beforeHash": "846de1e6dd21f1fa07f9841575acf314a47543c5543f1a4d074c1921ec004be6",
+      "before": {
+        "id": "cnm_158_q4",
+        "topicId": "cnm_158",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把 (x^2-4x+4)/(x^2-4) 约分后，当 x=4 时分式的值是多少？（写成最简分数）",
+        "answer": "1/3",
+        "explanation": "分子 (x-2)^2，分母 (x-2)(x+2)，约分得 (x-2)/(x+2)，x=4 时值为 2/6=1/3。",
+        "verify": "Fraction(4**2-4*4+4,4**2-4)"
+      },
+      "after": {
+        "id": "cnm_158_q4",
+        "topicId": "cnm_158",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把 (x^2-4x+4)/(x^2-4) 约分后，当 x=4 时分式的值是多少？（写成最简分数）（在原式有意义的取值范围内计算。）",
+        "answer": "1/3",
+        "explanation": "分子 (x-2)^2，分母 (x-2)(x+2)，约分得 (x-2)/(x+2)，x=4 时值为 2/6=1/3。 原式要求x≠2且x≠−2；化简后的等式仍限于这些取值。",
+        "verify": "Fraction(4**2-4*4+4,4**2-4)"
+      }
+    },
+    {
+      "id": "cnm_158_q5",
+      "beforeHash": "59e98d1dc06f3e8ff930f28f40b89f583fbecfe77d16483dbd0dc931ea5dff2f",
+      "before": {
+        "id": "cnm_158_q5",
+        "topicId": "cnm_158",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "约分 (a^2-ab)/(a^2-2ab+b^2)，结果是",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/(a-b)"
+          },
+          {
+            "key": "B",
+            "text": "a/(a+b)"
+          },
+          {
+            "key": "C",
+            "text": "a/(a-b)"
+          },
+          {
+            "key": "D",
+            "text": "a/(b-a)"
+          }
+        ],
+        "explanation": "分子 a(a-b)，分母 (a-b)^2，约去 a-b 得 a/(a-b)。"
+      },
+      "after": {
+        "id": "cnm_158_q5",
+        "topicId": "cnm_158",
+        "difficulty": "advanced",
+        "type": "choice",
+        "prompt": "约分 (a^2-ab)/(a^2-2ab+b^2)，结果是（在原式有意义的取值范围内计算。）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/(a-b)"
+          },
+          {
+            "key": "B",
+            "text": "a/(a+b)"
+          },
+          {
+            "key": "C",
+            "text": "a/(a-b)"
+          },
+          {
+            "key": "D",
+            "text": "a/(b-a)"
+          }
+        ],
+        "explanation": "分子 a(a-b)，分母 (a-b)^2，约去 a-b 得 a/(a-b)。 原式要求a≠b；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_159_q1",
+      "beforeHash": "a506053d93434b39e6264c5375ca204666a8ab9f9f2fdbffc445af97e98f3384",
+      "before": {
+        "id": "cnm_159_q1",
+        "topicId": "cnm_159",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "把 1/x 与 1/(x+1) 通分。",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/[x(x+1)] 与 1/[x(x+1)]"
+          },
+          {
+            "key": "B",
+            "text": "(x+1)/[x(x+1)] 与 x/[x(x+1)]"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)/x 与 x/(x+1)"
+          }
+        ],
+        "explanation": "最简公分母为 x(x+1)。1/x 的分子分母同乘 x+1，得 (x+1)/[x(x+1)]；1/(x+1) 的分子分母同乘 x，得 x/[x(x+1)]。"
+      },
+      "after": {
+        "id": "cnm_159_q1",
+        "topicId": "cnm_159",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "把 1/x 与 1/(x+1) 通分。（在原式有意义的取值范围内计算。）",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/[x(x+1)] 与 1/[x(x+1)]"
+          },
+          {
+            "key": "B",
+            "text": "(x+1)/[x(x+1)] 与 x/[x(x+1)]"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)/x 与 x/(x+1)"
+          }
+        ],
+        "explanation": "最简公分母为 x(x+1)。1/x 的分子分母同乘 x+1，得 (x+1)/[x(x+1)]；1/(x+1) 的分子分母同乘 x，得 x/[x(x+1)]。 原式要求x≠0且x≠−1；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_159_q2",
+      "beforeHash": "2561cda41f68823f01dbe2f25e781f1f7bf0d20edba79cda50d64ba908532ccc",
+      "before": {
+        "id": "cnm_159_q2",
+        "topicId": "cnm_159",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "分式 1/(2a) 与 1/(3a^2) 的最简公分母可写成 k·a^2，则 k 等于多少？",
+        "answer": "6",
+        "explanation": "系数取 2 和 3 的最小公倍数 6，字母取最高次幂 a^2，最简公分母为 6a^2，所以 k=6。",
+        "verify": "lcm(2,3)"
+      },
+      "after": {
+        "id": "cnm_159_q2",
+        "topicId": "cnm_159",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "分式 1/(2a) 与 1/(3a^2) 的最简公分母可写成 k·a^2，则 k 等于多少？（在原式有意义的取值范围内计算。）",
+        "answer": "6",
+        "explanation": "系数取 2 和 3 的最小公倍数 6，字母取最高次幂 a^2，最简公分母为 6a^2，所以 k=6。 原式要求a≠0；化简后的等式仍限于这些取值。",
+        "verify": "lcm(2,3)"
+      }
+    },
+    {
+      "id": "cnm_159_q3",
+      "beforeHash": "dc97d01b93c5e8e9fd855d4aeb842a841de20aa6ed2bf46fea282eab31dd45a9",
+      "before": {
+        "id": "cnm_159_q3",
+        "topicId": "cnm_159",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "分式 1/(x-1)、1/(x^2-1)、1/(x+1) 的最简公分母是",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x-1)(x+1)^2"
+          },
+          {
+            "key": "B",
+            "text": "(x-1)^2(x+1)^2"
+          },
+          {
+            "key": "C",
+            "text": "x^2-1"
+          }
+        ],
+        "explanation": "x^2-1=(x-1)(x+1)，各分母因式 x-1、x+1 都只需取一次，所以最简公分母是 (x-1)(x+1)=x^2-1。"
+      },
+      "after": {
+        "id": "cnm_159_q3",
+        "topicId": "cnm_159",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "分式 1/(x-1)、1/(x^2-1)、1/(x+1) 的最简公分母是（在原式有意义的取值范围内计算。）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x-1)(x+1)^2"
+          },
+          {
+            "key": "B",
+            "text": "(x-1)^2(x+1)^2"
+          },
+          {
+            "key": "C",
+            "text": "x^2-1"
+          }
+        ],
+        "explanation": "x^2-1=(x-1)(x+1)，各分母因式 x-1、x+1 都只需取一次，所以最简公分母是 (x-1)(x+1)=x^2-1。 原式要求x≠1且x≠−1；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_159_q4",
+      "beforeHash": "c69191551080427dda28eb6a0b1f3fdf7e2b17eb3b54f3739e30f8492930ee00",
+      "before": {
+        "id": "cnm_159_q4",
+        "topicId": "cnm_159",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把 1/(x^2-x) 与 1/(x^2-1) 通分，设最简公分母为多项式 P，则当 x=3 时 P 的值是多少？",
+        "answer": "24",
+        "explanation": "x^2-x=x(x-1)，x^2-1=(x-1)(x+1)，最简公分母 P=x(x-1)(x+1)，x=3 时 P=3×2×4=24。",
+        "verify": "3*(3-1)*(3+1)"
+      },
+      "after": {
+        "id": "cnm_159_q4",
+        "topicId": "cnm_159",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把 1/(x^2-x) 与 1/(x^2-1) 通分，设最简公分母为多项式 P，则当 x=3 时 P 的值是多少？（在原式有意义的取值范围内计算。）",
+        "answer": "24",
+        "explanation": "x^2-x=x(x-1)，x^2-1=(x-1)(x+1)，最简公分母 P=x(x-1)(x+1)，x=3 时 P=3×2×4=24。 原式要求x≠0、1、−1；化简后的等式仍限于这些取值。",
+        "verify": "3*(3-1)*(3+1)"
+      }
+    },
+    {
+      "id": "cnm_160_q1",
+      "beforeHash": "ac1b81c41459d7e6b11b8e925516a9681f0c7906e470046b68d6d2e36d4f5a22",
+      "before": {
+        "id": "cnm_160_q1",
+        "topicId": "cnm_160",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "计算 (a/b)÷(a²/b²)。",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "b/a"
+          },
+          {
+            "key": "B",
+            "text": "a/b"
+          },
+          {
+            "key": "C",
+            "text": "a^3/b^3"
+          }
+        ],
+        "explanation": "除以分式等于乘它的倒数：(a/b)×(b²/a²)=b/a。"
+      },
+      "after": {
+        "id": "cnm_160_q1",
+        "topicId": "cnm_160",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "计算 (a/b)÷(a²/b²)。（在原式有意义的取值范围内计算。）",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "b/a"
+          },
+          {
+            "key": "B",
+            "text": "a/b"
+          },
+          {
+            "key": "C",
+            "text": "a^3/b^3"
+          }
+        ],
+        "explanation": "除以分式等于乘它的倒数：(a/b)×(b²/a²)=b/a。 原式要求a≠0且b≠0；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_160_q3",
+      "beforeHash": "00e010e39b37435290e937de137e7f2e61d42cde55ebb2c4ac1457fb10ae8a9b",
+      "before": {
+        "id": "cnm_160_q3",
+        "topicId": "cnm_160",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 (x^2-1)/(x^2+2x) ÷ (x+1)/x，结果是",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x-1)(x+1)^2/[x^2(x+2)]"
+          },
+          {
+            "key": "B",
+            "text": "(x-1)/(x+2)"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)/(x+2)"
+          }
+        ],
+        "explanation": "原式=(x+1)(x-1)/[x(x+2)]×x/(x+1)，约去 x 和 x+1 得 (x-1)/(x+2)。"
+      },
+      "after": {
+        "id": "cnm_160_q3",
+        "topicId": "cnm_160",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 (x^2-1)/(x^2+2x) ÷ (x+1)/x，结果是（在原式有意义的取值范围内计算。）",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "(x-1)(x+1)^2/[x^2(x+2)]"
+          },
+          {
+            "key": "B",
+            "text": "(x-1)/(x+2)"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)/(x+2)"
+          }
+        ],
+        "explanation": "原式=(x+1)(x-1)/[x(x+2)]×x/(x+1)，约去 x 和 x+1 得 (x-1)/(x+2)。 原式要求x≠0、−2、−1；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_160_q4",
+      "beforeHash": "0fad7b3be09f13355df278c1d902022e62cfc9912c1fd88860e8be2f26ae5f3b",
+      "before": {
+        "id": "cnm_160_q4",
+        "topicId": "cnm_160",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "计算 (x^2-4)/(x^2-2x+1) ÷ (x+2)/(x-1)，并求 x=3 时的值（写成最简分数）。",
+        "answer": "1/2",
+        "explanation": "原式=(x-2)(x+2)/(x-1)^2 × (x-1)/(x+2)=(x-2)/(x-1)，x=3 时为 1/2。",
+        "verify": "Fraction(3**2-4,3**2-2*3+1)/Fraction(3+2,3-1)"
+      },
+      "after": {
+        "id": "cnm_160_q4",
+        "topicId": "cnm_160",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "计算 (x^2-4)/(x^2-2x+1) ÷ (x+2)/(x-1)，并求 x=3 时的值（写成最简分数）。（在原式有意义的取值范围内计算。）",
+        "answer": "1/2",
+        "explanation": "原式=(x-2)(x+2)/(x-1)^2 × (x-1)/(x+2)=(x-2)/(x-1)，x=3 时为 1/2。 原式要求x≠1且x≠−2；化简后的等式仍限于这些取值。",
+        "verify": "Fraction(3**2-4,3**2-2*3+1)/Fraction(3+2,3-1)"
+      }
+    },
+    {
+      "id": "cnm_161_q1",
+      "beforeHash": "892b33cb2c603ebd95b5c11e63260a7c1e21df8dae93c1c9113864404774477c",
+      "before": {
+        "id": "cnm_161_q1",
+        "topicId": "cnm_161",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 1/(x-1) - 1/(x+1)。",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "-2/(x²-1)"
+          },
+          {
+            "key": "B",
+            "text": "0"
+          },
+          {
+            "key": "C",
+            "text": "2/(x²-1)"
+          }
+        ],
+        "explanation": "通分：[(x+1)-(x-1)]/[(x-1)(x+1)]=2/(x²-1)。"
+      },
+      "after": {
+        "id": "cnm_161_q1",
+        "topicId": "cnm_161",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 1/(x-1) - 1/(x+1)。（在原式有意义的取值范围内计算。）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "-2/(x²-1)"
+          },
+          {
+            "key": "B",
+            "text": "0"
+          },
+          {
+            "key": "C",
+            "text": "2/(x²-1)"
+          }
+        ],
+        "explanation": "通分：[(x+1)-(x-1)]/[(x-1)(x+1)]=2/(x²-1)。 原式要求x≠1且x≠−1；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_161_q2",
+      "beforeHash": "1522d681b17c45d5c82f01d0b6e0f2a56571b416daf939259d6b934b4e3fc6f9",
+      "before": {
+        "id": "cnm_161_q2",
+        "topicId": "cnm_161",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "化简 (5x+1)/x - (2x+1)/x（x≠0），结果是一个常数，这个常数是多少？",
+        "answer": "3",
+        "explanation": "同分母相减，分母不变：(5x+1-2x-1)/x=3x/x=3。",
+        "verify": "Fraction(5*1+1,1)-Fraction(2*1+1,1)"
+      },
+      "after": {
+        "id": "cnm_161_q2",
+        "topicId": "cnm_161",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "化简 (5x+1)/x - (2x+1)/x（x≠0），结果是一个常数，这个常数是多少？（在原式有意义的取值范围内计算。）",
+        "answer": "3",
+        "explanation": "同分母相减，分母不变：(5x+1-2x-1)/x=3x/x=3。 原式要求x≠0；化简后的等式仍限于这些取值。",
+        "verify": "Fraction(5*1+1,1)-Fraction(2*1+1,1)"
+      }
+    },
+    {
+      "id": "cnm_161_q3",
+      "beforeHash": "eed2e9d5ad540c122db6f1fc59def2c25b2ad20d7da9019511bab7c3762e015e",
+      "before": {
+        "id": "cnm_161_q3",
+        "topicId": "cnm_161",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 a/(a-b) + b/(b-a)（a≠b），结果是",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1"
+          },
+          {
+            "key": "B",
+            "text": "(a+b)/(a-b)"
+          },
+          {
+            "key": "C",
+            "text": "(a+b)/(a^2-b^2)"
+          }
+        ],
+        "explanation": "b/(b-a)=-b/(a-b)，所以原式=(a-b)/(a-b)=1。",
+        "verify": "Fraction(7,7-3)+Fraction(3,3-7)"
+      },
+      "after": {
+        "id": "cnm_161_q3",
+        "topicId": "cnm_161",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "计算 a/(a-b) + b/(b-a)（a≠b），结果是（在原式有意义的取值范围内计算。）",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1"
+          },
+          {
+            "key": "B",
+            "text": "(a+b)/(a-b)"
+          },
+          {
+            "key": "C",
+            "text": "(a+b)/(a^2-b^2)"
+          }
+        ],
+        "explanation": "b/(b-a)=-b/(a-b)，所以原式=(a-b)/(a-b)=1。 原式要求a≠b；化简后的等式仍限于这些取值。",
+        "verify": "Fraction(7,7-3)+Fraction(3,3-7)"
+      }
+    },
+    {
+      "id": "cnm_161_q4",
+      "beforeHash": "03b5c25f63a9298a7f710f6179697e6dc1ef85eef0c04186e27c272ee76e3612",
+      "before": {
+        "id": "cnm_161_q4",
+        "topicId": "cnm_161",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "化简 2/(x^2-4) + 1/(x+2)，再求 x=4 时的值（写成最简分数）。",
+        "answer": "1/3",
+        "explanation": "通分得 [2+(x-2)]/(x^2-4)=x/(x^2-4)，x=4 时为 4/12=1/3。",
+        "verify": "Fraction(2,4**2-4)+Fraction(1,4+2)"
+      },
+      "after": {
+        "id": "cnm_161_q4",
+        "topicId": "cnm_161",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "化简 2/(x^2-4) + 1/(x+2)，再求 x=4 时的值（写成最简分数）。（在原式有意义的取值范围内计算。）",
+        "answer": "1/3",
+        "explanation": "通分得 [2+(x-2)]/(x^2-4)=x/(x^2-4)，x=4 时为 4/12=1/3。 原式要求x≠2且x≠−2；化简后的等式仍限于这些取值。",
+        "verify": "Fraction(2,4**2-4)+Fraction(1,4+2)"
+      }
+    },
+    {
+      "id": "cnm_162_q1",
+      "beforeHash": "b676fd2e8c706a58ee074cfe6d2681ba2dac01111c3609b12a714026ffc6e89b",
+      "before": {
+        "id": "cnm_162_q1",
+        "topicId": "cnm_162",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "化简 (1+1/x)÷((x+1)/x²)。",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/x"
+          },
+          {
+            "key": "B",
+            "text": "x"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)^2/x^3"
+          }
+        ],
+        "explanation": "括号内 1+1/x=(x+1)/x，除以 (x+1)/x² 即乘 x²/(x+1)，得 x。"
+      },
+      "after": {
+        "id": "cnm_162_q1",
+        "topicId": "cnm_162",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "化简 (1+1/x)÷((x+1)/x²)。（在原式有意义的取值范围内计算。）",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "1/x"
+          },
+          {
+            "key": "B",
+            "text": "x"
+          },
+          {
+            "key": "C",
+            "text": "(x+1)^2/x^3"
+          }
+        ],
+        "explanation": "括号内 1+1/x=(x+1)/x，除以 (x+1)/x² 即乘 x²/(x+1)，得 x。 原式要求x≠0且x≠−1；化简后的等式仍限于这些取值。"
+      }
+    },
+    {
+      "id": "cnm_162_q3",
+      "beforeHash": "6a2009b6ffadfcc0e4dce043dce7d928b803525f82f5499ab6f02ae91ae5a8e8",
+      "before": {
+        "id": "cnm_162_q3",
+        "topicId": "cnm_162",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "化简 (1 - 1/(x+1)) ÷ (x/(x^2-1))，再求 x=5 时的值。",
+        "answer": "4",
+        "explanation": "括号内 1-1/(x+1)=x/(x+1)，除以 x/(x^2-1) 即乘 (x^2-1)/x，得 (x-1)，x=5 时为 4。",
+        "verify": "(1-Fraction(1,6))/Fraction(5,24)"
+      },
+      "after": {
+        "id": "cnm_162_q3",
+        "topicId": "cnm_162",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "化简 (1 - 1/(x+1)) ÷ (x/(x^2-1))，再求 x=5 时的值。（在原式有意义的取值范围内计算。）",
+        "answer": "4",
+        "explanation": "括号内 1-1/(x+1)=x/(x+1)，除以 x/(x^2-1) 即乘 (x^2-1)/x，得 (x-1)，x=5 时为 4。 原式要求x≠−1、0、1；化简后的等式仍限于这些取值。",
+        "verify": "(1-Fraction(1,6))/Fraction(5,24)"
+      }
+    },
+    {
+      "id": "cnm_162_q4",
+      "beforeHash": "179f669572abe687fc864f28ee3ad4b2b44d4de0c0ff5546a7cec5bb380232e2",
+      "before": {
+        "id": "cnm_162_q4",
+        "topicId": "cnm_162",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "先化简再求值：(a+2-5/(a-2)) ÷ ((a-3)/(2a-4))，其中 a=1。",
+        "answer": "8",
+        "explanation": "括号内 =(a^2-9)/(a-2)，除以 (a-3)/(2(a-2)) 得 2(a+3)，a=1 时为 8。",
+        "verify": "(1+2-Fraction(5,1-2))/Fraction(1-3,2*1-4)"
+      },
+      "after": {
+        "id": "cnm_162_q4",
+        "topicId": "cnm_162",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "先化简再求值：(a+2-5/(a-2)) ÷ ((a-3)/(2a-4))，其中 a=1。（在原式有意义的取值范围内计算。）",
+        "answer": "8",
+        "explanation": "括号内 =(a^2-9)/(a-2)，除以 (a-3)/(2(a-2)) 得 2(a+3)，a=1 时为 8。 原式要求a≠2且a≠3；化简后的等式仍限于这些取值。",
+        "verify": "(1+2-Fraction(5,1-2))/Fraction(1-3,2*1-4)"
+      }
+    },
+    {
+      "id": "cnm_157_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_157_q5",
+        "topicId": "cnm_157",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "有人说x/(x+1)=x(x−2)/[(x+1)(x−2)]对所有x≠−1都成立。判断并指出还需要什么条件。",
+        "answer": "还需x≠2。乘入的整式x−2在x=2时为0，右式无意义，而左式为2/3；因此等式成立范围是x≠−1、2。",
+        "explanation": "还需x≠2。乘入的整式x−2在x=2时为0，右式无意义，而左式为2/3；因此等式成立范围是x≠−1、2。",
+        "rubric": [
+          "识别乘入整式的取值可能为零",
+          "给出x=2反例",
+          "同时保留原分母条件x≠−1"
+        ]
+      }
+    },
+    {
+      "id": "cnm_158_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_158_q6",
+        "topicId": "cnm_158",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "约分(x²−1)/(x²+x)，写出原式允许的x，再判断能否把x=−1代入化简结果来求原式的值。",
+        "answer": "原分母x(x+1)非零，故x≠0、−1。约分得(x−1)/x，但仍须x≠0、−1；不能用x=−1时化简式的值2作为原式的值。",
+        "explanation": "原分母x(x+1)非零，故x≠0、−1。约分得(x−1)/x，但仍须x≠0、−1；不能用x=−1时化简式的值2作为原式的值。",
+        "rubric": [
+          "原分母分解并排除0与−1",
+          "正确约分",
+          "指出原式在−1处无意义"
+        ]
+      }
+    },
+    {
+      "id": "cnm_159_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_159_q5",
+        "topicId": "cnm_159",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "把1/x和1/(x+1)通分。小明选2x(x+1)为公分母是否可以？说明条件并写出他的两式。",
+        "answer": "在x≠0、−1时可以；分别为2(x+1)/[2x(x+1)]和2x/[2x(x+1)]。x(x+1)更简便，但公分母不必最简。",
+        "explanation": "在x≠0、−1时可以；分别为2(x+1)/[2x(x+1)]和2x/[2x(x+1)]。x(x+1)更简便，但公分母不必最简。",
+        "rubric": [
+          "说明x≠0、−1",
+          "分子分母同乘相同非零因式",
+          "承认非最简公分母合法而非唯一"
+        ]
+      }
+    },
+    {
+      "id": "cnm_160_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_160_q5",
+        "topicId": "cnm_160",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "化简[(x²−1)/(x²+2x)]÷[(x+1)/x]，先列条件再约分。为什么x=−1也必须排除？",
+        "answer": "各分母要求x≠0、−2，除数非零还要求x≠−1。化简为(x−1)/(x+2)，仍保留三项限制；x=−1时除数为0。",
+        "explanation": "各分母要求x≠0、−2，除数非零还要求x≠−1。化简为(x−1)/(x+2)，仍保留三项限制；x=−1时除数为0。",
+        "rubric": [
+          "分母条件排除0、−2",
+          "除数条件排除−1",
+          "反转除数后正确约分并保留条件"
+        ]
+      }
+    },
+    {
+      "id": "cnm_161_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_161_q5",
+        "topicId": "cnm_161",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "化简a/(a−b)+b/(b−a)。结果是常数，是否意味着a=b也可代入原式？说明。",
+        "answer": "b−a=−(a−b)，原式=(a−b)/(a−b)=1，前提为a≠b。a=b时原分母均为0，原式无意义。",
+        "explanation": "b−a=−(a−b)，原式=(a−b)/(a−b)=1，前提为a≠b。a=b时原分母均为0，原式无意义。",
+        "rubric": [
+          "换分母符号正确",
+          "得1且保留a≠b",
+          "不能从常数结果扩大原式定义范围"
+        ]
+      }
+    },
+    {
+      "id": "cnm_162_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_162_q5",
+        "topicId": "cnm_162",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "先化简(1+1/x)÷[(x+1)/x²]，再判断x=−1、0、2中哪些可以代入原式，求允许值对应的结果。",
+        "answer": "x≠0且除数非零要求x≠−1；化简为x。因此只有x=2可代入原式，结果为2。",
+        "explanation": "x≠0且除数非零要求x≠−1；化简为x。因此只有x=2可代入原式，结果为2。",
+        "rubric": [
+          "分母条件x≠0",
+          "除数条件x≠−1",
+          "先通分再乘倒数得x",
+          "只选择2且算得2"
+        ]
+      }
+    }
+  ],
+  "dependencies": []
+}

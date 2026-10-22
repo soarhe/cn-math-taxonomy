@@ -1,0 +1,734 @@
+[
+  {
+    "topicId": "cnm_203",
+    "name": "一次函数的性质",
+    "decision": "revise",
+    "finding": "现有开放题有解释入口，补明确量规与k非零、同一坐标尺度条件，保留数值比较题。",
+    "questionIds": [
+      "cnm_203_q1",
+      "cnm_203_q2",
+      "cnm_203_q3",
+      "cnm_203_q4",
+      "cnm_203_q5"
+    ],
+    "snapshotSha256": "10de61dcc522a82446d60ff8fea3be1121a0066cf78663ed949e6cfe47ba93d3",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "2b35cc424dd93067655941f2cbdd1539f982e6ccdc8dcc5454fb41603c01bb78",
+    "postQuestionIds": [
+      "cnm_203_q1",
+      "cnm_203_q2",
+      "cnm_203_q3",
+      "cnm_203_q4",
+      "cnm_203_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_204",
+    "name": "一次函数图象的平移",
+    "decision": "revise",
+    "finding": "平移式子题正确但“说明k不变”缺过程；补对应点变化解释任务，m指非负移动距离。",
+    "questionIds": [
+      "cnm_204_q1",
+      "cnm_204_q2",
+      "cnm_204_q3",
+      "cnm_204_q4"
+    ],
+    "snapshotSha256": "afbac81367dd242c911f01455c13db6a90cc209b491805b1ee215f3a3ed17dba",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "8227db5f41209c1805a3afed79ff283a29638c3e86ccaa3fc4c561c68c093952",
+    "postQuestionIds": [
+      "cnm_204_q1",
+      "cnm_204_q2",
+      "cnm_204_q3",
+      "cnm_204_q4",
+      "cnm_204_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_205",
+    "name": "待定系数法求一次函数解析式",
+    "decision": "revise",
+    "finding": "图象确定解析式无实际图，补读图列式；089是替代方法之一应由hard降soft，保留090soft并记录OR未实现。",
+    "questionIds": [
+      "cnm_205_q1",
+      "cnm_205_q2",
+      "cnm_205_q3",
+      "cnm_205_q4",
+      "cnm_205_q5"
+    ],
+    "snapshotSha256": "8fe0934f64afbb49b1dc1505c35fbdae32936bb955b7288dce340a95e9d36e32",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "f784c17bf891cccf00920eeca1cdd74d4defa2be9ed51b550e3cc3565e06805c",
+    "postQuestionIds": [
+      "cnm_205_q1",
+      "cnm_205_q2",
+      "cnm_205_q3",
+      "cnm_205_q4",
+      "cnm_205_q5",
+      "cnm_205_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_209",
+    "name": "实际问题与一次函数",
+    "decision": "revise",
+    "finding": "弹簧q2适用范围未说明；补真实分段模型和方案比较过程；205待定系数法非所有应用必需，降soft。",
+    "questionIds": [
+      "cnm_209_q1",
+      "cnm_209_q2",
+      "cnm_209_q3",
+      "cnm_209_q4",
+      "cnm_209_q5"
+    ],
+    "snapshotSha256": "83f5bcde5d53ddc2c90a246855a675737d73404bb4decd661aca2d93460a9fe1",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "7004dcdf101e188057bd497ca70183626b289222d850facc8f1fffd89b433564",
+    "postQuestionIds": [
+      "cnm_209_q1",
+      "cnm_209_q2",
+      "cnm_209_q3",
+      "cnm_209_q4",
+      "cnm_209_q5",
+      "cnm_209_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_219",
+    "name": "一元二次方程的概念",
+    "decision": "retain",
+    "finding": "整理后次数、系数符号与a非零均有正确题，保留。",
+    "questionIds": [
+      "cnm_219_q1",
+      "cnm_219_q2",
+      "cnm_219_q3",
+      "cnm_219_q4"
+    ],
+    "snapshotSha256": "fafd931224a345a057c0c5efee47d5a5a5ca79f838d38d66c23ef5964fcac4da",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "fafd931224a345a057c0c5efee47d5a5a5ca79f838d38d66c23ef5964fcac4da",
+    "postQuestionIds": [
+      "cnm_219_q1",
+      "cnm_219_q2",
+      "cnm_219_q3",
+      "cnm_219_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_220",
+    "name": "直接开平方法",
+    "decision": "revise",
+    "finding": "掌握标准“求出两个根”漏p=0单一实数值情形，补p正/零/负分类解释。",
+    "questionIds": [
+      "cnm_220_q1",
+      "cnm_220_q2",
+      "cnm_220_q3",
+      "cnm_220_q4"
+    ],
+    "snapshotSha256": "7bc7167daec2e58ecf14df91d973862f5c28a3f4e1707482a7f229da48853606",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "1c9d36b74362057cdf1ecdeab06f95b3e86142bbe7d44e6f589b5c4e54e294b7",
+    "postQuestionIds": [
+      "cnm_220_q1",
+      "cnm_220_q2",
+      "cnm_220_q3",
+      "cnm_220_q4",
+      "cnm_220_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_221",
+    "name": "配方法",
+    "decision": "revise",
+    "finding": "描述需先化二次项系数1再取一次系数一半平方；补非首一系数的配方过程题。",
+    "questionIds": [
+      "cnm_221_q1",
+      "cnm_221_q2",
+      "cnm_221_q3",
+      "cnm_221_q4"
+    ],
+    "snapshotSha256": "c45f9cb78cb06fc0396f4d64cab47205551071030f624ea01f12ec327928f82c",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "cca9a62587982d1bbf804a88c05900a3d31c19f8f803e088ee9315e11ae39fdf",
+    "postQuestionIds": [
+      "cnm_221_q1",
+      "cnm_221_q2",
+      "cnm_221_q3",
+      "cnm_221_q4",
+      "cnm_221_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_222",
+    "name": "公式法与求根公式",
+    "decision": "revise",
+    "finding": "只收根不能证明公式法，补a,b,c、判别式与分母2a步骤；描述补a≠0。配方推导知识不等于应用公式必需，边降soft并保留推导说明。",
+    "questionIds": [
+      "cnm_222_q1",
+      "cnm_222_q2",
+      "cnm_222_q3",
+      "cnm_222_q4"
+    ],
+    "snapshotSha256": "a79ceae4a23f23fb84d1a9e05c2a2c53b8235284f2da1ae36a4ecfe8e81055bf",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "757dffcadbae3bbb2b1b78ca8ade234d3d6c0396d7a0acf5a79a6012f676f3c9",
+    "postQuestionIds": [
+      "cnm_222_q1",
+      "cnm_222_q2",
+      "cnm_222_q3",
+      "cnm_222_q4",
+      "cnm_222_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_223",
+    "name": "根的判别式",
+    "decision": "revise",
+    "finding": "描述补一元二次a≠0前提；现题q4正确排除k=0，补判别式与根式意义解释。",
+    "questionIds": [
+      "cnm_223_q1",
+      "cnm_223_q2",
+      "cnm_223_q3",
+      "cnm_223_q4"
+    ],
+    "snapshotSha256": "f360bb9fc9185a64321b9003a085aafd52d39144d167fef6d94117cb47a920b1",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "a24b10a5eaef017a1ddedb7fb8e0890f7c22460e6195c53e436b76de82e67fd1",
+    "postQuestionIds": [
+      "cnm_223_q1",
+      "cnm_223_q2",
+      "cnm_223_q3",
+      "cnm_223_q4",
+      "cnm_223_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_224",
+    "name": "因式分解法",
+    "decision": "revise",
+    "finding": "q3十字相乘超出当前限定的基础因式分解方法，移拓展或换可提公因式/公式法核心题；补零乘积性质与不能除可能为0的因式。",
+    "questionIds": [
+      "cnm_224_q1",
+      "cnm_224_q2",
+      "cnm_224_q3",
+      "cnm_224_q4"
+    ],
+    "snapshotSha256": "03bdbdba6f9c390ae385eb6685cd497ae5509cd61bddbf07cc77970d9882314f",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "d7010e7350d21c4cc8c3f292720557a5b1d6f42ab6e65d0be4edf3bd11dfb730",
+    "postQuestionIds": [
+      "cnm_224_q1",
+      "cnm_224_q2",
+      "cnm_224_q3",
+      "cnm_224_q4",
+      "cnm_224_q5"
+    ],
+    "resolutionNote": "复核NA.27允许因式分解法解数字系数的一元二次方程，未将十字相乘判为课标禁止。q1/q3提供分解恒等式，新增零乘积与漏零根任务，避免依赖未单独教学的分解算法。",
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_225",
+    "name": "一元二次方程解法的选择",
+    "decision": "revise",
+    "finding": "方法选择题已有，但缺说明理由过程；补对比两种有效方法并避免将“最合适”当数学唯一解法。",
+    "questionIds": [
+      "cnm_225_q1",
+      "cnm_225_q2",
+      "cnm_225_q3",
+      "cnm_225_q4"
+    ],
+    "snapshotSha256": "81a8391128df82371382a79fb39b0722ca6280f949de3dcdf83f6fac31dc5f41",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "dafd08f401e8043689c339dea26cd357af07b79f3159654f201dc183c29b1e22",
+    "postQuestionIds": [
+      "cnm_225_q1",
+      "cnm_225_q2",
+      "cnm_225_q3",
+      "cnm_225_q4",
+      "cnm_225_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_227",
+    "name": "增长率与传播问题",
+    "decision": "revise",
+    "finding": "传染q4未说明每轮全部现患病者继续传播、对象不重叠等计数假设，必须补成理想模型；补增长率/降价率有效根解释。",
+    "questionIds": [
+      "cnm_227_q1",
+      "cnm_227_q2",
+      "cnm_227_q3",
+      "cnm_227_q4"
+    ],
+    "snapshotSha256": "65afca62f888b27093a36d3eac74a1663adf13e5b25d809a03f02682919780d9",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "postImplementationSha256": "466a8df6bb38d068e693cd19438f99577596dcdc1c5901ea842b5cb26ecdedb4",
+    "postQuestionIds": [
+      "cnm_227_q1",
+      "cnm_227_q2",
+      "cnm_227_q3",
+      "cnm_227_q4",
+      "cnm_227_q5"
+    ],
+    "patches": [
+      "authoring/release-candidate/correctness.json"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_228",
+    "name": "面积与销售利润问题",
+    "decision": "revise",
+    "finding": "标准要画图却只收数值；补围栏图、两个可行根及利润模型取值范围过程任务。",
+    "questionIds": [
+      "cnm_228_q1",
+      "cnm_228_q2",
+      "cnm_228_q3",
+      "cnm_228_q4"
+    ],
+    "snapshotSha256": "228b7bee6db4df95649530dc2b979ad9393b84e8bd2e11be38b6feabd9ffc26b",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "6683648a118179095f0d116d1b2df82c59b966021273b65a1ed8fbb1dbae1d63",
+    "postQuestionIds": [
+      "cnm_228_q1",
+      "cnm_228_q2",
+      "cnm_228_q3",
+      "cnm_228_q4",
+      "cnm_228_q5",
+      "cnm_228_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_229",
+    "name": "二次函数的概念",
+    "decision": "revise",
+    "finding": "定义判断正确；一次函数201只是类比，降soft以免把会一次函数类型当二次定义必要条件。",
+    "questionIds": [
+      "cnm_229_q1",
+      "cnm_229_q2",
+      "cnm_229_q3",
+      "cnm_229_q4"
+    ],
+    "snapshotSha256": "652c8b266fd176752a24d94afcdded317942cf8f663ef634e2901458d67511fc",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "a75905f2f1a0b7615c243de08ea8317d085d952b1bf067e1d9071638c6a48955",
+    "postQuestionIds": [
+      "cnm_229_q1",
+      "cnm_229_q2",
+      "cnm_229_q3",
+      "cnm_229_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_230",
+    "name": "y=ax² 的图象与性质",
+    "decision": "revise",
+    "finding": "全部为选择/代入，无实际描点作图；补列表画图、两侧增减及开口大小同坐标尺度限制。",
+    "questionIds": [
+      "cnm_230_q1",
+      "cnm_230_q2",
+      "cnm_230_q3",
+      "cnm_230_q4"
+    ],
+    "snapshotSha256": "f66eedb280ce86e0de606047da19e57ae000e9d33110006495fe2af716bcefa8",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "99fd3d2d5a1f9646369aeb72d4539025c370bade3622840f77d608c23fcc6518",
+    "postQuestionIds": [
+      "cnm_230_q1",
+      "cnm_230_q2",
+      "cnm_230_q3",
+      "cnm_230_q4",
+      "cnm_230_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_231",
+    "name": "y=a(x-h)²+k 的图象与平移",
+    "decision": "revise",
+    "finding": "平移结果题正确，补对应点/顶点解释；204一次函数平移只是类比，应降soft。",
+    "questionIds": [
+      "cnm_231_q1",
+      "cnm_231_q2",
+      "cnm_231_q3",
+      "cnm_231_q4"
+    ],
+    "snapshotSha256": "31d3b2b378a91f95affa8184f5fb0d9dd4f39457c76e6fab9ca8473c3f390822",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "efdd7d433f756329335a4de893c114abbfc2c7e21a533de6975f6b51d048c726",
+    "postQuestionIds": [
+      "cnm_231_q1",
+      "cnm_231_q2",
+      "cnm_231_q3",
+      "cnm_231_q4",
+      "cnm_231_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_232",
+    "name": "y=ax²+bx+c 的图象与性质",
+    "decision": "revise",
+    "finding": "配方选择和顶点数值正确，补完整配方与左右分支性质的图象解释。",
+    "questionIds": [
+      "cnm_232_q1",
+      "cnm_232_q2",
+      "cnm_232_q3",
+      "cnm_232_q4"
+    ],
+    "snapshotSha256": "0413d93a911f318c629edf35cf699ae169a40f038fd3a06375ad3ab5bb1884dd",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "6d2da0e59cb7edde9c383cab6eaedb7f6e1def307270f5c9c3508a973d34d102",
+    "postQuestionIds": [
+      "cnm_232_q1",
+      "cnm_232_q2",
+      "cnm_232_q3",
+      "cnm_232_q4",
+      "cnm_232_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_233",
+    "name": "待定系数法求二次函数解析式",
+    "decision": "revise",
+    "finding": "093三元一次方程组为选学却被作必修硬先修，降soft并说明顶点式/交点式可降元；q1可先由截距消去c，无需三元必备。补条件选式过程。",
+    "questionIds": [
+      "cnm_233_q1",
+      "cnm_233_q2",
+      "cnm_233_q3",
+      "cnm_233_q4"
+    ],
+    "snapshotSha256": "610b211b52ba2e74fda6fd59b9f68b245a19dec7e92c93138d88a57e70e002d7",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "4eff81f464e0ab7334abdb4a105fc032eae01fb58b1617f6f7a2d587403dc287",
+    "postQuestionIds": [
+      "cnm_233_q1",
+      "cnm_233_q2",
+      "cnm_233_q3",
+      "cnm_233_q4",
+      "cnm_233_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_235",
+    "name": "二次函数的最值",
+    "decision": "retain",
+    "finding": "无限制顶点最值与区间外顶点案例均有题且正确，保留；过程性理由待新函数应用题支持。",
+    "questionIds": [
+      "cnm_235_q1",
+      "cnm_235_q2",
+      "cnm_235_q3",
+      "cnm_235_q4"
+    ],
+    "snapshotSha256": "730a2f571cb1793caae6ab75838cb17e9ccb65f2d02beb19d6940b2944425edf",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "no-change-needed",
+    "reviewer": "assistant",
+    "postImplementationSha256": "730a2f571cb1793caae6ab75838cb17e9ccb65f2d02beb19d6940b2944425edf",
+    "postQuestionIds": [
+      "cnm_235_q1",
+      "cnm_235_q2",
+      "cnm_235_q3",
+      "cnm_235_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_236",
+    "name": "实际问题与二次函数",
+    "decision": "revise",
+    "finding": "补建模、定义域和可行最大值过程；233待定系数法非所有面积/利润应用必需降soft。给利润与运动模型明确适用区间。",
+    "questionIds": [
+      "cnm_236_q1",
+      "cnm_236_q2",
+      "cnm_236_q3",
+      "cnm_236_q4",
+      "cnm_236_q5"
+    ],
+    "snapshotSha256": "6dd03ef131f6d729cdbe09275bcbc4fb6bd6b7ec4e7dae8e9a32a8214eb3e67e",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "db99811ffb27c3b692d20cb4b9b45119936025983ccb6d283030f83f07e0b925",
+    "postQuestionIds": [
+      "cnm_236_q1",
+      "cnm_236_q2",
+      "cnm_236_q3",
+      "cnm_236_q4",
+      "cnm_236_q5",
+      "cnm_236_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_237",
+    "name": "反比例函数的概念",
+    "decision": "revise",
+    "finding": "定义补x≠0与k≠0同时满足；其他题正确。",
+    "questionIds": [
+      "cnm_237_q1",
+      "cnm_237_q2",
+      "cnm_237_q3",
+      "cnm_237_q4"
+    ],
+    "snapshotSha256": "08a0426e742f59954cfa46be8a25050759ef5cbe6118f7aaa43bfeb31836535b",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "12c48768d34c5fd12f967c39675334918f32e2bc68ee6430c376e5782b76d13d",
+    "postQuestionIds": [
+      "cnm_237_q1",
+      "cnm_237_q2",
+      "cnm_237_q3",
+      "cnm_237_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_240",
+    "name": "待定系数法求反比例函数解析式",
+    "decision": "retain",
+    "finding": "直接求k、求解析式、检验其他点均有证据；042整套解方程不是乘积k=xy必要条件，边应降soft（边修订另记）。",
+    "questionIds": [
+      "cnm_240_q1",
+      "cnm_240_q2",
+      "cnm_240_q3",
+      "cnm_240_q4"
+    ],
+    "snapshotSha256": "3065e12c244e3b8c7f740228063d9990c2c95e400921204b488d3556782a94c5",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "deb9fa7c02d84b811faab6a0e416f70e6d979f90a5199551c01e5e2d32263cbb",
+    "postQuestionIds": [
+      "cnm_240_q1",
+      "cnm_240_q2",
+      "cnm_240_q3",
+      "cnm_240_q4"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_241",
+    "name": "反比例函数与一次函数的综合",
+    "decision": "revise",
+    "finding": "声称图上比较但无图；补图象与x=0断点及联立两个解的过程。原q3面积计算为5/2正确。",
+    "questionIds": [
+      "cnm_241_q1",
+      "cnm_241_q2",
+      "cnm_241_q3",
+      "cnm_241_q4"
+    ],
+    "snapshotSha256": "2ae199108aca0c70e4f55ca0f43136e8685d929671b40aea57f9a02e4bb0876f",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-graphs.json"
+    ],
+    "postImplementationSha256": "21b1c70ec86ef0d40ec7609cdea6191746c864bc6b5283bf9b8cc07661b71e97",
+    "postQuestionIds": [
+      "cnm_241_q1",
+      "cnm_241_q2",
+      "cnm_241_q3",
+      "cnm_241_q4",
+      "cnm_241_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_242",
+    "name": "实际问题与反比例函数",
+    "decision": "revise",
+    "finding": "反比例总量模型题正确，补建立式子与正值范围的过程；240待定系数方法非直接总量已知题必要硬边，降soft。",
+    "questionIds": [
+      "cnm_242_q1",
+      "cnm_242_q2",
+      "cnm_242_q3",
+      "cnm_242_q4"
+    ],
+    "snapshotSha256": "98b942cdc7b10d4caeca0b7ce66e2d3a28ba41d4e3008988a841fa4e75a8b477",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json",
+      "authoring/release-candidate/prerequisites.json"
+    ],
+    "postImplementationSha256": "39e90babac249a944ec29aa5499a53f0138249197fff1a3c2a4ee86c8ca2fcc7",
+    "postQuestionIds": [
+      "cnm_242_q1",
+      "cnm_242_q2",
+      "cnm_242_q3",
+      "cnm_242_q4",
+      "cnm_242_q5"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  },
+  {
+    "topicId": "cnm_277",
+    "name": "特殊角的三角函数值与计算",
+    "decision": "revise",
+    "finding": "无计算器实际操作题，补角度制/弧度制辨析与一般锐角求值；现特殊角计算均正确。",
+    "questionIds": [
+      "cnm_277_q1",
+      "cnm_277_q2",
+      "cnm_277_q3",
+      "cnm_277_q4",
+      "cnm_277_q5"
+    ],
+    "snapshotSha256": "a5a8f49a92d5f14e9ad3f26619945f2132e2ba8d02f69c2cd482a9bf3591a55c",
+    "scope": "初轮逐题题干、答案、解析、能力描述和所列先修理由；非独立盲解、非教师认证",
+    "expertReviewed": false,
+    "implementationStatus": "implemented",
+    "reviewer": "assistant",
+    "patches": [
+      "authoring/release-candidate/algebra-content.json"
+    ],
+    "postImplementationSha256": "a95008e5477efad21eeff56bf1182f573eeffa8733d5ab7f0e47de126d9ae369",
+    "postQuestionIds": [
+      "cnm_277_q1",
+      "cnm_277_q2",
+      "cnm_277_q3",
+      "cnm_277_q4",
+      "cnm_277_q5",
+      "cnm_277_q6"
+    ],
+    "currentReleaseSnapshot": "reviews/release-candidate/node-review.json"
+  }
+]

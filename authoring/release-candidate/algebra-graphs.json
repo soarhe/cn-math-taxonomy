@@ -1,0 +1,271 @@
+{
+  "batch": "release-candidate-algebra-graphs",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [],
+  "questions": [
+    {
+      "id": "cnm_200_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_200_q5",
+        "topicId": "cnm_200",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在所示网格对应的纸面坐标系中，列表并画y=2x的图象，至少标出三个点，说明为何过原点。y=0是否属于本课程定义的正比例函数？",
+        "answer": "可取(−1,−2)、(0,0)、(1,2)，过这些点画直线并向两端延伸。x=0得y=0；正比例函数y=kx要求k≠0，所以y=0不属于该定义。",
+        "explanation": "可取(−1,−2)、(0,0)、(1,2)，过这些点画直线并向两端延伸。x=0得y=0；正比例函数y=kx要求k≠0，所以y=0不属于该定义。",
+        "rubric": [
+          "实际列表、描点、画直线；仅写结果不算完成绘图",
+          "横纵坐标与刻度一致",
+          "说明过原点",
+          "排除k=0"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 390\" role=\"img\" aria-label=\"作图网格，横纵轴每格均为1；请在纸上重画并完成任务\"><title>作图网格，横纵轴每格均为1；请在纸上重画并完成任务</title><path d=\"M45 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"189\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">6</text><path d=\"M45 217H301 M173 345V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"221\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"232\" font-size=\"10\" fill=\"currentColor\">O</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_202_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_202_q5",
+        "topicId": "cnm_202",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上用两点法画y=2x+1及y=2x。第二条直线的两个坐标轴截点都为(0,0)，能否把它们当作两个不同点？",
+        "answer": "第一条可用(0,1)、(1,3)，第二条用(0,0)、(1,2)。第二条两截点重合，不能当两个不同点；需另选一点。",
+        "explanation": "第一条可用(0,1)、(1,3)，第二条用(0,0)、(1,2)。第二条两截点重合，不能当两个不同点；需另选一点。",
+        "rubric": [
+          "分别选取两个不同且满足式子的点",
+          "在网格对应纸面画两直线并延伸",
+          "明确同一个点不能唯一确定直线"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 390\" role=\"img\" aria-label=\"作图网格，横纵轴每格均为1；请在纸上重画并完成任务\"><title>作图网格，横纵轴每格均为1；请在纸上重画并完成任务</title><path d=\"M45 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"189\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">6</text><path d=\"M45 217H301 M173 345V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"221\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"232\" font-size=\"10\" fill=\"currentColor\">O</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_205_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_205_q6",
+        "topicId": "cnm_205",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "从图中读取A、B的坐标，设y=kx+b并列式求解析式，再用另一点检验。写出解法，不限代入或加减消元。",
+        "answer": "A(0,1)、B(2,5)；b=1，2k+b=5，所以k=2，y=2x+1。核对B：2×2+1=5；图上的(−1,−1)也满足。",
+        "explanation": "A(0,1)、B(2,5)；b=1，2k+b=5，所以k=2，y=2x+1。核对B：2×2+1=5；图上的(−1,−1)也满足。",
+        "rubric": [
+          "从刻度读出两点",
+          "列b=1、2k+b=5",
+          "用任一有效方法求k=2",
+          "代点核验"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 390\" role=\"img\" aria-label=\"一条直线经过标出的A、B，读取坐标确定解析式\"><title>一条直线经过标出的A、B，读取坐标确定解析式</title><path d=\"M45 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"189\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">6</text><path d=\"M45 217H301 M173 345V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"221\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"232\" font-size=\"10\" fill=\"currentColor\">O</text><path d=\"M109.00 313.00 L253.00 25.00\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"173\" cy=\"185\" r=\"3\" fill=\"currentColor\"/><text x=\"179\" y=\"178\" font-size=\"12\" fill=\"currentColor\">A</text><circle cx=\"237\" cy=\"57\" r=\"3\" fill=\"currentColor\"/><text x=\"243\" y=\"50\" font-size=\"12\" fill=\"currentColor\">B</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_148_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_148_q5",
+        "topicId": "cnm_148",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图中a、b均为正长度。分别写出四块面积与大正方形面积，用面积说明(a+b)²为何有中间项2ab。该代数恒等式对负数是否也成立，依据是什么？",
+        "answer": "四块为a²、ab、ab、b²，总面积(a+b)²=a²+2ab+b²。面积图要求正长度；对任意实数则可用分配律展开证明，不能把负长度直接用于此图。",
+        "explanation": "四块为a²、ab、ab、b²，总面积(a+b)²=a²+2ab+b²。面积图要求正长度；对任意实数则可用分配律展开证明，不能把负长度直接用于此图。",
+        "rubric": [
+          "四块面积与图对应",
+          "两个ab相加说明中间项",
+          "区分图形正长度条件与代数恒等式的更广范围"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 350 310\" role=\"img\" aria-label=\"边长a+b的正方形，沿每条边分成a和b，内部划分为四个矩形\"><rect x=\"55\" y=\"45\" width=\"220\" height=\"220\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M195 45V265 M55 185H275\" stroke=\"currentColor\"/><g fill=\"currentColor\" text-anchor=\"middle\"><text x=\"125\" y=\"30\">a</text><text x=\"235\" y=\"30\">b</text><text x=\"30\" y=\"120\">a</text><text x=\"30\" y=\"230\">b</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_047_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_047_q5",
+        "topicId": "cnm_047",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "如图两车同时从A、B相向出发，速度恒定。请在纸上补出相遇点，把两段路程用同一个时间t表示，列方程求相遇时间。",
+        "answer": "从A到相遇点为60t，从B到相遇点为40t；60t+40t=180，t=1.8小时。相遇点距A为108 km、距B为72 km。",
+        "explanation": "从A到相遇点为60t，从B到相遇点为40t；60t+40t=180，t=1.8小时。相遇点距A为108 km、距B为72 km。",
+        "rubric": [
+          "在线段图中标两段路程和同一时间起点",
+          "列路程和180",
+          "求1.8小时并用108+72核验"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 130\" role=\"img\" aria-label=\"一段从A到B的直路，A在左B在右，两车从两端相向而行\"><path d=\"M50 75H430 M75 40H155l-8-5m8 5-8 5 M405 40H325l8-5m-8 5 8 5\" stroke=\"currentColor\" fill=\"none\"/><g fill=\"currentColor\"><text x=\"45\" y=\"100\">A</text><text x=\"425\" y=\"100\">B</text><text x=\"210\" y=\"100\">相距180 km</text><text x=\"75\" y=\"30\">60 km/h</text><text x=\"325\" y=\"30\">40 km/h</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_047_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_047_q6",
+        "topicId": "cnm_047",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "乙先从A沿直路以40 km/h出发，1小时后甲从A同向以60 km/h追赶。以甲出发时为计时起点画线段图，列式求甲追上乙所需时间。",
+        "answer": "甲出发时乙已领先40 km；甲行60t，乙总行40(t+1)。60t=40(t+1)，t=2小时（自甲出发算）；乙共行3小时。",
+        "explanation": "甲出发时乙已领先40 km；甲行60t，乙总行40(t+1)。60t=40(t+1)，t=2小时（自甲出发算）；乙共行3小时。",
+        "rubric": [
+          "自画图标出先行40 km及同向追赶",
+          "区分甲t与乙t+1",
+          "列式求2小时并说明计时起点"
+        ]
+      }
+    },
+    {
+      "id": "cnm_228_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_228_q5",
+        "topicId": "cnm_228",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用20 m围栏按图靠墙围矩形，要求面积48 m²。用x表示垂直于墙的边长，列方程并求所有可行尺寸，画出或标注两种方案。",
+        "answer": "另一边为20−2x，0<x<10；x(20−2x)=48，化为x²−10x+24=0=(x−4)(x−6)，故x=4或6；两方案为4×12、6×8，都可行。",
+        "explanation": "另一边为20−2x，0<x<10；x(20−2x)=48，化为x²−10x+24=0=(x−4)(x−6)，故x=4或6；两方案为4×12、6×8，都可行。",
+        "rubric": [
+          "图中标出20−2x与0<x<10",
+          "面积方程正确",
+          "保留两个可行根",
+          "标注两组尺寸并核验面积与三边和"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"矩形围栏靠墙，顶边为墙不用围栏，另外三边合计20米，两条垂直墙边各为x\"><path d=\"M35 40H380\" stroke=\"currentColor\" stroke-width=\"5\"/><path d=\"M80 40V170H330V40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><g fill=\"currentColor\"><text x=\"185\" y=\"25\">墙（足够长）</text><text x=\"50\" y=\"110\">x</text><text x=\"345\" y=\"110\">x</text><text x=\"150\" y=\"197\">沿墙方向边长待求</text></g></svg>"
+      }
+    },
+    {
+      "id": "cnm_228_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_228_q6",
+        "topicId": "cnm_228",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "商品每件成本10元，售价x元时日销量模型为40−x件，只适用于10≤x≤40。要获得日利润200元，列方程并检验售价方案。",
+        "answer": "(x−10)(40−x)=200，得x²−50x+600=0，即(x−20)(x−30)=0；售价20或30元均在允许区间内，销量分别20或10件，利润均200元。",
+        "explanation": "(x−10)(40−x)=200，得x²−50x+600=0，即(x−20)(x−30)=0；售价20或30元均在允许区间内，销量分别20或10件，利润均200元。",
+        "rubric": [
+          "写出模型有效范围",
+          "区分售价、单位利润、总利润",
+          "解得20与30",
+          "逐个检验区间、销量和利润"
+        ]
+      }
+    },
+    {
+      "id": "cnm_230_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_230_q5",
+        "topicId": "cnm_230",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上用图示网格画y=x²，列表取x=−2、−1、0、1、2，标出顶点并说明顶点两侧的增减趋势。若比较y=2x²的开口宽窄，应如何保证图的尺度一致？",
+        "answer": "对应y为4、1、0、1、4，顶点(0,0)；x≤0时随x增大y减小，x≥0时随x增大y增大。画光滑抛物线而非折线；同一坐标尺度下y=2x²较窄。",
+        "explanation": "对应y为4、1、0、1、4，顶点(0,0)；x≤0时随x增大y减小，x≥0时随x增大y增大。画光滑抛物线而非折线；同一坐标尺度下y=2x²较窄。",
+        "rubric": [
+          "列表与描点一致并画平滑曲线",
+          "标出顶点和两侧趋势",
+          "宽窄比较须用相同横纵单位尺度"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 390\" role=\"img\" aria-label=\"作图网格，横纵轴每格均为1；请在纸上重画并完成任务\"><title>作图网格，横纵轴每格均为1；请在纸上重画并完成任务</title><path d=\"M45 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"189\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">6</text><path d=\"M45 217H301 M173 345V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"221\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"232\" font-size=\"10\" fill=\"currentColor\">O</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_231_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_231_q5",
+        "topicId": "cnm_231",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "根据图中y=x²，在纸上画y=(x−1)²−2。说明旧点(0,0)、(1,1)移到哪里，并用新式核对。",
+        "answer": "原图向右1、向下2；两点移到(1,−2)、(2,−1)，都满足新式。顶点(1,−2)，对称轴x=1，形状不变。",
+        "explanation": "原图向右1、向下2；两点移到(1,−2)、(2,−1)，都满足新式。顶点(1,−2)，对称轴x=1，形状不变。",
+        "rubric": [
+          "实际画出移动后的曲线",
+          "两对应点正确",
+          "说明顶点/轴并代回核对"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 390\" role=\"img\" aria-label=\"y=x²的图象，请据此画平移后的图象\"><title>y=x²的图象，请据此画平移后的图象</title><path d=\"M45 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"189\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">6</text><path d=\"M45 217H301 M173 345V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"221\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"232\" font-size=\"10\" fill=\"currentColor\">O</text><path d=\"M96.20 32.68 L97.80 40.28 L99.40 47.72 L101.00 55.00 L102.60 62.12 L104.20 69.08 L105.80 75.88 L107.40 82.52 L109.00 89.00 L110.60 95.32 L112.20 101.48 L113.80 107.48 L115.40 113.32 L117.00 119.00 L118.60 124.52 L120.20 129.88 L121.80 135.08 L123.40 140.12 L125.00 145.00 L126.60 149.72 L128.20 154.28 L129.80 158.68 L131.40 162.92 L133.00 167.00 L134.60 170.92 L136.20 174.68 L137.80 178.28 L139.40 181.72 L141.00 185.00 L142.60 188.12 L144.20 191.08 L145.80 193.88 L147.40 196.52 L149.00 199.00 L150.60 201.32 L152.20 203.48 L153.80 205.48 L155.40 207.32 L157.00 209.00 L158.60 210.52 L160.20 211.88 L161.80 213.08 L163.40 214.12 L165.00 215.00 L166.60 215.72 L168.20 216.28 L169.80 216.68 L171.40 216.92 L173.00 217.00 L174.60 216.92 L176.20 216.68 L177.80 216.28 L179.40 215.72 L181.00 215.00 L182.60 214.12 L184.20 213.08 L185.80 211.88 L187.40 210.52 L189.00 209.00 L190.60 207.32 L192.20 205.48 L193.80 203.48 L195.40 201.32 L197.00 199.00 L198.60 196.52 L200.20 193.88 L201.80 191.08 L203.40 188.12 L205.00 185.00 L206.60 181.72 L208.20 178.28 L209.80 174.68 L211.40 170.92 L213.00 167.00 L214.60 162.92 L216.20 158.68 L217.80 154.28 L219.40 149.72 L221.00 145.00 L222.60 140.12 L224.20 135.08 L225.80 129.88 L227.40 124.52 L229.00 119.00 L230.60 113.32 L232.20 107.48 L233.80 101.48 L235.40 95.32 L237.00 89.00 L238.60 82.52 L240.20 75.88 L241.80 69.08 L243.40 62.12 L245.00 55.00 L246.60 47.72 L248.20 40.28 L249.80 32.68\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg>"
+      }
+    },
+    {
+      "id": "cnm_232_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_232_q5",
+        "topicId": "cnm_232",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "把y=x²−2x−3配成顶点式，再在纸上画图；标出顶点、与两坐标轴交点，并解释左右两侧的增减趋势。",
+        "answer": "y=(x−1)²−4，顶点(1,−4)，x轴交点(−1,0)、(3,0)，y轴交点(0,−3)；x≤1时递减，x≥1时递增。",
+        "explanation": "y=(x−1)²−4，顶点(1,−4)，x轴交点(−1,0)、(3,0)，y轴交点(0,−3)；x≤1时递减，x≥1时递增。",
+        "rubric": [
+          "展示加1减1配方",
+          "正确标出顶点与三个交点",
+          "画平滑曲线且对称轴为x=1",
+          "按顶点左右分别描述趋势"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 390\" role=\"img\" aria-label=\"配方并画二次函数的作图网格\"><title>配方并画二次函数的作图网格</title><path d=\"M45 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 345V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"201\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-5</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"221\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 185H301 M173 345V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"189\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"200\" font-size=\"10\" fill=\"currentColor\">O</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_233_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_233_q5",
+        "topicId": "cnm_233",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "抛物线顶点为(1,−4)，经过(3,4)。选择合适的解析式形式并求系数，说明为什么不必先列三元一次方程组。",
+        "answer": "设y=a(x−1)²−4，代入(3,4)得4=4a−4，a=2，所以y=2(x−1)²−4。顶点条件已确定h、k，只剩a一个未知系数。",
+        "explanation": "设y=a(x−1)²−4，代入(3,4)得4=4a−4，a=2，所以y=2(x−1)²−4。顶点条件已确定h、k，只剩a一个未知系数。",
+        "rubric": [
+          "依据顶点选顶点式",
+          "正确代入并求a=2",
+          "说明如何利用条件减少未知数"
+        ]
+      }
+    },
+    {
+      "id": "cnm_241_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_241_q5",
+        "topicId": "cnm_241",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "图示y=4/x与y=x。读出交点，再用代数核对。结合两支图象判断4/x>x的全部实数解，并解释为何不能直接同乘x而不分情况。",
+        "answer": "交点(−2,−2)、(2,2)，联立得x²=4。图象比较得x<−2或0<x<2。x=0无定义；x<0时乘x要变号，交点因严格不等号不取。",
+        "explanation": "交点(−2,−2)、(2,2)，联立得x²=4。图象比较得x<−2或0<x<2。x=0无定义；x<0时乘x要变号，交点因严格不等号不取。",
+        "rubric": [
+          "读出并核验两个交点",
+          "按x=0分开两支，不跨过断点连线",
+          "解集(−∞,−2)与(0,2)",
+          "解释负数乘法变号及端点排除"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 346 454\" role=\"img\" aria-label=\"同一坐标系中的y=4/x与y=x，双曲线在x=0处没有定义\"><title>同一坐标系中的y=4/x与y=x，双曲线在x=0处没有定义</title><path d=\"M45 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"45\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M77 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"77\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M109 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"109\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M141 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"141\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M173 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M205 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"205\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M237 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"237\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M269 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"269\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M301 409V25\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"301\" y=\"233\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 409H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"413\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-6</text><path d=\"M45 377H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"381\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-5</text><path d=\"M45 345H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"349\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-4</text><path d=\"M45 313H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"317\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-3</text><path d=\"M45 281H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"285\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-2</text><path d=\"M45 249H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"253\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">-1</text><path d=\"M45 217H301\" stroke=\"currentColor\" opacity=\"0.18\"/><path d=\"M45 185H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"189\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">1</text><path d=\"M45 153H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"157\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">2</text><path d=\"M45 121H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"125\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">3</text><path d=\"M45 89H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"93\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">4</text><path d=\"M45 57H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"61\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">5</text><path d=\"M45 25H301\" stroke=\"currentColor\" opacity=\"0.18\"/><text x=\"166\" y=\"29\" text-anchor=\"end\" font-size=\"10\" fill=\"currentColor\">6</text><path d=\"M45 217H301 M173 409V25\" stroke=\"currentColor\"/><text x=\"313\" y=\"221\" fill=\"currentColor\">x</text><text x=\"181\" y=\"25\" fill=\"currentColor\">y</text><text x=\"178\" y=\"232\" font-size=\"10\" fill=\"currentColor\">O</text><path d=\"M45.00 249.00 L46.60 249.41 L48.20 249.82 L49.80 250.25 L51.40 250.68 L53.00 251.13 L54.60 251.59 L56.20 252.07 L57.80 252.56 L59.40 253.06 L61.00 253.57 L62.60 254.10 L64.20 254.65 L65.80 255.21 L67.40 255.79 L69.00 256.38 L70.60 257.00 L72.20 257.63 L73.80 258.29 L75.40 258.97 L77.00 259.67 L78.60 260.39 L80.20 261.14 L81.80 261.91 L83.40 262.71 L85.00 263.55 L86.60 264.41 L88.20 265.30 L89.80 266.23 L91.40 267.20 L93.00 268.20 L94.60 269.24 L96.20 270.33 L97.80 271.47 L99.40 272.65 L101.00 273.89 L102.60 275.18 L104.20 276.53 L105.80 277.95 L107.40 279.44 L109.00 281.00 L110.60 282.64 L112.20 284.37 L113.80 286.19 L115.40 288.11 L117.00 290.14 L118.60 292.29 L120.20 294.58 L121.80 297.00 L123.40 299.58 L125.00 302.33 L126.60 305.28 L128.20 308.43 L129.80 311.81 L131.40 315.46 L133.00 319.40 L134.60 323.67 L136.20 328.30 L137.80 333.36 L139.40 338.90 L141.00 345.00 L142.60 351.74 L144.20 359.22 L145.80 367.59 L147.40 377.00 L149.00 387.67 L150.60 399.86\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M195.40 34.14 L197.00 46.33 L198.60 57.00 L200.20 66.41 L201.80 74.78 L203.40 82.26 L205.00 89.00 L206.60 95.10 L208.20 100.64 L209.80 105.70 L211.40 110.33 L213.00 114.60 L214.60 118.54 L216.20 122.19 L217.80 125.57 L219.40 128.72 L221.00 131.67 L222.60 134.42 L224.20 137.00 L225.80 139.42 L227.40 141.71 L229.00 143.86 L230.60 145.89 L232.20 147.81 L233.80 149.63 L235.40 151.36 L237.00 153.00 L238.60 154.56 L240.20 156.05 L241.80 157.47 L243.40 158.82 L245.00 160.11 L246.60 161.35 L248.20 162.53 L249.80 163.67 L251.40 164.76 L253.00 165.80 L254.60 166.80 L256.20 167.77 L257.80 168.70 L259.40 169.59 L261.00 170.45 L262.60 171.29 L264.20 172.09 L265.80 172.86 L267.40 173.61 L269.00 174.33 L270.60 175.03 L272.20 175.71 L273.80 176.37 L275.40 177.00 L277.00 177.62 L278.60 178.21 L280.20 178.79 L281.80 179.35 L283.40 179.90 L285.00 180.43 L286.60 180.94 L288.20 181.44 L289.80 181.93 L291.40 182.41 L293.00 182.87 L294.60 183.32 L296.20 183.75 L297.80 184.18 L299.40 184.59 L301.00 185.00\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M45.00 345.00 L301.00 89.00\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"109\" cy=\"281\" r=\"3\" fill=\"currentColor\"/><text x=\"115\" y=\"274\" font-size=\"12\" fill=\"currentColor\">P</text><circle cx=\"237\" cy=\"153\" r=\"3\" fill=\"currentColor\"/><text x=\"243\" y=\"146\" font-size=\"12\" fill=\"currentColor\">Q</text></svg>"
+      }
+    }
+  ],
+  "dependencies": []
+}

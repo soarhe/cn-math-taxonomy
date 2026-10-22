@@ -1,0 +1,1205 @@
+{
+  "batch": "release-candidate-congruence",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_125",
+      "beforeHash": "c9c3c507eb5481064bed60cc520c70232c501ef5becd4f596b8fbcf452f771da",
+      "before": {
+        "id": "cnm_125",
+        "name": "全等判定：斜边、直角边（HL）",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十四章 全等三角形 14.2",
+        "type": "reasoning",
+        "description": "斜边和一条直角边分别相等的两个直角三角形全等。",
+        "mastery_criteria": [
+          "能叙述 HL",
+          "能判断何时只能用 HL"
+        ],
+        "diagnostic_question": {
+          "question": "直角三角形的 SSA 为什么这里可以用？",
+          "answer": "因为是直角三角形，HL 是特例"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.36",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_125",
+        "name": "全等判定：斜边、直角边（HL）",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十四章 全等三角形 14.2",
+        "type": "reasoning",
+        "description": "斜边和一条直角边分别相等的两个直角三角形全等。",
+        "mastery_criteria": [
+          "能叙述HL并确认两个三角形都是直角三角形",
+          "能识别已知斜边与对应直角边，使用HL证明"
+        ],
+        "diagnostic_question": {
+          "question": "直角三角形的 SSA 为什么这里可以用？",
+          "answer": "因为是直角三角形，HL 是特例"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.36",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_130",
+      "beforeHash": "01ec73fac9c571c07f48455e4a377ddc407f12e167d1a1996b154ca01daa3765",
+      "before": {
+        "id": "cnm_130",
+        "name": "全等三角形的常见辅助线与模型",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十四章 全等三角形 综合",
+        "type": "reasoning",
+        "description": "掌握倍长中线、截长补短、旋转型全等等构造全等三角形的常见方法。",
+        "mastery_criteria": [
+          "能识别模型并添加辅助线",
+          "能完成含辅助线的证明"
+        ],
+        "diagnostic_question": {
+          "question": "已知 AD 为 △ABC 中线，如何用倍长中线证明 AB+AC>2AD？",
+          "answer": "延长 AD 至 E 使 DE=AD，证 △ABD≌△ECD，再用三边关系"
+        },
+        "external": false,
+        "standards": []
+      },
+      "after": {
+        "id": "cnm_130",
+        "name": "全等三角形的常见辅助线与模型",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十四章 全等三角形 综合",
+        "type": "reasoning",
+        "description": "掌握倍长中线、截长补短、旋转型全等等构造全等三角形的常见方法。 本节点为辅助线方法的补充归纳，未作为课标单列必修条目；不要求先记住全部模型才能学习一般几何证明。",
+        "mastery_criteria": [
+          "能识别模型并添加辅助线",
+          "能完成含辅助线的证明"
+        ],
+        "diagnostic_question": {
+          "question": "已知 AD 为 △ABC 中线，如何用倍长中线证明 AB+AC>2AD？",
+          "answer": "延长 AD 至 E 使 DE=AD，证 △ABD≌△ECD，再用三边关系"
+        },
+        "external": false,
+        "standards": [],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_132",
+      "beforeHash": "1a96c32452c33d1014179c1a240f4ddbf07360700e77411124a0d5feb916749a",
+      "before": {
+        "id": "cnm_132",
+        "name": "轴对称的性质",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十五章 轴对称 15.1",
+        "type": "reasoning",
+        "description": "成轴对称的两个图形全等，对称点连线被对称轴垂直平分。",
+        "mastery_criteria": [
+          "能说出轴对称的性质",
+          "能由对称点求对称轴"
+        ],
+        "diagnostic_question": {
+          "question": "A、A′ 关于直线 l 对称，l 与 AA′ 的关系？",
+          "answer": "l 垂直平分 AA′"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.60",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_132",
+        "name": "轴对称的性质",
+        "domain": "图形与几何",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十五章 轴对称 15.1",
+        "type": "reasoning",
+        "description": "成轴对称的两图形全等。若点不在轴上，它与对称点不同，其连线段被对称轴垂直平分；轴上的点与其对称点重合。",
+        "mastery_criteria": [
+          "能说出轴对称的性质",
+          "能由对称点求对称轴"
+        ],
+        "diagnostic_question": {
+          "question": "A、A′ 关于直线 l 对称，l 与 AA′ 的关系？",
+          "answer": "l 垂直平分 AA′"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.GG.60",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_120_q4",
+      "beforeHash": "8ca44a95576ca2c7f1940869e9df34d24df774f35786639ee035be45540907a8",
+      "before": {
+        "id": "cnm_120_q4",
+        "topicId": "cnm_120",
+        "difficulty": "advanced",
+        "type": "short",
+        "prompt": "△ABC 与 △DEF 全等，且 ∠A=∠E，∠B=∠D，∠C=∠F。按对应顶点顺序写全等式：△ABC≌△___（填三个字母）",
+        "answer": "△EDF",
+        "explanation": "A 对应 E，B 对应 D，C 对应 F，所以 △ABC≌△EDF。",
+        "accept": [
+          "EDF",
+          "△EDF"
+        ]
+      },
+      "after": {
+        "id": "cnm_120_q4",
+        "topicId": "cnm_120",
+        "difficulty": "advanced",
+        "type": "short",
+        "prompt": "△ABC 与 △DEF 全等，且 ∠A=∠E，∠B=∠D，∠C=∠F。按对应顶点顺序写全等式：△ABC≌△___（填三个字母）",
+        "answer": "EDF",
+        "explanation": "A 对应 E，B 对应 D，C 对应 F，所以 △ABC≌△EDF。",
+        "accept": [
+          "EDF",
+          "△EDF"
+        ]
+      }
+    },
+    {
+      "id": "cnm_123_q1",
+      "beforeHash": "3eb808e5de67d39e279e8c6e4444739e3a33e98ad13b57ac15fc7e27d1725cd4",
+      "before": {
+        "id": "cnm_123_q1",
+        "topicId": "cnm_123",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "两边相等且一角相等，一定全等吗？",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "一定全等"
+          },
+          {
+            "key": "B",
+            "text": "不一定，必须是两边的夹角"
+          },
+          {
+            "key": "C",
+            "text": "一定不全等"
+          },
+          {
+            "key": "D",
+            "text": "一定全等，依据 SSA"
+          }
+        ],
+        "explanation": "SAS 要求相等的角是两边的夹角；若是其中一边的对角（SSA），不能保证全等。"
+      },
+      "after": {
+        "id": "cnm_123_q1",
+        "topicId": "cnm_123",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "两边相等且一角相等，一定全等吗？",
+        "answer": "B",
+        "choices": [
+          {
+            "key": "A",
+            "text": "一定全等"
+          },
+          {
+            "key": "B",
+            "text": "不一定；SAS要求相等的角是这两边的夹角"
+          },
+          {
+            "key": "C",
+            "text": "一定不全等"
+          },
+          {
+            "key": "D",
+            "text": "一定全等，依据 SSA"
+          }
+        ],
+        "explanation": "仅给两边及其中一边的对角分别相等，一般不能保证全等；SAS的充分条件要求夹角相等。这不表示全等三角形只能用SAS证明，直角三角形另有HL等条件。"
+      }
+    },
+    {
+      "id": "cnm_124_q4",
+      "beforeHash": "5ffb9b002ff7109efff0f7d8c85c6d1413ac60348d48566f763a813619dd423f",
+      "before": {
+        "id": "cnm_124_q4",
+        "topicId": "cnm_124",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "△ABC 与 △DEF 中，∠A=∠D=50°，∠B=∠E=60°，则 ∠F 是多少度？",
+        "answer": "70",
+        "explanation": "∠C=180°-50°-60°=70°，三个角分别相等，所以 ∠F=∠C=70°。这也说明有两角对应相等时第三角也相等，ASA 与 AAS 可相互推出。",
+        "verify": "180-50-60"
+      },
+      "after": {
+        "id": "cnm_124_q4",
+        "topicId": "cnm_124",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "△ABC 与 △DEF 中，∠A=∠D=50°，∠B=∠E=60°，则 ∠F 是多少度？",
+        "answer": "70",
+        "explanation": "由三角形内角和，∠F=180°−50°−60°=70°。两个对应角相等能推出第三角相等；若还给相应边相等，才可结合ASA得到全等。仅这道题的两角条件不能保证全等。",
+        "verify": "180-50-60"
+      }
+    },
+    {
+      "id": "cnm_125_q3",
+      "beforeHash": "12f140fc9ec1d87b75fa0a734e7e85fa723efd5f74ab9af862129c07bddce6cc",
+      "before": {
+        "id": "cnm_125_q3",
+        "topicId": "cnm_125",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "两个直角三角形中，下列哪个条件只能用 HL 来判定它们全等？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "两条直角边分别相等"
+          },
+          {
+            "key": "B",
+            "text": "一个锐角和斜边分别相等"
+          },
+          {
+            "key": "C",
+            "text": "斜边和一条直角边分别相等"
+          },
+          {
+            "key": "D",
+            "text": "一个锐角和一条直角边分别相等"
+          }
+        ],
+        "explanation": "A 可用 SAS，B 可用 AAS，D 可用 ASA 或 AAS；只有斜边和一条直角边对应相等必须用 HL。"
+      },
+      "after": {
+        "id": "cnm_125_q3",
+        "topicId": "cnm_125",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "两个直角三角形中，哪组对应条件恰好直接给出了HL判定所要求的两条边？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "两条直角边分别相等"
+          },
+          {
+            "key": "B",
+            "text": "一个锐角和斜边分别相等"
+          },
+          {
+            "key": "C",
+            "text": "斜边和一条直角边分别相等"
+          },
+          {
+            "key": "D",
+            "text": "一个锐角和一条直角边分别相等"
+          }
+        ],
+        "explanation": "C直接给出斜边与对应直角边相等；A直接可用SAS，B、D可用角边判定。HL并非唯一可能证明路线，也可借勾股定理补第三边后用SSS。"
+      }
+    },
+    {
+      "id": "cnm_125_q5",
+      "beforeHash": "1a2720f528aeb007855bb6e000f50ec3604beb7b57e7f66cf4428a87144747b6",
+      "before": {
+        "id": "cnm_125_q5",
+        "topicId": "cnm_125",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "四边形 ABCD 中，∠C=∠D=90°，AC=BD=8，BC=6，求 AD 的长。",
+        "answer": "6",
+        "explanation": "Rt△ABC 与 Rt△BAD 中，AB=BA（公共斜边），AC=BD（直角边），由 HL 得全等，所以 AD=BC=6。"
+      },
+      "after": {
+        "id": "cnm_125_q5",
+        "topicId": "cnm_125",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "凸四边形ABCD中，∠BCD=∠CDA=90°，AC=BD=8，BC=6，求AD。",
+        "answer": "6",
+        "explanation": "在Rt△ADC与Rt△BCD中，AC、BD分别为斜边且相等，DC=CD为公共直角边，故△ADC≌△BCD（HL），对应边AD=BC=6。"
+      }
+    },
+    {
+      "id": "cnm_127_q3",
+      "beforeHash": "20f9f9eff6f408b4531ad5f85f3c6015b1bbcbfee3a0aedb142e9aed60800923",
+      "before": {
+        "id": "cnm_127_q3",
+        "topicId": "cnm_127",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "用尺规作 ∠AOB 的平分线：先以 O 为圆心画弧交 OA、OB 于 C、D，再分别以 C、D 为圆心、相同的半径画弧，两弧在角内相交于 P。为使两弧一定能相交，这个半径必须：",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "小于 CD 的一半"
+          },
+          {
+            "key": "B",
+            "text": "等于 CD 的一半"
+          },
+          {
+            "key": "C",
+            "text": "大于 CD 的一半"
+          },
+          {
+            "key": "D",
+            "text": "必须等于 CD"
+          }
+        ],
+        "explanation": "两圆要相交，半径之和须大于圆心距，即半径大于 CD 的一半；等于一半时只相切，并不要求必须等于 CD。"
+      },
+      "after": {
+        "id": "cnm_127_q3",
+        "topicId": "cnm_127",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "用尺规作 ∠AOB 的平分线：先以 O 为圆心画弧交 OA、OB 于 C、D，再分别以 C、D 为圆心、相同的半径画弧，两弧在角内相交于 P。为使两弧一定能相交，这个半径必须：（已知角大于0°且小于180°，选角内且不同于O的交点P，要求两圆有两个交点。）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "小于 CD 的一半"
+          },
+          {
+            "key": "B",
+            "text": "等于 CD 的一半"
+          },
+          {
+            "key": "C",
+            "text": "大于 CD 的一半"
+          },
+          {
+            "key": "D",
+            "text": "必须等于 CD"
+          }
+        ],
+        "explanation": "两圆要相交，半径之和须大于圆心距，即半径大于 CD 的一半；等于一半时只相切，并不要求必须等于 CD。"
+      }
+    },
+    {
+      "id": "cnm_128_q5",
+      "beforeHash": "2f0b1960aabf6a28e9de9f91e96988a7b88c94dbce8eb3e8bfe02a1b0e87db14",
+      "before": {
+        "id": "cnm_128_q5",
+        "topicId": "cnm_128",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，∠ABC、∠ACB 的平分线交于点 P，P 到 BC 的距离为 3，△ABC 的周长为 18，求 △ABC 的面积。",
+        "answer": "27",
+        "explanation": "P 在两条角平分线上，到三边距离都为 3。面积=½×3×(AB+BC+CA)=½×3×18=27。",
+        "verify": "Fraction(1,2)*3*18"
+      },
+      "after": {
+        "id": "cnm_128_q5",
+        "topicId": "cnm_128",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "△ABC 中，∠ABC、∠ACB 的平分线交于点 P，P 到 BC 的距离为 3，△ABC 的周长为 36，求 △ABC 的面积。",
+        "answer": "54",
+        "explanation": "P为两个内角平分线交点，到三边距离都是3。把三角形分为三个以P为顶点的小三角形，面积=1/2×3×36=54。这些条件可以由9、12、15直角三角形实现。",
+        "verify": "Fraction(1,2)*3*36",
+        "fixed_from_source": "release-candidate: 修正原周长18和内切半径3不可能同时成立的几何条件"
+      }
+    },
+    {
+      "id": "cnm_130_q1",
+      "beforeHash": "760de567a3bfb44dd1061d140d035504e24bd4e5eaffd28397ee525d584c611c",
+      "before": {
+        "id": "cnm_130_q1",
+        "topicId": "cnm_130",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "已知 AD 为 △ABC 中线，如何用倍长中线证明 AB+AC>2AD？",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "作 AD 的垂线，证两个直角三角形全等"
+          },
+          {
+            "key": "B",
+            "text": "过 D 作 AB 的平行线，用同位角相等"
+          },
+          {
+            "key": "C",
+            "text": "取 AB 的中点 E，连接 DE，用三边关系"
+          },
+          {
+            "key": "D",
+            "text": "延长 AD 至 E 使 DE=AD，证 △ABD≌△ECD，再用三边关系"
+          }
+        ],
+        "explanation": "延长 AD 至 E 使 DE=AD，连接 CE，则 △ABD≌△ECD（SAS），CE=AB；在 △ACE 中 AC+CE>AE=2AD，即 AB+AC>2AD。"
+      },
+      "after": {
+        "id": "cnm_130_q1",
+        "topicId": "cnm_130",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "已知 AD 为 △ABC 中线，如何用倍长中线证明 AB+AC>2AD？",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "作 AD 的垂线，证两个直角三角形全等"
+          },
+          {
+            "key": "B",
+            "text": "过 D 作 AB 的平行线，用同位角相等"
+          },
+          {
+            "key": "C",
+            "text": "取 AB 的中点 E，连接 DE，用三边关系"
+          },
+          {
+            "key": "D",
+            "text": "延长 AD 至 E 使 DE=AD，证 △ABD≌△ECD，再用三边关系"
+          }
+        ],
+        "explanation": "延长 AD 至 E 使 DE=AD，连接 CE，则 △ABD≌△ECD（SAS），CE=AB；在 △ACE 中 AC+CE>AE=2AD，即 AB+AC>2AD。",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_130_q2",
+      "beforeHash": "0b336aa8a02c9c212b1f6523ee03f56e75c1ee1a6cbb5db36de196302f760c1a",
+      "before": {
+        "id": "cnm_130_q2",
+        "topicId": "cnm_130",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "延长 △ABC 的中线 AD 到点 E，使 DE=AD。若 AD=4，求 AE 的长。",
+        "answer": "8",
+        "explanation": "AE=AD+DE=4+4=8。",
+        "verify": "4+4"
+      },
+      "after": {
+        "id": "cnm_130_q2",
+        "topicId": "cnm_130",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "延长 △ABC 的中线 AD 到点 E，使 DE=AD。若 AD=4，求 AE 的长。",
+        "answer": "8",
+        "explanation": "AE=AD+DE=4+4=8。",
+        "verify": "4+4",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_130_q3",
+      "beforeHash": "0444369c3ff230b28fddd148d679065707b2609e48ba88b7851ff504f093db1b",
+      "before": {
+        "id": "cnm_130_q3",
+        "topicId": "cnm_130",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "AD 是 △ABC 的中线，AB=9，AC=5。延长 AD 至 E 使 DE=AD，连接 CE，可得 CE=AB。在 △ACE 中用三边关系得到 AE 的范围后，AD 为整数时，AD 可以取几个值？",
+        "answer": "4",
+        "explanation": "△ABD≌△ECD 得 CE=9。在 △ACE 中 9-5<AE<9+5，即 4<2AD<14，2<AD<7，整数为 3、4、5、6，共 4 个。",
+        "verify": "len([d for d in range(1,20) if 9-5<2*d<9+5])"
+      },
+      "after": {
+        "id": "cnm_130_q3",
+        "topicId": "cnm_130",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "AD 是 △ABC 的中线，AB=9，AC=5。延长 AD 至 E 使 DE=AD，连接 CE，可得 CE=AB。在 △ACE 中用三边关系得到 AE 的范围后，AD 为整数时，AD 可以取几个值？",
+        "answer": "4",
+        "explanation": "△ABD≌△ECD 得 CE=9。在 △ACE 中 9-5<AE<9+5，即 4<2AD<14，2<AD<7，整数为 3、4、5、6，共 4 个。",
+        "verify": "len([d for d in range(1,20) if 9-5<2*d<9+5])",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_130_q4",
+      "beforeHash": "b4ca7b4f69e91efefd08531a7b5e5f729a7d43074cbb6e69d56f9151d6fcbfc9",
+      "before": {
+        "id": "cnm_130_q4",
+        "topicId": "cnm_130",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "在证明线段的和、差关系（如 a=b+c）时，常用的辅助线方法是：",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "倍长中线"
+          },
+          {
+            "key": "B",
+            "text": "作高线"
+          },
+          {
+            "key": "C",
+            "text": "截长补短"
+          },
+          {
+            "key": "D",
+            "text": "作角平分线"
+          }
+        ],
+        "explanation": "要证 a=b+c，可在长线段 a 上截取一段等于 b 证剩余等于 c（截长），或把 b 延长一段等于 c（补短），这就是截长补短。"
+      },
+      "after": {
+        "id": "cnm_130_q4",
+        "topicId": "cnm_130",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "在证明线段的和、差关系（如 a=b+c）时，常用的辅助线方法是：",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "倍长中线"
+          },
+          {
+            "key": "B",
+            "text": "作高线"
+          },
+          {
+            "key": "C",
+            "text": "截长补短"
+          },
+          {
+            "key": "D",
+            "text": "作角平分线"
+          }
+        ],
+        "explanation": "要证 a=b+c，可在长线段 a 上截取一段等于 b 证剩余等于 c（截长），或把 b 延长一段等于 c（补短），这就是截长补短。",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_130_q5",
+      "beforeHash": "94e5143591de9430ed45da0509639fae79632bd86452d2e8cb233d9ebf8d07e5",
+      "before": {
+        "id": "cnm_130_q5",
+        "topicId": "cnm_130",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "AD 是 △ABC 的中线，延长 AD 至 E 使 DE=AD，连接 CE。若 AB=7，求 CE 的长。",
+        "answer": "7",
+        "explanation": "BD=CD，∠ADB=∠EDC（对顶角），AD=ED，所以 △ABD≌△ECD（SAS），CE=AB=7。"
+      },
+      "after": {
+        "id": "cnm_130_q5",
+        "topicId": "cnm_130",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "AD 是 △ABC 的中线，延长 AD 至 E 使 DE=AD，连接 CE。若 AB=7，求 CE 的长。",
+        "answer": "7",
+        "explanation": "BD=CD，∠ADB=∠EDC（对顶角），AD=ED，所以 △ABD≌△ECD（SAS），CE=AB=7。",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_131_q5",
+      "beforeHash": "c89cf644152daa9cb74790969058d03b8e562dccda6a108f923885067f3a043e",
+      "before": {
+        "id": "cnm_131_q5",
+        "topicId": "cnm_131",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "下列图形：线段、等边三角形、平行四边形、圆、等腰梯形、正方形，其中是轴对称图形的有几个？（填数字）",
+        "answer": "5",
+        "explanation": "平行四边形（一般情形）不是轴对称图形，其余 5 个都是。",
+        "verify": "sum([1,1,0,1,1,1])"
+      },
+      "after": {
+        "id": "cnm_131_q5",
+        "topicId": "cnm_131",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "下列图形类别中，按其定义一定是轴对称图形的有几类：线段、等边三角形、平行四边形、圆、等腰梯形、正方形？（填数字）",
+        "answer": "5",
+        "explanation": "其余五类一定轴对称；平行四边形中的矩形、菱形等可以轴对称，但并非所有平行四边形都轴对称，所以“一定”成立的有5类。",
+        "verify": "sum([1,1,0,1,1,1])"
+      }
+    },
+    {
+      "id": "cnm_132_q1",
+      "beforeHash": "56818a3491e0dd55f14794b60bf47f8c644534dcd918f26550215855bdfa4c72",
+      "before": {
+        "id": "cnm_132_q1",
+        "topicId": "cnm_132",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "A、A′ 关于直线 l 对称，l 与 AA′ 的关系？",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "l 平行于 AA′"
+          },
+          {
+            "key": "B",
+            "text": "l 垂直于 AA′，但不一定平分它"
+          },
+          {
+            "key": "C",
+            "text": "l 垂直平分 AA′"
+          },
+          {
+            "key": "D",
+            "text": "l 与 AA′ 互相平分，但不一定垂直"
+          }
+        ],
+        "explanation": "成轴对称的两点，对称轴垂直平分它们的连线。"
+      },
+      "after": {
+        "id": "cnm_132_q1",
+        "topicId": "cnm_132",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "A、A′ 关于直线 l 对称，l 与 AA′ 的关系？（A不在直线l上。）",
+        "answer": "C",
+        "choices": [
+          {
+            "key": "A",
+            "text": "l 平行于 AA′"
+          },
+          {
+            "key": "B",
+            "text": "l 垂直于 AA′，但不一定平分它"
+          },
+          {
+            "key": "C",
+            "text": "l 垂直平分 AA′"
+          },
+          {
+            "key": "D",
+            "text": "l 与 AA′ 互相平分，但不一定垂直"
+          }
+        ],
+        "explanation": "成轴对称的两点，对称轴垂直平分它们的连线。"
+      }
+    },
+    {
+      "id": "cnm_117_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_117_q6",
+        "topicId": "cnm_117",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画△ABC，延长BC到D（B、C、D依次共线）。标出∠ACD对应的相邻内角及两个不相邻内角，并用内角和推导外角性质。",
+        "answer": "相邻内角为∠ACB，不相邻内角为∠A、∠B。∠ACD=180°−∠ACB=∠A+∠B；因为三角形内角为正，外角大于其中任一不相邻内角。",
+        "explanation": "相邻内角为∠ACB，不相邻内角为∠A、∠B。∠ACD=180°−∠ACB=∠A+∠B；因为三角形内角为正，外角大于其中任一不相邻内角。",
+        "rubric": [
+          "实际画出延长方向并标角",
+          "写出邻补及内角和两条关系",
+          "导出外角等于两内角之和并说明严格大于"
+        ]
+      }
+    },
+    {
+      "id": "cnm_118_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_118_q6",
+        "topicId": "cnm_118",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "写一份证明：在△ABC每个顶点取一个与内角相邻的外角，三个外角之和为360°。必须分别写已知、求证与证明，并标明每步依据。",
+        "answer": "已知：△ABC及三个相邻外角α、β、γ。求证α+β+γ=360°。证明：三个邻补关系相加得α+β+γ+∠A+∠B+∠C=540°；内角和为180°，相减得外角和360°。",
+        "explanation": "已知：△ABC及三个相邻外角α、β、γ。求证α+β+γ=360°。证明：三个邻补关系相加得α+β+γ+∠A+∠B+∠C=540°；内角和为180°，相减得外角和360°。",
+        "rubric": [
+          "已知、求证区分且明确每顶点一个外角",
+          "列三组邻补关系并相加",
+          "引用内角和定理消去180°",
+          "不用测量代替证明"
+        ]
+      }
+    },
+    {
+      "id": "cnm_120_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_120_q5",
+        "topicId": "cnm_120",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上画两个可重合的三角形，并用不同字母命名。指定第一图的A、B、C依次对应第二图的E、F、D；写全等式，列出三组对应边与∠B的对应角。",
+        "answer": "△ABC≌△EFD；AB↔EF、BC↔FD、AC↔ED；∠B↔∠F。必须按指定映射书写，而不是按图上左右顺序猜测。",
+        "explanation": "△ABC≌△EFD；AB↔EF、BC↔FD、AC↔ED；∠B↔∠F。必须按指定映射书写，而不是按图上左右顺序猜测。",
+        "rubric": [
+          "实际画图并标对应顶点",
+          "全等式按EFD排列",
+          "列全三组边和∠F"
+        ]
+      }
+    },
+    {
+      "id": "cnm_122_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_122_q6",
+        "topicId": "cnm_122",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在凸四边形ABCD中，AB=CD、BC=DA。画对角线AC，按对应顺序证明△ABC≌△CDA，再推出∠B=∠D。",
+        "answer": "AB=CD、BC=DA为已知，AC=CA为公共边；三边对应相等，△ABC≌△CDA（SSS），所以对应角∠ABC=∠CDA。",
+        "explanation": "AB=CD、BC=DA为已知，AC=CA为公共边；三边对应相等，△ABC≌△CDA（SSS），所以对应角∠ABC=∠CDA。",
+        "rubric": [
+          "画出AC并列公共边",
+          "三组边按一致对应排列",
+          "使用SSS得到全等",
+          "再由性质推出对应角相等"
+        ]
+      }
+    },
+    {
+      "id": "cnm_123_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_123_q6",
+        "topicId": "cnm_123",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "线段AC、BD交于各自内部点O，OA=OC、OB=OD。画图并证明AB=CD，明确SAS所用的夹角。",
+        "answer": "∠AOB=∠COD为对顶角，且OA=OC、OB=OD；△AOB≌△COD（SAS），故AB=CD。",
+        "explanation": "∠AOB=∠COD为对顶角，且OA=OC、OB=OD；△AOB≌△COD（SAS），故AB=CD。",
+        "rubric": [
+          "图中A、O、C及B、O、D的顺序正确",
+          "使用两边之间的对顶角",
+          "正确列全等顺序并推出对应边相等"
+        ]
+      }
+    },
+    {
+      "id": "cnm_124_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_124_q6",
+        "topicId": "cnm_124",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "已知∠A=∠D、∠B=∠E、BC=EF。用三角形内角和与ASA证明△ABC≌△DEF，说明如何得到AAS。",
+        "answer": "∠C=180°−∠A−∠B=180°−∠D−∠E=∠F；于是∠B=∠E、BC=EF、∠C=∠F，两角及夹边对应相等，由ASA得全等。这证明了给定AAS条件的结论。",
+        "explanation": "∠C=180°−∠A−∠B=180°−∠D−∠E=∠F；于是∠B=∠E、BC=EF、∠C=∠F，两角及夹边对应相等，由ASA得全等。这证明了给定AAS条件的结论。",
+        "rubric": [
+          "用角和得到第三角相等",
+          "选择BC、EF两端角作为ASA",
+          "边与角顺序对应，说明AAS由此成立"
+        ]
+      }
+    },
+    {
+      "id": "cnm_126_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_126_q6",
+        "topicId": "cnm_126",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在△ABC中AB=AC，D为BC中点。自行画图，完整证明AD⊥BC；写清全等条件、对应角关系及最后的直角结论。",
+        "answer": "AB=AC，BD=CD，AD公共，所以△ABD≌△ACD（SSS）；∠ADB=∠ADC，二者又为邻补角，因此均90°，AD⊥BC。",
+        "explanation": "AB=AC，BD=CD，AD公共，所以△ABD≌△ACD（SSS）；∠ADB=∠ADC，二者又为邻补角，因此均90°，AD⊥BC。",
+        "rubric": [
+          "列三组SSS条件并画D位置",
+          "全等式对应准确",
+          "从全等推出两个角相等",
+          "结合共线邻补推出垂直"
+        ]
+      }
+    },
+    {
+      "id": "cnm_127_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_127_q5",
+        "topicId": "cnm_127",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在纸上自画一个非退化锐角∠AOB，用圆规和无刻度直尺分别复制这个角及作其角平分线。保留圆弧痕迹，用对应边标记或口头说明SSS原理；不要求书面写出作法。",
+        "answer": "复制角：以O为圆心画弧交两边于C、D；在新顶点用同半径取弧，再以弦长CD截得另一交点，连射线。平分角：以C、D为圆心用相同且大于CD/2的半径画弧，取角内且不同于O的交点P，连OP。分别由三组对应边相等得全等，推出所需角相等。",
+        "explanation": "复制角：以O为圆心画弧交两边于C、D；在新顶点用同半径取弧，再以弦长CD截得另一交点，连射线。平分角：以C、D为圆心用相同且大于CD/2的半径画弧，取角内且不同于O的交点P，连OP。分别由三组对应边相等得全等，推出所需角相等。",
+        "rubric": [
+          "两项作图均实际提交，保留圆弧而非量角器代作",
+          "复制角保持半径和弦长",
+          "平分角交点选择非O且在内部",
+          "每项说明三组边及角对应"
+        ]
+      }
+    },
+    {
+      "id": "cnm_128_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_128_q6",
+        "topicId": "cnm_128",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "在小于180°的角AOB内部的角平分线上取P，向两边所在直线作垂线PD、PE。画图并证明PD=PE，写清两个直角三角形的对应。",
+        "answer": "∠PDO=∠PEO=90°，∠DOP=∠POE，OP公共；△ODP≌△OEP（AAS），所以PD=PE。角平分线内点的垂足落在两边射线上。",
+        "explanation": "∠PDO=∠PEO=90°，∠DOP=∠POE，OP公共；△ODP≌△OEP（AAS），所以PD=PE。角平分线内点的垂足落在两边射线上。",
+        "rubric": [
+          "标垂足和直角",
+          "使用O处半角相等和公共斜边OP",
+          "AAS条件与对应顺序一致",
+          "以对应边相等结束"
+        ]
+      }
+    },
+    {
+      "id": "cnm_129_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_129_q6",
+        "topicId": "cnm_129",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "点P在非平角∠AOB内部，PD⊥OA于D、PE⊥OB于E，D、E在相应射线上且PD=PE。画图并证明OP平分∠AOB，说明“角内”条件的作用。",
+        "answer": "两直角三角形ODP、OEP有公共斜边OP且PD=PE，由HL全等，得∠DOP=∠POE。P在角内，故OP为内角平分线；若只说到两边所在直线等距，角外点也可能在外角平分线上。",
+        "explanation": "两直角三角形ODP、OEP有公共斜边OP且PD=PE，由HL全等，得∠DOP=∠POE。P在角内，故OP为内角平分线；若只说到两边所在直线等距，角外点也可能在外角平分线上。",
+        "rubric": [
+          "注明直角、公共斜边和等直角边",
+          "使用HL并推出对应角相等",
+          "利用角内保证内角平分而非忽略位置条件"
+        ]
+      }
+    },
+    {
+      "id": "cnm_130_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_130_q6",
+        "topicId": "cnm_130",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "AD为△ABC中线。画图并把AD延长到E，使DE=AD，连接CE。完整证明AB+AC>2AD，说明辅助线为何有用。",
+        "answer": "BD=CD、AD=ED，∠ADB=∠EDC，故△ABD≌△ECD（SAS），AB=CE。△ACE中AC+CE>AE=2AD，所以AB+AC>2AD；辅助线把两倍中线转为三角形一边。",
+        "explanation": "BD=CD、AD=ED，∠ADB=∠EDC，故△ABD≌△ECD（SAS），AB=CE。△ACE中AC+CE>AE=2AD，所以AB+AC>2AD；辅助线把两倍中线转为三角形一边。",
+        "rubric": [
+          "实际添加E与CE",
+          "证明SAS并推出AB=CE",
+          "把AE写为2AD",
+          "使用非退化三角形三边关系得到严格不等式"
+        ],
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_131_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_131_q6",
+        "topicId": "cnm_131",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画一个长宽不等的长方形，用折叠或描图验证并画出全部对称轴。再画两个关于一条直线成轴对称的非轴对称三角形，说明两种说法的区别。",
+        "answer": "长方形有过两组对边中点的两条对称轴，对角线一般不是。单个不等边三角形可无对称轴，但它与镜像组成的一对图形成轴对称。",
+        "explanation": "长方形有过两组对边中点的两条对称轴，对角线一般不是。单个不等边三角形可无对称轴，但它与镜像组成的一对图形成轴对称。",
+        "rubric": [
+          "实际画并验证两条轴而非对角线",
+          "构造非轴对称三角形及其镜像",
+          "区分单图形自身重合与两个图形互相重合"
+        ]
+      }
+    },
+    {
+      "id": "cnm_132_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_132_q5",
+        "topicId": "cnm_132",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "关于直线l反射，点A在l外，点B在l上。画A′、B′并说明：能否对BB′也说“作其垂直平分线就得到唯一的对称轴”？",
+        "answer": "A′在线段AA′被l垂直平分的位置；B′=B。BB′退化为同一点，不能把零长度线段的垂直平分线当作唯一轴；仅给这个固定点无法确定对称轴。",
+        "explanation": "A′在线段AA′被l垂直平分的位置；B′=B。BB′退化为同一点，不能把零长度线段的垂直平分线当作唯一轴；仅给这个固定点无法确定对称轴。",
+        "rubric": [
+          "画出轴外点的垂足与等距",
+          "轴上点像重合",
+          "明确非零线段条件和唯一轴的限制"
+        ]
+      }
+    },
+    {
+      "id": "cnm_133_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_133_q5",
+        "topicId": "cnm_133",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "设M是非零线段AB中点，l过M且垂直AB。证明l上点P满足PA=PB；反过来若PA=PB，如何证明P在l上？须处理P=M的情况。",
+        "answer": "正向P=M时显然；否则PM公共、MA=MB且两直角相等，由SAS得PA=PB。反向若P在AB所在直线上，等距只可能为中点M；若P不在线上，用PM公共、MA=MB、PA=PB由SSS得∠PMA=∠PMB，两角互补，故均90°，P在l上。",
+        "explanation": "正向P=M时显然；否则PM公共、MA=MB且两直角相等，由SAS得PA=PB。反向若P在AB所在直线上，等距只可能为中点M；若P不在线上，用PM公共、MA=MB、PA=PB由SSS得∠PMA=∠PMB，两角互补，故均90°，P在l上。",
+        "rubric": [
+          "正向区分P=M与非退化两三角形",
+          "反向另处置P在线上的退化情况",
+          "用SSS得中点处两角相等",
+          "结合邻补得垂直，而非只说看起来垂直"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_120",
+      "beforeHash": "fdf6295b5966b21c1253e1a467b2f9dded2725ef6348601293c79795860780f9",
+      "before": [
+        {
+          "topicId": "cnm_120",
+          "prerequisiteId": "cnm_p128",
+          "strength": "hard",
+          "reason": "学习「全等图形与全等三角形」需要先会小学的「平移」。全等与图形的变换相关。"
+        },
+        {
+          "topicId": "cnm_120",
+          "prerequisiteId": "cnm_110",
+          "strength": "hard",
+          "reason": "全等三角形是特殊的三角形，需要先理解三角形的概念和基本要素"
+        },
+        {
+          "topicId": "cnm_120",
+          "prerequisiteId": "cnm_072",
+          "strength": "soft",
+          "reason": "平移得到的图形全等"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_120",
+          "prerequisiteId": "cnm_p128",
+          "strength": "soft",
+          "reason": "平移可产生全等图形，是理解全等的一个例子；全等定义也可通过叠合、旋转或反射理解，不以小学平移为硬门槛。"
+        },
+        {
+          "topicId": "cnm_120",
+          "prerequisiteId": "cnm_110",
+          "strength": "hard",
+          "reason": "全等三角形是特殊的三角形，需要先理解三角形的概念和基本要素"
+        },
+        {
+          "topicId": "cnm_120",
+          "prerequisiteId": "cnm_072",
+          "strength": "soft",
+          "reason": "平移得到的图形全等"
+        }
+      ]
+    },
+    {
+      "id": "cnm_122",
+      "beforeHash": "0d56d09607aba63a7db6dc8c99dbfdf79845f9d2c320e540f5fa58318b47a039",
+      "before": [
+        {
+          "topicId": "cnm_122",
+          "prerequisiteId": "cnm_121",
+          "strength": "hard",
+          "reason": "需要性质说明判定意义"
+        },
+        {
+          "topicId": "cnm_122",
+          "prerequisiteId": "cnm_111",
+          "strength": "soft",
+          "reason": "三边确定三角形需三边关系成立"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_122",
+          "prerequisiteId": "cnm_121",
+          "strength": "soft",
+          "reason": "全等性质用于判定后的推论；理解SSS判定本身以全等定义为基础，不要求先熟练所有性质应用。"
+        },
+        {
+          "topicId": "cnm_122",
+          "prerequisiteId": "cnm_111",
+          "strength": "soft",
+          "reason": "三边确定三角形需三边关系成立"
+        }
+      ]
+    },
+    {
+      "id": "cnm_126",
+      "beforeHash": "fc3838feb0fcf217d5ec291ce8a77fbc80fcbd7234cba7a9a491ec1e72308e96",
+      "before": [
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_122",
+          "strength": "hard",
+          "reason": "综合运用全等判定时要会用边边边判定，需要先掌握SSS"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_123",
+          "strength": "hard",
+          "reason": "综合运用全等判定时要会用边角边判定，需要先掌握SAS"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_124",
+          "strength": "hard",
+          "reason": "综合运用全等判定时要会用ASA和AAS，需要先掌握这两个判定"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_125",
+          "strength": "hard",
+          "reason": "综合运用全等判定时要会用斜边、直角边判定，需要先掌握HL"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_118",
+          "strength": "hard",
+          "reason": "综合运用全等判定时要规范书写证明过程，需要先掌握几何证明的基本格式"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_122",
+          "strength": "soft",
+          "reason": "这是综合证明可选的判定工具之一；不同任务所需方法不同，不能把全部判定同时掌握作为进入任一综合题的硬门槛。引擎暂不支持方法OR组，按题目证据解释。"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_123",
+          "strength": "soft",
+          "reason": "这是综合证明可选的判定工具之一；不同任务所需方法不同，不能把全部判定同时掌握作为进入任一综合题的硬门槛。引擎暂不支持方法OR组，按题目证据解释。"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_124",
+          "strength": "soft",
+          "reason": "这是综合证明可选的判定工具之一；不同任务所需方法不同，不能把全部判定同时掌握作为进入任一综合题的硬门槛。引擎暂不支持方法OR组，按题目证据解释。"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_125",
+          "strength": "soft",
+          "reason": "这是综合证明可选的判定工具之一；不同任务所需方法不同，不能把全部判定同时掌握作为进入任一综合题的硬门槛。引擎暂不支持方法OR组，按题目证据解释。"
+        },
+        {
+          "topicId": "cnm_126",
+          "prerequisiteId": "cnm_118",
+          "strength": "hard",
+          "reason": "综合运用全等判定时要规范书写证明过程，需要先掌握几何证明的基本格式"
+        }
+      ]
+    },
+    {
+      "id": "cnm_129",
+      "beforeHash": "ef4f1ebaae7e99e538d2749b818dda5262656c7b2c7bf32c24531e0df59984dc",
+      "before": [
+        {
+          "topicId": "cnm_129",
+          "prerequisiteId": "cnm_128",
+          "strength": "hard",
+          "reason": "角平分线的判定是角平分线性质的逆命题，需要先理解性质"
+        },
+        {
+          "topicId": "cnm_129",
+          "prerequisiteId": "cnm_125",
+          "strength": "hard",
+          "reason": "角平分线判定的证明要用斜边、直角边（HL）判定两个直角三角形全等"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_129",
+          "prerequisiteId": "cnm_128",
+          "strength": "soft",
+          "reason": "性质与判定互为逆向命题可作对照；判定可由HL独立证明，不须把性质应用熟练度设为硬前提。"
+        },
+        {
+          "topicId": "cnm_129",
+          "prerequisiteId": "cnm_125",
+          "strength": "hard",
+          "reason": "角平分线判定的证明要用斜边、直角边（HL）判定两个直角三角形全等"
+        }
+      ]
+    },
+    {
+      "id": "cnm_133",
+      "beforeHash": "203790a91e522edbc1ff179c8237701ad0afe2dffaae4a82ba48ff4cc20a6177",
+      "before": [
+        {
+          "topicId": "cnm_133",
+          "prerequisiteId": "cnm_132",
+          "strength": "hard",
+          "reason": "线段垂直平分线是线段的对称轴，需要先掌握轴对称的性质"
+        },
+        {
+          "topicId": "cnm_133",
+          "prerequisiteId": "cnm_126",
+          "strength": "hard",
+          "reason": "线段垂直平分线性质的证明要用全等三角形，需要先会综合运用全等判定"
+        },
+        {
+          "topicId": "cnm_133",
+          "prerequisiteId": "cnm_055",
+          "strength": "hard",
+          "reason": "垂直平分线经过线段的中点，需要先理解线段的中点"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_133",
+          "prerequisiteId": "cnm_132",
+          "strength": "hard",
+          "reason": "线段垂直平分线是线段的对称轴，需要先掌握轴对称的性质"
+        },
+        {
+          "topicId": "cnm_133",
+          "prerequisiteId": "cnm_126",
+          "strength": "soft",
+          "reason": "可用具体SAS或SSS直接证明，不要求先掌握全部综合全等方法。"
+        },
+        {
+          "topicId": "cnm_133",
+          "prerequisiteId": "cnm_055",
+          "strength": "hard",
+          "reason": "垂直平分线经过线段的中点，需要先理解线段的中点"
+        }
+      ]
+    }
+  ]
+}

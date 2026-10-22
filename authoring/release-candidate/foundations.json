@@ -1,0 +1,774 @@
+{
+  "batch": "release-candidate-foundations",
+  "baseCommit": "ff249ea635a2896a0d8eb07d9e6db736d09d07e3",
+  "topics": [
+    {
+      "id": "cnm_006",
+      "beforeHash": "9749139ede60ad05153acb10dc4e407236220ebcda689eff08d6ee5c952fd6fd",
+      "before": {
+        "id": "cnm_006",
+        "name": "相反数",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.3",
+        "type": "conceptual",
+        "description": "只有符号不同的两个数互为相反数，在数轴上位于原点两侧且到原点距离相等，0 的相反数是 0。",
+        "mastery_criteria": [
+          "能求一个数的相反数",
+          "理解 -(-a)=a 的含义"
+        ],
+        "diagnostic_question": {
+          "question": "求 -7 和 3/4 的相反数，并化简 -(-5)。",
+          "answer": "7；-3/4；5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.02",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_006",
+        "name": "相反数",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第一章 有理数 1.2.3",
+        "type": "conceptual",
+        "description": "互为相反数的两数之和为0。非零数与它的相反数在数轴上分居原点两侧，到原点距离相等；0的相反数是0。",
+        "mastery_criteria": [
+          "能求一个数的相反数",
+          "理解 -(-a)=a 的含义"
+        ],
+        "diagnostic_question": {
+          "question": "求 -7 和 3/4 的相反数，并化简 -(-5)。",
+          "answer": "7；-3/4；5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.02",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_019",
+      "beforeHash": "90baab70a63093508f2eb26056acd94d5c4df3603cbce4d23c4a38eff2fc4d4b",
+      "before": {
+        "id": "cnm_019",
+        "name": "乘方的概念",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.3.1",
+        "type": "conceptual",
+        "description": "求 n 个相同因数 a 的积的运算叫乘方，认识底数、指数、幂，注意 (-2)² 与 -2² 的区别。",
+        "mastery_criteria": [
+          "能指出幂的底数与指数",
+          "能区分 (-2)^2 与 -2^2"
+        ],
+        "diagnostic_question": {
+          "question": "写出 (-3)³ 与 -3³ 的含义并计算。",
+          "answer": "(-3)³=-27；-3³=-27"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.03",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_019",
+        "name": "乘方的概念",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.3.1",
+        "type": "conceptual",
+        "description": "当n为正整数时，求n个相同因数a的积叫乘方，a是底数，n是指数。区分(−2)²与−2²：前者底数为−2，后者是2²的相反数。",
+        "mastery_criteria": [
+          "能指出幂的底数与指数",
+          "能区分 (-2)^2 与 -2^2"
+        ],
+        "diagnostic_question": {
+          "question": "写出 (-3)³ 与 -3³ 的含义并计算。",
+          "answer": "(-3)³=-27；-3³=-27"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.03",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_026",
+      "beforeHash": "4751ee6231390b93bf8b4204aeea77f1d17c0e8554cee1faacaac81fcdb37e2b",
+      "before": {
+        "id": "cnm_026",
+        "name": "代数式的概念与书写规范",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第三章 代数式 3.1",
+        "type": "conceptual",
+        "description": "用运算符号把数或字母连接而成的式子叫代数式，掌握省略乘号、分数线书写等规范。",
+        "mastery_criteria": [
+          "能判断一个式子是否是代数式",
+          "能规范书写代数式"
+        ],
+        "diagnostic_question": {
+          "question": "把“a 与 b 的积的 3 倍”写成规范的代数式。",
+          "answer": "3ab"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.14",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_026",
+        "name": "代数式的概念与书写规范",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第三章 代数式 3.1",
+        "type": "conceptual",
+        "description": "用运算符号把数或表示数的字母连接而成的式子叫代数式，单独一个数或一个字母也是代数式。掌握省略乘号、用分数线表示除法等书写规范。",
+        "mastery_criteria": [
+          "能判断一个式子是否是代数式",
+          "能规范书写代数式"
+        ],
+        "diagnostic_question": {
+          "question": "把“a 与 b 的积的 3 倍”写成规范的代数式。",
+          "answer": "3ab"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.14",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_031",
+      "beforeHash": "8ed7405bbb656d1487d650c603d5bf5b90ff5427597fb0f35050aa76c26d2456",
+      "before": {
+        "id": "cnm_031",
+        "name": "单项式",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第四章 整式的加减 4.1",
+        "type": "conceptual",
+        "description": "由数与字母的积组成的代数式叫单项式，认识系数与次数。",
+        "mastery_criteria": [
+          "能判断是否为单项式",
+          "能指出系数和次数"
+        ],
+        "diagnostic_question": {
+          "question": "指出 -3x²y 的系数和次数。",
+          "answer": "系数 -3，次数 3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.18",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_031",
+        "name": "单项式",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第四章 整式的加减 4.1",
+        "type": "conceptual",
+        "description": "数与字母的积构成单项式，其中字母指数为非负整数；单独一个数或字母也是单项式。数字因数是系数，字母指数之和是次数；非零常数次数为0，零的次数不在本节点要求内。",
+        "mastery_criteria": [
+          "能判断是否为单项式",
+          "能指出系数和次数"
+        ],
+        "diagnostic_question": {
+          "question": "指出 -3x²y 的系数和次数。",
+          "answer": "系数 -3，次数 3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.18",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_040",
+      "beforeHash": "684ebb0def7bbb2dc80f0dfda77a580fa9613baf651a1232bd12892fecd2b71f",
+      "before": {
+        "id": "cnm_040",
+        "name": "等式的性质",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.1.2",
+        "type": "conceptual",
+        "description": "等式两边同加（减）同一个数或式，或同乘（除以）同一个不为 0 的数，等式仍成立。",
+        "mastery_criteria": [
+          "能说出等式的性质",
+          "能用性质变形方程"
+        ],
+        "diagnostic_question": {
+          "question": "由 2x=6 如何得到 x=3？",
+          "answer": "两边同除以 2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_040",
+        "name": "等式的性质",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.1.2",
+        "type": "conceptual",
+        "description": "等式两边同加或同减同一个数（或有定义的式），或同乘同一个数，等式仍成立；同除必须除以非零数。解方程的等价变形中不能通过乘0或除0丢失原方程条件。",
+        "mastery_criteria": [
+          "能说出等式的性质",
+          "能用性质变形方程"
+        ],
+        "diagnostic_question": {
+          "question": "由 2x=6 如何得到 x=3？",
+          "answer": "两边同除以 2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_041",
+      "beforeHash": "3ec97752ffed88764fe3ebe589ed6e8b2b246448ae440ae84a27aec623bd01f6",
+      "before": {
+        "id": "cnm_041",
+        "name": "一元一次方程的概念",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.1.2",
+        "type": "conceptual",
+        "description": "只含一个未知数、未知数的次数为 1 且等号两边都是整式的方程叫一元一次方程。",
+        "mastery_criteria": [
+          "能判断一元一次方程",
+          "能说出标准形式 ax+b=0"
+        ],
+        "diagnostic_question": {
+          "question": "x²-1=0 是一元一次方程吗？",
+          "answer": "不是，未知数次数为 2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "inferred",
+            "note": "一元一次方程的概念是“能解一元一次方程”的前提，课标未单列"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_041",
+        "name": "一元一次方程的概念",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.1.2",
+        "type": "conceptual",
+        "description": "可化为ax+b=0（a、b为常数且a≠0）的整式方程是一元一次方程；只含一个未知数，化简后未知数的最高次数为1。",
+        "mastery_criteria": [
+          "能判断一元一次方程",
+          "能说出标准形式ax+b=0及a≠0的条件"
+        ],
+        "diagnostic_question": {
+          "question": "x²-1=0 是一元一次方程吗？",
+          "answer": "不是，未知数次数为 2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "inferred",
+            "note": "一元一次方程的概念是“能解一元一次方程”的前提，课标未单列"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_003_q1",
+      "beforeHash": "3d27f836f776f61ccd0024d283527ead975486d68ec64634f82a177e7ab402d8",
+      "before": {
+        "id": "cnm_003_q1",
+        "topicId": "cnm_003",
+        "difficulty": "basic",
+        "type": "self",
+        "prompt": "把 -2，0，3.5，-1/3，7 按正数、0、负数分类。（分三类写出每类包含的数）",
+        "answer": "正数：3.5，7；0：0；负数：-2，-1/3",
+        "explanation": "大于 0 的是正数：3.5，7；等于 0 的是 0；小于 0 的是负数：-2，-1/3。"
+      },
+      "after": {
+        "id": "cnm_003_q1",
+        "topicId": "cnm_003",
+        "difficulty": "basic",
+        "type": "self",
+        "prompt": "把 -2，0，3.5，-1/3，7 按正数、0、负数分类。（分三类写出每类包含的数）",
+        "answer": "正数：3.5，7；0：0；负数：-2，-1/3",
+        "explanation": "大于 0 的是正数：3.5，7；等于 0 的是 0；小于 0 的是负数：-2，-1/3。",
+        "rubric": [
+          "正数列出3.5、7",
+          "零单独成类",
+          "负数列出−2、−1/3，且无遗漏重复"
+        ]
+      }
+    },
+    {
+      "id": "cnm_003_q2",
+      "beforeHash": "cc0586d121246ac164112d8105f371d95462cb402cd910391370d72072be2e33",
+      "before": {
+        "id": "cnm_003_q2",
+        "topicId": "cnm_003",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各数中，不是有理数的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "π"
+          },
+          {
+            "key": "B",
+            "text": "-4"
+          },
+          {
+            "key": "C",
+            "text": "0"
+          },
+          {
+            "key": "D",
+            "text": "2.5"
+          }
+        ],
+        "answer": "A",
+        "explanation": "有理数包括整数和分数（有限小数、无限循环小数），π 是无限不循环小数，不是有理数。"
+      },
+      "after": {
+        "id": "cnm_003_q2",
+        "topicId": "cnm_003",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各数中，属于分数（不是整数）的是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2.5"
+          },
+          {
+            "key": "B",
+            "text": "-4"
+          },
+          {
+            "key": "C",
+            "text": "0"
+          },
+          {
+            "key": "D",
+            "text": "2"
+          }
+        ],
+        "answer": "A",
+        "explanation": "2.5=5/2，不是整数；−4、0、2都是整数。这些数都属于有理数。",
+        "fixed_from_source": "release-candidate: 题面任务修订，旧作答与核验结论不继承"
+      }
+    },
+    {
+      "id": "cnm_006_q2",
+      "beforeHash": "53eba441b783b68f34491e5b2b0ab512439e3a19df12a59c3e07653c63de80b9",
+      "before": {
+        "id": "cnm_006_q2",
+        "topicId": "cnm_006",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各组数中，互为相反数的是哪一组？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2 与 1/2"
+          },
+          {
+            "key": "B",
+            "text": "-3 与 1/3"
+          },
+          {
+            "key": "C",
+            "text": "-(-4) 与 4"
+          },
+          {
+            "key": "D",
+            "text": "0.5 与 -1/2"
+          }
+        ],
+        "answer": "D",
+        "explanation": "互为相反数要求只有符号不同。0.5 与 -1/2 绝对值相同符号相反；2 与 1/2、-3 与 1/3 是倒数关系或既非相反也非倒数；-(-4)=4，两数相等。"
+      },
+      "after": {
+        "id": "cnm_006_q2",
+        "topicId": "cnm_006",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各组数中，互为相反数的是哪一组？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2 与 1/2"
+          },
+          {
+            "key": "B",
+            "text": "-3 与 1/3"
+          },
+          {
+            "key": "C",
+            "text": "-(-4) 与 4"
+          },
+          {
+            "key": "D",
+            "text": "0.5 与 -1/2"
+          }
+        ],
+        "answer": "D",
+        "explanation": "0.5与−1/2互为相反数。2与1/2互为倒数；−3与1/3既不互为相反数，也不互为倒数；−(−4)=4，两数相等。"
+      }
+    },
+    {
+      "id": "cnm_019_q1",
+      "beforeHash": "cc836ad52643d08e9e8f2aed50f9fb202fab6281dcf740a10707195710587e69",
+      "before": {
+        "id": "cnm_019_q1",
+        "topicId": "cnm_019",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "写出 (-3)³ 与 -3³ 的含义并计算。（只需依次写出两个式子的值，用逗号隔开）",
+        "answer": "-27，-27",
+        "explanation": "(-3)³ 表示 3 个 (-3) 相乘，=(-3)×(-3)×(-3)=-27；-3³ 表示 3³ 的相反数，=-(3×3×3)=-27。",
+        "verify": "[(-3)**3, -(3**3)]"
+      },
+      "after": {
+        "id": "cnm_019_q1",
+        "topicId": "cnm_019",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "计算 (−3)³ 与 −3³。（依次写出两个值，用逗号隔开）",
+        "answer": "-27，-27",
+        "explanation": "(-3)³ 表示 3 个 (-3) 相乘，=(-3)×(-3)×(-3)=-27；-3³ 表示 3³ 的相反数，=-(3×3×3)=-27。",
+        "verify": "[(-3)**3, -(3**3)]",
+        "fixed_from_source": "release-candidate: 题面任务修订，旧作答与核验结论不继承"
+      }
+    },
+    {
+      "id": "cnm_028_q1",
+      "beforeHash": "2f8db14c7d830f5c02fcc85eb6c66b942ce59d4190955421b7f285276b82663a",
+      "before": {
+        "id": "cnm_028_q1",
+        "topicId": "cnm_028",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "说明 100-5t 在“用水量问题”里可能的含义。",
+        "answer": "如：水箱原有 100 L 水，每分钟流出 5 L，t 分钟后剩余的水量（L）。",
+        "explanation": "100 是原有水量，5t 是 t 分钟共流出的水量（每分钟 5 L），两者相减就是剩余水量。"
+      },
+      "after": {
+        "id": "cnm_028_q1",
+        "topicId": "cnm_028",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "为100−5t编一个用水情境，说明各项及单位，并给出这个情境中t的取值范围。",
+        "answer": "水箱原有100 L水，每分钟匀速流出5 L，且没有补水；t分钟后剩余(100−5t) L。这里0≤t≤20。",
+        "explanation": "100是初始水量，5t是已流出水量；水放完后不能继续用此式表示剩余水量。",
+        "rubric": [
+          "情境说明初始100与每单位时间减少5",
+          "解释5t与100−5t的含义及一致单位",
+          "在示例情境给出0≤t≤20；其他合理同类情境按自身单位核对"
+        ],
+        "fixed_from_source": "release-candidate: 题面任务修订，旧作答与核验结论不继承"
+      }
+    },
+    {
+      "id": "cnm_008_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_008_q5",
+        "topicId": "cnm_008",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "分别求满足 |x|=0 和 |x|=−2 的实数x，并解释解的个数。",
+        "answer": "|x|=0只有x=0一个解；|x|=−2无解，因为绝对值非负。",
+        "explanation": "|x|=0只有x=0一个解；|x|=−2无解，因为绝对值非负。",
+        "rubric": [
+          "零的绝对值为零，且只有零满足",
+          "指出绝对值非负，负的右端无解"
+        ]
+      }
+    },
+    {
+      "id": "cnm_009_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_009_q5",
+        "topicId": "cnm_009",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "读数轴，按从小到大排列A、B、C表示的数，并说明−3与−1谁大及判断依据。",
+        "answer": "−3<−1<2；−1大于−3，因为数轴上右边的数较大。",
+        "explanation": "−3<−1<2；−1大于−3，因为数轴上右边的数较大。",
+        "rubric": [
+          "正确对应A=−3、B=−1、C=2",
+          "按数轴从左到右排列",
+          "以位置解释两个负数的比较"
+        ],
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 100\" role=\"img\" aria-label=\"数轴：从左至右为A在负3，B在负1，原点0，C在2\"><path d=\"M30 50H410l-8-5m8 5-8 5\" fill=\"none\" stroke=\"currentColor\"/><path d=\"M70 45v10\" stroke=\"currentColor\"/><text x=\"70\" y=\"78\" text-anchor=\"middle\" fill=\"currentColor\">−3</text><text x=\"70\" y=\"30\" text-anchor=\"middle\" fill=\"currentColor\">A</text><path d=\"M170 45v10\" stroke=\"currentColor\"/><text x=\"170\" y=\"78\" text-anchor=\"middle\" fill=\"currentColor\">−1</text><text x=\"170\" y=\"30\" text-anchor=\"middle\" fill=\"currentColor\">B</text><path d=\"M220 45v10\" stroke=\"currentColor\"/><text x=\"220\" y=\"78\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"220\" y=\"30\" text-anchor=\"middle\" fill=\"currentColor\"></text><path d=\"M320 45v10\" stroke=\"currentColor\"/><text x=\"320\" y=\"78\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"320\" y=\"30\" text-anchor=\"middle\" fill=\"currentColor\">C</text></svg>"
+      }
+    },
+    {
+      "id": "cnm_011_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_011_q5",
+        "topicId": "cnm_011",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用交换律和结合律简算 (−7)+12+(−3)+8，写出重组过程并标明使用的运算律。",
+        "answer": "交换12和−3的位置，再结合为[(−7)+(−3)]+(12+8)=−10+20=10。",
+        "explanation": "交换12和−3的位置，再结合为[(−7)+(−3)]+(12+8)=−10+20=10。",
+        "rubric": [
+          "重排加数时保留各自符号",
+          "展示结合分组",
+          "指出交换律与结合律并得10"
+        ]
+      }
+    },
+    {
+      "id": "cnm_015_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_015_q6",
+        "topicId": "cnm_015",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用分配律计算 (−12)×(1/2−2/3+1/4)，写出展开后的每一项。",
+        "answer": "(−12)×1/2+(−12)×(−2/3)+(−12)×1/4=−6+8−3=−1。",
+        "explanation": "(−12)×1/2+(−12)×(−2/3)+(−12)×1/4=−6+8−3=−1。",
+        "rubric": [
+          "乘遍括号内三项",
+          "第二项为正8",
+          "总和为−1"
+        ]
+      }
+    },
+    {
+      "id": "cnm_016_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_016_q6",
+        "topicId": "cnm_016",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "为什么0没有倒数？能否把0本身当作它的倒数？用乘积说明。",
+        "answer": "倒数要求两数乘积为1；0乘任何数都为0，所以0没有倒数，0也不是它自己的倒数。",
+        "explanation": "倒数要求两数乘积为1；0乘任何数都为0，所以0没有倒数，0也不是它自己的倒数。",
+        "rubric": [
+          "明确倒数的乘积条件为1",
+          "使用0乘任何数等于0说明不可能"
+        ]
+      }
+    },
+    {
+      "id": "cnm_019_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_019_q6",
+        "topicId": "cnm_019",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "把 (−3)² 与 −3² 分别写成乘积或乘积的相反数，再计算；说明括号的作用。",
+        "answer": "(−3)²=(−3)×(−3)=9；−3²=−(3×3)=−9。括号使−3整体作为底数。",
+        "explanation": "(−3)²=(−3)×(−3)=9；−3²=−(3×3)=−9。括号使−3整体作为底数。",
+        "rubric": [
+          "展开为两个负3相乘与3的平方的相反数",
+          "分别得9与−9",
+          "说明负号是否包含在底数中"
+        ]
+      }
+    },
+    {
+      "id": "cnm_034_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_034_q5",
+        "topicId": "cnm_034",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用分配律说明5x²−3x²为什么等于2x²，能否把最后的+x也合入成为3x²？",
+        "answer": "5x²−3x²=(5−3)x²=2x²；x与x²不是同类项，2x²+x不能合为3x²。",
+        "explanation": "5x²−3x²=(5−3)x²=2x²；x与x²不是同类项，2x²+x不能合为3x²。",
+        "rubric": [
+          "写出反向分配律(5−3)x²",
+          "系数相加、字母指数不变",
+          "指出x与x²不同类"
+        ]
+      }
+    },
+    {
+      "id": "cnm_037_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_037_q5",
+        "topicId": "cnm_037",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "先化简2(a²−ab)−(a²−2ab)，再代入a=−1、b=2。展示化简式和代入过程。",
+        "answer": "2a²−2ab−a²+2ab=a²，代入得(−1)²=1。",
+        "explanation": "2a²−2ab−a²+2ab=a²，代入得(−1)²=1。",
+        "rubric": [
+          "正确去括号，特别是−(a²−2ab)",
+          "合并为a²",
+          "代入负数时加括号并得1"
+        ]
+      }
+    },
+    {
+      "id": "cnm_038_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_038_q5",
+        "topicId": "cnm_038",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "长方形的长为(a+2) cm、宽为a cm。写出a的合理范围，列出并化简周长表达式，解释其含义。",
+        "answer": "a>0；周长2[(a+2)+a]=4a+4 cm，表示四条边长度之和。",
+        "explanation": "a>0；周长2[(a+2)+a]=4a+4 cm，表示四条边长度之和。",
+        "rubric": [
+          "a>0使两边长为正",
+          "列出两长两宽或等价式",
+          "化简为4a+4并解释周长与单位"
+        ]
+      }
+    },
+    {
+      "id": "cnm_040_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_040_q5",
+        "topicId": "cnm_040",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "由x=3两边同乘0得到0=0，这个等式成立吗？能否反过来说满足0=0的每个x都满足x=3？解释。",
+        "answer": "0=0成立，但不能反推x=3；0=0对任何x成立，例如x=4不满足原方程。乘0保持等式成立，却可能扩大解集。",
+        "explanation": "0=0成立，但不能反推x=3；0=0对任何x成立，例如x=4不满足原方程。乘0保持等式成立，却可能扩大解集。",
+        "rubric": [
+          "承认同乘0后等式仍成立",
+          "用反例或解集说明不能等价返回",
+          "区分保持相等与保持相同解集"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_009",
+      "beforeHash": "46a938d1d7cd35bd7e0386e83760559e62a40e42785d5456071ad13d652a8b0b",
+      "before": [
+        {
+          "topicId": "cnm_009",
+          "prerequisiteId": "cnm_008",
+          "strength": "hard",
+          "reason": "两个负数比较需比绝对值"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_009",
+          "prerequisiteId": "cnm_008",
+          "strength": "soft",
+          "reason": "比较负数可用绝对值法，也可直接按数轴位置；绝对值化简不是唯一前提。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_026",
+      "beforeHash": "4b7c0a6cfa0dc825a4ee2e850ef3c2c1e8d4598cd39ecc500610d38151cbf7d8",
+      "before": [
+        {
+          "topicId": "cnm_026",
+          "prerequisiteId": "cnm_025",
+          "strength": "hard",
+          "reason": "代数式以字母表示数为基础"
+        },
+        {
+          "topicId": "cnm_026",
+          "prerequisiteId": "cnm_018",
+          "strength": "hard",
+          "reason": "由运算符号连接而成"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_026",
+          "prerequisiteId": "cnm_025",
+          "strength": "hard",
+          "reason": "代数式以字母表示数为基础"
+        },
+        {
+          "topicId": "cnm_026",
+          "prerequisiteId": "cnm_018",
+          "strength": "soft",
+          "reason": "代数式书写需理解所用运算符号，不要求先熟练完成整套有理数混合运算。"
+        }
+      ]
+    }
+  ]
+}
