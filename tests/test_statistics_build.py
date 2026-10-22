@@ -40,5 +40,8 @@ class StatisticsBuildTests(unittest.TestCase):
   release=json.loads((ROOT/'data/statistics-release.json').read_text());self.assertFalse(release['expertReviewed'])
   rows=json.loads((ROOT/'reviews/math-junior/batch-b/node-review.json').read_text());self.assertEqual(len(rows),45)
   decisions=json.loads((ROOT/'reviews/math-junior/statistics/decisions.json').read_text());self.assertTrue(all(x['decision']=='accept' for x in decisions['cards']))
-  for name,sha in release['files'].items():self.assertEqual(hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest(),sha)
+  current=ROOT/'data/current-release.json'
+  lock=json.loads(current.read_text()) if current.exists() else release
+  build(ROOT,True)  # Historical statistics objects must still match their canonical patch.
+  for name,sha in lock['files'].items():self.assertEqual(hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest(),sha)
 if __name__=='__main__':unittest.main()

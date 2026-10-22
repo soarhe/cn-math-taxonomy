@@ -1,0 +1,152 @@
+[
+  {
+    "topicId": "cnm_p121",
+    "prerequisiteId": "cnm_p119",
+    "strength": "soft",
+    "reason": "比较小数可辅助检验近似结果，但按数位四舍五入不必先完成小数排序任务。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "比较小数可辅助检验近似结果，但按数位四舍五入不必先完成小数排序任务。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_p121",
+    "prerequisiteId": "cnm_p097",
+    "strength": "soft",
+    "reason": "整数四舍五入可作类比；不要求先会以万、亿为单位改写才能求小数近似数。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "整数四舍五入可作类比；不要求先会以万、亿为单位改写才能求小数近似数。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_p121",
+    "prerequisiteId": "cnm_p118",
+    "strength": "hard",
+    "reason": "需要理解小数数位及计数单位，才能确定保留位与下一位。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "需要理解小数数位及计数单位，才能确定保留位与下一位。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_023",
+    "prerequisiteId": "cnm_p121",
+    "strength": "hard",
+    "reason": "学习「近似数与有效数字」需要先会小学的「求小数的近似数」。基于小数的数位与四舍五入。",
+    "action": "retain",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "学习「近似数与有效数字」需要先会小学的「求小数的近似数」。基于小数的数位与四舍五入。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_023",
+    "prerequisiteId": "cnm_022",
+    "strength": "soft",
+    "reason": "科学记数法可辅助报告大数近似值，但并非按指定数位取近似的必要条件。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "科学记数法可辅助报告大数近似值，但并非按指定数位取近似的必要条件。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_076",
+    "prerequisiteId": "cnm_074",
+    "strength": "soft",
+    "reason": "平方根可用作类比；通过立方运算可独立建立立方根概念，不要求先会开平方。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "平方根可用作类比；通过立方运算可独立建立立方根概念，不要求先会开平方。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_076",
+    "prerequisiteId": "cnm_020",
+    "strength": "hard",
+    "reason": "本节点以检验x³=a建立立方根，需会简单立方及正负号运算；这是任务设计基础，不是掌握状态的逻辑蕴含。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "本节点以检验x³=a建立立方根，需会简单立方及正负号运算；这是任务设计基础，不是掌握状态的逻辑蕴含。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_167",
+    "prerequisiteId": "cnm_075",
+    "strength": "hard",
+    "reason": "二次根式即算术平方根的代数式",
+    "action": "retain",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "二次根式即算术平方根的代数式",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_167",
+    "prerequisiteId": "cnm_097",
+    "strength": "soft",
+    "reason": "解不等式用于含字母被开方数的拓展；判断具体数的根式是否有意义不依赖解不等式。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "解不等式用于含字母被开方数的拓展；判断具体数的根式是否有意义不依赖解不等式。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_226",
+    "prerequisiteId": "cnm_222",
+    "strength": "soft",
+    "reason": "求根公式提供一般推导路径；用已知根或可因式分解的简单实例核对和、积不必先会公式法。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "求根公式提供一般推导路径；用已知根或可因式分解的简单实例核对和、积不必先会公式法。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_226",
+    "prerequisiteId": "cnm_223",
+    "strength": "soft",
+    "reason": "使用根与系数关系前要先保证方程有实数根，需要根的判别式",
+    "action": "retain",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "使用根与系数关系前要先保证方程有实数根，需要根的判别式",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_226",
+    "prerequisiteId": "cnm_219",
+    "strength": "hard",
+    "reason": "需识别ax²+bx+c=0的带符号系数及a≠0，才能讨论系数与根的关系。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "需识别ax²+bx+c=0的带符号系数及a≠0，才能讨论系数与根的关系。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_234",
+    "prerequisiteId": "cnm_232",
+    "strength": "hard",
+    "reason": "需要二次函数的图象",
+    "action": "retain",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "需要二次函数的图象",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_234",
+    "prerequisiteId": "cnm_223",
+    "strength": "soft",
+    "reason": "判别式可解释交点个数；从已给图象读取交点或估计根不必先会判别式。",
+    "action": "revise-or-add",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "判别式可解释交点个数；从已给图象读取交点或估计根不必先会判别式。",
+    "expertReviewed": false
+  },
+  {
+    "topicId": "cnm_234",
+    "prerequisiteId": "cnm_206",
+    "strength": "soft",
+    "reason": "类比一次函数与方程的关系",
+    "action": "retain",
+    "reviewStatus": "assistant-provisional",
+    "counterexampleCheck": "类比一次函数与方程的关系",
+    "expertReviewed": false
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-22",
+  "sources": [
+    {
+      "id": "math-2022-moe",
+      "title": "义务教育数学课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+      "hostRole": "教育部原始发布附件",
+      "retrievedAt": "2026-10-19",
+      "sha256": "1183b95c58a65eaac4c456f2d2b329bbe42f65a6482993edb537e3eaf8baa144",
+      "pdfPages": 189,
+      "pageOffset": 7,
+      "pageFormula": "PDF页码=印刷页码+7",
+      "visuallyCheckedPdfPagesThisBatch": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "scope": "初中数与代数49条内容要求。案例64–72全文、全部学业要求/教学提示未在本批完整复核。小学衔接条款映射未重新认证。"
+    },
+    {
+      "id": "math-2025-school-copy",
+      "title": "义务教育数学课程标准日常修订版（2022年版2025年修订）",
+      "url": "https://fxzx.qpedu.cn/wcm.files/upload/CMSfxzx/202603/202603180320047.pdf",
+      "landingUrl": "https://fxzx.qpedu.cn/jhzx/kcjs/kcbz/511597.htm",
+      "hostRole": "上海市青浦区凤溪中学官网转载；不是教育部原始下载地址",
+      "retrievedAt": "2026-10-22",
+      "sha256": "01f4a577f991c4a5c63eaeeed22008c0e99172d0d8771b3636efcacea7e4d601",
+      "pdfPages": 186,
+      "pageOffset": 3,
+      "pageFormula": "本文件PDF页码=印刷页码+3；仅已抽查页确认",
+      "visuallyCheckedPdfPagesThisBatch": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "scope": "初中数与代数49条内容要求。案例64–72全文、全部学业要求/教学提示未在本批完整复核。小学衔接条款映射未重新认证。",
+      "claimBoundary": "仅说明取得并核对学校转载文件相关页；不声称其与教育部原件逐字一致。"
+    }
+  ]
+}

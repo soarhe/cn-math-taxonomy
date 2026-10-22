@@ -1,0 +1,2674 @@
+{
+  "version": "algebra-2026-10.1",
+  "baseCommit": "8395e6bc7c4f7c7e7f02ed236561c2b49a51b378",
+  "expertReviewed": false,
+  "topics": [
+    {
+      "id": "cnm_p097",
+      "beforeHash": "5794f3607cb258110e4ce3e2815b7c8e83f5be53080c2a7c05a7502a6a5392be",
+      "before": {
+        "id": "cnm_p097",
+        "name": "大数的改写和近似",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "上",
+        "chapter": "四年级上册 第1单元 大数的认识",
+        "type": "procedural",
+        "description": "会把大数改写成用万或亿作单位，会用四舍五入求近似数。",
+        "mastery_criteria": [
+          "能把整万数改写成几万",
+          "四舍五入时能看清要看哪一位"
+        ],
+        "diagnostic_question": {
+          "question": "计算：230000÷10000＝？",
+          "answer": "23"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.NA.06",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:2.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p097",
+        "name": "大数的改写和近似",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "上",
+        "chapter": "四年级上册 第1单元 大数的认识",
+        "type": "procedural",
+        "description": "会把大数改写成用万或亿作单位，会用四舍五入求近似数。",
+        "mastery_criteria": [
+          "能把整万数改写成几万",
+          "四舍五入时能看清要看哪一位"
+        ],
+        "diagnostic_question": {
+          "question": "把230000改写成用“万”作单位的数，填空：230000=（ ）万。",
+          "answer": "23"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.NA.06",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:2.NA.01",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p118",
+      "beforeHash": "7215284a9888f1254eb1b9a9a4333697adfeafde864ea6a5f5f9ba243dab7d84",
+      "before": {
+        "id": "cnm_p118",
+        "name": "小数的意义",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第4单元 小数的意义和性质",
+        "type": "conceptual",
+        "description": "知道小数是分数的另一种写法，一位小数表示十分之几，两位小数表示百分之几。",
+        "mastery_criteria": [
+          "能说出一位小数是十分之几",
+          "能指出小数点左边是整数部分"
+        ],
+        "diagnostic_question": {
+          "question": "计算：0.3＋0.4＝？（用小数作答）",
+          "answer": "0.7"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.NA.02",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:3.NA.02",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p118",
+        "name": "小数的意义",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第4单元 小数的意义和性质",
+        "type": "conceptual",
+        "description": "知道小数是分数的另一种写法，一位小数表示十分之几，两位小数表示百分之几。",
+        "mastery_criteria": [
+          "能用十分之几、百分之几解释小数",
+          "能说明各数位上数字表示的数量",
+          "能在给定单位的情境中表示小数"
+        ],
+        "diagnostic_question": {
+          "question": "把1米平均分成10份，取3份，用小数表示是多少米？",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.NA.02",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:3.NA.02",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p119",
+      "beforeHash": "7e4629e136b06adc8da8be20cf2dc168eaf4eec79a8b41758bc15f48978e516f",
+      "before": {
+        "id": "cnm_p119",
+        "name": "比较小数的大小",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第4单元 小数的意义和性质",
+        "type": "procedural",
+        "description": "会比较小数大小：先比整数部分，整数部分相同再比十分位、百分位。",
+        "mastery_criteria": [
+          "能比较两个小数谁大",
+          "知道整数部分大的小数更大"
+        ],
+        "diagnostic_question": {
+          "question": "计算：3.5－2.8＝？（用小数作答）",
+          "answer": "0.7"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:3.NA.02",
+            "confidence": "inferred",
+            "note": "比较小数大小是理解小数意义时要会的，内容要求没有单独写「比较」，待核。"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p119",
+        "name": "比较小数的大小",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第4单元 小数的意义和性质",
+        "type": "procedural",
+        "description": "会比较小数大小：先比整数部分，整数部分相同再比十分位、百分位。",
+        "mastery_criteria": [
+          "能比较两个小数谁大",
+          "知道整数部分大的小数更大"
+        ],
+        "diagnostic_question": {
+          "question": "3.05与3.5相比，哪个关系正确？",
+          "answer": "A"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:3.NA.02",
+            "confidence": "inferred",
+            "note": "比较小数大小是理解小数意义时要会的，内容要求没有单独写「比较」，待核。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p121",
+      "beforeHash": "78617e7548fd2d21be92d64e752d1ea605607619137e9e3ea2e9b5e9f983cc95",
+      "before": {
+        "id": "cnm_p121",
+        "name": "求小数的近似数",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第4单元 小数的意义和性质",
+        "type": "procedural",
+        "description": "会用四舍五入法求小数的近似数，保留整数或一位小数。",
+        "mastery_criteria": [
+          "能把小数四舍五入到个位",
+          "能保留一位小数"
+        ],
+        "diagnostic_question": {
+          "question": "3.8 四舍五入到个位，看十分位。十分位是 8，要进 1。个位 3 加 1 是多少？计算：3＋1＝？",
+          "answer": "4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.NA.06",
+            "confidence": "inferred",
+            "note": "小数近似数是教材里的四舍五入，内容要求只写了估算，待核。"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_p121",
+        "name": "求小数的近似数",
+        "domain": "数与代数",
+        "grade": 4,
+        "semester": "下",
+        "chapter": "四年级下册 第4单元 小数的意义和性质",
+        "type": "procedural",
+        "description": "会用四舍五入法求小数的近似数，保留整数或一位小数。",
+        "mastery_criteria": [
+          "能独立选择应查看的数位并取近似数",
+          "能处理连续进位",
+          "能说明近似符号和所保留数位"
+        ],
+        "diagnostic_question": {
+          "question": "把3.8四舍五入到个位，结果是多少？",
+          "answer": "4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:2.NA.06",
+            "confidence": "inferred",
+            "note": "小数近似数是教材里的四舍五入，内容要求只写了估算，待核。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_018",
+      "beforeHash": "a2e87e5cfdc0c19afb2a8b3e0c83e64da89345cfa3c02f7e584b435f37b9b159",
+      "before": {
+        "id": "cnm_018",
+        "name": "有理数的加减乘除混合运算",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.2.2",
+        "type": "procedural",
+        "description": "按先乘除后加减、有括号先算括号的顺序进行四则混合运算。",
+        "mastery_criteria": [
+          "能确定运算顺序",
+          "结果正确且步骤规范"
+        ],
+        "diagnostic_question": {
+          "question": "计算 -6÷(-2)×3+(-4)。",
+          "answer": "5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.04",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_018",
+        "name": "有理数的加减乘除混合运算",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.2.2",
+        "type": "procedural",
+        "description": "按运算顺序完成有理数四则混合运算（核心以三步以内为主），能从简单实际情境列式、计算并解释结果。",
+        "mastery_criteria": [
+          "能确定运算顺序并正确计算",
+          "能把温度、盈亏等简单情境转化为有理数算式",
+          "能结合单位及正负号解释结果"
+        ],
+        "diagnostic_question": {
+          "question": "计算 -6÷(-2)×3+(-4)。",
+          "answer": "5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.04",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.05",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_022",
+      "beforeHash": "833d8c792d6b68d54bf204d8211ce2cb6a00b750718689e83853225759ec4fd0",
+      "before": {
+        "id": "cnm_022",
+        "name": "科学记数法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.3.2",
+        "type": "procedural",
+        "description": "把一个大数写成 a×10ⁿ（1≤|a|<10，n 为正整数）的形式。",
+        "mastery_criteria": [
+          "能把大数写成科学记数法",
+          "能由科学记数法还原原数"
+        ],
+        "diagnostic_question": {
+          "question": "把 3 450 000 用科学记数法表示。",
+          "answer": "3.45×10⁶"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.17",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_022",
+        "name": "科学记数法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.3.2",
+        "type": "procedural",
+        "description": "把一个大数写成 a×10ⁿ（1≤|a|<10，n 为正整数）的形式。",
+        "mastery_criteria": [
+          "能把大数写成科学记数法并还原",
+          "能解释a×10ⁿ中系数和指数的意义",
+          "能在给定计算器E显示约定下读写科学记数法"
+        ],
+        "diagnostic_question": {
+          "question": "把 3 450 000 用科学记数法表示。",
+          "answer": "3.45×10⁶"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.17",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_023",
+      "beforeHash": "e75e982c5bc34db90c851311716651b97c63708a0b2692f931fa586234c54b1d",
+      "before": {
+        "id": "cnm_023",
+        "name": "近似数与有效数字",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.3.3",
+        "type": "procedural",
+        "description": "理解近似数、精确度，会按要求四舍五入取近似数并说出有效数字。",
+        "mastery_criteria": [
+          "会按精确度取近似数",
+          "能说出近似数的有效数字个数"
+        ],
+        "diagnostic_question": {
+          "question": "把 0.03586 精确到 0.001，有几个有效数字？",
+          "answer": "0.036，有 2 个有效数字"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.12",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_023",
+        "name": "近似数与精确度",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第二章 有理数的运算 2.3.3",
+        "type": "procedural",
+        "description": "理解近似数与精确度，按指定数位四舍五入；能用计算器解决实际问题并根据情境选择近似结果。",
+        "mastery_criteria": [
+          "能按指定数位取近似数",
+          "能解释近似结果所精确到的数位",
+          "能记录计算器输入并根据实际要求报告结果"
+        ],
+        "diagnostic_question": {
+          "question": "把0.03586四舍五入精确到0.001。",
+          "answer": "0.036"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.12",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_027",
+      "beforeHash": "120724c848b3fe339587a27aa1313f69ec1672bf5f9c28e15c7b29b3293d5829",
+      "before": {
+        "id": "cnm_027",
+        "name": "列代数式",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第三章 代数式 3.1",
+        "type": "application",
+        "description": "把文字叙述的数量关系用代数式表示，如和、差、倍、比多比少。",
+        "mastery_criteria": [
+          "能列出简单数量关系的代数式",
+          "能处理多步关系"
+        ],
+        "diagnostic_question": {
+          "question": "“x 的 2 倍与 5 的差”用代数式表示。",
+          "answer": "2x-5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.15",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_027",
+        "name": "列代数式",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第三章 代数式 3.1",
+        "type": "application",
+        "description": "把文字叙述的数量关系用代数式表示，如和、差、倍、比多比少。",
+        "mastery_criteria": [
+          "能把简单数量关系写成代数式",
+          "能说明字母和各部分表示的实际量",
+          "能查阅给定或可核验资料，选择所需公式并记录来源"
+        ],
+        "diagnostic_question": {
+          "question": "“x 的 2 倍与 5 的差”用代数式表示。",
+          "answer": "2x-5"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.15",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_039",
+      "beforeHash": "a314ee9cc2f5f7896b064445d655ba31ae0cc5922b28ec6ed920be2da5f1114b",
+      "before": {
+        "id": "cnm_039",
+        "name": "方程与方程的解",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.1.1",
+        "type": "conceptual",
+        "description": "含未知数的等式叫方程，使方程左右两边相等的未知数的值叫方程的解。",
+        "mastery_criteria": [
+          "能判断是否是方程",
+          "能检验一个数是否是方程的解"
+        ],
+        "diagnostic_question": {
+          "question": "x=2 是方程 3x-1=5 的解吗？",
+          "answer": "是"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.23",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_039",
+        "name": "方程与方程的解",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.1.1",
+        "type": "conceptual",
+        "description": "含未知数的等式叫方程，使方程左右两边相等的未知数的值叫方程的解。",
+        "mastery_criteria": [
+          "能识别方程并说明未知数含义",
+          "能代入检验某数是否为解",
+          "能通过试值估计解的范围并说明理由"
+        ],
+        "diagnostic_question": {
+          "question": "x=2 是方程 3x-1=5 的解吗？",
+          "answer": "是"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.23",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_074",
+      "beforeHash": "7499434196619a59e6a71459d37eee98e86fd5f062b7b97f5cc8476c7a940c31",
+      "before": {
+        "id": "cnm_074",
+        "name": "平方根与算术平方根",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.1",
+        "type": "conceptual",
+        "description": "如果 x²=a（a≥0）则 x 叫 a 的平方根，正的平方根叫算术平方根，正数有两个互为相反数的平方根，0 的平方根为 0，负数没有平方根。",
+        "mastery_criteria": [
+          "能区分平方根与算术平方根",
+          "会用符号 √a 和 ±√a"
+        ],
+        "diagnostic_question": {
+          "question": "求 9 的平方根与算术平方根。",
+          "answer": "±3；3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.09",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_074",
+        "name": "平方根与算术平方根",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.1",
+        "type": "conceptual",
+        "description": "在实数范围内，若x²=a，则x是a的平方根；a≥0的非负平方根叫算术平方根，记作√a。正数有两个互为相反数的平方根，0的平方根和算术平方根均为0，负数没有实数平方根。",
+        "mastery_criteria": [
+          "能区分平方根与算术平方根",
+          "会用符号 √a 和 ±√a"
+        ],
+        "diagnostic_question": {
+          "question": "求 9 的平方根与算术平方根。",
+          "answer": "±3；3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.09",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_075",
+      "beforeHash": "344f977007f8c9714ef31f0b435b4ab028a0414b3bb7f7fec80f6550d85c246d",
+      "before": {
+        "id": "cnm_075",
+        "name": "开平方与平方根的求法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.1",
+        "type": "procedural",
+        "description": "会用平方运算求完全平方数的平方根，了解 √(a²)=|a|，并能用计算器求近似值。",
+        "mastery_criteria": [
+          "能求常见完全平方数的平方根",
+          "会化简 √(a²)"
+        ],
+        "diagnostic_question": {
+          "question": "计算 √49、√(-5)²、±√(1/4)。",
+          "answer": "7；5；±1/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.10",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_075",
+        "name": "开平方与平方根的求法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.1",
+        "type": "procedural",
+        "description": "理解开平方与平方互为逆运算，能用平方运算求百以内完全平方数的平方根；能借助计算器求平方根近似值。",
+        "mastery_criteria": [
+          "能由平方关系求百以内完全平方数的平方根",
+          "能区分平方根与算术平方根的输出",
+          "能记录计算器输入、输出及按要求取近似的过程"
+        ],
+        "diagnostic_question": {
+          "question": "计算 √49、√(-5)²、±√(1/4)。",
+          "answer": "7；5；±1/2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.10",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_076",
+      "beforeHash": "47812b793c093a55c4e72006b1eb9c50c150e9ecd82d102b59bea271566e2a0c",
+      "before": {
+        "id": "cnm_076",
+        "name": "立方根",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.2",
+        "type": "conceptual",
+        "description": "如果 x³=a，则 x 叫 a 的立方根，任何数都有唯一立方根，会求常见数的立方根。",
+        "mastery_criteria": [
+          "能求立方根",
+          "能说出立方根与平方根的区别"
+        ],
+        "diagnostic_question": {
+          "question": "求 -8 的立方根。",
+          "answer": "-2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.09",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.10",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_076",
+        "name": "立方根",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第八章 实数 8.2",
+        "type": "conceptual",
+        "description": "如果 x³=a，则 x 叫 a 的立方根，任何数都有唯一立方根，会求常见数的立方根。",
+        "mastery_criteria": [
+          "能由立方关系求千以内完全立方数及相应负整数的立方根",
+          "能区分立方根的唯一性与平方根的情况",
+          "能用计算器求立方根近似值并检验正负号"
+        ],
+        "diagnostic_question": {
+          "question": "求 -8 的立方根。",
+          "answer": "-2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.09",
+            "confidence": "exact"
+          },
+          {
+            "id": "cms-2022:4.NA.10",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_093",
+      "beforeHash": "ad4cbb566dd3bfa37f0b0ab08a1c2c560fde66e3b4433bc0e7cb5fb3a2b84543",
+      "before": {
+        "id": "cnm_093",
+        "name": "三元一次方程组",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.4",
+        "type": "procedural",
+        "description": "通过消元把三元一次方程组转化为二元、再转化为一元一次方程求解。",
+        "mastery_criteria": [
+          "能选择消元顺序",
+          "能正确求解简单三元方程组"
+        ],
+        "diagnostic_question": {
+          "question": "解 {x+y=3, y+z=5, x+z=4}。",
+          "answer": "x=1，y=2，z=3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.26",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_093",
+        "name": "三元一次方程组（选学）",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.4",
+        "type": "procedural",
+        "description": "选学内容，不作为课程标准的考试要求。通过消元将简单三元一次方程组转化求解。",
+        "mastery_criteria": [
+          "能选择消元顺序",
+          "能正确求解简单三元方程组"
+        ],
+        "diagnostic_question": {
+          "question": "解 {x+y=3, y+z=5, x+z=4}。",
+          "answer": "x=1，y=2，z=3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.26",
+            "confidence": "exact"
+          }
+        ],
+        "curriculum_scope": "optional"
+      }
+    },
+    {
+      "id": "cnm_146",
+      "beforeHash": "a67308352aed094ae5f1ebcaa10bbc82adb0bbe3b8f618b346e0b8f6a887f8ac",
+      "before": {
+        "id": "cnm_146",
+        "name": "多项式乘多项式",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十六章 整式的乘法 16.2",
+        "type": "procedural",
+        "description": "用一个多项式的每一项乘另一个多项式的每一项，再把积相加。",
+        "mastery_criteria": [
+          "能展开 (a+b)(c+d)",
+          "不漏项不错号"
+        ],
+        "diagnostic_question": {
+          "question": "计算 (x+2)(x-3)。",
+          "answer": "x²-x-6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.18",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_146",
+        "name": "多项式乘多项式",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十六章 整式的乘法 16.2",
+        "type": "procedural",
+        "description": "用分配律进行简单多项式乘法；核心范围限于一次式之间、一次式与二次式的乘法。",
+        "mastery_criteria": [
+          "能展开一次式之间的乘积且不漏项",
+          "能进行一次式与二次式的简单乘法",
+          "能解释展开所用的分配律"
+        ],
+        "diagnostic_question": {
+          "question": "计算 (x+2)(x-3)。",
+          "answer": "x²-x-6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.18",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_154",
+      "beforeHash": "2bedda9c75c4e41566cfe7cb9c52b78ab1ebf8dcb16875534db0cc7471543d0f",
+      "before": {
+        "id": "cnm_154",
+        "name": "综合运用因式分解",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17.2",
+        "type": "procedural",
+        "description": "一般先提公因式，再用公式，直至不能再分解。",
+        "mastery_criteria": [
+          "能确定步骤",
+          "分解彻底"
+        ],
+        "diagnostic_question": {
+          "question": "分解 2x³-8x。",
+          "answer": "2x(x+2)(x-2)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_154",
+        "name": "综合运用因式分解",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "上",
+        "chapter": "八上 第十七章 因式分解 17.2",
+        "type": "procedural",
+        "description": "综合使用提公因式法和公式法进行简单因式分解；指数为正整数，直接利用公式不超过二次。",
+        "mastery_criteria": [
+          "能先提取公因式再判断公式结构",
+          "能在核心范围内分解并用乘法检验",
+          "不把任意高次或特殊技巧当作本节点必需证据"
+        ],
+        "diagnostic_question": {
+          "question": "分解 2x³-8x。",
+          "answer": "2x(x+2)(x-2)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.20",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_167",
+      "beforeHash": "fcf01b397798cd39287ec290a908f7c2ea1ee420e0b7712c00c9dbadc8f8fe96",
+      "before": {
+        "id": "cnm_167",
+        "name": "二次根式的概念与有意义的条件",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第十九章 二次根式 19.1",
+        "type": "conceptual",
+        "description": "形如 √a（a≥0）的式子叫二次根式，被开方数必须非负。",
+        "mastery_criteria": [
+          "能判断二次根式",
+          "能求使二次根式有意义的字母范围"
+        ],
+        "diagnostic_question": {
+          "question": "x 取何值时 √(x-3) 有意义？",
+          "answer": "x≥3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.13",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_167",
+        "name": "二次根式的概念与数值条件",
+        "domain": "数与代数",
+        "grade": 8,
+        "semester": "下",
+        "chapter": "八下 第十九章 二次根式 19.1",
+        "type": "conceptual",
+        "description": "核心学习√a（a为非负数）的意义及实数范围内的数值条件。含字母被开方数的取值范围作为拓展，不据此提高NA.13核心运算要求。",
+        "mastery_criteria": [
+          "能判断给定数的平方根表达式在实数范围是否有意义",
+          "能解释被开方数非负以及算术平方根非负",
+          "能区分二次根式与立方根表示"
+        ],
+        "diagnostic_question": {
+          "question": "下列各式在实数范围内没有意义的是哪一个？",
+          "answer": "C"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.13",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_226",
+      "beforeHash": "92917e4ac00a83628f5177d5d29776e872a0124ae6a9fd2dfa35e4d4f3c70ad7",
+      "before": {
+        "id": "cnm_226",
+        "name": "一元二次方程根与系数的关系（拓展）",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 拓展",
+        "type": "reasoning",
+        "description": "若 x₁、x₂ 是 ax²+bx+c=0 的两根，则 x₁+x₂=-b/a，x₁x₂=c/a（课标仅要求“了解”，见例67）。",
+        "mastery_criteria": [
+          "能由求根公式推出关系",
+          "能用于求对称式的值"
+        ],
+        "diagnostic_question": {
+          "question": "x²-5x+6=0 两根之和与积分别是多少？",
+          "answer": "5；6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.29",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_226",
+        "name": "一元二次方程根与系数的关系",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十五章 一元二次方程 拓展",
+        "type": "reasoning",
+        "description": "了解ax²+bx+c=0（a≠0）有实数根x₁、x₂时，x₁+x₂=-b/a、x₁x₂=c/a。能用简单实例观察并核对关系，不将复杂对称式或参数技巧设为核心掌握标准。",
+        "mastery_criteria": [
+          "能在给定实根的简单实例中核对根的和、积与系数",
+          "能在已知有实根的前提下读取-b/a和c/a",
+          "知道关系的使用前提，不凭形式计算断言存在实根"
+        ],
+        "diagnostic_question": {
+          "question": "x²-5x+6=0 两根之和与积分别是多少？",
+          "answer": "5；6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.29",
+            "confidence": "exact"
+          }
+        ],
+        "curriculum_scope": "required-awareness"
+      }
+    },
+    {
+      "id": "cnm_234",
+      "beforeHash": "608183dc0d34de1edb801d0cde15385843213841979de310dbacb6583dc848ef",
+      "before": {
+        "id": "cnm_234",
+        "name": "二次函数与一元二次方程",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十六章 二次函数 26.3",
+        "type": "conceptual",
+        "description": "抛物线与 x 轴交点的横坐标是对应一元二次方程的根，交点个数由判别式决定。",
+        "mastery_criteria": [
+          "能由交点求方程的根",
+          "能由 Δ 判断交点个数"
+        ],
+        "diagnostic_question": {
+          "question": "求抛物线 y=x²-2x-3 与 x 轴的交点。",
+          "answer": "(-1,0)，(3,0)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.46",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_234",
+        "name": "二次函数与一元二次方程",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十六章 二次函数 26.3",
+        "type": "conceptual",
+        "description": "抛物线与 x 轴交点的横坐标是对应一元二次方程的根，交点个数由判别式决定。",
+        "mastery_criteria": [
+          "知道与x轴交点横坐标对应方程实根",
+          "能从图象估计方程实根并说明读数精度",
+          "能结合图象或判别式解释交点个数"
+        ],
+        "diagnostic_question": {
+          "question": "求抛物线 y=x²-2x-3 与 x 轴的交点。",
+          "answer": "(-1,0)，(3,0)"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.46",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_238",
+      "beforeHash": "6fe21b59e12166ccc2670dc6e41c0bd4b3fd866835eb4a3723a362969ea29eaa",
+      "before": {
+        "id": "cnm_238",
+        "name": "反比例函数的图象与性质",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十七章 反比例函数 27.2",
+        "type": "conceptual",
+        "description": "图象是双曲线，k 的符号决定所在象限与增减性，图象关于原点对称。",
+        "mastery_criteria": [
+          "能画出图象",
+          "能说出象限与增减性"
+        ],
+        "diagnostic_question": {
+          "question": "y=-6/x 的图象在哪些象限？增减性如何？",
+          "answer": "二、四象限；每个象限内 y 随 x 增大而增大"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.48",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_238",
+        "name": "反比例函数的图象与性质",
+        "domain": "数与代数",
+        "grade": 9,
+        "semester": "上",
+        "chapter": "九上 第二十七章 反比例函数 27.2",
+        "type": "conceptual",
+        "description": "反比例函数y=k/x（k≠0，x≠0）的图象有两个分支。k决定象限；k>0时在x>0或x<0各区间内递减，k<0时分别递增，不能跨越0套用单支增减性。",
+        "mastery_criteria": [
+          "能列表描点画出两个分支，不连接跨越0的点",
+          "能按k的符号判断象限",
+          "能限定在同一分支讨论增减性并给出跨分支反例"
+        ],
+        "diagnostic_question": {
+          "question": "y=-6/x 的图象在哪些象限？增减性如何？",
+          "answer": "二、四象限；每个象限内 y 随 x 增大而增大"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.48",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_p097_q1",
+      "beforeHash": "568d99d7ba1ad585abed47ec85acbcf14dc98aed72ab35f281a8a43275e8a8f9",
+      "before": {
+        "id": "cnm_p097_q1",
+        "topicId": "cnm_p097",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：230000÷10000＝？",
+        "answer": "23",
+        "explanation": "230000＝23 万。",
+        "verify": "230000/10000"
+      },
+      "after": {
+        "id": "cnm_p097_q1",
+        "topicId": "cnm_p097",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "把230000改写成用“万”作单位的数，填空：230000=（ ）万。",
+        "answer": "23",
+        "explanation": "230000含23个一万，所以等于23万；这是精确改写。",
+        "verify": "230000//10000",
+        "fixed_from_source": "batch-d1: 能力对齐修订，旧题面不继承作答或核验结论"
+      }
+    },
+    {
+      "id": "cnm_p097_q2",
+      "beforeHash": "ab2d893d03065c8d259a1f486556d8792d4b787404a31d5775d4b059a1a69dcf",
+      "before": {
+        "id": "cnm_p097_q2",
+        "topicId": "cnm_p097",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：48000÷10000＝？（用小数作答）",
+        "answer": "4.8",
+        "explanation": "48000 是 4.8 万。",
+        "verify": "48000/10000"
+      },
+      "after": {
+        "id": "cnm_p097_q2",
+        "topicId": "cnm_p097",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "把48000四舍五入到万位，填空：48000≈（ ）万。",
+        "answer": "5",
+        "explanation": "千位8≥5，万位进1，约5万。",
+        "verify": "5"
+      }
+    },
+    {
+      "id": "cnm_p097_q3",
+      "beforeHash": "1100a2b87623158cd167ad9e2a343f639843fb82fcd295847d179f800ce5fcae",
+      "before": {
+        "id": "cnm_p097_q3",
+        "topicId": "cnm_p097",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "一座城市约 1260000 人。改写成用万作单位是多少万？计算：1260000÷10000＝？",
+        "answer": "126",
+        "explanation": "1260000＝126 万。",
+        "verify": "1260000/10000"
+      },
+      "after": {
+        "id": "cnm_p097_q3",
+        "topicId": "cnm_p097",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "一座城市有1260000人，把人数改写成用“万”作单位的数，并说明应使用等号还是约等号。",
+        "answer": "1260000人=126万人，用等号；精确改写没有取近似。",
+        "explanation": "写126万；保留人数单位；说明等号与约等号的区别。",
+        "rubric": [
+          "写126万",
+          "保留人数单位",
+          "说明等号与约等号的区别。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_p097_q4",
+      "beforeHash": "d03b7bacb69a75ee0c07f93f487302801564c1c75215ce0a1a5482b4d9fbb387",
+      "before": {
+        "id": "cnm_p097_q4",
+        "topicId": "cnm_p097",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "计算：3500÷1000＝？（用小数作答）",
+        "answer": "3.5",
+        "explanation": "精确到千位时，3500 本身就是 3.5 个千。",
+        "verify": "3500/1000"
+      },
+      "after": {
+        "id": "cnm_p097_q4",
+        "topicId": "cnm_p097",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "把3500四舍五入到千位，结果是哪一个？",
+        "answer": "B",
+        "explanation": "百位5达到进位条件，千位3进1，约4000。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "3000"
+          },
+          {
+            "key": "B",
+            "text": "4000"
+          },
+          {
+            "key": "C",
+            "text": "3500"
+          },
+          {
+            "key": "D",
+            "text": "350"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p118_q1",
+      "beforeHash": "2f5977ade0d05ea1276fd8fe0ad4aeeddee1bbc36019d27cb0039ff107afbaa5",
+      "before": {
+        "id": "cnm_p118_q1",
+        "topicId": "cnm_p118",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：0.3＋0.4＝？（用小数作答）",
+        "answer": "0.7",
+        "explanation": "0.3 是 3 个 0.1，0.4 是 4 个 0.1，合起来 0.7。",
+        "verify": "0.3+0.4"
+      },
+      "after": {
+        "id": "cnm_p118_q1",
+        "topicId": "cnm_p118",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "把1米平均分成10份，取3份，用小数表示是多少米？",
+        "answer": "A",
+        "explanation": "每份0.1米，3份是0.3米。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "0.3米"
+          },
+          {
+            "key": "B",
+            "text": "3米"
+          },
+          {
+            "key": "C",
+            "text": "0.03米"
+          },
+          {
+            "key": "D",
+            "text": "30米"
+          }
+        ],
+        "fixed_from_source": "batch-d1: 能力对齐修订，旧题面不继承作答或核验结论"
+      }
+    },
+    {
+      "id": "cnm_p118_q2",
+      "beforeHash": "bc8abcf4c611a6b8a2a283aded2fdcf1b0c2ed74329b80a20a9c973180424082",
+      "before": {
+        "id": "cnm_p118_q2",
+        "topicId": "cnm_p118",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：1.0－0.6＝？（用小数作答）",
+        "answer": "0.4",
+        "explanation": "1.0－0.6＝0.4。",
+        "verify": "1.0-0.6"
+      },
+      "after": {
+        "id": "cnm_p118_q2",
+        "topicId": "cnm_p118",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "0.07中的7表示什么？",
+        "answer": "B",
+        "explanation": "7在百分位，表示7个百分之一。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "7个十分之一"
+          },
+          {
+            "key": "B",
+            "text": "7个百分之一"
+          },
+          {
+            "key": "C",
+            "text": "7个一"
+          },
+          {
+            "key": "D",
+            "text": "7个千分之一"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p118_q3",
+      "beforeHash": "4bd21be6d3c044eacf1e4a5d839ab2ab122319263953ae5e126d3d9c003a5285",
+      "before": {
+        "id": "cnm_p118_q3",
+        "topicId": "cnm_p118",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把 1 米平均分成 10 份，取 7 份。用一位小数表示是多少米？计算：0.1×7＝？（用小数作答）",
+        "answer": "0.7",
+        "explanation": "7 个 0.1 米是 0.7 米。",
+        "verify": "0.1*7"
+      },
+      "after": {
+        "id": "cnm_p118_q3",
+        "topicId": "cnm_p118",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "把1平方米平均分成100份，涂其中25份。用小数表示涂色面积，并解释每一位数字的含义。",
+        "answer": "0.25平方米；2表示2个十分之一平方米，5表示5个百分之一平方米。",
+        "explanation": "写出0.25及单位；说明25份是25/100；解释十分位和百分位。",
+        "rubric": [
+          "写出0.25及单位",
+          "说明25份是25/100",
+          "解释十分位和百分位。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_p118_q4",
+      "beforeHash": "cbf8b18f0dcff9812efce8abbc62f8e35c9124d1903c349b0312ce7371ebedf8",
+      "before": {
+        "id": "cnm_p118_q4",
+        "topicId": "cnm_p118",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "0.5＋0.5 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "0.8"
+          },
+          {
+            "key": "B",
+            "text": "0.9"
+          },
+          {
+            "key": "C",
+            "text": "1.1"
+          },
+          {
+            "key": "D",
+            "text": "1"
+          }
+        ],
+        "answer": "D",
+        "explanation": "0.5＋0.5＝1。",
+        "verify": "0.5+0.5"
+      },
+      "after": {
+        "id": "cnm_p118_q4",
+        "topicId": "cnm_p118",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "下面哪个数表示四个十分之一与六个百分之一的和？",
+        "answer": "C",
+        "explanation": "4/10+6/100=46/100=0.46。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "4.6"
+          },
+          {
+            "key": "B",
+            "text": "0.046"
+          },
+          {
+            "key": "C",
+            "text": "0.46"
+          },
+          {
+            "key": "D",
+            "text": "0.64"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p119_q1",
+      "beforeHash": "e36d3606f35e4689c5211b73d258c2572265eea830da273ca57f06549cdba50a",
+      "before": {
+        "id": "cnm_p119_q1",
+        "topicId": "cnm_p119",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：3.5－2.8＝？（用小数作答）",
+        "answer": "0.7",
+        "explanation": "3.5 比 2.8 大，相差 0.7。",
+        "verify": "3.5-2.8"
+      },
+      "after": {
+        "id": "cnm_p119_q1",
+        "topicId": "cnm_p119",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "3.05与3.5相比，哪个关系正确？",
+        "answer": "A",
+        "explanation": "整数部分相同，十分位0<5，所以3.05<3.5。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "3.05<3.5"
+          },
+          {
+            "key": "B",
+            "text": "3.05=3.5"
+          },
+          {
+            "key": "C",
+            "text": "3.05>3.5"
+          },
+          {
+            "key": "D",
+            "text": "无法比较"
+          }
+        ],
+        "fixed_from_source": "batch-d1: 能力对齐修订，旧题面不继承作答或核验结论"
+      }
+    },
+    {
+      "id": "cnm_p119_q2",
+      "beforeHash": "77b3bc4dd2ee761f48204c6db7c3ed5ad69e4825c34b7c319ff173f60a91fb73",
+      "before": {
+        "id": "cnm_p119_q2",
+        "topicId": "cnm_p119",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "计算：1.6－1.2＝？（用小数作答）",
+        "answer": "0.4",
+        "explanation": "整数部分都是 1，十分位 6 比 2 大，相差 0.4。",
+        "verify": "1.6-1.2"
+      },
+      "after": {
+        "id": "cnm_p119_q2",
+        "topicId": "cnm_p119",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "比较0.60与0.6，正确的是哪一个？",
+        "answer": "C",
+        "explanation": "小数末尾添0不改变大小，60个百分之一等于6个十分之一。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "0.60>0.6"
+          },
+          {
+            "key": "B",
+            "text": "0.60<0.6"
+          },
+          {
+            "key": "C",
+            "text": "0.60=0.6"
+          },
+          {
+            "key": "D",
+            "text": "无法比较"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p119_q3",
+      "beforeHash": "3a9174388715e4ef59472697e67e1bb8dfccc7738ca7ecca75211fc3c828e624",
+      "before": {
+        "id": "cnm_p119_q3",
+        "topicId": "cnm_p119",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "一根绳子 2.4 米，另一根 1.9 米。长的比短的多多少米？计算：2.4－1.9＝？（用小数作答）",
+        "answer": "0.5",
+        "explanation": "2.4－1.9＝0.5。",
+        "verify": "2.4-1.9"
+      },
+      "after": {
+        "id": "cnm_p119_q3",
+        "topicId": "cnm_p119",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明说“0.48有两位小数，所以比一位小数0.5大”。你同意吗？解释理由。",
+        "answer": "不同意，0.48<0.50=0.5；十分位4<5。",
+        "explanation": "否定按小数位数判断；对齐数位比较；可用分数或数轴作等价解释。",
+        "rubric": [
+          "否定按小数位数判断",
+          "对齐数位比较",
+          "可用分数或数轴作等价解释。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_p119_q4",
+      "beforeHash": "7f02ba3d7617a930126ed5794421299bc7f6b58f80d50e04d88dc7929590efa9",
+      "before": {
+        "id": "cnm_p119_q4",
+        "topicId": "cnm_p119",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "4.0－1.5 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2.0"
+          },
+          {
+            "key": "B",
+            "text": "2.5"
+          },
+          {
+            "key": "C",
+            "text": "3.5"
+          },
+          {
+            "key": "D",
+            "text": "5.5"
+          }
+        ],
+        "answer": "B",
+        "explanation": "4.0－1.5＝2.5。",
+        "verify": "4.0-1.5"
+      },
+      "after": {
+        "id": "cnm_p119_q4",
+        "topicId": "cnm_p119",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "以下从小到大的排列正确的是哪一个？",
+        "answer": "B",
+        "explanation": "2.09的十分位为0，小于另外两数的9；2.90=2.9。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2.09<2.9<2.90"
+          },
+          {
+            "key": "B",
+            "text": "2.09<2.90=2.9"
+          },
+          {
+            "key": "C",
+            "text": "2.90<2.9<2.09"
+          },
+          {
+            "key": "D",
+            "text": "2.9<2.09<2.90"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_p121_q1",
+      "beforeHash": "fc69e606def25e4863727c740e9862619a5bb632680504b4a573b8fd68a16da7",
+      "before": {
+        "id": "cnm_p121_q1",
+        "topicId": "cnm_p121",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "3.8 四舍五入到个位，看十分位。十分位是 8，要进 1。个位 3 加 1 是多少？计算：3＋1＝？",
+        "answer": "4",
+        "explanation": "十分位满 5 向个位进 1，近似数是 4。",
+        "verify": "3+1"
+      },
+      "after": {
+        "id": "cnm_p121_q1",
+        "topicId": "cnm_p121",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "把3.8四舍五入到个位，结果是多少？",
+        "answer": "4",
+        "explanation": "十分位8≥5，向个位进1，3.8≈4。",
+        "verify": "4",
+        "fixed_from_source": "batch-d1: 能力对齐修订，旧题面不继承作答或核验结论"
+      }
+    },
+    {
+      "id": "cnm_p121_q2",
+      "beforeHash": "f5096805f7bff1a22029cb821ecbf52564f4c138946faa93bcbd2adb96628f3c",
+      "before": {
+        "id": "cnm_p121_q2",
+        "topicId": "cnm_p121",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "6.3 四舍五入到个位，十分位是 3，不去进位。近似数的个位是多少？计算：6＋0＝？",
+        "answer": "6",
+        "explanation": "十分位小于 5，近似数是 6。",
+        "verify": "6+0"
+      },
+      "after": {
+        "id": "cnm_p121_q2",
+        "topicId": "cnm_p121",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "把6.3四舍五入到个位，结果是多少？",
+        "answer": "6",
+        "explanation": "十分位3<5，舍去小数部分，6.3≈6。",
+        "verify": "6"
+      }
+    },
+    {
+      "id": "cnm_p121_q3",
+      "beforeHash": "418289fe65328a16bd9fcec25b2031dcbaa005452c3935816ebb243d4d915327",
+      "before": {
+        "id": "cnm_p121_q3",
+        "topicId": "cnm_p121",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "2.46 保留一位小数，看百分位 6，要向十分位进 1。十分位 4 加 1 是多少？计算：4＋1＝？",
+        "answer": "5",
+        "explanation": "百分位满 5 向十分位进 1，近似数是 2.5。",
+        "verify": "4+1"
+      },
+      "after": {
+        "id": "cnm_p121_q3",
+        "topicId": "cnm_p121",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把2.46四舍五入保留一位小数，结果是多少？",
+        "answer": "2.5",
+        "explanation": "看百分位6，向十分位进1，得到2.5。",
+        "verify": "round(2.46,1)"
+      }
+    },
+    {
+      "id": "cnm_p121_q4",
+      "beforeHash": "461728ff0bf22e3727d65417da17a1616a5237d6c288aa17fc3242a269a4fdad",
+      "before": {
+        "id": "cnm_p121_q4",
+        "topicId": "cnm_p121",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "9＋1 的得数是哪一个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "10"
+          },
+          {
+            "key": "B",
+            "text": "8"
+          },
+          {
+            "key": "C",
+            "text": "11"
+          },
+          {
+            "key": "D",
+            "text": "19"
+          }
+        ],
+        "answer": "A",
+        "explanation": "7.96 保留一位小数，百分位 6 要进位，十分位 9 再进到个位，近似数是 8.0。这里先算进位用的 9＋1。",
+        "verify": "9+1"
+      },
+      "after": {
+        "id": "cnm_p121_q4",
+        "topicId": "cnm_p121",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "把7.96四舍五入保留一位小数，应怎样写？",
+        "answer": "A",
+        "explanation": "百分位6使十分位进1，再向个位进1；写8.0表示保留一位小数。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "8.0"
+          },
+          {
+            "key": "B",
+            "text": "7.9"
+          },
+          {
+            "key": "C",
+            "text": "7.10"
+          },
+          {
+            "key": "D",
+            "text": "8.00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_022_q5",
+      "beforeHash": "12dceb493ce3b5e24addfe6722eb1c652ec321c2ef600e5598357a6d651fd80f",
+      "before": {
+        "id": "cnm_022_q5",
+        "topicId": "cnm_022",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "把 -720 000 000 写成 a×10^n（1≤|a|<10）的形式，求 a+n 的值。",
+        "answer": "0.8",
+        "explanation": "-720 000 000=-7.2×10^8，所以 a=-7.2，n=8，a+n=0.8。",
+        "verify": "Fraction(-72,10)+8"
+      },
+      "after": {
+        "id": "cnm_022_q5",
+        "topicId": "cnm_022",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "计算器说明书约定“aEb”表示a×10的b次方。屏幕显示3.2E6。写成普通数并解释E6的含义。",
+        "answer": "3200000；E6表示乘以10⁶，而不是加6或乘6。",
+        "explanation": "依据给定说明解释E6；还原为3200000；不假定所有设备按键相同。",
+        "rubric": [
+          "依据给定说明解释E6",
+          "还原为3200000",
+          "不假定所有设备按键相同。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_023_q1",
+      "beforeHash": "a841ce53217fa885fb49d291678fd7e166aee4c5b845ab8d388afab85c7a6fce",
+      "before": {
+        "id": "cnm_023_q1",
+        "topicId": "cnm_023",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把 0.03586 精确到 0.001，有几个有效数字？（只填有效数字的个数）",
+        "answer": "2",
+        "explanation": "0.03586 精确到 0.001 得 0.036，从左边第一个不是 0 的数字 3 起到末位：3，6，共 2 个有效数字。",
+        "verify": "len([3,6])"
+      },
+      "after": {
+        "id": "cnm_023_q1",
+        "topicId": "cnm_023",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "把0.03586四舍五入精确到0.001。",
+        "answer": "0.036",
+        "explanation": "看万分位8，千分位5进1，得到0.036。",
+        "verify": "round(0.03586,3)",
+        "fixed_from_source": "batch-d1: 能力对齐修订，旧题面不继承作答或核验结论"
+      }
+    },
+    {
+      "id": "cnm_023_q3",
+      "beforeHash": "3da8a58849cc7fe42ebc79c840b100877df8f9542b50e227844360612410ce75",
+      "before": {
+        "id": "cnm_023_q3",
+        "topicId": "cnm_023",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "近似数 0.0420 的有效数字有几个？",
+        "choices": [
+          {
+            "key": "A",
+            "text": "2"
+          },
+          {
+            "key": "B",
+            "text": "3"
+          },
+          {
+            "key": "C",
+            "text": "4"
+          },
+          {
+            "key": "D",
+            "text": "5"
+          }
+        ],
+        "answer": "B",
+        "explanation": "从左边第一个不是 0 的数字 4 起，到末位：4，2，0，共 3 个有效数字（末尾的 0 也算）。",
+        "verify": "len([4,2,0])"
+      },
+      "after": {
+        "id": "cnm_023_q3",
+        "topicId": "cnm_023",
+        "difficulty": "standard",
+        "type": "choice",
+        "prompt": "测量报告写“长度约2.10米，精确到0.01米”。其中末尾的0说明什么？",
+        "answer": "A",
+        "explanation": "末尾0保留了报告到百分位的精确度；近似值不是精确测量值。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "报告精确到百分位"
+          },
+          {
+            "key": "B",
+            "text": "长度精确到十分位"
+          },
+          {
+            "key": "C",
+            "text": "长度是精确值，没有误差"
+          },
+          {
+            "key": "D",
+            "text": "长度为210米"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_023_q4",
+      "beforeHash": "5470f0228c578dcc589177eccad380f7186af1651d392ec885858f98247d3055",
+      "before": {
+        "id": "cnm_023_q4",
+        "topicId": "cnm_023",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "把 2.0951 保留三个有效数字，结果是多少？",
+        "answer": "2.10",
+        "explanation": "保留三个有效数字：2，0，9 三位，第四位 5 进一得 2.10。",
+        "verify": "round(2.0951,2)"
+      },
+      "after": {
+        "id": "cnm_023_q4",
+        "topicId": "cnm_023",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用计算器求7.8米布按每米12.6元计算的费用，按四舍五入保留一位小数。记录输入、未取近似的结果及最终费用。",
+        "answer": "7.8×12.6=98.28，最终约98.3元。",
+        "explanation": "输入对应数量关系；记录98.28；按题意保留一位小数得98.3元，不在中间步骤提前取近似。",
+        "rubric": [
+          "输入对应数量关系",
+          "记录98.28",
+          "按题意保留一位小数得98.3元，不在中间步骤提前取近似。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_075_q2",
+      "beforeHash": "fbf44e14c92375ebbf49ef7fadbc746917cdc21204fdb52971ad8bade70f8cfb",
+      "before": {
+        "id": "cnm_075_q2",
+        "topicId": "cnm_075",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "求 169 的算术平方根。",
+        "answer": "13",
+        "explanation": "13^2=169，所以 169 的算术平方根是 13。",
+        "verify": "isqrt(169)"
+      },
+      "after": {
+        "id": "cnm_075_q2",
+        "topicId": "cnm_075",
+        "difficulty": "basic",
+        "type": "numeric",
+        "prompt": "求81的算术平方根。",
+        "answer": "9",
+        "explanation": "9²=81，且9非负，所以√81=9。",
+        "verify": "isqrt(81)"
+      }
+    },
+    {
+      "id": "cnm_167_q1",
+      "beforeHash": "d881e4391d536402a651e0f8d93bc6c3d42f9d0c4931b64bf25c5ca963dba8eb",
+      "before": {
+        "id": "cnm_167_q1",
+        "topicId": "cnm_167",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "x 取何值时 √(x-3) 有意义？",
+        "answer": "D",
+        "choices": [
+          {
+            "key": "A",
+            "text": "x>3"
+          },
+          {
+            "key": "B",
+            "text": "x≤3"
+          },
+          {
+            "key": "C",
+            "text": "x≠3"
+          },
+          {
+            "key": "D",
+            "text": "x≥3"
+          }
+        ],
+        "explanation": "二次根式的被开方数必须非负：x-3≥0，所以 x≥3。"
+      },
+      "after": {
+        "id": "cnm_167_q1",
+        "topicId": "cnm_167",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各式在实数范围内没有意义的是哪一个？",
+        "answer": "C",
+        "explanation": "实数的平方非负，-4没有实数平方根；其余被开方数非负。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "√9"
+          },
+          {
+            "key": "B",
+            "text": "√0"
+          },
+          {
+            "key": "C",
+            "text": "√(-4)"
+          },
+          {
+            "key": "D",
+            "text": "√(1/4)"
+          }
+        ],
+        "fixed_from_source": "batch-d1: 能力对齐修订，旧题面不继承作答或核验结论"
+      }
+    },
+    {
+      "id": "cnm_167_q2",
+      "beforeHash": "c500faf3fc6708ebe817f451a2cd0055c798c1b4fd3336a9902aba56c70fcda3",
+      "before": {
+        "id": "cnm_167_q2",
+        "topicId": "cnm_167",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列各式中，一定是二次根式的是",
+        "answer": "A",
+        "choices": [
+          {
+            "key": "A",
+            "text": "√(x^2+1)"
+          },
+          {
+            "key": "B",
+            "text": "√(-2)"
+          },
+          {
+            "key": "C",
+            "text": "∛3"
+          },
+          {
+            "key": "D",
+            "text": "√(a-1)"
+          }
+        ],
+        "explanation": "x^2+1≥1>0，所以 √(x^2+1) 一定有意义；√(-2) 无意义，∛3 是三次根式，√(a-1) 当 a<1 时无意义。"
+      },
+      "after": {
+        "id": "cnm_167_q2",
+        "topicId": "cnm_167",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "下列哪个是表示非负数平方根的二次根式？",
+        "answer": "A",
+        "explanation": "√7表示7的算术平方根；√(-2)在实数范围无意义；∛7是立方根，-7不是根式。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "√7"
+          },
+          {
+            "key": "B",
+            "text": "√(-2)"
+          },
+          {
+            "key": "C",
+            "text": "∛7"
+          },
+          {
+            "key": "D",
+            "text": "-7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_167_q3",
+      "beforeHash": "b4feb09bfca3e4a364854068416c9437f80a087234c78aa8ed331282d8bff40c",
+      "before": {
+        "id": "cnm_167_q3",
+        "topicId": "cnm_167",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "使 √(2x-6) 有意义的 x 的最小整数值是多少？",
+        "answer": "3",
+        "explanation": "需 2x-6≥0，即 x≥3，最小整数为 3。",
+        "verify": "min([x for x in range(-20,21) if 2*x-6>=0])"
+      },
+      "after": {
+        "id": "cnm_167_q3",
+        "topicId": "cnm_167",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解释为什么√0有意义，而√(-1)在实数范围内没有意义。",
+        "answer": "0²=0，所以√0=0；任何实数的平方都非负，不可能等于-1。",
+        "explanation": "用平方与开方的关系解释0；说明实数平方的非负性；不把“负数没有立方根”混入结论。",
+        "rubric": [
+          "用平方与开方的关系解释0",
+          "说明实数平方的非负性",
+          "不把“负数没有立方根”混入结论。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_167_q4",
+      "beforeHash": "71fe1cc085833ebf69c3bac8784066db5dcad700d8b8de77aa2db1ae0cfca973",
+      "before": {
+        "id": "cnm_167_q4",
+        "topicId": "cnm_167",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "使 √(x-2)+√(4-x) 有意义的整数 x 有哪几个？从小到大依次作答，用逗号隔开。",
+        "answer": "2，3，4",
+        "explanation": "需 x-2≥0 且 4-x≥0，即 2≤x≤4，整数为 2、3、4。",
+        "verify": "[x for x in range(-10,11) if x-2>=0 and 4-x>=0]"
+      },
+      "after": {
+        "id": "cnm_167_q4",
+        "topicId": "cnm_167",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "【拓展：含字母条件，不作为NA.13核心运算门槛】使 √(x-2)+√(4-x) 有意义的整数 x 有哪几个？从小到大依次作答，用逗号隔开。",
+        "answer": "2，3，4",
+        "explanation": "需 x-2≥0 且 4-x≥0，即 2≤x≤4，整数为 2、3、4。",
+        "verify": "[x for x in range(-10,11) if x-2>=0 and 4-x>=0]",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_226_q3",
+      "beforeHash": "bd540f34ff6a605289d157a9df612eea8d809acf6a639b469a28c47de9f8d4f7",
+      "before": {
+        "id": "cnm_226_q3",
+        "topicId": "cnm_226",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "x1、x2 是方程 x²-3x-5=0 的两个根，求 x1²+x2² 的值。",
+        "answer": "19",
+        "explanation": "x1+x2=3，x1x2=-5，x1²+x2²=(x1+x2)²-2x1x2=9+10=19。",
+        "verify": "3**2-2*(-5)"
+      },
+      "after": {
+        "id": "cnm_226_q3",
+        "topicId": "cnm_226",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "方程x²-5x+6=0的根是2和3。用加法、乘法核对根与系数关系，并说明其中a、b、c的值。",
+        "answer": "a=1，b=-5，c=6；2+3=5=-b/a，2×3=6=c/a。",
+        "explanation": "正确识别带符号系数；分别核对和与积；说明这是简单实例核对，不是对所有方程的一般证明。",
+        "rubric": [
+          "正确识别带符号系数",
+          "分别核对和与积",
+          "说明这是简单实例核对，不是对所有方程的一般证明。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_226_q4",
+      "beforeHash": "9cd53fe2017cc518c83b0fb34ef331d1adfca75b4591211cb5362ddc8c98d9b3",
+      "before": {
+        "id": "cnm_226_q4",
+        "topicId": "cnm_226",
+        "difficulty": "standard",
+        "type": "numeric",
+        "prompt": "关于 x 的方程 x²+kx+6=0 的一个根是 2，求 k 的值和另一个根。（依次作答，用逗号隔开）",
+        "answer": "-5，3",
+        "explanation": "由两根之积 6，另一根为 6÷2=3；两根之和 2+3=5=-k，所以 k=-5。",
+        "verify": "[-(2+6//2), 6//2]"
+      },
+      "after": {
+        "id": "cnm_226_q4",
+        "topicId": "cnm_226",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "【拓展练习】关于 x 的方程 x²+kx+6=0 的一个根是 2，求 k 的值和另一个根。（依次作答，用逗号隔开）",
+        "answer": "-5，3",
+        "explanation": "由两根之积 6，另一根为 6÷2=3；两根之和 2+3=5=-k，所以 k=-5。",
+        "verify": "[-(2+6//2), 6//2]",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_226_q5",
+      "beforeHash": "5ba2a8289c2c15dde80bb19819f9a51952be0ed91f227f1b5e7c6a710af5a82b",
+      "before": {
+        "id": "cnm_226_q5",
+        "topicId": "cnm_226",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "x1、x2 是方程 2x²-5x-3=0 的两个根，求 1/x1+1/x2 的值。（写成最简分数）",
+        "answer": "-5/3",
+        "explanation": "x1+x2=5/2，x1x2=-3/2，1/x1+1/x2=(x1+x2)/(x1x2)=(5/2)÷(-3/2)=-5/3。",
+        "verify": "Fraction(5,2)/Fraction(-3,2)"
+      },
+      "after": {
+        "id": "cnm_226_q5",
+        "topicId": "cnm_226",
+        "difficulty": "advanced",
+        "type": "numeric",
+        "prompt": "【拓展练习】x1、x2 是方程 2x²-5x-3=0 的两个根，求 1/x1+1/x2 的值。（写成最简分数）",
+        "answer": "-5/3",
+        "explanation": "x1+x2=5/2，x1x2=-3/2，1/x1+1/x2=(x1+x2)/(x1x2)=(5/2)÷(-3/2)=-5/3。",
+        "verify": "Fraction(5,2)/Fraction(-3,2)",
+        "curriculum_scope": "supplementary"
+      }
+    },
+    {
+      "id": "cnm_018_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_018_q6",
+        "topicId": "cnm_018",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "清晨气温为-4℃，中午比清晨升高7℃，晚上比中午降低5℃。列式求晚上的气温，并解释结果的正负号。",
+        "answer": "-4+7-5=-2℃，表示零下2℃。",
+        "explanation": "列式包含初值、升温和降温；结果为-2℃；解释为低于0℃而非“下降了2℃”。",
+        "rubric": [
+          "列式包含初值、升温和降温",
+          "结果为-2℃",
+          "解释为低于0℃而非“下降了2℃”。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_018_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_018_q7",
+        "topicId": "cnm_018",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "某摊位前三天每天亏损12元，第四天盈利50元。求四天的总盈亏，写出算式并解释结果。",
+        "answer": "(-12)×3+50=14元，四天合计盈利14元。",
+        "explanation": "把亏损记为负数；正确列式并得14元；区分总利润和第四天营业额。",
+        "rubric": [
+          "把亏损记为负数",
+          "正确列式并得14元",
+          "区分总利润和第四天营业额。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_023_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_023_q6",
+        "topicId": "cnm_023",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "学校要把125名学生安排到每辆最多坐30人的车上。有人将125÷30≈4.17四舍五入为4，认为租4辆即可。你同意吗？说明理由。",
+        "answer": "不同意，4辆只能坐120人，应租5辆。",
+        "explanation": "识别除法结果约4.17；核对4辆容量不足；实际情境应向上取整，不能机械四舍五入。",
+        "rubric": [
+          "识别除法结果约4.17",
+          "核对4辆容量不足",
+          "实际情境应向上取整，不能机械四舍五入。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_027_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_027_q5",
+        "topicId": "cnm_027",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "资料卡给出：①长方形周长P=2(a+b)；②长方形面积S=ab；③路程s=vt。要为长a米、宽b米的长方形花圃围一圈栅栏，留出宽2米的入口。选择公式并写出所需栅栏长度，注明资料卡编号。",
+        "answer": "选资料卡①，所需长度为2(a+b)-2米；须有a>0、b>0且可留出2米入口。",
+        "explanation": "从资料卡选择周长公式而非面积公式；写出2(a+b)-2；注明来源①并说明入口条件。这仅检验给定资料选择，不能替代自主检索。",
+        "rubric": [
+          "从资料卡选择周长公式而非面积公式",
+          "写出2(a+b)-2",
+          "注明来源①并说明入口条件。这仅检验给定资料选择，不能替代自主检索。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_027_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_027_q6",
+        "topicId": "cnm_027",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "从你能访问的数学教材或学校提供的资料中查找梯形面积公式。记下资料名称和页码或链接，说明字母含义，再计算上底4米、下底6米、高3米的面积。",
+        "answer": "应找到S=(a+b)h/2；a、b为两条平行底边，h为它们间的垂直距离；面积15平方米。资料来源按实际查阅记录。",
+        "explanation": "提供可核验来源而非虚构页码；选对公式并解释垂直高；代入得15平方米。需要教师或他人核查真实检索过程。",
+        "rubric": [
+          "提供可核验来源而非虚构页码",
+          "选对公式并解释垂直高",
+          "代入得15平方米。需要教师或他人核查真实检索过程。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_039_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_039_q5",
+        "topicId": "cnm_039",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "不先用移项法，分别试x=4和x=5，估计方程3x+2=16的解在什么范围内，并说明依据。",
+        "answer": "x=4时左边14，x=5时左边17；3x+2随x增大而增大，解在4与5之间。",
+        "explanation": "算出14和17；比较它们与16；结合左边的变化解释4<x<5，而不是只报精确解。",
+        "rubric": [
+          "算出14和17",
+          "比较它们与16",
+          "结合左边的变化解释4<x<5，而不是只报精确解。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_039_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_039_q6",
+        "topicId": "cnm_039",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "租自行车收取5元起步费，另按每小时3元收费（允许按实际时长计费）。账单为19元。先写方程，再用试值估计时长在两个相邻整数之间。",
+        "answer": "设时长t小时，5+3t=19；t=4时17元，t=5时20元，所以4<t<5。",
+        "explanation": "从情境列出5+3t=19；给出两次试值；解释真实时长在4至5小时之间。",
+        "rubric": [
+          "从情境列出5+3t=19",
+          "给出两次试值",
+          "解释真实时长在4至5小时之间。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_074_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_074_q6",
+        "topicId": "cnm_074",
+        "difficulty": "basic",
+        "type": "choice",
+        "prompt": "0的算术平方根是什么？",
+        "answer": "A",
+        "explanation": "0²=0且0非负，所以0的算术平方根为0。",
+        "choices": [
+          {
+            "key": "A",
+            "text": "0"
+          },
+          {
+            "key": "B",
+            "text": "不存在"
+          },
+          {
+            "key": "C",
+            "text": "±1"
+          },
+          {
+            "key": "D",
+            "text": "任何数"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_074_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_074_q7",
+        "topicId": "cnm_074",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "有人说“算术平方根一定大于0，所以0没有算术平方根”。请指出错误，并区分9的平方根和算术平方根。",
+        "answer": "算术平方根是非负的，不一定正；√0=0。9的平方根为±3，算术平方根为3。",
+        "explanation": "指出非负包含0；用0给出反例；区分±3和3。",
+        "rubric": [
+          "指出非负包含0",
+          "用0给出反例",
+          "区分±3和3。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_075_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_075_q5",
+        "topicId": "cnm_075",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用计算器求√7，保留两位小数。记录输入方式、屏幕输出的前几位，并用相邻整数的平方检查结果是否合理。",
+        "answer": "√7≈2.645751…，保留两位小数为2.65；2²<7<3²，所以结果应在2和3之间。",
+        "explanation": "记录实际输入与输出；正确取近似为2.65；用4<7<9作合理性检查。只报2.65不足以证明会操作计算器。",
+        "rubric": [
+          "记录实际输入与输出",
+          "正确取近似为2.65",
+          "用4<7<9作合理性检查。只报2.65不足以证明会操作计算器。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_075_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_075_q6",
+        "topicId": "cnm_075",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "面积为50平方米的正方形，边长为多少米？用计算器求值，保留一位小数并说明为什么不取负值。",
+        "answer": "边长为√50≈7.071…米，约7.1米；长度取非负值。",
+        "explanation": "列出边长平方为50；记录计算器过程并取7.1；依据长度意义排除负值。",
+        "rubric": [
+          "列出边长平方为50",
+          "记录计算器过程并取7.1",
+          "依据长度意义排除负值。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_076_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_076_q6",
+        "topicId": "cnm_076",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用计算器求∛20，保留两位小数；记录输入及输出，并用2³和3³检查数量级。",
+        "answer": "∛20≈2.714417…，约2.71；8<20<27，所以结果在2和3之间。",
+        "explanation": "记录立方根运算输入；取近似为2.71；用立方比较检查。",
+        "rubric": [
+          "记录立方根运算输入",
+          "取近似为2.71",
+          "用立方比较检查。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_076_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_076_q7",
+        "topicId": "cnm_076",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用计算器求∛(-10)，保留两位小数，说明若设备不能直接输入负数开立方该怎样处理。",
+        "answer": "先求∛10≈2.154434…再取相反数，得到约-2.15；负数的立方根为负。",
+        "explanation": "正确处理负号；记录计算过程并得到-2.15；说明(-a)³=-a³而不是误用平方根限制。",
+        "rubric": [
+          "正确处理负号",
+          "记录计算过程并得到-2.15",
+          "说明(-a)³=-a³而不是误用平方根限制。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_226_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_226_q6",
+        "topicId": "cnm_226",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "有人说“x²+1=0的实数根的和是0、积是1，所以它有两个实数根”。这段推断有什么问题？",
+        "answer": "x²≥0，所以x²+1>0，方程没有实数根。根与系数关系的使用不能代替存在实根的前提。",
+        "explanation": "指出实数范围无解；说明形式上的-b/a、c/a不能证明实根存在；接受用平方非负性或判别式说明。",
+        "rubric": [
+          "指出实数范围无解",
+          "说明形式上的-b/a、c/a不能证明实根存在",
+          "接受用平方非负性或判别式说明。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_234_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_234_q5",
+        "topicId": "cnm_234",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "根据给出的y=x²-2图象，估计方程x²-2=0的两个解，精确到0.1；说明读的是哪些点的什么坐标。不要先使用求根公式。",
+        "answer": "约-1.4和1.4；读取曲线与x轴交点的横坐标。",
+        "explanation": "找出两个x轴交点；读出两个横坐标为约-1.4和1.4，允许图上合理读数误差；说明图象给出的是近似解而非精确值。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 405\" role=\"img\" aria-label=\"y等于x平方减2的图象，供估计零点\"><g stroke=\"currentColor\" fill=\"none\"><path d=\"M30 235H415M220 20V390\"/><path d=\"M60 231v8\"/><text x=\"60\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><path d=\"M140 231v8\"/><text x=\"140\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><path d=\"M220 231v8\"/><text x=\"220\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">0</text><path d=\"M300 231v8\"/><text x=\"300\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">1</text><path d=\"M380 231v8\"/><text x=\"380\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">2</text><polyline points=\"60.00,145.00 60.80,146.80 61.60,148.58 62.40,150.36 63.20,152.13 64.00,153.89 64.80,155.64 65.60,157.38 66.40,159.11 67.20,160.84 68.00,162.55 68.80,164.26 69.60,165.95 70.40,167.64 71.20,169.32 72.00,170.99 72.80,172.65 73.60,174.30 74.40,175.94 75.20,177.58 76.00,179.20 76.80,180.82 77.60,182.42 78.40,184.02 79.20,185.61 80.00,187.19 80.80,188.76 81.60,190.32 82.40,191.87 83.20,193.42 84.00,194.95 84.80,196.48 85.60,197.99 86.40,199.50 87.20,201.00 88.00,202.49 88.80,203.97 89.60,205.44 90.40,206.90 91.20,208.36 92.00,209.80 92.80,211.24 93.60,212.66 94.40,214.08 95.20,215.49 96.00,216.89 96.80,218.28 97.60,219.66 98.40,221.03 99.20,222.40 100.00,223.75 100.80,225.10 101.60,226.43 102.40,227.76 103.20,229.08 104.00,230.39 104.80,231.69 105.60,232.98 106.40,234.26 107.20,235.54 108.00,236.80 108.80,238.06 109.60,239.30 110.40,240.54 111.20,241.77 112.00,242.99 112.80,244.20 113.60,245.40 114.40,246.59 115.20,247.78 116.00,248.95 116.80,250.12 117.60,251.27 118.40,252.42 119.20,253.56 120.00,254.69 120.80,255.81 121.60,256.92 122.40,258.02 123.20,259.12 124.00,260.20 124.80,261.28 125.60,262.34 126.40,263.40 127.20,264.45 128.00,265.49 128.80,266.52 129.60,267.54 130.40,268.55 131.20,269.56 132.00,270.55 132.80,271.54 133.60,272.51 134.40,273.48 135.20,274.44 136.00,275.39 136.80,276.33 137.60,277.26 138.40,278.18 139.20,279.10 140.00,280.00 140.80,280.90 141.60,281.78 142.40,282.66 143.20,283.53 144.00,284.39 144.80,285.24 145.60,286.08 146.40,286.91 147.20,287.74 148.00,288.55 148.80,289.36 149.60,290.15 150.40,290.94 151.20,291.72 152.00,292.49 152.80,293.25 153.60,294.00 154.40,294.74 155.20,295.48 156.00,296.20 156.80,296.92 157.60,297.62 158.40,298.32 159.20,299.01 160.00,299.69 160.80,300.36 161.60,301.02 162.40,301.67 163.20,302.32 164.00,302.95 164.80,303.58 165.60,304.19 166.40,304.80 167.20,305.40 168.00,305.99 168.80,306.57 169.60,307.14 170.40,307.70 171.20,308.26 172.00,308.80 172.80,309.34 173.60,309.86 174.40,310.38 175.20,310.89 176.00,311.39 176.80,311.88 177.60,312.36 178.40,312.83 179.20,313.30 180.00,313.75 180.80,314.20 181.60,314.63 182.40,315.06 183.20,315.48 184.00,315.89 184.80,316.29 185.60,316.68 186.40,317.06 187.20,317.44 188.00,317.80 188.80,318.16 189.60,318.50 190.40,318.84 191.20,319.17 192.00,319.49 192.80,319.80 193.60,320.10 194.40,320.39 195.20,320.68 196.00,320.95 196.80,321.22 197.60,321.47 198.40,321.72 199.20,321.96 200.00,322.19 200.80,322.41 201.60,322.62 202.40,322.82 203.20,323.02 204.00,323.20 204.80,323.38 205.60,323.54 206.40,323.70 207.20,323.85 208.00,323.99 208.80,324.12 209.60,324.24 210.40,324.35 211.20,324.46 212.00,324.55 212.80,324.64 213.60,324.71 214.40,324.78 215.20,324.84 216.00,324.89 216.80,324.93 217.60,324.96 218.40,324.98 219.20,325.00 220.00,325.00 220.80,325.00 221.60,324.98 222.40,324.96 223.20,324.93 224.00,324.89 224.80,324.84 225.60,324.78 226.40,324.71 227.20,324.64 228.00,324.55 228.80,324.46 229.60,324.35 230.40,324.24 231.20,324.12 232.00,323.99 232.80,323.85 233.60,323.70 234.40,323.54 235.20,323.38 236.00,323.20 236.80,323.02 237.60,322.82 238.40,322.62 239.20,322.41 240.00,322.19 240.80,321.96 241.60,321.72 242.40,321.47 243.20,321.22 244.00,320.95 244.80,320.68 245.60,320.39 246.40,320.10 247.20,319.80 248.00,319.49 248.80,319.17 249.60,318.84 250.40,318.50 251.20,318.16 252.00,317.80 252.80,317.44 253.60,317.06 254.40,316.68 255.20,316.29 256.00,315.89 256.80,315.48 257.60,315.06 258.40,314.63 259.20,314.20 260.00,313.75 260.80,313.30 261.60,312.83 262.40,312.36 263.20,311.88 264.00,311.39 264.80,310.89 265.60,310.38 266.40,309.86 267.20,309.34 268.00,308.80 268.80,308.26 269.60,307.70 270.40,307.14 271.20,306.57 272.00,305.99 272.80,305.40 273.60,304.80 274.40,304.19 275.20,303.58 276.00,302.95 276.80,302.32 277.60,301.67 278.40,301.02 279.20,300.36 280.00,299.69 280.80,299.01 281.60,298.32 282.40,297.62 283.20,296.92 284.00,296.20 284.80,295.48 285.60,294.74 286.40,294.00 287.20,293.25 288.00,292.49 288.80,291.72 289.60,290.94 290.40,290.15 291.20,289.36 292.00,288.55 292.80,287.74 293.60,286.91 294.40,286.08 295.20,285.24 296.00,284.39 296.80,283.53 297.60,282.66 298.40,281.78 299.20,280.90 300.00,280.00 300.80,279.10 301.60,278.18 302.40,277.26 303.20,276.33 304.00,275.39 304.80,274.44 305.60,273.48 306.40,272.51 307.20,271.54 308.00,270.55 308.80,269.56 309.60,268.55 310.40,267.54 311.20,266.52 312.00,265.49 312.80,264.45 313.60,263.40 314.40,262.34 315.20,261.28 316.00,260.20 316.80,259.12 317.60,258.02 318.40,256.92 319.20,255.81 320.00,254.69 320.80,253.56 321.60,252.42 322.40,251.27 323.20,250.12 324.00,248.95 324.80,247.78 325.60,246.59 326.40,245.40 327.20,244.20 328.00,242.99 328.80,241.77 329.60,240.54 330.40,239.30 331.20,238.06 332.00,236.80 332.80,235.54 333.60,234.26 334.40,232.98 335.20,231.69 336.00,230.39 336.80,229.08 337.60,227.76 338.40,226.43 339.20,225.10 340.00,223.75 340.80,222.40 341.60,221.03 342.40,219.66 343.20,218.28 344.00,216.89 344.80,215.49 345.60,214.08 346.40,212.66 347.20,211.24 348.00,209.80 348.80,208.36 349.60,206.90 350.40,205.44 351.20,203.97 352.00,202.49 352.80,201.00 353.60,199.50 354.40,197.99 355.20,196.48 356.00,194.95 356.80,193.42 357.60,191.87 358.40,190.32 359.20,188.76 360.00,187.19 360.80,185.61 361.60,184.02 362.40,182.42 363.20,180.82 364.00,179.20 364.80,177.58 365.60,175.94 366.40,174.30 367.20,172.65 368.00,170.99 368.80,169.32 369.60,167.64 370.40,165.95 371.20,164.26 372.00,162.55 372.80,160.84 373.60,159.11 374.40,157.38 375.20,155.64 376.00,153.89 376.80,152.13 377.60,150.36 378.40,148.58 379.20,146.80 380.00,145.00\" stroke-width=\"2\"/></g><g fill=\"currentColor\" font-size=\"14\"><text x=\"280\" y=\"35\">y=x²−2</text><text x=\"417\" y=\"228\">x</text><text x=\"227\" y=\"20\">y</text></g></svg>",
+        "rubric": [
+          "找出两个x轴交点",
+          "读出两个横坐标为约-1.4和1.4，允许图上合理读数误差",
+          "说明图象给出的是近似解而非精确值。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_234_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_234_q6",
+        "topicId": "cnm_234",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "根据给出的y=x²-3图象，估计方程x²-3=0的两个解，精确到0.1；说明读的是哪些点的什么坐标。不要先使用求根公式。",
+        "answer": "约-1.7和1.7；读取曲线与x轴交点的横坐标。",
+        "explanation": "找出两个x轴交点；读出两个横坐标为约-1.7和1.7，允许图上合理读数误差；说明图象给出的是近似解而非精确值。",
+        "figure": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 405\" role=\"img\" aria-label=\"y等于x平方减3的图象，供估计零点\"><g stroke=\"currentColor\" fill=\"none\"><path d=\"M30 235H415M220 20V390\"/><path d=\"M60 231v8\"/><text x=\"60\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><path d=\"M140 231v8\"/><text x=\"140\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><path d=\"M220 231v8\"/><text x=\"220\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">0</text><path d=\"M300 231v8\"/><text x=\"300\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">1</text><path d=\"M380 231v8\"/><text x=\"380\" y=\"255\" text-anchor=\"middle\" fill=\"currentColor\">2</text><polyline points=\"60.00,190.00 60.80,191.80 61.60,193.58 62.40,195.36 63.20,197.13 64.00,198.89 64.80,200.64 65.60,202.38 66.40,204.11 67.20,205.84 68.00,207.55 68.80,209.26 69.60,210.95 70.40,212.64 71.20,214.32 72.00,215.99 72.80,217.65 73.60,219.30 74.40,220.94 75.20,222.58 76.00,224.20 76.80,225.82 77.60,227.42 78.40,229.02 79.20,230.61 80.00,232.19 80.80,233.76 81.60,235.32 82.40,236.87 83.20,238.42 84.00,239.95 84.80,241.48 85.60,242.99 86.40,244.50 87.20,246.00 88.00,247.49 88.80,248.97 89.60,250.44 90.40,251.90 91.20,253.36 92.00,254.80 92.80,256.24 93.60,257.66 94.40,259.08 95.20,260.49 96.00,261.89 96.80,263.28 97.60,264.66 98.40,266.03 99.20,267.40 100.00,268.75 100.80,270.10 101.60,271.43 102.40,272.76 103.20,274.08 104.00,275.39 104.80,276.69 105.60,277.98 106.40,279.26 107.20,280.54 108.00,281.80 108.80,283.06 109.60,284.30 110.40,285.54 111.20,286.77 112.00,287.99 112.80,289.20 113.60,290.40 114.40,291.59 115.20,292.78 116.00,293.95 116.80,295.12 117.60,296.27 118.40,297.42 119.20,298.56 120.00,299.69 120.80,300.81 121.60,301.92 122.40,303.02 123.20,304.12 124.00,305.20 124.80,306.28 125.60,307.34 126.40,308.40 127.20,309.45 128.00,310.49 128.80,311.52 129.60,312.54 130.40,313.55 131.20,314.56 132.00,315.55 132.80,316.54 133.60,317.51 134.40,318.48 135.20,319.44 136.00,320.39 136.80,321.33 137.60,322.26 138.40,323.18 139.20,324.10 140.00,325.00 140.80,325.90 141.60,326.78 142.40,327.66 143.20,328.53 144.00,329.39 144.80,330.24 145.60,331.08 146.40,331.91 147.20,332.74 148.00,333.55 148.80,334.36 149.60,335.15 150.40,335.94 151.20,336.72 152.00,337.49 152.80,338.25 153.60,339.00 154.40,339.74 155.20,340.48 156.00,341.20 156.80,341.92 157.60,342.62 158.40,343.32 159.20,344.01 160.00,344.69 160.80,345.36 161.60,346.02 162.40,346.67 163.20,347.32 164.00,347.95 164.80,348.58 165.60,349.19 166.40,349.80 167.20,350.40 168.00,350.99 168.80,351.57 169.60,352.14 170.40,352.70 171.20,353.26 172.00,353.80 172.80,354.34 173.60,354.86 174.40,355.38 175.20,355.89 176.00,356.39 176.80,356.88 177.60,357.36 178.40,357.83 179.20,358.30 180.00,358.75 180.80,359.20 181.60,359.63 182.40,360.06 183.20,360.48 184.00,360.89 184.80,361.29 185.60,361.68 186.40,362.06 187.20,362.44 188.00,362.80 188.80,363.16 189.60,363.50 190.40,363.84 191.20,364.17 192.00,364.49 192.80,364.80 193.60,365.10 194.40,365.39 195.20,365.68 196.00,365.95 196.80,366.22 197.60,366.47 198.40,366.72 199.20,366.96 200.00,367.19 200.80,367.41 201.60,367.62 202.40,367.82 203.20,368.02 204.00,368.20 204.80,368.38 205.60,368.54 206.40,368.70 207.20,368.85 208.00,368.99 208.80,369.12 209.60,369.24 210.40,369.35 211.20,369.46 212.00,369.55 212.80,369.64 213.60,369.71 214.40,369.78 215.20,369.84 216.00,369.89 216.80,369.93 217.60,369.96 218.40,369.98 219.20,370.00 220.00,370.00 220.80,370.00 221.60,369.98 222.40,369.96 223.20,369.93 224.00,369.89 224.80,369.84 225.60,369.78 226.40,369.71 227.20,369.64 228.00,369.55 228.80,369.46 229.60,369.35 230.40,369.24 231.20,369.12 232.00,368.99 232.80,368.85 233.60,368.70 234.40,368.54 235.20,368.38 236.00,368.20 236.80,368.02 237.60,367.82 238.40,367.62 239.20,367.41 240.00,367.19 240.80,366.96 241.60,366.72 242.40,366.47 243.20,366.22 244.00,365.95 244.80,365.68 245.60,365.39 246.40,365.10 247.20,364.80 248.00,364.49 248.80,364.17 249.60,363.84 250.40,363.50 251.20,363.16 252.00,362.80 252.80,362.44 253.60,362.06 254.40,361.68 255.20,361.29 256.00,360.89 256.80,360.48 257.60,360.06 258.40,359.63 259.20,359.20 260.00,358.75 260.80,358.30 261.60,357.83 262.40,357.36 263.20,356.88 264.00,356.39 264.80,355.89 265.60,355.38 266.40,354.86 267.20,354.34 268.00,353.80 268.80,353.26 269.60,352.70 270.40,352.14 271.20,351.57 272.00,350.99 272.80,350.40 273.60,349.80 274.40,349.19 275.20,348.58 276.00,347.95 276.80,347.32 277.60,346.67 278.40,346.02 279.20,345.36 280.00,344.69 280.80,344.01 281.60,343.32 282.40,342.62 283.20,341.92 284.00,341.20 284.80,340.48 285.60,339.74 286.40,339.00 287.20,338.25 288.00,337.49 288.80,336.72 289.60,335.94 290.40,335.15 291.20,334.36 292.00,333.55 292.80,332.74 293.60,331.91 294.40,331.08 295.20,330.24 296.00,329.39 296.80,328.53 297.60,327.66 298.40,326.78 299.20,325.90 300.00,325.00 300.80,324.10 301.60,323.18 302.40,322.26 303.20,321.33 304.00,320.39 304.80,319.44 305.60,318.48 306.40,317.51 307.20,316.54 308.00,315.55 308.80,314.56 309.60,313.55 310.40,312.54 311.20,311.52 312.00,310.49 312.80,309.45 313.60,308.40 314.40,307.34 315.20,306.28 316.00,305.20 316.80,304.12 317.60,303.02 318.40,301.92 319.20,300.81 320.00,299.69 320.80,298.56 321.60,297.42 322.40,296.27 323.20,295.12 324.00,293.95 324.80,292.78 325.60,291.59 326.40,290.40 327.20,289.20 328.00,287.99 328.80,286.77 329.60,285.54 330.40,284.30 331.20,283.06 332.00,281.80 332.80,280.54 333.60,279.26 334.40,277.98 335.20,276.69 336.00,275.39 336.80,274.08 337.60,272.76 338.40,271.43 339.20,270.10 340.00,268.75 340.80,267.40 341.60,266.03 342.40,264.66 343.20,263.28 344.00,261.89 344.80,260.49 345.60,259.08 346.40,257.66 347.20,256.24 348.00,254.80 348.80,253.36 349.60,251.90 350.40,250.44 351.20,248.97 352.00,247.49 352.80,246.00 353.60,244.50 354.40,242.99 355.20,241.48 356.00,239.95 356.80,238.42 357.60,236.87 358.40,235.32 359.20,233.76 360.00,232.19 360.80,230.61 361.60,229.02 362.40,227.42 363.20,225.82 364.00,224.20 364.80,222.58 365.60,220.94 366.40,219.30 367.20,217.65 368.00,215.99 368.80,214.32 369.60,212.64 370.40,210.95 371.20,209.26 372.00,207.55 372.80,205.84 373.60,204.11 374.40,202.38 375.20,200.64 376.00,198.89 376.80,197.13 377.60,195.36 378.40,193.58 379.20,191.80 380.00,190.00\" stroke-width=\"2\"/></g><g fill=\"currentColor\" font-size=\"14\"><text x=\"280\" y=\"35\">y=x²−3</text><text x=\"417\" y=\"228\">x</text><text x=\"227\" y=\"20\">y</text></g></svg>",
+        "rubric": [
+          "找出两个x轴交点",
+          "读出两个横坐标为约-1.7和1.7，允许图上合理读数误差",
+          "说明图象给出的是近似解而非精确值。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_238_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_238_q5",
+        "topicId": "cnm_238",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "有人认为y=6/x在所有x≠0处“x越大y越小”。用x=-1与x=1检查并修正这句话。",
+        "answer": "-1<1，但-6<6，跨越0时不满足该说法；应说在x<0和x>0各区间内分别递减。",
+        "explanation": "计算两点函数值；用反例否定全定义域递减；给出各分支内递减的准确表述。",
+        "rubric": [
+          "计算两点函数值",
+          "用反例否定全定义域递减",
+          "给出各分支内递减的准确表述。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_238_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_238_q6",
+        "topicId": "cnm_238",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "画y=4/x的图象。取x=-4,-2,-1,1,2,4列表描点，说明能否把两个分支跨过x=0连成一条线。",
+        "answer": "对应y=-1,-2,-4,4,2,1；图象在第一、三象限，x=0无定义，两个分支不能跨0相连。",
+        "explanation": "列表值正确；在两象限分别平滑连接各自点；标明x=0无定义并不跨0连接。需检查实际绘图，报出数表不能单独证明会画图。",
+        "rubric": [
+          "列表值正确",
+          "在两象限分别平滑连接各自点",
+          "标明x=0无定义并不跨0连接。需检查实际绘图，报出数表不能单独证明会画图。"
+        ]
+      }
+    },
+    {
+      "id": "cnm_022_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_022_q6",
+        "topicId": "cnm_022",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用你使用的计算器输入54000000，使其以科学记数法显示，记录设备或应用名称、所用步骤及显示内容；若设备不支持这种显示，请说明并写出应有表示。",
+        "answer": "应表示为5.4×10⁷（例如5.4E7）。步骤按实际设备记录。",
+        "explanation": "说明设备与真实操作；显示或写出5.4×10⁷；不把文字报告等同于已经核验操作。",
+        "rubric": [
+          "说明设备与真实操作",
+          "显示或写出5.4×10⁷",
+          "不把文字报告等同于已经核验操作。"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_p121",
+      "beforeHash": "71fea72f74ec5457e16b377efb61bdf1ff44fa5de6fae37ad9c61acafe491c7e",
+      "before": [
+        {
+          "topicId": "cnm_p121",
+          "prerequisiteId": "cnm_p119",
+          "strength": "hard",
+          "reason": "学习「求小数的近似数」需要先掌握「比较小数的大小」。"
+        },
+        {
+          "topicId": "cnm_p121",
+          "prerequisiteId": "cnm_p097",
+          "strength": "hard",
+          "reason": "学习「求小数的近似数」需要先掌握「大数的改写和近似」。"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_p121",
+          "prerequisiteId": "cnm_p119",
+          "strength": "soft",
+          "reason": "比较小数可辅助检验近似结果，但按数位四舍五入不必先完成小数排序任务。"
+        },
+        {
+          "topicId": "cnm_p121",
+          "prerequisiteId": "cnm_p097",
+          "strength": "soft",
+          "reason": "整数四舍五入可作类比；不要求先会以万、亿为单位改写才能求小数近似数。"
+        },
+        {
+          "topicId": "cnm_p121",
+          "prerequisiteId": "cnm_p118",
+          "strength": "hard",
+          "reason": "需要理解小数数位及计数单位，才能确定保留位与下一位。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_023",
+      "beforeHash": "46801b46fa23972b8cd74170fd87820b95087e66fefd185249cfdcea384dfd89",
+      "before": [
+        {
+          "topicId": "cnm_023",
+          "prerequisiteId": "cnm_p121",
+          "strength": "hard",
+          "reason": "学习「近似数与有效数字」需要先会小学的「求小数的近似数」。基于小数的数位与四舍五入。"
+        },
+        {
+          "topicId": "cnm_023",
+          "prerequisiteId": "cnm_022",
+          "strength": "soft",
+          "reason": "用科学记数法表示有效数字"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_023",
+          "prerequisiteId": "cnm_p121",
+          "strength": "hard",
+          "reason": "学习「近似数与有效数字」需要先会小学的「求小数的近似数」。基于小数的数位与四舍五入。"
+        },
+        {
+          "topicId": "cnm_023",
+          "prerequisiteId": "cnm_022",
+          "strength": "soft",
+          "reason": "科学记数法可辅助报告大数近似值，但并非按指定数位取近似的必要条件。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_076",
+      "beforeHash": "bd7fdb63336deadcdf5f40eff2d3ec30e289aa35ed1113a730dc62c8a395973b",
+      "before": [
+        {
+          "topicId": "cnm_076",
+          "prerequisiteId": "cnm_074",
+          "strength": "hard",
+          "reason": "立方根的定义与性质可类比平方根展开，学过平方根更容易理解立方根"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_076",
+          "prerequisiteId": "cnm_074",
+          "strength": "soft",
+          "reason": "平方根可用作类比；通过立方运算可独立建立立方根概念，不要求先会开平方。"
+        },
+        {
+          "topicId": "cnm_076",
+          "prerequisiteId": "cnm_020",
+          "strength": "hard",
+          "reason": "本节点以检验x³=a建立立方根，需会简单立方及正负号运算；这是任务设计基础，不是掌握状态的逻辑蕴含。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_167",
+      "beforeHash": "79ec96177774bac3f92c5e9684041fd0338e845482dcfbcf03cc04142ffc2e80",
+      "before": [
+        {
+          "topicId": "cnm_167",
+          "prerequisiteId": "cnm_075",
+          "strength": "hard",
+          "reason": "二次根式即算术平方根的代数式"
+        },
+        {
+          "topicId": "cnm_167",
+          "prerequisiteId": "cnm_097",
+          "strength": "hard",
+          "reason": "被开方数非负需解不等式"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_167",
+          "prerequisiteId": "cnm_075",
+          "strength": "hard",
+          "reason": "二次根式即算术平方根的代数式"
+        },
+        {
+          "topicId": "cnm_167",
+          "prerequisiteId": "cnm_097",
+          "strength": "soft",
+          "reason": "解不等式用于含字母被开方数的拓展；判断具体数的根式是否有意义不依赖解不等式。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_226",
+      "beforeHash": "ff0feb789576cee043f1f24d90bfe80d1a1c09037e6148b6b2f0cf748a0d56b5",
+      "before": [
+        {
+          "topicId": "cnm_226",
+          "prerequisiteId": "cnm_222",
+          "strength": "hard",
+          "reason": "根与系数的关系可以由求根公式得到，需要先掌握公式法与求根公式"
+        },
+        {
+          "topicId": "cnm_226",
+          "prerequisiteId": "cnm_223",
+          "strength": "soft",
+          "reason": "使用根与系数关系前要先保证方程有实数根，需要根的判别式"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_226",
+          "prerequisiteId": "cnm_222",
+          "strength": "soft",
+          "reason": "求根公式提供一般推导路径；用已知根或可因式分解的简单实例核对和、积不必先会公式法。"
+        },
+        {
+          "topicId": "cnm_226",
+          "prerequisiteId": "cnm_223",
+          "strength": "soft",
+          "reason": "使用根与系数关系前要先保证方程有实数根，需要根的判别式"
+        },
+        {
+          "topicId": "cnm_226",
+          "prerequisiteId": "cnm_219",
+          "strength": "hard",
+          "reason": "需识别ax²+bx+c=0的带符号系数及a≠0，才能讨论系数与根的关系。"
+        }
+      ]
+    },
+    {
+      "id": "cnm_234",
+      "beforeHash": "d3d394071f94462225692b7478a077473958539e53a496e8d39eb1c508f0d99b",
+      "before": [
+        {
+          "topicId": "cnm_234",
+          "prerequisiteId": "cnm_232",
+          "strength": "hard",
+          "reason": "需要二次函数的图象"
+        },
+        {
+          "topicId": "cnm_234",
+          "prerequisiteId": "cnm_223",
+          "strength": "hard",
+          "reason": "二次函数图象与x轴交点的个数由判别式的符号决定，需要先掌握根的判别式"
+        },
+        {
+          "topicId": "cnm_234",
+          "prerequisiteId": "cnm_206",
+          "strength": "soft",
+          "reason": "类比一次函数与方程的关系"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_234",
+          "prerequisiteId": "cnm_232",
+          "strength": "hard",
+          "reason": "需要二次函数的图象"
+        },
+        {
+          "topicId": "cnm_234",
+          "prerequisiteId": "cnm_223",
+          "strength": "soft",
+          "reason": "判别式可解释交点个数；从已给图象读取交点或估计根不必先会判别式。"
+        },
+        {
+          "topicId": "cnm_234",
+          "prerequisiteId": "cnm_206",
+          "strength": "soft",
+          "reason": "类比一次函数与方程的关系"
+        }
+      ]
+    }
+  ]
+}

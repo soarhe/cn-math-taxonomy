@@ -121,6 +121,8 @@ def check_topics(topics):
             err("%s 缺少 id" % where)
             continue
         where = "%s(%s)" % (tid, t.get("name", "?"))
+        if "curriculum_scope" in t and t["curriculum_scope"] not in ("required", "required-awareness", "optional", "supplementary"):
+            err("%s curriculum_scope 取值非法" % where)
         if tid in ids:
             err("id 重复：%s" % tid)
         ids[tid] = t
@@ -540,7 +542,7 @@ def report_standards(ids, std_items, cited, empty_core):
 Q_DIFFICULTIES = ("basic", "standard", "advanced")
 Q_TYPES = ("numeric", "choice", "short", "self")
 Q_FIELDS = {"id", "topicId", "difficulty", "type", "prompt", "answer", "choices", "accept",
-            "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText"}
+            "explanation", "verify", "unordered", "fixed_from_source", "figure", "hideChoiceText", "rubric", "curriculum_scope"}
 Q_ID_RE = re.compile(r"^((?:cnm_(?:p|h)?|cne_[pjh])\d{3,})_q([1-9]\d*)$")
 NUM_RE = re.compile(r"^-?\d+(?:\.\d+)?(?:/\d+(?:\.\d+)?)?$")
 MIN_QUESTIONS_PER_TOPIC = 3
@@ -611,6 +613,10 @@ def question_errors(questions, topics_by_id, require_coverage=True):
             errs.append("%s difficulty 取值非法：%r" % (w, diff))
         if nonempty_str(typ) and typ not in Q_TYPES:
             errs.append("%s type 取值非法：%r" % (w, typ))
+        if "rubric" in q and not (typ == "self" and isinstance(q["rubric"], list) and q["rubric"] and all(nonempty_str(x) for x in q["rubric"])):
+            errs.append("%s rubric 只能是self题的非空字符串数组" % w)
+        if "curriculum_scope" in q and q["curriculum_scope"] not in ("required", "supplementary", "optional"):
+            errs.append("%s curriculum_scope 取值非法" % w)
         if "accept" in q:
             acc = q["accept"]
             if not (isinstance(acc, list) and all(nonempty_str(x) for x in acc)):

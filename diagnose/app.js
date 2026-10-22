@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   const E = window.DiagEngine;
-  const DATA_VERSION = 'statistics-2026-10.1';
+  const DATA_VERSION = 'algebra-2026-10.1';
   const LS_LEGACY_SESSION = 'cnmDiagnose.session.v2';
   const LS_SESSION = 'cnmDiagnose.session.' + DATA_VERSION + '.' + E.ENGINE_VERSION;
   const LS_SESSION_EN = 'cneDiagnose.session.' + E.ENGINE_VERSION;
@@ -326,7 +326,7 @@
 
   function renderStart(errMsg) {
     const page = h('div');
-    const oldKeys = subject === 'math' ? [LS_LEGACY_SESSION, 'cnmDiagnose.session.' + DATA_VERSION] : ['cneDiagnose.session.v2'];
+    const oldKeys = subject === 'math' ? [LS_LEGACY_SESSION, 'cnmDiagnose.session.statistics-2026-10.1', 'cnmDiagnose.session.statistics-2026-10.1.evidence-1'] : ['cneDiagnose.session.v2', 'cneDiagnose.session.evidence-1'];
     oldKeys.forEach(function (key) {
       const legacy = lsGet(key);
       if (!legacy) return;
@@ -498,8 +498,8 @@
             h('span', { class: 't', text: ch.label }),
             h('button', {
               class: 'primary', title: '把本章全部 ' + ch.topics.length + ' 个知识点一起作为目标',
-              onclick: function () { startSession(ch.topics.map(function (x) { return x.t.id; }), ch.volume + ' ' + ch.label + '（整章）'); }
-            }, '以整章为目标')),
+              onclick: function () { startSession(ch.topics.filter(function (x) { return x.t.curriculum_scope !== 'optional'; }).map(function (x) { return x.t.id; }), ch.volume + ' ' + ch.label + '（整章）'); }
+            }, '以整章为目标（不含已标选学）')),
           c.rows.map(function (x) {
             return h('div', { class: 'topic-row', title: x.t.description },
               h('span', { class: 'nm', text: x.t.name }),
@@ -552,7 +552,8 @@
   function feedbackBlock(q) {
     return h('div', { class: 'feedback' },
       h('div', { class: 'refans' }, h('b', null, '参考答案：'), answerText(q)),
-      q.explanation ? h('div', { class: 'explain', id: 'explain' }, h('b', null, '解析：'), q.explanation) : null);
+      q.explanation ? h('div', { class: 'explain', id: 'explain' }, h('b', null, '解析：'), q.explanation) : null,
+      q.rubric ? h('div', { class: 'explain' }, h('b', null, '自评判据：'), h('ul', null, q.rubric.map(function (r) { return h('li', { text: r }); }))) : null);
   }
 
   function renderQuestion(item) {
@@ -1351,7 +1352,7 @@
         ((D.tree[vv[0]] || {}).chapters || []).forEach(function (ch) { if (ch.key === c.trim()) hit.push(ch); });
       });
       if (!hit.length) throw new Error('URL 参数 chapter 没有匹配的章节：' + c + '（格式如 “七上 第一章”）');
-      return { ids: hit[0].topics.map(function (x) { return x.t.id; }), label: hit[0].volume + ' ' + hit[0].label + '（整章）' };
+      return { ids: hit[0].topics.filter(function (x) { return x.t.curriculum_scope !== 'optional'; }).map(function (x) { return x.t.id; }), label: hit[0].volume + ' ' + hit[0].label + '（整章）' };
     }
     const grade = (params.get('grade') || '').trim();
     const volume = (params.get('volume') || '').trim();

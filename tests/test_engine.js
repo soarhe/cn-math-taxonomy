@@ -595,7 +595,7 @@ test('数据可加载：小学 216 + 初中 317 + 高中必修 143 + 选择性�
   const mathTopics = topics.filter((t) => String(t.id).startsWith('cnm_'));
   const mathDeps = deps.filter((d) => String(d.topicId).startsWith('cnm_'));
   assert.strictEqual(mathTopics.length, 804);
-  assert.strictEqual(mathDeps.length, 1301);
+  assert.strictEqual(mathDeps.length, 1304);
   assert.strictEqual(topics.filter((t) => t.external).length, 0);
   assert.strictEqual(mathTopics.filter((t) => t.grade <= 6).length, 216);
   assert.strictEqual(mathTopics.filter((t) => t.grade >= 7 && t.grade <= 9).length, 317);
@@ -1257,7 +1257,7 @@ test('gradeTargets：一年级 = 一上 + 一下，七上只含七上；写法�
   const want = formal.filter((t) => t.grade === 1).length;
   assert.strictEqual(g1.ids.length, want);
   const g7 = E.gradeTargets(RGQ, '七年级');
-  assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && String(t.id).startsWith('cnm_')).length);
+  assert.strictEqual(g7.ids.length, formal.filter((t) => t.grade === 7 && t.curriculum_scope !== 'optional' && String(t.id).startsWith('cnm_')).length);
   assert.ok(g7.ids.every((id) => id.startsWith('cnm_')));
   E.gradeTargets(RGQ, '七上').ids.forEach((id) => {
     const t = RGQ.byId[id];
@@ -1563,6 +1563,24 @@ test('版本兼容门禁拒绝旧数学/英语记录，不改写存档对象', (
   assert.strictEqual(E.canRestore({engineVersion:E.ENGINE_VERSION,dataVersion:'upstream'},'upstream'),true);
   assert.strictEqual(E.canRestore({engineVersion:E.ENGINE_VERSION,dataVersion:'old'},'new'),false);
   assert.strictEqual(JSON.stringify(old),before);
+});
+
+test('选学不进入年级默认筛查，仍可显式指定为目标', () => {
+  assert.ok(!E.gradeTargets(RGQ, '七年级').ids.includes('cnm_093'));
+  const s = E.createSession(RGQ, ['cnm_093']);
+  assert.strictEqual(E.nextItem(RGQ, s).topicId, 'cnm_093');
+});
+
+test('核心诊断不抽取已标注的拓展题，不能耗尽核心后回退拓展', () => {
+  const graph=E.buildGraph([mk('T')],[],[mq('T',1,'b'),mq('T',2,'b',{curriculum_scope:'supplementary'})]);
+  const s=E.applyAnswer(graph,E.createSession(graph,['T']),'T','wrong');
+  assert.strictEqual(E.pickQuestion(graph,s,'T',2),null);
+  assert.strictEqual(E.statusOf(s,'T'),'unknown');
+  assert.strictEqual(s.status.T.reason,'insufficient-items');
+  for(let seed=0;seed<50;seed++) {
+    const it=E.nextItem(RGQ,E.createSession(RGQ,['cnm_226'],{seed}));
+    assert.ok(!['cnm_226_q4','cnm_226_q5'].includes(it.question.id));
+  }
 });
 
 console.log('\n' + passed + ' passed, ' + failed + ' failed');

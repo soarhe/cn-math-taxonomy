@@ -1,0 +1,572 @@
+[
+  {
+    "questionId": "cnm_p097_q1",
+    "topicId": "cnm_p097",
+    "action": "replace-or-reclassify",
+    "contentSha256": "c6c0e98a1c477c377d84b28d08ecb3db5db7c82f4d1db4aeebf5b031dc044b65",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p097_q2",
+    "topicId": "cnm_p097",
+    "action": "replace-or-reclassify",
+    "contentSha256": "ca13f0950dd2b295db6a6cdb931c5f1fc46834fa3f07beb3ed89466f37774524",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p097_q3",
+    "topicId": "cnm_p097",
+    "action": "replace-or-reclassify",
+    "contentSha256": "b19f77c3a2bf26f7610e3ee1fcbbadbf2e88a522f69302e9872621d262f0688a",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "写126万",
+      "保留人数单位",
+      "说明等号与约等号的区别。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p097_q4",
+    "topicId": "cnm_p097",
+    "action": "replace-or-reclassify",
+    "contentSha256": "ac1870f33c022734c675deb7068813593135b1aafb4ebef98e4f677c8917627b",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p118_q1",
+    "topicId": "cnm_p118",
+    "action": "replace-or-reclassify",
+    "contentSha256": "ae3d3561c6864617df9474774df776b8710bf70e5b457d5ba98b922941c5d9de",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p118_q2",
+    "topicId": "cnm_p118",
+    "action": "replace-or-reclassify",
+    "contentSha256": "f871683956d5c379ba1773a3341d5856271b8f5c12487b2f83d4dc181c1c675b",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p118_q3",
+    "topicId": "cnm_p118",
+    "action": "replace-or-reclassify",
+    "contentSha256": "5484391f7809d68015d73c50fbc95f3c26f783809ddc81fb860c485d838363cb",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "写出0.25及单位",
+      "说明25份是25/100",
+      "解释十分位和百分位。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p118_q4",
+    "topicId": "cnm_p118",
+    "action": "replace-or-reclassify",
+    "contentSha256": "e86a9aae68889d49dc745f824d10f08a20c0ed7312f3a55049a242486f97a055",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p119_q1",
+    "topicId": "cnm_p119",
+    "action": "replace-or-reclassify",
+    "contentSha256": "d9d94b04966f702b83cf7d63ee4acdecbd897a909b9f1965333c8925086dc021",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p119_q2",
+    "topicId": "cnm_p119",
+    "action": "replace-or-reclassify",
+    "contentSha256": "b407b7dcc8a4353e523f32c48f389add7859696ce2b4213b948890bc2eccc2b2",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p119_q3",
+    "topicId": "cnm_p119",
+    "action": "replace-or-reclassify",
+    "contentSha256": "231d6423325e519ed3f247a0b4937ef191e816c8af94fc3ef028ffc546465dbd",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "否定按小数位数判断",
+      "对齐数位比较",
+      "可用分数或数轴作等价解释。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p119_q4",
+    "topicId": "cnm_p119",
+    "action": "replace-or-reclassify",
+    "contentSha256": "502484313cc06f34fd39493d68bb11dc8ec10c27bb7fade5c91653da882105fb",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p121_q1",
+    "topicId": "cnm_p121",
+    "action": "replace-or-reclassify",
+    "contentSha256": "b83dd117dc3272c57eba7c2f80d65d70798bc9ef7580b35beb56f71bae96c3e1",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p121_q2",
+    "topicId": "cnm_p121",
+    "action": "replace-or-reclassify",
+    "contentSha256": "cd8200b290c2de6ee0fa1f252000ea774c79f82ddcd72bc1d3a4fa21de22c6d4",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p121_q3",
+    "topicId": "cnm_p121",
+    "action": "replace-or-reclassify",
+    "contentSha256": "306a176a81d01c4e1c59b3d99ee4e13d1bc24eef7cc09a8a30c81923b6b2007e",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_p121_q4",
+    "topicId": "cnm_p121",
+    "action": "replace-or-reclassify",
+    "contentSha256": "56323ec907973ffadcf431b2cc0e02a7fed1d8d26fe13e468b1580b31db5f5f7",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_022_q5",
+    "topicId": "cnm_022",
+    "action": "replace-or-reclassify",
+    "contentSha256": "f5c6a550d206d53942db0bed8029cb044efbdb154ea79a219d438e7508e8fdd6",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "依据给定说明解释E6",
+      "还原为3200000",
+      "不假定所有设备按键相同。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_023_q1",
+    "topicId": "cnm_023",
+    "action": "replace-or-reclassify",
+    "contentSha256": "fb065cedc79dd99ad7d39875a393552e8c8499d5a6484dcf497c956b902d4948",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_023_q3",
+    "topicId": "cnm_023",
+    "action": "replace-or-reclassify",
+    "contentSha256": "b2e14fd2eeaaed8bc1f31f59e86aa89bf29e2891c910eafbabceabd635413b24",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_023_q4",
+    "topicId": "cnm_023",
+    "action": "replace-or-reclassify",
+    "contentSha256": "681319c5a449120c40884dd69006370305dd82a8b418b56757bf2aae7350e961",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "输入对应数量关系",
+      "记录98.28",
+      "按题意保留一位小数得98.3元，不在中间步骤提前取近似。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_075_q2",
+    "topicId": "cnm_075",
+    "action": "replace-or-reclassify",
+    "contentSha256": "0041c48436022fe2d6b66647bde86057f35447cde274195199bfb9f9ff7d53ce",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_167_q1",
+    "topicId": "cnm_167",
+    "action": "replace-or-reclassify",
+    "contentSha256": "9dec8e6fb785a58604a95d13eae63e0b0eb3eeb82b590b49dd32af37c26a1da5",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_167_q2",
+    "topicId": "cnm_167",
+    "action": "replace-or-reclassify",
+    "contentSha256": "147516cd135a2457d4beb965c146497a9ff8f2546ca8be13c73cd8840683c48e",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_167_q3",
+    "topicId": "cnm_167",
+    "action": "replace-or-reclassify",
+    "contentSha256": "c4f04ae7d5d77563deb9d3d0e2f4c4ef4297678c85547e543979c2a1096f8353",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "用平方与开方的关系解释0",
+      "说明实数平方的非负性",
+      "不把“负数没有立方根”混入结论。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_167_q4",
+    "topicId": "cnm_167",
+    "action": "replace-or-reclassify",
+    "contentSha256": "f1db0d7a20d617468b94b5aecb05af262e8a5df8e7d1b620b0ed03405e064320",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "supplementary",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_226_q3",
+    "topicId": "cnm_226",
+    "action": "replace-or-reclassify",
+    "contentSha256": "7dff8f59fb4095d2d2365062e182441d49c220a29fecf8f1d86e52911d46d52a",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "正确识别带符号系数",
+      "分别核对和与积",
+      "说明这是简单实例核对，不是对所有方程的一般证明。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_226_q4",
+    "topicId": "cnm_226",
+    "action": "replace-or-reclassify",
+    "contentSha256": "3bb8f25b7cefde386088b882e685975f11c6405f6dbe7ab58329078af441fda0",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "supplementary",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_226_q5",
+    "topicId": "cnm_226",
+    "action": "replace-or-reclassify",
+    "contentSha256": "626e24481fef8e2c1deb3646309ea47ab7b7ef163f150a6790881f9dabd19a82",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "supplementary",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_018_q6",
+    "topicId": "cnm_018",
+    "action": "add",
+    "contentSha256": "da5a4c68990ba587b81c1ba27bc3e98da8531801170f60310c98c5efbc518d35",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "列式包含初值、升温和降温",
+      "结果为-2℃",
+      "解释为低于0℃而非“下降了2℃”。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_018_q7",
+    "topicId": "cnm_018",
+    "action": "add",
+    "contentSha256": "a7194c6e0a9d9a09899c079e833f09ef151f8d82e4aaca930d18e823eae98e07",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "把亏损记为负数",
+      "正确列式并得14元",
+      "区分总利润和第四天营业额。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_023_q6",
+    "topicId": "cnm_023",
+    "action": "add",
+    "contentSha256": "ce3551798e14c9ab7d98e8a46a65b16cb01da855e7c53478e9f87ef2ea478bd8",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "识别除法结果约4.17",
+      "核对4辆容量不足",
+      "实际情境应向上取整，不能机械四舍五入。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_027_q5",
+    "topicId": "cnm_027",
+    "action": "add",
+    "contentSha256": "af4323d53ce0e7e1e94493244cf71a6456923379b6ec9843c185a2a047a662a1",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "从资料卡选择周长公式而非面积公式",
+      "写出2(a+b)-2",
+      "注明来源①并说明入口条件。这仅检验给定资料选择，不能替代自主检索。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_027_q6",
+    "topicId": "cnm_027",
+    "action": "add",
+    "contentSha256": "b62d244661365e72e7e6a45701796d414b86086f4ea33d04506398357f3b72c4",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "提供可核验来源而非虚构页码",
+      "选对公式并解释垂直高",
+      "代入得15平方米。需要教师或他人核查真实检索过程。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_039_q5",
+    "topicId": "cnm_039",
+    "action": "add",
+    "contentSha256": "f548f82bde211020689db47a1cfab4f1e2e2a7f26677760352e9edc8a3e36206",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "算出14和17",
+      "比较它们与16",
+      "结合左边的变化解释4<x<5，而不是只报精确解。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_039_q6",
+    "topicId": "cnm_039",
+    "action": "add",
+    "contentSha256": "500009a09d00527b48d307e22ec1699de3315fb3e83d684dcdf7559d718e439a",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "从情境列出5+3t=19",
+      "给出两次试值",
+      "解释真实时长在4至5小时之间。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_074_q6",
+    "topicId": "cnm_074",
+    "action": "add",
+    "contentSha256": "0d2a3b24265a4a895850c18ca73293d510fca6cdef1129257722c973a4f67b97",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_074_q7",
+    "topicId": "cnm_074",
+    "action": "add",
+    "contentSha256": "41217145d531706a2f062ddddf7a4b9b63c22dc6e347a4794372f80b3aef02a6",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "指出非负包含0",
+      "用0给出反例",
+      "区分±3和3。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_075_q5",
+    "topicId": "cnm_075",
+    "action": "add",
+    "contentSha256": "89550f4b5fa16c48b07f1141da130c62217e735923438aa08ce37e327b73f893",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "记录实际输入与输出",
+      "正确取近似为2.65",
+      "用4<7<9作合理性检查。只报2.65不足以证明会操作计算器。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_075_q6",
+    "topicId": "cnm_075",
+    "action": "add",
+    "contentSha256": "f3b27434fffac896b784a2c492234f7ca7a4bd982e9c1a4f7e37cdd140697a93",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "列出边长平方为50",
+      "记录计算器过程并取7.1",
+      "依据长度意义排除负值。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_076_q6",
+    "topicId": "cnm_076",
+    "action": "add",
+    "contentSha256": "a6644d2186bfa62e4768d4feef15d10803f0ce1e4e969666cdc6391b837f1884",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "记录立方根运算输入",
+      "取近似为2.71",
+      "用立方比较检查。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_076_q7",
+    "topicId": "cnm_076",
+    "action": "add",
+    "contentSha256": "ad8ea465d862f48299f204dd77058cb8613bfe404cd93ac267c3a29be53eefcc",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "正确处理负号",
+      "记录计算过程并得到-2.15",
+      "说明(-a)³=-a³而不是误用平方根限制。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_226_q6",
+    "topicId": "cnm_226",
+    "action": "add",
+    "contentSha256": "c779d2db25d6b8f4df9a4c1cefb356a31654c3eddfb27f40e53b036020525c2f",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "指出实数范围无解",
+      "说明形式上的-b/a、c/a不能证明实根存在",
+      "接受用平方非负性或判别式说明。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_234_q5",
+    "topicId": "cnm_234",
+    "action": "add",
+    "contentSha256": "a164767424036ab1199c46393edf260338b509db1459f0817af69bce4f23dc67",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "找出两个x轴交点",
+      "读出两个横坐标为约-1.4和1.4，允许图上合理读数误差",
+      "说明图象给出的是近似解而非精确值。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_234_q6",
+    "topicId": "cnm_234",
+    "action": "add",
+    "contentSha256": "28f931756980712428cbe3a2e373d7723f04d33edcd7df420bd4a68d552d8785",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "找出两个x轴交点",
+      "读出两个横坐标为约-1.7和1.7，允许图上合理读数误差",
+      "说明图象给出的是近似解而非精确值。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_238_q5",
+    "topicId": "cnm_238",
+    "action": "add",
+    "contentSha256": "8ebfae599e8a18095ed7d73c51011564a3cc0c1ae321f7701d9b37ae4b2e5db6",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "计算两点函数值",
+      "用反例否定全定义域递减",
+      "给出各分支内递减的准确表述。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_238_q6",
+    "topicId": "cnm_238",
+    "action": "add",
+    "contentSha256": "a3b430f132b8abf531eeca2512a263afa21ced3b05abed16ea2001e7576e4bdf",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "列表值正确",
+      "在两象限分别平滑连接各自点",
+      "标明x=0无定义并不跨0连接。需检查实际绘图，报出数表不能单独证明会画图。"
+    ],
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_022_q6",
+    "topicId": "cnm_022",
+    "action": "add",
+    "contentSha256": "9b7b3aa46ddbaf660c372c186b2fb1d8c06d998baa9d293123414958fb8e6c57",
+    "checking": "assistant-semantic-check; numeric invariants in tests/test_algebra_build.py; verify expressions are not independent blind solving",
+    "scope": "required-task-candidate",
+    "rubric": [
+      "说明设备与真实操作",
+      "显示或写出5.4×10⁷",
+      "不把文字报告等同于已经核验操作。"
+    ],
+    "expertReviewed": false
+  }
+]

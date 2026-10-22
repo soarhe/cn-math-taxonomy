@@ -1,0 +1,372 @@
+[
+  {
+    "topicId": "cnm_018",
+    "name": "有理数的加减乘除混合运算",
+    "action": "revise-retain-id",
+    "finding": "新增两类实际情境及解释任务后补 NA.05 引用；不以补引用代替任务。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_018_q6",
+      "cnm_018_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_018_q6",
+      "cnm_018_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_023",
+    "name": "近似数与精确度",
+    "action": "revise-retain-id",
+    "finding": "核心改为近似数、精确度与实际近似计算；原有效数字题面替换，不把未列出的术语列成必修门槛。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_023_q1",
+      "cnm_023_q3",
+      "cnm_023_q4",
+      "cnm_023_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_023_q1",
+      "cnm_023_q3",
+      "cnm_023_q4",
+      "cnm_023_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_027",
+    "name": "列代数式",
+    "action": "revise-retain-id",
+    "finding": "补资料查阅与公式选择的过程证据；单纯代入题不承担该子能力。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_027_q5",
+      "cnm_027_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_027_q5",
+      "cnm_027_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_039",
+    "name": "方程与方程的解",
+    "action": "revise-retain-id",
+    "finding": "补经历估计方程解的过程；保留求解与验解的不同证据。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_039_q5",
+      "cnm_039_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_039_q5",
+      "cnm_039_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_074",
+    "name": "平方根与算术平方根",
+    "action": "revise-retain-id",
+    "finding": "补算术平方根的非负性和0边界；避免“正的平方根”定义遗漏0。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_074_q6",
+      "cnm_074_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_074_q6",
+      "cnm_074_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_075",
+    "name": "开平方与平方根的求法",
+    "action": "revise-retain-id",
+    "finding": "补计算器操作证据，核心手算限定百以内完全平方数；保留数字根式化简。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_075_q2",
+      "cnm_075_q5",
+      "cnm_075_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_075_q2",
+      "cnm_075_q5",
+      "cnm_075_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_076",
+    "name": "立方根",
+    "action": "revise-retain-id",
+    "finding": "补立方与开立方的逆关系和计算器证据；平方根仅作类比，不作为硬先修。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_076_q6",
+      "cnm_076_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_076_q6",
+      "cnm_076_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_093",
+    "name": "三元一次方程组（选学）",
+    "action": "revise-retain-id",
+    "finding": "源文带星号，标为选学、不作为考试要求；保留教材位置但不伪称必修。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [],
+    "evidenceQuestionIds": [],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_146",
+    "name": "多项式乘多项式",
+    "action": "revise-retain-id",
+    "finding": "把核心运算范围写入节点，避免无上限多项式乘法。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [],
+    "evidenceQuestionIds": [],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_154",
+    "name": "综合运用因式分解",
+    "action": "revise-retain-id",
+    "finding": "明确公式法直接利用公式不超过二次；不引入任意高次技巧作为核心要求。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [],
+    "evidenceQuestionIds": [],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_167",
+    "name": "二次根式的概念与数值条件",
+    "action": "revise-retain-id",
+    "finding": "NA.13核心根号下仅限于数；重设核心样题，保留原符号范围题q4为明确拓展。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_167_q1",
+      "cnm_167_q2",
+      "cnm_167_q3",
+      "cnm_167_q4"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_167_q1",
+      "cnm_167_q2",
+      "cnm_167_q3"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_226",
+    "name": "一元二次方程根与系数的关系",
+    "action": "revise-retain-id",
+    "finding": "取消整节点拓展标签；核心为了解根与系数关系和条件，复杂对称式另列拓展。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_226_q3",
+      "cnm_226_q4",
+      "cnm_226_q5",
+      "cnm_226_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_226_q3",
+      "cnm_226_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_234",
+    "name": "二次函数与一元二次方程",
+    "action": "revise-retain-id",
+    "finding": "补真实函数图象读近似解的任务；不把求精确根替代图象估计。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_234_q5",
+      "cnm_234_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_234_q5",
+      "cnm_234_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_238",
+    "name": "反比例函数的图象与性质",
+    "action": "revise-retain-id",
+    "finding": "明确增减性只在每个分支内；补不能跨越0推广的反例及绘图任务。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_238_q5",
+      "cnm_238_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_238_q5",
+      "cnm_238_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_022",
+    "name": "科学记数法",
+    "action": "revise-retain-id",
+    "finding": "补计算器科学记数法显示的读写证据，保留小数科学记数法在164。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_022_q5",
+      "cnm_022_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_022_q5",
+      "cnm_022_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_p121",
+    "name": "求小数的近似数",
+    "action": "revise-retain-id",
+    "finding": "原题泄露取舍步骤，最终只测个位加法；四题均改成直接取近似或解释精度。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_p121_q1",
+      "cnm_p121_q2",
+      "cnm_p121_q3",
+      "cnm_p121_q4"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_p121_q1",
+      "cnm_p121_q2",
+      "cnm_p121_q3",
+      "cnm_p121_q4"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_p118",
+    "name": "小数的意义",
+    "action": "revise-retain-id",
+    "finding": "用小数单位、数位和分数表示检验意义；不再只测小数加减。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_p118_q1",
+      "cnm_p118_q2",
+      "cnm_p118_q3",
+      "cnm_p118_q4"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_p118_q1",
+      "cnm_p118_q2",
+      "cnm_p118_q3",
+      "cnm_p118_q4"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_p119",
+    "name": "比较小数的大小",
+    "action": "revise-retain-id",
+    "finding": "替换只求差的代理题，直接比较或解释小数大小。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_p119_q1",
+      "cnm_p119_q2",
+      "cnm_p119_q3",
+      "cnm_p119_q4"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_p119_q1",
+      "cnm_p119_q2",
+      "cnm_p119_q3",
+      "cnm_p119_q4"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  },
+  {
+    "topicId": "cnm_p097",
+    "name": "大数的改写和近似",
+    "action": "revise-retain-id",
+    "finding": "补单位改写与四舍五入直接任务，不把除以10000当作全部能力。",
+    "reviewScope": "目标能力边界和本批修改题目；不声称全题库已审完",
+    "changedQuestionIds": [
+      "cnm_p097_q1",
+      "cnm_p097_q2",
+      "cnm_p097_q3",
+      "cnm_p097_q4"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_p097_q1",
+      "cnm_p097_q2",
+      "cnm_p097_q3",
+      "cnm_p097_q4"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked"
+  }
+]

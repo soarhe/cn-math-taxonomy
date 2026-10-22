@@ -141,7 +141,7 @@
 
   /* ------------------------------------------------------------------ 会话 */
 
-  const ENGINE_VERSION = 'evidence-1';
+  const ENGINE_VERSION = 'evidence-1.1';
   const RESULTS = { correct: 1, wrong: 1, skip: 1, defer: 1 };
   const DEFAULT_LIMIT = 16;
   const SCREEN_LIMIT = 40;
@@ -213,7 +213,7 @@
   function pickQuestion(graph, session, id, attempt) {
     const all = graph.bank[id] || [];
     const tried = (session.attempts[id] || []).map(function (a) { return a.qid; });
-    const pool = all.filter(function (q) { return tried.indexOf(q.id) < 0; });
+    const pool = all.filter(function (q) { return tried.indexOf(q.id) < 0 && q.curriculum_scope !== 'supplementary'; });
     if (!pool.length) return null;
     const avoid = new Set(session.avoid || []);
     const freshFirst = function (list) {
@@ -586,7 +586,7 @@
     }
     if (!volumes) return null;
     const ids = graph.topics.filter(function (t) {
-      if (t.external) return false;
+      if (t.external || t.curriculum_scope === 'optional') return false;
       if (subj !== 'all' && subjectOf(t) !== subj) return false;
       return volumes.indexOf(parseChapter(t.chapter).volume) >= 0;
     }).map(function (t) { return t.id; });
