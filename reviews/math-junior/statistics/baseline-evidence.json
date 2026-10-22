@@ -1,0 +1,756 @@
+{
+  "baselineCommit": "97b7b8c684fc82fb4d3037d4074555174a9a79f1",
+  "topics": [
+    {
+      "id": "cnm_104",
+      "name": "样本的代表性与随机抽样",
+      "domain": "统计与概率",
+      "grade": 7,
+      "semester": "下",
+      "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+      "type": "reasoning",
+      "description": "认识抽样要具有代表性和随机性，能判断抽样方式是否合理。",
+      "mastery_criteria": [
+        "能指出有偏差的抽样方式",
+        "能设计简单的随机抽样"
+      ],
+      "diagnostic_question": {
+        "question": "只调查校篮球队队员的身高能代表全校吗？",
+        "answer": "不能，样本不具代表性"
+      },
+      "external": false,
+      "standards": [
+        {
+          "id": "cms-2022:4.SP.01",
+          "confidence": "exact"
+        }
+      ]
+    },
+    {
+      "id": "cnm_216",
+      "name": "数据的四分位数",
+      "domain": "统计与概率",
+      "grade": 8,
+      "semester": "下",
+      "chapter": "八下 第二十四章 数据的分析 24.3",
+      "type": "conceptual",
+      "description": "把数据分成四等份的三个分点叫四分位数，可用来描述数据的分布范围。",
+      "mastery_criteria": [
+        "能求四分位数",
+        "能解释四分位距"
+      ],
+      "diagnostic_question": {
+        "question": "数据 1~8，按“两半数据各取中位数”方法求第一、第三四分位数。",
+        "answer": "2.5 与 6.5"
+      },
+      "external": false,
+      "standards": [
+        {
+          "id": "cms-2022:4.SP.09",
+          "confidence": "exact"
+        }
+      ]
+    },
+    {
+      "id": "cnm_285",
+      "name": "概率的意义与等可能事件的概率",
+      "domain": "统计与概率",
+      "grade": 9,
+      "semester": "下",
+      "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
+      "type": "conceptual",
+      "description": "概率是衡量随机事件发生可能性大小的数，等可能事件的概率等于所求结果数除以总结果数。",
+      "mastery_criteria": [
+        "能说出概率的取值范围",
+        "能计算简单的等可能事件概率"
+      ],
+      "diagnostic_question": {
+        "question": "袋中 3 红 2 白，摸出红球的概率？",
+        "answer": "3/5"
+      },
+      "external": false,
+      "standards": [
+        {
+          "id": "cms-2022:4.SP.12",
+          "confidence": "exact"
+        }
+      ]
+    },
+    {
+      "id": "cnm_288",
+      "name": "用频率估计概率",
+      "domain": "统计与概率",
+      "grade": 9,
+      "semester": "下",
+      "chapter": "九下 第三十四章 随机事件的概率 34.3",
+      "type": "conceptual",
+      "description": "大量重复试验中，事件发生的频率稳定于概率，可用频率估计概率。",
+      "mastery_criteria": [
+        "能说明频率与概率的区别",
+        "能由试验数据估计概率"
+      ],
+      "diagnostic_question": {
+        "question": "抛硬币 1000 次，正面 505 次，估计正面概率？",
+        "answer": "约 0.5"
+      },
+      "external": false,
+      "standards": [
+        {
+          "id": "cms-2022:4.SP.13",
+          "confidence": "exact"
+        }
+      ]
+    },
+    {
+      "id": "cnm_298",
+      "name": "简单随机抽样的实施（抽签法与随机数）",
+      "domain": "统计与概率",
+      "grade": 7,
+      "semester": "下",
+      "chapter": "七下 第十二章 数据的收集、整理与描述 12.1.2",
+      "type": "procedural",
+      "description": "按随机原则抽取样本，用抽签法或随机数（随机数表、计算器产生的随机数）使每个个体被抽到的机会相等。",
+      "mastery_criteria": [
+        "能按步骤用抽签法或随机数从总体中抽取样本",
+        "能说明这样做为什么使每个个体机会均等"
+      ],
+      "diagnostic_question": {
+        "question": "从编号 1～50 的 50 名学生中抽取 5 人，用抽签法应怎样做？",
+        "answer": "把 50 个编号分别写在大小形状相同的纸签上，充分搅匀后随机抽出 5 张，对应编号的学生入样"
+      },
+      "external": false,
+      "standards": [
+        {
+          "id": "cms-2022:4.SP.01",
+          "confidence": "exact"
+        }
+      ]
+    },
+    {
+      "id": "cnm_305",
+      "name": "箱线图的读取与比较",
+      "domain": "统计与概率",
+      "grade": 8,
+      "semester": "下",
+      "chapter": "八下 第二十四章 数据的分析 24.3",
+      "type": "conceptual",
+      "description": "用最小值、第一四分位数、中位数、第三四分位数、最大值画成的箱线图，读出数据的中心与分散情况并比较两组数据。（箱线图是否为教材必学内容待核。）",
+      "mastery_criteria": [
+        "能说出箱线图各部分对应的五个统计量",
+        "能由箱线图比较两组数据的中位数与离散程度"
+      ],
+      "diagnostic_question": {
+        "question": "某箱线图中最小值 40、第一四分位数 55、中位数 60、第三四分位数 70、最大值 90，四分位距是多少？",
+        "answer": "15"
+      },
+      "external": false,
+      "standards": [
+        {
+          "id": "cms-2022:4.SP.09",
+          "confidence": "exact"
+        }
+      ]
+    },
+    {
+      "id": "cnm_309",
+      "name": "等可能性与古典概型的判断",
+      "domain": "统计与概率",
+      "grade": 9,
+      "semester": "下",
+      "chapter": "九下 第三十四章 随机事件的概率 34.1.2",
+      "type": "reasoning",
+      "description": "判断一次试验的所有结果是否有限且发生的可能性相等，只有满足这两点才能用 P=m/n 计算概率。",
+      "mastery_criteria": [
+        "能判断试验结果是否有限且等可能",
+        "能说明不等可能时不能直接套用公式"
+      ],
+      "diagnostic_question": {
+        "question": "抛一枚不均匀的骰子，能否用 1/6 作为出现 6 点的概率？为什么？",
+        "answer": "不能，各点数出现的可能性不相等，不满足等可能"
+      },
+      "external": false,
+      "standards": [
+        {
+          "id": "cms-2022:4.SP.12",
+          "confidence": "inferred",
+          "note": "等可能性的判断见学业要求对简单随机事件特征的描述"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "topicId": "cnm_285",
+      "prerequisiteId": "cnm_p165",
+      "strength": "hard",
+      "reason": "学习「概率的意义与等可能事件的概率」需要先会小学的「分数的意义」。概率用分数表示可能性大小，需要先理解分数的意义与运算。"
+    },
+    {
+      "topicId": "cnm_104",
+      "prerequisiteId": "cnm_103",
+      "strength": "hard",
+      "reason": "讨论样本是否有代表性，必须先理解总体、个体和样本的概念"
+    },
+    {
+      "topicId": "cnm_216",
+      "prerequisiteId": "cnm_213",
+      "strength": "hard",
+      "reason": "四分位数基于中位数"
+    },
+    {
+      "topicId": "cnm_216",
+      "prerequisiteId": "cnm_215",
+      "strength": "soft",
+      "reason": "四分位数与方差、极差都用来描述数据的分布，学过方差有助于对比理解"
+    },
+    {
+      "topicId": "cnm_285",
+      "prerequisiteId": "cnm_284",
+      "strength": "hard",
+      "reason": "概率是对随机事件发生的可能性大小的度量，需要先会区分三类事件"
+    },
+    {
+      "topicId": "cnm_288",
+      "prerequisiteId": "cnm_285",
+      "strength": "hard",
+      "reason": "用频率估计概率要先理解概率是可能性大小的数值度量"
+    },
+    {
+      "topicId": "cnm_298",
+      "prerequisiteId": "cnm_104",
+      "strength": "hard",
+      "reason": "实施随机抽样前要先理解样本代表性与随机性的要求"
+    },
+    {
+      "topicId": "cnm_305",
+      "prerequisiteId": "cnm_216",
+      "strength": "hard",
+      "reason": "箱线图由四分位数画成，需要先掌握数据的四分位数"
+    },
+    {
+      "topicId": "cnm_305",
+      "prerequisiteId": "cnm_105",
+      "strength": "soft",
+      "reason": "箱线图也是一种统计图，读图和比较的经验有帮助"
+    },
+    {
+      "topicId": "cnm_309",
+      "prerequisiteId": "cnm_285",
+      "strength": "hard",
+      "reason": "判断能否用公式计算概率，要先理解等可能事件概率的含义"
+    },
+    {
+      "topicId": "cnm_288",
+      "prerequisiteId": "cnm_297",
+      "strength": "hard",
+      "reason": "用频率估计概率前要先理解频率（相对频数）的含义和计算"
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_104_q1",
+      "topicId": "cnm_104",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "只调查校篮球队队员的身高能代表全校吗？下列回答正确的是",
+      "answer": "A",
+      "choices": [
+        {
+          "key": "A",
+          "text": "不能，样本不具代表性"
+        },
+        {
+          "key": "B",
+          "text": "能，篮球队员也是学校的学生"
+        },
+        {
+          "key": "C",
+          "text": "能，只要调查的人数足够多"
+        }
+      ],
+      "explanation": "篮球队员身高普遍偏高，抽样不具随机性和代表性，会使结果偏大。"
+    },
+    {
+      "id": "cnm_104_q2",
+      "topicId": "cnm_104",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "为了解全校学生的平均身高，下列抽样方式最合理的是",
+      "answer": "D",
+      "choices": [
+        {
+          "key": "A",
+          "text": "只测各班班长"
+        },
+        {
+          "key": "B",
+          "text": "只测校篮球队队员"
+        },
+        {
+          "key": "C",
+          "text": "只测七年级学生"
+        },
+        {
+          "key": "D",
+          "text": "从全校学生名单中随机抽取 100 人"
+        }
+      ],
+      "explanation": "只有从全体学生中随机抽取，每名学生机会均等，样本才有代表性。"
+    },
+    {
+      "id": "cnm_104_q3",
+      "topicId": "cnm_104",
+      "difficulty": "standard",
+      "type": "choice",
+      "prompt": "某同学想了解全市市民每天的阅读时间，在图书馆门口随机拦住 100 名读者调查。这个调查的主要问题是",
+      "answer": "B",
+      "choices": [
+        {
+          "key": "A",
+          "text": "样本容量太大"
+        },
+        {
+          "key": "B",
+          "text": "样本多是爱阅读的人，结果会偏高，缺乏代表性"
+        },
+        {
+          "key": "C",
+          "text": "没有问题，因为是随机拦住的"
+        },
+        {
+          "key": "D",
+          "text": "应该只调查老年人"
+        }
+      ],
+      "explanation": "图书馆门口的人本来就更爱阅读，样本只覆盖了一部分人群，结果会偏高，不能代表全市市民。"
+    },
+    {
+      "id": "cnm_104_q4",
+      "topicId": "cnm_104",
+      "difficulty": "advanced",
+      "type": "choice",
+      "prompt": "关于样本的代表性，下列说法正确的是",
+      "answer": "A",
+      "choices": [
+        {
+          "key": "A",
+          "text": "只要从总体中随机抽取，并且样本容量适当，样本就能较好地反映总体"
+        },
+        {
+          "key": "B",
+          "text": "样本容量越大，样本就一定越有代表性，与抽取方式无关"
+        },
+        {
+          "key": "C",
+          "text": "抽取的样本都是熟人，这样更方便也更有代表性"
+        }
+      ],
+      "explanation": "代表性取决于抽取方式是否随机以及样本容量是否适当；抽样方式有偏差时，人再多也不一定有代表性。"
+    },
+    {
+      "id": "cnm_216_q1",
+      "topicId": "cnm_216",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "数据 1~8，按“两半数据各取中位数”方法求第一、第三四分位数。（数据为 1、2、…、8，依次写第一、第三四分位数，用逗号隔开）",
+      "answer": "2.5，6.5",
+      "explanation": "前半 1、2、3、4 的中位数是 2.5，后半 5、6、7、8 的中位数是 6.5。",
+      "verify": "[median([1,2,3,4]), median([5,6,7,8])]"
+    },
+    {
+      "id": "cnm_216_q2",
+      "topicId": "cnm_216",
+      "difficulty": "basic",
+      "type": "numeric",
+      "prompt": "数据 2、4、6、8 的第二四分位数（即中位数）是多少？",
+      "answer": "5",
+      "explanation": "共 4 个数，中位数是中间两数 4 和 6 的平均数，即 5。",
+      "verify": "median([2,4,6,8])"
+    },
+    {
+      "id": "cnm_216_q3",
+      "topicId": "cnm_216",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "已排序数据 3、5、6、8、9、12、14、15，求四分位距（第三四分位数减第一四分位数；前后各 4 个数据分别取中位数）。",
+      "answer": "7.5",
+      "explanation": "前半 3、5、6、8 的中位数为 5.5，后半 9、12、14、15 的中位数为 13，四分位距=13-5.5=7.5。",
+      "verify": "median([9,12,14,15])-median([3,5,6,8])"
+    },
+    {
+      "id": "cnm_216_q4",
+      "topicId": "cnm_216",
+      "difficulty": "advanced",
+      "type": "numeric",
+      "prompt": "已排序数据 2、4、5、7、9、11、12（共 7 个）。数据个数为奇数时，去掉中位数本身，前后各 3 个数据分别取中位数得第一、第三四分位数。求四分位距。",
+      "answer": "7",
+      "explanation": "中位数 7 去掉后，前半 2、4、5 的中位数为 4，后半 9、11、12 的中位数为 11，四分位距=11-4=7。",
+      "verify": "median([9,11,12])-median([2,4,5])"
+    },
+    {
+      "id": "cnm_216_q5",
+      "topicId": "cnm_216",
+      "difficulty": "standard",
+      "type": "choice",
+      "prompt": "四分位距越大，说明（ ）",
+      "choices": [
+        {
+          "key": "A",
+          "text": "中间 50% 的数据越分散"
+        },
+        {
+          "key": "B",
+          "text": "中间 50% 的数据越集中"
+        },
+        {
+          "key": "C",
+          "text": "数据的平均数越大"
+        }
+      ],
+      "answer": "A",
+      "explanation": "四分位距是第三四分位数与第一四分位数之差，反映中间 50% 数据的分布范围，越大越分散。"
+    },
+    {
+      "id": "cnm_285_q1",
+      "topicId": "cnm_285",
+      "difficulty": "basic",
+      "type": "numeric",
+      "prompt": "袋中 3 红 2 白，摸出红球的概率？（球除颜色外完全相同，随机摸出一个，结果写成最简分数）",
+      "answer": "3/5",
+      "explanation": "共有 3+2=5 个等可能结果，其中红球 3 个，概率为 3/5。",
+      "verify": "Fraction(3,3+2)"
+    },
+    {
+      "id": "cnm_285_q2",
+      "topicId": "cnm_285",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "对于任意事件，它的概率 P 的取值范围是下面哪一个？",
+      "choices": [
+        {
+          "key": "A",
+          "text": "P≥0"
+        },
+        {
+          "key": "B",
+          "text": "0<P<1"
+        },
+        {
+          "key": "C",
+          "text": "P≤1"
+        },
+        {
+          "key": "D",
+          "text": "0≤P≤1"
+        }
+      ],
+      "answer": "D",
+      "explanation": "不可能事件的概率是 0，必然事件的概率是 1，随机事件的概率在 0 与 1 之间，所以任意事件的概率满足 0≤P≤1。"
+    },
+    {
+      "id": "cnm_285_q3",
+      "topicId": "cnm_285",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "不透明的袋子里有 2 个红球、5 个黄球、4 个蓝球，球除颜色外完全相同。随机摸出一个球，摸到的不是黄球的概率是多少？（结果写成最简分数）",
+      "answer": "6/11",
+      "explanation": "球共 2+5+4=11 个，不是黄球的有 2+4=6 个，概率为 6/11。",
+      "verify": "Fraction(2+4,2+5+4)"
+    },
+    {
+      "id": "cnm_285_q4",
+      "topicId": "cnm_285",
+      "difficulty": "advanced",
+      "type": "numeric",
+      "prompt": "袋中有 3 个红球和若干个白球（球除颜色外完全相同），随机摸出一个球，摸到红球的概率为 1/4，则袋中有多少个白球？",
+      "answer": "9",
+      "explanation": "设球共 n 个，则 3/n=1/4，得 n=12，所以白球有 12-3=9 个。",
+      "verify": "3*4-3"
+    },
+    {
+      "id": "cnm_288_q1",
+      "topicId": "cnm_288",
+      "difficulty": "basic",
+      "type": "numeric",
+      "prompt": "抛硬币 1000 次，正面 505 次，估计正面概率？（结果保留一位小数）",
+      "answer": "0.5",
+      "explanation": "试验次数很大，频率 505/1000=0.505 可作为概率的估计值，保留一位小数为 0.5。",
+      "verify": "round(505/1000,1)"
+    },
+    {
+      "id": "cnm_288_q2",
+      "topicId": "cnm_288",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "关于频率与概率，下列说法正确的是哪一个？",
+      "choices": [
+        {
+          "key": "A",
+          "text": "大量重复试验中，事件发生的频率会稳定在概率附近"
+        },
+        {
+          "key": "B",
+          "text": "频率总是等于概率"
+        },
+        {
+          "key": "C",
+          "text": "只做 10 次试验，频率一定等于概率"
+        },
+        {
+          "key": "D",
+          "text": "概率会随试验次数的增加而改变"
+        }
+      ],
+      "answer": "A",
+      "explanation": "概率是固定的数，频率在试验中会波动，只有试验次数很大时频率才稳定在概率附近。"
+    },
+    {
+      "id": "cnm_288_q3",
+      "topicId": "cnm_288",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "一名篮球运动员投篮 150 次，投中 93 次。估计他投篮命中的概率（写成小数）。",
+      "answer": "0.62",
+      "explanation": "用频率估计概率：93÷150=0.62。",
+      "verify": "Fraction(93,150)"
+    },
+    {
+      "id": "cnm_288_q4",
+      "topicId": "cnm_288",
+      "difficulty": "advanced",
+      "type": "numeric",
+      "prompt": "不透明袋中装有红球和白球共 20 个（除颜色外相同）。每次摸出一个球，记录颜色后放回，大量重复试验后发现摸到红球的频率稳定在 0.3，估计袋中约有多少个红球？",
+      "answer": "6",
+      "explanation": "摸到红球的概率约为 0.3，所以红球约占 20×0.3=6 个。",
+      "verify": "20*Fraction(3,10)"
+    },
+    {
+      "id": "cnm_298_q1",
+      "topicId": "cnm_298",
+      "difficulty": "standard",
+      "type": "choice",
+      "prompt": "从编号 1～50 的 50 名学生中抽取 5 人，用抽签法应怎样做？下列做法正确的是",
+      "answer": "D",
+      "choices": [
+        {
+          "key": "A",
+          "text": "让老师挑选 5 名认为有代表性的学生"
+        },
+        {
+          "key": "B",
+          "text": "直接选编号 1～5 的学生"
+        },
+        {
+          "key": "C",
+          "text": "只把编号 1～10 写成纸签，从中抽 5 张"
+        },
+        {
+          "key": "D",
+          "text": "把 50 个编号分别写在大小形状相同的纸签上，充分搅匀后随机抽出 5 张"
+        }
+      ],
+      "explanation": "抽签法要求所有个体都有纸签，纸签完全相同并充分搅匀，随机抽取，这样每人被抽到的机会均等。"
+    },
+    {
+      "id": "cnm_298_q2",
+      "topicId": "cnm_298",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "用抽签法抽样时，每个个体被抽到的机会",
+      "answer": "B",
+      "choices": [
+        {
+          "key": "A",
+          "text": "与编号大小有关"
+        },
+        {
+          "key": "B",
+          "text": "相等"
+        },
+        {
+          "key": "C",
+          "text": "不相等"
+        }
+      ],
+      "explanation": "纸签相同、充分搅匀后随机抽取，每个个体被抽到的机会相等。"
+    },
+    {
+      "id": "cnm_298_q3",
+      "topicId": "cnm_298",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "用抽签法从 50 名学生中随机抽取 5 人，每名学生被抽到的可能性是多少？（写成最简分数）",
+      "answer": "1/10",
+      "explanation": "5÷50=1/10。",
+      "verify": "Fraction(5,50)"
+    },
+    {
+      "id": "cnm_298_q4",
+      "topicId": "cnm_298",
+      "difficulty": "advanced",
+      "type": "numeric",
+      "prompt": "用随机数表从编号 001～500 中抽样，依次读取三位数：063，582，063，417，298。超出编号范围或重复的数要舍去，被抽到的三个编号之和是多少？",
+      "answer": "778",
+      "explanation": "582 超出范围舍去，第二个 063 重复舍去，取 063、417、298，和为 63+417+298=778。",
+      "verify": "sum([[63,582,63,417,298][i] for i in range(5) if [63,582,63,417,298][i]<=500 and i!=2])"
+    },
+    {
+      "id": "cnm_305_q1",
+      "topicId": "cnm_305",
+      "difficulty": "basic",
+      "type": "numeric",
+      "prompt": "某箱线图中最小值 40、第一四分位数 55、中位数 60、第三四分位数 70、最大值 90，四分位距是多少？",
+      "answer": "15",
+      "explanation": "四分位距=第三四分位数-第一四分位数=70-55=15。",
+      "verify": "70-55"
+    },
+    {
+      "id": "cnm_305_q2",
+      "topicId": "cnm_305",
+      "difficulty": "basic",
+      "type": "numeric",
+      "prompt": "某箱线图中最小值 12，第一四分位数 20，中位数 25，第三四分位数 31，最大值 45，极差是多少？",
+      "answer": "33",
+      "explanation": "极差=最大值-最小值=45-12=33。",
+      "verify": "45-12"
+    },
+    {
+      "id": "cnm_305_q3",
+      "topicId": "cnm_305",
+      "difficulty": "standard",
+      "type": "choice",
+      "prompt": "甲、乙两组数据的中位数相同。甲组箱线图的第一、第三四分位数分别是 60、80，乙组是 65、75，则中间 50% 的数据更集中的是（ ）",
+      "choices": [
+        {
+          "key": "A",
+          "text": "甲组"
+        },
+        {
+          "key": "B",
+          "text": "无法比较"
+        },
+        {
+          "key": "C",
+          "text": "两组一样"
+        },
+        {
+          "key": "D",
+          "text": "乙组"
+        }
+      ],
+      "answer": "D",
+      "explanation": "甲组四分位距=80-60=20，乙组=75-65=10，乙组的箱子更短，中间 50% 的数据更集中。"
+    },
+    {
+      "id": "cnm_305_q4",
+      "topicId": "cnm_305",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "一组 40 个数据的箱线图中，第一四分位数为 35，第三四分位数为 60。落在第一四分位数与第三四分位数之间的数据大约有多少个？",
+      "answer": "20",
+      "explanation": "第一四分位数到第三四分位数之间（箱子部分）约含全部数据的 50%，即 40×50%=20 个。",
+      "verify": "40*Fraction(1,2)"
+    },
+    {
+      "id": "cnm_305_q5",
+      "topicId": "cnm_305",
+      "difficulty": "advanced",
+      "type": "numeric",
+      "prompt": "某箱线图的四分位距为 24，第三四分位数为 68，求第一四分位数。",
+      "answer": "44",
+      "explanation": "四分位距=第三四分位数-第一四分位数，所以第一四分位数=68-24=44。",
+      "verify": "68-24"
+    },
+    {
+      "id": "cnm_309_q1",
+      "topicId": "cnm_309",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "抛一枚不均匀的骰子，能否用 1/6 作为出现 6 点的概率？为什么？",
+      "choices": [
+        {
+          "key": "A",
+          "text": "能，因为骰子有 6 个面"
+        },
+        {
+          "key": "B",
+          "text": "不能，因为各点数出现的可能性不相等，不满足等可能"
+        },
+        {
+          "key": "C",
+          "text": "能，因为 6 点只有一种结果"
+        },
+        {
+          "key": "D",
+          "text": "不能，因为结果有无限多种"
+        }
+      ],
+      "answer": "B",
+      "explanation": "1/6 是用 P=m/n 算得的，要求所有结果等可能。骰子不均匀时各点数的可能性不相等，不能直接用 1/6。"
+    },
+    {
+      "id": "cnm_309_q2",
+      "topicId": "cnm_309",
+      "difficulty": "basic",
+      "type": "choice",
+      "prompt": "下列试验中，各个结果出现的可能性相等的是哪一个？",
+      "choices": [
+        {
+          "key": "A",
+          "text": "抛一枚图钉，钉尖朝上或朝下"
+        },
+        {
+          "key": "B",
+          "text": "某射手射击，中靶或不中靶"
+        },
+        {
+          "key": "C",
+          "text": "明天下雨或不下雨"
+        },
+        {
+          "key": "D",
+          "text": "掷一枚均匀的骰子，点数为 1～6"
+        }
+      ],
+      "answer": "D",
+      "explanation": "均匀骰子的 6 个点数出现的可能性相同；图钉、射击、天气的两种结果可能性一般不相等。"
+    },
+    {
+      "id": "cnm_309_q3",
+      "topicId": "cnm_309",
+      "difficulty": "standard",
+      "type": "numeric",
+      "prompt": "一个袋中有 1 个红球、2 个白球（除颜色外相同）。小明说：“只有红球、白球两种结果，所以摸到红球的概率是 1/2。”摸到红球的正确概率是多少？（结果写成最简分数）",
+      "answer": "1/3",
+      "explanation": "红球和白球的个数不同，“红”“白”两种结果不是等可能的。应按 3 个球逐个看，每个球被摸到的可能性相等，所以概率是 1/3。",
+      "verify": "Fraction(1,1+2)"
+    },
+    {
+      "id": "cnm_309_q4",
+      "topicId": "cnm_309",
+      "difficulty": "advanced",
+      "type": "choice",
+      "prompt": "下列试验中，可以直接用 P=m/n（m 为有利结果数，n 为所有等可能结果数）求概率的是哪一个？",
+      "choices": [
+        {
+          "key": "A",
+          "text": "从写有 1～10 的十张卡片中随机抽一张，抽到偶数"
+        },
+        {
+          "key": "B",
+          "text": "抛一枚图钉，钉尖朝上"
+        },
+        {
+          "key": "C",
+          "text": "从所有正整数中任取一个数，是偶数"
+        },
+        {
+          "key": "D",
+          "text": "某运动员投篮，命中"
+        }
+      ],
+      "answer": "A",
+      "explanation": "用 P=m/n 要求结果有限且等可能。A 满足；B、D 结果不等可能；C 结果有无限多个。"
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+[
+  {
+    "id": "cnm_102",
+    "name": "全面调查与抽样调查",
+    "questionIds": [
+      "cnm_102_q1",
+      "cnm_102_q2",
+      "cnm_102_q3",
+      "cnm_102_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_103",
+    "name": "总体、个体、样本与样本容量",
+    "questionIds": [
+      "cnm_103_q1",
+      "cnm_103_q2",
+      "cnm_103_q3",
+      "cnm_103_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_104",
+    "name": "样本的代表性与随机抽样",
+    "questionIds": [
+      "cnm_104_q1",
+      "cnm_104_q2",
+      "cnm_104_q3",
+      "cnm_104_q4"
+    ],
+    "cardIds": [
+      "S05"
+    ],
+    "reviewStatus": "representative-card-drafted"
+  },
+  {
+    "id": "cnm_105",
+    "name": "扇形图、条形图与折线图",
+    "questionIds": [
+      "cnm_105_q1",
+      "cnm_105_q2",
+      "cnm_105_q3",
+      "cnm_105_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_106",
+    "name": "频数分布表与数据分组",
+    "questionIds": [
+      "cnm_106_q1",
+      "cnm_106_q2",
+      "cnm_106_q3",
+      "cnm_106_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_107",
+    "name": "频数分布直方图",
+    "questionIds": [
+      "cnm_107_q1",
+      "cnm_107_q2",
+      "cnm_107_q3",
+      "cnm_107_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_108",
+    "name": "趋势图",
+    "questionIds": [
+      "cnm_108_q1",
+      "cnm_108_q2",
+      "cnm_108_q3",
+      "cnm_108_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_211",
+    "name": "平均数",
+    "questionIds": [
+      "cnm_211_q1",
+      "cnm_211_q2",
+      "cnm_211_q3",
+      "cnm_211_q4",
+      "cnm_211_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_212",
+    "name": "加权平均数",
+    "questionIds": [
+      "cnm_212_q1",
+      "cnm_212_q2",
+      "cnm_212_q3",
+      "cnm_212_q4",
+      "cnm_212_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_213",
+    "name": "中位数与众数",
+    "questionIds": [
+      "cnm_213_q1",
+      "cnm_213_q2",
+      "cnm_213_q3",
+      "cnm_213_q4",
+      "cnm_213_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_214",
+    "name": "集中趋势统计量的选择",
+    "questionIds": [
+      "cnm_214_q1",
+      "cnm_214_q2",
+      "cnm_214_q3",
+      "cnm_214_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_215",
+    "name": "极差、方差与标准差",
+    "questionIds": [
+      "cnm_215_q1",
+      "cnm_215_q2",
+      "cnm_215_q3",
+      "cnm_215_q4",
+      "cnm_215_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_216",
+    "name": "数据的四分位数",
+    "questionIds": [
+      "cnm_216_q1",
+      "cnm_216_q2",
+      "cnm_216_q3",
+      "cnm_216_q4",
+      "cnm_216_q5"
+    ],
+    "cardIds": [
+      "S02"
+    ],
+    "reviewStatus": "representative-card-drafted"
+  },
+  {
+    "id": "cnm_217",
+    "name": "数据的分组与由分组数据估计平均数",
+    "questionIds": [
+      "cnm_217_q1",
+      "cnm_217_q2",
+      "cnm_217_q3",
+      "cnm_217_q4",
+      "cnm_217_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_284",
+    "name": "随机事件、必然事件与不可能事件",
+    "questionIds": [
+      "cnm_284_q1",
+      "cnm_284_q2",
+      "cnm_284_q3",
+      "cnm_284_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_285",
+    "name": "概率的意义与等可能事件的概率",
+    "questionIds": [
+      "cnm_285_q1",
+      "cnm_285_q2",
+      "cnm_285_q3",
+      "cnm_285_q4"
+    ],
+    "cardIds": [
+      "S06"
+    ],
+    "reviewStatus": "representative-card-drafted"
+  },
+  {
+    "id": "cnm_286",
+    "name": "用列举法求概率",
+    "questionIds": [
+      "cnm_286_q1",
+      "cnm_286_q2",
+      "cnm_286_q3",
+      "cnm_286_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_287",
+    "name": "用列表法与树状图求概率",
+    "questionIds": [
+      "cnm_287_q1",
+      "cnm_287_q2",
+      "cnm_287_q3",
+      "cnm_287_q4",
+      "cnm_287_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_288",
+    "name": "用频率估计概率",
+    "questionIds": [
+      "cnm_288_q1",
+      "cnm_288_q2",
+      "cnm_288_q3",
+      "cnm_288_q4"
+    ],
+    "cardIds": [
+      "S07"
+    ],
+    "reviewStatus": "representative-card-drafted"
+  },
+  {
+    "id": "cnm_289",
+    "name": "概率的应用与游戏的公平性",
+    "questionIds": [
+      "cnm_289_q1",
+      "cnm_289_q2",
+      "cnm_289_q3",
+      "cnm_289_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_292",
+    "name": "数据收集的方法：问卷调查、实验与查阅资料",
+    "questionIds": [
+      "cnm_292_q1",
+      "cnm_292_q2",
+      "cnm_292_q3",
+      "cnm_292_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_293",
+    "name": "数据的分类整理与划记法、统计表",
+    "questionIds": [
+      "cnm_293_q1",
+      "cnm_293_q2",
+      "cnm_293_q3",
+      "cnm_293_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_294",
+    "name": "条形图与折线图的绘制",
+    "questionIds": [
+      "cnm_294_q1",
+      "cnm_294_q2",
+      "cnm_294_q3",
+      "cnm_294_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_295",
+    "name": "扇形图的绘制：百分比与圆心角的换算",
+    "questionIds": [
+      "cnm_295_q1",
+      "cnm_295_q2",
+      "cnm_295_q3",
+      "cnm_295_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_296",
+    "name": "统计图的误导与偏差辨识",
+    "questionIds": [
+      "cnm_296_q1",
+      "cnm_296_q2",
+      "cnm_296_q3",
+      "cnm_296_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_297",
+    "name": "频率（相对频数）的计算与意义",
+    "questionIds": [
+      "cnm_297_q1",
+      "cnm_297_q2",
+      "cnm_297_q3",
+      "cnm_297_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_298",
+    "name": "简单随机抽样的实施（抽签法与随机数）",
+    "questionIds": [
+      "cnm_298_q1",
+      "cnm_298_q2",
+      "cnm_298_q3",
+      "cnm_298_q4"
+    ],
+    "cardIds": [
+      "S05"
+    ],
+    "reviewStatus": "representative-card-drafted"
+  },
+  {
+    "id": "cnm_299",
+    "name": "用样本百分比估计总体数量",
+    "questionIds": [
+      "cnm_299_q1",
+      "cnm_299_q2",
+      "cnm_299_q3",
+      "cnm_299_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_300",
+    "name": "统计活动的基本过程",
+    "questionIds": [
+      "cnm_300_q1",
+      "cnm_300_q2",
+      "cnm_300_q3",
+      "cnm_300_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_301",
+    "name": "频数分布直方图的读图与分析",
+    "questionIds": [
+      "cnm_301_q1",
+      "cnm_301_q2",
+      "cnm_301_q3",
+      "cnm_301_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_302",
+    "name": "用样本平均数估计总体平均数",
+    "questionIds": [
+      "cnm_302_q1",
+      "cnm_302_q2",
+      "cnm_302_q3",
+      "cnm_302_q4",
+      "cnm_302_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_303",
+    "name": "极端值对平均数与中位数的影响",
+    "questionIds": [
+      "cnm_303_q1",
+      "cnm_303_q2",
+      "cnm_303_q3",
+      "cnm_303_q4",
+      "cnm_303_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_304",
+    "name": "用方差比较两组数据的稳定性",
+    "questionIds": [
+      "cnm_304_q1",
+      "cnm_304_q2",
+      "cnm_304_q3",
+      "cnm_304_q4",
+      "cnm_304_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_305",
+    "name": "箱线图的读取与比较",
+    "questionIds": [
+      "cnm_305_q1",
+      "cnm_305_q2",
+      "cnm_305_q3",
+      "cnm_305_q4",
+      "cnm_305_q5"
+    ],
+    "cardIds": [
+      "S03"
+    ],
+    "reviewStatus": "representative-card-drafted"
+  },
+  {
+    "id": "cnm_306",
+    "name": "用样本方差估计总体的稳定性",
+    "questionIds": [
+      "cnm_306_q1",
+      "cnm_306_q2",
+      "cnm_306_q3",
+      "cnm_306_q4",
+      "cnm_306_q5"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_307",
+    "name": "事件发生可能性大小的比较与排序",
+    "questionIds": [
+      "cnm_307_q1",
+      "cnm_307_q2",
+      "cnm_307_q3",
+      "cnm_307_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_308",
+    "name": "概率的取值范围与概率的性质",
+    "questionIds": [
+      "cnm_308_q1",
+      "cnm_308_q2",
+      "cnm_308_q3",
+      "cnm_308_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_309",
+    "name": "等可能性与古典概型的判断",
+    "questionIds": [
+      "cnm_309_q1",
+      "cnm_309_q2",
+      "cnm_309_q3",
+      "cnm_309_q4"
+    ],
+    "cardIds": [
+      "S06"
+    ],
+    "reviewStatus": "representative-card-drafted"
+  },
+  {
+    "id": "cnm_310",
+    "name": "放回与不放回摸球问题的区分",
+    "questionIds": [
+      "cnm_310_q1",
+      "cnm_310_q2",
+      "cnm_310_q3",
+      "cnm_310_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_311",
+    "name": "三步及以上试验用树状图求概率",
+    "questionIds": [
+      "cnm_311_q1",
+      "cnm_311_q2",
+      "cnm_311_q3",
+      "cnm_311_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_312",
+    "name": "用频率估计合格率、发芽率等实际概率",
+    "questionIds": [
+      "cnm_312_q1",
+      "cnm_312_q2",
+      "cnm_312_q3",
+      "cnm_312_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_313",
+    "name": "概率与统计图表综合问题",
+    "questionIds": [
+      "cnm_313_q1",
+      "cnm_313_q2",
+      "cnm_313_q3",
+      "cnm_313_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  },
+  {
+    "id": "cnm_314",
+    "name": "对概率意义的常见误解辨析",
+    "questionIds": [
+      "cnm_314_q1",
+      "cnm_314_q2",
+      "cnm_314_q3",
+      "cnm_314_q4"
+    ],
+    "cardIds": [],
+    "reviewStatus": "not-reviewed"
+  }
+]

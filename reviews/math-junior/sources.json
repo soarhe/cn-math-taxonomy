@@ -1,0 +1,50 @@
+{
+  "version": "batch-a.1",
+  "date": "2026-10-22",
+  "notes": "此来源表仅供review；不替换正式source元数据。PDF不提交仓库。",
+  "sources": [
+    {
+      "id": "math-2022-moe",
+      "title": "义务教育数学课程标准（2022年版）",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220510531636118932.pdf",
+      "hostRole": "教育部原始发布附件",
+      "retrievedAt": "2026-10-19",
+      "sha256": "1183b95c58a65eaac4c456f2d2b329bbe42f65a6482993edb537e3eaf8baa144",
+      "pdfPages": 189,
+      "pageOffset": 7,
+      "pageFormula": "PDF页码=印刷页码+7",
+      "visuallyCheckedPdfPagesThisBatch": [
+        81,
+        82
+      ],
+      "scope": "初中统计与概率13条内容要求及部分学业要求；其他页不在本批重新核对。"
+    },
+    {
+      "id": "math-2025-school-copy",
+      "title": "义务教育数学课程标准日常修订版（2022年版2025年修订）",
+      "url": "https://fxzx.qpedu.cn/wcm.files/upload/CMSfxzx/202603/202603180320047.pdf",
+      "landingUrl": "https://fxzx.qpedu.cn/jhzx/kcjs/kcbz/511597.htm",
+      "hostRole": "上海市青浦区凤溪中学官网转载；不是教育部原始下载地址",
+      "retrievedAt": "2026-10-22",
+      "sha256": "01f4a577f991c4a5c63eaeeed22008c0e99172d0d8771b3636efcacea7e4d601",
+      "pdfPages": 186,
+      "pageOffset": 3,
+      "pageFormula": "本文件PDF页码=印刷页码+3；仅已抽查页确认",
+      "visuallyCheckedPdfPagesThisBatch": [
+        76,
+        77,
+        78,
+        167,
+        168,
+        169
+      ],
+      "scope": "统计13条内容要求、统计学业要求、例85结尾与例86；尚未全科对照，未确认原始发布通知。",
+      "claimBoundary": "仅说明取得并核对学校转载文件相关页；不声称其与教育部原件逐字一致。"
+    }
+  ],
+  "knownMetadataIssues": [
+    "上游顶层title标2025修订而url仍指2022 PDF；新增逐版本记录，不沿用同一页码换算。",
+    "学校转载本统计要求始于印刷73/PDF76；2022本始于印刷74/PDF81。不同版本页码不能仅平移PDF偏移。",
+    "上游文档部分段落仍保留早期待核或缺项说明，后续应随审计同步修订。"
+  ]
+}

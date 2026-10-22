@@ -1,0 +1,54 @@
+{
+  "instructions": "用户或学科审核者填写；生成器不覆盖。null表示未作决定，不代表接受。",
+  "cards": [
+    {
+      "cardId": "S01",
+      "decision": null,
+      "reviewer": null,
+      "reviewedAt": null,
+      "comment": ""
+    },
+    {
+      "cardId": "S02",
+      "decision": null,
+      "reviewer": null,
+      "reviewedAt": null,
+      "comment": ""
+    },
+    {
+      "cardId": "S03",
+      "decision": null,
+      "reviewer": null,
+      "reviewedAt": null,
+      "comment": ""
+    },
+    {
+      "cardId": "S04",
+      "decision": null,
+      "reviewer": null,
+      "reviewedAt": null,
+      "comment": ""
+    },
+    {
+      "cardId": "S05",
+      "decision": null,
+      "reviewer": null,
+      "reviewedAt": null,
+      "comment": ""
+    },
+    {
+      "cardId": "S06",
+      "decision": null,
+      "reviewer": null,
+      "reviewedAt": null,
+      "comment": ""
+    },
+    {
+      "cardId": "S07",
+      "decision": null,
+      "reviewer": null,
+      "reviewedAt": null,
+      "comment": ""
+    }
+  ]
+}
