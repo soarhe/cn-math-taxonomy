@@ -1872,12 +1872,6 @@
     "reason": "学习「用字母表示数」需要先会小学的「用字母表示数」。小学已初步接触用字母表示数。"
   },
   {
-    "topicId": "cnm_044",
-    "prerequisiteId": "cnm_p159",
-    "strength": "soft",
-    "reason": "学习「含分母的一元一次方程」需要先会小学的「最小公倍数」。去分母要乘各分母的最小公倍数，需要小学已学的倍数与公倍数知识。"
-  },
-  {
     "topicId": "cnm_048",
     "prerequisiteId": "cnm_p203",
     "strength": "hard",
@@ -2418,12 +2412,6 @@
     "reason": "含括号的方程要先用去括号法则化简，再移项合并求解"
   },
   {
-    "topicId": "cnm_044",
-    "prerequisiteId": "cnm_043",
-    "strength": "hard",
-    "reason": "去分母后常需去括号"
-  },
-  {
     "topicId": "cnm_045",
     "prerequisiteId": "cnm_042",
     "strength": "hard",
@@ -2830,24 +2818,6 @@
     "prerequisiteId": "cnm_089",
     "strength": "soft",
     "reason": "加减消元法与代入消元法的目标都是消去一个未知数，学过代入法有助于理解"
-  },
-  {
-    "topicId": "cnm_091",
-    "prerequisiteId": "cnm_089",
-    "strength": "hard",
-    "reason": "列出方程组之后需要用消元法求解，代入消元法是其中一种方法"
-  },
-  {
-    "topicId": "cnm_091",
-    "prerequisiteId": "cnm_090",
-    "strength": "hard",
-    "reason": "列出方程组之后需要用消元法求解，加减消元法是其中一种方法"
-  },
-  {
-    "topicId": "cnm_091",
-    "prerequisiteId": "cnm_045",
-    "strength": "hard",
-    "reason": "列方程组解应用题沿用审题、设未知数、列方程、求解、检验、作答的建模步骤"
   },
   {
     "topicId": "cnm_092",
@@ -13084,5 +13054,35 @@
     "prerequisiteId": "cnm_206",
     "strength": "soft",
     "reason": "类比一次函数与方程的关系"
+  },
+  {
+    "topicId": "cnm_091",
+    "prerequisiteId": "cnm_089",
+    "strength": "soft",
+    "reason": "这是可选择的消元方法之一；应用题可用另一种方法完成，因此此方法并非单独必要的硬先修。当前图不表达“至少掌握一种方法”的OR条件。"
+  },
+  {
+    "topicId": "cnm_091",
+    "prerequisiteId": "cnm_090",
+    "strength": "soft",
+    "reason": "这是可选择的消元方法之一；应用题可用另一种方法完成，因此此方法并非单独必要的硬先修。当前图不表达“至少掌握一种方法”的OR条件。"
+  },
+  {
+    "topicId": "cnm_091",
+    "prerequisiteId": "cnm_045",
+    "strength": "hard",
+    "reason": "列方程组解应用题沿用审题、设未知数、列方程、求解、检验、作答的建模步骤"
+  },
+  {
+    "topicId": "cnm_044",
+    "prerequisiteId": "cnm_p159",
+    "strength": "soft",
+    "reason": "最小公倍数有助于选取简便的去分母乘数，但任一非零公倍数都可使用；不把最小公倍数算法作为硬门槛。"
+  },
+  {
+    "topicId": "cnm_044",
+    "prerequisiteId": "cnm_043",
+    "strength": "hard",
+    "reason": "去分母后常需去括号"
   }
 ]

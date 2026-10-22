@@ -1,0 +1,184 @@
+[
+  {
+    "questionId": "cnm_042_q5",
+    "topicId": "cnm_042",
+    "action": "add",
+    "contentSha256": "e315400d67f912020752a7d7e16f78eb4f4cca08ec06061dffa86c5dad8691b5",
+    "rubric": [
+      "明确两边同减x与2",
+      "合并并同除以非零数2",
+      "代回原式验证两边相等"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_042_q6",
+    "topicId": "cnm_042",
+    "action": "add",
+    "contentSha256": "65b2218987a73cde8d4a14d073cff6d9ab708726ccdc7fc84736207e32e31ba5",
+    "rubric": [
+      "定位常数项符号错误",
+      "用两边同加3说明依据",
+      "解得-3并代回两边均为-9"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_043_q5",
+    "topicId": "cnm_043",
+    "action": "add",
+    "contentSha256": "a5f882c12f7420417cca6c9a3823eb603e07905ddf962d6bc8f46e74ac59edd3",
+    "rubric": [
+      "2要乘括号内每一项",
+      "负号作用于x和1两项",
+      "解得3并检验原式两边均为0"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_043_q6",
+    "topicId": "cnm_043",
+    "action": "add",
+    "contentSha256": "5dda6fd51b1936a8d6feb6ec46351544d1e731fcc59c72df1331a146e379d985",
+    "rubric": [
+      "正确展开每一项",
+      "说明两个负数相乘得正",
+      "解得9且原式55-51=4"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_044_q5",
+    "topicId": "cnm_044",
+    "action": "add",
+    "contentSha256": "11a8e1c069f1f86ac048b04c8cb14d7f2a37691ce879366008e721810d208499",
+    "rubric": [
+      "指出右边漏乘6",
+      "展开、合并得到3",
+      "代回原分数方程验证"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_044_q6",
+    "topicId": "cnm_044",
+    "action": "add",
+    "contentSha256": "dcdccaa322550fcf1dd823e71d7cf9d0804df6558962c9472157f251e31f1437",
+    "rubric": [
+      "两种方法均将每一项同乘",
+      "写出两种等价变形和相同解",
+      "说明无需强制使用最小公倍数但乘数不能是0"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_089_q6",
+    "topicId": "cnm_089",
+    "action": "add",
+    "contentSha256": "41f0071ea871b632bac2a0f32cc9195f108ae743725eb98d7c17c0aed9d381d5",
+    "rubric": [
+      "把x的整个表达式代入另一个方程",
+      "正确去括号解得y=2并回代x=3",
+      "检查3=2+1和2×3+2=8"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_089_q7",
+    "topicId": "cnm_089",
+    "action": "add",
+    "contentSha256": "f938512ebab701e410e1a0c7f742a8694cbd6293b41159edf14432f4a2409c3e",
+    "rubric": [
+      "指出仍须满足第二个原方程",
+      "正确代入另一个方程并求出两数",
+      "检验两条件；不能由单个恒等式判断整个方程组"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_090_q6",
+    "topicId": "cnm_090",
+    "action": "add",
+    "contentSha256": "510a2f8cc32faa676e73928fc37585ad49e9565a6ba3ff865912ecb295d426a7",
+    "rubric": [
+      "两方程各项和右边均正确倍乘",
+      "选择相加消去y并求出x、y",
+      "代回两原式得到7与4"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_090_q7",
+    "topicId": "cnm_090",
+    "action": "add",
+    "contentSha256": "33208c1317c712bd4777f547ffd18f8a7fb3632e5004c2e08c9692e8ff543ceb",
+    "rubric": [
+      "识别x系数相同应相减",
+      "将第二式整体相减，-(-y)=+y",
+      "求出并验证(2,3)"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_097_q5",
+    "topicId": "cnm_097",
+    "action": "add",
+    "contentSha256": "930011e140a52e7fbb03ae45359a0a21e78c0a72e18aabe0f84f2649cab26af3",
+    "rubric": [
+      "去括号和移项正确",
+      "除以负数-3时改向",
+      "图示实心端点向左且代入检查正确"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_097_q6",
+    "topicId": "cnm_097",
+    "action": "add",
+    "contentSha256": "d22a5a5c4ad53b3698bfdcb688d7bcbf0ec1ea986ace012d10fec74c54bafcb7",
+    "rubric": [
+      "乘正数6不改变方向且每项都乘",
+      "除以-1时改向得到x≤-1",
+      "用0检验否定错误结果"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_099_q5",
+    "topicId": "cnm_099",
+    "action": "add",
+    "contentSha256": "54856808a604c1c525f3bb965045a235544de863dd9634a70d5d5ec315da5d3e",
+    "rubric": [
+      "分别解出x>2和x≤5",
+      "画出左空右实的区间并解释端点",
+      "不能把三个整数误当作全部实数解"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  },
+  {
+    "questionId": "cnm_099_q6",
+    "topicId": "cnm_099",
+    "action": "add",
+    "contentSha256": "9868516f258c11ca278b8a04143c523fbc6cdba163e7751ebe36b9f2364b376e",
+    "rubric": [
+      "第一组公共部分为实心单点2",
+      "第二组没有公共部分",
+      "解释端点等号对交集的影响"
+    ],
+    "checking": "assistant-authored; not independent blind solving",
+    "expertReviewed": false
+  }
+]

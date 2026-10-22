@@ -53,7 +53,7 @@ class AlgebraD3BuildTests(unittest.TestCase):
   self.assertIn("const DATA_VERSION = '"+load('data/current-release.json')['version']+"'",app)
   self.assertIn('cnmDiagnose.session.algebra-2026-10.2.evidence-1.1',app)
   self.assertEqual(load('reviews/math-junior/batch-d2/release.json')['counts']['questions'],6224)
-  self.assertEqual(load('data/current-release.json')['counts']['questions'],6236)
+  self.assertEqual(load('reviews/math-junior/batch-d3/release.json')['counts']['questions'],6236)
   build(ROOT,True)
  def test_tasks_domains_and_reference_values(self):
   from fractions import Fraction as F

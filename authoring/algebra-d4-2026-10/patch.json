@@ -1,0 +1,737 @@
+{
+  "batch": "d4",
+  "baseCommit": "01968a744580572d2561cbb3e8a85dc440084d72",
+  "topics": [
+    {
+      "id": "cnm_042",
+      "beforeHash": "b3001ea6e0590df8c7f9e250a730805789406102ec231ed2c4a4242122799446",
+      "before": {
+        "id": "cnm_042",
+        "name": "移项与合并同类项解方程",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.2",
+        "type": "procedural",
+        "description": "把含未知数的项移到一边、常数项移到另一边（移项要变号），再合并同类项、系数化为 1。",
+        "mastery_criteria": [
+          "能说出移项的依据",
+          "能解 ax+b=cx+d 型方程"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 3x+2=x-6。",
+          "answer": "x=-4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_042",
+        "name": "移项与合并同类项解方程",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.2",
+        "type": "procedural",
+        "description": "把含未知数的项移到一边、常数项移到另一边（移项要变号），再合并同类项、系数化为 1。",
+        "mastery_criteria": [
+          "能用等式两边同加减解释移项变号",
+          "能展示移项、合并与系数化为1的过程",
+          "能代回原式检查求得的解"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 3x+2=x-6。",
+          "answer": "x=-4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_043",
+      "beforeHash": "f7e89eb3e031e2357916b6994f074d8b45e810cdeed5f8e22824b521c33ad76f",
+      "before": {
+        "id": "cnm_043",
+        "name": "含括号的一元一次方程",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.2",
+        "type": "procedural",
+        "description": "先去括号再移项合并，注意括号前系数和符号。",
+        "mastery_criteria": [
+          "能正确去括号",
+          "能解含括号的方程"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 2(x-3)=4-(x+1)。",
+          "answer": "x=3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_043",
+        "name": "含括号的一元一次方程",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.2",
+        "type": "procedural",
+        "description": "先去括号再移项合并，注意括号前系数和符号。",
+        "mastery_criteria": [
+          "能用分配律正确处理括号前的系数与负号",
+          "能展示含括号方程的求解过程",
+          "能定位去括号错误并代回检验"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 2(x-3)=4-(x+1)。",
+          "answer": "x=3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_044",
+      "beforeHash": "4f0db0d8ac4df16ef4e80d6e57e683e5572280a76c004fa32c5f9ef9dae705fd",
+      "before": {
+        "id": "cnm_044",
+        "name": "含分母的一元一次方程",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.2",
+        "type": "procedural",
+        "description": "方程两边同乘各分母的最小公倍数去分母，注意不漏乘不含分母的项。",
+        "mastery_criteria": [
+          "能找最小公倍数去分母",
+          "避免漏乘"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 (x+1)/2 - x/3 = 1。",
+          "answer": "x=3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_044",
+        "name": "含分母的一元一次方程",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "上",
+        "chapter": "七上 第五章 一元一次方程 5.2",
+        "type": "procedural",
+        "description": "分母为非零常数时，方程两边同乘各分母的一个非零公倍数去分母；最小公倍数通常较简便，必须对两边每一项都乘。",
+        "mastery_criteria": [
+          "能选各非零常数分母的公倍数去分母",
+          "能说明同乘非零数时每一项都要乘",
+          "能展示求解并代回原式检验"
+        ],
+        "diagnostic_question": {
+          "question": "解方程 (x+1)/2 - x/3 = 1。",
+          "answer": "x=3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.24",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_089",
+      "beforeHash": "96593cd9cf43f8ac4d3bc15e4057cd30689e6021bb515ebbad64aa64d2d0c830",
+      "before": {
+        "id": "cnm_089",
+        "name": "代入消元法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.2.1",
+        "type": "procedural",
+        "description": "把一个方程变形用一个未知数表示另一个，代入另一个方程消元，转化为一元一次方程。",
+        "mastery_criteria": [
+          "能选择便于代入的方程",
+          "能正确求出方程组的解"
+        ],
+        "diagnostic_question": {
+          "question": "解 {y=2x, x+y=9}。",
+          "answer": "x=3，y=6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.25",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_089",
+        "name": "代入消元法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.2.1",
+        "type": "procedural",
+        "description": "把一个方程变形用一个未知数表示另一个，代入另一个方程消元，转化为一元一次方程。",
+        "mastery_criteria": [
+          "能选择一个方程表示某个未知数",
+          "能将等值表达式整体代入另一个方程并消元",
+          "能回代求另一个未知数并检查原方程组"
+        ],
+        "diagnostic_question": {
+          "question": "解 {y=2x, x+y=9}。",
+          "answer": "x=3，y=6"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.25",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_090",
+      "beforeHash": "00acd999af707a8738a7081272d82c300d5f8b9ecbdc9c38a30cd32afb38181d",
+      "before": {
+        "id": "cnm_090",
+        "name": "加减消元法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.2.2",
+        "type": "procedural",
+        "description": "当某未知数的系数相等或相反时，把两个方程相加或相减消去该未知数。",
+        "mastery_criteria": [
+          "能判断相加还是相减",
+          "必要时先乘数使系数相同"
+        ],
+        "diagnostic_question": {
+          "question": "解 {x+y=5, x-y=1}。",
+          "answer": "x=3，y=2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.25",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_090",
+        "name": "加减消元法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十章 二元一次方程组 10.2.2",
+        "type": "procedural",
+        "description": "当某未知数的系数相等或相反时，把两个方程相加或相减消去该未知数。",
+        "mastery_criteria": [
+          "能根据系数选择相加或相减消元",
+          "能对整个方程同乘非零数调整系数",
+          "能展示消元、回代及两个原条件检验"
+        ],
+        "diagnostic_question": {
+          "question": "解 {x+y=5, x-y=1}。",
+          "answer": "x=3，y=2"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.25",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_097",
+      "beforeHash": "b6e3d382fcd3157df83f5ceb2d54c64a8df85cf39bd0f4d52b661d074ab20177",
+      "before": {
+        "id": "cnm_097",
+        "name": "一元一次不等式的解法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十一章 不等式与不等式组 11.2",
+        "type": "procedural",
+        "description": "类比一元一次方程的解法：去分母、去括号、移项、合并、系数化为 1，注意乘除负数时改变不等号方向。",
+        "mastery_criteria": [
+          "能解一元一次不等式并在数轴上表示解集",
+          "不遗漏变号"
+        ],
+        "diagnostic_question": {
+          "question": "解不等式 3x-2≤x+4 并表示解集。",
+          "answer": "x≤3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_097",
+        "name": "一元一次不等式的解法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十一章 不等式与不等式组 11.2",
+        "type": "procedural",
+        "description": "类比一元一次方程的解法：去分母、去括号、移项、合并、系数化为 1，注意乘除负数时改变不等号方向。",
+        "mastery_criteria": [
+          "能解释每次不等式变形的依据",
+          "能解一元一次不等式并实际画出解集",
+          "能用边界内外的数检验不等号方向"
+        ],
+        "diagnostic_question": {
+          "question": "解不等式 3x-2≤x+4 并表示解集。",
+          "answer": "x≤3"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "exact"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cnm_099",
+      "beforeHash": "102757792767202c46f0e5e55979ffe1f1e5e183ff26cc9f7e75c633c7280f7f",
+      "before": {
+        "id": "cnm_099",
+        "name": "一元一次不等式组的解法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十一章 不等式与不等式组 11.3",
+        "type": "procedural",
+        "description": "分别解各不等式，再用数轴取公共部分得到不等式组的解集（同大取大、同小取小、大小小大中间找、大大小小无解）。",
+        "mastery_criteria": [
+          "能解不等式组并用数轴表示",
+          "能判断无解情形"
+        ],
+        "diagnostic_question": {
+          "question": "解不等式组 {x>1, x≤4}。",
+          "answer": "1<x≤4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "exact"
+          }
+        ]
+      },
+      "after": {
+        "id": "cnm_099",
+        "name": "一元一次不等式组的解法",
+        "domain": "数与代数",
+        "grade": 7,
+        "semester": "下",
+        "chapter": "七下 第十一章 不等式与不等式组 11.3",
+        "type": "procedural",
+        "description": "分别解各不等式，在数轴上取同时满足全部条件的公共部分，并检查端点是否包含；解集可能为空、单点或区间。",
+        "mastery_criteria": [
+          "能分别求各不等式的解集",
+          "能画数轴取公共部分并判断端点",
+          "能区分无解、单点解和区间解"
+        ],
+        "diagnostic_question": {
+          "question": "解不等式组 {x>1, x≤4}。",
+          "answer": "1<x≤4"
+        },
+        "external": false,
+        "standards": [
+          {
+            "id": "cms-2022:4.NA.32",
+            "confidence": "exact"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "cnm_042_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_042_q5",
+        "topicId": "cnm_042",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解3x+2=x-6。不要只说“移项变号”，写出两边同时进行了什么运算，求解后代回检查。",
+        "answer": "两边同减x再同减2，得2x=-8，x=-4；原式两边均为-10。",
+        "explanation": "明确两边同减x与2；合并并同除以非零数2；代回原式验证两边相等。",
+        "rubric": [
+          "明确两边同减x与2",
+          "合并并同除以非零数2",
+          "代回原式验证两边相等"
+        ]
+      }
+    },
+    {
+      "id": "cnm_042_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_042_q6",
+        "topicId": "cnm_042",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明把2x-3=5x+6变成2x-5x=6-3。指出错误，说明依据并完成求解。",
+        "answer": "应为2x-5x=6+3，两边同加3；-3x=9，x=-3。",
+        "explanation": "定位常数项符号错误；用两边同加3说明依据；解得-3并代回两边均为-9。",
+        "rubric": [
+          "定位常数项符号错误",
+          "用两边同加3说明依据",
+          "解得-3并代回两边均为-9"
+        ]
+      }
+    },
+    {
+      "id": "cnm_043_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_043_q5",
+        "topicId": "cnm_043",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明将2(x-3)=4-(x+1)展开为2x-3=4-x+1。找出两处错误并解原方程。",
+        "answer": "应为2x-6=4-x-1，故3x=9，x=3。",
+        "explanation": "2要乘括号内每一项；负号作用于x和1两项；解得3并检验原式两边均为0。",
+        "rubric": [
+          "2要乘括号内每一项",
+          "负号作用于x和1两项",
+          "解得3并检验原式两边均为0"
+        ]
+      }
+    },
+    {
+      "id": "cnm_043_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_043_q6",
+        "topicId": "cnm_043",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解5(x+2)-3(2x-1)=4，解释为什么展开后的常数项是+3而非-3，并检验。",
+        "answer": "5x+10-6x+3=4，-x+13=4，x=9；(-3)×(-1)=3。",
+        "explanation": "正确展开每一项；说明两个负数相乘得正；解得9且原式55-51=4。",
+        "rubric": [
+          "正确展开每一项",
+          "说明两个负数相乘得正",
+          "解得9且原式55-51=4"
+        ]
+      }
+    },
+    {
+      "id": "cnm_044_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_044_q5",
+        "topicId": "cnm_044",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解(x+1)/2-x/3=1。小明同乘6后写成3(x+1)-2x=1，错在哪里？修正并代回检查。",
+        "answer": "右边1也要乘6；3(x+1)-2x=6，x=3，代回得2-1=1。",
+        "explanation": "指出右边漏乘6；展开、合并得到3；代回原分数方程验证。",
+        "rubric": [
+          "指出右边漏乘6",
+          "展开、合并得到3",
+          "代回原分数方程验证"
+        ]
+      }
+    },
+    {
+      "id": "cnm_044_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_044_q6",
+        "topicId": "cnm_044",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解x/2+x/3=5时，小明同乘6，小红同乘12。两种方法是否都合法？分别写出变形并解释。",
+        "answer": "都合法；5x=30或10x=60，均得x=6。6与12均为2和3的非零公倍数，6较简便。",
+        "explanation": "两种方法均将每一项同乘；写出两种等价变形和相同解；说明无需强制使用最小公倍数但乘数不能是0。",
+        "rubric": [
+          "两种方法均将每一项同乘",
+          "写出两种等价变形和相同解",
+          "说明无需强制使用最小公倍数但乘数不能是0"
+        ]
+      }
+    },
+    {
+      "id": "cnm_089_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_089_q6",
+        "topicId": "cnm_089",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用代入法解{x=y+1，2x+y=8}，标明代入了哪一个方程，为什么2后要保留括号，并检验。",
+        "answer": "代入第二式得2(y+1)+y=8，y=2，x=3；2乘整个y+1。",
+        "explanation": "把x的整个表达式代入另一个方程；正确去括号解得y=2并回代x=3；检查3=2+1和2×3+2=8。",
+        "rubric": [
+          "把x的整个表达式代入另一个方程",
+          "正确去括号解得y=2并回代x=3",
+          "检查3=2+1和2×3+2=8"
+        ]
+      }
+    },
+    {
+      "id": "cnm_089_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_089_q7",
+        "topicId": "cnm_089",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解{y=2x，x+y=9}时，小明把y=2x代回第一式得到2x=2x，便说任意x都可以。解释问题并完成代入消元。",
+        "answer": "恒等式只重复第一条件；应代入第二式得x+2x=9，x=3，y=6。",
+        "explanation": "指出仍须满足第二个原方程；正确代入另一个方程并求出两数；检验两条件；不能由单个恒等式判断整个方程组。",
+        "rubric": [
+          "指出仍须满足第二个原方程",
+          "正确代入另一个方程并求出两数",
+          "检验两条件；不能由单个恒等式判断整个方程组"
+        ]
+      }
+    },
+    {
+      "id": "cnm_090_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_090_q6",
+        "topicId": "cnm_090",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "用加减法解{2x+3y=7，3x-2y=4}。写明各式乘数、消去哪个未知数，完成回代与检验。",
+        "answer": "第一式乘2、第二式乘3，得4x+6y=14与9x-6y=12，相加得13x=26，x=2，y=1。",
+        "explanation": "两方程各项和右边均正确倍乘；选择相加消去y并求出x、y；代回两原式得到7与4。",
+        "rubric": [
+          "两方程各项和右边均正确倍乘",
+          "选择相加消去y并求出x、y",
+          "代回两原式得到7与4"
+        ]
+      }
+    },
+    {
+      "id": "cnm_090_q7",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_090_q7",
+        "topicId": "cnm_090",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解{3x+2y=12，3x-y=3}时，应相加还是相减才能直接消去x？写出全过程，说明相减时怎样处理第二式的-y。",
+        "answer": "第一式减第二式：2y-(-y)=9，3y=9，y=3，x=2。",
+        "explanation": "识别x系数相同应相减；将第二式整体相减，-(-y)=+y；求出并验证(2,3)。",
+        "rubric": [
+          "识别x系数相同应相减",
+          "将第二式整体相减，-(-y)=+y",
+          "求出并验证(2,3)"
+        ]
+      }
+    },
+    {
+      "id": "cnm_097_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_097_q5",
+        "topicId": "cnm_097",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解2(x-3)≥5x+3，写出步骤并在纸上画出解集。用x=-3和x=0分别检验，说明端点是否包括。",
+        "answer": "-3x≥9，x≤-3；-3处实心点向左延伸。-3满足等号，0不满足。",
+        "explanation": "去括号和移项正确；除以负数-3时改向；图示实心端点向左且代入检查正确。",
+        "rubric": [
+          "去括号和移项正确",
+          "除以负数-3时改向",
+          "图示实心端点向左且代入检查正确"
+        ]
+      }
+    },
+    {
+      "id": "cnm_097_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_097_q6",
+        "topicId": "cnm_097",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "小明将(x+1)/2-(2x-1)/3≥1解为x≥-1。请写出去分母到最终结果的步骤，定位可能漏掉的变号，并用x=0检验。",
+        "answer": "同乘正数6得3(x+1)-2(2x-1)≥6，-x≥1，故x≤-1。x=0时左边5/6<1，不是解。",
+        "explanation": "乘正数6不改变方向且每项都乘；除以-1时改向得到x≤-1；用0检验否定错误结果。",
+        "rubric": [
+          "乘正数6不改变方向且每项都乘",
+          "除以-1时改向得到x≤-1",
+          "用0检验否定错误结果"
+        ]
+      }
+    },
+    {
+      "id": "cnm_099_q5",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_099_q5",
+        "topicId": "cnm_099",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "解不等式组{2x-1>3，x-5≤0}。画出两个解集及公共部分，解释为什么x=2不在、x=5在，并区分实数解集和整数解。",
+        "answer": "公共部分2<x≤5；2不满足第一式，5满足两式。整数解3、4、5，但实数解还包括2.5等。",
+        "explanation": "分别解出x>2和x≤5；画出左空右实的区间并解释端点；不能把三个整数误当作全部实数解。",
+        "rubric": [
+          "分别解出x>2和x≤5",
+          "画出左空右实的区间并解释端点",
+          "不能把三个整数误当作全部实数解"
+        ]
+      }
+    },
+    {
+      "id": "cnm_099_q6",
+      "beforeHash": null,
+      "before": null,
+      "after": {
+        "id": "cnm_099_q6",
+        "topicId": "cnm_099",
+        "difficulty": "standard",
+        "type": "self",
+        "prompt": "分别用数轴判断{x≥2，x≤2}和{x>2，x≤2}的解集。为什么不能只背“大大小小无解”而忽略等号？",
+        "answer": "前者只有x=2，后者无解；前者两端都包含2，后者第一条件排除2。",
+        "explanation": "第一组公共部分为实心单点2；第二组没有公共部分；解释端点等号对交集的影响。",
+        "rubric": [
+          "第一组公共部分为实心单点2",
+          "第二组没有公共部分",
+          "解释端点等号对交集的影响"
+        ]
+      }
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "cnm_091",
+      "beforeHash": "bff5542723b9515cf2295614beefd4d8dc866d199852938c0ce4be83acbc3af4",
+      "before": [
+        {
+          "topicId": "cnm_091",
+          "prerequisiteId": "cnm_089",
+          "strength": "hard",
+          "reason": "列出方程组之后需要用消元法求解，代入消元法是其中一种方法"
+        },
+        {
+          "topicId": "cnm_091",
+          "prerequisiteId": "cnm_090",
+          "strength": "hard",
+          "reason": "列出方程组之后需要用消元法求解，加减消元法是其中一种方法"
+        },
+        {
+          "topicId": "cnm_091",
+          "prerequisiteId": "cnm_045",
+          "strength": "hard",
+          "reason": "列方程组解应用题沿用审题、设未知数、列方程、求解、检验、作答的建模步骤"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_091",
+          "prerequisiteId": "cnm_089",
+          "strength": "soft",
+          "reason": "这是可选择的消元方法之一；应用题可用另一种方法完成，因此此方法并非单独必要的硬先修。当前图不表达“至少掌握一种方法”的OR条件。"
+        },
+        {
+          "topicId": "cnm_091",
+          "prerequisiteId": "cnm_090",
+          "strength": "soft",
+          "reason": "这是可选择的消元方法之一；应用题可用另一种方法完成，因此此方法并非单独必要的硬先修。当前图不表达“至少掌握一种方法”的OR条件。"
+        },
+        {
+          "topicId": "cnm_091",
+          "prerequisiteId": "cnm_045",
+          "strength": "hard",
+          "reason": "列方程组解应用题沿用审题、设未知数、列方程、求解、检验、作答的建模步骤"
+        }
+      ]
+    },
+    {
+      "id": "cnm_044",
+      "beforeHash": "d4276b0443dff1db2b0b6ccb89c457bb300b5c2b5dbb9cf7d0a49d0ef342f9cf",
+      "before": [
+        {
+          "topicId": "cnm_044",
+          "prerequisiteId": "cnm_p159",
+          "strength": "soft",
+          "reason": "学习「含分母的一元一次方程」需要先会小学的「最小公倍数」。去分母要乘各分母的最小公倍数，需要小学已学的倍数与公倍数知识。"
+        },
+        {
+          "topicId": "cnm_044",
+          "prerequisiteId": "cnm_043",
+          "strength": "hard",
+          "reason": "去分母后常需去括号"
+        }
+      ],
+      "after": [
+        {
+          "topicId": "cnm_044",
+          "prerequisiteId": "cnm_p159",
+          "strength": "soft",
+          "reason": "最小公倍数有助于选取简便的去分母乘数，但任一非零公倍数都可使用；不把最小公倍数算法作为硬门槛。"
+        },
+        {
+          "topicId": "cnm_044",
+          "prerequisiteId": "cnm_043",
+          "strength": "hard",
+          "reason": "去分母后常需去括号"
+        }
+      ]
+    }
+  ]
+}

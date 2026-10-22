@@ -1,0 +1,128 @@
+[
+  {
+    "topicId": "cnm_042",
+    "name": "移项与合并同类项解方程",
+    "finding": "补移项依据与错误步骤定位，不仅收最终数值。",
+    "changedQuestionIds": [
+      "cnm_042_q5",
+      "cnm_042_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_042_q5",
+      "cnm_042_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d4"
+  },
+  {
+    "topicId": "cnm_043",
+    "name": "含括号的一元一次方程",
+    "finding": "补负号分配到每项的解释和纠错。",
+    "changedQuestionIds": [
+      "cnm_043_q5",
+      "cnm_043_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_043_q5",
+      "cnm_043_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d4"
+  },
+  {
+    "topicId": "cnm_044",
+    "name": "含分母的一元一次方程",
+    "finding": "最小公倍数是便利选择而非唯一合法选择；补漏乘纠错。",
+    "changedQuestionIds": [
+      "cnm_044_q5",
+      "cnm_044_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_044_q5",
+      "cnm_044_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "targeted: only cnm_p159 soft-edge rationale; see edge-review.json"
+  },
+  {
+    "topicId": "cnm_089",
+    "name": "代入消元法",
+    "finding": "补整体代入过程及不能代回同式制造恒等式的反例。",
+    "changedQuestionIds": [
+      "cnm_089_q6",
+      "cnm_089_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_089_q6",
+      "cnm_089_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d4"
+  },
+  {
+    "topicId": "cnm_090",
+    "name": "加减消元法",
+    "finding": "补加减消元完整过程与整式倍乘一致性。",
+    "changedQuestionIds": [
+      "cnm_090_q6",
+      "cnm_090_q7"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_090_q6",
+      "cnm_090_q7"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d4"
+  },
+  {
+    "topicId": "cnm_097",
+    "name": "一元一次不等式的解法",
+    "finding": "补负数除法改向及实际画图，避免结果字符串承担作图证据。",
+    "changedQuestionIds": [
+      "cnm_097_q5",
+      "cnm_097_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_097_q5",
+      "cnm_097_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d4"
+  },
+  {
+    "topicId": "cnm_099",
+    "name": "一元一次不等式组的解法",
+    "finding": "用公共部分解释解集，补严格端点与单点解边界。",
+    "changedQuestionIds": [
+      "cnm_099_q5",
+      "cnm_099_q6"
+    ],
+    "evidenceQuestionIds": [
+      "cnm_099_q5",
+      "cnm_099_q6"
+    ],
+    "reviewer": "assistant",
+    "expertReviewed": false,
+    "userContentDecision": "not-yet-recorded",
+    "textbookLocationStatus": "inherited-not-rechecked",
+    "prerequisiteReview": "not-reviewed-in-d4"
+  }
+]
