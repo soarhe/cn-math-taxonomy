@@ -28,6 +28,7 @@
       if(task.sourceIds.length){details.append(el('h3','来源材料'));task.sourceIds.forEach(id=>{const s=data.sources.find(x=>x.id===id);const p=el('p');const a=link(s.title,s.url);a.target='_blank';a.rel='noopener noreferrer';p.append(a,el('small',' · '+s.locator+'。'+s.note));details.append(p);});}
       details.append(el('h3','提交要求'));const submissions=el('ol');task.submission.forEach(s=>submissions.append(el('li',s)));details.append(submissions);
       const reference=el('details',undefined,'reference');reference.append(el('summary','查看参考结果与评价边界'),el('p',task.reference),el('p',task.repeatPolicy));details.append(reference);
+      if(task.scoringExample){const guide=el('details');guide.append(el('summary','查看本任务评分样例'),el('p',task.scoringExample.focus));task.scoringExample.examples.forEach(x=>guide.append(el('p',x)));guide.append(el('p',task.scoringExample.boundary));details.append(guide);}
       const r=record(task);details.append(el('h3','过程记录与作品索引'));
       addTextArea(details,'日期、原始数据、操作过程、作品说明和本地附件文件名',r.evidence,v=>saveField(task,'evidence',v));
       addTextArea(details,'学生解释、同伴反馈与修订记录',r.reflection,v=>saveField(task,'reflection',v));

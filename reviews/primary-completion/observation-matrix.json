@@ -1,0 +1,1706 @@
+{
+  "scope": "243项活动观察指标；不是完整官方课标原子要求底表。",
+  "rows": [
+    {
+      "taskId": "pact-1-NA-01",
+      "standardOrExampleId": "cms-2022:1.NA.01",
+      "observationId": "pact-1-NA-01-r1",
+      "criterion": "算盘定位、拨珠与读写一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-01",
+      "standardOrExampleId": "cms-2022:1.NA.01",
+      "observationId": "pact-1-NA-01-r2",
+      "criterion": "用十进关系说明组成及0占位",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-01",
+      "standardOrExampleId": "cms-2022:1.NA.01",
+      "observationId": "pact-1-NA-01-r3",
+      "criterion": "保留估计、实际清点和修正理由",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-02",
+      "standardOrExampleId": "cms-2022:1.NA.02",
+      "observationId": "pact-1-NA-02-r1",
+      "criterion": "通过一一对应解释相等",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-02",
+      "standardOrExampleId": "cms-2022:1.NA.02",
+      "observationId": "pact-1-NA-02-r2",
+      "criterion": "比较数位而不是外形",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-02",
+      "standardOrExampleId": "cms-2022:1.NA.02",
+      "observationId": "pact-1-NA-02-r3",
+      "criterion": "更换摆法后仍能解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-03",
+      "standardOrExampleId": "cms-2022:1.NA.03",
+      "observationId": "pact-1-NA-03-r1",
+      "criterion": "区分两种除法情境",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-03",
+      "standardOrExampleId": "cms-2022:1.NA.03",
+      "observationId": "pact-1-NA-03-r2",
+      "criterion": "用图说明乘除互逆",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-03",
+      "standardOrExampleId": "cms-2022:1.NA.03",
+      "observationId": "pact-1-NA-03-r3",
+      "criterion": "用实际增减说明加减互逆",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-04",
+      "standardOrExampleId": "cms-2022:1.NA.04",
+      "observationId": "pact-1-NA-04-r1",
+      "criterion": "竖式按数位对齐且正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-04",
+      "standardOrExampleId": "cms-2022:1.NA.04",
+      "observationId": "pact-1-NA-04-r2",
+      "criterion": "解释进退位而非只背步骤",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-04",
+      "standardOrExampleId": "cms-2022:1.NA.04",
+      "observationId": "pact-1-NA-04-r3",
+      "criterion": "独立迁移并保留计算过程",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-05",
+      "standardOrExampleId": "cms-2022:1.NA.05",
+      "observationId": "pact-1-NA-05-r1",
+      "criterion": "保留从点阵推导算法的过程",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-05",
+      "standardOrExampleId": "cms-2022:1.NA.05",
+      "observationId": "pact-1-NA-05-r2",
+      "criterion": "用乘除关系解释商",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-05",
+      "standardOrExampleId": "cms-2022:1.NA.05",
+      "observationId": "pact-1-NA-05-r3",
+      "criterion": "解释余数限制并换分组验证",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-06",
+      "standardOrExampleId": "cms-2022:1.NA.06",
+      "observationId": "pact-1-NA-06-r1",
+      "criterion": "估计有参照并能修正",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-06",
+      "standardOrExampleId": "cms-2022:1.NA.06",
+      "observationId": "pact-1-NA-06-r2",
+      "criterion": "符号与情境含义对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-06",
+      "standardOrExampleId": "cms-2022:1.NA.06",
+      "observationId": "pact-1-NA-06-r3",
+      "criterion": "跨三次活动记录推理与解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-07",
+      "standardOrExampleId": "cms-2022:1.NA.07",
+      "observationId": "pact-1-NA-07-r1",
+      "criterion": "自主建式且单位正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-07",
+      "standardOrExampleId": "cms-2022:1.NA.07",
+      "observationId": "pact-1-NA-07-r2",
+      "criterion": "区分向上取整与舍余",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-07",
+      "standardOrExampleId": "cms-2022:1.NA.07",
+      "observationId": "pact-1-NA-07-r3",
+      "criterion": "能说明并检验改编题的情境",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-08",
+      "standardOrExampleId": "cms-2022:1.NA.08",
+      "observationId": "pact-1-NA-08-r1",
+      "criterion": "区分重复规律和数量增长",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-08",
+      "standardOrExampleId": "cms-2022:1.NA.08",
+      "observationId": "pact-1-NA-08-r2",
+      "criterion": "明确规则而非只报下一项",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-NA-08",
+      "standardOrExampleId": "cms-2022:1.NA.08",
+      "observationId": "pact-1-NA-08-r3",
+      "criterion": "他人能按描述复现两个不同规则",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-01",
+      "standardOrExampleId": "cms-2022:1.GG.01",
+      "observationId": "pact-1-GG-01-r1",
+      "criterion": "分类标准一致且说明立体特征",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-01",
+      "standardOrExampleId": "cms-2022:1.GG.01",
+      "observationId": "pact-1-GG-01-r2",
+      "criterion": "提交实际拼摆的描图或照片",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-01",
+      "standardOrExampleId": "cms-2022:1.GG.01",
+      "observationId": "pact-1-GG-01-r3",
+      "criterion": "识别拼后图形并说明边的连接",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-02",
+      "standardOrExampleId": "cms-2022:1.GG.02",
+      "observationId": "pact-1-GG-02-r1",
+      "criterion": "解释统一单位的必要性",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-02",
+      "standardOrExampleId": "cms-2022:1.GG.02",
+      "observationId": "pact-1-GG-02-r2",
+      "criterion": "尺零点和连续测量方法正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-02",
+      "standardOrExampleId": "cms-2022:1.GG.02",
+      "observationId": "pact-1-GG-02-r3",
+      "criterion": "估测、两次实测及差异原因齐全",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-03",
+      "standardOrExampleId": "cms-2022:1.GG.03",
+      "observationId": "pact-1-GG-03-r1",
+      "criterion": "预测与验证都可追溯",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-03",
+      "standardOrExampleId": "cms-2022:1.GG.03",
+      "observationId": "pact-1-GG-03-r2",
+      "criterion": "空间描述有参照物",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-GG-03",
+      "standardOrExampleId": "cms-2022:1.GG.03",
+      "observationId": "pact-1-GG-03-r3",
+      "criterion": "三次修正记录能说明学习变化",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-SP-01",
+      "standardOrExampleId": "cms-2022:1.SP.01",
+      "observationId": "pact-1-SP-01-r1",
+      "criterion": "实际采集清单完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-SP-01",
+      "standardOrExampleId": "cms-2022:1.SP.01",
+      "observationId": "pact-1-SP-01-r2",
+      "criterion": "分类规则明确且不漏计重计",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-SP-01",
+      "standardOrExampleId": "cms-2022:1.SP.01",
+      "observationId": "pact-1-SP-01-r3",
+      "criterion": "解释规则改变和总数不变",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-01",
+      "standardOrExampleId": "cms-2022:1.IP.01",
+      "observationId": "pact-1-IP-01-r1",
+      "criterion": "规则足以让同伴复现",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-01",
+      "standardOrExampleId": "cms-2022:1.IP.01",
+      "observationId": "pact-1-IP-01-r2",
+      "criterion": "明确指出游戏中的数学",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-01",
+      "standardOrExampleId": "cms-2022:1.IP.01",
+      "observationId": "pact-1-IP-01-r3",
+      "criterion": "保留提问与修改后的讲述",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-02",
+      "standardOrExampleId": "cms-2022:1.IP.02",
+      "observationId": "pact-1-IP-02-r1",
+      "criterion": "币值计算和找零正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-02",
+      "standardOrExampleId": "cms-2022:1.IP.02",
+      "observationId": "pact-1-IP-02-r2",
+      "criterion": "实际交易记录可核对",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-02",
+      "standardOrExampleId": "cms-2022:1.IP.02",
+      "observationId": "pact-1-IP-02-r3",
+      "criterion": "说明预算选择与节约理由",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-03",
+      "standardOrExampleId": "cms-2022:1.IP.03",
+      "observationId": "pact-1-IP-03-r1",
+      "criterion": "估计和实际感受时长有记录",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-03",
+      "standardOrExampleId": "cms-2022:1.IP.03",
+      "observationId": "pact-1-IP-03-r2",
+      "criterion": "拨钟与时间单位解释正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-03",
+      "standardOrExampleId": "cms-2022:1.IP.03",
+      "observationId": "pact-1-IP-03-r3",
+      "criterion": "计划、执行、反思形成完整记录",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-04",
+      "standardOrExampleId": "cms-2022:1.IP.04",
+      "observationId": "pact-1-IP-04-r1",
+      "criterion": "位置与实际环境一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-04",
+      "standardOrExampleId": "cms-2022:1.IP.04",
+      "observationId": "pact-1-IP-04-r2",
+      "criterion": "解释参照改变的影响",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-04",
+      "standardOrExampleId": "cms-2022:1.IP.04",
+      "observationId": "pact-1-IP-04-r3",
+      "criterion": "同伴能按修订说明定位",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-05",
+      "standardOrExampleId": "cms-2022:1.IP.05",
+      "observationId": "pact-1-IP-05-r1",
+      "criterion": "校准数据与单位完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-05",
+      "standardOrExampleId": "cms-2022:1.IP.05",
+      "observationId": "pact-1-IP-05-r2",
+      "criterion": "估测过程可复算",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-05",
+      "standardOrExampleId": "cms-2022:1.IP.05",
+      "observationId": "pact-1-IP-05-r3",
+      "criterion": "能解释个体差异及误差来源",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-06",
+      "standardOrExampleId": "cms-2022:1.IP.06",
+      "observationId": "pact-1-IP-06-r1",
+      "criterion": "故事有真实可解的问题",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-06",
+      "standardOrExampleId": "cms-2022:1.IP.06",
+      "observationId": "pact-1-IP-06-r2",
+      "criterion": "画面文字算式相互一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-1-IP-06",
+      "standardOrExampleId": "cms-2022:1.IP.06",
+      "observationId": "pact-1-IP-06-r3",
+      "criterion": "讲述与修订记录完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-01",
+      "standardOrExampleId": "cms-2022:2.NA.01",
+      "observationId": "pact-2-NA-01-r1",
+      "criterion": "按数级读写并解释0",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-01",
+      "standardOrExampleId": "cms-2022:2.NA.01",
+      "observationId": "pact-2-NA-01-r2",
+      "criterion": "保留竖式和数位意义",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-01",
+      "standardOrExampleId": "cms-2022:2.NA.01",
+      "observationId": "pact-2-NA-01-r3",
+      "criterion": "解释算法迁移并验算",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-02",
+      "standardOrExampleId": "cms-2022:2.NA.02",
+      "observationId": "pact-2-NA-02-r1",
+      "criterion": "等分和单位说明清楚",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-02",
+      "standardOrExampleId": "cms-2022:2.NA.02",
+      "observationId": "pact-2-NA-02-r2",
+      "criterion": "用单位个数解释运算",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-02",
+      "standardOrExampleId": "cms-2022:2.NA.02",
+      "observationId": "pact-2-NA-02-r3",
+      "criterion": "区分数值相同与实际量相同",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-03",
+      "standardOrExampleId": "cms-2022:2.NA.03",
+      "observationId": "pact-2-NA-03-r1",
+      "criterion": "独立从情境建式",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-03",
+      "standardOrExampleId": "cms-2022:2.NA.03",
+      "observationId": "pact-2-NA-03-r2",
+      "criterion": "解释每步运算的意义",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-03",
+      "standardOrExampleId": "cms-2022:2.NA.03",
+      "observationId": "pact-2-NA-03-r3",
+      "criterion": "检验结果满足预算并迁移问题",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-04",
+      "standardOrExampleId": "cms-2022:2.NA.04",
+      "observationId": "pact-2-NA-04-r1",
+      "criterion": "图或实物与各条规律对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-04",
+      "standardOrExampleId": "cms-2022:2.NA.04",
+      "observationId": "pact-2-NA-04-r2",
+      "criterion": "字母式条件和结构正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-04",
+      "standardOrExampleId": "cms-2022:2.NA.04",
+      "observationId": "pact-2-NA-04-r3",
+      "criterion": "用反例限制不当推广",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-05",
+      "standardOrExampleId": "cms-2022:2.NA.05",
+      "observationId": "pact-2-NA-05-r1",
+      "criterion": "编码无重复且可解读",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-05",
+      "standardOrExampleId": "cms-2022:2.NA.05",
+      "observationId": "pact-2-NA-05-r2",
+      "criterion": "区别编码、数量与近似描述",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-05",
+      "standardOrExampleId": "cms-2022:2.NA.05",
+      "observationId": "pact-2-NA-05-r3",
+      "criterion": "实际计数和估计有依据",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-06",
+      "standardOrExampleId": "cms-2022:2.NA.06",
+      "observationId": "pact-2-NA-06-r1",
+      "criterion": "估算精度与决策匹配",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-06",
+      "standardOrExampleId": "cms-2022:2.NA.06",
+      "observationId": "pact-2-NA-06-r2",
+      "criterion": "解释上估下估和边界",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-06",
+      "standardOrExampleId": "cms-2022:2.NA.06",
+      "observationId": "pact-2-NA-06-r3",
+      "criterion": "测量单位与用途匹配",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-07",
+      "standardOrExampleId": "cms-2022:2.NA.07",
+      "observationId": "pact-2-NA-07-r1",
+      "criterion": "真实按键与结果记录",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-07",
+      "standardOrExampleId": "cms-2022:2.NA.07",
+      "observationId": "pact-2-NA-07-r2",
+      "criterion": "先预测再验证并修正",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-07",
+      "standardOrExampleId": "cms-2022:2.NA.07",
+      "observationId": "pact-2-NA-07-r3",
+      "criterion": "知道显示精度和归纳的限制",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-08",
+      "standardOrExampleId": "cms-2022:2.NA.08",
+      "observationId": "pact-2-NA-08-r1",
+      "criterion": "从表建立关系",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-08",
+      "standardOrExampleId": "cms-2022:2.NA.08",
+      "observationId": "pact-2-NA-08-r2",
+      "criterion": "单位和情境含义清晰",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-08",
+      "standardOrExampleId": "cms-2022:2.NA.08",
+      "observationId": "pact-2-NA-08-r3",
+      "criterion": "指出单价速度固定等前提",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-09",
+      "standardOrExampleId": "cms-2022:2.NA.09",
+      "observationId": "pact-2-NA-09-r1",
+      "criterion": "推理使用共同的等量参照",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-09",
+      "standardOrExampleId": "cms-2022:2.NA.09",
+      "observationId": "pact-2-NA-09-r2",
+      "criterion": "直接验证与间接推理一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-09",
+      "standardOrExampleId": "cms-2022:2.NA.09",
+      "observationId": "pact-2-NA-09-r3",
+      "criterion": "能识别条件不足的反例",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-10",
+      "standardOrExampleId": "cms-2022:2.NA.10",
+      "observationId": "pact-2-NA-10-r1",
+      "criterion": "模型假设和变量清楚",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-10",
+      "standardOrExampleId": "cms-2022:2.NA.10",
+      "observationId": "pact-2-NA-10-r2",
+      "criterion": "用原情境检查答案",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-NA-10",
+      "standardOrExampleId": "cms-2022:2.NA.10",
+      "observationId": "pact-2-NA-10-r3",
+      "criterion": "比较方案并说明适用条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-01",
+      "standardOrExampleId": "cms-2022:2.GG.01",
+      "observationId": "pact-2-GG-01-r1",
+      "criterion": "复制过程有弧线证据",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-01",
+      "standardOrExampleId": "cms-2022:2.GG.01",
+      "observationId": "pact-2-GG-01-r2",
+      "criterion": "用测量比较直线和折线",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-01",
+      "standardOrExampleId": "cms-2022:2.GG.01",
+      "observationId": "pact-2-GG-01-r3",
+      "criterion": "三种位置关系画法与判断一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-02",
+      "standardOrExampleId": "cms-2022:2.GG.02",
+      "observationId": "pact-2-GG-02-r1",
+      "criterion": "中心零线与读圈正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-02",
+      "standardOrExampleId": "cms-2022:2.GG.02",
+      "observationId": "pact-2-GG-02-r2",
+      "criterion": "三个角实际作图并互测",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-02",
+      "standardOrExampleId": "cms-2022:2.GG.02",
+      "observationId": "pact-2-GG-02-r3",
+      "criterion": "解释角大小由张开程度决定",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-03",
+      "standardOrExampleId": "cms-2022:2.GG.03",
+      "observationId": "pact-2-GG-03-r1",
+      "criterion": "单位与对象及量的类别匹配",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-03",
+      "standardOrExampleId": "cms-2022:2.GG.03",
+      "observationId": "pact-2-GG-03-r2",
+      "criterion": "估测实测可追溯",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-03",
+      "standardOrExampleId": "cms-2022:2.GG.03",
+      "observationId": "pact-2-GG-03-r3",
+      "criterion": "通过铺格说明平方单位进率",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-04",
+      "standardOrExampleId": "cms-2022:2.GG.04",
+      "observationId": "pact-2-GG-04-r1",
+      "criterion": "分类依据为边角性质",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-04",
+      "standardOrExampleId": "cms-2022:2.GG.04",
+      "observationId": "pact-2-GG-04-r2",
+      "criterion": "旋转后保持判断一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-04",
+      "standardOrExampleId": "cms-2022:2.GG.04",
+      "observationId": "pact-2-GG-04-r3",
+      "criterion": "能解释类别交叉和定义约定",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-05",
+      "standardOrExampleId": "cms-2022:2.GG.05",
+      "observationId": "pact-2-GG-05-r1",
+      "criterion": "区分边界长度与铺满面积",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-05",
+      "standardOrExampleId": "cms-2022:2.GG.05",
+      "observationId": "pact-2-GG-05-r2",
+      "criterion": "用行列推导公式",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-05",
+      "standardOrExampleId": "cms-2022:2.GG.05",
+      "observationId": "pact-2-GG-05-r3",
+      "criterion": "用反例解释面积相同周长可不同",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-06",
+      "standardOrExampleId": "cms-2022:2.GG.06",
+      "observationId": "pact-2-GG-06-r1",
+      "criterion": "实物、视图、观察方向明确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-06",
+      "standardOrExampleId": "cms-2022:2.GG.06",
+      "observationId": "pact-2-GG-06-r2",
+      "criterion": "考虑遮挡而非只数可见块",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-06",
+      "standardOrExampleId": "cms-2022:2.GG.06",
+      "observationId": "pact-2-GG-06-r3",
+      "criterion": "旋转后重新匹配正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-07",
+      "standardOrExampleId": "cms-2022:2.GG.07",
+      "observationId": "pact-2-GG-07-r1",
+      "criterion": "三次预测与验证记录完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-07",
+      "standardOrExampleId": "cms-2022:2.GG.07",
+      "observationId": "pact-2-GG-07-r2",
+      "criterion": "能联系空间表示和数量",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-07",
+      "standardOrExampleId": "cms-2022:2.GG.07",
+      "observationId": "pact-2-GG-07-r3",
+      "criterion": "根据证据修正而非改答案不解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-08",
+      "standardOrExampleId": "cms-2022:2.GG.08",
+      "observationId": "pact-2-GG-08-r1",
+      "criterion": "对完整图形而非单点操作",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-08",
+      "standardOrExampleId": "cms-2022:2.GG.08",
+      "observationId": "pact-2-GG-08-r2",
+      "criterion": "对应点及变换参数齐全",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-08",
+      "standardOrExampleId": "cms-2022:2.GG.08",
+      "observationId": "pact-2-GG-08-r3",
+      "criterion": "实物重合验证形状大小不变",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-09",
+      "standardOrExampleId": "cms-2022:2.GG.09",
+      "observationId": "pact-2-GG-09-r1",
+      "criterion": "保留预测与实际操作证据",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-09",
+      "standardOrExampleId": "cms-2022:2.GG.09",
+      "observationId": "pact-2-GG-09-r2",
+      "criterion": "能指出误差的空间原因",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-GG-09",
+      "standardOrExampleId": "cms-2022:2.GG.09",
+      "observationId": "pact-2-GG-09-r3",
+      "criterion": "迁移到不同朝向仍可解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-01",
+      "standardOrExampleId": "cms-2022:2.SP.01",
+      "observationId": "pact-2-SP-01-r1",
+      "criterion": "问题与采集规则一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-01",
+      "standardOrExampleId": "cms-2022:2.SP.01",
+      "observationId": "pact-2-SP-01-r2",
+      "criterion": "原始数据可核查",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-01",
+      "standardOrExampleId": "cms-2022:2.SP.01",
+      "observationId": "pact-2-SP-01-r3",
+      "criterion": "独立成表且总数核对正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-02",
+      "standardOrExampleId": "cms-2022:2.SP.02",
+      "observationId": "pact-2-SP-02-r1",
+      "criterion": "比较和计算正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-02",
+      "standardOrExampleId": "cms-2022:2.SP.02",
+      "observationId": "pact-2-SP-02-r2",
+      "criterion": "口头或书面表达清楚",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-02",
+      "standardOrExampleId": "cms-2022:2.SP.02",
+      "observationId": "pact-2-SP-02-r3",
+      "criterion": "说明数据不能支持的推断",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-03",
+      "standardOrExampleId": "cms-2022:2.SP.03",
+      "observationId": "pact-2-SP-03-r1",
+      "criterion": "独立绘图要素完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-03",
+      "standardOrExampleId": "cms-2022:2.SP.03",
+      "observationId": "pact-2-SP-03-r2",
+      "criterion": "图中数值可与原表互查",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-03",
+      "standardOrExampleId": "cms-2022:2.SP.03",
+      "observationId": "pact-2-SP-03-r3",
+      "criterion": "比较有明确依据和口径",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-04",
+      "standardOrExampleId": "cms-2022:2.SP.04",
+      "observationId": "pact-2-SP-04-r1",
+      "criterion": "确实读取原始媒体表并记录出处",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-04",
+      "standardOrExampleId": "cms-2022:2.SP.04",
+      "observationId": "pact-2-SP-04-r2",
+      "criterion": "单位年份与比较计算正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-04",
+      "standardOrExampleId": "cms-2022:2.SP.04",
+      "observationId": "pact-2-SP-04-r3",
+      "criterion": "区分数据范围和不能回答的问题",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-05",
+      "standardOrExampleId": "cms-2022:2.SP.05",
+      "observationId": "pact-2-SP-05-r1",
+      "criterion": "实物解释均分意义",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-05",
+      "standardOrExampleId": "cms-2022:2.SP.05",
+      "observationId": "pact-2-SP-05-r2",
+      "criterion": "计算并解释异常大值影响",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-05",
+      "standardOrExampleId": "cms-2022:2.SP.05",
+      "observationId": "pact-2-SP-05-r3",
+      "criterion": "区分平均数与每个个体",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-06",
+      "standardOrExampleId": "cms-2022:2.SP.06",
+      "observationId": "pact-2-SP-06-r1",
+      "criterion": "自主选择并说明理由",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-06",
+      "standardOrExampleId": "cms-2022:2.SP.06",
+      "observationId": "pact-2-SP-06-r2",
+      "criterion": "表达保留真实数据",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-SP-06",
+      "standardOrExampleId": "cms-2022:2.SP.06",
+      "observationId": "pact-2-SP-06-r3",
+      "criterion": "识别平均数不适用的情形",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-01",
+      "standardOrExampleId": "cms-2022:2.IP.01",
+      "observationId": "pact-2-IP-01-r1",
+      "criterion": "日历日期和时制使用正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-01",
+      "standardOrExampleId": "cms-2022:2.IP.01",
+      "observationId": "pact-2-IP-01-r2",
+      "criterion": "四季与古代节气文化资料有来源且不混淆因果",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-01",
+      "standardOrExampleId": "cms-2022:2.IP.01",
+      "observationId": "pact-2-IP-01-r3",
+      "criterion": "主题计划与实际回顾齐全",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-02",
+      "standardOrExampleId": "cms-2022:2.IP.02",
+      "observationId": "pact-2-IP-02-r1",
+      "criterion": "替代前后控制相同条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-02",
+      "standardOrExampleId": "cms-2022:2.IP.02",
+      "observationId": "pact-2-IP-02-r2",
+      "criterion": "记录水线与质量实测",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-02",
+      "standardOrExampleId": "cms-2022:2.IP.02",
+      "observationId": "pact-2-IP-02-r3",
+      "criterion": "用等量替代解释并讨论误差",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-03",
+      "standardOrExampleId": "cms-2022:2.IP.03",
+      "observationId": "pact-2-IP-03-r1",
+      "criterion": "斜方向与钟点方向对应正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-03",
+      "standardOrExampleId": "cms-2022:2.IP.03",
+      "observationId": "pact-2-IP-03-r2",
+      "criterion": "地图指令可被同伴执行",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-03",
+      "standardOrExampleId": "cms-2022:2.IP.03",
+      "observationId": "pact-2-IP-03-r3",
+      "criterion": "参照和路线修订有记录",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-04",
+      "standardOrExampleId": "cms-2022:2.IP.04",
+      "observationId": "pact-2-IP-04-r1",
+      "criterion": "史料出处与自述清楚",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-04",
+      "standardOrExampleId": "cms-2022:2.IP.04",
+      "observationId": "pact-2-IP-04-r2",
+      "criterion": "非标准与标准单位实验记录齐全",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-2-IP-04",
+      "standardOrExampleId": "cms-2022:2.IP.04",
+      "observationId": "pact-2-IP-04-r3",
+      "criterion": "解释统一标准与公平比较的关系",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-01",
+      "standardOrExampleId": "cms-2022:3.NA.01",
+      "observationId": "pact-3-NA-01-r1",
+      "criterion": "穷举成对且说明不遗漏",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-01",
+      "standardOrExampleId": "cms-2022:3.NA.01",
+      "observationId": "pact-3-NA-01-r2",
+      "criterion": "联系公因数公倍数与整除",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-01",
+      "standardOrExampleId": "cms-2022:3.NA.01",
+      "observationId": "pact-3-NA-01-r3",
+      "criterion": "分类及倍数判据有解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-02",
+      "standardOrExampleId": "cms-2022:3.NA.02",
+      "observationId": "pact-3-NA-02-r1",
+      "criterion": "计数单位与等值转换正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-02",
+      "standardOrExampleId": "cms-2022:3.NA.02",
+      "observationId": "pact-3-NA-02-r2",
+      "criterion": "数轴和带分数对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-02",
+      "standardOrExampleId": "cms-2022:3.NA.02",
+      "observationId": "pact-3-NA-02-r3",
+      "criterion": "三类情境均明确整体",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-03",
+      "standardOrExampleId": "cms-2022:3.NA.03",
+      "observationId": "pact-3-NA-03-r1",
+      "criterion": "分配图确保公平且无剩余遗漏",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-03",
+      "standardOrExampleId": "cms-2022:3.NA.03",
+      "observationId": "pact-3-NA-03-r2",
+      "criterion": "区分几分之几张与总量的几分之几",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-03",
+      "standardOrExampleId": "cms-2022:3.NA.03",
+      "observationId": "pact-3-NA-03-r3",
+      "criterion": "从情境解释除法分数联系和非零条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-04",
+      "standardOrExampleId": "cms-2022:3.NA.04",
+      "observationId": "pact-3-NA-04-r1",
+      "criterion": "联系计数单位解释加法一致性",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-04",
+      "standardOrExampleId": "cms-2022:3.NA.04",
+      "observationId": "pact-3-NA-04-r2",
+      "criterion": "模型与乘除意义匹配",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-04",
+      "standardOrExampleId": "cms-2022:3.NA.04",
+      "observationId": "pact-3-NA-04-r3",
+      "criterion": "给反例纠正整数经验泛化",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-05",
+      "standardOrExampleId": "cms-2022:3.NA.05",
+      "observationId": "pact-3-NA-05-r1",
+      "criterion": "四种操作与等式对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-05",
+      "standardOrExampleId": "cms-2022:3.NA.05",
+      "observationId": "pact-3-NA-05-r2",
+      "criterion": "识别单边操作错误",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-05",
+      "standardOrExampleId": "cms-2022:3.NA.05",
+      "observationId": "pact-3-NA-05-r3",
+      "criterion": "明确同除的非零限制",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-06",
+      "standardOrExampleId": "cms-2022:3.NA.06",
+      "observationId": "pact-3-NA-06-r1",
+      "criterion": "估算方法服务于决策",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-06",
+      "standardOrExampleId": "cms-2022:3.NA.06",
+      "observationId": "pact-3-NA-06-r2",
+      "criterion": "精算验证并说明误差方向",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-06",
+      "standardOrExampleId": "cms-2022:3.NA.06",
+      "observationId": "pact-3-NA-06-r3",
+      "criterion": "区分四舍五入与实际取整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-07",
+      "standardOrExampleId": "cms-2022:3.NA.07",
+      "observationId": "pact-3-NA-07-r1",
+      "criterion": "自主列表和建式",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-07",
+      "standardOrExampleId": "cms-2022:3.NA.07",
+      "observationId": "pact-3-NA-07-r2",
+      "criterion": "解释一般项而非仅拟合",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-07",
+      "standardOrExampleId": "cms-2022:3.NA.07",
+      "observationId": "pact-3-NA-07-r3",
+      "criterion": "明确条件变化导致模型变化",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-08",
+      "standardOrExampleId": "cms-2022:3.NA.08",
+      "observationId": "pact-3-NA-08-r1",
+      "criterion": "理解比表示相对份数",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-08",
+      "standardOrExampleId": "cms-2022:3.NA.08",
+      "observationId": "pact-3-NA-08-r2",
+      "criterion": "两种情境独立建模",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-08",
+      "standardOrExampleId": "cms-2022:3.NA.08",
+      "observationId": "pact-3-NA-08-r3",
+      "criterion": "代回检验总量和比例",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-09",
+      "standardOrExampleId": "cms-2022:3.NA.09",
+      "observationId": "pact-3-NA-09-r1",
+      "criterion": "表图式三种表达一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-09",
+      "standardOrExampleId": "cms-2022:3.NA.09",
+      "observationId": "pact-3-NA-09-r2",
+      "criterion": "用比值解释正比而非只看同增",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-09",
+      "standardOrExampleId": "cms-2022:3.NA.09",
+      "observationId": "pact-3-NA-09-r3",
+      "criterion": "能提出符合条件的情境与反例",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-10",
+      "standardOrExampleId": "cms-2022:3.NA.10",
+      "observationId": "pact-3-NA-10-r1",
+      "criterion": "模型与部分整体对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-10",
+      "standardOrExampleId": "cms-2022:3.NA.10",
+      "observationId": "pact-3-NA-10-r2",
+      "criterion": "计算过程和单位正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-NA-10",
+      "standardOrExampleId": "cms-2022:3.NA.10",
+      "observationId": "pact-3-NA-10-r3",
+      "criterion": "用趋势和代回检查合理性",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-01",
+      "standardOrExampleId": "cms-2022:3.GG.01",
+      "observationId": "pact-3-GG-01-r1",
+      "criterion": "实物验证严格大于条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-01",
+      "standardOrExampleId": "cms-2022:3.GG.01",
+      "observationId": "pact-3-GG-01-r2",
+      "criterion": "角度测量剪拼记录完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-01",
+      "standardOrExampleId": "cms-2022:3.GG.01",
+      "observationId": "pact-3-GG-01-r3",
+      "criterion": "平行线推理与测量证据区分",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-02",
+      "standardOrExampleId": "cms-2022:3.GG.02",
+      "observationId": "pact-3-GG-02-r1",
+      "criterion": "圆规作图与半径概念正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-02",
+      "standardOrExampleId": "cms-2022:3.GG.02",
+      "observationId": "pact-3-GG-02-r2",
+      "criterion": "测量比值与误差可追溯",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-02",
+      "standardOrExampleId": "cms-2022:3.GG.02",
+      "observationId": "pact-3-GG-02-r3",
+      "criterion": "说明周长和面积公式的来源",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-03",
+      "standardOrExampleId": "cms-2022:3.GG.03",
+      "observationId": "pact-3-GG-03-r1",
+      "criterion": "剪拼保持面积并正确对应底高",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-03",
+      "standardOrExampleId": "cms-2022:3.GG.03",
+      "observationId": "pact-3-GG-03-r2",
+      "criterion": "公式推导包含除以2的原因",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-03",
+      "standardOrExampleId": "cms-2022:3.GG.03",
+      "observationId": "pact-3-GG-03-r3",
+      "criterion": "不规则估计有范围且单位换算正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-04",
+      "standardOrExampleId": "cms-2022:3.GG.04",
+      "observationId": "pact-3-GG-04-r1",
+      "criterion": "实际三次读数及差值完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-04",
+      "standardOrExampleId": "cms-2022:3.GG.04",
+      "observationId": "pact-3-GG-04-r2",
+      "criterion": "浸没无溢水且读数方法正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-04",
+      "standardOrExampleId": "cms-2022:3.GG.04",
+      "observationId": "pact-3-GG-04-r3",
+      "criterion": "说明适用条件和误差",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-05",
+      "standardOrExampleId": "cms-2022:3.GG.05",
+      "observationId": "pact-3-GG-05-r1",
+      "criterion": "展开图可实际折回且面对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-05",
+      "standardOrExampleId": "cms-2022:3.GG.05",
+      "observationId": "pact-3-GG-05-r2",
+      "criterion": "体积公式有铺底叠层解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-05",
+      "standardOrExampleId": "cms-2022:3.GG.05",
+      "observationId": "pact-3-GG-05-r3",
+      "criterion": "圆锥实验控制同底等高并讨论误差",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-06",
+      "standardOrExampleId": "cms-2022:3.GG.06",
+      "observationId": "pact-3-GG-06-r1",
+      "criterion": "三张实际视图与物体一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-06",
+      "standardOrExampleId": "cms-2022:3.GG.06",
+      "observationId": "pact-3-GG-06-r2",
+      "criterion": "考虑遮挡并逐块核对",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-06",
+      "standardOrExampleId": "cms-2022:3.GG.06",
+      "observationId": "pact-3-GG-06-r3",
+      "criterion": "区分可确定信息与不确定性",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-07",
+      "standardOrExampleId": "cms-2022:3.GG.07",
+      "observationId": "pact-3-GG-07-r1",
+      "criterion": "预测实测计算相互对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-07",
+      "standardOrExampleId": "cms-2022:3.GG.07",
+      "observationId": "pact-3-GG-07-r2",
+      "criterion": "能解释单位和误差",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-07",
+      "standardOrExampleId": "cms-2022:3.GG.07",
+      "observationId": "pact-3-GG-07-r3",
+      "criterion": "跨次及延后任务有独立表现记录",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-08",
+      "standardOrExampleId": "cms-2022:3.GG.08",
+      "observationId": "pact-3-GG-08-r1",
+      "criterion": "路线方向距离比例完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-08",
+      "standardOrExampleId": "cms-2022:3.GG.08",
+      "observationId": "pact-3-GG-08-r2",
+      "criterion": "同伴执行可验证",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-08",
+      "standardOrExampleId": "cms-2022:3.GG.08",
+      "observationId": "pact-3-GG-08-r3",
+      "criterion": "往返描述与修订记录一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-09",
+      "standardOrExampleId": "cms-2022:3.GG.09",
+      "observationId": "pact-3-GG-09-r1",
+      "criterion": "实际落点连线准确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-09",
+      "standardOrExampleId": "cms-2022:3.GG.09",
+      "observationId": "pact-3-GG-09-r2",
+      "criterion": "解释顺序改变的影响",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-09",
+      "standardOrExampleId": "cms-2022:3.GG.09",
+      "observationId": "pact-3-GG-09-r3",
+      "criterion": "实际座位定位与约定一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-10",
+      "standardOrExampleId": "cms-2022:3.GG.10",
+      "observationId": "pact-3-GG-10-r1",
+      "criterion": "全图对应长度按同一比例变化",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-10",
+      "standardOrExampleId": "cms-2022:3.GG.10",
+      "observationId": "pact-3-GG-10-r2",
+      "criterion": "区分长度周长面积倍数",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-10",
+      "standardOrExampleId": "cms-2022:3.GG.10",
+      "observationId": "pact-3-GG-10-r3",
+      "criterion": "比例尺单位统一且可复算",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-11",
+      "standardOrExampleId": "cms-2022:3.GG.11",
+      "observationId": "pact-3-GG-11-r1",
+      "criterion": "所有顶点与边都完成变换",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-11",
+      "standardOrExampleId": "cms-2022:3.GG.11",
+      "observationId": "pact-3-GG-11-r2",
+      "criterion": "变换参数明确且一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-11",
+      "standardOrExampleId": "cms-2022:3.GG.11",
+      "observationId": "pact-3-GG-11-r3",
+      "criterion": "操作核对与纠错记录完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-12",
+      "standardOrExampleId": "cms-2022:3.GG.12",
+      "observationId": "pact-3-GG-12-r1",
+      "criterion": "观察能识别实际变换",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-12",
+      "standardOrExampleId": "cms-2022:3.GG.12",
+      "observationId": "pact-3-GG-12-r2",
+      "criterion": "原创作品参数明确可复现",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-GG-12",
+      "standardOrExampleId": "cms-2022:3.GG.12",
+      "observationId": "pact-3-GG-12-r3",
+      "criterion": "解释设计并保留修改过程",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-01",
+      "standardOrExampleId": "cms-2022:3.SP.01",
+      "observationId": "pact-3-SP-01-r1",
+      "criterion": "问题采集整理分析展示全链完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-01",
+      "standardOrExampleId": "cms-2022:3.SP.01",
+      "observationId": "pact-3-SP-01-r2",
+      "criterion": "原始数据与图表可互查",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-01",
+      "standardOrExampleId": "cms-2022:3.SP.01",
+      "observationId": "pact-3-SP-01-r3",
+      "criterion": "结论限于样本且回应质疑",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-02",
+      "standardOrExampleId": "cms-2022:3.SP.02",
+      "observationId": "pact-3-SP-02-r1",
+      "criterion": "两种图独立完成且要素齐全",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-02",
+      "standardOrExampleId": "cms-2022:3.SP.02",
+      "observationId": "pact-3-SP-02-r2",
+      "criterion": "数据比例角度一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-02",
+      "standardOrExampleId": "cms-2022:3.SP.02",
+      "observationId": "pact-3-SP-02-r3",
+      "criterion": "选择图形有明确理由",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-03",
+      "standardOrExampleId": "cms-2022:3.SP.03",
+      "observationId": "pact-3-SP-03-r1",
+      "criterion": "实际获取且出处口径可追溯",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-03",
+      "standardOrExampleId": "cms-2022:3.SP.03",
+      "observationId": "pact-3-SP-03-r2",
+      "criterion": "跨源核对并正确计算",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-03",
+      "standardOrExampleId": "cms-2022:3.SP.03",
+      "observationId": "pact-3-SP-03-r3",
+      "criterion": "解释历史版本、舍入和适用范围",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-04",
+      "standardOrExampleId": "cms-2022:3.SP.04",
+      "observationId": "pact-3-SP-04-r1",
+      "criterion": "分子分母与总体清楚",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-04",
+      "standardOrExampleId": "cms-2022:3.SP.04",
+      "observationId": "pact-3-SP-04-r2",
+      "criterion": "区分人数比较与比例比较",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-04",
+      "standardOrExampleId": "cms-2022:3.SP.04",
+      "observationId": "pact-3-SP-04-r3",
+      "criterion": "能构造例子并说明信息不足",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-05",
+      "standardOrExampleId": "cms-2022:3.SP.05",
+      "observationId": "pact-3-SP-05-r1",
+      "criterion": "原始数据比例和方案对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-05",
+      "standardOrExampleId": "cms-2022:3.SP.05",
+      "observationId": "pact-3-SP-05-r2",
+      "criterion": "比较合理性及限制",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-05",
+      "standardOrExampleId": "cms-2022:3.SP.05",
+      "observationId": "pact-3-SP-05-r3",
+      "criterion": "有检验与反思记录",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-06",
+      "standardOrExampleId": "cms-2022:3.SP.06",
+      "observationId": "pact-3-SP-06-r1",
+      "criterion": "逐次记录真实实验",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-06",
+      "standardOrExampleId": "cms-2022:3.SP.06",
+      "observationId": "pact-3-SP-06-r2",
+      "criterion": "区分可能、必然与不确定",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-06",
+      "standardOrExampleId": "cms-2022:3.SP.06",
+      "observationId": "pact-3-SP-06-r3",
+      "criterion": "不从短序列作过度结论",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-07",
+      "standardOrExampleId": "cms-2022:3.SP.07",
+      "observationId": "pact-3-SP-07-r1",
+      "criterion": "操作控制同形大小与放回",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-07",
+      "standardOrExampleId": "cms-2022:3.SP.07",
+      "observationId": "pact-3-SP-07-r2",
+      "criterion": "预测和实际频数可比较",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-SP-07",
+      "standardOrExampleId": "cms-2022:3.SP.07",
+      "observationId": "pact-3-SP-07-r3",
+      "criterion": "解释可能性与必然性区别及条件变化",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-IP-01",
+      "standardOrExampleId": "cms-2022:3.IP.01",
+      "observationId": "pact-3-IP-01-r1",
+      "criterion": "基准正方向与单位明确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-IP-01",
+      "standardOrExampleId": "cms-2022:3.IP.01",
+      "observationId": "pact-3-IP-01-r2",
+      "criterion": "数轴与情境对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-3-IP-01",
+      "standardOrExampleId": "cms-2022:3.IP.01",
+      "observationId": "pact-3-IP-01-r3",
+      "criterion": "故事区分状态和变化量并可解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-campus",
+      "standardOrExampleId": "example-2022:campus",
+      "observationId": "pact-example-campus-r1",
+      "criterion": "实测记录与分工完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-campus",
+      "standardOrExampleId": "example-2022:campus",
+      "observationId": "pact-example-campus-r2",
+      "criterion": "比例方向位置图例可核查",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-campus",
+      "standardOrExampleId": "example-2022:campus",
+      "observationId": "pact-example-campus-r3",
+      "criterion": "有交叉验证、误差和修订作品",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-sport",
+      "standardOrExampleId": "example-2022:sport",
+      "observationId": "pact-example-sport-r1",
+      "criterion": "数据来源与测量口径清楚",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-sport",
+      "standardOrExampleId": "example-2022:sport",
+      "observationId": "pact-example-sport-r2",
+      "criterion": "学生自主提问并选择分析方法",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-sport",
+      "standardOrExampleId": "example-2022:sport",
+      "observationId": "pact-example-sport-r3",
+      "criterion": "结论有局限说明和修订",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-lunch",
+      "standardOrExampleId": "example-2022:lunch",
+      "observationId": "pact-example-lunch-r1",
+      "criterion": "来源调查图表完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-lunch",
+      "standardOrExampleId": "example-2022:lunch",
+      "observationId": "pact-example-lunch-r2",
+      "criterion": "份量单位换算和预算正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-lunch",
+      "standardOrExampleId": "example-2022:lunch",
+      "observationId": "pact-example-lunch-r3",
+      "criterion": "方案比较、限制及过程反思齐全",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-water",
+      "standardOrExampleId": "example-2022:water",
+      "observationId": "pact-example-water-r1",
+      "criterion": "调查来源次数用量可复算",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-water",
+      "standardOrExampleId": "example-2022:water",
+      "observationId": "pact-example-water-r2",
+      "criterion": "方案预测与前后实际评估完整",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-example-water",
+      "standardOrExampleId": "example-2022:water",
+      "observationId": "pact-example-water-r3",
+      "criterion": "解释误差干扰及改进",
+      "evidenceStatus": "not-observed"
+    }
+  ]
+}

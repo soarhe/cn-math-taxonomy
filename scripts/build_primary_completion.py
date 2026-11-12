@@ -26,6 +26,7 @@ def build(check=False):
   record=original.get(key); target='example-2022:'+key.split('.')[1] if example else 'cms-2022:'+key
   rubric=[{'id':tid+'-r'+str(i+1),'criterion':s,'levels':{'0':'提交证据显示未满足本项要求；请指出具体错误。','1':'部分满足本项，仍需提示、修正或补充证据。','2':'独立完成本项，并提交可核查的过程或作品。'}} for i,s in enumerate(criteria.split('§'))]
   task={'id':tid,'kind':'performance-task','title':title,'stage':stage,'gradeRange':[stage*2-1,stage*2], 'topicIds':topic_ids,'targetId':target,'targetKind':'reference-example' if example else 'standard-record','materials':materials,'instructions':steps.split('§'),'submission':['逐步记录实际操作、原始数据或推理过程；注明日期、单位和条件。','提交作图、作品或实物记录的文字说明及本地附件文件名；页面不上传附件。','逐项填写评分依据和反馈；未观察的项目保持未观察。'],'reference':expected,'rubric':rubric,'assessmentMode':'human-observation','autoMastery':False,'expertReviewed':False,'studentTrialCompleted':False,'sourceIds':source_map.get(key,[])+(['standard-2022'] if example else []),'repeatPolicy':'按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。'}
+  task['scoringExample']=load('authoring/primary-completion/scoring-examples.json').get(tid)
   tasks.append(task)
   for topic in topic_ids: edges.append({'from':tid,'to':topic,'type':'practises','diagnosticPropagation':False})
   edges.append({'from':tid,'to':target,'type':'addresses','diagnosticPropagation':False})
@@ -34,7 +35,7 @@ def build(check=False):
  assert {m['targetId'] for m in matrix if m['kind']=='standard-record'}=={r['standardId'] for r in old['rows']}
  data={'schemaVersion':1,'version':VERSION,'baseline':'primary-2026-10.1','scope':'77条既有记录的已知不足及4个参考活动示例的任务补充，不宣称穷尽国家课标或完成2025全文认证。','sources':sources,'tasks':tasks,'relations':edges}
  report={'version':VERSION,'counts':{'previousGapsAddressed':10,'previousPartialsAddressed':67,'referenceExamplesAdded':4,'tasksAuthored':81,'rubricCriteria':sum(len(t['rubric']) for t in tasks),'unassignedKnownFindings':0,'expertValidated':0},'statusMeaning':'authored-awaiting-review 只表示逐条补充了可执行任务及量规，不表示学生已掌握或专家验证充分覆盖。','rows':matrix,'remainingExternalValidation':['教师独立内容复核、作图和测量评分校准。','真实学生试做与跨次素养观察。','2025版官方原件认证及完整版本对照；2022全文逐字转写核验。','教材年级标签与课标学段的逐项教学安排校准；活动页按课标学段提供入口。']}
- outputs={'data/primary-activities.json':dump(data),'reviews/primary-completion/coverage.json':dump(report)}
+ outputs={'data/primary-activities.json':dump(data),'reviews/primary-completion/coverage.json':dump(report),'reviews/primary-completion/observation-matrix.json':dump({'scope':'243项活动观察指标；不是完整官方课标原子要求底表。','rows':[{'taskId':t['id'],'standardOrExampleId':t['targetId'],'observationId':o['id'],'criterion':o['criterion'],'evidenceStatus':'not-observed'} for t in tasks for o in t['rubric']]})}
  for name,content in outputs.items():
   if check:
    assert (ROOT/name).read_text()==content,'Generated file drift: '+name

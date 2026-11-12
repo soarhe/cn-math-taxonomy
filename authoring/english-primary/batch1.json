@@ -1,0 +1,374 @@
+{
+  "version": "english-primary-2026-11.1",
+  "tasks": [
+    {
+      "id": "ep-listen-intro",
+      "title": "听懂自我介绍",
+      "skill": "listening",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p008"
+      ],
+      "standardIds": [
+        "ces-2022:1.FU.01",
+        "ces-2022:1.RW.02"
+      ],
+      "prompt": "播放音频，记录说话人的姓名、年龄和喜欢的颜色；最多听两遍，再用自己的话复述。",
+      "transcript": "Hello. My name is Lucy. I am nine years old. I like blue.",
+      "reference": "Lucy；9岁；蓝色。",
+      "rubric": [
+        "准确提取三项信息",
+        "不依赖文字稿",
+        "能指出未听清的部分"
+      ],
+      "audio": {
+        "path": "audio/listen-intro.wav",
+        "sha256": "3be0b8d7ec2e44dce6473c36cf6a15ba89911d0744e976f07183a7918ec6f225",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-listen-location",
+      "title": "听指令找到位置",
+      "skill": "listening",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p045",
+        "cne_p047"
+      ],
+      "standardIds": [
+        "ces-2022:1.FU.02",
+        "ces-2022:1.GR.04"
+      ],
+      "prompt": "画一张桌子、一把椅子和一个盒子；听音频，把书、球和铅笔画在正确位置。",
+      "transcript": "The book is on the desk. The ball is under the chair. The pencil is in the box.",
+      "reference": "书在桌上；球在椅下；铅笔在盒中。",
+      "rubric": [
+        "三个位置正确",
+        "图与口头指令对应",
+        "区分in、on、under"
+      ],
+      "audio": {
+        "path": "audio/listen-location.wav",
+        "sha256": "448bb99649eab9eeae07ca41da10884f4fe218217daa0204740beedeb0736f74",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-listen-weekend",
+      "title": "听懂过去与计划",
+      "skill": "listening",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p187",
+        "cne_p188",
+        "cne_p197"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.08",
+        "ces-2022:2.FU.02",
+        "ces-2022:2.RW.01"
+      ],
+      "prompt": "听音频，分别记录上周日做了什么、和谁去、下周六打算做什么；解释哪些已经发生、哪些是计划。",
+      "transcript": "Last Sunday, I went to the park with my sister. We played football. Next Saturday, I am going to visit my grandma.",
+      "reference": "上周日与姐姐或妹妹去公园踢足球；下周六计划看望奶奶或外婆。",
+      "rubric": [
+        "提取人物时间活动",
+        "区分过去与计划",
+        "允许中文记录但不看稿作答"
+      ],
+      "audio": {
+        "path": "audio/listen-weekend.wav",
+        "sha256": "e4e7c02b2823fcd3d634efdaea7010d4f8943c6098f1ce435f62f88fae515c9a",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-speak-greeting",
+      "title": "真实问候与追问",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p005",
+        "cne_p007",
+        "cne_p027"
+      ],
+      "standardIds": [
+        "ces-2022:1.FU.01",
+        "ces-2022:1.FU.03"
+      ],
+      "prompt": "两人轮流问候、自我介绍、询问年龄并告别；听对方回答后增加一个相关问题。观察者记录实际说出的句子。",
+      "transcript": "",
+      "reference": "示例：Hello. I am Lin. What is your name? How old are you? Nice to meet you. Goodbye. 回答随真实或虚构角色而定。",
+      "rubric": [
+        "能独立发起和回应",
+        "表达可理解且礼貌",
+        "追问与对方回答有关"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-speak-weekend",
+      "title": "讲述周末并回答问题",
+      "skill": "speaking",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p187",
+        "cne_p190",
+        "cne_p194"
+      ],
+      "standardIds": [
+        "ces-2022:2.FU.02",
+        "ces-2022:2.GR.08"
+      ],
+      "prompt": "准备三个关键词，讲述一个真实或虚构周末，包含时间、地点、活动和感受；同伴追问两次，再换角色。",
+      "transcript": "",
+      "reference": "示例：Last Sunday, I visited a park. I played football with my friend. I was happy. 不要求与示例完全一致。",
+      "rubric": [
+        "讲述连贯且信息完整",
+        "过去时基本准确",
+        "能针对追问作出有意义回应"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-sound-b",
+      "title": "听辨开头音并朗读",
+      "skill": "phonics",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p004"
+      ],
+      "standardIds": [
+        "ces-2022:1.PH.04"
+      ],
+      "prompt": "先听三组词，判断每组开头音是否相同；再看文字稿朗读，观察者记录实际发音。",
+      "transcript": "bed, ball. bed, cat. book, bag.",
+      "reference": "同、不同、同。可理解的/b/开头音；不要把字母名称bee当作每个词的开头音。",
+      "rubric": [
+        "听辨三组开头音",
+        "朗读可理解",
+        "区分字母名称与词中读音"
+      ],
+      "audio": {
+        "path": "audio/sound-b.wav",
+        "sha256": "165a85de6d6ed1e4052db8ae8c8071efda28d55ebb28e96e05175b60a1ab65d0",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-write-letters",
+      "title": "大小写与独立拼写",
+      "skill": "writing",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p001",
+        "cne_p002",
+        "cne_p009"
+      ],
+      "standardIds": [
+        "ces-2022:1.PH.01",
+        "ces-2022:1.VO.01"
+      ],
+      "prompt": "在纸上写出A到F的大小写配对；观察图中的三支蜡笔，为1、2、3号分别独立写英文颜色，不从选项抄写。",
+      "transcript": "",
+      "reference": "Aa Bb Cc Dd Ee Ff；1 red、2 blue、3 green。允许教师记录镜像书写和大小写问题后安排复做。",
+      "rubric": [
+        "大小写对应且字形可辨",
+        "颜色词独立拼写",
+        "修改时说明错误而非仅抄答案"
+      ],
+      "audio": null,
+      "figure": "colours.svg",
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-picture-colours",
+      "title": "看真实图形表达颜色",
+      "skill": "visual",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p009",
+        "cne_p010",
+        "cne_p012"
+      ],
+      "standardIds": [
+        "ces-2022:1.RW.01",
+        "ces-2022:1.FU.02"
+      ],
+      "prompt": "看图，回答What colour is number two? 再分别用完整英文句描述1号和3号蜡笔。",
+      "transcript": "",
+      "reference": "Number two is blue. Number one is red. Number three is green. 接受It is...等语境明确的等价表达。",
+      "rubric": [
+        "依据图形判断",
+        "颜色词正确",
+        "能独立生成可理解的句子"
+      ],
+      "audio": null,
+      "figure": "colours.svg",
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-write-note",
+      "title": "独立写一张邀请便条",
+      "skill": "writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p197"
+      ],
+      "standardIds": [
+        "ces-2022:2.RW.02",
+        "ces-2022:2.FU.02"
+      ],
+      "prompt": "给虚构朋友写4至6句邀请便条：下周六下午3点在学校公园见面，一起踢足球，请对方回复；写初稿后自行检查并修改。",
+      "transcript": "",
+      "reference": "示例：Dear Sam, Would you like to play football with me? Let us meet at the school park at three next Saturday afternoon. Please write back. Yours, Lin. 接受合理不同表达。",
+      "rubric": [
+        "时间地点活动齐全",
+        "句意连贯格式适当",
+        "有自主修改记录"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-read-reason",
+      "title": "阅读后解释依据",
+      "skill": "reading",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p188",
+        "cne_p197"
+      ],
+      "standardIds": [
+        "ces-2022:2.RW.01"
+      ],
+      "prompt": "阅读：Tom wanted to ride his bike. It rained all morning, so he stayed at home and read a book. In the afternoon the sun came out. He rode to the park. 回答上午为何没骑车、下午去了哪里，并指出原文依据；能否知道他和谁去？",
+      "transcript": "",
+      "reference": "上午下雨；下午去公园；无法知道和谁去，不能编造。",
+      "rubric": [
+        "区分明示信息与推断",
+        "指出文本依据",
+        "识别文本没有提供的信息"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-culture-greeting",
+      "title": "比较问候方式",
+      "skill": "culture",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p005",
+        "cne_p007"
+      ],
+      "standardIds": [
+        "ces-2022:1.FU.01"
+      ],
+      "prompt": "比较Hello、Good morning、Thank you与中文对应表达，用两种语言分别表演见面和获助情境；讨论时间、关系和场合怎样影响表达。",
+      "transcript": "",
+      "reference": "不要求国家刻板印象；根据具体情境选择，Good morning用于上午；感谢用于获得帮助等场合。",
+      "rubric": [
+        "情境与表达匹配",
+        "能比较而不泛化所有人",
+        "尊重不同表达习惯"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    },
+    {
+      "id": "ep-strategy-revise",
+      "title": "制定并检验学习策略",
+      "skill": "strategy",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p197",
+        "cne_p196"
+      ],
+      "standardIds": [
+        "ces-2022:2.VO.02",
+        "ces-2022:2.RW.02"
+      ],
+      "prompt": "从自己的英文便条中选两处不确定表达，先标注疑问，再查纸质词典或请教师解释；保留初稿、依据和修改，三天后独立再写同类句子。",
+      "transcript": "",
+      "reference": "答案依作品；检查引用依据是否支持修改，延后任务独立完成；不能把抄写正确等同掌握。",
+      "rubric": [
+        "发现具体问题",
+        "依据可靠且修改对应",
+        "延后迁移有独立记录"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false
+    }
+  ],
+  "audioNote": "合成语音用于原型练习，尚未人工听审，不作为标准发音认证。"
+}

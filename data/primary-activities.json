@@ -116,7 +116,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-NA-02",
@@ -180,7 +181,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-NA-03",
@@ -245,7 +247,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-NA-04",
@@ -310,7 +313,16 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": {
+        "focus": "进退位的解释，而非只核对最终数值",
+        "examples": [
+          "0：把28＋17按各列不进位写成315，且不能用计数棒解释。",
+          "1：写出45，但无法说明十个一换成一个十；提示后能操作。",
+          "2：独立用计数棒和竖式说明进位，完成迁移题并保留过程。"
+        ],
+        "boundary": "算对45只支持结果正确，不足以把三个量规项目都评为2。"
+      }
     },
     {
       "id": "pact-1-NA-05",
@@ -375,7 +387,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-NA-06",
@@ -439,7 +452,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-NA-07",
@@ -502,7 +516,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-NA-08",
@@ -563,7 +578,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-GG-01",
@@ -626,7 +642,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-GG-02",
@@ -689,7 +706,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-GG-03",
@@ -752,7 +770,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-SP-01",
@@ -814,7 +833,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-IP-01",
@@ -877,7 +897,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-IP-02",
@@ -939,7 +960,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-IP-03",
@@ -1002,7 +1024,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-IP-04",
@@ -1064,7 +1087,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-IP-05",
@@ -1127,7 +1151,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-1-IP-06",
@@ -1191,7 +1216,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-01",
@@ -1255,7 +1281,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-02",
@@ -1319,7 +1346,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-03",
@@ -1381,7 +1409,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-04",
@@ -1444,7 +1473,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-05",
@@ -1506,7 +1536,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-06",
@@ -1568,7 +1599,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-07",
@@ -1630,7 +1662,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-08",
@@ -1691,7 +1724,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-NA-09",
@@ -1753,7 +1787,16 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": {
+        "focus": "借助同一参照推断相等",
+        "examples": [
+          "0：只因两条纸条颜色相同就说长度相等。",
+          "1：直接叠放能看出相等，但不能解释A＝B、B＝C的联系。",
+          "2：独立说明共同参照B使A与C等长，并用叠放验证及识别条件不足。"
+        ],
+        "boundary": "没有实际说明或观察记录保持未观察；不能仅凭一个A＝C答案认定掌握传递推理。"
+      }
     },
     {
       "id": "pact-2-NA-10",
@@ -1815,7 +1858,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-01",
@@ -1878,7 +1922,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-02",
@@ -1940,7 +1985,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-03",
@@ -2006,7 +2052,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-04",
@@ -2069,7 +2116,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-05",
@@ -2132,7 +2180,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-06",
@@ -2193,7 +2242,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-07",
@@ -2256,7 +2306,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-08",
@@ -2319,7 +2370,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-GG-09",
@@ -2381,7 +2433,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-SP-01",
@@ -2443,7 +2496,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-SP-02",
@@ -2504,7 +2558,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-SP-03",
@@ -2566,7 +2621,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-SP-04",
@@ -2631,7 +2687,8 @@
         "media-2024",
         "nbs-2024"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-SP-05",
@@ -2692,7 +2749,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-SP-06",
@@ -2756,7 +2814,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-IP-01",
@@ -2821,7 +2880,8 @@
         "seasons",
         "solar-terms"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-IP-02",
@@ -2884,7 +2944,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-IP-03",
@@ -2947,7 +3008,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-2-IP-04",
@@ -3013,7 +3075,8 @@
       "sourceIds": [
         "measure-history"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-01",
@@ -3080,7 +3143,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-02",
@@ -3144,7 +3208,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-03",
@@ -3207,7 +3272,16 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": {
+        "focus": "每人所得与占总量比例的区别",
+        "examples": [
+          "0：说每人得1/4张，混淆总量与一张饼。",
+          "1：正确答3/4张，但不能说明每人占三张饼总量的1/4。",
+          "2：两种分法都公平，说明每人3/4张且占总量1/4，并迁移到5张分2人。"
+        ],
+        "boundary": "三项分别判分；除数非零的解释不能被一张正确分饼图替代。"
+      }
     },
     {
       "id": "pact-3-NA-04",
@@ -3272,7 +3346,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-05",
@@ -3335,7 +3410,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-06",
@@ -3398,7 +3474,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-07",
@@ -3461,7 +3538,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-08",
@@ -3525,7 +3603,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-09",
@@ -3586,7 +3665,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-NA-10",
@@ -3650,7 +3730,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-01",
@@ -3712,7 +3793,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-02",
@@ -3776,7 +3858,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-03",
@@ -3841,7 +3924,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-04",
@@ -3903,7 +3987,16 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": {
+        "focus": "排水测量条件与误差",
+        "examples": [
+          "0：以终读数155毫升直接作为石头体积。",
+          "1：算155−120＝35，但没有保证石头浸没或没有读数记录。",
+          "2：保留三次原始读数与差值，保证浸没无溢水并解释视差等误差。"
+        ],
+        "boundary": "35立方厘米只是示例；实际测量值不必等于35，应核对学生自己的数据。"
+      }
     },
     {
       "id": "pact-3-GG-05",
@@ -3970,7 +4063,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-06",
@@ -4032,7 +4126,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-07",
@@ -4095,7 +4190,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-08",
@@ -4157,7 +4253,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-09",
@@ -4218,7 +4315,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-10",
@@ -4279,7 +4377,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-11",
@@ -4342,7 +4441,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-GG-12",
@@ -4405,7 +4505,16 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": {
+        "focus": "作品中的可复现变换",
+        "examples": [
+          "0：仅贴一张好看的图，无法指出变换。",
+          "1：识别一种变换，但作品缺少轴、中心或位移信息。",
+          "2：作品明确至少两种变换及参数，同伴能够复现并保留修改说明。"
+        ],
+        "boundary": "不按绘画美观程度替代数学结构评分。"
+      }
     },
     {
       "id": "pact-3-SP-01",
@@ -4469,7 +4578,16 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": {
+        "focus": "调查全过程和结论边界",
+        "examples": [
+          "0：没有采集记录，编造汇总数据作为实测。",
+          "1：有真实数据和图表，但缺漏值当作0或把小组结论推广到全校。",
+          "2：问题、采集规则、原始记录、整理、分析和展示可核对，说明样本限制并回应质疑。"
+        ],
+        "boundary": "缺失数据不是0；教师给定的模拟数据可练习分析，但不能认证实际采集能力。"
+      }
     },
     {
       "id": "pact-3-SP-02",
@@ -4531,7 +4649,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-SP-03",
@@ -4597,7 +4716,8 @@
         "media-2024",
         "nbs-2024"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-SP-04",
@@ -4660,7 +4780,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-SP-05",
@@ -4723,7 +4844,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-SP-06",
@@ -4784,7 +4906,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-SP-07",
@@ -4845,7 +4968,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-3-IP-01",
@@ -4907,7 +5031,8 @@
       "expertReviewed": false,
       "studentTrialCompleted": false,
       "sourceIds": [],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-example-campus",
@@ -4974,7 +5099,8 @@
       "sourceIds": [
         "standard-2022"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-example-sport",
@@ -5040,7 +5166,8 @@
       "sourceIds": [
         "standard-2022"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-example-lunch",
@@ -5107,7 +5234,8 @@
       "sourceIds": [
         "standard-2022"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     },
     {
       "id": "pact-example-water",
@@ -5173,7 +5301,8 @@
       "sourceIds": [
         "standard-2022"
       ],
-      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。"
+      "repeatPolicy": "按任务要求重复；综合素养任务须跨次观察。未提交、未观察、答错三者分开记录。",
+      "scoringExample": null
     }
   ],
   "relations": [

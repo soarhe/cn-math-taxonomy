@@ -12,6 +12,7 @@
 
   var topics = [];
   var primaryActivities = [];
+  var englishActivities = [];
   var deps = [];
   var aliases = {};
   var byId = new Map();
@@ -439,6 +440,19 @@
         entry.note ? el('p', { class: 'muted', text: '说明：' + entry.note }) : null);
     }) : [el('p', { class: 'muted', text: '没有对应的课标条目。' })];
     parts.push(el('section', null, el('h2', { text: '课标条目' }), standardNodes));
+    var activityStandards = new Map();
+    primaryActivities.filter(function (a) { return a.topicIds.indexOf(topic.id) >= 0 && a.targetKind === 'standard-record'; }).forEach(function (a) {
+      var bucket=activityStandards.get(a.targetId)||[]; bucket.push(a); activityStandards.set(a.targetId,bucket);
+    });
+    if (activityStandards.size) parts.push(el('section', null,
+      el('h2', {text:'活动关联的课标要求'}),
+      el('p', {class:'muted',text:'以下是活动层关联；不意味着当前知识点独自充分覆盖该条目。'}),
+      Array.from(activityStandards.entries()).map(function (pair) {
+        var item=stdById.get(pair[0]);
+        return el('div', {class:'std'},el('code',{text:pair[0]}),el('p',{text:item?item.text:'待核条目'}),
+          pair[1].map(function(a){return el('p',null,el('a',{href:'../activities/primary/?topic='+encodeURIComponent(topic.id)+'#'+a.id},a.title));}));
+      })));
+
 
     if (topic.diagnostic_question && topic.diagnostic_question.question) {
       var answer = el('details', { class: 'ans' });
@@ -461,6 +475,13 @@
         el('a', { href: '../activities/primary/' }, '查看全部 81 个任务（按课标学段）')));
     }
 
+    if (topic.id.indexOf('cne_p') === 0) {
+      parts.push(el('section', null, el('h2', {text:'听说读写补充'}),
+        el('p', {text:'补充任务含合成音频及人工评价；内部条目关联不代表课标充分覆盖。'}),
+        englishActivities.filter(function(a){return a.topicIds.indexOf(topic.id)>=0;}).map(function(a){return el('p',null,el('a',{href:'../activities/english-primary/?topic='+encodeURIComponent(topic.id)+'#'+a.id},a.title));}),
+        el('a', {href:'../activities/english-primary/?topic='+encodeURIComponent(topic.id)}, '查看本知识点补充任务'),
+        el('p', null, el('a', {href:'../activities/english-primary/'}, '查看全部英语补充任务'))));
+    }
     var pres = pre.get(topic.id) || [];
     parts.push(el('section', null,
       el('h2', { text: '先修' }),
@@ -1067,13 +1088,14 @@
   }
 
   async function load() {
-    var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json', 'primary-activities.json'];
+    var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json', 'primary-activities.json', 'english-primary-activities.json'];
     var responses = await Promise.all(files.map(function (file) { return fetch('../data/' + file); }));
     responses.forEach(function (response, responseIndex) {
       if (!response.ok) throw new Error(files[responseIndex] + ' HTTP ' + response.status);
     });
     var json = await Promise.all(responses.map(function (response) { return response.json(); }));
     primaryActivities = json[4].tasks || [];
+    englishActivities = json[5].tasks || [];
     topics = json[0].filter(function (topic) { return isEnglishTopic(topic) === (subject === 'english'); });
     var allow = {};
     topics.forEach(function (topic) { allow[topic.id] = true; });

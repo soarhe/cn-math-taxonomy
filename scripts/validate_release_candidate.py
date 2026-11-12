@@ -19,6 +19,8 @@ def main():
  if lock['version'].startswith('primary-'):
   run([sys.executable,'scripts/build_primary_review.py','--check'])
   run([sys.executable,'scripts/build_primary_completion.py','--check'])
+  run([sys.executable,'scripts/build_english_primary.py','--check'])
+  run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_english_primary.py'])
   run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_primary_completion.py'])
   run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_primary_review.py'])
   # Previous patches assert their historical outputs. Reconstruct the exact

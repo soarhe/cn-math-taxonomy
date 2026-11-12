@@ -1,0 +1,2469 @@
+{
+  "version": "english-primary-2026-11.2",
+  "tasks": [
+    {
+      "id": "ep-listen-intro",
+      "title": "听懂自我介绍",
+      "skill": "listening",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p008"
+      ],
+      "standardIds": [],
+      "prompt": "播放音频，记录说话人的姓名、年龄和喜欢的颜色；最多听两遍，再用自己的话复述。",
+      "transcript": "Hello. My name is Lucy. I am nine years old. I like blue.",
+      "reference": "Lucy；9岁；蓝色。",
+      "rubric": [
+        "准确提取三项信息",
+        "不依赖文字稿",
+        "能指出未听清的部分"
+      ],
+      "audio": {
+        "path": "audio/listen-intro.wav",
+        "sha256": "3be0b8d7ec2e44dce6473c36cf6a15ba89911d0744e976f07183a7918ec6f225",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "mappingNote": "补充听力能力；不使用口语或阅读条目冒充直接听力覆盖。",
+      "observationItems": [
+        {
+          "id": "ep-listen-intro-o1",
+          "criterion": "准确提取三项信息",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：准确提取三项信息",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：准确提取三项信息",
+            "2": "独立体现且有可核对证据：准确提取三项信息"
+          }
+        },
+        {
+          "id": "ep-listen-intro-o2",
+          "criterion": "不依赖文字稿",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：不依赖文字稿",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：不依赖文字稿",
+            "2": "独立体现且有可核对证据：不依赖文字稿"
+          }
+        },
+        {
+          "id": "ep-listen-intro-o3",
+          "criterion": "能指出未听清的部分",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能指出未听清的部分",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能指出未听清的部分",
+            "2": "独立体现且有可核对证据：能指出未听清的部分"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "0：听后把年龄记成颜色，无法提取目标信息。",
+        "1：独立听出Lucy和blue，但年龄需第三次提示。",
+        "2：两遍内独立记录Lucy、nine、blue，且未打开文字稿。"
+      ]
+    },
+    {
+      "id": "ep-listen-location",
+      "title": "听指令找到位置",
+      "skill": "listening",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p045",
+        "cne_p047"
+      ],
+      "standardIds": [],
+      "prompt": "画一张桌子、一把椅子和一个盒子；听音频，把书、球和铅笔画在正确位置。",
+      "transcript": "The book is on the desk. The ball is under the chair. The pencil is in the box.",
+      "reference": "书在桌上；球在椅下；铅笔在盒中。",
+      "rubric": [
+        "三个位置正确",
+        "图与口头指令对应",
+        "区分in、on、under"
+      ],
+      "audio": {
+        "path": "audio/listen-location.wav",
+        "sha256": "448bb99649eab9eeae07ca41da10884f4fe218217daa0204740beedeb0736f74",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "mappingNote": "补充听力能力；不使用口语或阅读条目冒充直接听力覆盖。",
+      "observationItems": [
+        {
+          "id": "ep-listen-location-o1",
+          "criterion": "三个位置正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：三个位置正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：三个位置正确",
+            "2": "独立体现且有可核对证据：三个位置正确"
+          }
+        },
+        {
+          "id": "ep-listen-location-o2",
+          "criterion": "图与口头指令对应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：图与口头指令对应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：图与口头指令对应",
+            "2": "独立体现且有可核对证据：图与口头指令对应"
+          }
+        },
+        {
+          "id": "ep-listen-location-o3",
+          "criterion": "区分in、on、under",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：区分in、on、under",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：区分in、on、under",
+            "2": "独立体现且有可核对证据：区分in、on、under"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-listen-weekend",
+      "title": "听懂过去与计划",
+      "skill": "listening",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p187",
+        "cne_p188",
+        "cne_p197"
+      ],
+      "standardIds": [],
+      "prompt": "听音频，分别记录上周日做了什么、和谁去、下周六打算做什么；解释哪些已经发生、哪些是计划。",
+      "transcript": "Last Sunday, I went to the park with my sister. We played football. Next Saturday, I am going to visit my grandma.",
+      "reference": "上周日与姐姐或妹妹去公园踢足球；下周六计划看望奶奶或外婆。",
+      "rubric": [
+        "提取人物时间活动",
+        "区分过去与计划",
+        "允许中文记录但不看稿作答"
+      ],
+      "audio": {
+        "path": "audio/listen-weekend.wav",
+        "sha256": "e4e7c02b2823fcd3d634efdaea7010d4f8943c6098f1ce435f62f88fae515c9a",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "mappingNote": "补充听力能力；不使用口语或阅读条目冒充直接听力覆盖。",
+      "observationItems": [
+        {
+          "id": "ep-listen-weekend-o1",
+          "criterion": "提取人物时间活动",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：提取人物时间活动",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：提取人物时间活动",
+            "2": "独立体现且有可核对证据：提取人物时间活动"
+          }
+        },
+        {
+          "id": "ep-listen-weekend-o2",
+          "criterion": "区分过去与计划",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：区分过去与计划",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：区分过去与计划",
+            "2": "独立体现且有可核对证据：区分过去与计划"
+          }
+        },
+        {
+          "id": "ep-listen-weekend-o3",
+          "criterion": "允许中文记录但不看稿作答",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：允许中文记录但不看稿作答",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：允许中文记录但不看稿作答",
+            "2": "独立体现且有可核对证据：允许中文记录但不看稿作答"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-speak-greeting",
+      "title": "真实问候与追问",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p005",
+        "cne_p007",
+        "cne_p027"
+      ],
+      "standardIds": [
+        "ces-2022:1.FU.01",
+        "ces-2022:1.FU.03"
+      ],
+      "prompt": "两人轮流问候、自我介绍、询问年龄并告别；听对方回答后增加一个相关问题。观察者记录实际说出的句子。",
+      "transcript": "",
+      "reference": "示例：Hello. I am Lin. What is your name? How old are you? Nice to meet you. Goodbye. 回答随真实或虚构角色而定。",
+      "rubric": [
+        "能独立发起和回应",
+        "表达可理解且礼貌",
+        "追问与对方回答有关"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-speak-greeting-o1",
+          "criterion": "能独立发起和回应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能独立发起和回应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能独立发起和回应",
+            "2": "独立体现且有可核对证据：能独立发起和回应"
+          }
+        },
+        {
+          "id": "ep-speak-greeting-o2",
+          "criterion": "表达可理解且礼貌",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：表达可理解且礼貌",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：表达可理解且礼貌",
+            "2": "独立体现且有可核对证据：表达可理解且礼貌"
+          }
+        },
+        {
+          "id": "ep-speak-greeting-o3",
+          "criterion": "追问与对方回答有关",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：追问与对方回答有关",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：追问与对方回答有关",
+            "2": "独立体现且有可核对证据：追问与对方回答有关"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-speak-weekend",
+      "title": "讲述周末并回答问题",
+      "skill": "speaking",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p187",
+        "cne_p190",
+        "cne_p194"
+      ],
+      "standardIds": [
+        "ces-2022:2.FU.02",
+        "ces-2022:2.GR.08"
+      ],
+      "prompt": "准备三个关键词，讲述一个真实或虚构周末，包含时间、地点、活动和感受；同伴追问两次，再换角色。",
+      "transcript": "",
+      "reference": "示例：Last Sunday, I visited a park. I played football with my friend. I was happy. 不要求与示例完全一致。",
+      "rubric": [
+        "讲述连贯且信息完整",
+        "过去时基本准确",
+        "能针对追问作出有意义回应"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-speak-weekend-o1",
+          "criterion": "讲述连贯且信息完整",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：讲述连贯且信息完整",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：讲述连贯且信息完整",
+            "2": "独立体现且有可核对证据：讲述连贯且信息完整"
+          }
+        },
+        {
+          "id": "ep-speak-weekend-o2",
+          "criterion": "过去时基本准确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：过去时基本准确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：过去时基本准确",
+            "2": "独立体现且有可核对证据：过去时基本准确"
+          }
+        },
+        {
+          "id": "ep-speak-weekend-o3",
+          "criterion": "能针对追问作出有意义回应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能针对追问作出有意义回应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能针对追问作出有意义回应",
+            "2": "独立体现且有可核对证据：能针对追问作出有意义回应"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-sound-b",
+      "title": "听辨开头音并朗读",
+      "skill": "phonics",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p004"
+      ],
+      "standardIds": [
+        "ces-2022:1.PH.04"
+      ],
+      "prompt": "先听三组词，判断每组开头音是否相同；再看文字稿朗读，观察者记录实际发音。",
+      "transcript": "bed, ball. bed, cat. book, bag.",
+      "reference": "同、不同、同。可理解的/b/开头音；不要把字母名称bee当作每个词的开头音。",
+      "rubric": [
+        "听辨三组开头音",
+        "朗读可理解",
+        "区分字母名称与词中读音"
+      ],
+      "audio": {
+        "path": "audio/sound-b.wav",
+        "sha256": "165a85de6d6ed1e4052db8ae8c8071efda28d55ebb28e96e05175b60a1ab65d0",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-sound-b-o1",
+          "criterion": "听辨三组开头音",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：听辨三组开头音",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：听辨三组开头音",
+            "2": "独立体现且有可核对证据：听辨三组开头音"
+          }
+        },
+        {
+          "id": "ep-sound-b-o2",
+          "criterion": "朗读可理解",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：朗读可理解",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：朗读可理解",
+            "2": "独立体现且有可核对证据：朗读可理解"
+          }
+        },
+        {
+          "id": "ep-sound-b-o3",
+          "criterion": "区分字母名称与词中读音",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：区分字母名称与词中读音",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：区分字母名称与词中读音",
+            "2": "独立体现且有可核对证据：区分字母名称与词中读音"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-write-letters",
+      "title": "大小写与独立拼写",
+      "skill": "writing",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p001",
+        "cne_p002",
+        "cne_p009"
+      ],
+      "standardIds": [
+        "ces-2022:1.PH.01",
+        "ces-2022:1.VO.01"
+      ],
+      "prompt": "在纸上写出A到Z的大小写配对；观察图中的三支蜡笔，为1、2、3号分别独立写英文颜色，不从选项抄写。",
+      "transcript": "",
+      "reference": "Aa至Zz全部26组；1 red、2 blue、3 green。允许教师记录镜像书写和大小写问题后安排复做。",
+      "rubric": [
+        "大小写对应且字形可辨",
+        "颜色词独立拼写",
+        "修改时说明错误而非仅抄答案"
+      ],
+      "audio": null,
+      "figure": "colours.svg",
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-write-letters-o1",
+          "criterion": "大小写对应且字形可辨",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：大小写对应且字形可辨",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：大小写对应且字形可辨",
+            "2": "独立体现且有可核对证据：大小写对应且字形可辨"
+          }
+        },
+        {
+          "id": "ep-write-letters-o2",
+          "criterion": "颜色词独立拼写",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：颜色词独立拼写",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：颜色词独立拼写",
+            "2": "独立体现且有可核对证据：颜色词独立拼写"
+          }
+        },
+        {
+          "id": "ep-write-letters-o3",
+          "criterion": "修改时说明错误而非仅抄答案",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：修改时说明错误而非仅抄答案",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：修改时说明错误而非仅抄答案",
+            "2": "独立体现且有可核对证据：修改时说明错误而非仅抄答案"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-picture-colours",
+      "title": "看真实图形表达颜色",
+      "skill": "reading-speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p009",
+        "cne_p010",
+        "cne_p012"
+      ],
+      "standardIds": [
+        "ces-2022:1.RW.01",
+        "ces-2022:1.FU.02"
+      ],
+      "prompt": "看图并阅读三句：Number one is red. Number two is green. Number three is green. 判断各句与图是否一致并改错；再口头回答What colour is number two?",
+      "transcript": "",
+      "reference": "对、错、对。第二句改为Number two is blue. 口头回答It is blue. 阅读与口头表达分别记录。",
+      "rubric": [
+        "依据图形判断",
+        "颜色词正确",
+        "能独立生成可理解的句子"
+      ],
+      "audio": null,
+      "figure": "colours.svg",
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-picture-colours-o1",
+          "criterion": "依据图形判断",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：依据图形判断",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：依据图形判断",
+            "2": "独立体现且有可核对证据：依据图形判断"
+          }
+        },
+        {
+          "id": "ep-picture-colours-o2",
+          "criterion": "颜色词正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：颜色词正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：颜色词正确",
+            "2": "独立体现且有可核对证据：颜色词正确"
+          }
+        },
+        {
+          "id": "ep-picture-colours-o3",
+          "criterion": "能独立生成可理解的句子",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能独立生成可理解的句子",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能独立生成可理解的句子",
+            "2": "独立体现且有可核对证据：能独立生成可理解的句子"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-write-note",
+      "title": "独立写一张邀请便条",
+      "skill": "writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p197"
+      ],
+      "standardIds": [
+        "ces-2022:2.RW.02",
+        "ces-2022:2.FU.02"
+      ],
+      "prompt": "给虚构朋友写4至6句邀请便条：下周六下午3点在学校公园见面，一起踢足球，请对方回复；写初稿后自行检查并修改。",
+      "transcript": "",
+      "reference": "示例：Dear Sam, Would you like to play football with me? Let us meet at the school park at three next Saturday afternoon. Please write back. Yours, Lin. 接受合理不同表达。",
+      "rubric": [
+        "时间地点活动齐全",
+        "句意连贯格式适当",
+        "有自主修改记录"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-write-note-o1",
+          "criterion": "时间地点活动齐全",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：时间地点活动齐全",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：时间地点活动齐全",
+            "2": "独立体现且有可核对证据：时间地点活动齐全"
+          }
+        },
+        {
+          "id": "ep-write-note-o2",
+          "criterion": "句意连贯格式适当",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：句意连贯格式适当",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：句意连贯格式适当",
+            "2": "独立体现且有可核对证据：句意连贯格式适当"
+          }
+        },
+        {
+          "id": "ep-write-note-o3",
+          "criterion": "有自主修改记录",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：有自主修改记录",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：有自主修改记录",
+            "2": "独立体现且有可核对证据：有自主修改记录"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "0：便条未表达邀请目的。",
+        "1：邀请可理解，但漏地点或需照抄关键句。",
+        "2：独立写明时间地点活动与回复请求，并有自主修订。"
+      ]
+    },
+    {
+      "id": "ep-read-reason",
+      "title": "阅读后解释依据",
+      "skill": "reading",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p188",
+        "cne_p197"
+      ],
+      "standardIds": [
+        "ces-2022:2.RW.01"
+      ],
+      "prompt": "阅读：Tom wanted to ride his bike. It rained all morning, so he stayed at home and read a book. In the afternoon the sun came out. He rode to the park. 回答上午为何没骑车、下午去了哪里，并指出原文依据；能否知道他和谁去？",
+      "transcript": "",
+      "reference": "上午下雨；下午去公园；无法知道和谁去，不能编造。",
+      "rubric": [
+        "区分明示信息与推断",
+        "指出文本依据",
+        "识别文本没有提供的信息"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-read-reason-o1",
+          "criterion": "区分明示信息与推断",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：区分明示信息与推断",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：区分明示信息与推断",
+            "2": "独立体现且有可核对证据：区分明示信息与推断"
+          }
+        },
+        {
+          "id": "ep-read-reason-o2",
+          "criterion": "指出文本依据",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：指出文本依据",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：指出文本依据",
+            "2": "独立体现且有可核对证据：指出文本依据"
+          }
+        },
+        {
+          "id": "ep-read-reason-o3",
+          "criterion": "识别文本没有提供的信息",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：识别文本没有提供的信息",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：识别文本没有提供的信息",
+            "2": "独立体现且有可核对证据：识别文本没有提供的信息"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-culture-greeting",
+      "title": "比较问候方式",
+      "skill": "culture",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p005",
+        "cne_p007"
+      ],
+      "standardIds": [
+        "ces-2022:1.FU.01"
+      ],
+      "prompt": "比较Hello、Good morning、Thank you与中文对应表达，用两种语言分别表演见面和获助情境；讨论时间、关系和场合怎样影响表达。",
+      "transcript": "",
+      "reference": "不要求国家刻板印象；根据具体情境选择，Good morning用于上午；感谢用于获得帮助等场合。",
+      "rubric": [
+        "情境与表达匹配",
+        "能比较而不泛化所有人",
+        "尊重不同表达习惯"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-culture-greeting-o1",
+          "criterion": "情境与表达匹配",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：情境与表达匹配",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：情境与表达匹配",
+            "2": "独立体现且有可核对证据：情境与表达匹配"
+          }
+        },
+        {
+          "id": "ep-culture-greeting-o2",
+          "criterion": "能比较而不泛化所有人",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能比较而不泛化所有人",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能比较而不泛化所有人",
+            "2": "独立体现且有可核对证据：能比较而不泛化所有人"
+          }
+        },
+        {
+          "id": "ep-culture-greeting-o3",
+          "criterion": "尊重不同表达习惯",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：尊重不同表达习惯",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：尊重不同表达习惯",
+            "2": "独立体现且有可核对证据：尊重不同表达习惯"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-strategy-revise",
+      "title": "制定并检验学习策略",
+      "skill": "strategy",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p197",
+        "cne_p196"
+      ],
+      "standardIds": [
+        "ces-2022:2.VO.02",
+        "ces-2022:2.RW.02"
+      ],
+      "prompt": "从自己的英文便条中选两处不确定表达，先标注疑问，再查纸质词典或请教师解释；保留初稿、依据和修改，三天后独立再写同类句子。",
+      "transcript": "",
+      "reference": "答案依作品；检查引用依据是否支持修改，延后任务独立完成；不能把抄写正确等同掌握。",
+      "rubric": [
+        "发现具体问题",
+        "依据可靠且修改对应",
+        "延后迁移有独立记录"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-strategy-revise-o1",
+          "criterion": "发现具体问题",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：发现具体问题",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：发现具体问题",
+            "2": "独立体现且有可核对证据：发现具体问题"
+          }
+        },
+        {
+          "id": "ep-strategy-revise-o2",
+          "criterion": "依据可靠且修改对应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：依据可靠且修改对应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：依据可靠且修改对应",
+            "2": "独立体现且有可核对证据：依据可靠且修改对应"
+          }
+        },
+        {
+          "id": "ep-strategy-revise-o3",
+          "criterion": "延后迁移有独立记录",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：延后迁移有独立记录",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：延后迁移有独立记录",
+            "2": "独立体现且有可核对证据：延后迁移有独立记录"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-PH-02",
+      "title": "元音字母与辅音字母分类",
+      "skill": "phonics",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p003",
+        "cne_p004"
+      ],
+      "standardIds": [
+        "ces-2022:1.PH.02"
+      ],
+      "prompt": "将a、b、e、g、i、m、o、s、u、t分为元音字母和辅音字母；独立说出五个元音字母，再为两类各找两个单词例子。",
+      "transcript": "",
+      "reference": "元音字母a e i o u；其余为辅音字母。说的是字母分类，不是声带是否振动。",
+      "rubric": [
+        "正确分类给出的字母",
+        "独立列出五个元音字母",
+        "能区别字母类别与具体发音"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-PH-02-o1",
+          "criterion": "正确分类给出的字母",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：正确分类给出的字母",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：正确分类给出的字母",
+            "2": "独立体现且有可核对证据：正确分类给出的字母"
+          }
+        },
+        {
+          "id": "ep-1-PH-02-o2",
+          "criterion": "独立列出五个元音字母",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：独立列出五个元音字母",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：独立列出五个元音字母",
+            "2": "独立体现且有可核对证据：独立列出五个元音字母"
+          }
+        },
+        {
+          "id": "ep-1-PH-02-o3",
+          "criterion": "能区别字母类别与具体发音",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能区别字母类别与具体发音",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能区别字母类别与具体发音",
+            "2": "独立体现且有可核对证据：能区别字母类别与具体发音"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-PH-03",
+      "title": "短元音听辨与拼读",
+      "skill": "phonics",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p029",
+        "cne_p034",
+        "cne_p039",
+        "cne_p043",
+        "cne_p048",
+        "cne_p049"
+      ],
+      "standardIds": [
+        "ces-2022:1.PH.03"
+      ],
+      "prompt": "先不看文字听三组词，分别判断元音是否相同；再看cat、bed、sit、hot、cup，逐词拼读并录音。",
+      "transcript": "cat, bag. pen, bed. sit, cup.",
+      "reference": "前两组相同，第三组不同；朗读五个词中的短元音，接受合理口音差异，教师听审不以文字选择代替发音。",
+      "rubric": [
+        "不看稿判断三组元音",
+        "能把字母与词中声音对应",
+        "独立朗读五个词而非只读字母名"
+      ],
+      "audio": {
+        "path": "audio/ep-1-PH-03.wav",
+        "sha256": "f4d64341098a115c69787621c6edeed39527e4c210a0fe5adacd73008976d8a8",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-PH-03-o1",
+          "criterion": "不看稿判断三组元音",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：不看稿判断三组元音",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：不看稿判断三组元音",
+            "2": "独立体现且有可核对证据：不看稿判断三组元音"
+          }
+        },
+        {
+          "id": "ep-1-PH-03-o2",
+          "criterion": "能把字母与词中声音对应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能把字母与词中声音对应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能把字母与词中声音对应",
+            "2": "独立体现且有可核对证据：能把字母与词中声音对应"
+          }
+        },
+        {
+          "id": "ep-1-PH-03-o3",
+          "criterion": "独立朗读五个词而非只读字母名",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：独立朗读五个词而非只读字母名",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：独立朗读五个词而非只读字母名",
+            "2": "独立体现且有可核对证据：独立朗读五个词而非只读字母名"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-PH-05",
+      "title": "短元音和常见开音节对照",
+      "skill": "phonics",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p057",
+        "cne_p062",
+        "cne_p066",
+        "cne_p071"
+      ],
+      "standardIds": [
+        "ces-2022:1.PH.05"
+      ],
+      "prompt": "听cap/cape、kit/kite、not/note三组，判断是否相同；展示文字后读cap/cape、kit/kite、not/note、cub/cube，并解释末尾e在这些例词中的作用。",
+      "transcript": "cap, cape. kit, kite. not, note.",
+      "reference": "三组元音均不同；这些带不发音e的例词中，元音通常读字母名；不是所有带e单词都遵循这一规律。",
+      "rubric": [
+        "听出对应词的元音差别",
+        "独立读出四组例词",
+        "不把例词规律过度推广"
+      ],
+      "audio": {
+        "path": "audio/ep-1-PH-05.wav",
+        "sha256": "d829a87c57a0c6ff4b32cb7f1edcbd12b99bc0aba6f0553d1db02365f0fb587f",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-PH-05-o1",
+          "criterion": "听出对应词的元音差别",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：听出对应词的元音差别",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：听出对应词的元音差别",
+            "2": "独立体现且有可核对证据：听出对应词的元音差别"
+          }
+        },
+        {
+          "id": "ep-1-PH-05-o2",
+          "criterion": "独立读出四组例词",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：独立读出四组例词",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：独立读出四组例词",
+            "2": "独立体现且有可核对证据：独立读出四组例词"
+          }
+        },
+        {
+          "id": "ep-1-PH-05-o3",
+          "criterion": "不把例词规律过度推广",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：不把例词规律过度推广",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：不把例词规律过度推广",
+            "2": "独立体现且有可核对证据：不把例词规律过度推广"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-PH-01",
+      "title": "字母组合和开头连缀拼读",
+      "skill": "phonics",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p108",
+        "cne_p076"
+      ],
+      "standardIds": [
+        "ces-2022:2.PH.01"
+      ],
+      "prompt": "先听并复述black、class、flag、ship、feet，教师记录发音；展示词卡后分别圈出bl、cl、fl、sh、ee，读出每个词并给其中两种组合各举一例。",
+      "transcript": "black. class. flag. ship. feet.",
+      "reference": "bl/cl/fl保留两个辅音的连缀；sh常表示一个辅音；ee在feet中表示长元音。不要把letter names逐个念出当作拼读。",
+      "rubric": [
+        "连缀与组合位置辨认正确",
+        "朗读可理解且不无故插入元音",
+        "举例体现同类声音对应"
+      ],
+      "audio": {
+        "path": "audio/ep-2-PH-01.wav",
+        "sha256": "a024639c33cc8aacdbcae276fc8f3cb0ce62d041ae9417ca8ba456c4a945c68b",
+        "provider": "macOS Samantha synthetic speech",
+        "humanListeningReviewed": false
+      },
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-PH-01-o1",
+          "criterion": "连缀与组合位置辨认正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：连缀与组合位置辨认正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：连缀与组合位置辨认正确",
+            "2": "独立体现且有可核对证据：连缀与组合位置辨认正确"
+          }
+        },
+        {
+          "id": "ep-2-PH-01-o2",
+          "criterion": "朗读可理解且不无故插入元音",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：朗读可理解且不无故插入元音",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：朗读可理解且不无故插入元音",
+            "2": "独立体现且有可核对证据：朗读可理解且不无故插入元音"
+          }
+        },
+        {
+          "id": "ep-2-PH-01-o3",
+          "criterion": "举例体现同类声音对应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：举例体现同类声音对应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：举例体现同类声音对应",
+            "2": "独立体现且有可核对证据：举例体现同类声音对应"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-PH-02",
+      "title": "重音与语调的实际朗读",
+      "skill": "phonics",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p179"
+      ],
+      "standardIds": [
+        "ces-2022:2.PH.02"
+      ],
+      "prompt": "对话A问Which bag is yours? B答The BLUE bag. 再读Is it blue? Yes, it is. It's blue. 用大写或箭头标注准备强调的词和语调方向，录下两个角色；换成纠正“red”误解的情境再读。",
+      "transcript": "",
+      "reference": "陈述通常降调，一般疑问常升调，但情境可改变；本题BLUE承载对比信息。教师听录音判断可理解性和语用效果，不把单一箭头当全部能力。",
+      "rubric": [
+        "突出与情境有关的信息",
+        "疑问和陈述听起来可区分",
+        "改变情境后能解释自己的语调选择"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-PH-02-o1",
+          "criterion": "突出与情境有关的信息",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：突出与情境有关的信息",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：突出与情境有关的信息",
+            "2": "独立体现且有可核对证据：突出与情境有关的信息"
+          }
+        },
+        {
+          "id": "ep-2-PH-02-o2",
+          "criterion": "疑问和陈述听起来可区分",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：疑问和陈述听起来可区分",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：疑问和陈述听起来可区分",
+            "2": "独立体现且有可核对证据：疑问和陈述听起来可区分"
+          }
+        },
+        {
+          "id": "ep-2-PH-02-o3",
+          "criterion": "改变情境后能解释自己的语调选择",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：改变情境后能解释自己的语调选择",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：改变情境后能解释自己的语调选择",
+            "2": "独立体现且有可核对证据：改变情境后能解释自己的语调选择"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-VO-01",
+      "title": "把主题词汇用在一周计划里",
+      "skill": "writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p113",
+        "cne_p137",
+        "cne_p140",
+        "cne_p155",
+        "cne_p159",
+        "cne_p171",
+        "cne_p175",
+        "cne_p163"
+      ],
+      "standardIds": [
+        "ces-2022:2.VO.01"
+      ],
+      "prompt": "先从记忆列出星期、月份、季节、运动、场所、交通、职业、情绪、计划相关词各一个，再写6至8句介绍一个虚构人物的一周或假期；明确哪些主题未用到，并补两句。",
+      "transcript": "",
+      "reference": "示例可以用Monday、June、summer、swim、park、bus、teacher、happy、visit；词应放入意义合理的语境。这里只取样这些主题，不证明整个词表覆盖。",
+      "rubric": [
+        "九类主题均有可解释的词例",
+        "句中意义与搭配合理",
+        "能独立补充遗漏并保留初稿"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-VO-01-o1",
+          "criterion": "九类主题均有可解释的词例",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：九类主题均有可解释的词例",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：九类主题均有可解释的词例",
+            "2": "独立体现且有可核对证据：九类主题均有可解释的词例"
+          }
+        },
+        {
+          "id": "ep-2-VO-01-o2",
+          "criterion": "句中意义与搭配合理",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：句中意义与搭配合理",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：句中意义与搭配合理",
+            "2": "独立体现且有可核对证据：句中意义与搭配合理"
+          }
+        },
+        {
+          "id": "ep-2-VO-01-o3",
+          "criterion": "能独立补充遗漏并保留初稿",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能独立补充遗漏并保留初稿",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能独立补充遗漏并保留初稿",
+            "2": "独立体现且有可核对证据：能独立补充遗漏并保留初稿"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-GR-01",
+      "title": "用am、is、are介绍不同的人",
+      "skill": "writing",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p006",
+        "cne_p073"
+      ],
+      "standardIds": [
+        "ces-2022:1.GR.01"
+      ],
+      "prompt": "根据角色卡独立写四句：I/Lin，she/Amy，he/Tom，they/friends；再将I换成we、she换成they，重写并说明变化。",
+      "transcript": "",
+      "reference": "I am Lin. She is Amy. He is Tom. They are friends. We are...，They are...。允许自选合适表语。",
+      "rubric": [
+        "主语和be形式一致",
+        "替换主语后能自主调整",
+        "能解释而非只抄模板"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-GR-01-o1",
+          "criterion": "主语和be形式一致",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：主语和be形式一致",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：主语和be形式一致",
+            "2": "独立体现且有可核对证据：主语和be形式一致"
+          }
+        },
+        {
+          "id": "ep-1-GR-01-o2",
+          "criterion": "替换主语后能自主调整",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：替换主语后能自主调整",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：替换主语后能自主调整",
+            "2": "独立体现且有可核对证据：替换主语后能自主调整"
+          }
+        },
+        {
+          "id": "ep-1-GR-01-o3",
+          "criterion": "能解释而非只抄模板",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能解释而非只抄模板",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能解释而非只抄模板",
+            "2": "独立体现且有可核对证据：能解释而非只抄模板"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-GR-02",
+      "title": "一个和多个物品怎么写",
+      "skill": "writing",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p052",
+        "cne_p055"
+      ],
+      "standardIds": [
+        "ces-2022:1.GR.02"
+      ],
+      "prompt": "用简笔画表示一个book、三个books、一个box、两个boxes；给每幅图独立写名称，再口头描述数量；用新词bus写一个与两个。",
+      "transcript": "",
+      "reference": "a book/three books；a box/two boxes；a bus/two buses。仅覆盖这些常见规则，不宣称穷尽复数。",
+      "rubric": [
+        "图示数量与单复数对应",
+        "s与es在例词中正确",
+        "能迁移到bus而非只识别选项"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-GR-02-o1",
+          "criterion": "图示数量与单复数对应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：图示数量与单复数对应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：图示数量与单复数对应",
+            "2": "独立体现且有可核对证据：图示数量与单复数对应"
+          }
+        },
+        {
+          "id": "ep-1-GR-02-o2",
+          "criterion": "s与es在例词中正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：s与es在例词中正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：s与es在例词中正确",
+            "2": "独立体现且有可核对证据：s与es在例词中正确"
+          }
+        },
+        {
+          "id": "ep-1-GR-02-o3",
+          "criterion": "能迁移到bus而非只识别选项",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能迁移到bus而非只识别选项",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能迁移到bus而非只识别选项",
+            "2": "独立体现且有可核对证据：能迁移到bus而非只识别选项"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-GR-03",
+      "title": "人称和物主表达",
+      "skill": "writing",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p006",
+        "cne_p081",
+        "cne_p037"
+      ],
+      "standardIds": [
+        "ces-2022:1.GR.03"
+      ],
+      "prompt": "角色卡：I/Lin/my bag；you/Sam/your pencil；he/Tom/his book；she/Amy/her pen。独立写每人身份和物品各一句；再改成we/our、they/their。",
+      "transcript": "",
+      "reference": "I am Lin. This is my bag. He is Tom. This is his book. We are friends. These are our books. 其他合理表达同样接受。",
+      "rubric": [
+        "主格用于相应主语位置",
+        "物主词与所指人一致",
+        "句子整体可理解且能迁移"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-GR-03-o1",
+          "criterion": "主格用于相应主语位置",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：主格用于相应主语位置",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：主格用于相应主语位置",
+            "2": "独立体现且有可核对证据：主格用于相应主语位置"
+          }
+        },
+        {
+          "id": "ep-1-GR-03-o2",
+          "criterion": "物主词与所指人一致",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：物主词与所指人一致",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：物主词与所指人一致",
+            "2": "独立体现且有可核对证据：物主词与所指人一致"
+          }
+        },
+        {
+          "id": "ep-1-GR-03-o3",
+          "criterion": "句子整体可理解且能迁移",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：句子整体可理解且能迁移",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：句子整体可理解且能迁移",
+            "2": "独立体现且有可核对证据：句子整体可理解且能迁移"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-GR-04",
+      "title": "远近、单复数和位置说明",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p014",
+        "cne_p045",
+        "cne_p097"
+      ],
+      "standardIds": [
+        "ces-2022:1.GR.04"
+      ],
+      "prompt": "把一本书放近处、一支笔放远处，两块橡皮放近处、两把尺放远处。用this/that/these/those介绍；随后把物品放在桌上、盒中、椅下，描述并请同伴按描述复原。",
+      "transcript": "",
+      "reference": "This is a book. That is a pen. These are erasers. Those are rulers. The book is on the desk. 具体位置以现场为准。",
+      "rubric": [
+        "指示词对应远近与单复数",
+        "in/on/under符合实际",
+        "同伴能按口头描述复原"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-GR-04-o1",
+          "criterion": "指示词对应远近与单复数",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：指示词对应远近与单复数",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：指示词对应远近与单复数",
+            "2": "独立体现且有可核对证据：指示词对应远近与单复数"
+          }
+        },
+        {
+          "id": "ep-1-GR-04-o2",
+          "criterion": "in/on/under符合实际",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：in/on/under符合实际",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：in/on/under符合实际",
+            "2": "独立体现且有可核对证据：in/on/under符合实际"
+          }
+        },
+        {
+          "id": "ep-1-GR-04-o3",
+          "criterion": "同伴能按口头描述复原",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：同伴能按口头描述复原",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：同伴能按口头描述复原",
+            "2": "独立体现且有可核对证据：同伴能按口头描述复原"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-GR-05",
+      "title": "喜好与拥有的真实问答",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p021",
+        "cne_p051",
+        "cne_p068"
+      ],
+      "standardIds": [
+        "ces-2022:1.GR.05"
+      ],
+      "prompt": "两人自选虚构角色，询问是否喜欢apples与bananas，并如实回答；记录伙伴拥有的一样物品，用He has或She has转述，再写三句总结。",
+      "transcript": "",
+      "reference": "Do you like apples? Yes, I do./No, I don't. I like bananas. She has a book. 回答依角色，不能机械要求都说Yes。",
+      "rubric": [
+        "问句和回答含义一致",
+        "like与has用法正确",
+        "转述与伙伴提供的信息相符"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-GR-05-o1",
+          "criterion": "问句和回答含义一致",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：问句和回答含义一致",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：问句和回答含义一致",
+            "2": "独立体现且有可核对证据：问句和回答含义一致"
+          }
+        },
+        {
+          "id": "ep-1-GR-05-o2",
+          "criterion": "like与has用法正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：like与has用法正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：like与has用法正确",
+            "2": "独立体现且有可核对证据：like与has用法正确"
+          }
+        },
+        {
+          "id": "ep-1-GR-05-o3",
+          "criterion": "转述与伙伴提供的信息相符",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：转述与伙伴提供的信息相符",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：转述与伙伴提供的信息相符",
+            "2": "独立体现且有可核对证据：转述与伙伴提供的信息相符"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-GR-06",
+      "title": "数量、年龄、时刻和价格采访",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p026",
+        "cne_p027",
+        "cne_p089",
+        "cne_p105"
+      ],
+      "standardIds": [
+        "ces-2022:1.GR.06"
+      ],
+      "prompt": "准备角色卡：9岁、3本书、7点、书5元。学生独立提出四类问题并回答；交换角色改用10岁、4本书、8点、6元，再写一组对话。",
+      "transcript": "",
+      "reference": "How old are you? How many books do you have? What time is it? How much is the book? 对应9、3、7、5；第二轮依新卡。",
+      "rubric": [
+        "四类问句匹配信息类别",
+        "数词和单位正确",
+        "交换角色后独立组织问答"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-GR-06-o1",
+          "criterion": "四类问句匹配信息类别",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：四类问句匹配信息类别",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：四类问句匹配信息类别",
+            "2": "独立体现且有可核对证据：四类问句匹配信息类别"
+          }
+        },
+        {
+          "id": "ep-1-GR-06-o2",
+          "criterion": "数词和单位正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：数词和单位正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：数词和单位正确",
+            "2": "独立体现且有可核对证据：数词和单位正确"
+          }
+        },
+        {
+          "id": "ep-1-GR-06-o3",
+          "criterion": "交换角色后独立组织问答",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：交换角色后独立组织问答",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：交换角色后独立组织问答",
+            "2": "独立体现且有可核对证据：交换角色后独立组织问答"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-GR-07",
+      "title": "提出建议并寻找失物主人",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p059",
+        "cne_p101"
+      ],
+      "standardIds": [
+        "ces-2022:1.GR.07"
+      ],
+      "prompt": "情境一：教室地面有纸，提出一起打扫的建议并回应；情境二：两件虚构失物，询问是谁的并用Amy's或Tom's回答，写下对话。",
+      "transcript": "",
+      "reference": "Let's clean the classroom. OK. Whose book is this? It's Amy's. 名词所有格与主人一致。",
+      "rubric": [
+        "Let's建议与情境匹配",
+        "whose询问所属",
+        "所有格标记和所指正确"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-GR-07-o1",
+          "criterion": "Let's建议与情境匹配",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：Let's建议与情境匹配",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：Let's建议与情境匹配",
+            "2": "独立体现且有可核对证据：Let's建议与情境匹配"
+          }
+        },
+        {
+          "id": "ep-1-GR-07-o2",
+          "criterion": "whose询问所属",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：whose询问所属",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：whose询问所属",
+            "2": "独立体现且有可核对证据：whose询问所属"
+          }
+        },
+        {
+          "id": "ep-1-GR-07-o3",
+          "criterion": "所有格标记和所指正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：所有格标记和所指正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：所有格标记和所指正确",
+            "2": "独立体现且有可核对证据：所有格标记和所指正确"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-01",
+      "title": "习惯、第三人称和追问",
+      "skill": "speaking",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p116",
+        "cne_p168",
+        "cne_p169"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.01"
+      ],
+      "prompt": "读角色卡：Tom每天7点起床，周日踢足球；Amy周日读书。两人用does询问并回答，分别用I、he、she介绍角色，再写四句小结。",
+      "transcript": "",
+      "reference": "Does Tom play football on Sundays? Yes, he does. He gets up at seven. Amy reads on Sundays. 助动词后动词原形。",
+      "rubric": [
+        "三单陈述动词形式正确",
+        "does问答与陈述一致",
+        "转述角色信息不遗漏或编造"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-01-o1",
+          "criterion": "三单陈述动词形式正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：三单陈述动词形式正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：三单陈述动词形式正确",
+            "2": "独立体现且有可核对证据：三单陈述动词形式正确"
+          }
+        },
+        {
+          "id": "ep-2-GR-01-o2",
+          "criterion": "does问答与陈述一致",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：does问答与陈述一致",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：does问答与陈述一致",
+            "2": "独立体现且有可核对证据：does问答与陈述一致"
+          }
+        },
+        {
+          "id": "ep-2-GR-01-o3",
+          "criterion": "转述角色信息不遗漏或编造",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：转述角色信息不遗漏或编造",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：转述角色信息不遗漏或编造",
+            "2": "独立体现且有可核对证据：转述角色信息不遗漏或编造"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-02",
+      "title": "描述正在发生的动作",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p148",
+        "cne_p149",
+        "cne_p150"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.02"
+      ],
+      "prompt": "同伴依次表演阅读、写字、跑步动作，观察者用现在进行时描述；两人同时做不同动作时改写成复数主语，再写两句并解释现在正在发生。",
+      "transcript": "",
+      "reference": "She is reading. He is writing. They are running. 动作依现场；注意be不可省略。",
+      "rubric": [
+        "be与主语一致",
+        "ing形式可理解且基本正确",
+        "句意确实对应当前动作"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-02-o1",
+          "criterion": "be与主语一致",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：be与主语一致",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：be与主语一致",
+            "2": "独立体现且有可核对证据：be与主语一致"
+          }
+        },
+        {
+          "id": "ep-2-GR-02-o2",
+          "criterion": "ing形式可理解且基本正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：ing形式可理解且基本正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：ing形式可理解且基本正确",
+            "2": "独立体现且有可核对证据：ing形式可理解且基本正确"
+          }
+        },
+        {
+          "id": "ep-2-GR-02-o3",
+          "criterion": "句意确实对应当前动作",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：句意确实对应当前动作",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：句意确实对应当前动作",
+            "2": "独立体现且有可核对证据：句意确实对应当前动作"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "0：把正在读书说成She read yesterday，时间意义不符。",
+        "1：She reading可理解但缺is，提示后修正。",
+        "2：根据现场独立说She is reading，再正确描述多人动作。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-03",
+      "title": "能力采访与房间描述",
+      "skill": "speaking",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p122",
+        "cne_p123",
+        "cne_p126",
+        "cne_p130"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.03"
+      ],
+      "prompt": "用can互问两项能力，记录真实或虚构回答；画一间有一张桌子和两把椅子的房间，用there be描述并互问Is there/Are there问题。",
+      "transcript": "",
+      "reference": "Can you swim? Yes, I can./No, I can't. There is a desk. There are two chairs. Are there two chairs? Yes, there are. 图与话一致。",
+      "rubric": [
+        "can问答与能力信息对应",
+        "there be单复数正确",
+        "疑问及回答与图示一致"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-03-o1",
+          "criterion": "can问答与能力信息对应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：can问答与能力信息对应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：can问答与能力信息对应",
+            "2": "独立体现且有可核对证据：can问答与能力信息对应"
+          }
+        },
+        {
+          "id": "ep-2-GR-03-o2",
+          "criterion": "there be单复数正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：there be单复数正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：there be单复数正确",
+            "2": "独立体现且有可核对证据：there be单复数正确"
+          }
+        },
+        {
+          "id": "ep-2-GR-03-o3",
+          "criterion": "疑问及回答与图示一致",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：疑问及回答与图示一致",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：疑问及回答与图示一致",
+            "2": "独立体现且有可核对证据：疑问及回答与图示一致"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-04",
+      "title": "把日期与作息写清楚",
+      "skill": "writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p116",
+        "cne_p140",
+        "cne_p141",
+        "cne_p144",
+        "cne_p145"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.04"
+      ],
+      "prompt": "虚构校历：运动会5月3日，7点开始；每周一上英语课，常在周末读书。独立写四句，圈出in/on/at和频度词；口头解释日期读法。",
+      "transcript": "",
+      "reference": "The sports day is on May 3rd. It starts at seven. We have English on Mondays. I often read at weekends/on weekends. in May可表示月份。",
+      "rubric": [
+        "日期序数表达正确",
+        "时间介词与精度匹配",
+        "频度词位置和含义合理"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-04-o1",
+          "criterion": "日期序数表达正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：日期序数表达正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：日期序数表达正确",
+            "2": "独立体现且有可核对证据：日期序数表达正确"
+          }
+        },
+        {
+          "id": "ep-2-GR-04-o2",
+          "criterion": "时间介词与精度匹配",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：时间介词与精度匹配",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：时间介词与精度匹配",
+            "2": "独立体现且有可核对证据：时间介词与精度匹配"
+          }
+        },
+        {
+          "id": "ep-2-GR-04-o3",
+          "criterion": "频度词位置和含义合理",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：频度词位置和含义合理",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：频度词位置和含义合理",
+            "2": "独立体现且有可核对证据：频度词位置和含义合理"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-05",
+      "title": "不重复名词说明所属",
+      "skill": "speaking",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p147",
+        "cne_p149"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.05"
+      ],
+      "prompt": "角色卡：my bag、your pen、his book、her ruler、our classroom、their desks。将这些名词短语放入完整问答，改用mine/yours/his/hers/ours/theirs；与同伴核对主人。",
+      "transcript": "",
+      "reference": "This bag is mine. This pen is yours. The book is his. The ruler is hers. The classroom is ours. The desks are theirs. 物主代词后不再重复同一名词。",
+      "rubric": [
+        "六种形式与所指对应",
+        "不混用my/mine等位置",
+        "完整句可被同伴正确理解"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-05-o1",
+          "criterion": "六种形式与所指对应",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：六种形式与所指对应",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：六种形式与所指对应",
+            "2": "独立体现且有可核对证据：六种形式与所指对应"
+          }
+        },
+        {
+          "id": "ep-2-GR-05-o2",
+          "criterion": "不混用my/mine等位置",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：不混用my/mine等位置",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：不混用my/mine等位置",
+            "2": "独立体现且有可核对证据：不混用my/mine等位置"
+          }
+        },
+        {
+          "id": "ep-2-GR-05-o3",
+          "criterion": "完整句可被同伴正确理解",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：完整句可被同伴正确理解",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：完整句可被同伴正确理解",
+            "2": "独立体现且有可核对证据：完整句可被同伴正确理解"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-06",
+      "title": "说清谁打算做什么",
+      "skill": "writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p163",
+        "cne_p164",
+        "cne_p165"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.06"
+      ],
+      "prompt": "为下周末设计真实或虚构计划，分别写I、she、we作主语的三句be going to；加入时间地点，再请同伴问一个问题并回答。",
+      "transcript": "",
+      "reference": "I am going to visit the park next Sunday. She is going to read at home. We are going to play football. 动词用原形，时间为计划。",
+      "rubric": [
+        "be随主语变化",
+        "going to后动词原形",
+        "计划信息完整并能回应追问"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-06-o1",
+          "criterion": "be随主语变化",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：be随主语变化",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：be随主语变化",
+            "2": "独立体现且有可核对证据：be随主语变化"
+          }
+        },
+        {
+          "id": "ep-2-GR-06-o2",
+          "criterion": "going to后动词原形",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：going to后动词原形",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：going to后动词原形",
+            "2": "独立体现且有可核对证据：going to后动词原形"
+          }
+        },
+        {
+          "id": "ep-2-GR-06-o3",
+          "criterion": "计划信息完整并能回应追问",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：计划信息完整并能回应追问",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：计划信息完整并能回应追问",
+            "2": "独立体现且有可核对证据：计划信息完整并能回应追问"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-07",
+      "title": "把规则和建议分开表达",
+      "skill": "speaking",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p151",
+        "cne_p152",
+        "cne_p153",
+        "cne_p160",
+        "cne_p176"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.07"
+      ],
+      "prompt": "情境：图书馆保持安静；红灯停车；同伴忘带雨伞且外面下雨。为每个情境用祈使句、must或should表达适当规则或建议，并解释语气差别。",
+      "transcript": "",
+      "reference": "Please be quiet. You must stop at a red light. You should take an umbrella. 接受同义表达；规则与建议不宜一律互换。",
+      "rubric": [
+        "祈使句结构正确",
+        "must与should含义适当",
+        "能根据场合解释选择"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-07-o1",
+          "criterion": "祈使句结构正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：祈使句结构正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：祈使句结构正确",
+            "2": "独立体现且有可核对证据：祈使句结构正确"
+          }
+        },
+        {
+          "id": "ep-2-GR-07-o2",
+          "criterion": "must与should含义适当",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：must与should含义适当",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：must与should含义适当",
+            "2": "独立体现且有可核对证据：must与should含义适当"
+          }
+        },
+        {
+          "id": "ep-2-GR-07-o3",
+          "criterion": "能根据场合解释选择",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能根据场合解释选择",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能根据场合解释选择",
+            "2": "独立体现且有可核对证据：能根据场合解释选择"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-GR-09",
+      "title": "比较两件物品并说明依据",
+      "skill": "writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p180",
+        "cne_p181",
+        "cne_p182",
+        "cne_p183"
+      ],
+      "standardIds": [
+        "ces-2022:2.GR.09"
+      ],
+      "prompt": "测两支铅笔长度并记录厘米；用longer/shorter及than写两句。再比较虚构身高Tom 140cm、Amy 145cm，写一句并说明差多少。",
+      "transcript": "",
+      "reference": "长度以实测为准；Amy is taller than Tom. 相差5cm。比较应是同一种量，不用价值判断比较个人。",
+      "rubric": [
+        "比较级结构正确",
+        "than两端对象明确",
+        "依据数据而非猜测比较"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-GR-09-o1",
+          "criterion": "比较级结构正确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：比较级结构正确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：比较级结构正确",
+            "2": "独立体现且有可核对证据：比较级结构正确"
+          }
+        },
+        {
+          "id": "ep-2-GR-09-o2",
+          "criterion": "than两端对象明确",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：than两端对象明确",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：than两端对象明确",
+            "2": "独立体现且有可核对证据：than两端对象明确"
+          }
+        },
+        {
+          "id": "ep-2-GR-09-o3",
+          "criterion": "依据数据而非猜测比较",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：依据数据而非猜测比较",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：依据数据而非猜测比较",
+            "2": "独立体现且有可核对证据：依据数据而非猜测比较"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-2-FU-01",
+      "title": "课程、季节、能力与动作采访",
+      "skill": "speaking",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p113",
+        "cne_p117",
+        "cne_p135",
+        "cne_p138",
+        "cne_p145",
+        "cne_p123",
+        "cne_p149"
+      ],
+      "standardIds": [
+        "ces-2022:2.FU.01"
+      ],
+      "prompt": "两人进行采访：询问今天课程、日常起床时间、虚构生日、最喜欢季节、会做的事、此刻正在做的事；记录回答并向第三人转述，随后交换角色。",
+      "transcript": "",
+      "reference": "示例：What do you have today? When do you get up? When is your birthday? Which season do you like best? Can you swim? What are you doing? 答案随情境。",
+      "rubric": [
+        "六类交流目的都有实际问答",
+        "回答与问题匹配",
+        "转述忠实且能请求澄清"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-FU-01-o1",
+          "criterion": "六类交流目的都有实际问答",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：六类交流目的都有实际问答",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：六类交流目的都有实际问答",
+            "2": "独立体现且有可核对证据：六类交流目的都有实际问答"
+          }
+        },
+        {
+          "id": "ep-2-FU-01-o2",
+          "criterion": "回答与问题匹配",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：回答与问题匹配",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：回答与问题匹配",
+            "2": "独立体现且有可核对证据：回答与问题匹配"
+          }
+        },
+        {
+          "id": "ep-2-FU-01-o3",
+          "criterion": "转述忠实且能请求澄清",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：转述忠实且能请求澄清",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：转述忠实且能请求澄清",
+            "2": "独立体现且有可核对证据：转述忠实且能请求澄清"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。"
+      ]
+    },
+    {
+      "id": "ep-1-RW-02",
+      "title": "读自我介绍并指出依据",
+      "skill": "reading",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p008",
+        "cne_p028",
+        "cne_p047"
+      ],
+      "standardIds": [
+        "ces-2022:1.RW.02"
+      ],
+      "prompt": "阅读：My name is Ben. I am ten. I have two red books. They are in my bag. 回答姓名、年龄、书的数量颜色及位置，每题在原文划出依据；能否知道书包的颜色？",
+      "transcript": "",
+      "reference": "Ben；10岁；2本红色书；在包里；书包颜色未说明，不能把red移用到bag。",
+      "rubric": [
+        "独立阅读提取五项信息",
+        "每项有文本依据",
+        "识别无法从原文得出的信息"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-RW-02-o1",
+          "criterion": "独立阅读提取五项信息",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：独立阅读提取五项信息",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：独立阅读提取五项信息",
+            "2": "独立体现且有可核对证据：独立阅读提取五项信息"
+          }
+        },
+        {
+          "id": "ep-1-RW-02-o2",
+          "criterion": "每项有文本依据",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：每项有文本依据",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：每项有文本依据",
+            "2": "独立体现且有可核对证据：每项有文本依据"
+          }
+        },
+        {
+          "id": "ep-1-RW-02-o3",
+          "criterion": "识别无法从原文得出的信息",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：识别无法从原文得出的信息",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：识别无法从原文得出的信息",
+            "2": "独立体现且有可核对证据：识别无法从原文得出的信息"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "0：把red理解成书包颜色且找不到原文依据。",
+        "1：能找出姓名年龄，但漏数量或混淆颜色所属。",
+        "2：五项信息正确，划出依据，并指出书包颜色未知。"
+      ]
+    }
+  ],
+  "audioNote": "合成语音，尚未人工听审。文字稿打开后须记录答案暴露。"
+}

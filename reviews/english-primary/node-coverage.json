@@ -1,0 +1,1379 @@
+{
+  "version": "english-primary-2026-11.2",
+  "rows": [
+    {
+      "topicId": "cne_p001",
+      "name": "英语字母表",
+      "taskIds": [
+        "ep-write-letters"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p002",
+      "name": "字母的大写和小写",
+      "taskIds": [
+        "ep-write-letters"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p003",
+      "name": "元音字母",
+      "taskIds": [
+        "ep-1-PH-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p004",
+      "name": "辅音字母 b 的开头音",
+      "taskIds": [
+        "ep-sound-b",
+        "ep-1-PH-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p005",
+      "name": "问候用语",
+      "taskIds": [
+        "ep-speak-greeting",
+        "ep-culture-greeting"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p006",
+      "name": "be 动词 am",
+      "taskIds": [
+        "ep-1-GR-01",
+        "ep-1-GR-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p007",
+      "name": "问候、告别和致谢",
+      "taskIds": [
+        "ep-speak-greeting",
+        "ep-culture-greeting"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p008",
+      "name": "读懂自我介绍",
+      "taskIds": [
+        "ep-listen-intro",
+        "ep-1-RW-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p009",
+      "name": "颜色",
+      "taskIds": [
+        "ep-write-letters",
+        "ep-picture-colours"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p010",
+      "name": "It is 说明颜色",
+      "taskIds": [
+        "ep-picture-colours"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p011",
+      "name": "询问颜色",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p012",
+      "name": "看图认颜色",
+      "taskIds": [
+        "ep-picture-colours"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p013",
+      "name": "身体部位",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p014",
+      "name": "This is 与 That is",
+      "taskIds": [
+        "ep-1-GR-04"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p015",
+      "name": "介绍身体部位",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p016",
+      "name": "读懂五官介绍",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p017",
+      "name": "动物",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p018",
+      "name": "用 This is a 介绍动物",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p019",
+      "name": "读懂动物句子",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p020",
+      "name": "食物",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p021",
+      "name": "I like 表达喜好",
+      "taskIds": [
+        "ep-1-GR-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p022",
+      "name": "表达想吃什么",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p023",
+      "name": "读懂喜好短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p024",
+      "name": "1 到 10",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p025",
+      "name": "玩具和礼物",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p026",
+      "name": "How many 问数量",
+      "taskIds": [
+        "ep-1-GR-06"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p027",
+      "name": "询问年龄",
+      "taskIds": [
+        "ep-speak-greeting",
+        "ep-1-GR-06"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p028",
+      "name": "读懂数量",
+      "taskIds": [
+        "ep-1-RW-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p029",
+      "name": "短元音 a",
+      "taskIds": [
+        "ep-1-PH-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p030",
+      "name": "国家和来自哪里",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p031",
+      "name": "I am from 说明来自哪里",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p032",
+      "name": "询问来自哪里",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p033",
+      "name": "读懂来自哪里",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p034",
+      "name": "短元音 e",
+      "taskIds": [
+        "ep-1-PH-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p035",
+      "name": "家庭成员",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p036",
+      "name": "Who is 询问是谁",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p037",
+      "name": "介绍家人",
+      "taskIds": [
+        "ep-1-GR-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p038",
+      "name": "读懂家人介绍",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p039",
+      "name": "短元音 i",
+      "taskIds": [
+        "ep-1-PH-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p040",
+      "name": "大小和高矮",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p041",
+      "name": "用形容词说大小高矮",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p042",
+      "name": "读懂动物园的句子",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p043",
+      "name": "短元音 o",
+      "taskIds": [
+        "ep-1-PH-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p044",
+      "name": "房间里的物品",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p045",
+      "name": "in、on、under",
+      "taskIds": [
+        "ep-listen-location",
+        "ep-1-GR-04"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p046",
+      "name": "询问位置",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p047",
+      "name": "读懂位置",
+      "taskIds": [
+        "ep-listen-location",
+        "ep-1-RW-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p048",
+      "name": "短元音 u",
+      "taskIds": [
+        "ep-1-PH-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p049",
+      "name": "五个短元音复习",
+      "taskIds": [
+        "ep-1-PH-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p050",
+      "name": "水果",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p051",
+      "name": "Do you like 一般疑问句",
+      "taskIds": [
+        "ep-1-GR-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p052",
+      "name": "可数名词复数",
+      "taskIds": [
+        "ep-1-GR-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p053",
+      "name": "读懂水果喜好",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p054",
+      "name": "11 到 20",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p055",
+      "name": "How many 与 11 到 20",
+      "taskIds": [
+        "ep-1-GR-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p056",
+      "name": "读懂 11 到 20 的数量",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p057",
+      "name": "a-e 的读音",
+      "taskIds": [
+        "ep-1-PH-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p058",
+      "name": "教室物品",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p059",
+      "name": "Let's 建议句",
+      "taskIds": [
+        "ep-1-GR-07"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p060",
+      "name": "教室里的建议",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p061",
+      "name": "读懂教室短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p062",
+      "name": "i-e 的读音",
+      "taskIds": [
+        "ep-1-PH-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p063",
+      "name": "书包里的文具",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p064",
+      "name": "谈论书包里有什么",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p065",
+      "name": "读懂书包里的物品",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p066",
+      "name": "o-e 的读音",
+      "taskIds": [
+        "ep-1-PH-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p067",
+      "name": "描述朋友",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p068",
+      "name": "He has 与 I have",
+      "taskIds": [
+        "ep-1-GR-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p069",
+      "name": "介绍朋友",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p070",
+      "name": "读懂朋友介绍",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p071",
+      "name": "u-e 的读音",
+      "taskIds": [
+        "ep-1-PH-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p072",
+      "name": "家里的房间",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p073",
+      "name": "is 和 are 说明人在哪里",
+      "taskIds": [
+        "ep-1-GR-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p074",
+      "name": "询问家人在哪个房间",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p075",
+      "name": "读懂家里的位置",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p076",
+      "name": "长元音 e",
+      "taskIds": [
+        "ep-2-PH-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p077",
+      "name": "晚餐食物",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p078",
+      "name": "Would you like 用餐",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p079",
+      "name": "读懂晚餐对话",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p080",
+      "name": "职业",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p081",
+      "name": "询问职业与 his、her",
+      "taskIds": [
+        "ep-1-GR-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p082",
+      "name": "介绍家人的职业",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p083",
+      "name": "读懂家人职业",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p084",
+      "name": "学校场所",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p085",
+      "name": "楼层与 first、second",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p086",
+      "name": "问路：学校里的场所",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p087",
+      "name": "读懂学校平面说明",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p088",
+      "name": "一天中的活动",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p089",
+      "name": "What time is it",
+      "taskIds": [
+        "ep-1-GR-06"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p090",
+      "name": "说时刻和该做的事",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p091",
+      "name": "读懂作息时刻",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p092",
+      "name": "天气",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p093",
+      "name": "It is 描述天气",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p094",
+      "name": "谈论天气并给建议",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p095",
+      "name": "读懂天气预报",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p096",
+      "name": "农场",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p097",
+      "name": "These are 与 Those are",
+      "taskIds": [
+        "ep-1-GR-04"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p098",
+      "name": "在农场谈论动物和蔬菜",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p099",
+      "name": "读懂农场短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p100",
+      "name": "衣服",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p101",
+      "name": "Whose 与名词所有格",
+      "taskIds": [
+        "ep-1-GR-07"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p102",
+      "name": "谈论穿着",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p103",
+      "name": "读懂衣服是谁的",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p104",
+      "name": "商店物品",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p105",
+      "name": "How much 询问价格",
+      "taskIds": [
+        "ep-1-GR-06"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p106",
+      "name": "在商店购物",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p107",
+      "name": "读懂价签",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p108",
+      "name": "开头辅音连缀 bl、cl、fl",
+      "taskIds": [
+        "ep-2-PH-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p109",
+      "name": "性格和外貌",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p110",
+      "name": "What is he like",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p111",
+      "name": "描述老师",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p112",
+      "name": "读懂老师介绍",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p113",
+      "name": "星期",
+      "taskIds": [
+        "ep-2-VO-01",
+        "ep-2-FU-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p114",
+      "name": "have 与 on Mondays",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p115",
+      "name": "周末活动",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p116",
+      "name": "用 often 谈论日常",
+      "taskIds": [
+        "ep-2-GR-01",
+        "ep-2-GR-04"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p117",
+      "name": "读懂一周课程",
+      "taskIds": [
+        "ep-2-FU-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p118",
+      "name": "餐食",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p119",
+      "name": "What would you like to eat",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p120",
+      "name": "读懂点餐",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p121",
+      "name": "能力动词",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p122",
+      "name": "can 表示能力",
+      "taskIds": [
+        "ep-2-GR-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p123",
+      "name": "谈论会做的事",
+      "taskIds": [
+        "ep-2-GR-03",
+        "ep-2-FU-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p124",
+      "name": "读懂能力短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p125",
+      "name": "房间里的东西",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p126",
+      "name": "There is 与 There are",
+      "taskIds": [
+        "ep-2-GR-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p127",
+      "name": "描述自己的房间",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p128",
+      "name": "读懂房间短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p129",
+      "name": "自然公园",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p130",
+      "name": "Is there 与 Are there",
+      "taskIds": [
+        "ep-2-GR-03"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p131",
+      "name": "谈论公园里有什么",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p132",
+      "name": "读懂自然公园",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p133",
+      "name": "一天的活动",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p134",
+      "name": "When do you 询问时间",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p135",
+      "name": "谈论作息",
+      "taskIds": [
+        "ep-2-FU-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p136",
+      "name": "读懂一天的作息",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p137",
+      "name": "季节",
+      "taskIds": [
+        "ep-2-VO-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p138",
+      "name": "谈论最喜欢的季节",
+      "taskIds": [
+        "ep-2-FU-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p139",
+      "name": "读懂季节短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p140",
+      "name": "月份",
+      "taskIds": [
+        "ep-2-VO-01",
+        "ep-2-GR-04"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p141",
+      "name": "in 加月份",
+      "taskIds": [
+        "ep-2-GR-04"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p142",
+      "name": "谈论节日在几月",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p143",
+      "name": "读懂校历",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p144",
+      "name": "序数词",
+      "taskIds": [
+        "ep-2-GR-04"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p145",
+      "name": "说出日期",
+      "taskIds": [
+        "ep-2-GR-04",
+        "ep-2-FU-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p146",
+      "name": "读懂日期通知",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p147",
+      "name": "名词性物主代词",
+      "taskIds": [
+        "ep-2-GR-05"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p148",
+      "name": "现在进行时",
+      "taskIds": [
+        "ep-2-GR-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p149",
+      "name": "Whose 与正在做的事",
+      "taskIds": [
+        "ep-2-GR-02",
+        "ep-2-GR-05",
+        "ep-2-FU-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p150",
+      "name": "读懂正在做的事",
+      "taskIds": [
+        "ep-2-GR-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p151",
+      "name": "规则用词",
+      "taskIds": [
+        "ep-2-GR-07"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p152",
+      "name": "祈使句",
+      "taskIds": [
+        "ep-2-GR-07"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p153",
+      "name": "说规则",
+      "taskIds": [
+        "ep-2-GR-07"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p154",
+      "name": "读懂规则",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p155",
+      "name": "城市场所",
+      "taskIds": [
+        "ep-2-VO-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p156",
+      "name": "左转、右转和直行",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p157",
+      "name": "问路和指路",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p158",
+      "name": "读懂指路",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p159",
+      "name": "交通工具",
+      "taskIds": [
+        "ep-2-VO-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p160",
+      "name": "must 与交通规则",
+      "taskIds": [
+        "ep-2-GR-07"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p161",
+      "name": "说明出行方式",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p162",
+      "name": "读懂交通规则",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p163",
+      "name": "周末计划",
+      "taskIds": [
+        "ep-2-VO-01",
+        "ep-2-GR-06"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p164",
+      "name": "be going to 一般将来时",
+      "taskIds": [
+        "ep-2-GR-06"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p165",
+      "name": "谈论计划",
+      "taskIds": [
+        "ep-2-GR-06"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p166",
+      "name": "读懂周末计划",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p167",
+      "name": "爱好",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p168",
+      "name": "does 与第三人称单数",
+      "taskIds": [
+        "ep-2-GR-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p169",
+      "name": "谈论笔友和爱好",
+      "taskIds": [
+        "ep-2-GR-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p170",
+      "name": "读懂笔友介绍",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p171",
+      "name": "更多职业",
+      "taskIds": [
+        "ep-2-VO-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p172",
+      "name": "What does he do",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p173",
+      "name": "介绍职业和工作地点",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p174",
+      "name": "读懂职业短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p175",
+      "name": "感受",
+      "taskIds": [
+        "ep-2-VO-01"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p176",
+      "name": "should 提建议",
+      "taskIds": [
+        "ep-2-GR-07"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p177",
+      "name": "询问感受并建议",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p178",
+      "name": "读懂感受和建议",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p179",
+      "name": "陈述句和疑问句的语调",
+      "taskIds": [
+        "ep-2-PH-02"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p180",
+      "name": "身高和体重",
+      "taskIds": [
+        "ep-2-GR-09"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p181",
+      "name": "形容词比较级",
+      "taskIds": [
+        "ep-2-GR-09"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p182",
+      "name": "用 than 比较",
+      "taskIds": [
+        "ep-2-GR-09"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p183",
+      "name": "询问身高",
+      "taskIds": [
+        "ep-2-GR-09"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p184",
+      "name": "读懂比较短文",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p185",
+      "name": "规则动词过去式",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p186",
+      "name": "Did 提问",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p187",
+      "name": "谈论上周末",
+      "taskIds": [
+        "ep-listen-weekend",
+        "ep-speak-weekend"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p188",
+      "name": "读懂上周末日记",
+      "taskIds": [
+        "ep-listen-weekend",
+        "ep-read-reason"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p189",
+      "name": "不规则动词过去式",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p190",
+      "name": "谈论去过哪里",
+      "taskIds": [
+        "ep-speak-weekend"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p191",
+      "name": "读懂旅行日记",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p192",
+      "name": "过去和现在",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p193",
+      "name": "was 与 were",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p194",
+      "name": "比较过去和现在",
+      "taskIds": [
+        "ep-speak-weekend"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p195",
+      "name": "读懂今昔对比",
+      "taskIds": [],
+      "status": "legacy-questions-only"
+    },
+    {
+      "topicId": "cne_p196",
+      "name": "易混词 there、its、too",
+      "taskIds": [
+        "ep-strategy-revise"
+      ],
+      "status": "has-supplement-sample"
+    },
+    {
+      "topicId": "cne_p197",
+      "name": "读懂一封短信",
+      "taskIds": [
+        "ep-listen-weekend",
+        "ep-write-note",
+        "ep-read-reason",
+        "ep-strategy-revise"
+      ],
+      "status": "has-supplement-sample"
+    }
+  ]
+}

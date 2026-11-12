@@ -1,0 +1,1102 @@
+{
+  "version": "english-primary-2026-11.2",
+  "scope": "35条仓库内部转述记录，不是官方完整条目清单。",
+  "rows": [
+    {
+      "standardId": "ces-2022:1.PH.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-write-letters"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.PH.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-PH-02"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.PH.03",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-PH-03"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.PH.04",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-sound-b"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.PH.05",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-PH-05"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.PH.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-PH-01"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.PH.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-PH-02"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.VO.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-write-letters"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.VO.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-VO-01"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.VO.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-strategy-revise"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.GR.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-GR-01"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.GR.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-GR-02"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.GR.03",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-GR-03"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.GR.04",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-GR-04"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.GR.05",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-GR-05"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.GR.06",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-GR-06"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.GR.07",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-GR-07"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-01"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-02"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.03",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-03"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.04",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-04"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.05",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-05"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.06",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-06"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.07",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-07"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.08",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-speak-weekend"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.GR.09",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-GR-09"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.FU.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-speak-greeting",
+        "ep-culture-greeting"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.FU.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-picture-colours"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.FU.03",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-speak-greeting"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.FU.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-2-FU-01"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.FU.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-speak-weekend",
+        "ep-write-note"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.RW.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-picture-colours"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:1.RW.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-1-RW-02"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.RW.01",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-read-reason"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    },
+    {
+      "standardId": "ces-2022:2.RW.02",
+      "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
+      "taskIds": [
+        "ep-write-note",
+        "ep-strategy-revise"
+      ],
+      "status": "sample-authored",
+      "expertValidated": false,
+      "scope": "内部条目有任务，不代表官方课标充分覆盖"
+    }
+  ],
+  "observations": [
+    {
+      "taskId": "ep-listen-intro",
+      "id": "ep-listen-intro-o1",
+      "capability": "准确提取三项信息",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-intro",
+      "id": "ep-listen-intro-o2",
+      "capability": "不依赖文字稿",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-intro",
+      "id": "ep-listen-intro-o3",
+      "capability": "能指出未听清的部分",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-location",
+      "id": "ep-listen-location-o1",
+      "capability": "三个位置正确",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-location",
+      "id": "ep-listen-location-o2",
+      "capability": "图与口头指令对应",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-location",
+      "id": "ep-listen-location-o3",
+      "capability": "区分in、on、under",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-weekend",
+      "id": "ep-listen-weekend-o1",
+      "capability": "提取人物时间活动",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-weekend",
+      "id": "ep-listen-weekend-o2",
+      "capability": "区分过去与计划",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-listen-weekend",
+      "id": "ep-listen-weekend-o3",
+      "capability": "允许中文记录但不看稿作答",
+      "modality": "listening",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-speak-greeting",
+      "id": "ep-speak-greeting-o1",
+      "capability": "能独立发起和回应",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-speak-greeting",
+      "id": "ep-speak-greeting-o2",
+      "capability": "表达可理解且礼貌",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-speak-greeting",
+      "id": "ep-speak-greeting-o3",
+      "capability": "追问与对方回答有关",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-speak-weekend",
+      "id": "ep-speak-weekend-o1",
+      "capability": "讲述连贯且信息完整",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-speak-weekend",
+      "id": "ep-speak-weekend-o2",
+      "capability": "过去时基本准确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-speak-weekend",
+      "id": "ep-speak-weekend-o3",
+      "capability": "能针对追问作出有意义回应",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-sound-b",
+      "id": "ep-sound-b-o1",
+      "capability": "听辨三组开头音",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-sound-b",
+      "id": "ep-sound-b-o2",
+      "capability": "朗读可理解",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-sound-b",
+      "id": "ep-sound-b-o3",
+      "capability": "区分字母名称与词中读音",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-write-letters",
+      "id": "ep-write-letters-o1",
+      "capability": "大小写对应且字形可辨",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-write-letters",
+      "id": "ep-write-letters-o2",
+      "capability": "颜色词独立拼写",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-write-letters",
+      "id": "ep-write-letters-o3",
+      "capability": "修改时说明错误而非仅抄答案",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-picture-colours",
+      "id": "ep-picture-colours-o1",
+      "capability": "依据图形判断",
+      "modality": "reading-speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-picture-colours",
+      "id": "ep-picture-colours-o2",
+      "capability": "颜色词正确",
+      "modality": "reading-speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-picture-colours",
+      "id": "ep-picture-colours-o3",
+      "capability": "能独立生成可理解的句子",
+      "modality": "reading-speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-write-note",
+      "id": "ep-write-note-o1",
+      "capability": "时间地点活动齐全",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-write-note",
+      "id": "ep-write-note-o2",
+      "capability": "句意连贯格式适当",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-write-note",
+      "id": "ep-write-note-o3",
+      "capability": "有自主修改记录",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-read-reason",
+      "id": "ep-read-reason-o1",
+      "capability": "区分明示信息与推断",
+      "modality": "reading",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-read-reason",
+      "id": "ep-read-reason-o2",
+      "capability": "指出文本依据",
+      "modality": "reading",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-read-reason",
+      "id": "ep-read-reason-o3",
+      "capability": "识别文本没有提供的信息",
+      "modality": "reading",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-culture-greeting",
+      "id": "ep-culture-greeting-o1",
+      "capability": "情境与表达匹配",
+      "modality": "culture",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-culture-greeting",
+      "id": "ep-culture-greeting-o2",
+      "capability": "能比较而不泛化所有人",
+      "modality": "culture",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-culture-greeting",
+      "id": "ep-culture-greeting-o3",
+      "capability": "尊重不同表达习惯",
+      "modality": "culture",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-strategy-revise",
+      "id": "ep-strategy-revise-o1",
+      "capability": "发现具体问题",
+      "modality": "strategy",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-strategy-revise",
+      "id": "ep-strategy-revise-o2",
+      "capability": "依据可靠且修改对应",
+      "modality": "strategy",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-strategy-revise",
+      "id": "ep-strategy-revise-o3",
+      "capability": "延后迁移有独立记录",
+      "modality": "strategy",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-02",
+      "id": "ep-1-PH-02-o1",
+      "capability": "正确分类给出的字母",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-02",
+      "id": "ep-1-PH-02-o2",
+      "capability": "独立列出五个元音字母",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-02",
+      "id": "ep-1-PH-02-o3",
+      "capability": "能区别字母类别与具体发音",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-03",
+      "id": "ep-1-PH-03-o1",
+      "capability": "不看稿判断三组元音",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-03",
+      "id": "ep-1-PH-03-o2",
+      "capability": "能把字母与词中声音对应",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-03",
+      "id": "ep-1-PH-03-o3",
+      "capability": "独立朗读五个词而非只读字母名",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-05",
+      "id": "ep-1-PH-05-o1",
+      "capability": "听出对应词的元音差别",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-05",
+      "id": "ep-1-PH-05-o2",
+      "capability": "独立读出四组例词",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-PH-05",
+      "id": "ep-1-PH-05-o3",
+      "capability": "不把例词规律过度推广",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-PH-01",
+      "id": "ep-2-PH-01-o1",
+      "capability": "连缀与组合位置辨认正确",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-PH-01",
+      "id": "ep-2-PH-01-o2",
+      "capability": "朗读可理解且不无故插入元音",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-PH-01",
+      "id": "ep-2-PH-01-o3",
+      "capability": "举例体现同类声音对应",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-PH-02",
+      "id": "ep-2-PH-02-o1",
+      "capability": "突出与情境有关的信息",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-PH-02",
+      "id": "ep-2-PH-02-o2",
+      "capability": "疑问和陈述听起来可区分",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-PH-02",
+      "id": "ep-2-PH-02-o3",
+      "capability": "改变情境后能解释自己的语调选择",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-VO-01",
+      "id": "ep-2-VO-01-o1",
+      "capability": "九类主题均有可解释的词例",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-VO-01",
+      "id": "ep-2-VO-01-o2",
+      "capability": "句中意义与搭配合理",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-VO-01",
+      "id": "ep-2-VO-01-o3",
+      "capability": "能独立补充遗漏并保留初稿",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-01",
+      "id": "ep-1-GR-01-o1",
+      "capability": "主语和be形式一致",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-01",
+      "id": "ep-1-GR-01-o2",
+      "capability": "替换主语后能自主调整",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-01",
+      "id": "ep-1-GR-01-o3",
+      "capability": "能解释而非只抄模板",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-02",
+      "id": "ep-1-GR-02-o1",
+      "capability": "图示数量与单复数对应",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-02",
+      "id": "ep-1-GR-02-o2",
+      "capability": "s与es在例词中正确",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-02",
+      "id": "ep-1-GR-02-o3",
+      "capability": "能迁移到bus而非只识别选项",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-03",
+      "id": "ep-1-GR-03-o1",
+      "capability": "主格用于相应主语位置",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-03",
+      "id": "ep-1-GR-03-o2",
+      "capability": "物主词与所指人一致",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-03",
+      "id": "ep-1-GR-03-o3",
+      "capability": "句子整体可理解且能迁移",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-04",
+      "id": "ep-1-GR-04-o1",
+      "capability": "指示词对应远近与单复数",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-04",
+      "id": "ep-1-GR-04-o2",
+      "capability": "in/on/under符合实际",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-04",
+      "id": "ep-1-GR-04-o3",
+      "capability": "同伴能按口头描述复原",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-05",
+      "id": "ep-1-GR-05-o1",
+      "capability": "问句和回答含义一致",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-05",
+      "id": "ep-1-GR-05-o2",
+      "capability": "like与has用法正确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-05",
+      "id": "ep-1-GR-05-o3",
+      "capability": "转述与伙伴提供的信息相符",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-06",
+      "id": "ep-1-GR-06-o1",
+      "capability": "四类问句匹配信息类别",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-06",
+      "id": "ep-1-GR-06-o2",
+      "capability": "数词和单位正确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-06",
+      "id": "ep-1-GR-06-o3",
+      "capability": "交换角色后独立组织问答",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-07",
+      "id": "ep-1-GR-07-o1",
+      "capability": "Let's建议与情境匹配",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-07",
+      "id": "ep-1-GR-07-o2",
+      "capability": "whose询问所属",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-GR-07",
+      "id": "ep-1-GR-07-o3",
+      "capability": "所有格标记和所指正确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-01",
+      "id": "ep-2-GR-01-o1",
+      "capability": "三单陈述动词形式正确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-01",
+      "id": "ep-2-GR-01-o2",
+      "capability": "does问答与陈述一致",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-01",
+      "id": "ep-2-GR-01-o3",
+      "capability": "转述角色信息不遗漏或编造",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-02",
+      "id": "ep-2-GR-02-o1",
+      "capability": "be与主语一致",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-02",
+      "id": "ep-2-GR-02-o2",
+      "capability": "ing形式可理解且基本正确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-02",
+      "id": "ep-2-GR-02-o3",
+      "capability": "句意确实对应当前动作",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-03",
+      "id": "ep-2-GR-03-o1",
+      "capability": "can问答与能力信息对应",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-03",
+      "id": "ep-2-GR-03-o2",
+      "capability": "there be单复数正确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-03",
+      "id": "ep-2-GR-03-o3",
+      "capability": "疑问及回答与图示一致",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-04",
+      "id": "ep-2-GR-04-o1",
+      "capability": "日期序数表达正确",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-04",
+      "id": "ep-2-GR-04-o2",
+      "capability": "时间介词与精度匹配",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-04",
+      "id": "ep-2-GR-04-o3",
+      "capability": "频度词位置和含义合理",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-05",
+      "id": "ep-2-GR-05-o1",
+      "capability": "六种形式与所指对应",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-05",
+      "id": "ep-2-GR-05-o2",
+      "capability": "不混用my/mine等位置",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-05",
+      "id": "ep-2-GR-05-o3",
+      "capability": "完整句可被同伴正确理解",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-06",
+      "id": "ep-2-GR-06-o1",
+      "capability": "be随主语变化",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-06",
+      "id": "ep-2-GR-06-o2",
+      "capability": "going to后动词原形",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-06",
+      "id": "ep-2-GR-06-o3",
+      "capability": "计划信息完整并能回应追问",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-07",
+      "id": "ep-2-GR-07-o1",
+      "capability": "祈使句结构正确",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-07",
+      "id": "ep-2-GR-07-o2",
+      "capability": "must与should含义适当",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-07",
+      "id": "ep-2-GR-07-o3",
+      "capability": "能根据场合解释选择",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-09",
+      "id": "ep-2-GR-09-o1",
+      "capability": "比较级结构正确",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-09",
+      "id": "ep-2-GR-09-o2",
+      "capability": "than两端对象明确",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-GR-09",
+      "id": "ep-2-GR-09-o3",
+      "capability": "依据数据而非猜测比较",
+      "modality": "writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-FU-01",
+      "id": "ep-2-FU-01-o1",
+      "capability": "六类交流目的都有实际问答",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-FU-01",
+      "id": "ep-2-FU-01-o2",
+      "capability": "回答与问题匹配",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-FU-01",
+      "id": "ep-2-FU-01-o3",
+      "capability": "转述忠实且能请求澄清",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-RW-02",
+      "id": "ep-1-RW-02-o1",
+      "capability": "独立阅读提取五项信息",
+      "modality": "reading",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-RW-02",
+      "id": "ep-1-RW-02-o2",
+      "capability": "每项有文本依据",
+      "modality": "reading",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-RW-02",
+      "id": "ep-1-RW-02-o3",
+      "capability": "识别无法从原文得出的信息",
+      "modality": "reading",
+      "status": "authored-not-observed"
+    }
+  ],
+  "remaining": [
+    "官方要求逐项建底表，35条不能代表全部课标",
+    "词表与教材版本逐项核验",
+    "197节点、788题、236条关系完整复核",
+    "音频人工听审和教师、学生验证"
+  ]
+}
