@@ -15,3 +15,9 @@ assert.equal(warnings({t:{scores:{o:''},feedback:{}}},[task],'math').length,0);
 assert.equal(archive({evidence:'legacy'},'v1').attemptHistory[0].answerExposureStatus,'unknown');
 assert.equal(archive({},'v1').priorExposureStatus,'unknown');
 console.log('Attempt history, immutability, reload, prior exposure and evidence warnings passed');
+
+const {inheritExposure}=require('../activities/attempts.js');
+const fresh=inheritExposure({},'same-task',{'old':{'same-task':{answerExposed:true,response:'old'}}});
+assert.equal(fresh.priorAnswerExposure,true);assert.equal(fresh.response,undefined);
+assert.equal(inheritExposure({},'other-task',{'old':{'same-task':{answerExposed:true}}}).priorAnswerExposure,undefined);
+assert.equal(inheritExposure({},'t',{'old':{t:{attemptHistory:[{answerExposed:true}]}}}).priorAnswerExposure,true);

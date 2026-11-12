@@ -1,5 +1,5 @@
 {
-  "version": "english-primary-2026-11.3",
+  "version": "english-primary-2026-11.4",
   "scope": "35条仓库内部转述记录，不是官方完整条目清单。",
   "rows": [
     {
@@ -1151,6 +1151,1371 @@
       "id": "ep-2-FU-02-o3",
       "capability": "建议符合情境且能回应同伴",
       "modality": "speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-body",
+      "id": "ep-node-body-o1",
+      "capability": "图词对应并能读出部位",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-body",
+      "id": "ep-node-body-o2",
+      "capability": "从短文定位两个数量",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-body",
+      "id": "ep-node-body-o3",
+      "capability": "口头介绍与独立写句对应图形",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-animals",
+      "id": "ep-node-animals-o1",
+      "capability": "动物词与对象对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-animals",
+      "id": "ep-node-animals-o2",
+      "capability": "识别形容词所属对象",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-animals",
+      "id": "ep-node-animals-o3",
+      "capability": "用介绍句和形容词独立描述",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-food",
+      "id": "ep-node-food-o1",
+      "capability": "食物词能识别",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-food",
+      "id": "ep-node-food-o2",
+      "capability": "区分like与would like的语境",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-food",
+      "id": "ep-node-food-o3",
+      "capability": "实际问答和书面选择一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-numbers",
+      "id": "ep-node-numbers-o1",
+      "capability": "1至10与礼物词对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-numbers",
+      "id": "ep-node-numbers-o2",
+      "capability": "从文字辨认11至20数量",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-numbers",
+      "id": "ep-node-numbers-o3",
+      "capability": "数词拼写和问答有记录",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-origin",
+      "id": "ep-node-origin-o1",
+      "capability": "国家词与文本信息匹配",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-origin",
+      "id": "ep-node-origin-o2",
+      "capability": "独立询问和说明来自哪里",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-origin",
+      "id": "ep-node-origin-o3",
+      "capability": "写句区分已知与未给信息",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-family",
+      "id": "ep-node-family-o1",
+      "capability": "四个成员词与姓名对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-family",
+      "id": "ep-node-family-o2",
+      "capability": "Who问句和代词回应合适",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-family",
+      "id": "ep-node-family-o3",
+      "capability": "图文介绍可互查",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-location",
+      "id": "ep-node-location-o1",
+      "capability": "家具物品词能定位",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-location",
+      "id": "ep-node-location-o2",
+      "capability": "位置问答匹配当前图",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-location",
+      "id": "ep-node-location-o3",
+      "capability": "位置改变后独立改写",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-fruit",
+      "id": "ep-node-fruit-o1",
+      "capability": "水果词与否定信息正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-fruit",
+      "id": "ep-node-fruit-o2",
+      "capability": "问答反映伙伴实际回答",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-fruit",
+      "id": "ep-node-fruit-o3",
+      "capability": "转述与记录一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-classroom",
+      "id": "ep-node-classroom-o1",
+      "capability": "物品词及数量信息正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-classroom",
+      "id": "ep-node-classroom-o2",
+      "capability": "建议与教室问题对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-classroom",
+      "id": "ep-node-classroom-o3",
+      "capability": "能回应并写出行动表达",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-schoolbag",
+      "id": "ep-node-schoolbag-o1",
+      "capability": "文具词和数量可核对",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-schoolbag",
+      "id": "ep-node-schoolbag-o2",
+      "capability": "区分否定与未给信息",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-schoolbag",
+      "id": "ep-node-schoolbag-o3",
+      "capability": "实际问答与清单一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-friends",
+      "id": "ep-node-friends-o1",
+      "capability": "外貌性格信息区分",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-friends",
+      "id": "ep-node-friends-o2",
+      "capability": "人物图与文字相符",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-friends",
+      "id": "ep-node-friends-o3",
+      "capability": "独立介绍包含多个特征",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-home",
+      "id": "ep-node-home-o1",
+      "capability": "五个房间词与人物对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-home",
+      "id": "ep-node-home-o2",
+      "capability": "位置问答完整可理解",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-home",
+      "id": "ep-node-home-o3",
+      "capability": "换位后更新而非照抄",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-dinner",
+      "id": "ep-node-dinner-o1",
+      "capability": "食物词与接受拒绝对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-dinner",
+      "id": "ep-node-dinner-o2",
+      "capability": "Would you like问答礼貌且相关",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-dinner",
+      "id": "ep-node-dinner-o3",
+      "capability": "独立对话能表达不同选择",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-jobs",
+      "id": "ep-node-jobs-o1",
+      "capability": "基础职业介绍准确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-jobs",
+      "id": "ep-node-jobs-o2",
+      "capability": "扩展三个问题各有对应回答",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-jobs",
+      "id": "ep-node-jobs-o3",
+      "capability": "书面转述区分职业地点交通",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-school",
+      "id": "ep-node-school-o1",
+      "capability": "场所词与楼层正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-school",
+      "id": "ep-node-school-o2",
+      "capability": "next to和behind指向明确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-school",
+      "id": "ep-node-school-o3",
+      "capability": "问答及写句与图一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-time",
+      "id": "ep-node-time-o1",
+      "capability": "钟面与活动匹配",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-time",
+      "id": "ep-node-time-o2",
+      "capability": "时刻问答可理解",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-time",
+      "id": "ep-node-time-o3",
+      "capability": "for与to表达适合活动",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-weather",
+      "id": "ep-node-weather-o1",
+      "capability": "天气词与城市日期对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-weather",
+      "id": "ep-node-weather-o2",
+      "capability": "能用It is描述当天",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-weather",
+      "id": "ep-node-weather-o3",
+      "capability": "建议与天气匹配并有理由",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-farm",
+      "id": "ep-node-farm-o1",
+      "capability": "动物蔬菜词与数量对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-farm",
+      "id": "ep-node-farm-o2",
+      "capability": "复数问答与指示对象一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-farm",
+      "id": "ep-node-farm-o3",
+      "capability": "独立介绍依据文本或图",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-clothes",
+      "id": "ep-node-clothes-o1",
+      "capability": "衣物颜色主人分别识别",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-clothes",
+      "id": "ep-node-clothes-o2",
+      "capability": "Whose回应与所有格准确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-clothes",
+      "id": "ep-node-clothes-o3",
+      "capability": "穿着介绍和书面问答一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-shopping",
+      "id": "ep-node-shopping-o1",
+      "capability": "物品与英文数词价签对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-shopping",
+      "id": "ep-node-shopping-o2",
+      "capability": "询价购买问答完整",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-shopping",
+      "id": "ep-node-shopping-o3",
+      "capability": "清单和口头选择一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-teachers",
+      "id": "ep-node-teachers-o1",
+      "capability": "外貌性格词分类正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-teachers",
+      "id": "ep-node-teachers-o2",
+      "capability": "What is he like回答人物特点",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-teachers",
+      "id": "ep-node-teachers-o3",
+      "capability": "独立介绍可理解且不靠外貌推断",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-week",
+      "id": "ep-node-week-o1",
+      "capability": "课程与活动分类正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-week",
+      "id": "ep-node-week-o2",
+      "capability": "on Mondays等时间表达准确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-week",
+      "id": "ep-node-week-o3",
+      "capability": "两种问句回应与安排表一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-menu",
+      "id": "ep-node-menu-o1",
+      "capability": "餐食饮品词区分",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-menu",
+      "id": "ep-node-menu-o2",
+      "capability": "点餐问答对应吃喝问题",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-menu",
+      "id": "ep-node-menu-o3",
+      "capability": "订单和实际表达一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-ability",
+      "id": "ep-node-ability-o1",
+      "capability": "动词短语与肯否信息正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-ability",
+      "id": "ep-node-ability-o2",
+      "capability": "can问答符合人物表",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-ability",
+      "id": "ep-node-ability-o3",
+      "capability": "独立转述区分未知与不会",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-room",
+      "id": "ep-node-room-o1",
+      "capability": "物品词和相对位置正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-room",
+      "id": "ep-node-room-o2",
+      "capability": "is/are与单复数一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-room",
+      "id": "ep-node-room-o3",
+      "capability": "新房间图与独立写句对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-park",
+      "id": "ep-node-park-o1",
+      "capability": "自然地物词与指代正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-park",
+      "id": "ep-node-park-o2",
+      "capability": "is there和are there回应一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-park",
+      "id": "ep-node-park-o3",
+      "capability": "新图说明包含肯否信息",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-routine",
+      "id": "ep-node-routine-o1",
+      "capability": "活动词和时间线正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-routine",
+      "id": "ep-node-routine-o2",
+      "capability": "When问答给出具体时间",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-routine",
+      "id": "ep-node-routine-o3",
+      "capability": "书面作息与采访一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-season",
+      "id": "ep-node-season-o1",
+      "capability": "人物季节活动配对正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-season",
+      "id": "ep-node-season-o2",
+      "capability": "because说明理由",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-season",
+      "id": "ep-node-season-o3",
+      "capability": "新表达依据个人情境",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-calendar",
+      "id": "ep-node-calendar-o1",
+      "capability": "月份具体日期时刻准确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-calendar",
+      "id": "ep-node-calendar-o2",
+      "capability": "询问回应不添加未知信息",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-calendar",
+      "id": "ep-node-calendar-o3",
+      "capability": "通知写清活动日期时间",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-rules",
+      "id": "ep-node-rules-o1",
+      "capability": "规则与场景匹配",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-rules",
+      "id": "ep-node-rules-o2",
+      "capability": "能用文本判断行为",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-rules",
+      "id": "ep-node-rules-o3",
+      "capability": "口头提醒及书写规则可理解",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-route",
+      "id": "ep-node-route-o1",
+      "capability": "动作词与初始朝向一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-route",
+      "id": "ep-node-route-o2",
+      "capability": "正反路线可实际执行",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-route",
+      "id": "ep-node-route-o3",
+      "capability": "出行方式与路线说明清楚",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-plans",
+      "id": "ep-node-plans-o1",
+      "capability": "提取五类计划信息",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-plans",
+      "id": "ep-node-plans-o2",
+      "capability": "区分计划与已发生",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-plans",
+      "id": "ep-node-plans-o3",
+      "capability": "新计划及变化条件清楚",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-hobby",
+      "id": "ep-node-hobby-o1",
+      "capability": "爱好短语和人物信息准确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-hobby",
+      "id": "ep-node-hobby-o2",
+      "capability": "likes后的活动表达可理解",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-hobby",
+      "id": "ep-node-hobby-o3",
+      "capability": "介绍区分已知与猜测",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-feelings",
+      "id": "ep-node-feelings-o1",
+      "capability": "感受原因与人物对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-feelings",
+      "id": "ep-node-feelings-o2",
+      "capability": "建议与情境相关",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-feelings",
+      "id": "ep-node-feelings-o3",
+      "capability": "实际问答和写句表达完整",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-comparison",
+      "id": "ep-node-comparison-o1",
+      "capability": "比较对象属性单位分清",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-comparison",
+      "id": "ep-node-comparison-o2",
+      "capability": "从文本推理差值",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-comparison",
+      "id": "ep-node-comparison-o3",
+      "capability": "独立比较句与实际依据一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-past",
+      "id": "ep-node-past-o1",
+      "capability": "时态信息和否定准确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-past",
+      "id": "ep-node-past-o2",
+      "capability": "规则不规则形式及Did问答正确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-past",
+      "id": "ep-node-past-o3",
+      "capability": "独立叙述连贯且时间明确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-then-now",
+      "id": "ep-node-then-now-o1",
+      "capability": "过去现在信息对照准确",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-then-now",
+      "id": "ep-node-then-now-o2",
+      "capability": "时间和单复数决定be形式",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-then-now",
+      "id": "ep-node-then-now-o3",
+      "capability": "独立迁移写句前后一致",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-long-e",
+      "id": "ep-node-long-e-o1",
+      "capability": "四词朗读可理解",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-long-e",
+      "id": "ep-node-long-e-o2",
+      "capability": "与短元音对照有实际录音",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-long-e",
+      "id": "ep-node-long-e-o3",
+      "capability": "能在句中保持目标读音",
+      "modality": "phonics",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-message",
+      "id": "ep-node-message-o1",
+      "capability": "时间地点事件等信息有文本依据",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-message",
+      "id": "ep-node-message-o2",
+      "capability": "区分集合地目的地和未知返程时间",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-message",
+      "id": "ep-node-message-o3",
+      "capability": "转告与回复准确可理解",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-ongoing-read",
+      "id": "ep-node-ongoing-read-o1",
+      "capability": "主语动作及单复数对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-ongoing-read",
+      "id": "ep-node-ongoing-read-o2",
+      "capability": "信息有原文依据且不猜姓名",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-node-ongoing-read",
+      "id": "ep-node-ongoing-read-o3",
+      "capability": "表演与新写句对应",
+      "modality": "reading-speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-001",
+      "id": "ep-source-001-o1",
+      "capability": "话轮与角色标记正确",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-001",
+      "id": "ep-source-001-o2",
+      "capability": "区分独白和对话用途",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-001",
+      "id": "ep-source-001-o3",
+      "capability": "新对话回应前一话轮",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-002",
+      "id": "ep-source-002-o1",
+      "capability": "事件顺序有文本依据",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-002",
+      "id": "ep-source-002-o2",
+      "capability": "时间地点人物变化清楚",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-002",
+      "id": "ep-source-002-o3",
+      "capability": "复述和改编保持因果连贯",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-003",
+      "id": "ep-source-003-o1",
+      "capability": "总说与细节区分",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-003",
+      "id": "ep-source-003-o2",
+      "capability": "解释句子与主题关系",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-003",
+      "id": "ep-source-003-o3",
+      "capability": "自写细节支持主题",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-004",
+      "id": "ep-source-004-o1",
+      "capability": "预测与修正都有记录",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-004",
+      "id": "ep-source-004-o2",
+      "capability": "猜词引用语境线索",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-004",
+      "id": "ep-source-004-o3",
+      "capability": "概括保留主要变化",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-005",
+      "id": "ep-source-005-o1",
+      "capability": "图文表信息共同核对",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-005",
+      "id": "ep-source-005-o2",
+      "capability": "区分图可支持与不能推出的信息",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-005",
+      "id": "ep-source-005-o3",
+      "capability": "新海报要素与图一致",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-006",
+      "id": "ep-source-006-o1",
+      "capability": "词重音与朗读一致",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-006",
+      "id": "ep-source-006-o2",
+      "capability": "意群停顿支持意义",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-006",
+      "id": "ep-source-006-o3",
+      "capability": "能解释重读所纠正的信息",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-007",
+      "id": "ep-source-007-o1",
+      "capability": "识别交际目的",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-007",
+      "id": "ep-source-007-o2",
+      "capability": "回应尊重对方且相关",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-007",
+      "id": "ep-source-007-o3",
+      "capability": "不同场合能调整而非万能套句",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-008",
+      "id": "ep-source-008-o1",
+      "capability": "角色与目的清楚",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-008",
+      "id": "ep-source-008-o2",
+      "capability": "询问回应提供所需信息",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-008",
+      "id": "ep-source-008-o3",
+      "capability": "转述不添加诊断或未知细节",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-009",
+      "id": "ep-source-009-o1",
+      "capability": "共同点和差异有依据",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-009",
+      "id": "ep-source-009-o2",
+      "capability": "不把家庭样例泛化为国民特征",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-009",
+      "id": "ep-source-009-o3",
+      "capability": "介绍尊重差异且表达清楚",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-010",
+      "id": "ep-source-010-o1",
+      "capability": "名称时间对象可核查",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-010",
+      "id": "ep-source-010-o2",
+      "capability": "庆祝方式注明范围和来源",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-010",
+      "id": "ep-source-010-o3",
+      "capability": "贺卡格式祝福与活动相符",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-011",
+      "id": "ep-source-011-o1",
+      "capability": "情节与人物行为准确",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-011",
+      "id": "ep-source-011-o2",
+      "capability": "价值观点有情节依据",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-011",
+      "id": "ep-source-011-o3",
+      "capability": "改编与角色表演连贯",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-012",
+      "id": "ep-source-012-o1",
+      "capability": "人物经历贡献与来源一致",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-012",
+      "id": "ep-source-012-o2",
+      "capability": "时间线区分已知未知",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-012",
+      "id": "ep-source-012-o3",
+      "capability": "介绍说明合作和贡献",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-013",
+      "id": "ep-source-013-o1",
+      "capability": "历史信息准确并引用来源",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-013",
+      "id": "ep-source-013-o2",
+      "capability": "项目与关键词能解释",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-013",
+      "id": "ep-source-013-o3",
+      "capability": "三段行为表达体现公平合作",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-014",
+      "id": "ep-source-014-o1",
+      "capability": "作品事实与来源一致",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-014",
+      "id": "ep-source-014-o2",
+      "capability": "观察描述来自实际画面",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-014",
+      "id": "ep-source-014-o3",
+      "capability": "事实和感受明确分开",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-015",
+      "id": "ep-source-015-o1",
+      "capability": "国家首都标志对应",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-015",
+      "id": "ep-source-015-o2",
+      "capability": "核对来源和日期可追溯",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-015",
+      "id": "ep-source-015-o3",
+      "capability": "介绍比较避免单一刻板概括",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-016",
+      "id": "ep-source-016-o1",
+      "capability": "目标具体且时间可行",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-016",
+      "id": "ep-source-016-o2",
+      "capability": "实际作品及求助可追溯",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-016",
+      "id": "ep-source-016-o3",
+      "capability": "比较前后表现并调整",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-017",
+      "id": "ep-source-017-o1",
+      "capability": "分类标准一致",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-017",
+      "id": "ep-source-017-o2",
+      "capability": "词的音形义与语境相连",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-017",
+      "id": "ep-source-017-o3",
+      "capability": "生活标志有实际观察",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-018",
+      "id": "ep-source-018-o1",
+      "capability": "能识别理解困难并请求澄清",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-018",
+      "id": "ep-source-018-o2",
+      "capability": "使用手势或指示辅助",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-018",
+      "id": "ep-source-018-o3",
+      "capability": "更换指令后完成确认",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-019",
+      "id": "ep-source-019-o1",
+      "capability": "分工与实际参与可核对",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-019",
+      "id": "ep-source-019-o2",
+      "capability": "困难时使用具体策略",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-019",
+      "id": "ep-source-019-o3",
+      "capability": "反馈与修改形成联系",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-020",
+      "id": "ep-source-020-o1",
+      "capability": "来源时间词数口径明确",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-020",
+      "id": "ep-source-020-o2",
+      "capability": "实际理解产出可核对",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-020",
+      "id": "ep-source-020-o3",
+      "capability": "比较目标与实绩并调整",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-021",
+      "id": "ep-source-021-o1",
+      "capability": "韵文读唱实际可听",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-021",
+      "id": "ep-source-021-o2",
+      "capability": "角色话轮与情境匹配",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-021",
+      "id": "ep-source-021-o3",
+      "capability": "动作和语言共同表达",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-022",
+      "id": "ep-source-022-o1",
+      "capability": "大小写标点基本正确",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-022",
+      "id": "ep-source-022-o2",
+      "capability": "细节支持同一主题",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-022",
+      "id": "ep-source-022-o3",
+      "capability": "自主修订有前后对照",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-023",
+      "id": "ep-source-023-o1",
+      "capability": "主题信息分类准确",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-023",
+      "id": "ep-source-023-o2",
+      "capability": "行动计划可执行且表达清晰",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-023",
+      "id": "ep-source-023-o3",
+      "capability": "实际记录与反思一致",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-024",
+      "id": "ep-source-024-o1",
+      "capability": "文本分类与关系图正确",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-024",
+      "id": "ep-source-024-o2",
+      "capability": "区分已有信息和待查问题",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-024",
+      "id": "ep-source-024-o3",
+      "capability": "资料核对后说明清晰",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-025",
+      "id": "ep-source-025-o1",
+      "capability": "每词有语境和独立产出",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-025",
+      "id": "ep-source-025-o2",
+      "capability": "复测与初稿分开",
+      "modality": "integrated-performance",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-source-025",
+      "id": "ep-source-025-o3",
+      "capability": "进度如实标记未完成词项",
+      "modality": "integrated-performance",
       "status": "authored-not-observed"
     }
   ],

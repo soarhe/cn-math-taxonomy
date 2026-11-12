@@ -19,14 +19,14 @@ class CompletionTests(unittest.TestCase):
  def test_build_is_reproducible(self):build(check=True)
  def test_no_dangling_relations_or_unsupported_mastery_claim(self):
   topics={t['id'] for t in load('data/topics.json')};ids={t['id'] for t in self.data['tasks']};targets=set(self.tasks)
-  self.assertEqual(len(ids),81)
+  self.assertEqual(len(ids),116)
   for edge in self.data['relations']:
    self.assertIn(edge['from'],ids);self.assertIn(edge['to'],topics|targets)
    self.assertIn(edge['type'],['practises','addresses']);self.assertFalse(edge['diagnosticPropagation'])
   for t in self.tasks.values():
    self.assertFalse(t['autoMastery']);self.assertFalse(t['expertReviewed']);self.assertFalse(t['studentTrialCompleted']);self.assertEqual(t['assessmentMode'],'human-observation')
    self.assertGreaterEqual(len(t['instructions']),2);self.assertEqual(len(t['rubric']),3)
-   self.assertEqual(t['gradeRange'],[t['stage']*2-1,t['stage']*2])
+   if t['targetKind']!='node-cluster':self.assertEqual(t['gradeRange'],[t['stage']*2-1,t['stage']*2])
  def test_material_sources_resolve_and_media_is_not_synthetic(self):
   sources={s['id']:s for s in self.data['sources']}
   for t in self.tasks.values():

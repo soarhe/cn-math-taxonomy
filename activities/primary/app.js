@@ -3,13 +3,14 @@
   'use strict';
   const $ = id => document.getElementById(id);
   const el = (tag, text, cls) => {const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
-  const KEY='cnm.primary.activities.primary-activities-2026-10.1';
+  const KEY='cnm.primary.activities.primary-activities-2026-11.1';
+  let historicalRecords={};
   let data, topics, records={}, filtered=[];
   function notify(text){$('notice').textContent=text;}
-  try {const saved=JSON.parse(localStorage.getItem(KEY)||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))records=saved;}
+  try {historicalRecords={'primary-activities-2026-10.1':JSON.parse(localStorage.getItem('cnm.primary.activities.primary-activities-2026-10.1')||'{}')};const saved=JSON.parse(localStorage.getItem(KEY)||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))records=saved;}
   catch(e){notify('未能读取本机记录；可继续填写并导出，请勿清理浏览器。');}
   function persist(){try{localStorage.setItem(KEY,JSON.stringify(records));notify('已保存到当前浏览器。请导出备份；尚未上传或认证。');}catch(e){notify('浏览器无法保存，请立即导出记录备份。');}}
-  function record(task){let r=records[task.id];if(!r||typeof r!=='object'||Array.isArray(r))r=records[task.id]={};r.scores=r.scores&&typeof r.scores==='object'?r.scores:{};r.feedback=r.feedback&&typeof r.feedback==='object'?r.feedback:{};return r;}
+  function record(task){let r=records[task.id];if(!r||typeof r!=='object'||Array.isArray(r))r=records[task.id]={};r.scores=r.scores&&typeof r.scores==='object'?r.scores:{};r.feedback=r.feedback&&typeof r.feedback==='object'?r.feedback:{};return ActivityAttempts.inheritExposure(r,task.id,historicalRecords);}
   function saveField(task,key,value){const r=record(task);r[key]=value;r.updatedAt=new Date().toISOString();persist();}
   function addTextArea(host,label,value,onchange){const l=el('label',label);const input=el('textarea');input.value=typeof value==='string'?value:'';l.append(input);input.addEventListener('input',()=>onchange(input.value));host.append(l);}
   function link(text,url){const a=el('a',text);a.href=url;return a;}
@@ -49,7 +50,7 @@
       card.append(details);root.append(card);
     }
   }
-  $('export').addEventListener('click',()=>{if(!data)return;const body={schemaVersion:2,activityVersion:data.version,exportedAt:new Date().toISOString(),assessmentMode:'human-observation',autoMastery:false,records,warnings:ActivityAttempts.warnings(records,data.tasks,'math')};const blob=new Blob([JSON.stringify(body,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=link('',url);a.download='primary-activity-records.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notify('已导出本机人工记录；不包含附件，也不改变诊断结果。');});
+  $('export').addEventListener('click',()=>{if(!data)return;const body={schemaVersion:2,activityVersion:data.version,exportedAt:new Date().toISOString(),assessmentMode:'human-observation',autoMastery:false,records,historicalRecords,warnings:ActivityAttempts.warnings(records,data.tasks,'math')};const blob=new Blob([JSON.stringify(body,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=link('',url);a.download='primary-activity-records.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notify('已导出本机人工记录；不包含附件，也不改变诊断结果。');});
   $('print').addEventListener('click',()=>{document.querySelectorAll('#tasks article > details').forEach(d=>d.open=true);window.print();});
   $('stage').addEventListener('change',render);$('query').addEventListener('input',render);
   window.addEventListener('hashchange',()=>{render();document.getElementById(location.hash.slice(1))?.scrollIntoView();});

@@ -20,5 +20,10 @@ function warnings(records,tasks,kind){
  });}
  return result;
 }
-const api={archive,warnings};if(typeof module!=='undefined')module.exports=api;else root.ActivityAttempts=api;
+function inheritExposure(record,taskId,historicalRecords){
+ const exposed=r=>r&&typeof r==='object'&&(r.answerExposed===true||r.priorAnswerExposure===true||(Array.isArray(r.attemptHistory)&&r.attemptHistory.some(exposed)));
+ if(Object.values(historicalRecords||{}).some(version=>exposed(version&&version[taskId]))){record.priorAnswerExposure=true;record.priorExposureStatus='known-exposed';record.exposureFromPreviousVersion=true;}
+ return record;
+}
+const api={archive,warnings,inheritExposure};if(typeof module!=='undefined')module.exports=api;else root.ActivityAttempts=api;
 })(typeof window==='undefined'?this:window);

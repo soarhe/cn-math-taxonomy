@@ -1,0 +1,23 @@
+{
+  "status": "local-engineering-checks-passed",
+  "quantityGates": {
+    "mathNodes": 216,
+    "englishNodes": 222,
+    "mathTasks": 116,
+    "englishTasks": 103,
+    "nodesWithTask": 438,
+    "tasksWithCustomScoringExamples": 219
+  },
+  "checks": {
+    "goalTests": 5,
+    "englishTests": 7,
+    "mathTaskTests": 7,
+    "primaryBaselineTests": 8,
+    "currentEngineTests": 98,
+    "fullReleaseValidation": "passed",
+    "browserInteraction": "not-verified-connection-timeout"
+  },
+  "expertReviewed": false,
+  "studentTrialCompleted": false,
+  "scope": "内部编写数量与首轮内容审查门槛；非全课标认证。"
+}

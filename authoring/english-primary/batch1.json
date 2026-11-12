@@ -9,9 +9,7 @@
         3,
         4
       ],
-      "topicIds": [
-        "cne_p008"
-      ],
+      "topicIds": [],
       "standardIds": [
         "ces-2022:1.FU.01",
         "ces-2022:1.RW.02"
@@ -43,8 +41,7 @@
         4
       ],
       "topicIds": [
-        "cne_p045",
-        "cne_p047"
+        "cne_p045"
       ],
       "standardIds": [
         "ces-2022:1.FU.02",
@@ -76,11 +73,7 @@
         5,
         6
       ],
-      "topicIds": [
-        "cne_p187",
-        "cne_p188",
-        "cne_p197"
-      ],
+      "topicIds": [],
       "standardIds": [
         "ces-2022:2.GR.08",
         "ces-2022:2.FU.02",
@@ -143,8 +136,7 @@
       ],
       "topicIds": [
         "cne_p187",
-        "cne_p190",
-        "cne_p194"
+        "cne_p190"
       ],
       "standardIds": [
         "ces-2022:2.GR.08"
@@ -211,7 +203,7 @@
         "ces-2022:1.PH.01",
         "ces-2022:1.VO.01"
       ],
-      "prompt": "在纸上写出A到F的大小写配对；观察图中的三支蜡笔，为1、2、3号分别独立写英文颜色，不从选项抄写。",
+      "prompt": "在纸上写出A到F的大小写配对；观察图中的三支蜡笔，为1、2、3号分别独立写英文颜色，不从选项抄写。先按顺序读出26个字母，再随机认读同伴指的五个字母。另准备红黄绿蓝四色纸，分别匹配red、yellow、green、blue，独立读出并说明。",
       "transcript": "",
       "reference": "Aa Bb Cc Dd Ee Ff；1 red、2 blue、3 green。允许教师记录镜像书写和大小写问题后安排复做。",
       "rubric": [
@@ -262,9 +254,7 @@
         5,
         6
       ],
-      "topicIds": [
-        "cne_p197"
-      ],
+      "topicIds": [],
       "standardIds": [
         "ces-2022:2.RW.02"
       ],
@@ -290,8 +280,7 @@
         6
       ],
       "topicIds": [
-        "cne_p188",
-        "cne_p197"
+        "cne_p188"
       ],
       "standardIds": [
         "ces-2022:2.RW.01"
@@ -345,10 +334,7 @@
         5,
         6
       ],
-      "topicIds": [
-        "cne_p197",
-        "cne_p196"
-      ],
+      "topicIds": [],
       "standardIds": [],
       "prompt": "从自己的英文便条中选两处不确定表达，先标注疑问，再查纸质词典或请教师解释；保留初稿、依据和修改，三天后独立再写同类句子。",
       "transcript": "",

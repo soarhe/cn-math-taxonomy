@@ -3,19 +3,29 @@
 import argparse,hashlib,json,subprocess,tempfile,wave
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]
-VERSION='english-primary-2026-11.3'
+VERSION='english-primary-2026-11.4'
 def read(p):return json.loads((R/p).read_text())
 def serial(d):return json.dumps(d,ensure_ascii=False,indent=2)+'\n'
 def build(check=False,audio=False):
  tasks=read('authoring/english-primary/batch1.json')['tasks']
  for t in tasks:
   if t['skill']=='listening':t['standardIds']=[];t['mappingNote']='补充听力能力；不使用口语或阅读条目冒充直接听力覆盖。'
-  if t['id']=='ep-picture-colours':t['prompt']='看图并阅读三句：Number one is red. Number two is green. Number three is green. 判断各句与图是否一致并改错；再口头回答What colour is number two?';t['reference']='对、错、对。第二句改为Number two is blue. 口头回答It is blue. 阅读与口头表达分别记录。';t['skill']='reading-speaking'
+  if t['id']=='ep-picture-colours':t['topicIds']=list(dict.fromkeys(t['topicIds']+['cne_p011']));t['prompt']='看图并阅读三句：Number one is red. Number two is green. Number three is green. 判断各句与图是否一致并改错；再口头回答What colour is number two?';t['reference']='对、错、对。第二句改为Number two is blue. 口头回答It is blue. 阅读与口头表达分别记录。';t['skill']='reading-speaking'
   if t['id']=='ep-write-letters':t['prompt']=t['prompt'].replace('A到F','A到Z');t['reference']=t['reference'].replace('Aa Bb Cc Dd Ee Ff；','Aa至Zz全部26组；')
  for line in (R/'authoring/english-primary/batch2.txt').read_text().splitlines():
   sid,title,skill,ids,prompt,transcript,ref,criteria=line.split('|')
   level=int(sid[0]);grades=[3,4] if level==1 or sid=='2.GR.02' else [5,6]
   tasks.append(dict(id='ep-'+sid.replace('.','-'),title=title,skill=skill,gradeRange=grades,topicIds=['cne_p'+x for x in ids.split(',')],standardIds=['ces-2022:'+sid],prompt=prompt,transcript=transcript,reference=ref,rubric=criteria.split('；'),audio=None,figure=None,expertReviewed=False,autoMastery=False))
+ for line in (R/'authoring/english-primary/node-tasks.txt').read_text().splitlines():
+  key,title,ids,grades,prompt,reference,criteria,wrong,partial=line.split('|')
+  task=dict(id='ep-node-'+key,title=title,skill='reading-speaking-writing',gradeRange=[int(x) for x in grades.split(',')],topicIds=['cne_p'+x for x in ids.split(',')],standardIds=[],prompt=prompt,transcript='',reference=reference,rubric=criteria.split('；'),audio=None,figure=None,expertReviewed=False,autoMastery=False)
+  task['scoringExamples']=['0：'+wrong+'。','1：'+partial+'。','2：独立完成并提供：'+'；'.join(task['rubric'])+'。']
+  task['mappingNote']='节点专项补充；尚未逐项认证官方要求，不用推测的课标编号填充。'
+  tasks.append(task)
+ for line in (R/'authoring/primary-supplement/english-source-tasks.txt').read_text().splitlines():
+  key,title,level,domain,locator,prompt,reference,criteria,wrong,partial=line.split('|')
+  rubric=criteria.split('；')
+  tasks.append(dict(id='ep-source-'+key,title=title,skill='integrated-performance',gradeRange=[3,4] if level=='1' else [5,6],topicIds=['cne_ps'+key],standardIds=[],prompt=prompt,transcript='',reference=reference,rubric=rubric,audio=None,figure=None,expertReviewed=False,autoMastery=False,sourceLocator='2022英语课标印刷页'+locator,scoringExamples=['0：'+wrong+'。','1：'+partial+'。','2：独立完成并提供：'+'；'.join(rubric)+'。']))
  for t in tasks:
   if t['transcript'] and t['audio'] is None:
    path=R/'activities/english-primary/audio'/f'{t["id"]}.wav'
@@ -30,6 +40,10 @@ def build(check=False,audio=False):
    t['audio']={'path':'audio/'+path.name,'sha256':hashlib.sha256(path.read_bytes()).hexdigest(),'provider':'macOS Samantha synthetic speech','humanListeningReviewed':False}
   t['observationItems']=[{'id':t['id']+'-o'+str(i+1),'criterion':criterion,'evidenceRequired':'提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。','levels':{'unobserved':'未观察或未提交：保持未观察，不记0分。','0':'已有作答但未体现：'+criterion,'1':'部分体现，仍依赖提示或含影响意义的错误：'+criterion,'2':'独立体现且有可核对证据：'+criterion}} for i,criterion in enumerate(t['rubric'])]
   t['referenceIsExample']=True
+  if t['id']=='ep-node-long-e':t['skill']='phonics'
+  if t['id']=='ep-source-012':t['sourceLinks']=[{'title':'诺贝尔奖官网：屠呦呦事实页','url':'https://www.nobelprize.org/prizes/medicine/2015/tu/facts/'}]
+  if t['id']=='ep-source-013':t['sourceLinks']=[{'title':'世界田联：刘翔2004年报道','url':'https://worldathletics.org/news/news/its-a-miracle-says-liu-xiang'}]
+  if t['id']=='ep-source-014':t['sourceLinks']=[{'title':'英国国家美术馆：Sunflowers','url':'https://www.nationalgallery.org.uk/paintings/vincent-van-gogh-sunflowers'}]
   t['repeatTask']='间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。'
  examples={
  'ep-2-VO-02':['0：把their解释成地点或把its当作it is。','1：填空基本正确但新造句仍混淆一组词。','2：六空正确，解释三组差别，并独立造出六个合适句子。'],
@@ -39,9 +53,16 @@ def build(check=False,audio=False):
  'ep-write-note':['0：便条未表达邀请目的。','1：邀请可理解，但漏地点或需照抄关键句。','2：独立写明时间地点活动与回复请求，并有自主修订。'],
  'ep-2-GR-02':['0：把正在读书说成She read yesterday，时间意义不符。','1：She reading可理解但缺is，提示后修正。','2：根据现场独立说She is reading，再正确描述多人动作。'],
  'ep-1-RW-02':['0：把red理解成书包颜色且找不到原文依据。','1：能找出姓名年龄，但漏数量或混淆颜色所属。','2：五项信息正确，划出依据，并指出书包颜色未知。']}
- for t in tasks:t['scoringExamples']=examples.get(t['id'],['判分时逐项对应观察要求，参考结果允许等价表达；未提供证据保留未观察。'])
+ boundaries={}
+ for line in (R/'authoring/english-primary/scoring-boundaries.txt').read_text().splitlines():
+  tid,wrong,partial=line.split('|');boundaries[tid]=(wrong,partial)
+ for t in tasks:
+  if t['id'] in examples:t['scoringExamples']=examples[t['id']]
+  elif 'scoringExamples' not in t:
+   wrong,partial=boundaries[t['id']]
+   t['scoringExamples']=['0：'+wrong+'。','1：'+partial+'。','2：独立完成并提供：'+'；'.join(t['rubric'])+'。']
  standards=[s for s in read('data/cn-curriculum-standards.json')['items'] if s['id'].startswith(('ces-2022:1.','ces-2022:2.'))]
- topics={t['id']:t for t in read('data/topics.json') if t['id'].startswith('cne_p')}
+ topics={t['id']:t for t in read('data/topics.json')+read('data/primary-curriculum-supplement.json')['nodes'] if t['id'].startswith('cne_p')}
  for t in tasks:
   assert set(t['topicIds'])<=set(topics)
   assert set(t['standardIds'])<={s['id'] for s in standards}

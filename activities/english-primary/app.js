@@ -1,9 +1,9 @@
 (async function(){'use strict';
 const el=(tag,text)=>{const x=document.createElement(tag);if(text!==undefined)x.textContent=text;return x;};
-const VERSION='english-primary-2026-11.3',KEY='cnm.'+VERSION,OLD='cnm.english-primary-2026-11.2';
+const VERSION='english-primary-2026-11.4',KEY='cnm.'+VERSION,OLD='cnm.english-primary-2026-11.2';
 let records={},history={};const status=document.getElementById('status');
 function parse(key){const x=JSON.parse(localStorage.getItem(key)||'{}');return x&&typeof x==='object'&&!Array.isArray(x)?x:{};}
-try{records=parse(KEY);history={'english-primary-2026-11.2':parse(OLD),'english-primary-2026-11.1':parse('cnm.english-primary-2026-11.1')};}catch(e){status.textContent='本机记录读取失败；原记录未覆盖，请先导出备份。';}
+try{records=parse(KEY);history={'english-primary-2026-11.3':parse('cnm.english-primary-2026-11.3'),'english-primary-2026-11.2':parse(OLD),'english-primary-2026-11.1':parse('cnm.english-primary-2026-11.1')};}catch(e){status.textContent='本机记录读取失败；原记录未覆盖，请先导出备份。';}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(records));status.textContent='已保存本机。本次记录不自动更新诊断掌握状态。';}catch(e){status.textContent='无法保存，请导出备份。';}}
 function textarea(parent,label,value,handler){const l=el('label',label),a=el('textarea');a.value=typeof value==='string'?value:'';a.addEventListener('input',()=>handler(a.value));l.append(a);parent.append(l);}
 try{
@@ -22,10 +22,12 @@ const list=data.tasks.filter(t=>(!topic||t.topicIds.includes(topic))&&(!grade||t
 if(topic){const a=el('a','查看全部任务');a.href='./';root.append(a);}root.append(el('p','显示 '+list.length+' / '+data.tasks.length+' 个任务'));
 if(!list.length)root.append(el('p','尚无匹配的补充任务；不表示该知识点没有原题。请调整筛选或查看全部任务。'));
 for(const t of list){
- const box=el('article');box.id=t.id;const r=records[t.id]||(records[t.id]={});
+ const box=el('article');box.id=t.id;const r=ActivityAttempts.inheritExposure(records[t.id]||(records[t.id]={}),t.id,history);
  const details=el('details');details.open=location.hash==='#'+t.id||list.length===1;
- details.append(el('summary',t.title+' · '+t.gradeRange.join('–')+'年级'),el('p',t.skill+' · '+(t.standardIds.join('、')||'补充能力：未套用阅读或口语条目')),el('p',t.prompt));
+ details.append(el('summary',t.title+' · '+(t.gradeRange.length>1?t.gradeRange[0]+'–'+t.gradeRange[t.gradeRange.length-1]:t.gradeRange[0])+'年级'),el('p',t.skill+' · '+(t.standardIds.join('、')||'节点专项或补充能力：未认证官方条目映射')),el('p',t.prompt));
  if(t.id==='ep-2-GR-02')details.append(el('p','学段校正：2022课标一级已要求理解现在进行时；关联的旧教材节点年级不作为学段要求。','note'));
+ if(t.sourceLocator)details.append(el('p',t.sourceLocator+'；本项目新编任务，未获专家认证。'));
+ (t.sourceLinks||[]).forEach(source=>{const a=el('a',source.title);a.href=source.url;a.target='_blank';a.rel='noopener noreferrer';details.append(a);});
  if(t.audio){const a=el('audio');a.controls=true;a.preload='none';a.src=t.audio.path;details.append(a);}
  if(t.figure){const img=el('img');img.src=t.figure;img.alt='三支编号蜡笔，请根据可见颜色作答';details.append(img);}
  const answer=el('details');answer.append(el('summary','查看文字稿和参考（会记录已查看）'),el('p',t.transcript),el('p',t.reference));

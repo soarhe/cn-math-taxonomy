@@ -413,7 +413,7 @@
       el('code', { class: 'id-code', text: topic.id })));
     var diagHref = '../diagnose/?target=' + encodeURIComponent(topic.id);
     if (subject === 'english') diagHref = '../diagnose/?subject=english&target=' + encodeURIComponent(topic.id);
-    parts.push(el('a', {
+    if(topic.diagnosticEnabled!==false) parts.push(el('a', {
       class: 'btn btn-primary btn-lg diag-btn',
       href: diagHref
     }, '诊断这个知识点'));
@@ -431,6 +431,8 @@
         el('ul', { class: 'plain' }, topic.mastery_criteria.map(function (item) { return el('li', { text: item }); }))));
     }
 
+    if(topic.sourceReference)parts.push(el('p',null,el('a',{href:topic.sourceReference.url},topic.sourceReference.title),' · '+topic.sourceReference.locator+'；'+topic.sourceReference.method));
+    if(topic.diagnosticEnabled===false)parts.push(el('p',{class:'muted',text:'本节点通过实践任务人工观察，尚无自动诊断题库。'}));
     var standards = topic.standards || [];
     var standardNodes = standards.length ? standards.map(function (entry) {
       var item = stdById.get(entry.id);
@@ -472,7 +474,7 @@
         activities.map(function (task) { return el('p', null, el('a', {
           href: '../activities/primary/?topic=' + encodeURIComponent(topic.id) + '#' + task.id
         }, task.title)); }),
-        el('a', { href: '../activities/primary/' }, '查看全部 81 个任务（按课标学段）')));
+        el('a', { href: '../activities/primary/' }, '查看全部数学任务（按学段）')));
     }
 
     if (topic.id.indexOf('cne_p') === 0) {
@@ -486,7 +488,7 @@
     parts.push(el('section', null,
       el('h2', { text: '先修' }),
       el('p', { class: 'muted', text: '直接 ' + pres.length + ' 个，全部上游 ' + countReach(pre, topic.id) + ' 个。图上默认只画向上 2 层；选「全部」且超过 ' + FOLD_AT + ' 个时先按年级收起。' }),
-      pres.length ? pres.map(relButton) : el('p', { text: '这是起点，没有更早的先修。' })));
+      pres.length ? pres.map(relButton) : el('p', { text: topic.diagnosticEnabled===false?'尚未建立经验证的先修关系。':'这是起点，没有更早的先修。' })));
 
     var posts = post.get(topic.id) || [];
     parts.push(el('section', null,
@@ -1088,7 +1090,7 @@
   }
 
   async function load() {
-    var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json', 'primary-activities.json', 'english-primary-activities.json'];
+    var files = ['topics.json', 'dependencies.json', 'id-aliases.json', 'cn-curriculum-standards.json', 'primary-activities.json', 'english-primary-activities.json', 'primary-curriculum-supplement.json'];
     var responses = await Promise.all(files.map(function (file) { return fetch('../data/' + file); }));
     responses.forEach(function (response, responseIndex) {
       if (!response.ok) throw new Error(files[responseIndex] + ' HTTP ' + response.status);
@@ -1096,7 +1098,9 @@
     var json = await Promise.all(responses.map(function (response) { return response.json(); }));
     primaryActivities = json[4].tasks || [];
     englishActivities = json[5].tasks || [];
-    topics = json[0].filter(function (topic) { return isEnglishTopic(topic) === (subject === 'english'); });
+    var curriculum=json[6];
+    var effectiveTopics=json[0].map(function(t){return Object.assign({},t,(curriculum.overrides||{})[t.id]||{});}).concat(curriculum.nodes||[]);
+    topics = effectiveTopics.filter(function (topic) { return isEnglishTopic(topic) === (subject === 'english'); });
     var allow = {};
     topics.forEach(function (topic) { allow[topic.id] = true; });
     deps = json[1].filter(function (edge) { return allow[edge.topicId] && allow[edge.prerequisiteId]; });

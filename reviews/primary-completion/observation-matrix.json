@@ -1,5 +1,5 @@
 {
-  "scope": "243项活动观察指标；不是完整官方课标原子要求底表。",
+  "scope": "全部活动观察指标；不是完整官方课标原子要求底表。",
   "rows": [
     {
       "taskId": "pact-1-NA-01",
@@ -1700,6 +1700,741 @@
       "standardOrExampleId": "example-2022:water",
       "observationId": "pact-example-water-r3",
       "criterion": "解释误差干扰及改进",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-003",
+      "standardOrExampleId": "cnm_p003",
+      "observationId": "pact-node-003-r1",
+      "criterion": "区分数量与序数",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-003",
+      "standardOrExampleId": "cnm_p003",
+      "observationId": "pact-node-003-r2",
+      "criterion": "说明起点和方向",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-003",
+      "standardOrExampleId": "cnm_p003",
+      "observationId": "pact-node-003-r3",
+      "criterion": "重排后能解释数量不变位置可能改变",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-004",
+      "standardOrExampleId": "cnm_p004",
+      "observationId": "pact-node-004-r1",
+      "criterion": "分拆不遗漏且理解空盘",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-004",
+      "standardOrExampleId": "cnm_p004",
+      "observationId": "pact-node-004-r2",
+      "criterion": "6至10点数与数字对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-004",
+      "standardOrExampleId": "cnm_p004",
+      "observationId": "pact-node-004-r3",
+      "criterion": "解释补到10的数量",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-010",
+      "standardOrExampleId": "cnm_p010",
+      "observationId": "pact-node-010-r1",
+      "criterion": "操作与加减意义一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-010",
+      "standardOrExampleId": "cnm_p010",
+      "observationId": "pact-node-010-r2",
+      "criterion": "五种算式各步数量正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-010",
+      "standardOrExampleId": "cnm_p010",
+      "observationId": "pact-node-010-r3",
+      "criterion": "能用故事解释混合过程",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-016",
+      "standardOrExampleId": "cnm_p016",
+      "observationId": "pact-node-016-r1",
+      "criterion": "11至20的读写组成一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-016",
+      "standardOrExampleId": "cnm_p016",
+      "observationId": "pact-node-016-r2",
+      "criterion": "不进位和凑十的操作正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-016",
+      "standardOrExampleId": "cnm_p016",
+      "observationId": "pact-node-016-r3",
+      "criterion": "能说明拆分不改变总量",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-025",
+      "standardOrExampleId": "cnm_p025",
+      "observationId": "pact-node-025-r1",
+      "criterion": "八题去掉数量与剩余一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-025",
+      "standardOrExampleId": "cnm_p025",
+      "observationId": "pact-node-025-r2",
+      "criterion": "能解释十与一的交换",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-025",
+      "standardOrExampleId": "cnm_p025",
+      "observationId": "pact-node-025-r3",
+      "criterion": "用加法反向核对",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-030",
+      "standardOrExampleId": "cnm_p030",
+      "observationId": "pact-node-030-r1",
+      "criterion": "整十与几百几十单位正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-030",
+      "standardOrExampleId": "cnm_p030",
+      "observationId": "pact-node-030-r2",
+      "criterion": "进退位口算可解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-030",
+      "standardOrExampleId": "cnm_p030",
+      "observationId": "pact-node-030-r3",
+      "criterion": "结果用逆运算核对",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-051",
+      "standardOrExampleId": "cnm_p051",
+      "observationId": "pact-node-051-r1",
+      "criterion": "分装与商余数对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-051",
+      "standardOrExampleId": "cnm_p051",
+      "observationId": "pact-node-051-r2",
+      "criterion": "余数小于除数",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-051",
+      "standardOrExampleId": "cnm_p051",
+      "observationId": "pact-node-051-r3",
+      "criterion": "口诀和乘加验算一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-057",
+      "standardOrExampleId": "cnm_p057",
+      "observationId": "pact-node-057-r1",
+      "criterion": "乘加乘减对应购买条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-057",
+      "standardOrExampleId": "cnm_p057",
+      "observationId": "pact-node-057-r2",
+      "criterion": "括号内优先与乘除优先分清",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-057",
+      "standardOrExampleId": "cnm_p057",
+      "observationId": "pact-node-057-r3",
+      "criterion": "两步应用中间量有含义",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-071",
+      "standardOrExampleId": "cnm_p071",
+      "observationId": "pact-node-071-r1",
+      "criterion": "相同数位对齐",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-071",
+      "standardOrExampleId": "cnm_p071",
+      "observationId": "pact-node-071-r2",
+      "criterion": "连续进退位有操作依据",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-071",
+      "standardOrExampleId": "cnm_p071",
+      "observationId": "pact-node-071-r3",
+      "criterion": "逆运算核验结果",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-073",
+      "standardOrExampleId": "cnm_p073",
+      "observationId": "pact-node-073-r1",
+      "criterion": "倍的基准量明确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-073",
+      "standardOrExampleId": "cnm_p073",
+      "observationId": "pact-node-073-r2",
+      "criterion": "各数位乘积与进位正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-073",
+      "standardOrExampleId": "cnm_p073",
+      "observationId": "pact-node-073-r3",
+      "criterion": "0占位和末尾0解释合理",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-081",
+      "standardOrExampleId": "cnm_p081",
+      "observationId": "pact-node-081-r1",
+      "criterion": "每人放在适当区域",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-081",
+      "standardOrExampleId": "cnm_p081",
+      "observationId": "pact-node-081-r2",
+      "criterion": "重叠对象只计一次",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-081",
+      "standardOrExampleId": "cnm_p081",
+      "observationId": "pact-node-081-r3",
+      "criterion": "解释并集计数过程",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-083",
+      "standardOrExampleId": "cnm_p083",
+      "observationId": "pact-node-083-r1",
+      "criterion": "每步平均分有依据",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-083",
+      "standardOrExampleId": "cnm_p083",
+      "observationId": "pact-node-083-r2",
+      "criterion": "商的数位和0占位正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-083",
+      "standardOrExampleId": "cnm_p083",
+      "observationId": "pact-node-083-r3",
+      "criterion": "乘法验算复原被除数",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-086",
+      "standardOrExampleId": "cnm_p086",
+      "observationId": "pact-node-086-r1",
+      "criterion": "阵列拆分覆盖全体无重叠",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-086",
+      "standardOrExampleId": "cnm_p086",
+      "observationId": "pact-node-086-r2",
+      "criterion": "十位部分积位置正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-086",
+      "standardOrExampleId": "cnm_p086",
+      "observationId": "pact-node-086-r3",
+      "criterion": "数量单位与应用结果一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-095",
+      "standardOrExampleId": "cnm_p095",
+      "observationId": "pact-node-095-r1",
+      "criterion": "搭配符合一衣一裤",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-095",
+      "standardOrExampleId": "cnm_p095",
+      "observationId": "pact-node-095-r2",
+      "criterion": "有序列举不重不漏",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-095",
+      "standardOrExampleId": "cnm_p095",
+      "observationId": "pact-node-095-r3",
+      "criterion": "能解释增加一件的影响",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-117",
+      "standardOrExampleId": "cnm_p117",
+      "observationId": "pact-node-117-r1",
+      "criterion": "所用运算律与式子相符",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-117",
+      "standardOrExampleId": "cnm_p117",
+      "observationId": "pact-node-117-r2",
+      "criterion": "计算简便且结果正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-117",
+      "standardOrExampleId": "cnm_p117",
+      "observationId": "pact-node-117-r3",
+      "criterion": "能给出减法误用反例",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-119",
+      "standardOrExampleId": "cnm_p119",
+      "observationId": "pact-node-119-r1",
+      "criterion": "按位值比较而非位数",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-119",
+      "standardOrExampleId": "cnm_p119",
+      "observationId": "pact-node-119-r2",
+      "criterion": "扩大缩小的倍数正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-119",
+      "standardOrExampleId": "cnm_p119",
+      "observationId": "pact-node-119-r3",
+      "criterion": "按目标位取近似并使用约等号",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-132",
+      "standardOrExampleId": "cnm_p132",
+      "observationId": "pact-node-132-r1",
+      "criterion": "小数乘整数能用单位解释",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-132",
+      "standardOrExampleId": "cnm_p132",
+      "observationId": "pact-node-132-r2",
+      "criterion": "总价数量关系正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-132",
+      "standardOrExampleId": "cnm_p132",
+      "observationId": "pact-node-132-r3",
+      "criterion": "结果金额合理并核对",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-137",
+      "standardOrExampleId": "cnm_p137",
+      "observationId": "pact-node-137-r1",
+      "criterion": "两种除法的未知量不同",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-137",
+      "standardOrExampleId": "cnm_p137",
+      "observationId": "pact-node-137-r2",
+      "criterion": "同时扩大保持商不变",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-137",
+      "standardOrExampleId": "cnm_p137",
+      "observationId": "pact-node-137-r3",
+      "criterion": "商与单位及验算一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-146",
+      "standardOrExampleId": "cnm_p146",
+      "observationId": "pact-node-146-r1",
+      "criterion": "未知量及等量关系明确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-146",
+      "standardOrExampleId": "cnm_p146",
+      "observationId": "pact-node-146-r2",
+      "criterion": "解方程步骤保持等式",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-146",
+      "standardOrExampleId": "cnm_p146",
+      "observationId": "pact-node-146-r3",
+      "criterion": "代回情境检验",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-167",
+      "standardOrExampleId": "cnm_p167",
+      "observationId": "pact-node-167-r1",
+      "criterion": "等值与约分基于同一整体",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-167",
+      "standardOrExampleId": "cnm_p167",
+      "observationId": "pact-node-167-r2",
+      "criterion": "通分比较使用共同分数单位",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-167",
+      "standardOrExampleId": "cnm_p167",
+      "observationId": "pact-node-167-r3",
+      "criterion": "混合运算保留分母含义",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-176",
+      "standardOrExampleId": "cnm_p176",
+      "observationId": "pact-node-176-r1",
+      "criterion": "每次称量两边枚数相同",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-176",
+      "standardOrExampleId": "cnm_p176",
+      "observationId": "pact-node-176-r2",
+      "criterion": "覆盖平衡与不平衡分支",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-176",
+      "standardOrExampleId": "cnm_p176",
+      "observationId": "pact-node-176-r3",
+      "criterion": "每条路径最多2次且唯一定位",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-177",
+      "standardOrExampleId": "cnm_p177",
+      "observationId": "pact-node-177-r1",
+      "criterion": "同一分数单位重复相加",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-177",
+      "standardOrExampleId": "cnm_p177",
+      "observationId": "pact-node-177-r2",
+      "criterion": "分数乘整数计算正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-177",
+      "standardOrExampleId": "cnm_p177",
+      "observationId": "pact-node-177-r3",
+      "criterion": "带分数和量级解释一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-191",
+      "standardOrExampleId": "cnm_p191",
+      "observationId": "pact-node-191-r1",
+      "criterion": "周长公式区分直径半径",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-191",
+      "standardOrExampleId": "cnm_p191",
+      "observationId": "pact-node-191-r2",
+      "criterion": "圈数与总路程对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-191",
+      "standardOrExampleId": "cnm_p191",
+      "observationId": "pact-node-191-r3",
+      "criterion": "扇形组成与中心角清晰",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-195",
+      "standardOrExampleId": "cnm_p195",
+      "observationId": "pact-node-195-r1",
+      "criterion": "互化保持同一个数值",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-195",
+      "standardOrExampleId": "cnm_p195",
+      "observationId": "pact-node-195-r2",
+      "criterion": "求部分时基准量明确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-195",
+      "standardOrExampleId": "cnm_p195",
+      "observationId": "pact-node-195-r3",
+      "criterion": "反求整体用除法并验证",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-203",
+      "standardOrExampleId": "cnm_p203",
+      "observationId": "pact-node-203-r1",
+      "criterion": "折扣以原价为基准",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-203",
+      "standardOrExampleId": "cnm_p203",
+      "observationId": "pact-node-203-r2",
+      "criterion": "利息本金时间单位一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-203",
+      "standardOrExampleId": "cnm_p203",
+      "observationId": "pact-node-203-r3",
+      "criterion": "区分利息与本息及假设条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-211",
+      "standardOrExampleId": "cnm_p211",
+      "observationId": "pact-node-211-r1",
+      "criterion": "反比例依据乘积不变",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-211",
+      "standardOrExampleId": "cnm_p211",
+      "observationId": "pact-node-211-r2",
+      "criterion": "解比例交叉乘关系正确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-211",
+      "standardOrExampleId": "cnm_p211",
+      "observationId": "pact-node-211-r3",
+      "criterion": "应用中对应量与单位一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-216",
+      "standardOrExampleId": "cnm_p216",
+      "observationId": "pact-node-216-r1",
+      "criterion": "区分至少与恰好",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-216",
+      "standardOrExampleId": "cnm_p216",
+      "observationId": "pact-node-216-r2",
+      "criterion": "用总数上界解释必然性",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-216",
+      "standardOrExampleId": "cnm_p216",
+      "observationId": "pact-node-216-r3",
+      "criterion": "反例满足所有条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-001",
+      "standardOrExampleId": "cnm_p001",
+      "observationId": "pact-node-001-r1",
+      "criterion": "点数及相邻数准确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-001",
+      "standardOrExampleId": "cnm_p001",
+      "observationId": "pact-node-001-r2",
+      "criterion": "一一对应说明大小相等",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-001",
+      "standardOrExampleId": "cnm_p001",
+      "observationId": "pact-node-001-r3",
+      "criterion": "五以内加减操作与故事对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-039",
+      "standardOrExampleId": "cnm_p039",
+      "observationId": "pact-node-039-r1",
+      "criterion": "点阵推导不只背诵",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-039",
+      "standardOrExampleId": "cnm_p039",
+      "observationId": "pact-node-039-r2",
+      "criterion": "覆盖7至9与较小口诀",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-039",
+      "standardOrExampleId": "cnm_p039",
+      "observationId": "pact-node-039-r3",
+      "criterion": "商乘除数能复原总量",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-097",
+      "standardOrExampleId": "cnm_p097",
+      "observationId": "pact-node-097-r1",
+      "criterion": "改写与近似符号精度区分",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-097",
+      "standardOrExampleId": "cnm_p097",
+      "observationId": "pact-node-097-r2",
+      "criterion": "商不变有同时同倍条件",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-097",
+      "standardOrExampleId": "cnm_p097",
+      "observationId": "pact-node-097-r3",
+      "criterion": "四则各部分关系可逆向核查",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-143",
+      "standardOrExampleId": "cnm_p143",
+      "observationId": "pact-node-143-r1",
+      "criterion": "方程与等式不等式区分",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-143",
+      "standardOrExampleId": "cnm_p143",
+      "observationId": "pact-node-143-r2",
+      "criterion": "每步同量操作合法",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-143",
+      "standardOrExampleId": "cnm_p143",
+      "observationId": "pact-node-143-r3",
+      "criterion": "三式代回均相等",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-151",
+      "standardOrExampleId": "cnm_p151",
+      "observationId": "pact-node-151-r1",
+      "criterion": "图与间隔长度对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-151",
+      "standardOrExampleId": "cnm_p151",
+      "observationId": "pact-node-151-r2",
+      "criterion": "四种端点条件明确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-151",
+      "standardOrExampleId": "cnm_p151",
+      "observationId": "pact-node-151-r3",
+      "criterion": "能解释树数与间隔数差异",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-166",
+      "standardOrExampleId": "cnm_p166",
+      "observationId": "pact-node-166-r1",
+      "criterion": "分数分类与数轴一致",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-166",
+      "standardOrExampleId": "cnm_p166",
+      "observationId": "pact-node-166-r2",
+      "criterion": "分数平均分有图和单位",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-166",
+      "standardOrExampleId": "cnm_p166",
+      "observationId": "pact-node-166-r3",
+      "criterion": "最简比与比例等式意义区分",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-135",
+      "standardOrExampleId": "cnm_p135",
+      "observationId": "pact-node-135-r1",
+      "criterion": "乘积准确且保留位明确",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-135",
+      "standardOrExampleId": "cnm_p135",
+      "observationId": "pact-node-135-r2",
+      "criterion": "四舍五入依据下一位",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-135",
+      "standardOrExampleId": "cnm_p135",
+      "observationId": "pact-node-135-r3",
+      "criterion": "实际问题取整有情境理由",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-160",
+      "standardOrExampleId": "cnm_p160",
+      "observationId": "pact-node-160-r1",
+      "criterion": "立体特征与展开图对应",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-160",
+      "standardOrExampleId": "cnm_p160",
+      "observationId": "pact-node-160-r2",
+      "criterion": "各面面积求和而非体积",
+      "evidenceStatus": "not-observed"
+    },
+    {
+      "taskId": "pact-node-160",
+      "standardOrExampleId": "cnm_p160",
+      "observationId": "pact-node-160-r3",
+      "criterion": "有盖无盖条件及单位正确",
       "evidenceStatus": "not-observed"
     }
   ]

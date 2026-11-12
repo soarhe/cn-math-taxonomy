@@ -3,8 +3,8 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[1]
 class EnglishPrimaryTests(unittest.TestCase):
  def test_media_and_links(self):
-  data=json.loads((R/'data/english-primary-activities.json').read_text());topics={t['id'] for t in json.loads((R/'data/topics.json').read_text())};standards={s['id'] for s in json.loads((R/'data/cn-curriculum-standards.json').read_text())['items']}
-  self.assertEqual(len({t['id'] for t in data['tasks']}),38)
+  data=json.loads((R/'data/english-primary-activities.json').read_text());topics={t['id'] for t in json.loads((R/'data/topics.json').read_text())+json.loads((R/'data/primary-curriculum-supplement.json').read_text())['nodes']};standards={s['id'] for s in json.loads((R/'data/cn-curriculum-standards.json').read_text())['items']}
+  self.assertEqual(len({t['id'] for t in data['tasks']}),103)
   for t in data['tasks']:
    self.assertTrue(set(t['topicIds'])<=topics);self.assertTrue(set(t['standardIds'])<=standards);self.assertFalse(t['autoMastery']);self.assertFalse(t['expertReviewed'])
    if t['audio']:
@@ -28,7 +28,7 @@ class EnglishPrimaryTests(unittest.TestCase):
   sys.path.insert(0,str(R/'scripts'))
   from build_english_primary import build
   build(check=True)
-  report=json.loads((R/'reviews/english-primary/coverage.json').read_text());self.assertTrue(all(r['taskIds'] for r in report['rows']));self.assertEqual(len(report['observations']),114)
+  report=json.loads((R/'reviews/english-primary/coverage.json').read_text());self.assertTrue(all(r['taskIds'] for r in report['rows']));self.assertEqual(len(report['observations']),309)
  def test_targeted_tasks_replace_weak_mappings(self):
   tasks={t['id']:t for t in json.loads((R/'data/english-primary-activities.json').read_text())['tasks']}
   self.assertFalse(tasks['ep-strategy-revise']['standardIds'])
@@ -39,5 +39,5 @@ class EnglishPrimaryTests(unittest.TestCase):
    self.assertEqual(len(tasks[tid]['scoringExamples']),3)
  def test_math_activity_requirements_are_visible_without_changing_edges(self):
   js=(R/'explore/app.js').read_text();self.assertIn('活动关联的课标要求',js);self.assertIn('activityStandards',js)
-  records=json.loads((R/'reviews/primary-completion/observation-matrix.json').read_text());self.assertEqual(len(records['rows']),243)
+  records=json.loads((R/'reviews/primary-completion/observation-matrix.json').read_text());self.assertEqual(len(records['rows']),348)
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,705 @@
+{
+  "version": "primary-catalog-2026-11.1",
+  "baseline": "primary-2026-10.1",
+  "scope": "现有413节点的课程侧校正，加25个来自2022英语要求的能力节点；不宣称官方全文及词汇附录穷尽。",
+  "nodes": [
+    {
+      "id": "cne_ps001",
+      "name": "识别话轮与对话类型",
+      "subject": "english",
+      "domain": "语篇",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 语篇",
+      "type": "procedural",
+      "description": "在实际任务中发展识别话轮与对话类型；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "话轮与角色标记正确",
+        "区分独白和对话用途",
+        "新对话回应前一话轮"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页22 表12一级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps002",
+      "name": "故事开端发展与结局",
+      "subject": "english",
+      "domain": "语篇",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 语篇",
+      "type": "procedural",
+      "description": "在实际任务中发展故事开端发展与结局；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "事件顺序有文本依据",
+        "时间地点人物变化清楚",
+        "复述和改编保持因果连贯"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页22 表12二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps003",
+      "name": "主题句与支持细节",
+      "subject": "english",
+      "domain": "语篇",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 语篇",
+      "type": "procedural",
+      "description": "在实际任务中发展主题句与支持细节；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "总说与细节区分",
+        "解释句子与主题关系",
+        "自写细节支持主题"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页22 表12二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps004",
+      "name": "标题预测与上下文猜词",
+      "subject": "english",
+      "domain": "阅读策略",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 阅读策略",
+      "type": "procedural",
+      "description": "在实际任务中发展标题预测与上下文猜词；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "预测与修正都有记录",
+        "猜词引用语境线索",
+        "概括保留主要变化"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页22表12及26表16",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps005",
+      "name": "图表海报的多模态阅读",
+      "subject": "english",
+      "domain": "看与表达",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 看与表达",
+      "type": "procedural",
+      "description": "在实际任务中发展图表海报的多模态阅读；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "图文表信息共同核对",
+        "区分图可支持与不能推出的信息",
+        "新海报要素与图一致"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页26至27 表16",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps006",
+      "name": "单词重音意群与节奏",
+      "subject": "english",
+      "domain": "语音",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 语音",
+      "type": "procedural",
+      "description": "在实际任务中发展单词重音意群与节奏；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "词重音与朗读一致",
+        "意群停顿支持意义",
+        "能解释重读所纠正的信息"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页19 表9二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps007",
+      "name": "赞扬道歉邀请的得体回应",
+      "subject": "english",
+      "domain": "语用",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 语用",
+      "type": "procedural",
+      "description": "在实际任务中发展赞扬道歉邀请的得体回应；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "识别交际目的",
+        "回应尊重对方且相关",
+        "不同场合能调整而非万能套句"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页23 表13",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps008",
+      "name": "电话与就医情境的信息交流",
+      "subject": "english",
+      "domain": "语用",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 语用",
+      "type": "procedural",
+      "description": "在实际任务中发展电话与就医情境的信息交流；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "角色与目的清楚",
+        "询问回应提供所需信息",
+        "转述不添加诊断或未知细节"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页23 表13二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps009",
+      "name": "比较生活习惯而不刻板概括",
+      "subject": "english",
+      "domain": "文化",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 文化",
+      "type": "procedural",
+      "description": "在实际任务中发展比较生活习惯而不刻板概括；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "共同点和差异有依据",
+        "不把家庭样例泛化为国民特征",
+        "介绍尊重差异且表达清楚"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页24 表14一级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps010",
+      "name": "节日信息与祝福卡",
+      "subject": "english",
+      "domain": "文化",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 文化",
+      "type": "procedural",
+      "description": "在实际任务中发展节日信息与祝福卡；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "名称时间对象可核查",
+        "庆祝方式注明范围和来源",
+        "贺卡格式祝福与活动相符"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页24 表14一级二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps011",
+      "name": "寓言阅读与价值讨论",
+      "subject": "english",
+      "domain": "文化与语篇",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 文化与语篇",
+      "type": "procedural",
+      "description": "在实际任务中发展寓言阅读与价值讨论；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "情节与人物行为准确",
+        "价值观点有情节依据",
+        "改编与角色表演连贯"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页24 表14二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps012",
+      "name": "人物贡献与成长资料阅读",
+      "subject": "english",
+      "domain": "文化",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 文化",
+      "type": "procedural",
+      "description": "在实际任务中发展人物贡献与成长资料阅读；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "人物经历贡献与来源一致",
+        "时间线区分已知未知",
+        "介绍说明合作和贡献"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页24 表14二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps013",
+      "name": "体育成就与公平合作",
+      "subject": "english",
+      "domain": "文化",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 文化",
+      "type": "procedural",
+      "description": "在实际任务中发展体育成就与公平合作；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "历史信息准确并引用来源",
+        "项目与关键词能解释",
+        "三段行为表达体现公平合作"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页24 表14二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps014",
+      "name": "艺术作品观察与个人解释",
+      "subject": "english",
+      "domain": "文化与看",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 文化与看",
+      "type": "procedural",
+      "description": "在实际任务中发展艺术作品观察与个人解释；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "作品事实与来源一致",
+        "观察描述来自实际画面",
+        "事实和感受明确分开"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页24 表14二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps015",
+      "name": "国家信息与文化标志",
+      "subject": "english",
+      "domain": "文化",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 文化",
+      "type": "procedural",
+      "description": "在实际任务中发展国家信息与文化标志；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "国家首都标志对应",
+        "核对来源和日期可追溯",
+        "介绍比较避免单一刻板概括"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页24 表14二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps016",
+      "name": "学习计划执行与反思",
+      "subject": "english",
+      "domain": "学习策略",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 学习策略",
+      "type": "procedural",
+      "description": "在实际任务中发展学习计划执行与反思；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "目标具体且时间可行",
+        "实际作品及求助可追溯",
+        "比较前后表现并调整"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页31至32 表20",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps017",
+      "name": "词汇分类与新旧知识联系",
+      "subject": "english",
+      "domain": "学习策略",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 学习策略",
+      "type": "procedural",
+      "description": "在实际任务中发展词汇分类与新旧知识联系；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "分类标准一致",
+        "词的音形义与语境相连",
+        "生活标志有实际观察"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页32 表20认知",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps018",
+      "name": "听不懂时请求澄清与辅助表达",
+      "subject": "english",
+      "domain": "交际策略",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 交际策略",
+      "type": "procedural",
+      "description": "在实际任务中发展听不懂时请求澄清与辅助表达；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "能识别理解困难并请求澄清",
+        "使用手势或指示辅助",
+        "更换指令后完成确认"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页32 表20交际",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps019",
+      "name": "合作表达与情绪调节",
+      "subject": "english",
+      "domain": "学习策略",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 学习策略",
+      "type": "procedural",
+      "description": "在实际任务中发展合作表达与情绪调节；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "分工与实际参与可核对",
+        "困难时使用具体策略",
+        "反馈与修改形成联系"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页32 表20情感",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps020",
+      "name": "课外视听阅读档案",
+      "subject": "english",
+      "domain": "学习策略与技能",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 学习策略与技能",
+      "type": "procedural",
+      "description": "在实际任务中发展课外视听阅读档案；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "来源时间词数口径明确",
+        "实际理解产出可核对",
+        "比较目标与实绩并调整"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页25至26 表15表16",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps021",
+      "name": "歌曲韵文与短剧表达",
+      "subject": "english",
+      "domain": "语篇与表达",
+      "grade": 3,
+      "semester": "跨册",
+      "chapter": "课标补充 · 语篇与表达",
+      "type": "procedural",
+      "description": "在实际任务中发展歌曲韵文与短剧表达；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "韵文读唱实际可听",
+        "角色话轮与情境匹配",
+        "动作和语言共同表达"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页18表8及25表15",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps022",
+      "name": "连贯写作与标点修订",
+      "subject": "english",
+      "domain": "写作",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 写作",
+      "type": "procedural",
+      "description": "在实际任务中发展连贯写作与标点修订；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "大小写标点基本正确",
+        "细节支持同一主题",
+        "自主修订有前后对照"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页27 表16表达",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps023",
+      "name": "绿色生活与社区服务表达",
+      "subject": "english",
+      "domain": "主题",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 主题",
+      "type": "procedural",
+      "description": "在实际任务中发展绿色生活与社区服务表达；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "主题信息分类准确",
+        "行动计划可执行且表达清晰",
+        "实际记录与反思一致"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页15至16 表6",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps024",
+      "name": "科技变化与自然探索表达",
+      "subject": "english",
+      "domain": "主题",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 主题",
+      "type": "procedural",
+      "description": "在实际任务中发展科技变化与自然探索表达；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "文本分类与关系图正确",
+        "区分已有信息和待查问题",
+        "资料核对后说明清晰"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页15至16 表6",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    },
+    {
+      "id": "cne_ps025",
+      "name": "语境词汇积累与迁移档案",
+      "subject": "english",
+      "domain": "词汇与策略",
+      "grade": 5,
+      "semester": "跨册",
+      "chapter": "课标补充 · 词汇与策略",
+      "type": "procedural",
+      "description": "在实际任务中发展语境词汇积累与迁移档案；以独立表达、过程记录和作品作为观察依据。",
+      "mastery_criteria": [
+        "每词有语境和独立产出",
+        "复测与初稿分开",
+        "进度如实标记未完成词项"
+      ],
+      "external": false,
+      "standards": [],
+      "sourceReference": {
+        "title": "义务教育英语课程标准（2022年版）",
+        "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/W020220420582349487953.pdf",
+        "locator": "印刷页20 表10二级",
+        "method": "按要求新编，非官方知识点编号或原文逐字转录"
+      },
+      "assessmentMode": "human-observation",
+      "root_reason": "跨任务课程能力；尚未验证先修边，不代表学习上没有前提。",
+      "diagnosticEnabled": false
+    }
+  ],
+  "overrides": {
+    "cne_p012": {
+      "description": "观察实际图形中的颜色，结合文字判断图文是否一致；文字与图形冲突时指出并解释。"
+    },
+    "cne_p022": {
+      "name": "食物喜好、想要与提供食物",
+      "description": "区分I like表达喜好、I would like表达想要；用Have some提供食物并回应。"
+    },
+    "cne_p049": {
+      "name": "短元音与常见长元音对照"
+    },
+    "cne_p084": {
+      "name": "学校场所与设施",
+      "description": "认读school、playground、library、computer；区分场所与设备，computer room才指计算机教室。"
+    },
+    "cne_p110": {
+      "description": "用What is he like?询问人物特点（本节点侧重性格），与What does he like?询问喜好区分。"
+    },
+    "cne_p149": {
+      "name": "Whose与物品归属",
+      "description": "用Whose dog is it?和It is mine.询问和说明归属；本节点本身不构成现在进行时要求。"
+    }
+  }
+}
