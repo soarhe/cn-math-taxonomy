@@ -1,5 +1,5 @@
 {
-  "version": "english-primary-2026-11.2",
+  "version": "english-primary-2026-11.3",
   "tasks": [
     {
       "id": "ep-listen-intro",
@@ -233,8 +233,7 @@
         "cne_p027"
       ],
       "standardIds": [
-        "ces-2022:1.FU.01",
-        "ces-2022:1.FU.03"
+        "ces-2022:1.FU.01"
       ],
       "prompt": "两人轮流问候、自我介绍、询问年龄并告别；听对方回答后增加一个相关问题。观察者记录实际说出的句子。",
       "transcript": "",
@@ -303,7 +302,6 @@
         "cne_p194"
       ],
       "standardIds": [
-        "ces-2022:2.FU.02",
         "ces-2022:2.GR.08"
       ],
       "prompt": "准备三个关键词，讲述一个真实或虚构周末，包含时间、地点、活动和感受；同伴追问两次，再换角色。",
@@ -583,8 +581,7 @@
         "cne_p197"
       ],
       "standardIds": [
-        "ces-2022:2.RW.02",
-        "ces-2022:2.FU.02"
+        "ces-2022:2.RW.02"
       ],
       "prompt": "给虚构朋友写4至6句邀请便条：下周六下午3点在学校公园见面，一起踢足球，请对方回复；写初稿后自行检查并修改。",
       "transcript": "",
@@ -789,10 +786,7 @@
         "cne_p197",
         "cne_p196"
       ],
-      "standardIds": [
-        "ces-2022:2.VO.02",
-        "ces-2022:2.RW.02"
-      ],
+      "standardIds": [],
       "prompt": "从自己的英文便条中选两处不确定表达，先标注疑问，再查纸质词典或请教师解释；保留初稿、依据和修改，三天后独立再写同类句子。",
       "transcript": "",
       "reference": "答案依作品；检查引用依据是否支持修改，延后任务独立完成；不能把抄写正确等同掌握。",
@@ -2462,6 +2456,218 @@
         "0：把red理解成书包颜色且找不到原文依据。",
         "1：能找出姓名年龄，但漏数量或混淆颜色所属。",
         "2：五项信息正确，划出依据，并指出书包颜色未知。"
+      ]
+    },
+    {
+      "id": "ep-2-VO-02",
+      "title": "易混词在句子中的意义",
+      "skill": "reading-writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p196",
+        "cne_p197"
+      ],
+      "standardIds": [
+        "ces-2022:2.VO.02"
+      ],
+      "prompt": "独立填空并解释：___ are two books on the desk. (There/Their)；This is ___ classroom. (there/their)；The cat drinks ___ milk. (its/it's)；___ a sunny day. (Its/It's)；I have ___ pens. (too/two)；I like apples, ___. (too/two)。再为三组词各造一对不同语境的句子。",
+      "transcript": "",
+      "reference": "There, their, its, It's, two, too。there表示存在，their表示所属；its表示所属，it's等于it is；two表示数量，too表示也。造句允许其他正确语境。",
+      "rubric": [
+        "六处选择与句意一致",
+        "能解释三组词的意义区别",
+        "独立造句在新语境中正确使用三组词"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-VO-02-o1",
+          "criterion": "六处选择与句意一致",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：六处选择与句意一致",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：六处选择与句意一致",
+            "2": "独立体现且有可核对证据：六处选择与句意一致"
+          }
+        },
+        {
+          "id": "ep-2-VO-02-o2",
+          "criterion": "能解释三组词的意义区别",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：能解释三组词的意义区别",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：能解释三组词的意义区别",
+            "2": "独立体现且有可核对证据：能解释三组词的意义区别"
+          }
+        },
+        {
+          "id": "ep-2-VO-02-o3",
+          "criterion": "独立造句在新语境中正确使用三组词",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：独立造句在新语境中正确使用三组词",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：独立造句在新语境中正确使用三组词",
+            "2": "独立体现且有可核对证据：独立造句在新语境中正确使用三组词"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "0：把their解释成地点或把its当作it is。",
+        "1：填空基本正确但新造句仍混淆一组词。",
+        "2：六空正确，解释三组差别，并独立造出六个合适句子。"
+      ]
+    },
+    {
+      "id": "ep-1-FU-03",
+      "title": "学校家庭餐桌商店四站对话",
+      "skill": "speaking",
+      "gradeRange": [
+        3,
+        4
+      ],
+      "topicIds": [
+        "cne_p005",
+        "cne_p007",
+        "cne_p027"
+      ],
+      "standardIds": [
+        "ces-2022:1.FU.03"
+      ],
+      "prompt": "两人轮换角色完成四站：学校向老师请求借铅笔；家里请求家人帮忙找书；餐桌礼貌请求递水并致谢；商店询问一本书的价格并回应。每站记录至少一问一答；第二轮替换物品独立完成，不照读参考。",
+      "transcript": "",
+      "reference": "示例：May I borrow a pencil? Here you are.；Can you help me find my book? Yes.；Could you pass me the water, please? Here you are. Thank you.；How much is this book? Five yuan. 礼貌且可理解的等价表达均可。",
+      "rubric": [
+        "四种场景均有实际问答记录",
+        "请求回应致谢符合场合且可理解",
+        "交换物品后能独立表达"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-1-FU-03-o1",
+          "criterion": "四种场景均有实际问答记录",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：四种场景均有实际问答记录",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：四种场景均有实际问答记录",
+            "2": "独立体现且有可核对证据：四种场景均有实际问答记录"
+          }
+        },
+        {
+          "id": "ep-1-FU-03-o2",
+          "criterion": "请求回应致谢符合场合且可理解",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：请求回应致谢符合场合且可理解",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：请求回应致谢符合场合且可理解",
+            "2": "独立体现且有可核对证据：请求回应致谢符合场合且可理解"
+          }
+        },
+        {
+          "id": "ep-1-FU-03-o3",
+          "criterion": "交换物品后能独立表达",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：交换物品后能独立表达",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：交换物品后能独立表达",
+            "2": "独立体现且有可核对证据：交换物品后能独立表达"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "0：不能作出与场景有关的请求或回应。",
+        "1：完成部分场景或仍需照读提示。",
+        "2：四站均独立问答，表达礼貌，替换物品后仍能完成。"
+      ]
+    },
+    {
+      "id": "ep-2-FU-02",
+      "title": "问路出行计划与建议",
+      "skill": "speaking-writing",
+      "gradeRange": [
+        5,
+        6
+      ],
+      "topicIds": [
+        "cne_p187",
+        "cne_p190",
+        "cne_p194"
+      ],
+      "standardIds": [
+        "ces-2022:2.FU.02"
+      ],
+      "prompt": "画出学校在路口、图书馆在学校右侧、公园在图书馆旁的示意图。两人从学校出发问路并指路，说明步行或乘车选择；商量周六去公园的计划，说出感受。再面对“朋友累了”给出一条合理建议，写下完整对话并交换角色。",
+      "transcript": "",
+      "reference": "示例：Where is the library? Turn right at the school. The park is next to the library. We can go on foot. We are going to the park on Saturday. I feel happy. You should have a rest. 路线须与自画图一致，计划和建议允许合理变化。",
+      "rubric": [
+        "问路指路与地图一致并说明出行方式",
+        "明确计划并表达感受",
+        "建议符合情境且能回应同伴"
+      ],
+      "audio": null,
+      "figure": null,
+      "expertReviewed": false,
+      "autoMastery": false,
+      "observationItems": [
+        {
+          "id": "ep-2-FU-02-o1",
+          "criterion": "问路指路与地图一致并说明出行方式",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：问路指路与地图一致并说明出行方式",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：问路指路与地图一致并说明出行方式",
+            "2": "独立体现且有可核对证据：问路指路与地图一致并说明出行方式"
+          }
+        },
+        {
+          "id": "ep-2-FU-02-o2",
+          "criterion": "明确计划并表达感受",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：明确计划并表达感受",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：明确计划并表达感受",
+            "2": "独立体现且有可核对证据：明确计划并表达感受"
+          }
+        },
+        {
+          "id": "ep-2-FU-02-o3",
+          "criterion": "建议符合情境且能回应同伴",
+          "evidenceRequired": "提交能支持本项判断的原句、实际录音片段说明、作品或观察记录；只填分数不算证据。",
+          "levels": {
+            "unobserved": "未观察或未提交：保持未观察，不记0分。",
+            "0": "已有作答但未体现：建议符合情境且能回应同伴",
+            "1": "部分体现，仍依赖提示或含影响意义的错误：建议符合情境且能回应同伴",
+            "2": "独立体现且有可核对证据：建议符合情境且能回应同伴"
+          }
+        }
+      ],
+      "referenceIsExample": true,
+      "repeatTask": "间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。",
+      "scoringExamples": [
+        "0：路线与地图冲突且不能说明目的地。",
+        "1：能指路但缺计划、感受或情境建议。",
+        "2：路线可执行，出行计划明确，感受与建议合理并能回应。"
       ]
     }
   ],

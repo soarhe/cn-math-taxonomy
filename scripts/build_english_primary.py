@@ -3,7 +3,7 @@
 import argparse,hashlib,json,subprocess,tempfile,wave
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]
-VERSION='english-primary-2026-11.2'
+VERSION='english-primary-2026-11.3'
 def read(p):return json.loads((R/p).read_text())
 def serial(d):return json.dumps(d,ensure_ascii=False,indent=2)+'\n'
 def build(check=False,audio=False):
@@ -32,6 +32,9 @@ def build(check=False,audio=False):
   t['referenceIsExample']=True
   t['repeatTask']='间隔至少一天，教师替换人物、物品或数量后再做同类任务；保存两次证据，不由一次得分推断稳定掌握。'
  examples={
+ 'ep-2-VO-02':['0：把their解释成地点或把its当作it is。','1：填空基本正确但新造句仍混淆一组词。','2：六空正确，解释三组差别，并独立造出六个合适句子。'],
+ 'ep-1-FU-03':['0：不能作出与场景有关的请求或回应。','1：完成部分场景或仍需照读提示。','2：四站均独立问答，表达礼貌，替换物品后仍能完成。'],
+ 'ep-2-FU-02':['0：路线与地图冲突且不能说明目的地。','1：能指路但缺计划、感受或情境建议。','2：路线可执行，出行计划明确，感受与建议合理并能回应。'],
  'ep-listen-intro':['0：听后把年龄记成颜色，无法提取目标信息。','1：独立听出Lucy和blue，但年龄需第三次提示。','2：两遍内独立记录Lucy、nine、blue，且未打开文字稿。'],
  'ep-write-note':['0：便条未表达邀请目的。','1：邀请可理解，但漏地点或需照抄关键句。','2：独立写明时间地点活动与回复请求，并有自主修订。'],
  'ep-2-GR-02':['0：把正在读书说成She read yesterday，时间意义不符。','1：She reading可理解但缺is，提示后修正。','2：根据现场独立说She is reading，再正确描述多人动作。'],

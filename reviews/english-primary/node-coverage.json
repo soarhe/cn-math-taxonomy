@@ -1,5 +1,5 @@
 {
-  "version": "english-primary-2026-11.2",
+  "version": "english-primary-2026-11.3",
   "rows": [
     {
       "topicId": "cne_p001",
@@ -39,7 +39,8 @@
       "name": "问候用语",
       "taskIds": [
         "ep-speak-greeting",
-        "ep-culture-greeting"
+        "ep-culture-greeting",
+        "ep-1-FU-03"
       ],
       "status": "has-supplement-sample"
     },
@@ -57,7 +58,8 @@
       "name": "问候、告别和致谢",
       "taskIds": [
         "ep-speak-greeting",
-        "ep-culture-greeting"
+        "ep-culture-greeting",
+        "ep-1-FU-03"
       ],
       "status": "has-supplement-sample"
     },
@@ -196,7 +198,8 @@
       "name": "询问年龄",
       "taskIds": [
         "ep-speak-greeting",
-        "ep-1-GR-06"
+        "ep-1-GR-06",
+        "ep-1-FU-03"
       ],
       "status": "has-supplement-sample"
     },
@@ -1297,7 +1300,8 @@
       "name": "谈论上周末",
       "taskIds": [
         "ep-listen-weekend",
-        "ep-speak-weekend"
+        "ep-speak-weekend",
+        "ep-2-FU-02"
       ],
       "status": "has-supplement-sample"
     },
@@ -1320,7 +1324,8 @@
       "topicId": "cne_p190",
       "name": "谈论去过哪里",
       "taskIds": [
-        "ep-speak-weekend"
+        "ep-speak-weekend",
+        "ep-2-FU-02"
       ],
       "status": "has-supplement-sample"
     },
@@ -1346,7 +1351,8 @@
       "topicId": "cne_p194",
       "name": "比较过去和现在",
       "taskIds": [
-        "ep-speak-weekend"
+        "ep-speak-weekend",
+        "ep-2-FU-02"
       ],
       "status": "has-supplement-sample"
     },
@@ -1360,7 +1366,8 @@
       "topicId": "cne_p196",
       "name": "易混词 there、its、too",
       "taskIds": [
-        "ep-strategy-revise"
+        "ep-strategy-revise",
+        "ep-2-VO-02"
       ],
       "status": "has-supplement-sample"
     },
@@ -1371,7 +1378,8 @@
         "ep-listen-weekend",
         "ep-write-note",
         "ep-read-reason",
-        "ep-strategy-revise"
+        "ep-strategy-revise",
+        "ep-2-VO-02"
       ],
       "status": "has-supplement-sample"
     }

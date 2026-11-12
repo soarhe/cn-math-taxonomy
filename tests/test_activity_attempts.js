@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const {archive,warnings}=require('../activities/attempts.js');
+const original={response:'first',score0:'0',observationEvidence:{},answerExposed:true};
+const second=archive(original,'v1','2026-11-12T00:00:00Z');
+assert.equal(original.response,'first');assert.equal(second.response,undefined);
+assert.equal(second.attemptHistory[0].response,'first');assert.equal(second.priorAnswerExposure,true);assert.equal(second.answerExposed,false);
+second.response='second';second.score0='2';second.observationEvidence={o:'independent evidence'};
+const third=archive(second,'v1');assert.equal(third.attemptHistory.length,2);assert.equal(third.attemptHistory[1].response,'second');
+assert.equal(third.priorAnswerExposure,true);
+const restored=JSON.parse(JSON.stringify(third));assert.equal(restored.attemptHistory[0].response,'first');
+const task={id:'t',observationItems:[{id:'o'}],rubric:[{id:'o'}]};
+assert.deepEqual(warnings({t:third},[task],'english'),[{taskId:'t',attempt:1,observationId:'o',issue:'score-without-evidence'}]);
+assert.equal(warnings({t:{scores:{o:'0'},feedback:{}}},[task],'math').length,1);
+assert.equal(warnings({t:{scores:{o:''},feedback:{}}},[task],'math').length,0);
+assert.equal(archive({evidence:'legacy'},'v1').attemptHistory[0].answerExposureStatus,'unknown');
+assert.equal(archive({},'v1').priorExposureStatus,'unknown');
+console.log('Attempt history, immutability, reload, prior exposure and evidence warnings passed');

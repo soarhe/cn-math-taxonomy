@@ -1,5 +1,5 @@
 {
-  "version": "english-primary-2026-11.2",
+  "version": "english-primary-2026-11.3",
   "scope": "35条仓库内部转述记录，不是官方完整条目清单。",
   "rows": [
     {
@@ -96,7 +96,7 @@
       "standardId": "ces-2022:2.VO.02",
       "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
       "taskIds": [
-        "ep-strategy-revise"
+        "ep-2-VO-02"
       ],
       "status": "sample-authored",
       "expertValidated": false,
@@ -287,7 +287,7 @@
       "standardId": "ces-2022:1.FU.03",
       "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
       "taskIds": [
-        "ep-speak-greeting"
+        "ep-1-FU-03"
       ],
       "status": "sample-authored",
       "expertValidated": false,
@@ -307,8 +307,7 @@
       "standardId": "ces-2022:2.FU.02",
       "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
       "taskIds": [
-        "ep-speak-weekend",
-        "ep-write-note"
+        "ep-2-FU-02"
       ],
       "status": "sample-authored",
       "expertValidated": false,
@@ -348,8 +347,7 @@
       "standardId": "ces-2022:2.RW.02",
       "sourceStatus": "公开转述，未与《义务教育英语课程标准（2022年版）》逐页核对",
       "taskIds": [
-        "ep-write-note",
-        "ep-strategy-revise"
+        "ep-write-note"
       ],
       "status": "sample-authored",
       "expertValidated": false,
@@ -1090,6 +1088,69 @@
       "id": "ep-1-RW-02-o3",
       "capability": "识别无法从原文得出的信息",
       "modality": "reading",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-VO-02",
+      "id": "ep-2-VO-02-o1",
+      "capability": "六处选择与句意一致",
+      "modality": "reading-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-VO-02",
+      "id": "ep-2-VO-02-o2",
+      "capability": "能解释三组词的意义区别",
+      "modality": "reading-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-VO-02",
+      "id": "ep-2-VO-02-o3",
+      "capability": "独立造句在新语境中正确使用三组词",
+      "modality": "reading-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-FU-03",
+      "id": "ep-1-FU-03-o1",
+      "capability": "四种场景均有实际问答记录",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-FU-03",
+      "id": "ep-1-FU-03-o2",
+      "capability": "请求回应致谢符合场合且可理解",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-1-FU-03",
+      "id": "ep-1-FU-03-o3",
+      "capability": "交换物品后能独立表达",
+      "modality": "speaking",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-FU-02",
+      "id": "ep-2-FU-02-o1",
+      "capability": "问路指路与地图一致并说明出行方式",
+      "modality": "speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-FU-02",
+      "id": "ep-2-FU-02-o2",
+      "capability": "明确计划并表达感受",
+      "modality": "speaking-writing",
+      "status": "authored-not-observed"
+    },
+    {
+      "taskId": "ep-2-FU-02",
+      "id": "ep-2-FU-02-o3",
+      "capability": "建议符合情境且能回应同伴",
+      "modality": "speaking-writing",
       "status": "authored-not-observed"
     }
   ],

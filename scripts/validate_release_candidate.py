@@ -20,6 +20,7 @@ def main():
   run([sys.executable,'scripts/build_primary_review.py','--check'])
   run([sys.executable,'scripts/build_primary_completion.py','--check'])
   run([sys.executable,'scripts/build_english_primary.py','--check'])
+  run(['node','tests/test_activity_attempts.js'])
   run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_english_primary.py'])
   run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_primary_completion.py'])
   run([sys.executable,'-m','unittest','discover','-s','tests','-p','test_primary_review.py'])

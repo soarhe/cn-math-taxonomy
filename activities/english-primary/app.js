@@ -1,14 +1,20 @@
 (async function(){'use strict';
 const el=(tag,text)=>{const x=document.createElement(tag);if(text!==undefined)x.textContent=text;return x;};
-const VERSION='english-primary-2026-11.2',KEY='cnm.'+VERSION,OLD='cnm.english-primary-2026-11.1';
+const VERSION='english-primary-2026-11.3',KEY='cnm.'+VERSION,OLD='cnm.english-primary-2026-11.2';
 let records={},history={};const status=document.getElementById('status');
 function parse(key){const x=JSON.parse(localStorage.getItem(key)||'{}');return x&&typeof x==='object'&&!Array.isArray(x)?x:{};}
-try{records=parse(KEY);history=parse(OLD);}catch(e){status.textContent='本机记录读取失败；原记录未覆盖，请先导出备份。';}
+try{records=parse(KEY);history={'english-primary-2026-11.2':parse(OLD),'english-primary-2026-11.1':parse('cnm.english-primary-2026-11.1')};}catch(e){status.textContent='本机记录读取失败；原记录未覆盖，请先导出备份。';}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(records));status.textContent='已保存本机。本次记录不自动更新诊断掌握状态。';}catch(e){status.textContent='无法保存，请导出备份。';}}
 function textarea(parent,label,value,handler){const l=el('label',label),a=el('textarea');a.value=typeof value==='string'?value:'';a.addEventListener('input',()=>handler(a.value));l.append(a);parent.append(l);}
 try{
 const res=await fetch('../../data/english-primary-activities.json');if(!res.ok)throw Error(res.status);const data=await res.json();
 if(data.version!==VERSION)throw Error('页面与数据版本不一致，请刷新');
+function attemptControls(parent,t,r){
+ parent.append(el('p','当前第 '+((r.attemptHistory||[]).length+1)+' 次作答；归档后可查看历史。'));
+ const past=el('details');past.append(el('summary','查看历史作答（只读）'));(r.attemptHistory||[]).forEach((a,i)=>past.append(el('pre','第 '+(i+1)+' 次\n'+JSON.stringify(a,null,2))));parent.append(past);
+ const next=el('button','保存本次并开始新一次');next.type='button';next.addEventListener('click',()=>{records[t.id]=ActivityAttempts.archive(r,VERSION);save();location.hash=t.id;render();});parent.append(next);
+ if(r.priorAnswerExposure)parent.append(el('p','此前已查看参考；本次未打开不代表从未接触答案，复测请更换情境。'));
+}
 function render(){
 const root=document.getElementById('tasks');root.replaceChildren();const query=document.getElementById('q').value.toLowerCase(),grade=document.getElementById('grade').value;
 const topic=new URLSearchParams(location.search).get('topic');
@@ -24,6 +30,7 @@ for(const t of list){
  if(t.figure){const img=el('img');img.src=t.figure;img.alt='三支编号蜡笔，请根据可见颜色作答';details.append(img);}
  const answer=el('details');answer.append(el('summary','查看文字稿和参考（会记录已查看）'),el('p',t.transcript),el('p',t.reference));
  answer.addEventListener('toggle',()=>{if(answer.open){r.answerExposed=true;r.updatedAt=new Date().toISOString();save();}});details.append(answer);
+ attemptControls(details,t,r);
  textarea(details,'作答、操作过程或本地录音/作品文件名',r.response,v=>{r.response=v;r.updatedAt=new Date().toISOString();save();});
  const guide=el('details');guide.append(el('summary','评分边界与示例'));t.scoringExamples.forEach(x=>guide.append(el('p',x)));guide.append(el('p',t.repeatTask));guide.addEventListener('toggle',()=>{if(guide.open){r.answerExposed=true;r.scoringGuideExposed=true;save();}});details.append(guide);
  (t.observationItems||[]).forEach((o,i)=>{
@@ -36,8 +43,9 @@ for(const t of list){
 }}
 document.getElementById('q').addEventListener('input',render);document.getElementById('grade').addEventListener('change',render);
 document.getElementById('export').addEventListener('click',()=>{
- const warnings=[];data.tasks.forEach(t=>{const r=records[t.id]||{};(t.observationItems||[]).forEach((o,i)=>{if(r['score'+i]&&!((r.observationEvidence||{})[o.id]||'').trim())warnings.push({taskId:t.id,observationId:o.id,issue:'score-without-evidence'});});});
- const b=new Blob([JSON.stringify({version:data.version,autoMastery:false,records,warnings,historicalRecords:{'english-primary-2026-11.1':history}},null,2)],{type:'application/json'}),url=URL.createObjectURL(b),a=el('a');a.href=url;a.download='english-primary-records.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent='已导出；无依据的评分标注待核，旧版记录单独保留。';
+ const warnings=ActivityAttempts.warnings(records,data.tasks,'english'); // score-without-evidence
+
+ const b=new Blob([JSON.stringify({version:data.version,autoMastery:false,records,warnings,historicalRecords:history},null,2)],{type:'application/json'}),url=URL.createObjectURL(b),a=el('a');a.href=url;a.download='english-primary-records.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent='已导出；无依据的评分标注待核，旧版记录单独保留。';
 });render();document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }catch(e){status.textContent='加载失败：'+e.message+'；请使用本地HTTP服务器打开。';}
 })();

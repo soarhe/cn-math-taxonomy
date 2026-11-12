@@ -27,9 +27,14 @@
       details.append(el('h3','准备材料'),el('p',task.materials),el('h3','执行步骤'));const steps=el('ol');task.instructions.forEach(s=>steps.append(el('li',s)));details.append(steps);
       if(task.sourceIds.length){details.append(el('h3','来源材料'));task.sourceIds.forEach(id=>{const s=data.sources.find(x=>x.id===id);const p=el('p');const a=link(s.title,s.url);a.target='_blank';a.rel='noopener noreferrer';p.append(a,el('small',' · '+s.locator+'。'+s.note));details.append(p);});}
       details.append(el('h3','提交要求'));const submissions=el('ol');task.submission.forEach(s=>submissions.append(el('li',s)));details.append(submissions);
-      const reference=el('details',undefined,'reference');reference.append(el('summary','查看参考结果与评价边界'),el('p',task.reference),el('p',task.repeatPolicy));details.append(reference);
-      if(task.scoringExample){const guide=el('details');guide.append(el('summary','查看本任务评分样例'),el('p',task.scoringExample.focus));task.scoringExample.examples.forEach(x=>guide.append(el('p',x)));guide.append(el('p',task.scoringExample.boundary));details.append(guide);}
-      const r=record(task);details.append(el('h3','过程记录与作品索引'));
+      const r=record(task);
+      const reference=el('details',undefined,'reference');reference.append(el('summary','查看参考结果与评价边界'),el('p',task.reference),el('p',task.repeatPolicy));reference.addEventListener('toggle',()=>{if(reference.open){r.answerExposed=true;r.updatedAt=new Date().toISOString();persist();}});details.append(reference);
+      if(task.scoringExample){const guide=el('details');guide.append(el('summary','查看本任务评分样例'),el('p',task.scoringExample.focus));task.scoringExample.examples.forEach(x=>guide.append(el('p',x)));guide.append(el('p',task.scoringExample.boundary));guide.addEventListener('toggle',()=>{if(guide.open){r.answerExposed=true;r.scoringGuideExposed=true;r.updatedAt=new Date().toISOString();persist();}});details.append(guide);}
+      details.append(el('p','当前第 '+((r.attemptHistory||[]).length+1)+' 次作答'));
+      const past=el('details');past.append(el('summary','查看历史作答（只读）'));(r.attemptHistory||[]).forEach((a,i)=>past.append(el('pre','第 '+(i+1)+' 次\n'+JSON.stringify(a,null,2))));details.append(past);
+      const next=el('button','保存本次并开始新一次');next.type='button';next.addEventListener('click',()=>{records[task.id]=ActivityAttempts.archive(r,data.version);persist();location.hash=task.id;render();});details.append(next);
+      if(r.priorAnswerExposure)details.append(el('p','此前已查看参考；复测应更换情境，不能将本次未打开当作从未接触答案。'));
+      details.append(el('h3','过程记录与作品索引'));
       addTextArea(details,'日期、原始数据、操作过程、作品说明和本地附件文件名',r.evidence,v=>saveField(task,'evidence',v));
       addTextArea(details,'学生解释、同伴反馈与修订记录',r.reflection,v=>saveField(task,'reflection',v));
       details.append(el('h3','人工评价'),el('p','每项独立评价：未观察 / 0 未满足 / 1 部分满足 / 2 独立完成且有证据。分数不是自动认证。','muted'));
@@ -44,7 +49,7 @@
       card.append(details);root.append(card);
     }
   }
-  $('export').addEventListener('click',()=>{if(!data)return;const body={schemaVersion:1,activityVersion:data.version,exportedAt:new Date().toISOString(),assessmentMode:'human-observation',autoMastery:false,records};const blob=new Blob([JSON.stringify(body,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=link('',url);a.download='primary-activity-records.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notify('已导出本机人工记录；不包含附件，也不改变诊断结果。');});
+  $('export').addEventListener('click',()=>{if(!data)return;const body={schemaVersion:2,activityVersion:data.version,exportedAt:new Date().toISOString(),assessmentMode:'human-observation',autoMastery:false,records,warnings:ActivityAttempts.warnings(records,data.tasks,'math')};const blob=new Blob([JSON.stringify(body,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=link('',url);a.download='primary-activity-records.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);notify('已导出本机人工记录；不包含附件，也不改变诊断结果。');});
   $('print').addEventListener('click',()=>{document.querySelectorAll('#tasks article > details').forEach(d=>d.open=true);window.print();});
   $('stage').addEventListener('change',render);$('query').addEventListener('input',render);
   window.addEventListener('hashchange',()=>{render();document.getElementById(location.hash.slice(1))?.scrollIntoView();});
